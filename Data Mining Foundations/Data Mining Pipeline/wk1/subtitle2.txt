@@ -1,0 +1,609 @@
+Hello everyone. Today we're going to continue our discussion
+of data mining, specifically, we're
+going to focus on Introduction to the
+Data Mining Pipeline. The learning objective is to identify the key components in the data mining pipeline
+and then be able to describe how those components
+relate to each other. Previously, we have talked about the four different
+views of data mining. We said when you're looking
+at a data mining project, you want to look at what
+data you're dealing with, what applications
+you're working with, and also what knowledge
+you would like to learn, and of course, what
+techniques you can use. You learn those knowledge. If you look at the
+data mining pipeline, of course what we're
+trying to do is that we'll take the data, that's raw data that comes in and then turn that into
+our knowledge, which can then be used for specific
+application scenarios. Of course then we need to
+use the techniques to do it. But now if you think about the data mining pipeline
+as this black box, what are the key
+components that you think should go into this pipeline
+to make that happen? Basically collecting from data all the way to the knowledge. It's intuitive for most people to say that of course you need
+the modeling capabilities, because that's really a
+main part of a data mining. Many times we may
+have this tendency about take the data and
+then apply some modeling, methods on top of it and
+then take the results and we have our model and we're done with our
+data mining process. For example, if you can say, "I can take my data, run a decision tree classifier
+on top of it or just use some neural network to try
+my model and I'm done." But that is a limited view of what the pipeline
+would incorporate. Because if you think
+about it, when you have your raw data, usually you want to start
+with understanding your data. This is before you do any
+changes or any other steps. Because, well, you
+got to understand what information you have
+in your data set and understand what attributes or properties it has
+before you do anything. The very next step is
+about pre-processing. The idea is that the raw data, you should be not be
+exactly what we you want or you need for
+your data mining task. You want to prepare your data. With that, then Data Warehousing handles the part of
+managing the data. It's preparing and
+manage your data in easy to use scenario. When you are given a
+particular data mining task, what you need is that
+you take the data you need from the Data Warehouse, and then run it through
+your data modeling process. But there's also a
+very important step, after your modeling you
+really don't want to spend some good effort about
+evaluating the results. You want to really evaluate
+the panels of your finding, validate the results before you say, "I have
+found something." That is knowledge you're
+going to your output, and then would be applied for specific
+application scenarios. Those are the key steps you really want to consider in
+your data mining pipeline. Also another thing you'll think about is that those arrows, they don't go just
+in one direction. You don't just go finish the
+steps and then you are done. Most of those steps
+are intuitive. That basically means that as you're playing with
+your data mining task, you may fear that, "I probably need to go back
+and take a closer look at my data to understand
+a particular property. Or, "I may need to do some other pre-processing to get my data ready for this particular task." All those interact
+with each other and you are using this
+utility of process to refine your whole
+data mining pipeline so that you can use the raw data, prepare it in a proper
+way and of course, find the right type of
+information you're looking for. Our main focus in this module is to just look at
+the specificity. Those components
+understand what they are and of course how they all
+connect to each other. Starting with the first one. Data understanding,
+generally just say, "I have my data set, but what are they? What data do I have?" That's generally just like
+the starting questions about, what is in my data set? What types of data do I have? What do they look like? That basically means that, well, are you talking about what types of the attributes,
+what do they mean? What kind of values do they have? There are various kinds of [inaudible] can do
+statistical analysis or visualization that
+will allow you to gain a better understanding
+of your dataset, okay? There is another very
+important angle when you have your data or data objects, it's about measuring
+similarity and dissimilarity. Okay? That's important because, with most of the data and
+mining tasks when you are looking for either
+general patterns, you'll say, those patterns or those objects
+tend to be similar. Right? I tend to see some
+patterns occurring frequently. You are looking for
+similar scenarios versus finding
+differences or anomalies. That's again talking about
+how you differentiate, how you evaluate this
+dissimilarity across your data. Those are all the kinds of different angles you would
+look at when you're trying to just gain a better
+understanding of your data. Now the next step. This is after you know what kind of data you have.
+What does it look like? Now you're trying to prepare your dataset just for the
+downstream data mining tasks. There are multiple pieces in it, but the starting
+point is really that there may be various
+issues in your dataset. The raw data, especially in the real world, are
+usually nugget. They have various types of
+quality issues or limitations. Think about potential errors or missing values, inconsistency. Those are actually typical
+in many real-world datasets. You want to understand what
+kind of issues it has, but then[NOISE] continue to
+then prepare your dataset. This can usually involve
+some of the cleaning tasks. You're trying to clean
+your data, but usually, integration usually handles
+the part that you're trying to combine data sources, okay? Various types of transformation
+may be needed so that your data can be compared and
+be valued in a certain way. Of course, the reduction is also important because
+that helps you to reduce your dataset
+size but still have the pattern you're
+looking for in your dataset. Okay? There's one very
+important message to always keep in mind is that when you dealing
+with data mining, you've got to have good data. Not just the raw data, but also what you do or how are you preparing the dataset? If you don't have good
+data to start with, then you cannot do
+good data mining, and that the results you
+find wouldn't be useful. The next piece is about
+Data Warehousing. Here the general idea
+is that you want to manage your data in a certain way so
+that it's easy to support like the
+upper-level analysis tasks. The users may be coming in with specific querries about
+asking about frequency of patterns or you may have regular reporting mechanisms that show the general information you are seeing in your
+dataset or any anomalies. Of course, you have more
+specific data mining tasks, that is pulling data from your data warehouse
+for specific purposes. The key point why we talk about Data Warehousing is
+that how this is different from operational data. Many times you have your
+operational system or in production where you don't
+want to mess with that, rather, your data mining
+task is separate from that. You're pulling data from
+those operational systems, but then you have your own
+way of managing your data for the purpose of data mining
+or decision support. We would then specifically
+talk about Data cube, which is really a good way to capture
+multi-dimensional data. It helps you to manage those multi-dimensional data and interactive ways of OLAP, this online analytical
+processing, where you can then ask a varied kind of
+questions.[NOISE] Also, we'll be talking about Data
+Warehouse architecture, that is how you design
+your Data Warehouse. Why? So you know what kind
+of data you are pulling in, what kind of preprocessing
+are needed, right, how they are managed
+and how you can quickly select specific datasets, right, for a particular
+data mining task. With that then we get to
+the Data Modeling stage. Here you could be talking
+about as I mentioned earlier, you could be going around
+classifying based on a decision tree or you could use your neural networks or many
+other modeling procedures. Right. This kind
+of corresponded to the specific types of
+[inaudible] we're trying to learn and of course
+the techniques that we We talk about generally
+frequent pattern analysis. This is a compound of finding
+since there is no frequent. Also, their verse can
+ask but in terms of classification of different
+categorical classes, but also you could do
+prediction of numerical values. Then clustering, it's
+unsupervised scenario where you're giving the data but
+then there's no labels. Rather you're just trying to find potential similarities or dissimilarities across the different groups
+of data points. An anomaly detection, that also is a big part of data modeling, because you will not
+find things that are different from others. If you are talking about any temporal or secretion things that you're looking
+for like trends. How things change over
+time or evolve over time. All those are specific
+data modeling. Pass that, we will look further. I know we already investigate how you'll handle all of that, to support specific mining tasks. We talk about if
+you get your data, you do your data understanding, you do your data
+pre-processing, warehousing, modeling, and then a big part is about pattern evaluation. We mentioned earlier
+that generally, when you're talking
+about data mining, you are trying to
+find interesting patterns for your data. When you say, "Interesting." You should have some metrics in terms of why do I
+call interesting? You need to be this,
+there would be a new pattern, it is valid, it is a generalized support
+to certain settings. It's useful, or valuable, it can be applied
+to certain cases, and automatically would
+like to explain your model. Now with all that, then for your specific
+data mining task, when you're trying to evaluate the patterns or the
+models you have built. There are specific metrics
+you want to be considering. This could be more on
+the accuracy side, like how accurate or how
+often do you make mistakes. If you're trying to
+predict numerical value, then you're looking
+at the differences, that's the error rate, between your predicted value, and the actual value. Also, depending on your scenario, you may be looking
+at false positives, false negatives, and also
+efficiency, latency. These are also important
+angles to consider. We are looking at your pattern or your modeling process
+using those metrics. The idea is that you can one, evaluate how good a
+particular model is. But in many times you're
+using those metrics to be able to select. There may be different ways
+for you to model your data, and they may have a
+different performance on your particular
+usage scenarios. Model selection is also important goal in the step
+of pattern evaluation. Now, so far we have talked about the four different views, and how data really
+needs to be integrated. We'll talk about any data
+mining in the real-world. Because you don't look
+at just one aspect of your data mining task. You want to understand how data application
+narrate your technique, or come together for your
+particular data mining tasks. But also we just talk about the importance of looking at the whole data mining pipeline. Because you want to have a good understanding
+of all the pieces, and how they interact
+with each other, so you have a good pipeline
+for your particular project. Think about data understanding, think about the pre-processing, think about warehousing,
+modeling, evaluation. All those are integrated and
+you really need to look at all the different pieces
+in aggregated setting. Here the important part is about this term of
+analytical reasoning. Because they are measures, they are steps to each
+of those specific tasks, that we're talking about here. But you can't say wrong
+use of libraries, or even use existing
+tools to do that. But your reasoning from the
+data science point of view. You're capability is about
+this analytical reasoning. Because there are always many choices for
+different settings. It is your understanding of
+the specific problem setting, of the specific dataset, and also interpretation of
+your results and all that. That is the true value
+of a data scientist. You really want to go beyond of simply applying existing
+catalog techniques or tours to your own reasoning
+of the whole process. We'll keep talking about
+this throughout our course. Now, let's look at
+a few examples. We have been talking about
+how Data Mining is so broadly applicable in different
+application scenarios. The goal is always for you to be looking out for things that
+you may be interested. You look at a particular
+scenario and think about how you would do a particular Data Mining task in some setting? Here a general example could
+be business intelligence. Here of course you are
+talking about customers, you have products and
+you're trying to figure out how customers don't like certain things or don't
+like certain products. There's a lot in terms of using data to
+understand customers, preferences, and understand
+maybe their different views. Also, maybe in this scenario about a targeted advertisement
+or fraud detection. These are a lot in terms of identifying the
+general patterns, but then be able to differentiate what types of customers that
+like what types of products? Or this is general what I see, but this activity is really different from what I
+would expect and that's how you detect potential
+fraud activities. That's another example, let's
+think about cyberspace. Cyberspace, Of course, you have a lot of service providers. They will provide a
+lot of information, again to their users online. You can think about online
+social media scenarios. We have the platform with rich functionalities
+and you have users interacting with the
+platform and then connecting with their friends or they can share information
+of interest and all that. Here of course you are
+talking about a lot of data so you are still looking for
+patterns that would allow you to understand
+the general scenarios. Typically, what pattern
+do I tend to see? For example, we would see certain categories of
+services are more popular. Or they are more popular with
+certain groups of users, or during certain time periods, or in specific regions. Those are all general patterns you can [inaudible] and again, by looking at things that are different from
+your general pattern, you may be able to identify potential security
+issues or cyber-attacks. Many times you can see
+as you're looking at a particular dataset and think about the data mining tasks, do you always think about what
+data you're dealing with, but also what's the
+general pattern you would like to find? Then what will be the anomalies? That may be of
+interest to look at. Always think about examples of your own interests because
+the goal for us is not to become expert of all the possible data mining
+application scenarios. Rather you may have
+your own experience or knowledge of
+particular domains or particular types of data. Then your focus is
+usually about, ''Okay, these are some things
+I'm interested in,'' and then you
+can dig further and use your analytical reasoning
+to think about how you could do a data mining project
+with that problem setting. Next, I'm going to give a few quick examples
+based on my own research. Those are projects
+that I have worked on, they are pretty different, I'll give you samples of some very different
+projects but all those, of course, involve
+data and Data Mining. The first example is about transportation electrification. In this problem setting, our interest is to understand how people
+drive their vehicles. In particular, these are plug-in hybrid electrical vehicles so that means that they have this internal
+combustion engine, but also they have
+a battery system, and jointly they're
+driving by providing the force needed to drive a
+vehicle [inaudible] anyways. From the vehicle, you
+can get this on board a diagnostic data so that base is more an internal sensing. The vehicle reporting
+those data regarding, for example, how their
+battery systems are charging? How the internal combustion
+engine is running? Or some other aspects, but also, we coupled
+out the mobile phone. We actually use a smartphone either attached to
+the windshield of the vehicle or you could put it somewhere on the passenger
+seat or in the pocket, but with that, we are able
+to then capture data about how a user is driving a vehicle and also how the
+vehicle is performing? This also couple some domain knowledge that we need to know, how they defender components on this vehicle is impacting
+which his under. That allows us to take
+the real-time data, and be able to classify
+the mode of driving, so like whether re-ionize the battery system
+charging the vehicle. Or empowering the vehicle, or like there's
+enough extra power and then now the batteries
+they are being charged. This is like a
+classification problem, to understand the mode of
+operation for your vehicle. But based on that, we actually
+further beyond model, should then be able to
+estimate the fuel consumption, and also the CO_2 emission
+based on user's driving data. That actual thing
+allow us to make this long-term projection
+about how the battery system, the capacity, would
+degrade over time. Here you can see
+over 15 years ways like among 80 drivers, they are actually already quite a bit of
+significant difference, in terms of the battery
+capacity degradation. When you're talking
+about purchasing of electrical vehicles and
+also figuring out that is like fewer economy or longer-term investment you're really need look how know just
+the vehicle itself, but also how the vehicle
+were being driven. This also expands into
+nation-wide study, where we have many
+users just to driving. The electric vehicles
+and then using their aggregate data in terms
+of how they're driving, when they're charging,
+where are they charging, and all that information, then we are able to gain actually much better
+understanding of some of the general patterns
+about also there issues. In terms of for example, the difficulty in terms of getting to a charging facility. All this can, as you can see. It's a very domain specific
+about legal leverages, various types of among the data for us to gain a
+much better understanding, and then be able to make
+predictions about how people's behavior were changed or impact the performance of
+your electric vehicles. As another example, so here we're looking at group
+event scheduling. What does it mean is that
+your thinking about users. You have users they usually participating in various groups. The groups could be
+focused on sports, specific types of sports, or this could be food, or travel, or something. Those groups will organize events and of course the goal is that you want your users to be able to participate
+in your events. As you are looking at this color integrated
+real like data set, where you have the users, you have the groups,
+you have events, and you are very
+selected description about their interest, where a particular event was held, which
+users participating. With that now, you are
+trying to build a model, to then be able to predict which users may be interested in participating in
+what kind of events. Another related project
+we worked on is by this group event of
+venue recommendation. The idea is that,
+you are trying to make a recommendations
+to a group of users. They're trying to say,
+schedule something, they want to get together
+and do something together. Here you have the individual group of
+members information. For example, you could
+have their location trace. You know generally where
+they go and what time, and then from there
+you can then get some sense in terms of
+their location familiarity, so they don't worry,
+but if you're picking up event or venue. People usually prefer venues and that they're familiar with, or is convenient for them. Also you want to look
+at the composer aspect, because it depending on whether
+it's during a work day, evening, lunchtimes, or weekend. People may have different
+preferences for the venue. Here you're looking at not only the individual
+users, but also, you're looking at a the pair-wise or group level information. If this is a group of people
+who are close friends, they may have different
+preferences compared to a group not so closer friends or they have a larger groups. All that actually have
+an impact about how the groups together
+make their decision. Here, think about
+the different types of data you could elaborate. Again, you have the individual
+user's information, you have some aggregated
+group who carries sex, and he also you may have
+some historical information about previous events. You can leverage
+general information in terms of where
+those venues are, how popular are they, if it's a restaurant,
+what food they serve or, Well, how many other
+restaurants may be close by and all that
+information can be very helpful as you're
+trying to figure out, what would be a good venue for a group of users that you meet. As another example, this one's about remote sensing
+data analysis. Remote sensing generally
+refers to using satellites. They're looking down
+on Earth and they're trying to use a verse
+type of sensing capabilities to understand
+the various characteristics of the Earth's system. Typically, when satellites
+fly over a particular region, it takes one snapshot. That's why you have these slices. Every slice is for a
+particular time point. Then if you're trying to
+look for changes over time, then you have to go through all those bigger
+files, those slices, and pick up the particular region you are interested in and then do your temporal analysis. That turns out to be a very
+time-consuming process as really not good-aligned ways, the types of temporal analysis that people generally need. From the molecule of
+data warehousing aspect, we look at how we can change
+the management of this data. Instead of using those
+timestamped slices, we're using what we
+call the data rose. Each one is a particular
+pixel but then you aggregate. This pixel is then associated
+with all the timestamps, the readings for that
+particular region. That makes it much
+easier for you to go to a particular region, look at those pixels that are involved in
+that neighborhood, and then look through
+time quickly to look for general patterns and
+then look for changes. One particular application
+we work with is granite. We're looking at
+that ice shelves. Also, if you look at the original images
+or the black dots, the black areas in these images
+represent melting lakes. These are called
+super glacial lakes. Those are melting water, forming lakes on top
+of those ice shelves. What we're trying to do is actually to
+automatically identify those lakes and also track them over time because we want
+to see how they change. Especially those sudden
+disappearances of those lakes. If you look at the raw data, you can see, this is
+again spatial-temporal. You're talking about a
+pretty large region and you have temporal snapshots
+of those regions. In this case, you're
+looking for, again, general patterns how you
+differentiate a lake from the neighboring ice or
+even cloud carriage. But then also be able to
+track them over time so that you can find
+changes over time. Related to that we also
+look at anomalous. Here is an example, again, this is
+remote sensing data, so you tend to see this
+nice annual pattern, about how the temperature
+changes up and down. But here, just by
+visualizing your data, you can already see some changes. There are particular areas that just look
+different from others. Also, we see this fairly
+significant shifting of the values we're seeing. All those are the things if you know what you're looking at, of course, there must be
+something that's different. But the challenge is about how
+you automate that process. Because here you have a lot of data and you want to be
+able to quickly sift through this data and be
+able to automatically identify those
+potential anomalous. We have developed a
+pretty long pipeline, but really something
+similar is about how you take the role like
+remote-sensing data. Are you still with
+pixel-level information, trying to identify missing data, noises, and all that. Then you get to the object level. Now you have a spatial-temporal anomalous detection process to identify specific instances and then
+trying to aggregate that into events or like an
+aggregated set of anomalies. That would then be
+very useful for scientists to
+investigate further. These are really just examples. As I have said, when you're looking at a
+data mining task, think about something that
+you're interested in or you have some knowledge about. Then working with the
+domain experts as needed. The idea is that you want to
+really be able to formulate your problem and identify
+specifically what kind of data, what kind of questions you
+can ask, and how of course, how you adjust that and
+then be able to evaluate the results of your tasks. Now let's look at some of the major
+issues in data mining. As we said data mining
+is a very active field, is broadly used in
+many different areas. From the more technical aspects, when you talk about
+your data mining task, what are the things
+we're trying to address? The first one is about, well, we talk about diversity. That is the basic,
+just say you have very different types of data and because you have very
+different types of data, you are trying to look for
+different types of knowledge. We're looking about
+just one method for a particular
+type of knowledge, but to find the different types of knowledge in
+different types of data; how you can develop
+techniques to adjust that. The other angle is generally
+a data quality issues. As we have said, if you don't have good data, then you're not going to have
+good data mining results. There is a various
+aspect in terms of detecting issues
+in your dataset, quantifying those issues,
+and being able to fix some of those
+data quality issues. Then data mining,
+there's a lot of general investigation in terms of supervised versus
+unsupervised learning. Supervised learners who have
+said refers to scenario where you are being
+provided with the labels. The labels tell you which
+case you're looking at, so you have the ground
+truth to some extend. That's great, because
+of course when you have those grunge shoes
+or label the data and it makes your
+task a lot easier. While with unsupervised learning, this is actually
+more applicable in many real world cases
+because many times you just don't have the
+label you need. Instead, you're just taking all your observations
+and just trying to use unsupervised learning to find potential patterns
+in the dataset. Evaluation, as we have said, many tasks or any
+pattern you find, really need to go through a pretty rigorous
+evaluation step to know that you are indeed finding something
+useful and valid. A lot of that question
+is talking about, what can evaluation metrics
+would be applicable in that particular
+setting and also how you choose between those
+different metrics, and using those metrics and then how do you choose
+specific models for your task. The other one, the
+discussion is always about the trade-offs between
+effectiveness and efficiency. On one side you say I want to
+have a very accurate model, but then I also want a
+model that's efficient; I don't want a model taking
+forever to train or process. Depending your
+application scenarios, you are talking about
+some tradeoffs. Ideally, you would like
+to have measures that are both accurate and efficient. But in many cases you cannot get, say, the most accurate one may not be the most
+efficient one. Then which one is more important, and how do you choose
+between them or using some hybrid solutions
+so that you can have a solution that is both reasonably accurate and
+reasonably efficient. Another angle is about this incremental and
+interactive mining. Because traditionally you may
+think about data mining as more offline task where
+you grab your data, you do your modeling, there's types analysis, you have your results and you send it over to the downstream pipeline. But in many real-world settings, especially as the data mining
+is becoming more and more integrated in our daily tasks. You really talking about a lot in terms of incremental mining, the idea is that you don't just take one snapshot with data
+and just work on that alone, the data would be in
+continuous coming. Think about any of those
+streaming scenarios, online social media. You continue to get
+new information, or if you have a sensors
+where you also get new data. Instead of taking the new data combine with the old dataset, and the redo your
+data mining analysis. You want to be able to take what you have learned or you have modeled already using
+the historical data, and now only update your model update to your
+analysis with the new data. That is really the focus
+of incremental mining. Interactive mining in particular, this is about not having, data modeling has a
+Blackbox process, where rather you
+overview to interact with the users or
+the domain experts. That does a bit of a more
+joined effort in identifying or interpreting certain
+patterns and being able to add new perspectives as you
+see the intermediate results. This also relates
+closely to the fact about how you can incorporate
+domain knowledge. Because many times I
+say as a data miner, you don't just take
+the data and runs through your process and
+just to report your results. Working with the domain experts or incorporated domain knowledge is very important
+because then you have a better understanding
+of your data, and then you can leverage
+knowledge or prior knowledge, and then be able to really improve your
+data mining tasks. This could be in terms
+of better accuracy or more efficient procedures. Visual analytics. We'll see with some examples how visualization can
+be really helpful. There's a sub-area in data mining that's
+really focused in particular about using
+visualization capabilities, to then help with the
+whole data mining process. Because many times where I
+was good at visualization, it's actually much
+easier to identify or to interpret certain patterns. Also, depending on the
+dataset we're working with, privacy may be actually
+a very important aspect. In this case that
+inception say either I need to have other raw data, like another detail
+information which you may be subject to various
+types of privacy concerns. Here, the focus of privacy
+preserving mining is trying to look for ways to ensure
+certain level of privacy, but we'll still be able to mine useful patterns for specific
+application scenarios. There are of course
+many other aspects in data mining data that
+are still being actively investigated both in the
+research community and also in other real world
+applications scenarios. The key question
+many times is that, there are various
+types of issues, but for your particular
+problem setting, which ones are more important, and how you adjust them using
+cut specific techniques. Here I'll also mention and I'll create a highlight to the
+importance of data ethics. Because here we are dealing
+with a lot of data, and also usually
+real-world datasets, and what we do could have
+some significantly impact, in terms of what results
+we generate and how people interpret the results
+or use the modeling output. The third part is
+really think about how data ethics should it be incorporated and it
+should be carefully considered throughout
+the whole lifecycle. You may think about I'm
+only doing this part, so I only care about
+this particular piece, but it really needed
+the whole pipeline. For example, data ownership. Where does the data come from? Who owns the data? What access like can people get to specific
+types of data? This is really about
+just honoring, and that's like the ownership, for example if
+we're talking about online social media data. User posts, who owns it? Who access it and who gets to control how the data would be
+used, in what ways? The other one generally
+refer to privacy anonymity. If you are working with any
+potentially sensitive data, so user specific information. There may be various types of concerns regarding
+the privacy. You can always
+think about how you can best anonymize your data so that the user's identity
+wouldn't be revealed, through your analysis, or
+through the sharing or through the whole procedure of
+your data mining task. The next one is about
+data and model validity. We're talking about how we want to find interesting patterns. Of course, those patterns
+need to be valid. That really speaks to
+the point that adds just the rigor in your
+data mining procedure. Think about how
+you want to ensure that the data is correct. You really need to spend
+your effort in terms of validating your dataset. Then think about whatever
+you do on top of that. Whether you're data
+mining pipeline or the modeling
+process is correct. That means you are generating
+correct information. But also it's not just
+being about being correct. It's about being fair. Many times, if you
+are not careful, you will see that like
+the dataset you use, or your modeling
+process could actually introduce a bias in your process. That means your information may be representative of a subset of the population
+we're interested in. Then your model may
+be done trained to bias towards
+certain scenarios. That of course is
+something could have various important consequences
+if you are not careful. That also speaks to the point
+about ways of data mining, many times not just
+that you play on your own computer and then just try to gain some insights. But many times, the output or the results of your
+data mining task, may be interpreted and also
+applied in certain scenarios. This could really have an
+impact in terms of how people, or how you interpret, or how people interpret
+and how this is been used. This really is a very
+important aspect if you are working with the data or you're doing various
+types of data analytics. Always keep in mind about
+how ethics should be incorporated in every step
+of your data mining task. Also, I do want to
+point out that we have another course that's
+specifically on data ethics, within our master's in
+data science degree. Please check that
+out, and of course, make sure you use that throughout your
+data-related tasks. Here I also like to call out
+some data mining resources. The first one, is the ACM SIGKDD. That's the special interest group on knowledge discovery
+on the data mining, so you can go to their websites, they have very good information that's related to data mining. Also, they hosted this
+Annual KDD conference. If you can go to their website, you can click through to
+find this every year, they have the conference website. I would point some
+of the information. Usually you go to the
+KDD conference so that you can look
+up their program, which would a less than
+Derek keynote speakers. Those are usually very
+good talks that have read by experts in the domain and highlighting some specific angle, especially visionary
+perspectives in the data mining
+research community. Of course, you can go to the
+researcher track where they have a list of papers every year. Those are really like
+a state-of-the-art, like front-line research that
+is happening in the field. Those are definitely a lot of active work there
+and can really give you very good
+insights in terms of the key topics that people
+are working on nowadays. Otherwise, this applied to
+the data science to track. That's also very interesting
+because it's applied. It's really talking about real-world experiences
+in terms of people using data mining in various
+application scenarios. Those many times that
+are talking about real-world products or real-world
+larger-scale analysis. That also gives you
+very good perspective in terms of how data mining is happening or being used
+in real-world settings. Also every year
+they have a list of workshops and also the tutorials. The tutorials that
+really want to highlight is that the tutorials
+are really good, they provide good introduction or some of the depth discussion
+of specific topics. If you just browse
+through the list of tutorials of every
+other conference and then just dig into that, that gives you very
+good information in terms of particular
+research your topic. Also the KDD cap. That's competition every year. If you're interested,
+definitely check that out and see if you may be able
+to participate as well. With that, then you
+can also quickly powder find other related
+conferences or journals. That is about data
+mining research. There are many, many
+online resources. As I have to have said
+data mining is very active in terms of both of
+the researcher community, but also in terms of
+real-world usage. They are a lot of
+information out there. As you're exploring your data
+mining-related interests, just make sure you
+leverage those resources. We said we would finish our Introduction to the
+data mining pipeline. As we have said, you
+are going to take the raw data and you're
+trying to learn knowledge, and then use it for
+special applications. We look at the technical aspect, think about how you
+understand your data, how you pre-process your data, how you do data warehousing, how you model your data, how you evaluate your data. Because all this, the
+whole pipeline needs to be carefully considered and integrated to support unsuccessful data mining task in any real-world of Sate-lites.

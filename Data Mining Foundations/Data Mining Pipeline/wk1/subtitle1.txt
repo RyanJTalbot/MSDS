@@ -1,0 +1,578 @@
+Hello everyone. Welcome to the data mining
+specialization which is offered as part of the Masters of Science in Data Science degree of the University of
+Colorado Boulder. This is the first course of the data mining
+specialization, so this is about data
+mining pipeline. We're going to start always
+our first introduction. What is data mining? Why do we care about
+this particular subject? The learning objective
+for this course, we want to be able to
+identify different views of data mining and also be able to understand the key
+issues in data mining. To get started, we have
+moved very quickly into the digital area
+where we are really surrounded with a lot
+of digital information. Think about our daily lives. We are interacting with various
+types of digital devices. We are creating a lot of digital content and also many
+different types of apps, and behind the thing, there's more data involved. Just think about the
+sheer number of users. We're talking about
+more than four billion Internet users nowadays, and they are a wide variety of social media or smart devices that we interact
+on a daily basis. Another example, think about
+the scientific discovery. In those domains, we
+are seeing increasingly a number of sensing devices and also increasing
+sensing capabilities. As a result, we are
+continuous basics, generating a lot of information
+for scientific discovery. Just as a quick example, think about the
+Rubin Observatory. That is a telescope. That looks on the
+sky every night. It actually can generate more than 20 terabytes of
+information per night. Of course, there are many, many other application
+domains where you are seeing a lot of data being generated and used in many different ways. We are quickly facing
+this huge amount of data. Think about the size of the data we have
+been dealing with. When I started learning
+computer science, kilobytes was actually
+sufficient for most of the task. Then very quickly we moved to the eras of megabytes, gigabytes. Nowadays, most of you
+probably have access to some terabytes of hard drives, and we are already
+actually in the area where many of our
+application domains are dealing with
+petabytes of data. Globally, the estimates is now on the order of
+tens of zettabytes. We are dealing with
+a lot of data. Enabling capabilities, of course, that's the creation of data, we have the capability to collect a lot of
+data, and of course, we have the way to
+transmit them so it's easy for us to share or access
+the different types of data. We have the storage spaces, so we can now handle a
+lot of digital data, and it's the computation
+capabilities. Not only we have a way of getting all those
+data but we have really the capability to manage and analyze all that data. But then one big issue
+we're dealing with these days is that we
+are drowning in data. That means we have a lot of data. We are really trying to just handle that much data but
+then the starving for knowledge part is particular important and challenging
+because while our purpose of
+collecting all this data and manage all this data is
+not just that we have them, we really want to utilize them in a way such
+that they can help us. That's really the key
+motivation of being able to automate the analysis of such
+massive amounts of data. That is what data
+mining is about. We're trying to learn a lot
+of information from our data. That's really generally refers to as knowledge discovery from data. Basically what it says that we have huge amounts
+of data and we're trying to find interesting
+patterns from our data. What do we mean by interesting? Because you don't just find
+anything and say, "Oh, I'm doing something great
+with my data mining tasks." Rather you want to find
+things that are interesting. Specifically, when you
+say interesting patterns we're talking about
+things that's new. Meaning that is something that
+people don't know already. It's just about
+finding new knowledge. Of course, it has to be valid, something that it
+has to be correct, and applies to some
+general scenarios. This potentially useful
+part is important because you not just find
+any random patterns, but at the pattern, there should be a reasonably good
+way for you to say, "Oh, I can use it to
+do some something." That's the potential benefit of the pattern that
+you are all finding. The last part is actually
+increasing more important. It's about ultimately
+understandable by humans. Why is that important? You could say, I
+may find a pattern. It is valid. It can be actually
+useful in some settings. But if it's just a black box and you don't exactly
+know what it's doing, it's probably not very useful. You may not be very
+comfortable using it in many real world scenarios. Rather you do want to have some good understanding
+about why it works, how it works, and then you become more confident
+in terms of using it. The other piece is about the
+fact that we're typically learning useful knowledge
+of a lot of data. The fact that we're dealing with huge amounts of data really calls for some very
+focused analysis and a desire to adjust the
+scalability and efficiency issues because you may
+have data mining process, the data actually gives
+you very good results, but if it is really time
+consuming and may not scale well to large
+amounts of data, that may or may not
+be the best choice. So many times we're talking about some kind of trade-offs. Is it more important that
+you have the best possible, most accurate model or many real world
+application scenarios may cause something that
+is highly efficient. You're always talking about how you can make your
+process more efficient, and many times you are
+talking about trade-offs between the effectiveness
+and efficiency. All right, as we're
+getting started, I will say okay, yeah, we know data mining is
+important and we're trying to learn useful
+knowledge from data. But how do we get started? Many times we would suggest
+looking at different views. We characterize this at
+these four different views. That's really just
+a way to describe and understand your
+specific data mining task. Many times you can start with the data you're
+trying to work with. Of course, the data
+mining, you got to have some data to work on. Starting with some generally good understanding of
+what kind of data you have and what
+semantic information you may have, how larger? That's just starting with a
+good view from your data set. The other one is
+about applications. Many times you are doing this for particular
+application scenarios. Being able to understand
+what the usage scenario is, and what the semantics and
+some domain knowledge. Those are actually very
+helpful for you to better define and also incorporate
+the patterns you have found. Then so given the data,
+given the application, then generally you want to be
+a little bit more specific about what knowledge
+you're trying to learn. You could say, "Well, find me anything
+that's interesting. Well, that's helpful." All right, but it's really broad, so many times it's more specific. Are you trying to find
+some frequently patterns, are you trying to
+find the things that are just different from others? Are you trying to look for
+things that change over time. Those are all more specific
+types of knowledge, and we were like as you go deeper in terms your
+data mining process, that you will have
+more specific types of knowledge or patterns
+you're looking for. Of course, you need
+the techniques. You say, okay, this
+is what I like to do with this kind of data for
+this kind of application, and I want to find those kind of knowledge. How do I do it? That's really the technical
+aspect and of course, a main focus of data mining. But all these need to come together for you then
+to be able to have a generally good idea in terms of what you're
+trying to accomplish, for a data mining task. Those arrows really
+demonstrate how interconnected and
+also how important it is for you to have
+this integrated view, because you don't
+just take one piece and then just focus on that one, you do need to have a
+reasonably good understanding of all those components and
+how they come together. Let's look a little
+bit more specifics of the four different views. First one is the data view. Traditionally people try to use those Vs and
+those are actually just a really nice way for you
+to be able to characterize your data and understand what candidate
+you're dealing with. We started with the 3Vs. The first V is about volume. You may have heard this term, big data all the time. Many times of course,
+we started by talking about just
+how big things are. You want to have a general
+good understanding about what kind of size. Are we talking about millions of data points or billions
+of data points or what? Also how big are they? The next one is variety. That just speaks to the
+fact that you are not dealing with a
+single type of data. You're usually looking at a mixture of
+different data types. Being to understand they're specific data types and
+how they work differently, and how you may be able
+to integrate them is very important in many
+data mining tasks. The third V is about velocity. That'll basically talks about changes or dynamics of your data. Well, there are traditional or even nowadays in
+many other scenarios, starting with static data. That means you just get one copy of your dataset and
+then you can work with it, but many other times you're talking about things that change. You may have temporal
+samples of things, and then of course you need
+to respond to it in some way. The velocity really
+speaks to the point about how quickly data are
+being generated, but also related to
+that is about how quickly your analysis
+needs to be done, how you react to
+the dynamic data. These are the initial three
+Vs people are talking about. Then later on we add another V, so this is the fourth V.
+This V is about veracity. What it talks about is really
+the quality of your data. To what extent do
+you trust your data? To actually the point your dataset is actually
+hopefully free of errors, or any potential issues. That actually has
+become increasingly important as we deal with more data and more
+different types of data in real-world scenarios. All those V really lead to the 5th V.
+That is about a value. Whatever you do with
+the data mining, we want to bring out
+value from the data. Many times really
+just think about, what are you doing in
+terms of data mining? How could that be useful
+in some reward setting. You may be finding new knowledge for your scientific
+discovery, that's great. Or you could be finding
+new patterns that you can leverage in real-world
+application scenarios. There are also other ways
+to describe your data. Traditionally, the
+database community has really lead the advancement of data mining in
+the early stages. They were managing a lot of relational, or
+transactional data. Think about student records. You would have student
+information, their name, their student ID, you may
+have that email address, which major they're in, which year they're in, what courses they have taken, so that naturally gives you a good description
+of our students. Or back in bank accounts. You'll have user information, you'll have the customers,
+and also of course, various transactions
+that may have happened within the
+other accounts. Or if you go to a store,
+you're purchasing items. Naturally, it's a
+store so we'd have compelling information of other transaction
+that have happened. They know which customers have
+purchased the what items, and then also maybe you want a time frame and
+also in which store. All that information
+can be easily aggregated and it can be really useful for further analysis. Another types of data are generally referred to sequential, or temporal, or streaming. As you can see they have this natural sequence
+associated with it, so it's a bit of order. You think of other
+early emphases, think about the store purchases, those are just saying, you
+bought all those out together. You're like it's more about
+which items you purchase. But if you're looking at some sequential information,
+let's says, okay, you purchased some items in this particular
+transaction sometime later you purchased
+something different. That temporal or
+sequential information can be particularly useful. Also, think about
+the stock prices. That of course changes over time, and you're not sure you
+have a timestamp associated with the particular price points. Also, you could use,
+say, sensor readings. Those are scenarios that
+if you are using sensors to you capture information
+in your own environment, of course you need to know
+when you capture this. Your readings are naturally associates with some timestamps. This can be streamed data. That means continuously
+monitoring some environment and
+sending you information. Another category
+generator refers to this factor life you're
+considering your physical space, you have some spatial
+notion in your data. For the sensor data, for example, we said that
+you may have timestamps, but if you know this
+sensor is placing those buildings in
+this particular room or in this particular area, then that's the
+spatial information you are trying to capture. Then if you coupling the
+spatial and temporal, because you need to
+know where things are but also how things are
+changing over time, so then you naturally get
+this spatial-temporal data. Of course, these
+are just examples, but really give you general idea about how data
+can be very different. They come in very
+different forms, and depending on your application
+scenarios where you may care more about one aspect, or the other, or both. There are other types of data. Typically you say if you may have seen numerical information, you have seen some
+nominal information, but there are other types
+of more complex data types. Textual data is
+widely used nowadays, and also actually big part
+of many data mining tasks. Think about news articles, think about customer reviews, so those could actually be
+very useful in many scenarios. Also think about
+the multimedia data where you could have
+audio, video, images, and there are actually
+extensive research into how you can
+extract information, and learn useful patterns where I found those margin
+media into our data. Web data on top of that, because if you think about, if you go to the World Wide Web, you would of course
+naturally have the text information many of them has audio/ video/
+image information associated with that but also another part is
+about the hypertext. That's really done linkage. It'd be one web page may be
+pointing to the other one. That's really the hypertext
+that actually is adding a Pong the other types
+of content you may have. Top of that, graph data or
+network data in general, is actually very powerful
+way of capturing relationships across
+different types of content. You could have, in the
+social network scenario, this could be the physical
+space or in the online space, but you have a
+network information capturing like how
+users are related, and how they're interacting
+with each other. Also think about power grid, so that's in the physical space, you would actually know
+how the power grids, the different connections happen under different special skills. Another one could be abstract, this is called authorship. Think about, usually when we
+publish scientific papers, you have multiple authors, so every time you
+co-author a paper that's one information that is
+linking to others together. If you can collect more and
+more papers then to see how some authors tend to collaborate more
+on certain topics. The general idea is
+that data is really of course the one
+fundamental component of any data mining task. You really need to start with a very good understanding
+of your data. What kind of data
+you're dealing with and how different types
+of data maybe useful. Just know that in any
+particular data mining task, you may be focused on only
+a single type of data, but in many other scenarios, you would be leveraging multiple data types in order to handle or for
+your particular task. That's a data view. Let's
+move on to the next one. That's the application view. As we said many times
+when you're working on a data mining tasks
+you should have some applications in mind. Or of course, you may say I started with this
+application scenario, but it may be useful otherwise. But generally having
+an understanding of the intended usage of scenario could be very helpful in terms of defining your
+data mining tasks, but also making progress
+in that particular task. Think about one example. This is a more in terms of more business intelligence angle, so there's a lot in terms of market analysis,
+target advertisement. These are the scenarios
+that you have customers, you have a lot of information
+regarding your customers, and you're trying to figure
+out what kind of products they may be of interested
+to certain customers. Then how you can of course, make recommendations
+of certain items to certain customers or just have your advertisement being targeted to specific group
+of customers rather than general
+broadcasters scenario. Another category,
+so these generally relate to health care
+or medical research. In those case scenarios,
+you are talking about patients or you're talking about people with certain
+types of disease, they may have certain
+symptoms or you're trying to diagnose certain disease. You may have a lot of
+medical history information, you may have certain medical
+images that also you can try to detect certain
+patterns drug discovery. Similarly, these are all
+the scenarios where you have a lot of information
+regarding different people. You have their medical
+conditions but then you're also trying to look for what
+treatments may be more effective. A lot of that can be like
+data draining and really can last to scale to many
+different scenarios. The next category,
+so there's agenda referred as a science
+and engineering. In those kind of domains, of course you could potentially also
+collect a lot of data regarding the specific things
+you're trying to analyze, identify potential patterns or tried to model certain sense
+and that would allow you to come up with better designs or better
+control mechanisms. Some examples I have
+actually worked on, one is about air pollution class, if you are trying to understand air pollution you would start with some
+sensing capabilities. There can be stationary
+sensory data or mobile sensory data where you can basically measure the concentration of different
+types of air pollutants, and you can of course
+get this in a kind of spatial temporal scenario. With that, of course, you
+then you're trying to understand how things
+change over time, and what factors are maybe
+related to certain changes. Marine life, this is again
+a scenario started ways some sensing capabilities for us trying to find the fish
+schools within the water, so you would have usually
+massive amounts of data trying to tell you as you are
+scanning through the ocean. You can use some
+acoustic sensing, so you can then check those signals you are getting
+and infer whether you can find a certain types of fish schools in certain areas, and during certain time
+periods and then overtime, again you can look at
+how things change. Lecture vehicles, so this is
+gender related, Of course, on one side you will
+understand how people drive, because we drive differently. We drive our vehicles for different purposes under
+different conditions. The weather can be different, the road condition
+can be different, traffic condition
+can be different, that's more like the contexts. But then you can also
+look at it internally, how the vehicle is performing. Particularly with
+electrical vehicles. You may look at the
+battery systems, and see how the battery systems performing and the different
+types of scenarios, then data may allow you to
+come up with better design. Another types of
+application scenario, there's general
+focus on security. Because this course you're
+just trying to ensure the security of a physical system or software ALS or something. Typically there are
+extensive surveillance or monitoring capabilities, so you are collecting
+a lot of data. But the [inaudible]
+trying to quickly identify things that
+may be suspicious. This actually speaks
+a lot in terms of finding anomalies or
+outliers in your dataset, by knowing that you are dealing with huge
+amounts of data, and you really need
+to do that very efficiently with low latency. Also found the government
+non-profit aspect of the also dealing with many
+different types of data, and here you may use your data mining capabilities for say better urban planning. If you trying to say, build new road or
+add a new bus route, of course that would
+help you if you know the current demand and
+also helplines may change. Traffic control, that's really a way to kind of
+daily operations, but also a longer planning, and of course in the
+education field, there's actually a lot
+of data mining as well. Because you're basically
+trying to find how effective learning
+is happening and how things actually we may be able to come up with
+a better strategies by understanding how our
+students are learning. These are really just
+some general examples, but just keep in mind that data mining is happening
+almost everywhere in any domain where you have some data or some capability
+of collecting data, and maybe using that data, so there's potential for
+you to think about how data mining may be useful in
+those application scenarios. Next, let's look at Northridge. The Northridge Review is getting more specific about exactly
+what we're looking for. You have some datasets,
+you can work with, and you have some idea about
+the application scenarios, and now you say, "Okay,
+what I'm trying to find?" They are again, many questions or many types of patterns you can try to alarm, but here are just some
+of the major types. One thing is that
+you're just looking for general patterns. General means things
+that happen frequently, so frequent pattern
+analysis is probably like a one core task in many
+data mining project, and then you're looking for
+potential associations, correlations so that basically
+like relationships between certain kinds of
+patterns or attributes. As an example, if you look at the different songs that
+your customers listen to, you could say which songs
+are listened together? Usually in the same
+listening session, you can say those songs tend
+to be occurring together, and that actually would
+be very useful for you to them like try to leverage that to
+make recommendations. Also you can look for
+some sequential patterns, like users always listen to
+those songs in certain order, or particular
+movies, some kind of series make sense for people
+to follow certain sequences. Those are again,
+frequently patterns. You're looking for things
+that occur regularly. The other one example, this is more about
+association or correlation. That means two events or two patterns more likely
+or less likely to happen. In this case for example, if I know the customer has
+already purchased some item, and then you are trying to
+infer given that the customer purchased this item then
+what is the likelihood that my customer may also be
+interested in another item? That's the relationship
+we are trying to capture, and if you have that,
+then apparently can also leverage that to
+make recommendations. Say if you like this, then you may also
+like that other. The other one is categorization. This is just generally about understanding the characteristics
+of certain groups, your base, just trying to describe or identify
+similarities. How are certain groups of users or items or events similar? In what ways? For example, if you have your customers'
+purchase information, you know what they have
+purchased, then you could say, this group for users who tend to purchase
+those items together, or users who purchase those items tend to have
+certain characteristics. That of course, would
+allow you to do more with this targeted advertisement or some other prediction scenarios. When you categorize, you're
+looking for how things are similar, but also related, that is about you
+want to be able to say how things are different. That's more like the
+differentiation, because many times you are not dealing with just one group of customers or
+items of interest. You are actually trying to say, how are they different
+in certain ways? Here I may have say
+two patient groups, and then they somehow had a particular treatment may have different effectiveness. Then of course your try to
+say, how are they different? Why do work for this group
+and not for the other group? That of course could be very useful in terms of
+further improvement. The other one is about, as we mentioned actually earlier, is about anomalies or outliers. These just say
+things are different and they are different
+from the general pattern, and those could be significant. Could say, there's just
+maybe errors in my dataset, but of course it's
+important to identify those and fix them or remove them so that they don't pollute your
+downstream analysis. Also there are actually
+scenarios like those outliers could
+be significant, think about fraud activities. Of course those are things that's different and you really need to find them so that
+you can act upon them. Also in the scientific
+discovery domain, along the times
+that we're looking for those extreme events, they just look different. But they could indicate
+some very significant, phenomenal and that is what
+people are looking for. When you're talking about sequential or
+temporal information, then there is another angle if you're trying to
+find changes over time. Because many times when you
+have temporary information, of course they
+always don't change, that's one but the
+many times you're looking for things that change, general change over time
+or anomalies within certain time periods or
+changes of user interests. Those are all about
+changes over time. When we talk about a data mining, there are three important terms especially
+when talking about, what kind of marriage
+you're trying to get. The first part is
+generally more about descriptive data mining
+or data analytics. The idea here is that
+we're just trying to describe your dataset. That's about the characterization or to say how things
+will look like. That's more like descriptive. But then you're going beyond that a little
+bit, you'll say, okay, giving all I have seen in
+the historical pattern, now I'm going to make predictions about
+what would happen. That of course, will
+be very useful in many settings if you can predict how things
+will look like. But beyond that, there's also
+this about prescriptive. The idea is not just like this
+is what see historically, this is what I
+predict would happen. Rather say, giving
+my capability of understanding the
+historical patterns and what things would happen
+in certain scenarios, now I can actually prescribe
+a certain strategy. For example, if we're trying
+to make certain new design. The prescriptive part
+actually says that, well, you may have a few choices, but my analysis tells you
+that this is the better one, so you should try this one. That's more like prescribing
+a particular solution, but based on your descriptive
+and predictive analysis. We talk about data, we talk about application, we talk about a knowledge review. The fourth one is, of course, is how do we make that happen? That's the technique view. You need a specific
+data mining techniques to then support that finding particular types
+of knowledge from specific data sets for a
+particular application scenario. Those are the terms we'll be probably talking about throughout the data mining course and the specialization,
+but generally, we're talking about
+frequent pattern analysis, we're talking about
+classification, prediction, clustering,
+anomaly detection, trend, and evolution analysis. Let's briefly look
+at each of them. First one, frequent
+of pattern analysis. As we said earlier, in terms of knowledge view, we want to be able to identify
+what happens frequently, so depending on what type of information you're looking at, so you may be looking
+at frequent itemset, so that display a set of items or events that tend
+to occur together. Think about your
+purchase records. I could say, my customers, tend to purchase
+those items together, like milk, bread, eggs. There's a probability
+one [inaudible] they tend to occur
+frequently together, but that's just a set of items. Then if you're adding a bit of more like a piece of
+sequential information, so you can say if you have a sequence of
+purchases or in here, my figure shows the
+example of bird migration. You have the trajectory
+of the birds migrating. Over here you have the
+special [inaudible]. You could add, what sequence
+tend to occur regularly. Then you can look a
+lot like structure. Essentially if you add
+some graph information then you're looking for,
+graph similarities. Think about social networks. If you look at a certain
+groups or communities, you may see a frequent structural
+where it's star-shaped, so that means you have one leader who's interacting closely with the individual members
+or you may have some peer-to-peer graphs
+where they're smaller. Everybody's talking to everybody. Those all general structure
+that may occur regularly. But then beyond identified
+things that occur frequently, we also want to be able to
+identify relationships, so this auxiliary is
+about the association, correlation which was spent
+more time talking about, but here just one example. This is like one of our research
+we're trying to look at different types of attributes that may be relevant in
+terms of air pollutants. We'll look at PM2.5, PM10, ozone CO, SO_2, and then other ones
+we'll look at humidity, we'll look at temperature, we'll look at wind disposal, speed, and also the direction. Then we're just trying to
+look at how they're related. The correlation basically allows us to quickly identify
+things that are correlated. The colors for us
+indicated different levels of correlation and they can
+be positive or negative. Those of course we'll
+cover in more detail, but we as can see
+this already give you a general overview of what's frequent and how they're related. Then going forward, not only we want to be able to find
+frequent of patterns, but also want to be
+able to differentiate. This is generally what
+we're trying to do in terms of say classification. In those cases, you would
+have the pre-defined classes. Here I have different
+images and the image represents say dogs,
+automobile, plane, cat. Those are the different
+categories or classes. Of course, you are usually provided with some training data, so my examples here could be the training data if you're
+looking for pictures of dogs, I have some examples, and the picture for cars
+I also have example. Those are the training data. Then you can use the
+training data to build your classification model. Once you've had that model, then now giving a
+new image then you can then quickly determine
+which class it belongs to. That's classification.
+Related that, if you're trying to
+determine a few classes, rather you're trying to
+determine a numerical value. This is generally referred as a numerical prediction
+in a continuous range. Think about whether prediction, it could be predicting
+the temperature, wind, speed, or amount
+of precipitation, so those are numerical values
+you're trying to predict. Also stock price, traffic volume, all those are things that are related to being able
+to differential things, but also then make predictions about what
+the value would it be. Another thing related to
+classification prediction, which is also very useful in many data mining
+scenarios, is clustering. As the name suggests, we're
+trying to find clusters. But the key difference between clustering and classification is that here we don't have any
+predefined class labels. I don't know how many
+classes I have or I don't know what each class look like, rather it's that I'm just
+giving the broad data points, and I want to find
+some distribution. The idea is that if
+you do 2D space, if all the data points are
+uniformly distributed, then you don't see any
+classrooms; there's no clusters. But many real-world datasets they do have those clustering effect. That basically means
+that you tend to see denser areas where there
+are more data points, and there are areas that are more sparse and datasets
+are more separated. In my example here, you can see the green cluster, I have the blue one, and also the red clusters. You can see usually
+within each cluster, you tend to see denser, more similar objects, and
+of course between clusters, then you would have
+higher dissimilarity, or they are further apart. So the general idea with
+clustering is that we're going to find intra-cluster similarity, so high similarity
+within clusters and more different
+objects across clusters. Another one in terms
+of the technique is about being able to find
+anomalies and outliers. We said earlier how anomaly
+or outlier could be errors, could be extreme events, but you just need to somehow find it. How do you define it? The general idea
+with anomalies or outliers is that
+they're just different. But that notion of
+course is very vague, and the outliers
+actually turn into, in many real-world scenarios,
+to identify those. Here my example is, as you can see, this
+is a temporal dataset. You see this nice seasonal
+or annual patterns, but then you can already see actually some
+significant changes. There are peaks that are just different of each other
+and you see there's a pretty significant
+level of shifting between the left half
+and the later part. Of course, this actually
+also shows you actually how visualization
+could be very helpful. But of course, in many
+data mining scenarios, you are dealing with
+huge amounts of data, so manually going through or
+that would not be possible. So we're really
+looking for things that can automatically define the differences and also the norm cases so that we can
+effectively find anomalies. One more thing, this relates to trend and evolution analysis. This is the case that
+I said like, usually, when you look at your dataset, they're dynamic, they
+change over time. So you need a way to understand how things
+change over time. Again, you can use some
+visualization capabilities or you can use
+quantifiable calculations. But the idea is that, by looking at the time
+series of the data, you're trying to look
+for the general trend. That means the general
+trend could be a general upward trend even though there
+could be fluctuations, or downward, or some
+seasonal patterns. Those are general patterns, but of course, you would still be looking for some anomalies. Many times when you
+look at time series, it may be a compensation
+of the various patterns, so it's not just
+one single pattern. Here of course there are many
+ways to look at the trends. Also Google Trends is
+actually a very nice tool. If you go to Google
+Trends website and you can type in any
+particular keyword. This is based on
+the search queries. If you want to just
+see what's happening, or how things are
+happening over time, just try to play with that and type in some keywords
+that are interesting things, and then you can
+actually look at, how is it changing over time? Some of them may have a
+bit of quick increase, or think about things that may be fluctuating every year
+or every four years, depending on what that is. That also actually give you very useful insights and then
+you can act accordingly, based on what trend you see. Just to summarize,
+here we're really just getting started in terms of talking about
+the data mining. We see how data mining
+is really focused on finding interesting patterns
+from huge amount of data. But to get started, always think about: what kind of data you're dealing with, what kind of application
+scenarios you would like to use this for,
+and also, specifically, what kind of knowledge you're trying to learn from your data, and of course, how
+are we going to do it with specific
+data mining tasks? That is all for
+today, thank you all.
