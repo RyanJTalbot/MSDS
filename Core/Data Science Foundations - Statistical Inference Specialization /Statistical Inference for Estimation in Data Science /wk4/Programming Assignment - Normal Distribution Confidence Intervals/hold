@@ -1,0 +1,438 @@
+{
+ "cells": [
+  {
+   "cell_type": "markdown",
+   "metadata": {
+    "nbgrader": {
+     "grade": false,
+     "grade_id": "cell-4bb1ffa9e17a57a8",
+     "locked": true,
+     "schema_version": 3,
+     "solution": false,
+     "task": false
+    }
+   },
+   "source": [
+    "# Module 4 Autograded Assignment"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {
+    "nbgrader": {
+     "grade": false,
+     "grade_id": "cell-9fc3881eff82813a",
+     "locked": true,
+     "schema_version": 3,
+     "solution": false,
+     "task": false
+    }
+   },
+   "outputs": [],
+   "source": [
+    "# Load Necesary Libraries for Autograder\n",
+    "library(testthat)\n",
+    "library(ggplot2)"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {
+    "nbgrader": {
+     "grade": false,
+     "grade_id": "cell-91616a3923ec80c4",
+     "locked": true,
+     "schema_version": 3,
+     "solution": false,
+     "task": false
+    }
+   },
+   "source": [
+    "# Problem 1\n",
+    "\n",
+    "<img src=\"ralphie-run.jpg\" style=\"width:600px;\"/>\n",
+    "\n",
+    "Ralphie is fascinated with sports and sports fans, and wants to how many people go to the football games to see her run across the field. However, she can't ask the game organizers to share their numbers with her (because she's a buffalo) so she decides to count how many people are in the stadium herself. But counting while running is difficult, so her counts may be incorrect. To address this problem, Ralphie has hired $9$ other buffalo to hide amongst the stadium and count the number of attendees. Each buffalo counted at a total of $n=20$ games, and their results can be seen below. Note that this problem assumes that all of the games have the same underlying population distribution.\n",
+    "\n",
+    "We want to help Ralphie find a confidence interval for the average number of attendees. Let's begin by loading in all data recorded by the herd. The data is in a file called buffalo.csv which is a table of comma separated values. We will also use the \"head\" function to show the first few rows of the table.\n",
+    "\n",
+    "(Note: We will be using a function called \"read.table()\". R also has a function called \"read.csv()\" which might seem more appropriate here since we are reading a csv file. read.csv() is just a special case of read.table() but it requires a little more care to use in terms of setting up labels for rows and columns.)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {
+    "nbgrader": {
+     "grade": false,
+     "grade_id": "cell-a1a2efee3ca07412",
+     "locked": true,
+     "schema_version": 3,
+     "solution": false,
+     "task": false
+    }
+   },
+   "outputs": [],
+   "source": [
+    "data.buffalo = read.table(\"buffalo.csv\",sep=\",\")\n",
+    "\n",
+    "# Check out the dimension of the data\n",
+    "dim(data.buffalo)\n",
+    "\n",
+    "# Show the first few rows of the data\n",
+    "head(data.buffalo)"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {
+    "nbgrader": {
+     "grade": false,
+     "grade_id": "cell-a7c4ef1d04d0c311",
+     "locked": true,
+     "schema_version": 3,
+     "solution": false,
+     "task": false
+    }
+   },
+   "source": [
+    "**Part A:** The data in the first column of data.buffalo, labeled as column \"V1\", are measurements taken by a buffalo named Sally. In the next cell, extract Sally's data by typing \n",
+    "\n",
+    "<code>data.sally = data.buffalo$V1</code>\n",
+    "\n",
+    "Alternatively, you may type\n",
+    "\n",
+    "<code>data.sally = data.buffalo[,1]</code>\n",
+    "\n",
+    "to get that first column.\n",
+    "\n",
+    "Assuming that these data come from a normal distribution, compute a 90\\% confidence interval for the true average number of attendees. You will use functions like mean(), var(), and qnorm(). Store your lower and upper confidence interval endpoints in the variables lower.bound and upper.bound. Report your answers in the next cell by replacing the \"NA placeholders\" with your values."
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 1,
+   "metadata": {
+    "nbgrader": {
+     "grade": false,
+     "grade_id": "cell-e8d4b9e05d0ee651",
+     "locked": false,
+     "schema_version": 3,
+     "solution": true,
+     "task": false
+    }
+   },
+   "outputs": [
+    {
+     "ename": "ERROR",
+     "evalue": "Error in eval(expr, envir, enclos): object 'data.buffalo' not found\n",
+     "output_type": "error",
+     "traceback": [
+      "Error in eval(expr, envir, enclos): object 'data.buffalo' not found\nTraceback:\n"
+     ]
+    }
+   ],
+   "source": [
+    "# Placeholders for answers\n",
+    "lower.bound = NA\n",
+    "upper.bound = NA\n",
+    "\n",
+    "# Do your computations here and then redefine lower.bound and upper.bound for the autograder \n",
+    "### BEGIN SOLUTION HERE\n",
+    "data.sally.a = data.buffalo[,1]\n",
+    "n = length(data.sally.a)\n",
+    "xbar = mean(data.sally.a)\n",
+    "var = var(data.sally.a)\n",
+    "cv = qt(0.95,n-1)\n",
+    "\n",
+    "lower.bound.a = xbar - cv*sqrt(var/n) # 26341.2\n",
+    "upper.bound.a = xbar + cv*sqrt(var/n) # 29992.8\n",
+    "### END SOLUTION HERE"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {
+    "nbgrader": {
+     "grade": true,
+     "grade_id": "cell-9ef6f9dcd5623807",
+     "locked": true,
+     "points": 3,
+     "schema_version": 3,
+     "solution": false,
+     "task": false
+    }
+   },
+   "outputs": [],
+   "source": [
+    "# Hidden Test Cell\n",
+    "### BEGIN HIDDEN TESTS\n",
+    "test_that(\"Problem 1A lower bound is incorrect\", expect_equal(lower.bound,26341.2,tol=0.5))\n",
+    "test_that(\"Problem 1A upper bound is incorrect\", expect_equal(upper.bound,29992.8,tol=0.5))\n",
+    "### END HIDDEN TESTS"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {
+    "nbgrader": {
+     "grade": false,
+     "grade_id": "cell-ce790611d76d17ff",
+     "locked": true,
+     "schema_version": 3,
+     "solution": false,
+     "task": false
+    }
+   },
+   "source": [
+    "**Part B:** For these 4 questions, determine whether the answer is true or false. Report your answers in the next cell by replacing the \"NA placeholders\" for each part with either TRUE or FALSE.\n",
+    "\n",
+    "Ralph (Ralphie's cousin) computed a 90% confidence interval as $[19,571, 25,249]$ for the mean number of attendees. But he's not sure how to interpret his confidence interval so he's asked you for help. For each of the following statements, answer `TRUE` or `FALSE` into the corresponding answer variable for whether the statement is correct.\n",
+    "\n",
+    "**1.** If Ralph has no other evidence regarding the true mean number of attendees, he could say there is a $90\\%$ chance that the population's true mean falls between $19,571$ and $25,249$.\n",
+    "\n",
+    "**2.** If Ralph counts the number of attendees at another game, there is a $90\\%$ chance that the counted number will be between $19,571$ and $25,249$. \n",
+    "\n",
+    "**3.** If Ralph also calculates a $95\\%$ confidence interval for his data, then the $95\\%$ interval will be wider than the $90\\%$ interval.\n",
+    "\n",
+    "**4.** If Ralph counts the number of attendees at an $11^{th}$ game, adds that count to his original data and then calculates another $90\\%$ confidence interval, then the new interval will be narrower than the original one (i.e. the difference between the upper and lower values will be smaller)."
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {
+    "nbgrader": {
+     "grade": false,
+     "grade_id": "cell-8664d04005b05bb2",
+     "locked": false,
+     "schema_version": 3,
+     "solution": true,
+     "task": false
+    }
+   },
+   "outputs": [],
+   "source": [
+    "# Replace each NA with either TRUE or FALSE \n",
+    "# Please ignore the prompt that says \"Your code here\". This is not a coding problem!\n",
+    "prob.1.a.1 = NA\n",
+    "\n",
+    "prob.1.a.2 = NA\n",
+    "\n",
+    "prob.1.a.3 = NA\n",
+    "\n",
+    "prob.1.a.4 = NA\n",
+    "\n",
+    "\n",
+    "### BEGIN SOLUTION HERE\n",
+    "# Q1: False. CI's do not describe how often the true mean falls within a single interval,\n",
+    "# but rather how often it lies between many CI's calculated from different samples of the same population.\n",
+    "prob.1.1 = FALSE\n",
+    "\n",
+    "# Q2: False. CI's tell us information about the true mean, they don't tell us anything about individual sample values.\n",
+    "prob.1.2 = FALSE\n",
+    "\n",
+    "# Q3: True. The greater the confidence level, the wider the CI \n",
+    "# because we are trying to cover the correct unknown mean with a\n",
+    "# larger percentage of samples\n",
+    "prob.1.3 = TRUE\n",
+    "\n",
+    "# Q4: True. The larger the value of n, the smaller the confidence interval.\n",
+    "# I.e. more values help us narrow down the range of the mean.\n",
+    "prob.1.4 = TRUE\n",
+    "### END SOLUTION HERE"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {
+    "nbgrader": {
+     "grade": true,
+     "grade_id": "cell-4c71945732721fb5",
+     "locked": true,
+     "points": 3,
+     "schema_version": 3,
+     "solution": false,
+     "task": false
+    }
+   },
+   "outputs": [],
+   "source": [
+    "# Hidden Test Cell\n",
+    "### BEGIN HIDDEN TESTS\n",
+    "test_that(\"Problem 1B1 is incorrect\", expect_equal(prob.1.a.1, FALSE))\n",
+    "test_that(\"Problem 1B2 is incorrect\", expect_equal(prob.1.a.2, FALSE))\n",
+    "test_that(\"Problem 1B3 is incorrect\", expect_equal(prob.1.a.3, TRUE))\n",
+    "test_that(\"Problem 1B4 is incorrect\", expect_equal(prob.1.a.4, TRUE))\n",
+    "### END HIDDEN TESTS"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {
+    "nbgrader": {
+     "grade": false,
+     "grade_id": "cell-ed75e8285d5bf115",
+     "locked": true,
+     "schema_version": 3,
+     "solution": false,
+     "task": false
+    }
+   },
+   "source": [
+    "**Part C:**\n",
+    "\n",
+    "Now let's look at the data from all of the buffalo. If we calculate 10 different $60\\%$ confidence interval for each buffalo's count (i.e. each using $20$ values), how many CIs do we expect to contain the true mean? Store your answer in `theoretical_hits`.\n",
+    "\n",
+    "We will now check what we actually observe against the theoretical answer. Calculate the $60\\%$ confidence interval for each buffalo's count. \n",
+    "\n",
+    "Assuming that the true mean is $\\mu=25000$, find the number of those CIs contain the true mean. Store this value in `sample_hits`. Does this value match the theoretical value? Should it?\n",
+    "\n",
+    "<i>(Here are some hints if you have no idea where to start. Your correct approach may not look anything like this!\n",
+    "    <ol>\n",
+    "        <li> Create a 10 by 1 vector to hold the results for each confidence interval. It could be a Boolean vector holding values like TRUE and FALSE or a numeric vector holding values like 1 and 0 where 1 means that the true mean is in the confidence interval and 0 means that it isn't.</li>\n",
+    "        <li>Create a \"for loop\" that will run 10 times. Each time through the loop you can compute a new confidence interval using your previous code for Sally's confidence interval with minor adjustments, determine whether or not the true $\\mu$ is in the interval, and fill in the corresponding position in the results vector with your conclusion.</li>\n",
+    "        </ol>)</i>"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {
+    "nbgrader": {
+     "grade": false,
+     "grade_id": "cell-a5445ac8da2385ed",
+     "locked": false,
+     "schema_version": 3,
+     "solution": true,
+     "task": false
+    }
+   },
+   "outputs": [],
+   "source": [
+    "# Placeholders for answers\n",
+    "theoretical_hits = NA\n",
+    "sample_hits = NA\n",
+    "\n",
+    "CI_level = 0.6  \n",
+    "true_mean = 25000\n",
+    "\n",
+    "### BEGIN SOLUTION HERE\n",
+    "# Theory says 10 * 0.6 = 6 should contain the true mean\n",
+    "theoretical_hits.a = 6\n",
+    "\n",
+    "# Calculate the CI for each column of the dataframe\n",
+    "# Creates a 10x2 matrix, where col_1 is lower_limit, col_2 is upper_limit\n",
+    "CIs = matrix(0,10,2)\n",
+    "contains_true_mean = rep(FALSE,10)\n",
+    "\n",
+    "n = length(data.buffalo[,1])\n",
+    "cv = qt(CI_level+0.5*(1-CI_level),n-1)\n",
+    "\n",
+    "for(i in 1:10){\n",
+    "    data.hold = data.buffalo[,i]\n",
+    "    xbar = mean(data.hold)\n",
+    "    var = var(data.hold)\n",
+    "    CIs[i,1] = xbar - cv*sqrt(var/n)\n",
+    "    CIs[i,2] = xbar + cv*sqrt(var/n)\n",
+    "    \n",
+    "    if(CIs[i,1] <=true_mean & CIs[i,2] >= true_mean) {contains_true_mean[i] = TRUE}\n",
+    "}\n",
+    "\n",
+    "\n",
+    "# Find number of correct \n",
+    "sample_hits.a = sum(contains_true_mean)     #Turns out to be 4                    \n",
+    "### END SOLUTION HERE"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {
+    "nbgrader": {
+     "grade": true,
+     "grade_id": "cell-d34bdeec0be27d05",
+     "locked": true,
+     "points": 3,
+     "schema_version": 3,
+     "solution": false,
+     "task": false
+    }
+   },
+   "outputs": [],
+   "source": [
+    "# Hidden Test Cell\n",
+    "### BEGIN HIDDEN TESTS\n",
+    "test_that(\"Theoretical hit number is incorrect\", expect_equal(theoretical_hits, 6))\n",
+    "test_that(\"Sample hit number is incorrect\", expect_equal(sample_hits, 4))\n",
+    "### END HIDDEN TESTS"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {
+    "nbgrader": {
+     "grade": false,
+     "grade_id": "cell-cf129470d862346c",
+     "locked": true,
+     "schema_version": 3,
+     "solution": false,
+     "task": false
+    }
+   },
+   "outputs": [],
+   "source": [
+    "# Run this cell for a cool visualization of the confidence intervals.\n",
+    "# Don't worry about understanding the code!\n",
+    "# THis cell is not being graded.\n",
+    "\n",
+    "CIs_to_plot = 10\n",
+    "g = ggplot()\n",
+    "\n",
+    "### BEGIN SOLUTION HERE\n",
+    "segment_data = data.frame(\n",
+    "    x = seq(1, CIs_to_plot),\n",
+    "    xend = seq(1, CIs_to_plot), \n",
+    "    y = CIs[1:10, 1],\n",
+    "    yend = CIs[1:10, 2],\n",
+    "    contains_mean = ifelse(contains_true_mean[1:20], \"Y\", \"N\")\n",
+    ")\n",
+    "group.colors = c(Y=\"#CFB87C\", N=\"#565A5C\")\n",
+    "\n",
+    "g + geom_segment(data=segment_data, aes(x=x, y=y, xend=xend, yend=yend, color=contains_mean)) + \n",
+    "    scale_color_manual(values=group.colors) +\n",
+    "    geom_hline(yintercept=true_mean, linetype=\"dashed\", color=\"black\")\n",
+    "### END SOLUTION HERE"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  }
+ ],
+ "metadata": {
+  "celltoolbar": "Create Assignment",
+  "kernelspec": {
+   "display_name": "R",
+   "language": "R",
+   "name": "ir"
+  },
+  "language_info": {
+   "codemirror_mode": "r",
+   "file_extension": ".r",
+   "mimetype": "text/x-r-source",
+   "name": "R",
+   "pygments_lexer": "r",
+   "version": "3.6.3"
+  }
+ },
+ "nbformat": 4,
+ "nbformat_minor": 4
+}
