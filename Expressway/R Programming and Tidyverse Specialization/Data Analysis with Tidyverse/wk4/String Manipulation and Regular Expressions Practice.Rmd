@@ -1,0 +1,93 @@
+---
+title: "String Manipulation and Regular Expressions Practice"
+author: ''
+---
+
+##### Required Libraries
+
+Load the stringr library
+
+```{r libraries}
+
+```
+
+##### Question 1.
+
+How would you write the following expression? Use writeLines() to see the raw result.
+
+```{r question-1-response}
+
+### She said: "Let's all go!" \never mind! I said "I don't want to."
+
+
+
+```
+
+##### Question 2.
+
+Use str_trim() and str_squish() to replace the string: 
+
+"   Help me to      get rid    of extra spaces?      "
+
+with the following strings: 
+
+"Help me to      get rid    of extra spaces?      "
+"   Help me to      get rid    of extra spaces?"
+"Help me to      get rid    of extra spaces?"
+"Help me to get rid of extra spaces?"
+
+```{r quetsion-2-response}
+
+```
+
+##### Question 3. 
+
+Using the words provided in stringr::words, create regular expressions that find all words that:
+
+```{r question-3-response}
+
+# Start with "y"
+
+
+# End with “x”
+
+
+# End with "ed", but not with "eed"
+
+
+# Start or end with "x"
+
+
+# Contains three or more vowels in a row
+
+
+# Start and end with the same character
+
+
+# Contain at least 4 of the 5 vowels
+
+
+```
+
+##### Question 4. 
+
+Using the sentences provided in stringr::sentences, modify the regex so it no longer picks up the word flickered as a color (which was the case in the lecture video).
+
+```{r question-4-response}
+
+# Show all the sentences that contain at least one color with the word highlighted using str_view_all()
+
+# Use str_extract_all() to produce an array with the colors that appear multiple times in a sentence
+```
+
+##### Question 5. 
+
+Load the ISLR package. Then take "names <- row.names(College)"
+
+```{r question-5-response}
+
+# Show the first twenty rows that result if you split Names at each space into 3 parts. 
+
+# Do the same by splitting the first 20 rows on every word boundary.
+
+```

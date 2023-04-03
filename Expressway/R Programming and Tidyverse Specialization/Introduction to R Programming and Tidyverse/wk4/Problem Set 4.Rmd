@@ -1,0 +1,60 @@
+---
+title: "Problem Set 4"
+output: pdf_document
+---
+
+### Introduction
+
+Reference the [tidyverse style guide](https://style.tidyverse.org/) while completing the exercises. 
+
+These exercises are ungraded.
+
+#### Question 1. 
+
+Use the following definitions of cancellation codes to add a "Code" column to hflights, then use tail(hflights$Code[!is.na(hflights$Code)], n = 20) to see that your replacement worked by looking at the last 20 entries that are not NA. 
+
+"A"   =    "carrier"
+"B"  =    "weather"
+"C"   =   "FF"
+"D"   =   "security"
+"E"   =   "not cancelled"
+
+```{r}
+
+```
+
+#### Question 2. 
+
+What does the any_of() function do? Why might it be helpful in conjunction with this vector when analyzing nycflights13 data?
+
+`vars <- c("year", "month", "day", "dep_delay", "arr_delay")`
+
+#### Question 3. 
+
+Does the result of running the following code surprise you? How does the select helpers deal with case by default? How can you change that default?
+
+`select(flights, contains("TIME"))`
+
+#### Question 4. 
+
+Use select to show only the columns of hflights that have the word time or delay in the variable name or have the carrier id.
+
+#### Question 5. 
+
+Find all flights from nycflights13 that had an arrival delay of two or more hours. Put the arrival delay first in your output so you can check it.
+
+#### Question 6. 
+
+Find all flights from nycflights13 that were operated by United, American, or Delta.
+
+#### Question 7.
+
+Find all flights from nycflights13 that arrived more than two hours late.
+
+#### Question 8. 
+
+Find all flights from nycflights13 that had a departure delay by at least an hour
+
+#### Question 9. 
+
+Sort flights from nycflights13 to find the 5 most flights whose arrival was delayed the longest. Find the 5 flights that left earliest (most ahead of scheduled departure time). 

@@ -1,0 +1,100 @@
+---
+title: "Tidying Data Assignment"
+author: ''
+date: ''
+---
+# Please complete all the tasks listed below. After completing the tasks download the .Rmd file and upload in the peer review item for grading.
+
+# Additionally please write text between the code chunks explaining what each code chunk is about.
+
+# Refer the linked online textbook in case of any issues.
+
+Load the tidyverse library
+```{r}
+library(tidyverse)
+```
+
+##### Question 1. 
+
+The built in billboard dataset is not tidy. Describe why it is not tidy and then tidy the dataset.
+
+```{r question-1-response}
+
+# First gather up all the week entries into a row for each week for each song (where there is an entry)
+
+
+# Then, convert the week variable to a number and figure out the date corresponding to each week on the chart
+
+
+# Sort the data by artist, track and week. Here are what your first entries should be (formatting can be different):
+#>  A tibble: 5,307 x 5
+#   artist  track                   date.entered  week  rank   date
+ #    <chr>   <chr>                   <date>       <int> <dbl>   <date>
+ #  1 2 Pac   Baby Don't Cry (Keep... 2000-02-26       1    87 2000-02-26
+ #  2 2 Pac   Baby Don't Cry (Keep... 2000-02-26       2    82 2000-03-04
+ #  3 2 Pac   Baby Don't Cry (Keep... 2000-02-26       3    72 2000-03-11
+ #  4 2 Pac   Baby Don't Cry (Keep... 2000-02-26       4    77 2000-03-18
+ #  5 2 Pac   Baby Don't Cry (Keep... 2000-02-26       5    87 2000-03-25
+ #  6 2 Pac   Baby Don't Cry (Keep... 2000-02-26       6    94 2000-04-01
+ #  7 2 Pac   Baby Don't Cry (Keep... 2000-02-26       7    99 2000-04-08
+ #  8 2Ge+her The Hardest Part Of ... 2000-09-02       1    91 2000-09-02
+ #  9 2Ge+her The Hardest Part Of ... 2000-09-02       2    87 2000-09-09
+ # 10 2Ge+her The Hardest Part Of ... 2000-09-02       3    92 2000-09-16
+ # … with 5,297 more rows
+
+```
+
+##### Question 2. 
+
+Tidy the "fish_encounters" dataset of fish spotting by monitoring stations. Make the NA into 0 using the option "values_fill = list(seen = 0)"
+
+
+```{r question-2-response}
+
+```
+
+##### Question 3. 
+
+Import the flowers1 dataset. Tidy and pivot the data. Hint: use "read_csv2()" to read in the dataset 
+
+```{r question-3-response}
+
+```
+
+##### Question 4.
+
+Import the flowers2 dataset. Tidy the dataset by turning the one column into 3 separate columns
+
+```{r question-4-response}
+
+```
+
+##### Question 5.
+
+In the following dataset, turn the implicit missing values to explicit 
+
+```{r question-5-response}
+output <- tibble(
+      treatment   = c("a", "b", "a", "c", "b"),
+      gender   = factor(c("M", "F", "F", "M", "M"), levels = c("M", "F", "O")),
+      return = c(1.5, 0.75,  0.5,  1.8,  NA)
+    )
+output
+```
+
+
+#####Question 6.
+
+Import the weather dataset as weather. Use "pivot_longer()" to put the days all in one column, then use "pivot_wider" to separate tmax and tmin into separate columns. Print the summary of the final resulting dataset 
+
+```{r question-6-response}
+
+```
+
+###### Question 7. 
+
+Load the built in "anscombe" data frame and use "pivot_longer()" to separate all the x and y columns and categorize them into 4 sets
+
+```{r question-7-response}
+
+```

@@ -1,0 +1,66 @@
+---
+title: "Problem Set 1"
+output: pdf_document
+---
+
+### Introduction
+
+Reference the [tidyverse style guide](https://style.tidyverse.org/) while completing the exercises. 
+
+Review Sections 2.1-2.5 from Hands-On Programming in R and Sections 3.1 - 3.4 from Hands-On Programming in R and complete the following exercises. These exercises are ungraded.
+
+
+#### Question 1. 
+
+Write a roll function that simulates rolling two six-sided die. The function should contain no input arguments.
+
+```
+> roll <- function() {
++     die <- 1:6
++     dice <- sample(die, size = 2, replace = TRUE)
++     dice 
++ }
+```
+
+#### Question 2.
+
+Rewrite the roll function to include an argument for the type of die (e.g. three-, six-, eight-sided). Think about what other input arguments should be allowed. How would you update your function to include them? 
+
+```
+> roll <- function(sides) {
++    dice <- sample(sides, size = 2, replace = TRUE)
++    dice
++ }
+```
+
+
+#### Question 3. 
+
+Produce a historgram of 50,000 rolls of three eight-sided fair dice. 
+
+```
+function(sides) {
+    dice <- sample(sides, size = 3, replace = TRUE)
+    dice
+}
+```
+
+not correct
+```
+> rolls <- replicate(80000, roll(sides= 1:8))
+> gplot(rolls, binwidth = 1)
+```
+
+
+#### Question 4. 
+
+Produce a historgram of 50,000 rolls of three eight-sided dice where the dice are loaded so that the number 7 has a higher probability of being rolled than the other numbers, assume all the other numbers have a 1/10 probability of being rolled.
+
+#### Question 5. 
+
+Rewrite the "rescale01()" function such that -Inf is mapped to 0 and Inf is mapped to 1.
+
+#### Question 6.
+
+Write both_na(), a function that takes two vectors of the same length and returns the number of positions that have an NA in both vectors.
+

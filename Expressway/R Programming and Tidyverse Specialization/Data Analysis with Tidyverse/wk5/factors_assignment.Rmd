@@ -1,0 +1,22 @@
+---
+title: "Categorial Variables and Factors Assignment"
+author: ''
+date: ''
+---
+# Please complete all the tasks listed below. After completing the tasks download the .Rmd file and upload in the peer review item for grading.
+
+# Additionally please write text between the code chunks explaining what each code chunk is about.
+
+# Refer the linked online textbook in case of any issues.
+
+Load the stringr and forcats library
+
+1.From the "forcats" library load gss_cat data. Explore the distribution of rincome (reported income). What makes the default bar chart hard to understand? How could you improve the plot?
+
+2. What is the most common religion? What is the most common partyid?
+
+3.Which relig does denom (denomination) apply to? How can you find out with a table? How can you find out with a visualisation?
+
+4.How have the proportions of people identifying as Democrat, Republican, and Independent changed over time? Plot a suitable chart.
+
+5.Collapse "rincome" into smaller set of categories?

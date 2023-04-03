@@ -1,0 +1,81 @@
+---
+title: "Relational Data Assignment"
+author: ''
+---
+##### Assignment Instructions
+
+Complete all questions below. After completing the assignment, knit your document, and download both your .Rmd and knitted output. Upload your files for peer review. 
+
+For each response, include comments detailing your response and what each line does. Ensure you test your functions with sufficient test cases to identify and correct any potential bugs.
+
+##### Required Libraries
+
+```{r libraries}
+library(tidyverse)
+```
+
+##### Question 1.
+
+Identify the primary keys in the following datasets. Be sure to show that you have the primary key by showing there are no duplicate entries.
+
+Lahman::Batting
+babynames::babynames
+nasaweather::atmos
+
+```{r question-1-response}
+
+```
+
+##### Question 2.
+
+What is the relationship between the "Batting", "Master", and "Salaries" tables in the "Lahman" package? What are the keys for each dataset and how do they relate to each other?
+
+```{r question-2-response}
+
+```
+
+##### Question 3.
+
+Load the "nycflights13" library. Use an appropriate join to add a column containing the airline name to the "flights" dataset present in the library. Be sure to put the carrier code and name in the first two columns of the result so we can see them. Save the result as "flights2".
+
+```{r question-3-response}
+
+```
+
+##### Question 4.
+
+Use an appropriate join to add the airport name to the "flights2" dataset you got above. The codes and names of the airports are in the "airports" dataset of the "nycflights13" package. Put the carrier and carrier name first followed by the destination and destination name, then everything else.
+
+```{r question-4-response}
+
+```
+
+##### Question 5.
+
+The "nycflights13" library and the code to create spatial map is provided for you. Now compute the average delay by destination, then join on the airports dataframe so you can show the spatial distribution of delays.
+
+* Use the size or colour of the points to display the average delay for each airport.
+* Add the location of the origin and destination (i.e. the lat and lon) to flights.
+* Compute the average delay by destination.
+
+Use the textbook for reference.
+```{r question-5-response}
+library(nycflights13)
+
+airports %>%
+  semi_join(flights, c("faa" = "dest")) %>%
+  ggplot(aes(lon, lat)) +
+    borders("state") +
+    geom_point() +
+    coord_quickmap()
+```
+
+##### Question 6.
+
+Use a set operation function to find which airport codes from flights are not in the airports dataset.
+
+```{r question-6-response}
+
+```
+
+

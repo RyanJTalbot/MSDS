@@ -1,0 +1,53 @@
+---
+title: "Problem Set 3"
+output: pdf_document
+---
+
+### Introduction
+
+Reference the [tidyverse style guide](https://style.tidyverse.org/) while completing the exercises. 
+
+These exercises are ungraded.
+
+#### Question 1. 
+
+Write a function that loops over each item in the input and prints it out on a new line. Specify the default input of the integers from 1 to 5, written 1:5.
+
+```{r}
+
+```
+
+#### Question 2. 
+
+Rewrite rescale01 from second ungraded lab to check for whether the inputs are numeric and stop if they aren’t with the message “inputs must all be numeric”.
+
+```{r}
+
+```
+
+
+#### Question 3. 
+
+What will the following code return and why? Be specific and walk through the input values and how they change or don’t change at each step until you get to what the function returns.
+
+```
+multiple_conditions <- function(x, y){
+  if(x < y){
+    x <- x*2
+    }
+  if(y > x) {
+    output <- y/2
+    }
+  else{
+    output <- y
+  }
+}
+multiple_conditions(2, 6)
+multiple_conditions(2, 3.2)
+multiple_conditions(2, 1)
+```
+
+```{r}
+
+```
+

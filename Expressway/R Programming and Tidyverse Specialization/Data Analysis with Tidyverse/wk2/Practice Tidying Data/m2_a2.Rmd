@@ -1,0 +1,54 @@
+---
+title: "Tidying Data Practice"
+author: ''
+date: ''
+---
+
+##### Libraries
+Load the tidyverse library
+```{r}
+library(tidyverse)
+```
+
+##### Question 1. 
+The following built-in datasets are not tidy. For each one, describe why it is not tidy, write out what the first five entries would look like once it is in a tidy format, and then tidy the dataset 
+
+a.relig_income
+b.billboard
+c.us_rent_income
+
+```{r}
+# relig_income
+
+
+# billboard
+
+
+# us_rent_income
+
+
+```
+
+##### Question 2.
+2.Use "pivot_longer" to tidy the built-in table4b dataset
+
+```{r question-2-response}
+
+
+```
+
+##### Question 3. 
+3.Import and tidy the monkeymen dataset. The cell values represent identification accuracy of some objects (in percent of 20 trials).
+
+```{r question-3-response}
+
+
+```
+
+##### Question 4. 
+4. As explained in the lecture video load and tidy the built in world_bank_pop data frame
+
+```{r question-4-response}
+
+
+```

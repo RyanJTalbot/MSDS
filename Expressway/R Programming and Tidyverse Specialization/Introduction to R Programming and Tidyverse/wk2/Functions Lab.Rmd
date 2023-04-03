@@ -1,0 +1,78 @@
+---
+title: "Functions Lab"
+output: pdf_document
+---
+
+##### Assignment Instructions
+
+Complete all questions below. After completing the assignment, knit your document, and download both your .Rmd and knitted output. Upload your files for peer review. 
+
+For each response, include comments detailing your response and what each line does. Ensure you test your functions with sufficient test cases to identify and correct any potential bugs.
+
+---
+
+##### Question 1. 
+
+Review the roll functions from Section 2 in *Hands-On Programming in R*. Using these functions as an example, create a function that produces a histogram of 50,000 rolls of three 8 sided dice. Each die is loaded so that the number 7 has a higher probability of being rolled than the other numbers, assume all other sides of the die have a 1/10 probability of being rolled. 
+
+Your function should contain the arguments `max_rolls`, `sides`, and `num_of_dice`. You may wish to set some of the arguments to default values. 
+
+```{r}
+
+```
+
+
+##### Question 2. 
+
+Write a function, rescale01(), that recieves a vector as an input and checks that the inputs are all numeric. If the input vector is numeric, map any -Inf and Inf values to 0 and 1, respectively. If the input vector is non-numeric, stop the function and return the message "inputs must all be numeric".
+
+Be sure to thoroughly provide test cases. Additionally, ensure to allow your response chunk to return error messages.
+
+```{r}
+
+```
+
+
+##### Question 3.
+
+Write a function that takes two vectors of the same length and returns the number of positions that have an NA in both vectors. If the vectors are not the same length, stop the function and return the message "vectors must be the same length".
+
+```{r}
+
+```
+
+
+##### Question 4 
+
+Implement a fizzbuzz function. It takes a single number as input. If the number is divisible by three, it returns “fizz”. If it’s divisible by five it returns “buzz”. If it’s divisible by three and five, it returns “fizzbuzz”. Otherwise, it returns the number. 
+
+```{r}
+
+```
+
+
+##### Question 5 
+
+Rewrite the function below using `cut()` to simplify the set of nested if-else statements. 
+
+```
+get_temp_desc <- function(temp) {
+  if (temp <= 0) {
+    "freezing"
+  } else if (temp <= 10) {
+    "cold"
+  } else if (temp <= 20) {
+    "cool"
+  } else if (temp <= 30) {
+    "warm"
+  } else {
+    "hot"
+  } 
+}
+
+```
+
+```{r}
+
+```
+
