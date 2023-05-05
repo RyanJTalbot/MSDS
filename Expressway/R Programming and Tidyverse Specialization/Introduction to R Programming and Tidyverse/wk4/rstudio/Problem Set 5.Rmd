@@ -1,0 +1,19 @@
+---
+title: "Problem Set 5"
+output: pdf_document
+---
+
+### Introduction
+
+Reference the [tidyverse style guide](https://style.tidyverse.org/) while completing the exercises. 
+
+These exercises are ungraded.
+
+#### Question 1. 
+
+Using the nycflights13 data, calculate a new variable called "hr_delay" and arrange the flights dataset in order of the arrival delays in hours (longest delays at the top). Put the new variable you created just before the departure time. Hint: use the experimental argument .before. 
+
+#### Question 2. 
+
+What proportion of flights in nycflights13 are delayed by more than on hour? 
+

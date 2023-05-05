@@ -1,0 +1,43 @@
+---
+title: "First Assignment"
+author: "cccc"
+date: "10/18/2021"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# Please complete all the tasks listed below. After completing the tasks download the .Rmd file and upload in the peer review item for grading.
+
+# Additionally please write text between the code chunks explaining what each code chunk is about.
+
+1.a bulleted list with sub-bullets under at least one item (10 pt)
+
+* bulleted list
+  * sub bullets
+* bullet
+* bullet
+
+
+2.a numbered list (10 pt)
+
+3.some words italicized (5 pt)
+
+4.some words in bold print (5 pt)
+
+5.two levels of headers (10 pt)
+
+6.the results of some R code without showing the code (10 pt)
+
+7.a table of text at least 3 columns wide and 3 rows long (10 pt)
+
+8.a plot (show the code that generates the plot) (10 pt)
+
+9.your session info (as output from R) (10 pt)
+
+10.Execution of .Rmd file (10 pt)
+
+11. Upload and execution of knitted pdf (10 pt)
+
