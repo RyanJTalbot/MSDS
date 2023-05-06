@@ -27,10 +27,10 @@ Write a roll function that simulates rolling two six-sided die. The function sho
 Rewrite the roll function to include an argument for the type of die (e.g. three-, six-, eight-sided). Think about what other input arguments should be allowed. How would you update your function to include them? 
 
 ```
-> roll <- function(sides) {
-+    dice <- sample(sides, size = 2, replace = TRUE)
-+    dice
-+ }
+roll <- function(sides) {
+   dice <- sample(sides, size = 2, replace = TRUE)
+   dice
+}
 ```
 
 
@@ -56,6 +56,22 @@ not correct
 
 Produce a historgram of 50,000 rolls of three eight-sided dice where the dice are loaded so that the number 7 has a higher probability of being rolled than the other numbers, assume all the other numbers have a 1/10 probability of being rolled.
 
+```
+loaded_dice <- function(max_rolls = 50000, sides = 8, num_of_dice = 3) {
+    
+  # probabilities of each side
+  p <- c(rep(0.1, sides - 1), 0.3) 
+  rolls <- replicate(num_of_dice, sample(sides, max_rolls, replace = TRUE, prob = p), simplify = FALSE)
+  sums <- rowSums(matrix(unlist(rolls), ncol = num_of_dice, byrow = TRUE))
+  
+  hist(sums, breaks = seq(2, num_of_dice * sides, by = 1), col = "lightblue",
+       xlab = "Sum of dice rolls", main = "Histogram of 50,000 rolls of three 8-sided dice")
+}
+
+loaded_dice(max_rolls = 100000)
+
+```
+
 #### Question 5. 
 
 Rewrite the "rescale01()" function such that -Inf is mapped to 0 and Inf is mapped to 1.
@@ -63,4 +79,10 @@ Rewrite the "rescale01()" function such that -Inf is mapped to 0 and Inf is mapp
 #### Question 6.
 
 Write both_na(), a function that takes two vectors of the same length and returns the number of positions that have an NA in both vectors.
+
+```
+both_na <- function(x, y) {
+  sum(is.na(x) & is.na(y))
+}
+```
 

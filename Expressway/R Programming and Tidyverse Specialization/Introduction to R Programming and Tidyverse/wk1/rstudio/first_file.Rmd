@@ -15,27 +15,86 @@ knitr::opts_chunk$set(echo = TRUE)
 
 1.a bulleted list with sub-bullets under at least one item (10 pt)
 
-* bulleted list
-  * sub bullets
-* bullet
-* bullet
+- bulleted list
+  - sub bullets
+  - sub bullets
+- bullet
+- bullet
 
 
 2.a numbered list (10 pt)
 
+1. First item
+2. Second item
+3. Third item
+
+
 3.some words italicized (5 pt)
+*italicized* word, then not, then again *italicized*
 
 4.some words in bold print (5 pt)
+**bold** not bold **bold**
 
 5.two levels of headers (10 pt)
+# This is a first-level header
+## This is a second-level header
 
 6.the results of some R code without showing the code (10 pt)
 
+set.seed(123)
+x <- rnorm(100)
+y <- rnorm(100)
+z <- x + y
+z
+
+
 7.a table of text at least 3 columns wide and 3 rows long (10 pt)
+
+| Column 1 | Column 2 | Column 3 |
+|----------|----------|----------|
+| Row 1, Column 1 | Row 1, Column 2 | Row 1, Column 3 |
+| Row 2, Column 1 | Row 2, Column 2 | Row 2, Column 3 |
+| Row 3, Column 1 | Row 3, Column 2 | Row 3, Column 3 |
+
 
 8.a plot (show the code that generates the plot) (10 pt)
 
 9.your session info (as output from R) (10 pt)
+R version 4.2.1 (2022-06-23)
+Platform: x86_64-apple-darwin17.0 (64-bit)
+Running under: macOS Ventura 13.3.1
+
+Matrix products: default
+LAPACK: /Library/Frameworks/R.framework/Versions/4.2/Resources/lib/libRlapack.dylib
+
+locale:
+[1] en_US.UTF-8/en_US.UTF-8/en_US.UTF-8/C/en_US.UTF-8/en_US.UTF-8
+
+attached base packages:
+[1] stats     graphics  grDevices utils    
+[5] datasets  methods   base     
+
+other attached packages:
+[1] ggplot2_3.4.2
+
+loaded via a namespace (and not attached):
+ [1] rstudioapi_0.14  knitr_1.40      
+ [3] magrittr_2.0.3   tidyselect_1.2.0
+ [5] munsell_0.5.0    colorspace_2.0-3
+ [7] R6_2.5.1         rlang_1.1.0     
+ [9] fastmap_1.1.0    fansi_1.0.4     
+[11] dplyr_1.1.1      tools_4.2.1     
+[13] grid_4.2.1       gtable_0.3.1    
+[15] xfun_0.34        utf8_1.2.3      
+[17] cli_3.6.0        withr_2.5.0     
+[19] htmltools_0.5.3  yaml_2.3.6      
+[21] digest_0.6.30    tibble_3.2.1    
+[23] lifecycle_1.0.3  farver_2.1.1    
+[25] vctrs_0.6.1      glue_1.6.2      
+[27] evaluate_0.17    rmarkdown_2.17  
+[29] labeling_0.4.2   compiler_4.2.1  
+[31] pillar_1.8.1     generics_0.1.3  
+[33] scales_1.2.1     pkgconfig_2.0.3 
 
 10.Execution of .Rmd file (10 pt)
 

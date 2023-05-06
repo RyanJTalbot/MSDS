@@ -19,6 +19,7 @@ Your function should contain the arguments `max_rolls`, `sides`, and `num_of_dic
 
 ```{r}
 
+
 ```
 
 
