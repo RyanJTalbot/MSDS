@@ -1,0 +1,73 @@
+---
+title: "Problem Set 2"
+output: pdf_document
+---
+
+### Introduction
+
+Reference the [tidyverse style guide](https://style.tidyverse.org/) while completing the exercises. 
+
+These exercises are ungraded.
+
+#### Question 1. 
+
+Read and understand the three functions below. Try to rename them such that the function names are short and descriptive. 
+
+```
+f1 <- function(string, prefix) {
+  substr(string, 1, nchar(prefix)) == prefix
+}
+
+f2 <- function(x) {
+  if (length(x) <= 1) return(NULL)
+  x[-length(x)]
+}
+
+f3 <- function(x, y) {
+  rep(y, length.out = length(x))
+}
+```
+
+```{r}
+
+```
+
+
+#### Question 2. 
+
+Write a function that prints “input must be numeric” if the function input is not numeric and returns two times the number otherwise.
+
+```{r}
+
+```
+
+#### Question 3. 
+
+Implement a fizzbuzz function. It takes a single number as input. If the number is divisible by three, it returns “fizz”. If it’s divisible by five it returns “buzz”. If it’s divisible by three and five, it returns “fizzbuzz”. Otherwise, it returns the number. Make sure you first write working code before you create the function.
+
+```{r}
+
+```
+
+
+#### Question 4. 
+
+Use the cut() function to simplify the given set of nested if-else statements.
+
+```
+if (temp <= 0) {
+  "freezing"
+  } else if (temp <= 10) {
+  "cold"
+  } else if (temp <= 20) {
+  "cool"
+  } else if (temp <= 30) {
+  "warm"
+  } else {
+  "hot"
+}
+```
+
+```{r}
+
+```
