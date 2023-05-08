@@ -16,6 +16,13 @@ For each response, include comments detailing your response and what each line d
 Using the nycflights13 dataset, find all flights that departed in July, August, or September using the helper function between(). 
 
 ```{r question-1-response}
+library(nycflights13)
+library(dplyr)
+
+flights %>% 
+  filter(between(month, 7, 9)) %>% 
+  select(year, month, day, dep_time, origin, dest)
+
 
 ```
 

@@ -1,0 +1,103 @@
+---
+title: "Data Visualization Lab"
+output: pdf_document
+---
+
+##### Assignment Instructions
+
+In this assignment you will recreate five graphs using ggplot2 and the mpg dataset. You will need to run the code block for each question to view the graph you will need to reproduce. 
+
+After completing the assignment, knit your document, and download both your .Rmd and knitted output. Upload your files for peer review. 
+
+For each response, include comments detailing your response and what each argument in the ggplot function does. 
+
+
+##### Question 1.
+
+```{r question-1}
+## RUN TO VIEW THE GRAPH YOU WILL NEED TO REPRODUCE 
+
+knitr::include_graphics("images/question-1.png")
+```
+
+```{r question-1-response}
+library(ggplot2)
+
+ggplot(data = mpg) +
+  geom_point(mapping = aes(x = displ, y = hwy)) + 
+  geom_smooth(mapping = aes(x = displ, y = hwy), method = "loess")
+
+
+```
+
+##### Question 2.
+
+```{r question-2}
+## RUN TO VIEW THE GRAPH YOU WILL NEED TO REPRODUCE 
+
+knitr::include_graphics("images/question-2.png")
+```
+
+```{r question-2-response}
+ggplot(data = mpg) +
+  geom_point(mapping = aes(x = displ, y = hwy, color = drv)) + 
+  scale_color_manual(values = c("4" = "red", "f" = "green", "r" = "blue")) +
+  geom_smooth(mapping = aes(x = displ, y = hwy), method = "loess")
+
+
+```
+
+##### Question 3.
+
+```{r question-3}
+## RUN TO VIEW THE GRAPH YOU WILL NEED TO REPRODUCE 
+
+knitr::include_graphics("images/question-3.png")
+```
+
+```{r question-3-response}
+ggplot(data = mpg) +
+  geom_point(mapping = aes(x = displ, y = hwy, color = drv)) + 
+  scale_color_manual(values = c("4" = "red", "f" = "green", "r" = "blue")) +
+  geom_smooth(mapping = aes(x = displ, y = hwy, linetype = drv), method = "loess") +
+  scale_linetype_manual(values = c("4" = "solid", "f" = "dashed", "r" = "dashed")) +
+  theme(panel.border = element_blank())
+
+
+```
+
+##### Question 4.
+
+```{r question-4}
+## RUN TO VIEW THE GRAPH YOU WILL NEED TO REPRODUCE 
+
+knitr::include_graphics("images/question-4.png")
+```
+
+```{r question-4-response}
+ggplot(mpg, aes(cty, hwy, colour = class)) + 
+  geom_point()
+
+```
+
+##### Question 5.
+
+```{r question-5}
+## RUN TO VIEW THE GRAPH YOU WILL NEED TO REPRODUCE 
+
+knitr::include_graphics("images/question-5.png")
+```
+
+```{r question-5-response}
+
+##Q5
+ggplot( data = mpg, aes(x= hwy, y= cyl))+
+  
+  ##set shape and colour of points to triangle and gold respectively
+  geom_point(shape= 'triangle', color= 'gold')+
+  
+  #categorize plots into classes of drv using the same scale
+  facet_wrap(~class)
+
+
+```

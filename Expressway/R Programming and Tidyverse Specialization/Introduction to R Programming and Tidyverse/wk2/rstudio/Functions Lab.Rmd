@@ -20,6 +20,7 @@ Your function should contain the arguments `max_rolls`, `sides`, and `num_of_dic
 ```{r}
 # define the roll function with loaded dice
 loaded_roll <- function() {
+  
   # assign a higher probability to 7 and equal probability to other numbers
   weights <- rep(1/10, 8)
   weights[7] <- 3/10
@@ -117,6 +118,18 @@ count_both_na(x, y)
 Implement a fizzbuzz function. It takes a single number as input. If the number is divisible by three, it returns “fizz”. If it’s divisible by five it returns “buzz”. If it’s divisible by three and five, it returns “fizzbuzz”. Otherwise, it returns the number. 
 
 ```{r}
+fizzbuzz <- function(n) {
+  if (n %% 15 == 0) {
+    return("fizzbuzz")
+  } else if (n %% 3 == 0) {
+    return("fizz")
+  } else if (n %% 5 == 0) {
+    return("buzz")
+  } else {
+    return(n)
+  }
+}
+
 
 ```
 
@@ -143,6 +156,13 @@ get_temp_desc <- function(temp) {
 ```
 
 ```{r}
+get_temp_desc <- function(temp) {
+  temp_labels <- c("freezing", "cold", "cool", "warm", "hot")
+  temp_breaks <- c(-Inf, 0, 10, 20, 30, Inf)
+  temp_group <- cut(temp, breaks = temp_breaks, labels = temp_labels)
+  return(temp_group)
+}
+
 
 ```
 
