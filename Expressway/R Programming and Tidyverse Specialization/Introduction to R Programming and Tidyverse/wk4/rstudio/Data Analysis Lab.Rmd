@@ -19,6 +19,10 @@ Using the nycflights13 dataset, find all flights that departed in July, August, 
 library(nycflights13)
 library(dplyr)
 
+
+
+
+
 flights %>% 
   filter(between(month, 7, 9)) %>% 
   select(year, month, day, dep_time, origin, dest)
@@ -33,6 +37,9 @@ Using the nycflights13 dataset sort flights to find the 10 flights that flew the
 
 ```{r question-2-response}
 
+
+duration %>%
+  arrange(hour(desc),minute)
 ```
 
 #### Question 3. 
@@ -40,6 +47,8 @@ Using the nycflights13 dataset sort flights to find the 10 flights that flew the
 Using the nycflights13 dataset, calculate a new variable called "hr_delay" and arrange the flights dataset in order of the arrival delays in hours (longest delays at the top). Put the new variable you created just before the departure time.Hint: use the experimental argument .before. 
 
 ```{r question-3-response}
+hr_delay
+
 
 ```
 
