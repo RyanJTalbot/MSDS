@@ -36,10 +36,20 @@ flights %>%
 Using the nycflights13 dataset sort flights to find the 10 flights that flew the furthest. Put them in order of fastest to slowest.
 
 ```{r question-2-response}
+library(nycflights13)
 
+# Create a new column with the distance in miles
+flights$distance_miles <- flights$distance * 0.621371
 
-duration %>%
-  arrange(hour(desc),minute)
+# Sort the flights by distance in descending order and select the top 10
+top_10_flights <- head(flights[order(-flights$distance_miles),], 10)
+
+# Sort the top 10 flights by air_time in ascending order
+top_10_flights <- top_10_flights[order(top_10_flights$air_time),]
+
+# Print the results
+top_10_flights[, c("year", "month", "day", "carrier", "flight", "tailnum", "distance_miles", "air_time")]
+
 ```
 
 #### Question 3. 
@@ -47,7 +57,27 @@ duration %>%
 Using the nycflights13 dataset, calculate a new variable called "hr_delay" and arrange the flights dataset in order of the arrival delays in hours (longest delays at the top). Put the new variable you created just before the departure time.Hint: use the experimental argument .before. 
 
 ```{r question-3-response}
-hr_delay
+library(nycflights13)
+library(dplyr)
+library(magrittr)
+
+flights <- nycflights13::flights
+
+# Calculate the arrival delay in hours
+flights$hr_delay <- flights$arr_delay / 60
+
+# Sort the dataset by hr_delay in descending order
+flights <- flights %>% arrange(desc(hr_delay))
+
+# Move the hr_delay column before the departure_time column
+flights <- flights %>% select(hr_delay, everything())
+
+#
+
+# Print the first 10 rows of the sorted and updated dataset
+head(flights, 10)
+
+
 
 
 ```
@@ -57,6 +87,25 @@ hr_delay
 Using the nycflights13 dataset, find the most popular destinations (those with more than 2000 flights) and show the destination, the date info, the carrier. Then show just the number of flights for each popular destination.
 
 ```{r question-4-response}
+library(nycflights13)
+library(dplyr)
+
+flights <- nycflights13::flights
+
+# Find the most popular destinations with more than 2000 flights
+popular_destinations <- flights %>%
+  group_by(dest) %>%
+  filter(n() > 2000) %>%
+  summarise(total_flights = n())
+
+# Join the popular destinations with the original dataset to get the desired columns
+popular_flights <- flights %>%
+  inner_join(popular_destinations, by = "dest") %>%
+  select(dest, year, month, day, carrier, total_flights)
+
+# Show the number of flights for each popular destination
+popular_flights %>% count(dest, sort = TRUE)
+
 
 ```
 
@@ -65,5 +114,33 @@ Using the nycflights13 dataset, find the most popular destinations (those with m
 Using the nycflights13 dataset, find the flight information (flight number, origin, destination, carrier, number of flights in the year, and percent late) for the flight numbers with the highest percentage of arrival delays. Only include the flight numbers that have over 100 flights in the year.
 
 ```{r question-5-response}
+library(nycflights13)
+library(dplyr)
+
+flights <- nycflights13::flights
+
+# Create a new variable that indicates whether the flight was delayed or not
+flights <- flights %>%
+  mutate(delayed = arr_delay > 0)
+
+# Group flights by flight number, origin, destination, and carrier, and calculate the number of flights in the year and the percentage of late flights
+flight_summary <- flights %>%
+  group_by(flight, origin, dest, carrier) %>%
+  filter(n() > 100) %>%
+  summarise(num_flights = n(),
+            percent_late = mean(delayed) * 100)
+
+# Arrange the flight summary by the percentage of late flights in descending order
+flight_summary <- flight_summary %>%
+  arrange(desc(percent_late))
+
+# Join the flight summary with the original dataset to get the desired columns
+flights_info <- flights %>%
+  inner_join(flight_summary, by = c("flight", "origin", "dest", "carrier")) %>%
+  select(flight, origin, dest, carrier, num_flights, percent_late)
+
+# Show the flights with the highest percentage of late flights
+head(flights_info, 10)
+
 
 ```
