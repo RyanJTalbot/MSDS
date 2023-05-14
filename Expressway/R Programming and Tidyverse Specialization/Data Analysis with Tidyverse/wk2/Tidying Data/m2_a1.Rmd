@@ -21,9 +21,25 @@ The built in billboard dataset is not tidy. Describe why it is not tidy and then
 ```{r question-1-response}
 
 # First gather up all the week entries into a row for each week for each song (where there is an entry)
+billboard2 <- billboard %>% 
+  pivot_longer(
+    wk1:wk76, 
+    names_to = "week", 
+    values_to = "rank", 
+    values_drop_na = TRUE
+  )
+billboard2
+
 
 
 # Then, convert the week variable to a number and figure out the date corresponding to each week on the chart
+billboard3 <- billboard2 %>%
+  mutate(
+    week = as.integer(gsub("wk", "", week)),
+    date = as.Date(date.entered) + 7 * (week - 1),
+    date.entered = NULL
+  )
+billboard3
 
 
 # Sort the data by artist, track and week. Here are what your first entries should be (formatting can be different):
@@ -42,6 +58,12 @@ The built in billboard dataset is not tidy. Describe why it is not tidy and then
  # 10 2Ge+her The Hardest Part Of ... 2000-09-02       3    92 2000-09-16
  # … with 5,297 more rows
 
+# A tibble: 5,307 x 6
+
+
+billboard3 %>% arrange(artist, track, week)
+billboard3
+
 ```
 
 ##### Question 2. 
@@ -50,7 +72,10 @@ Tidy the "fish_encounters" dataset of fish spotting by monitoring stations. Make
 
 
 ```{r question-2-response}
+fish_encounters
 
+fish_encounters[is.na(fish_encounters)] <- 0
+fish_encounters
 ```
 
 ##### Question 3. 
@@ -58,7 +83,16 @@ Tidy the "fish_encounters" dataset of fish spotting by monitoring stations. Make
 Import the flowers1 dataset. Tidy and pivot the data. Hint: use "read_csv2()" to read in the dataset 
 
 ```{r question-3-response}
+# Read the dataset using read_csv2()
+flowers_data <- read_csv2("flowers1.csv")
 
+# Convert the "Variable" column to character
+flowers_data$Variable <- as.character(flowers_data$Variable)
+
+# Tidy and pivot the data using pivot_longer()
+tidy_data <- flowers_data %>%
+  mutate(Time = as.numeric(Time), replication = as.numeric(replication)) %>%
+  pivot_longer(cols = c(Time, replication, Variable, Value), names_to = "Measurement", values_to = "Value", values_drop_na = TRUE)
 ```
 
 ##### Question 4.
@@ -66,7 +100,10 @@ Import the flowers1 dataset. Tidy and pivot the data. Hint: use "read_csv2()" to
 Import the flowers2 dataset. Tidy the dataset by turning the one column into 3 separate columns
 
 ```{r question-4-response}
+df <- read_csv("flowers2.csv")
+df
 
+df_split <- separate(df, Flowers/Intensity;Time, into = c("Flowers", "Intensity", "Time"), sep = ";")
 ```
 
 ##### Question 5.
@@ -80,6 +117,11 @@ output <- tibble(
       return = c(1.5, 0.75,  0.5,  1.8,  NA)
     )
 output
+
+
+df <- output %>%
+  complete(treatment, gender, fill = list(return = NA))
+df
 ```
 
 
@@ -88,7 +130,8 @@ output
 Import the weather dataset as weather. Use "pivot_longer()" to put the days all in one column, then use "pivot_wider" to separate tmax and tmin into separate columns. Print the summary of the final resulting dataset 
 
 ```{r question-6-response}
-
+df <- read_csv('weather.csv')
+df
 ```
 
 ###### Question 7. 
@@ -96,5 +139,13 @@ Import the weather dataset as weather. Use "pivot_longer()" to put the days all 
 Load the built in "anscombe" data frame and use "pivot_longer()" to separate all the x and y columns and categorize them into 4 sets
 
 ```{r question-7-response}
-
+anscombe %>%
+pivot_longer(
+cols = starts_with("x"),
+names_to = ("x")) %>%
+pivot_longer(
+cols = starts_with("y"),
+names_to = ("y"),
+values_to = ("results")
+)
 ```
