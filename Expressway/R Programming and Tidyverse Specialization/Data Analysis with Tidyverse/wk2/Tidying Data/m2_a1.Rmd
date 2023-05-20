@@ -20,49 +20,17 @@ The built in billboard dataset is not tidy. Describe why it is not tidy and then
 
 ```{r question-1-response}
 
-# First gather up all the week entries into a row for each week for each song (where there is an entry)
-billboard2 <- billboard %>% 
-  pivot_longer(
-    wk1:wk76, 
-    names_to = "week", 
-    values_to = "rank", 
-    values_drop_na = TRUE
-  )
-billboard2
+billboard %>%
+  #pivot_longer is used to make week an observable data, rather than each week being its own
+  pivot_longer(cols = starts_with("wk"),
+               names_to = "week",
+               values_to = "rank") %>%
+  #this is done to make week a dbl in the tibble, as well as to calculate the date of the chart
+  mutate(week = parse_number(week),
+         date = as.Date(date.entered) + (7 * (week - 1))) %>%
+  #added to clean the data (lots of NAs originally)
+  filter(!is.na(rank))
 
-
-
-# Then, convert the week variable to a number and figure out the date corresponding to each week on the chart
-billboard3 <- billboard2 %>%
-  mutate(
-    week = as.integer(gsub("wk", "", week)),
-    date = as.Date(date.entered) + 7 * (week - 1),
-    date.entered = NULL
-  )
-billboard3
-
-
-# Sort the data by artist, track and week. Here are what your first entries should be (formatting can be different):
-#>  A tibble: 5,307 x 5
-#   artist  track                   date.entered  week  rank   date
- #    <chr>   <chr>                   <date>       <int> <dbl>   <date>
- #  1 2 Pac   Baby Don't Cry (Keep... 2000-02-26       1    87 2000-02-26
- #  2 2 Pac   Baby Don't Cry (Keep... 2000-02-26       2    82 2000-03-04
- #  3 2 Pac   Baby Don't Cry (Keep... 2000-02-26       3    72 2000-03-11
- #  4 2 Pac   Baby Don't Cry (Keep... 2000-02-26       4    77 2000-03-18
- #  5 2 Pac   Baby Don't Cry (Keep... 2000-02-26       5    87 2000-03-25
- #  6 2 Pac   Baby Don't Cry (Keep... 2000-02-26       6    94 2000-04-01
- #  7 2 Pac   Baby Don't Cry (Keep... 2000-02-26       7    99 2000-04-08
- #  8 2Ge+her The Hardest Part Of ... 2000-09-02       1    91 2000-09-02
- #  9 2Ge+her The Hardest Part Of ... 2000-09-02       2    87 2000-09-09
- # 10 2Ge+her The Hardest Part Of ... 2000-09-02       3    92 2000-09-16
- # … with 5,297 more rows
-
-# A tibble: 5,307 x 6
-
-
-billboard3 %>% arrange(artist, track, week)
-billboard3
 
 ```
 
@@ -72,10 +40,11 @@ Tidy the "fish_encounters" dataset of fish spotting by monitoring stations. Make
 
 
 ```{r question-2-response}
-fish_encounters
-
-fish_encounters[is.na(fish_encounters)] <- 0
-fish_encounters
+fish_encounters %>%
+  #pivot_wider is used to make each station into a column
+  pivot_wider(names_from = station,
+              values_from = seen,
+              values_fill = list(seen = 0))
 ```
 
 ##### Question 3. 
@@ -84,15 +53,14 @@ Import the flowers1 dataset. Tidy and pivot the data. Hint: use "read_csv2()" to
 
 ```{r question-3-response}
 # Read the dataset using read_csv2()
-flowers_data <- read_csv2("flowers1.csv")
+flowers1 <- read_csv2("flowers1.csv")
 
-# Convert the "Variable" column to character
-flowers_data$Variable <- as.character(flowers_data$Variable)
-
-# Tidy and pivot the data using pivot_longer()
-tidy_data <- flowers_data %>%
-  mutate(Time = as.numeric(Time), replication = as.numeric(replication)) %>%
-  pivot_longer(cols = c(Time, replication, Variable, Value), names_to = "Measurement", values_to = "Value", values_drop_na = TRUE)
+#The problem that I noticed was that variable had two observations that
+#would be better separated. By using pivot_wider, each observation was instead 
+#made into a column with the value associated with it 
+flowers1 %>%
+  pivot_wider(names_from = Variable,
+              values_from = Value)
 ```
 
 ##### Question 4.
@@ -100,10 +68,13 @@ tidy_data <- flowers_data %>%
 Import the flowers2 dataset. Tidy the dataset by turning the one column into 3 separate columns
 
 ```{r question-4-response}
-df <- read_csv("flowers2.csv")
-df
-
-df_split <- separate(df, Flowers/Intensity;Time, into = c("Flowers", "Intensity", "Time"), sep = ";")
+flowers2 <- read_csv2("flowers2.csv")
+#The problem was Flowers/Intensity, so using separte(), these were separated
+#by the /, and convert = TRUE was used to make it a int/dbl
+flowers2 %>%
+  separate(`Flowers/Intensity`, into = c("Flowers", "Intensity"),
+           sep = "/",
+           convert = TRUE)
 ```
 
 ##### Question 5.
@@ -116,12 +87,11 @@ output <- tibble(
       gender   = factor(c("M", "F", "F", "M", "M"), levels = c("M", "F", "O")),
       return = c(1.5, 0.75,  0.5,  1.8,  NA)
     )
-output
 
-
-df <- output %>%
-  complete(treatment, gender, fill = list(return = NA))
-df
+#by using complete(), We could see what was implicity missing and make them more noticeable,
+#such as no Female C treatment
+output %>%
+  complete(treatment, gender)
 ```
 
 
@@ -130,8 +100,17 @@ df
 Import the weather dataset as weather. Use "pivot_longer()" to put the days all in one column, then use "pivot_wider" to separate tmax and tmin into separate columns. Print the summary of the final resulting dataset 
 
 ```{r question-6-response}
-df <- read_csv('weather.csv')
-df
+weather <- read_csv("weather.csv")
+#While the data was hard to understand, I first started by making the days
+#a column with pivot_longer(), then filtered out the NA, followed by
+#pivoting the tmin and tmax separately
+weather %>%
+  pivot_longer(cols = starts_with("d"),
+               names_to = "days",
+               values_to = "temp") %>%
+  filter(!is.na(temp)) %>%
+  pivot_wider(names_from = element,
+              values_from = temp)
 ```
 
 ###### Question 7. 
@@ -140,12 +119,10 @@ Load the built in "anscombe" data frame and use "pivot_longer()" to separate all
 
 ```{r question-7-response}
 anscombe %>%
-pivot_longer(
-cols = starts_with("x"),
-names_to = ("x")) %>%
-pivot_longer(
-cols = starts_with("y"),
-names_to = ("y"),
-values_to = ("results")
-)
+  #I used pivot_longer and the names pattern and longer names_to argument
+  #to separate the x/y from the number value, creating sets numbered 1-4
+  pivot_longer(cols = everything(),
+             names_to = c(".value", "set"),
+             names_pattern = "(.)(.)",
+             values_to = "value")
 ```

@@ -1,0 +1,52 @@
+\documentclass[10pt]{article}
+\usepackage{fullpage}
+\usepackage{amsmath, amsfonts}
+
+\author{John Doe}
+\title{6.851 Problem 1 -- Solutions}
+
+% these are compressed lists to help fit into a 1 page limit
+\newenvironment{enumerate*}%
+  {\vspace{-2ex} \begin{enumerate} %
+     \setlength{\itemsep}{-1ex} \setlength{\parsep}{0pt}}%
+  {\end{enumerate}}
+ 
+\newenvironment{itemize*}%
+  {\vspace{-2ex} \begin{itemize} %
+     \setlength{\itemsep}{-1ex} \setlength{\parsep}{0pt}}%
+  {\end{itemize}}
+ 
+\newenvironment{description*}%
+  {\vspace{-2ex} \begin{description} %
+     \setlength{\itemsep}{-1ex} \setlength{\parsep}{0pt}}%
+  {\end{description}}
+
+
+\begin{document}
+
+\maketitle
+
+I'm writing something.
+
+A paragraph is started by a blank line. Now, let's include a formula: 
+$a^2 + b^2 = c^2$. Another way to include formulas is this:
+
+\[ \binom{n}{k} \le \binom{n}{\lfloor n/2 \rfloor}, (\forall) 1 \le k \le n \]
+
+Making a compact list now:
+
+\begin{itemize*}
+\item abc
+\item def
+\end{itemize*}
+
+The end.
+
+\end{document}
+
+
+
+
+
+
+
