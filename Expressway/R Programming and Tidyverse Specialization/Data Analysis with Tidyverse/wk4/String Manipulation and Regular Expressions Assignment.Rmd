@@ -24,8 +24,19 @@ Use str_c to put `(` before the area codes followed by `)` and a space followed 
 
 ### Answer should be of the form "(703) 5551212" "(863) 1234567" "(404) 7891234" "(202) 4799747"
 
+# Load the stringr package
+library(stringr)
+
+# Define the area codes and phone numbers
 area_codes <- c(703, 863, 404, 202)
 phone_nums <- c(5551212, 1234567, 7891234, 4799747)
+
+# Format the phone numbers with area codes
+formatted_nums <- str_c("(", area_codes, ") ", phone_nums)
+
+# Print the formatted phone numbers
+print(formatted_nums)
+
 
 ```
 
@@ -34,6 +45,25 @@ phone_nums <- c(5551212, 1234567, 7891234, 4799747)
 Create a function that receives a single word as an input. Use str_length() and str_sub() to extract the middle character from the string. What will you do if the string has an even number of characters? Test your function on the strings “hamburger” and “hotdog”
 
 ```{r quetsion-2-response}
+getMiddleCharacter <- function(word) {
+  length <- str_length(word)
+  if (length %% 2 == 0) {
+    middle <- str_sub(word, length/2, length/2 + 1)
+  } else {
+    middle <- str_sub(word, (length+1)/2, (length+1)/2)
+  }
+  return(middle)
+}
+
+# Test the function
+word1 <- "hamburger"
+word2 <- "hotdog"
+
+middle1 <- getMiddleCharacter(word1)
+middle2 <- getMiddleCharacter(word2)
+
+print(middle1)
+print(middle2)
 
 ```
 
@@ -71,6 +101,8 @@ Using the words provided in stringr::words, create regular expressions that find
 
 
 # Contain one letter other than e that is repeated in at least three places (e.g. “appropriate” contains three “p”s.)
+
+
 
 
 ```
