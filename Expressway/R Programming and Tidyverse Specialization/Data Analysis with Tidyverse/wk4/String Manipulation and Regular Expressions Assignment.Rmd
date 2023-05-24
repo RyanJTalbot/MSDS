@@ -112,6 +112,25 @@ Using the words provided in stringr::words, create regular expressions that find
 Using the sentences provided in stringr::sentences, find all words that come after a “number” like “one”, “two”, … “twelve”. Pull out both the number and the word.
 
 ```{r question-5-response}
+library(stringr)
+
+# Input sentences
+sentences <- stringr::sentences
+
+# Regular expression pattern to match numbers followed by words
+pattern <- "(?i)(one|two|three|four|five|six|seven|eight|nine|ten|eleven|twelve)\\s(\\w+)"
+
+# Extract numbers and words
+matches <- str_match(sentences, pattern)
+
+# Extract the number and word from each match
+numbers <- matches[, 2]
+words <- matches[, 3]
+
+# Print the extracted numbers and words
+for (i in 1:length(numbers)) {
+  cat("Number:", numbers[i], "\tWord:", words[i], "\n")
+}
 
 ```
 
@@ -120,5 +139,32 @@ Using the sentences provided in stringr::sentences, find all words that come aft
 Using the sentences provided in stringr::sentences, view all sentences that contain the word “good” or the word “bad”. Get the sentence numbers where those words occur. Use str_replace_all() to replace the word “bad” with the word “horrible” and the word “good” with the word “great”. Look at the sentence numbers you found before to verify the words were replaced correctly.
 
 ```{r question-6-response}
+library(stringr)
+
+# Input sentences
+sentences <- stringr::sentences
+
+# Find sentences containing "good" or "bad"
+contains_good <- str_detect(sentences, "\\bgood\\b")
+contains_bad <- str_detect(sentences, "\\bbad\\b")
+
+# Get sentence numbers where "good" or "bad" occur
+good_sentence_numbers <- which(contains_good)
+bad_sentence_numbers <- which(contains_bad)
+
+# Print sentences containing "good" or "bad"
+cat("Sentences containing 'good':\n")
+cat(sentences[contains_good], "\n\n")
+
+cat("Sentences containing 'bad':\n")
+cat(sentences[contains_bad], "\n\n")
+
+# Replace "bad" with "horrible" and "good" with "great"
+replaced_sentences <- str_replace_all(sentences, "\\bbad\\b", "horrible")
+replaced_sentences <- str_replace_all(replaced_sentences, "\\bgood\\b", "great")
+
+# Verify replacements
+cat("Replaced sentences:\n")
+cat(replaced_sentences[c(good_sentence_numbers, bad_sentence_numbers)], "\n")
 
 ```

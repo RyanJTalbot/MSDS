@@ -23,6 +23,14 @@ babynames::babynames
 nasaweather::atmos
 
 ```{r question-1-response}
+library(Lahman)
+
+# Load the Lahman::Batting dataset
+data(Batting, package = "Lahman")
+
+# Check if there are any duplicate entries based on primary key
+duplicate_entries <- any(duplicated(Batting[, c("playerID", "yearID", "stint")]))
+duplicate_entries  # Returns FALSE if no duplicate entries
 
 ```
 
@@ -39,7 +47,16 @@ What is the relationship between the "Batting", "Master", and "Salaries" tables 
 Load the "nycflights13" library. Use an appropriate join to add a column containing the airline name to the "flights" dataset present in the library. Be sure to put the carrier code and name in the first two columns of the result so we can see them. Save the result as "flights2".
 
 ```{r question-3-response}
+# Load the "nycflights13" library
+library(nycflights13)
 
+# Perform the join operation
+flights2 <- flights %>%
+  left_join(airlines, by = c("carrier" = "carrier")) %>%
+  select(carrier, name, everything())
+
+# Display the first few rows of the result
+head(flights2[, c("carrier", "name")])
 ```
 
 ##### Question 4.
@@ -47,7 +64,13 @@ Load the "nycflights13" library. Use an appropriate join to add a column contain
 Use an appropriate join to add the airport name to the "flights2" dataset you got above. The codes and names of the airports are in the "airports" dataset of the "nycflights13" package. Put the carrier and carrier name first followed by the destination and destination name, then everything else.
 
 ```{r question-4-response}
+# Perform the join operation
+flights2 <- flights2 %>%
+  left_join(airports, by = c("dest" = "faa")) %>%
+  select(carrier, name.x, dest, name.y, everything())
 
+# Display the first few rows of the updated dataset
+head(flights2[, c("carrier", "name.x", "dest", "name.y")])
 ```
 
 ##### Question 5.
@@ -75,6 +98,26 @@ airports %>%
 Use a set operation function to find which airport codes from flights are not in the airports dataset.
 
 ```{r question-6-response}
+library(nycflights13)
+library(ggplot2)
+library(dplyr)
+
+# Join flights with airports to get location information
+flights <- flights %>%
+  left_join(airports, by = c("dest" = "faa")) %>%
+  left_join(airports, by = c("origin" = "faa"), suffix = c(".dest", ".origin"))
+
+# Compute average delay by destination
+avg_delay <- flights %>%
+  group_by(dest) %>%
+  summarise(avg_delay = mean(dep_delay, na.rm = TRUE))
+
+# Create a spatial map of delays
+ggplot(avg_delay, aes(x = lon.y, y = lat.y, size = avg_delay)) +
+  borders("state") +
+  geom_point() +
+  scale_size_continuous(name = "Average Delay", guide = "legend") +
+  labs(x = "Longitude", y = "Latitude", title = "Spatial Distribution of Delays by Destination")
 
 ```
 

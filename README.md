@@ -41,7 +41,7 @@
 
 <div align="center" weight="bold">OR</div>
 
-####\*Data Science Foundations: Data Structure and Algorithms - 107 hours
+#### Data Science Foundations: Data Structure and Algorithms - 107 hours
 
 - Algorithms for searching, sorting and indexing - 35 hours
 - Trees and graphs: basics - 34 hours
@@ -69,7 +69,6 @@
 
 - Relational Database Design - 36 hours
 - The Structured Query Language (SQL) - 25 hours
-
 - Advanced Topics and Future Trends in Database Technologies - 17 hours - this course is considered an elective
 
 ---
