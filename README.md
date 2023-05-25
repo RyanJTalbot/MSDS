@@ -4,14 +4,6 @@
 
 ## Pathway:
 
-#### Data Science Foundations: Data Structure and Algorithms - 107 hours
-
-- Algorithms for searching, sorting and indexing - 35 hours
-- Trees and graphs: basics - 34 hours
-- Dynamic programming, Greedy algorithms - 38 hours
-
-<div align="center" weight="bold">OR</div>
-
 #### Data Science Foundations: Statistical Inference - 113 hours
 
 - Probability theory: Applications for Data Science - 48 hours
@@ -32,14 +24,6 @@
 ---
 
 ## Core Courses:
-
-#### Data Science Foundations: Statistical Inference - 113 hours
-
-- Probability theory: Applications for Data Science - 48 hours
-- Statistical Inference for estimation in Data Science - 28 hours
-- Statistical Inference and Hypothesis testing in Data Science Applications - 37 hours
-
-<div align="center" weight="bold">OR</div>
 
 #### Data Science Foundations: Data Structure and Algorithms - 107 hours
 
@@ -77,7 +61,7 @@
 
 #### Statistical Learning for Data Science
 
-- Regression and Classification
+- Regression and Classification - 34 hours
 - Resampling, Selection, and Splines
 - Trees, SVM, and Unsupervised Learning
 
@@ -91,29 +75,34 @@
 
 - Deep Learning Applications for Computer Vision - 23 hours
 
-#### Effective Communication
+#### Effective Communication - 74 hours
 
-- Effective communication: Writing, Design, and Presentation
-- Effective communication capstone project
+- Business Writting - 12 hours
+- Graphic Design - 29 hours
+- Successful Presentation - 20 hours
+- Effective communication capstone project - 13 hours
 
-### Elective courses
+### Elective courses (9 credits)
 
-- Introduction to High-Performance and Parallel Computing (1 credit)
-- Managing, Describing, and Analyzing Data (1 credit)
-- Stability and Capability in Quality Improvement (1 credit)
-- Measurement Systems Analysis (1 credit)
 - Deep Learning Applications for Computer Vision (1 credit)
-- Effective Communication: Writing, Design, and Presentation Specialization (2 credits)
 - Regression and Classification (1 credit)
-- Fundamentals of Software Architecture for Big Data (1 credit)
-- Software Architecture Patterns for Big Data (1 credit)
-- Applications of Software Architecture for Big Data (1 credit)
 - Supervised Text Classification for Marketing Analytics (1 credit)
 - Unsupervised Text Classification for Marketing Analytics (1 credit)
 - Network Analysis for Marketing Analytics (1 credit)
+- Managing, Describing, and Analyzing Data (1 credit)
+- Stability and Capability in Quality Improvement (1 credit)
+- Measurement Systems Analysis (1 credit)
+- Introduction to High-Performance and Parallel Computing (1 credit)
+-
 - Product Cost and Investment Cash Flow Analysis (1 credit)
 - Project Valuation and the Capital Budgeting Process (1 credit)
 - Financial Forecasting and Reporting (1 credit)
+-
+- Effective Communication: Writing, Design, and Presentation Specialization (2 credits)
+- Fundamentals of Software Architecture for Big Data (1 credit)
+- Software Architecture Patterns for Big Data (1 credit)
+- Applications of Software Architecture for Big Data (1 credit)
+-
 - Project Management: Foundations and Initiation (1 credit)
 - Project Planning and Execution (1 credit)
 - Agile Project Management (1 credit)

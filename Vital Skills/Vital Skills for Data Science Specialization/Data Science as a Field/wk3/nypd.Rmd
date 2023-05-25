@@ -1,0 +1,136 @@
+---
+title: "R Notebook"
+output: html_notebook
+---
+
+https://github.com/sambshade/NYPD_Shooting_Inc_Data/blob/main/NYPD_Shooting_Incident_Markdown.Rmd
+
+
+https://github.com/SandwichTheoremRevisited/msds-nypd/blob/main/nypd_shooting_project.Rmd
+
+
+https://github.com/poreeves/MSDS-5301-NYPD-Shooting-Report/blob/main/MSDS%205301%20NYC%20Shooting.Rmd
+
+
+
+https://github.com/jackraiferbaruch/msds-dsaaf/blob/main/NYPD_Shooting_Project.Rmd
+
+
+https://github.com/sambshade/NYPD_Shooting_Inc_Data/blob/main/NYPD_Shooting_Incident_Markdown.Rmd
+
+
+https://github.com/cjfraley/ucboulder-msds-ds-as-field/blob/master/fieldClassNYPD.Rmd
+
+
+
+This is an [R Markdown](http://rmarkdown.rstudio.com) Notebook. When you execute code within the notebook, the results appear beneath the code. 
+
+Try executing this chunk by clicking the *Run* button within the chunk or by placing your cursor inside it and pressing *Cmd+Shift+Enter*. 
+
+```{r}
+
+install.packages('reshape')
+
+```
+
+```{r}
+
+install.packages('forecast')
+```
+
+```{r}
+knitr::opts_chunk$set(echo = TRUE)
+library(tidyverse)
+library(forecast)
+library(lubridate)
+library(mgcv)
+library(reshape)
+library(stringi)
+library(stringr)
+```
+
+
+
+
+```{r}
+raw_data <- read.csv(url("https://data.cityofnewyork.us/api/views/833y-fsy8/rows.csv?accessType=DOWNLOAD"))
+summary(raw_data)
+
+```
+
+
+```{r}
+clean <- raw_data %>% select(
+  -one_of(
+    "Lon_Lat","INCIDENT_KEY","X_COORD_CD","Y_COORD_CD",
+    "OCCUR_TIME",
+    "JURISDICTION_CODE",
+    "LOCATION_DESC",
+    "STATISTICAL_MURDER_FLAG",
+    "PERP_AGE_GROUP",
+    "PERP_SEX",
+    "PERP_RACE",
+    "VIC_AGE_GROUP",
+    "VIC_SEX",
+    "VIC_RACE"
+    ))
+#transform(clean, clean$BORO=factor(clean$BORO))
+#transform(clean, clean$PRECINCT=factor(clean$PRECINCT))
+clean$BORO <- factor(clean$BORO)
+clean$PRECINCT <- factor(clean$PRECINCT)
+```
+
+
+
+```{r}
+clean <- transform(clean, OCCUR_DATE = mdy(OCCUR_DATE))
+```
+
+```{r}
+summary(clean)
+
+```
+
+```{r}
+clean <- mutate(clean, year=year(OCCUR_DATE))
+boros <- select(clean,
+  -one_of(
+      "PRECINCT",
+      "Latitude",
+      "Longitude",
+      "OCCUR_DATE"
+  ))
+
+boro_y <- data.frame(t(table(group_by(boros,year))))
+boroplot <- ggplot(boro_y, aes(x=year,y=Freq,col=BORO,group=BORO))+geom_line()
+boroplot
+```
+
+```{r}
+prec <- select(clean,
+  -one_of(
+      "BORO",
+      "Latitude",
+      "Longitude",
+      "OCCUR_DATE"
+  ))
+prec_y <- data.frame(t(table(group_by(prec,year))))
+precplot <- ggplot(prec_y, aes(x=year,y=Freq,col=PRECINCT,group=PRECINCT))+geom_line()
+precplot
+```
+
+
+
+
+
+
+
+
+
+
+Add a new chunk by clicking the *Insert Chunk* button on the toolbar or by pressing *Cmd+Option+I*.
+
+When you save the notebook, an HTML file containing the code and output will be saved alongside it (click the *Preview* button or press *Cmd+Shift+K* to preview the HTML file). 
+
+The preview shows you a rendered HTML copy of the contents of the editor. Consequently, unlike *Knit*, *Preview* does not run any R code chunks. Instead, the output of the chunk when it was last run in the editor is displayed.
+
