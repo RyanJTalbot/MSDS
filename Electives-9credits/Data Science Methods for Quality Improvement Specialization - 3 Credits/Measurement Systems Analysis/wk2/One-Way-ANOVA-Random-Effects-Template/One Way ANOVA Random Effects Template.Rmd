@@ -1,0 +1,143 @@
+---
+title: "One Way ANOVA Random Effects Template"
+author: "Professor Wendy Martin"
+date: "1/10/2022"
+output:
+  word_document: default
+  html_document: default
+  pdf_document: default
+always_allow_html: yes
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE, tidy = FALSE)
+require(lolcat)          
+require(car)
+require(dplyr)
+require(flextable)
+options(scipen=99,digits = 10)
+options(show.signif.stars=FALSE)   # Turn off * to indicate significance
+nqtr <- function(x,d){noquote(t(round.object(x, d)))}
+ro <- round.object
+
+blanks <- rep(c(' ', '\n'),2) # This will print two blank lines between plots. 
+
+AddBreak <- function() {
+for (i in blanks)
+  cat(i)
+}
+```
+
+## One Way Analysis of Variance - Random Effects
+
+### Experiment Title: Gear Experiment
+
+### Step 1: Import File, Define Factors/Variables
+```{r import file, echo=FALSE}
+Gear <- read.delim("G:/My Drive/EMEN 5042/Lecture Powerpoint and Pdf/Lecture 9 - One Way ANOVA/Gear.dat")
+
+group.labels<-c("Poly1","Poly2","Poly3","Poly4","Poly5")
+
+Gear$material<-factor(Gear$material, labels = group.labels)
+
+# Name of Data Frame
+df<-Gear
+
+# Criterion Measure
+cm<-Gear$ctf
+
+# Name of Criterion Measure
+ncm<-"Cycles to Failure"
+
+# Factor
+factor<-Gear$material
+
+# Name of Factor
+nf<-"Polymer Material"
+
+# Number of levels
+gn<-5
+
+# Flextable Fit to Word
+ i = 16.5 # width of the side borders in the word_document output (in centimeters)
+ w = i*0.3937 # width of the side borders in the word_document output (in inches)
+ 
+```
+
+### Step 2: Review Descriptive Summary
+### Step 3: Review Normality Tests
+### Step 4: Review Box and Whisker Plots
+
+```{r Descriptives, echo=FALSE, fig.width=6}
+so <- ro(summary.continuous(cm ~ factor, df,stat.miss=F),4)
+
+boxplot(cm ~ factor,data=df, xlab=nf, ylab=ncm, main=paste(ncm,"by",nf), col="red")
+```
+
+```{r Descriptives_Table, echo=FALSE}
+so %>%
+  flextable() %>%
+  add_header_lines(values = "Descriptive Summary") %>%
+  width(.,width = (w/(ncol(so)))) %>%
+  theme_box()
+
+AddBreak()
+```
+
+```{r means_normality_test, echo=FALSE}
+# Create output object of the cell means
+means<-so$mean
+
+# Test for normality of cell means
+someans<-ro(summary.continuous(means),4)
+someans$dv.name<-"Means"
+
+someans %>%
+  flextable() %>%
+  add_header_lines(values = "Descriptive Summary of Means") %>%
+  width(.,width = (w/(ncol(someans)))) %>%
+  theme_box()
+```
+
+**Conclusions regarding normality:**
+Within group/level normality exists, as well as the normality of the means.
+
+### Step 5: Conduct One Way Random Effects ANOVA 
+```{r Random_Effects_ANOVA, echo=FALSE}
+raov.out<-aov(formula = cm ~ factor, data = df)
+sourcetable.aov <- summary(raov.out)
+
+# Add Totals to ANOVA Table
+anova.temp<-sourcetable.aov[[1]]
+totaldf<-sum(anova.temp$Df)
+totalss<-sum(anova.temp$`Sum Sq`)
+total<-data.frame(totaldf, totalss,"","","")
+names(total)<-c("Df","Sum Sq","Mean Sq","F value","Pr(>F)")
+anova.out<-rbind(anova.temp,as.numeric(total))
+rownames(anova.out)<-paste(c(nf,"Residuals","Total"))
+anova.out$Source<-rownames(anova.out)
+anova.out<-anova.out[c(6,1,2,3,4,5)]
+
+# Random Effects Analysis
+# Calculate Treatment Variance
+subgroup.n<-(anova.out$Df[3]+1)/(anova.out$Df[1]+1)
+Treat.var<-(anova.out$`Mean Sq`[1]-anova.out$`Mean Sq`[2])/subgroup.n
+
+# Within Variance
+MSw<-anova.out$`Mean Sq`[2]
+
+# Total Variance
+Total.var<-Treat.var + MSw
+
+# Intraclass Correlation Coefficient
+rho.i<-ro(Treat.var/Total.var,4)
+
+# Print Source Table
+anova.out %>%
+  flextable() %>%
+  add_header_lines(values = paste("ANOVA Source Table",ncm,"by",nf)) %>%
+  colformat_double(j=c('Sum Sq','Mean Sq', 'F value', 'Pr(>F)'), digits=4, na_str = '') %>%
+  add_footer_lines(values = paste("Intraclass Correlation Rho =",rho.i)) %>%
+   width(.,width = (w/(ncol(anova.out)))) %>%
+   theme_box()
+```
