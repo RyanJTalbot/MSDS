@@ -9,6 +9,7 @@ date: ''
 
 # Refer the linked online textbook in case of any issues.
 
+
 Load the stringr and forcats library
 
 1.From the "forcats" library load gss_cat data. Explore the distribution of rincome (reported income). What makes the default bar chart hard to understand? How could you improve the plot?
@@ -20,3 +21,87 @@ Load the stringr and forcats library
 4.How have the proportions of people identifying as Democrat, Republican, and Independent changed over time? Plot a suitable chart.
 
 5.Collapse "rincome" into smaller set of categories?
+
+
+```{r}
+library(forcats)
+library(ggplot2)
+library(dplyr)
+
+# 1. Load gss_cat data and explore the distribution of rincome
+data(gss_cat)
+rincome <- gss_cat$rincome
+
+# Default bar chart
+barplot(table(rincome))
+
+# The default bar chart is hard to understand because the x-axis labels are rotated and overlapping, making it difficult to read the income categories. Additionally, the bars are ordered alphabetically instead of in a meaningful order.
+
+# Improved plot
+income_counts <- table(rincome)
+income_df <- data.frame(income = names(income_counts), count = as.numeric(income_counts))
+
+# Reorder income categories based on their logical order
+income_df$income <- factor(income_df$income, levels = c("Lt $1000", "$1000 to 2999", "$3000 to 3999", "$4000 to 4999", "$5000 to 5999", "$6000 to 6999", "$7000 to 7999", "$8000 to 9999", "$10000 to 12499", "$12500 to 14999", "$15000 to 17499", "$17500 to 19999", "$20000 to 22499", "$22500 to 24999", "$25000 or more"))
+
+# Create a horizontal bar chart with clear labels
+ggplot(income_df, aes(x = count, y = income)) +
+  geom_bar(stat = "identity", fill = "steelblue") +
+  labs(x = "Count", y = "Income", title = "Distribution of Reported Income") +
+  theme_minimal() +
+  theme(axis.text.y = element_text(size = 8, hjust = 0),
+        axis.title = element_text(size = 10, face = "bold"))
+
+# The improved plot provides a clearer visualization of the distribution of reported income with properly ordered income categories and readable labels.
+
+# 2. Find the most common religion and partyid
+most_common_religion <- names(which.max(table(gss_cat$relig)))
+most_common_partyid <- names(which.max(table(gss_cat$partyid)))
+
+most_common_religion
+most_common_partyid
+
+# 3. Find out which relig does denom apply to using a table and visualization
+denom_by_relig <- table(gss_cat$relig, gss_cat$denom)
+denom_by_relig
+
+denom_by_relig_plot <- ggplot(data = gss_cat, aes(x = relig, fill = denom)) +
+  geom_bar(position = "fill") +
+  labs(x = "Religion", y = "Proportion", title = "Denomination by Religion") +
+  theme_minimal() +
+  theme(legend.position = "top")
+
+denom_by_relig_plot
+
+# By using a table or a visualization, we can find out which denominations (denom) apply to each religion (relig).
+
+# 4. Plot the proportions of people identifying as Democrat, Republican, and Independent over time
+# Plot the proportions of people identifying as Democrat, Republican, and Independent over time
+partyid_over_time <- gss_cat %>%
+  group_by(year) %>%
+  count(partyid) %>%
+  mutate(proportion = n / sum(n))
+
+# Define colors for the party identification categories
+party_colors <- c("Democrat" = "blue", "Republican" = "red", "Independent" = "gray")
+
+ggplot(partyid_over_time, aes(x = year, y = proportion, fill = partyid)) +
+  geom_area(position = "stack", alpha = 0.8) +
+  labs(x = "Year", y = "Proportion", title = "Proportions of Party Identification Over Time") +
+  scale_fill_manual(values = party_colors, labels = names(party_colors)) +
+  theme_minimal()
+
+# The chart shows how the proportions of party identification (Democrat, Republican, Independent) have changed over time.
+
+# 5. Collapse "rincome" into smaller set of categories
+collapsed_rincome <- gss_cat %>%
+  mutate(rincome_collapsed = case_when(
+    rincome %in% c("Lt $1000", "$1000 to 2999", "$3000 to 3999") ~ "Low Income",
+    rincome %in% c("$4000 to 4999", "$5000 to 5999", "$6000 to 6999") ~ "Middle Income",
+    rincome %in% c("$7000 to 7999", "$8000 to 9999", "$10000 to 12499") ~ "Upper Middle Income",
+    TRUE ~ "High Income"
+  ))
+
+table(collapsed_rincome$rincome_collapsed)
+
+```

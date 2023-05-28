@@ -10,9 +10,18 @@ For each response, include comments detailing your response and what each line d
 
 ##### Required Libraries
 
-```{r libraries}
+```{r libraries, echo=FALSE,include=FALSE}
 library(tidyverse)
+knitr::opts_chunk$set(
+  #set up global options
+  echo = TRUE,
+  comment="#>", #tidies outputs from function calls - all results start with #>
+  error=TRUE, #show all stops / execution errors.
+  message=FALSE,
+  warnings=FALSE
+)
 ```
+
 
 ##### Question 1.
 
@@ -22,15 +31,38 @@ Lahman::Batting
 babynames::babynames
 nasaweather::atmos
 
+1.1 A key for Lahman::Batting could be the combination of playerID, yearID, and stint
+1.2 babynames, combination of name, sex, and year make a unique key.
+1.3 atmos, combination of the latitude,longitude,year,and month creates a unique key.
+
 ```{r question-1-response}
-library(Lahman)
+bat <- tibble(Lahman::Batting)
+b1 <- nrow(bat) 
+b2 <- bat %>% 
+  unite(ID,playerID,yearID,stint,sep="|") %>% 
+  distinct(ID) %>% 
+  nrow()
 
-# Load the Lahman::Batting dataset
-data(Batting, package = "Lahman")
+#verify distinct ID count is equal to nrow of main dataset.
+b1==b2
 
-# Check if there are any duplicate entries based on primary key
-duplicate_entries <- any(duplicated(Batting[, c("playerID", "yearID", "stint")]))
-duplicate_entries  # Returns FALSE if no duplicate entries
+#guessing that the baby name by year may be unique...
+baby <- tibble(babynames::babynames)
+ba1 <- nrow(baby)
+ba2 <- baby %>% 
+  unite(ID,name,sex,year,sep="|") %>% 
+  distinct(ID) %>% 
+  nrow()
+
+#verify distinct ID count is equal to nrow of main dataset.
+ba1==ba2
+
+#check for lat, long, month, and year as unique key
+w <- nasaweather::atmos
+w1 <- nrow(w) 
+w2 <- w %>% unite(LLYM,lat,long,year,month,sep="|") %>% distinct(LLYM) %>% nrow()
+#verify distinct ID count is equal to nrow of main dataset.
+w1==w2
 
 ```
 
@@ -38,7 +70,66 @@ duplicate_entries  # Returns FALSE if no duplicate entries
 
 What is the relationship between the "Batting", "Master", and "Salaries" tables in the "Lahman" package? What are the keys for each dataset and how do they relate to each other?
 
+2.1 There is no "Master" datset in the Lahman package.  I used "Managers" instead.
+
+2.2 These tables do not have their own primary keys, but they can be generated.  It looks like one could use the combination of playerID, yearID, teamID, and lgID to generate a key to relate between the tables (all four datasets have those columns in common).  However, when comparing them, these combinations do not render unique / primary keys per table.
+
+2.2.1 Batting.  The combination of playerID, yearID, and stint can be combined into a single variable, I used ID, to create a key unique to each row.  However, when running intersections on their names, 
+
+2.2.2 Manager. Manager table, the minimum combination of playerID, yearID, and inseason will generate a unique key.
+
+2.2.3 Salaries.  The combination of playerID, yearID, and teamID generate a unique key per row.
+
+2.2.4. If one seeks to have keys that can be used to relate between the tables, any common combination of playerID|yearID|teamID|lgID can be used for relationships.
+
+2.3 If only using playerID|yearID as a key, it appears that there is a one-to-one relationship between salaries and managers, and many-to-many relationships between managers and batting, as well as batting and salaries 
+
 ```{r question-2-response}
+
+#data(package="Lahman")
+##in my perusal of the dataset...i didn't see a "master" table in Lahman.
+
+#in the spirit of the question...going to assume the question meant "manager".
+sal <- tibble(Lahman::Salaries)
+mast <- tibble(Lahman::Managers)
+bat <- tibble(Lahman::Batting)
+
+
+#using the below set operations, 
+#we know that available relatable, common keys between all tables are 
+#playerID, yearID, teamID, and lgID
+a <- intersect(names(mast),names(sal))
+b <- intersect(names(mast),names(bat))
+c <- intersect(names(bat),names(sal))
+result <- c %>% intersect(b) %>% intersect(a)
+
+#we know from the previous question that playerID|yearID|stint is unique...
+bat1 <- bat %>% unite(ID,playerID,yearID,stint,sep="|")
+nrow(bat)==nrow(distinct(bat1,ID))
+
+sal1 <- sal %>% unite(ID,playerID,yearID,teamID,sep="|")
+#compare number of rows for equality on suggested primary key
+nrow(sal)==nrow(distinct(sal1,ID))
+
+mast1 <-mast %>%  unite(ID,playerID,yearID,teamID,inseason,sep="|")
+nrow(mast)==nrow(distinct(mast1,ID))
+
+
+
+bat1 <- bat %>% unite(ID,playerID,yearID,sep="|")
+sal1 <- sal %>% unite(ID,playerID,yearID,sep="|")
+mast1 <-mast %>%  unite(ID,playerID,yearID,sep="|")
+#these joins demonstrate a many-to-many relationship...
+bat1 %>% left_join(sal1,by=c("ID"="ID"))
+bat1 %>% left_join(mast1,by=c("ID"="ID"))
+
+#this returns a single table...no many-to-many.
+sal1 %>% left_join(mast1,by=c("ID"="ID")) 
+
+#do it again and filter NAs...
+sal1 %>% left_join(mast1,by=c("ID"="ID")) %>% filter(!is.na(teamID.y))
+
+#same result returned...one-to-one relationship...no multiple matches.
 
 ```
 
@@ -47,16 +138,17 @@ What is the relationship between the "Batting", "Master", and "Salaries" tables 
 Load the "nycflights13" library. Use an appropriate join to add a column containing the airline name to the "flights" dataset present in the library. Be sure to put the carrier code and name in the first two columns of the result so we can see them. Save the result as "flights2".
 
 ```{r question-3-response}
-# Load the "nycflights13" library
 library(nycflights13)
 
-# Perform the join operation
-flights2 <- flights %>%
-  left_join(airlines, by = c("carrier" = "carrier")) %>%
-  select(carrier, name, everything())
+#copy into short variables for shorthand
+f <- flights
+a <- airlines
 
-# Display the first few rows of the result
-head(flights2[, c("carrier", "name")])
+#do a left-join with airlines on matching carrier and put in order
+(flights2 <- f %>% 
+  left_join(a,by=c("carrier"="carrier")) %>% 
+  rename(airline=name) %>% 
+  select(carrier,airline,everything()))
 ```
 
 ##### Question 4.
@@ -64,13 +156,16 @@ head(flights2[, c("carrier", "name")])
 Use an appropriate join to add the airport name to the "flights2" dataset you got above. The codes and names of the airports are in the "airports" dataset of the "nycflights13" package. Put the carrier and carrier name first followed by the destination and destination name, then everything else.
 
 ```{r question-4-response}
-# Perform the join operation
-flights2 <- flights2 %>%
-  left_join(airports, by = c("dest" = "faa")) %>%
-  select(carrier, name.x, dest, name.y, everything())
-
-# Display the first few rows of the updated dataset
-head(flights2[, c("carrier", "name.x", "dest", "name.y")])
+#use flights2 from previous question
+ap <- airports
+(flights2 <- flights2 %>% 
+  left_join(ap,c("origin"="faa")) %>% 
+  #append post-fixes to columns based on origin from airports table
+  rename_with(~ paste0(.x,".orig"),.cols=c(name,lat:tzone)) %>% 
+  left_join(ap,c("dest"="faa")) %>%
+  #append post-fixes to columns based on destination from airports table
+  rename_with( ~ paste0(.x,".dest"),.cols=c(name,lat:tzone)) %>% 
+  select(carrier,airline,dest,name.dest,origin,name.orig,everything()))
 ```
 
 ##### Question 5.
@@ -85,12 +180,22 @@ Use the textbook for reference.
 ```{r question-5-response}
 library(nycflights13)
 
-airports %>%
-  semi_join(flights, c("faa" = "dest")) %>%
-  ggplot(aes(lon, lat)) +
-    borders("state") +
-    geom_point() +
-    coord_quickmap()
+#summarize flight dataset to capture mean arrival delay by flight number
+air_flight_sum <- airports%>%
+  left_join(flights,by=c("faa"="dest"))%>%
+  group_by(faa)%>%
+  filter(!is.na(year))%>%
+  summarize(avg_arr_delay=mean(arr_delay,na.rm=TRUE))
+
+#join airports with average flight delay information
+airports%>%
+     semi_join(flights,c("faa"="dest"))%>%
+     left_join(air_flight_sum,by=c("faa"="faa"))%>%
+     ggplot(aes(lon, lat)) +
+     borders("state") +
+     geom_point(mapping=aes(color=avg_arr_delay)) +
+     coord_quickmap()
+
 ```
 
 ##### Question 6.
@@ -98,26 +203,21 @@ airports %>%
 Use a set operation function to find which airport codes from flights are not in the airports dataset.
 
 ```{r question-6-response}
-library(nycflights13)
-library(ggplot2)
-library(dplyr)
+#get the origins and destinations to make sure we capture all missing in airports
+#also - rename all to have a common variable name (airport)
+#get the listing of airport codes in the airport dataset for set comparison, too 
+ap <- airports %>% select(faa) %>% rename(airport=faa)
+f1 <- flights %>% select(origin) %>% rename(airport=origin)
+f2 <- flights %>% select(dest) %>% rename(airport=dest)
 
-# Join flights with airports to get location information
-flights <- flights %>%
-  left_join(airports, by = c("dest" = "faa")) %>%
-  left_join(airports, by = c("origin" = "faa"), suffix = c(".dest", ".origin"))
 
-# Compute average delay by destination
-avg_delay <- flights %>%
-  group_by(dest) %>%
-  summarise(avg_delay = mean(dep_delay, na.rm = TRUE))
-
-# Create a spatial map of delays
-ggplot(avg_delay, aes(x = lon.y, y = lat.y, size = avg_delay)) +
-  borders("state") +
-  geom_point() +
-  scale_size_continuous(name = "Average Delay", guide = "legend") +
-  labs(x = "Longitude", y = "Latitude", title = "Spatial Distribution of Delays by Destination")
+#taking the difference between origins and airports, 
+#and the difference between destinations and airports
+#should give us a total listing of anything in flights not in airports
+#use the union operator to join them together with distinct results
+##use flights as first param to setdiff to ensure that we're looking for 
+##flights that aren't in the airport dataset.
+union(setdiff(f1,ap),setdiff(f2,ap))
 
 ```
 

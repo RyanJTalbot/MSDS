@@ -13,7 +13,7 @@ For each response, include comments detailing your response and what each line d
 Load the stringr library
 
 ```{r libraries}
-
+library(stringr)
 ```
 
 ##### Question 1.
@@ -24,19 +24,12 @@ Use str_c to put `(` before the area codes followed by `)` and a space followed 
 
 ### Answer should be of the form "(703) 5551212" "(863) 1234567" "(404) 7891234" "(202) 4799747"
 
-# Load the stringr package
-library(stringr)
 
-# Define the area codes and phone numbers
 area_codes <- c(703, 863, 404, 202)
 phone_nums <- c(5551212, 1234567, 7891234, 4799747)
 
-# Format the phone numbers with area codes
 formatted_nums <- str_c("(", area_codes, ") ", phone_nums)
-
-# Print the formatted phone numbers
-print(formatted_nums)
-
+formatted_nums
 
 ```
 
@@ -45,25 +38,20 @@ print(formatted_nums)
 Create a function that receives a single word as an input. Use str_length() and str_sub() to extract the middle character from the string. What will you do if the string has an even number of characters? Test your function on the strings “hamburger” and “hotdog”
 
 ```{r quetsion-2-response}
-getMiddleCharacter <- function(word) {
+get_middle_character <- function(word) {
   length <- str_length(word)
+  middle_index <- length %/% 2 + 1
+  middle_character <- str_sub(word, middle_index, middle_index)
+  
   if (length %% 2 == 0) {
-    middle <- str_sub(word, length/2, length/2 + 1)
-  } else {
-    middle <- str_sub(word, (length+1)/2, (length+1)/2)
+    middle_character <- "Even length"
   }
-  return(middle)
+  
+  return(middle_character)
 }
 
-# Test the function
-word1 <- "hamburger"
-word2 <- "hotdog"
-
-middle1 <- getMiddleCharacter(word1)
-middle2 <- getMiddleCharacter(word2)
-
-print(middle1)
-print(middle2)
+get_middle_character("hamburger")
+get_middle_character("hotdog")
 
 ```
 
@@ -73,11 +61,10 @@ How would you match the sequence "’\? Note this is a double quote, single quot
 
 ```{r question-3-response}
 
-s <- "\"'\\?"
-s2 <- str_c("some stuff",s,"more!")
+sequence <- "\\\'\\\\\\?"
 
-#writeLines(s)
-#writeLines(s2)
+s2 <- str_c("some stuff", sequence, "more!")
+s2
 
 
 ```
@@ -88,22 +75,28 @@ Using the words provided in stringr::words, create regular expressions that find
 
 ```{r question-4-response}
 
-# End with "ing" or "ise"
+words <- stringr::words
 
+# a. End with "ing" or "ise"
+end_with_ing_or_ise <- str_subset(words, "(ing|ise)$")
 
-# Do not follow the rule "i before e except after c"
+# b. Do not follow the rule "i before e except after c"
+not_i_before_e <- str_subset(words, "ei|[^c]ie")
 
+# c. Begin with at least two vowels and end with at least two consonants
+begin_with_vowels_end_with_consonants <- str_subset(words, "^[aeiou]{2}.*[^aeiou]{2}$")
 
-# Begin with at least two vowels and end with at least two consonants
+# d. Contain a repeated pair of letters
+contain_repeated_pair <- str_subset(words, "(\\w)\\1")
 
+# e. Contain one letter other than "e" that is repeated in at least three places
+contain_repeated_letter <- str_subset(words, "(\\w)\\1{2,}")
 
-# Contain a repeated pair of letters (e.g. "church" contains "ch" twice)
-
-
-# Contain one letter other than e that is repeated in at least three places (e.g. “appropriate” contains three “p”s.)
-
-
-
+end_with_ing_or_ise
+not_i_before_e
+begin_with_vowels_end_with_consonants
+contain_repeated_pair
+contain_repeated_letter
 
 ```
 
@@ -112,25 +105,11 @@ Using the words provided in stringr::words, create regular expressions that find
 Using the sentences provided in stringr::sentences, find all words that come after a “number” like “one”, “two”, … “twelve”. Pull out both the number and the word.
 
 ```{r question-5-response}
-library(stringr)
-
-# Input sentences
 sentences <- stringr::sentences
 
-# Regular expression pattern to match numbers followed by words
-pattern <- "(?i)(one|two|three|four|five|six|seven|eight|nine|ten|eleven|twelve)\\s(\\w+)"
+after_number <- str_match(sentences, "(number)\\s+(\\w+)")[, 2:3]
 
-# Extract numbers and words
-matches <- str_match(sentences, pattern)
-
-# Extract the number and word from each match
-numbers <- matches[, 2]
-words <- matches[, 3]
-
-# Print the extracted numbers and words
-for (i in 1:length(numbers)) {
-  cat("Number:", numbers[i], "\tWord:", words[i], "\n")
-}
+after_number
 
 ```
 
@@ -139,32 +118,27 @@ for (i in 1:length(numbers)) {
 Using the sentences provided in stringr::sentences, view all sentences that contain the word “good” or the word “bad”. Get the sentence numbers where those words occur. Use str_replace_all() to replace the word “bad” with the word “horrible” and the word “good” with the word “great”. Look at the sentence numbers you found before to verify the words were replaced correctly.
 
 ```{r question-6-response}
-library(stringr)
-
-# Input sentences
 sentences <- stringr::sentences
 
-# Find sentences containing "good" or "bad"
-contains_good <- str_detect(sentences, "\\bgood\\b")
-contains_bad <- str_detect(sentences, "\\bbad\\b")
+# View sentences that contain the word "good" or "bad"
+good_sentences <- str_subset(sentences, "good")
+bad_sentences <- str_subset(sentences, "bad")
+
+good_sentences
+bad_sentences
 
 # Get sentence numbers where "good" or "bad" occur
-good_sentence_numbers <- which(contains_good)
-bad_sentence_numbers <- which(contains_bad)
+good_sentence_numbers <- which(str_detect(sentences, "good"))
+bad_sentence_numbers <- which(str_detect(sentences, "bad"))
 
-# Print sentences containing "good" or "bad"
-cat("Sentences containing 'good':\n")
-cat(sentences[contains_good], "\n\n")
-
-cat("Sentences containing 'bad':\n")
-cat(sentences[contains_bad], "\n\n")
+good_sentence_numbers
+bad_sentence_numbers
 
 # Replace "bad" with "horrible" and "good" with "great"
-replaced_sentences <- str_replace_all(sentences, "\\bbad\\b", "horrible")
-replaced_sentences <- str_replace_all(replaced_sentences, "\\bgood\\b", "great")
+replaced_sentences <- str_replace_all(sentences, c("bad" = "horrible", "good" = "great"))
 
-# Verify replacements
-cat("Replaced sentences:\n")
-cat(replaced_sentences[c(good_sentence_numbers, bad_sentence_numbers)], "\n")
+# Verify the words were replaced correctly
+replaced_sentences[bad_sentence_numbers]
+replaced_sentences[good_sentence_numbers]
 
 ```
