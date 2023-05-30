@@ -47,6 +47,46 @@ us_total_cases <- ''
 us_total_deaths <- ''
 
 
+
+
+# Remove Puerto Rico observations
+us_counties_2020 <- us_counties_2020[us_counties_2020$state != "Puerto Rico", ]
+us_counties_2021 <- us_counties_2021[us_counties_2021$state != "Puerto Rico", ]
+us_counties_2022 <- us_counties_2022[us_counties_2022$state != "Puerto Rico", ]
+
+# Combine the data sets
+combined_data <- rbind(us_counties_2020, us_counties_2021, us_counties_2022)
+
+# Convert the date column to Date type
+combined_data$date <- as.Date(combined_data$date)
+
+# Filter data from March 15, 2020, onwards
+combined_data <- combined_data[combined_data$date >= as.Date("2020-03-15"), ]
+
+# Calculate total cases and deaths
+total_cases <- sum(combined_data$cases)
+total_deaths <- sum(combined_data$deaths)
+
+# Find the most recent date
+max_date <- max(combined_data$date)
+
+us_total_cases <- total_cases
+us_total_deaths <- total_deaths
+
+
+# Filter data from March 15, 2020, onwards
+combined_data_filtered <- combined_data %>%
+  filter(date >= as.Date("2020-03-15"))
+
+# Calculate the total cases and deaths for each day
+daily_totals <- combined_data_filtered %>%
+  group_by(date) %>%
+  summarize(total_cases = sum(cases), total_deaths = sum(deaths))
+
+daily_totals
+
+
+
 ```
 
 ```{r p1q1-sample}
@@ -85,9 +125,30 @@ Create a visualization for the total number of deaths and cases in the US since 
 #
 ## YOUR CODE HERE ##
 
+library(ggplot2)
+
+# Create a line plot for total cases and deaths
+ggplot(daily_totals, aes(x = date)) +
+  geom_line(aes(y = total_cases, color = "Total Cases"), linewidth = 1.2) +
+  geom_line(aes(y = total_deaths, color = "Total Deaths"), linewidth = 1.2) +
+  labs(x = "Date", y = "Count", color = "Metric") +
+  scale_color_manual(values = c("Total Cases" = "blue", "Total Deaths" = "red")) +
+  theme_minimal()
+
+
+
 ```
 
 -- Communicate your methodology, results, and interpretation here -- 
+
+The line plot created using ggplot2 visualizes the total number of cases and deaths in the US since March 15, 2020. The x-axis represents the date, while the y-axis represents the count of cases and deaths. The plot includes two lines: one for total cases (in blue) and one for total deaths (in red). The plot provides a visual representation of the scale of the COVID-19 impact in the US over time.
+
+The steepness of the lines indicates the rate at which the numbers have been increasing. A steeper line indicates a higher rate of increase in cases or deaths. The plot allows us to observe trends and patterns in the cumulative totals, which can help understand the progression of the pandemic.
+
+It's important to note that the plot does not show the daily increase or decrease in cases and deaths but represents the cumulative totals. Therefore, caution should be exercised when interpreting the plot. Other factors, such as testing and reporting practices, should be considered to obtain a comprehensive understanding of the pandemic's impact.
+
+Overall, the visualization effectively presents the total COVID-19 cases and deaths in the US since March 15, 2020, allowing for an understanding of the magnitude and trend of the pandemic's impact over time.
+
 
 ##### Question 3
 
@@ -102,8 +163,20 @@ While it is important to know the total deaths and cases throughout the COVID-19
 #
 ## YOUR CODE HERE ##
 
-max_new_cases_date <- ''
-max_new_deaths_date <- ''
+# Calculate the number of new deaths and cases each day
+daily_totals <- daily_totals %>%
+  mutate(delta_deaths_1 = total_deaths - lag(total_deaths),
+         delta_cases_1 = total_cases - lag(total_cases))
+
+# Calculate a seven-day average of new deaths and cases
+daily_totals <- daily_totals %>%
+  mutate(delta_deaths_7 = zoo::rollmeanr(delta_deaths_1, k = 7, fill = NA),
+         delta_cases_7 = zoo::rollmeanr(delta_cases_1, k = 7, fill = NA))
+
+daily_totals
+
+
+
 
 ```
 
@@ -140,6 +213,14 @@ max_new_deaths_date <- ''
 
 -- Communicate your methodology, results, and interpretation here -- 
 
+first calculated the total number of cases and deaths across all dates, which resulted in a total of 84,300,700 cases and 1,436,970 deaths in the US.
+
+Then, we focused on the daily data and calculated the cumulative number of cases and deaths for each date. We also computed the number of new deaths and cases since the previous day by taking the difference between the current day's total deaths and cases and the previous day's total deaths and cases.
+
+Additionally, we calculated the seven-day average of new deaths and cases using the rollmeanr function from the zoo package. This rolling average provides a smoothed trend over a seven-day period, helping to identify any underlying patterns in the data.
+
+The resulting tibble, daily_totals, contains the date, total deaths, total cases, number of new deaths since the previous day (delta_deaths_1), number of new cases since the previous day (delta_cases_1), seven-day average of deaths (delta_deaths_7), and seven-day average of cases (delta_cases_7).
+
 ##### Question 4
 
 
@@ -171,6 +252,31 @@ max_new_deaths_date <- ''
 
 ## YOUR CODE HERE ##
 
+# Tidy the population estimates data
+us_population_estimates_tidy <- us_population_estimates %>%
+  pivot_longer(cols = -c(STNAME, CTYNAME), names_to = "year", values_to = "population") %>%
+  mutate(year = str_extract(year, "\\d+")) %>%
+  select(STNAME, CTYNAME, year, population) %>%
+  mutate(FIPS = paste0(STNAME, CTYNAME)) %>%
+  select(FIPS, year, population)
+
+# Calculate the US population in 2020 and 2021
+us_population_2020 <- sum(us_population_estimates_tidy$population[us_population_estimates_tidy$year == "2020"])
+us_population_2021 <- sum(us_population_estimates_tidy$population[us_population_estimates_tidy$year == "2021"])
+
+# Divide each statistic by the estimated population and multiply by 100,000
+daily_totals_per_100k <- daily_totals %>%
+  mutate(delta_deaths_1 = (delta_deaths_1 / us_population_2020) * 100000,
+         delta_cases_1 = (delta_cases_1 / us_population_2020) * 100000,
+         delta_deaths_7 = case_when(year(date) == 2020 ~ (delta_deaths_7 / us_population_2020) * 100000,
+                                    year(date) == 2021 ~ (delta_deaths_7 / us_population_2021) * 100000),
+         delta_cases_7 = case_when(year(date) == 2020 ~ (delta_cases_7 / us_population_2020) * 100000,
+                                   year(date) == 2021 ~ (delta_cases_7 / us_population_2021) * 100000))
+
+daily_totals_per_100k
+
+
+
 ```
 
 ```{r p1q4-sample}
@@ -201,12 +307,38 @@ max_new_deaths_date <- ''
 ```
 
 -- Communicate your methodology, results, and interpretation here -- 
+ I followed these steps:
+
+    Tidied the population estimates data by pivoting it to a longer format and extracting the year from the column names.
+    Calculated the US population in 2020 and 2021 by summing the population values for the corresponding years.
+    Divided each statistic in the daily_totals data by the estimated population and multiplied by 100,000 to obtain the per 100,000 people values. For the delta_deaths_7 and delta_cases_7 columns, I used case_when() to handle the different population estimates for 2020 and 2021.
+
+The resulting tibble, daily_totals_per_100k, contains the following columns:
+
+    date: The date associated with the statistics.
+    total_deaths: The cumulative number of deaths up to and including the associated date.
+    total_cases: The cumulative number of cases up to and including the associated date.
+    delta_deaths_1: The number of new deaths per 100,000 people since the previous day.
+    delta_cases_1: The number of new cases per 100,000 people since the previous day.
+    delta_deaths_7: The average number of deaths per 100,000 people in a seven-day period, considering the different population estimates for 2020 and 2021.
+    delta_cases_7: The average number of cases per 100,000 people in a seven-day period, considering the different population estimates for 2020 and 2021.
 
 #### Question 5
 
 ```{r p1q5-response}
 
 # Create a visualization to compare the seven-day average cases and deaths per 100,000 people. 
+
+# Plotting the seven-day average cases and deaths per 100,000 people
+ggplot(daily_totals_per_100k, aes(x = date)) +
+  geom_point(aes(y = delta_cases_7, color = "Cases"), size = 3) +
+  geom_point(aes(y = delta_deaths_7, color = "Deaths"), size = 3) +
+  labs(title = "Seven-day Average Cases and Deaths per 100,000 People",
+       x = "Date", y = "Count per 100,000 People") +
+  scale_color_manual(values = c("Cases" = "blue", "Deaths" = "red")) +
+  theme_minimal() +
+  scale_x_date(date_labels = "%b %Y", date_breaks = "1 month") +
+  theme(axis.text.x = element_text(angle = 45, hjust = 1))
 
 
 ```
@@ -226,6 +358,9 @@ Once you have both lists, briefly describe your methodology and your results.
 ```{r p2q1-response}
 
 # Determine the top 10 states in terms of total deaths and cases between March 15, 2020, and December 31, 2021. To do this, transform your combined COVID-19 data to summarize total deaths and cases by state up to December 31, 2021. 
+
+
+
 
 ```
 
@@ -388,8 +523,8 @@ Modify the code below for the map projection to plot county-level deaths and cas
 #
 # Reference the plot_usmap documentation for further information using ?plot_usmap
 
-plot_usmap(regions = "county", include="CO", data = colorado_county, values = "total_deaths", color = "blue") +
-  scale_fill_continuous(low = "white", high = "blue", name = "Deaths per 100,000")
+#  plot_usmap(regions = "county", include="CO", data = colorado_county, values = "total_deaths", color = "blue") +
+ #  scale_fill_continuous(low = "white", high = "blue", name = "Deaths per 100,000")
 
 ```
 
