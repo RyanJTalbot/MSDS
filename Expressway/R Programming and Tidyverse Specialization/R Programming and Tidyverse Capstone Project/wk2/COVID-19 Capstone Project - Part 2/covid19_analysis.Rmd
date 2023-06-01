@@ -46,7 +46,25 @@ max_date <- '' # replace the quotes with your code to find the most recent date 
 us_total_cases <- ''
 us_total_deaths <- ''
 
+us_counties_total <- rbind(us_counties_2020, us_counties_2021, us_counties_2022)
 
+total <- us_counties_total %>%
+  filter(!us_counties_total$state =="Puerto Rico" & !us_counties_total$date < "2020-03-15") %>%
+  group_by(date) %>%
+  summarise(
+    total_cases = sum(cases),
+    total_deaths = sum(deaths)
+  )
+
+
+max_date <- tail(total$date, n=1)
+us_total_cases <- format(tail(total$total_cases, n = 1), format = "f", big.mark = ",")
+us_total_deaths <- format(tail(total$total_deaths, n = 1), format = "f", big.mark = ",")
+
+
+total_deaths
+total_cases
+us_counties_total
 ```
 
 ```{r p1q1-sample}
@@ -73,6 +91,15 @@ us_total_deaths <- ''
 
 -- Communicate your methodology, results, and interpretation here -- 
 
+Methodology:
+To combine and tidy the 2020, 2021, and 2022 COVID data sets, I used the rbind() function to stack the three data sets on top of each other. I then removed the observations from Puerto Rico, as they were not needed for the analysis. I converted the date column to the Date format and filtered the data to include only dates from March 15, 2020, onwards. I calculated the total cases and deaths by summing the corresponding columns in the data set. Finally, I created a tibble with the total deaths and cases for each day since March 15, 2020.
+
+Results:
+The resulting tibble shows the total deaths and cases for each day since March 15, 2020. The most recent date in the data set is r max_date. The total number of COVID-19 cases since March 15, 2020, is r us_total_cases, and the total number of deaths is r us_total_deaths.
+
+Interpretation:
+Since March 15, 2020, there have been r us_total_cases COVID-19 cases and r us_total_deaths deaths reported in the United States. The daily totals of cases and deaths are provided in the tibble, allowing for further analysis of the progression of the pandemic over time. These figures serve as a starting point for understanding the impact of COVID-19 in the United States and can be used for more detailed analyses and visualizations.
+
 As of `r format(max_date, "%B %d, %Y")`, ... 
 
 ##### Question 2 
@@ -84,6 +111,18 @@ Create a visualization for the total number of deaths and cases in the US since 
 # Create a visualization for the total number of US cases and deaths since March 15, 2020. 
 #
 ## YOUR CODE HERE ##
+
+library(ggplot2)
+
+us_total_cases <- format(total$total_cases,format = "f", big.mark = ",")
+total %>%
+  ggplot(aes(date, total_cases, color=total_deaths)) +
+  scale_x_date(date_break = "4 months", date_labels = "%m %y") +
+  geom_line(size=1)+
+  ggtitle("US COVID-19") +
+  ylab(label = "Total Cases") +
+  xlab(label = "Date")
+
 
 ```
 
@@ -105,6 +144,22 @@ While it is important to know the total deaths and cases throughout the COVID-19
 max_new_cases_date <- ''
 max_new_deaths_date <- ''
 
+
+us_counties_deaths <- total %>%
+  mutate(cases_1 = total_cases - (lag(total_cases, 1)),
+    deaths_1 = total_deaths - (lag(total_deaths, 1)),
+    cases_7 = (total_cases - (lag(total_cases, 7)))/7,
+    deaths_7 = (total_deaths - (lag(total_deaths, 7)))/7) %>%
+  select(date, total_deaths, total_cases, deaths_1, cases_1,
+    deaths_7, cases_7)
+
+us_counties_deaths
+
+
+max_new_cases_date <- us_counties_deaths %>% filter(cases_1 == max(cases_1, na.rm = TRUE)) %>%select(date)
+max_new_deaths_date <- us_counties_deaths %>% filter(deaths_1 == max(deaths_1, na.rm = TRUE)) %>%select(date)
+max_new_deaths_date
+max_new_cases_date
 ```
 
 ```{r p1q3-sample}
@@ -170,7 +225,49 @@ max_new_deaths_date <- ''
 #
 
 ## YOUR CODE HERE ##
+us_pop_estimate <- us_population_estimates %>%
+  group_by(Year) %>%
+  summarize(pop_est = sum(Estimate))
 
+
+us_pop_estimate
+
+
+pop_est_2020 <- us_pop_estimate %>%
+  filter(Year == "2020") %>%
+  select(pop_est)
+
+pop_2020 <- pop_est_2020[[1]]
+
+# Pop_Estimate 2021
+pop_est_2021 <- us_pop_estimate %>%
+  filter(Year == "2021") %>%
+  select(pop_est)
+
+pop_2021 <- pop_est_2021[[1]]
+
+per_100tous <- us_counties_deaths %>%
+  mutate(total_deaths_1 = case_when(grepl("2020", date) ~ (total_deaths / pop_2020) * 100000,
+                                    grepl("2021", date) ~ (total_deaths / pop_2021) * 100000,
+                                    grepl("2022", date) ~ (total_deaths / pop_2021) * 100000),
+         total_cases_1 = case_when(grepl("2020", date) ~ (total_cases / pop_2020) * 100000,
+                              grepl("2021", date) ~ (total_cases / pop_2021) * 100000,
+                              grepl("2022", date) ~ (total_cases / pop_2021) * 100000),
+         delta_deaths_1 = case_when(grepl("2020", date) ~ (deaths_1 / pop_2020) * 100000,
+                               grepl("2021", date) ~ (deaths_1 / pop_2021) * 100000,
+                               grepl("2022", date) ~ (deaths_1 / pop_2021) * 100000),
+         delta_cases_1 = case_when(grepl("2020", date) ~ (cases_1 / pop_2020) * 100000,
+                              grepl("2021", date) ~ (cases_1 / pop_2021) * 100000,
+                              grepl("2022", date) ~ (cases_1 / pop_2021) * 100000),
+         delta_cases_7 = case_when(grepl("2020", date) ~ (cases_7 / pop_2020) * 100000,
+                              grepl("2021", date) ~ (cases_7 / pop_2021) * 100000,
+                              grepl("2022", date) ~ (cases_7 / pop_2021) * 100000),
+         delta_deaths_7 = case_when(grepl("2020", date) ~ (deaths_7 / pop_2020) * 100000,
+                               grepl("2021", date) ~ (deaths_7 / pop_2021) * 100000,
+                               grepl("2022", date) ~ (deaths_7 / pop_2021) * 100000)) %>%
+  select(date, total_deaths_1, total_cases_1, delta_deaths_1, delta_cases_1, delta_deaths_7)
+
+per_100tous
 ```
 
 ```{r p1q4-sample}
@@ -208,7 +305,10 @@ max_new_deaths_date <- ''
 
 # Create a visualization to compare the seven-day average cases and deaths per 100,000 people. 
 
-
+ggplot(per_100tous, aes(date, delta_deaths_7)) + geom_line(color = "black") +
+  labs(x= "Date",
+       y= "Average Deaths") +
+  ggtitle("Avarege for Deaths")
 ```
 
 -- Communicate your methodology, results, and interpretation here -- 
@@ -227,6 +327,40 @@ Once you have both lists, briefly describe your methodology and your results.
 
 # Determine the top 10 states in terms of total deaths and cases between March 15, 2020, and December 31, 2021. To do this, transform your combined COVID-19 data to summarize total deaths and cases by state up to December 31, 2021. 
 
+
+# Filter the COVID-19 data for the specified time range
+filtered_data <- covid_data[covid_data$date >= "2020-03-15" & covid_data$date <= "2021-12-31", ]
+
+# Group the data by state and calculate the total deaths and cases
+summarized_data <- aggregate(cbind(deaths, cases) ~ state, data = filtered_data, sum)
+
+# Get the maximum date in the filtered data
+max_date <- max(filtered_data$date)
+
+# Add the maximum date as a column in the summarized data
+summarized_data$date <- max_date
+
+# Sort the summarized data by total deaths in descending order
+sorted_data_deaths <- summarized_data[order(summarized_data$deaths, decreasing = TRUE), ]
+
+# Select the top 10 states based on total deaths
+top_10_deaths <- head(sorted_data_deaths, 10)
+
+# Sort the summarized data by total cases in descending order
+sorted_data_cases <- summarized_data[order(summarized_data$cases, decreasing = TRUE), ]
+
+# Select the top 10 states based on total cases
+top_10_cases <- head(sorted_data_cases, 10)
+
+# Print the results
+cat("Top 10 states by total deaths:\n")
+print(top_10_deaths)
+
+cat("\nTop 10 states by total cases:\n")
+print(top_10_cases)
+
+
+top_10_cases
 ```
 
 ```{r p2q1-sample}
@@ -259,7 +393,49 @@ Once you have both lists, briefly describe your methodology and your results. Do
 
 ```{r p2q2-response}
 
-# Determine the top 10 states in terms of deaths and cases per 100,000 people between March 15, 2020, and December 31, 2021. You should first tidy and transform the population estimates to include population totals by state. Use your relational data verbs (e.g. full_join()) to join the population estimates with the cases and death statistics using the state name as a key. Then, use case_when() and grepl() to add a population column to your table that only includes the estimated population for the associated year. Finally, mutate your table to calculate deaths and cases per 100,000 people and summarize by state. 
+tidy_population
+covid_data
+# Replace `population_data` with the actual name of your population data frame
+
+# Tidy and transform the population estimates data
+tidy_population <- us_pop_estimate %>%
+  pivot_longer(cols = starts_with("pop"), names_to = "year", values_to = "population") %>%
+  mutate(year = as.integer(year))
+
+# Join the population estimates with the cases and death statistics
+merged_data <- full_join(covid_data, tidy_population, by = "STNAME")
+
+# Add a population column that only includes the estimated population for the associated year
+merged_data <- merged_data %>%
+  mutate(population = case_when(
+    year >= 2019 & year <= 2021 ~ population,
+    grepl("2018 Population Estimate", variable) ~ population
+  ))
+
+# Mutate the table to calculate deaths and cases per 100,000 people
+merged_data <- merged_data %>%
+  mutate(deaths_per_100k = (deaths / population) * 100000,
+         cases_per_100k = (cases / population) * 100000)
+
+# Summarize the data by state
+summarized_data <- merged_data %>%
+  group_by(state) %>%
+  summarize(deaths_per_100k = sum(deaths_per_100k),
+            cases_per_100k = sum(cases_per_100k)) %>%
+  arrange(desc(deaths_per_100k), desc(cases_per_100k))
+
+# Select the top 10 states based on deaths per 100,000 people
+top_10_deaths_per_100k <- head(summarized_data, 10)
+
+# Select the top 10 states based on cases per 100,000 people
+top_10_cases_per_100k <- head(summarized_data, 10)
+
+# Print the results
+cat("Top 10 states by deaths per 100,000 people:\n")
+print(top_10_deaths_per_100k)
+
+cat("\nTop 10 states by cases per 100,000 people:\n")
+print(top_10_cases_per_100k)
 
 ```
 
