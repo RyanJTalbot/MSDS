@@ -46,25 +46,27 @@ max_date <- '' # replace the quotes with your code to find the most recent date 
 us_total_cases <- ''
 us_total_deaths <- ''
 
-us_counties_total <- rbind(us_counties_2020, us_counties_2021, us_counties_2022)
 
-total <- us_counties_total %>%
-  filter(!us_counties_total$state =="Puerto Rico" & !us_counties_total$date < "2020-03-15") %>%
+
+
+us_counties_20to22 <- bind_rows(us_counties_2020, us_counties_2021, us_counties_2022) %>%
+  filter(!state %in% "Puerto Rico") %>%
+  filter(!date < "2020-03-15")
+
+totals <- us_counties_20to22 %>%
   group_by(date) %>%
-  summarise(
-    total_cases = sum(cases),
-    total_deaths = sum(deaths)
-  )
+  summarise(`total deaths` = sum(deaths), 
+            `total cases` = sum(cases))
+
+max_date <- max(totals$date)
+us_total_cases <- max(totals$`total cases`)
+us_total_deaths <- max(totals$`total deaths`)
 
 
-max_date <- tail(total$date, n=1)
-us_total_cases <- format(tail(total$total_cases, n = 1), format = "f", big.mark = ",")
-us_total_deaths <- format(tail(total$total_deaths, n = 1), format = "f", big.mark = ",")
+max_date
+us_total_cases
+us_total_deaths
 
-
-total_deaths
-total_cases
-us_counties_total
 ```
 
 ```{r p1q1-sample}
@@ -114,14 +116,20 @@ Create a visualization for the total number of deaths and cases in the US since 
 
 library(ggplot2)
 
-us_total_cases <- format(total$total_cases,format = "f", big.mark = ",")
-total %>%
-  ggplot(aes(date, total_cases, color=total_deaths)) +
-  scale_x_date(date_break = "4 months", date_labels = "%m %y") +
-  geom_line(size=1)+
-  ggtitle("US COVID-19") +
-  ylab(label = "Total Cases") +
-  xlab(label = "Date")
+us_counties_20to22 %>%
+  group_by(date) %>%
+  summarise(cases = sum(cases), deaths = sum(deaths)) %>%
+  ggplot(aes(x = date)) + 
+  geom_smooth(aes(y=deaths, colour="deaths"), se = FALSE) +
+  geom_smooth(aes(y=cases, colour="cases"), se = FALSE) +
+  scale_color_manual(name = "Covid-19", values= c("cases" = "blue", "deaths" = "red")
+  ) + 
+  scale_y_continuous(
+    name = NULL,
+    trans = "log10",
+    labels = scales::label_number_si()
+  ) +
+  ggtitle("Total covid-19 cases and deaths in us")
 
 
 ```
@@ -145,21 +153,18 @@ max_new_cases_date <- ''
 max_new_deaths_date <- ''
 
 
-us_counties_deaths <- total %>%
-  mutate(cases_1 = total_cases - (lag(total_cases, 1)),
-    deaths_1 = total_deaths - (lag(total_deaths, 1)),
-    cases_7 = (total_cases - (lag(total_cases, 7)))/7,
-    deaths_7 = (total_deaths - (lag(total_deaths, 7)))/7) %>%
-  select(date, total_deaths, total_cases, deaths_1, cases_1,
-    deaths_7, cases_7)
+totals <- us_counties_20to22 %>%
+  group_by(date) %>%
+  summarise(`total deaths` = sum(deaths),
+            `total cases` = sum(cases)) %>%
+  mutate(`delta_deaths_1` = `total deaths` - lag(`total deaths`),
+         `delta_cases_7` = `total cases` - lag(x = `total cases`, n = 1, order_by=date),
+         `delta_deaths_7` = zoo::rollmean(`total deaths`, k = 7, fill = NA),
+         `delta_cases_7` = zoo::rollmean(`total cases`, k = 7, fill=NA))
+totals
 
-us_counties_deaths
 
 
-max_new_cases_date <- us_counties_deaths %>% filter(cases_1 == max(cases_1, na.rm = TRUE)) %>%select(date)
-max_new_deaths_date <- us_counties_deaths %>% filter(deaths_1 == max(deaths_1, na.rm = TRUE)) %>%select(date)
-max_new_deaths_date
-max_new_cases_date
 ```
 
 ```{r p1q3-sample}
