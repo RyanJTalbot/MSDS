@@ -53,17 +53,11 @@
 
 - Relational Database Design - 36 hours
 - The Structured Query Language (SQL) - 25 hours
-- Advanced Topics and Future Trends in Database Technologies - 17 hours - this course is considered an elective
+- Advanced Topics and Future Trends in Database Technologies - 17 hours
 
 ---
 
 ## [Elective Courses](https://github.com/RyanJTalbot/MSDS/tree/main/Electives-9credits):
-
-#### [Statistical Learning for Data Science](https://github.com/RyanJTalbot/MSDS/tree/main/Electives-9credits/Statistical%20Learning%20for%20Data%20Science%20%20-%201%20credit)
-
-- Regression and Classification - 34 hours
-- Resampling, Selection, and Splines
-- Trees, SVM, and Unsupervised Learning
 
 #### [Text marketing analytics](https://github.com/RyanJTalbot/MSDS/tree/main/Electives-9credits/Text%20Marketing%20Analytics%20Specialization%20-%203%20credits) - 35 hours
 
@@ -75,12 +69,40 @@
 
 - Deep Learning Applications for Computer Vision - 23 hours
 
+#### [Data Science Methods for Quality Improvement Specialization](https://github.com/RyanJTalbot/MSDS/tree/main/Electives-9credits/Data%20Science%20Methods%20for%20Quality%20Improvement%20Specialization%20-%203%20Credits) - 42 hours
+
+- Managing, Describing, and Analyzing Data - 17 hours
+- Stability and Capability in Quality Improvement - 9 hours
+- Measurement Systems Analysis - 16 hours
+
+#### [Introduction to High-Performance and Parallel Computing](https://github.com/RyanJTalbot/MSDS/tree/main/Electives-9credits/Introduction%20to%20High-Performance%20and%20Parallel%20Computing%20-%201%20credit) - 24 hours
+
+- Introduction to High-Performance and Parallel Computing - 24 hours
+
+#### [Finance for Technical Managers Specialization](https://github.com/RyanJTalbot/MSDS/tree/main/Electives-9credits/Finance%20for%20Technical%20Managers%20Specialization%20-%203%20credits) - 50 hours
+
+- Product Cost and Investment Cash Flow Analysis - 20 hours
+- Project Valuation and the Capital Budgeting Process - 17 hours
+- Financial Forecasting and Reporting - 13 hours
+
 #### [Effective Communication](https://github.com/RyanJTalbot/MSDS/tree/main/Electives-9credits/Effective%20Communication%20Writing%2C%20Design%2C%20and%20Presentation%20Specialization%20-%202%20credits) - 74 hours
 
 - Business Writting - 12 hours
 - Graphic Design - 29 hours
 - Successful Presentation - 20 hours
 - Effective communication capstone project - 13 hours
+
+#### [Statistical Learning for Data Science](https://github.com/RyanJTalbot/MSDS/tree/main/Electives-9credits/Statistical%20Learning%20for%20Data%20Science%20%20-%201%20credit)
+
+- Regression and Classification - 34 hours
+- Resampling, Selection, and Splines
+- Trees, SVM, and Unsupervised Learning
+
+#### [Software Architecture for Big Data Specialization](https://github.com/RyanJTalbot/MSDS/tree/main/Electives-9credits/Software%20Architecture%20for%20Big%20Data%20Specialization%20-%203%20credits)
+
+- Applications of Software Architecture for Big Data
+- Fundamentals of Software Architecture for Big Data
+- Software Architecture Patterns for Big Data
 
 ### Elective courses (9 credits)
 
@@ -93,16 +115,13 @@
 - Stability and Capability in Quality Improvement (1 credit)
 - Measurement Systems Analysis (1 credit)
 - Introduction to High-Performance and Parallel Computing (1 credit)
--
 - Product Cost and Investment Cash Flow Analysis (1 credit)
 - Project Valuation and the Capital Budgeting Process (1 credit)
 - Financial Forecasting and Reporting (1 credit)
--
 - Effective Communication: Writing, Design, and Presentation Specialization (2 credits)
 - Fundamentals of Software Architecture for Big Data (1 credit)
 - Software Architecture Patterns for Big Data (1 credit)
 - Applications of Software Architecture for Big Data (1 credit)
--
 - Project Management: Foundations and Initiation (1 credit)
 - Project Planning and Execution (1 credit)
 - Agile Project Management (1 credit)
@@ -111,6 +130,6 @@
 - Applications of Software Architecture for Big Data
 - IBM Applied Data Science Capstone (1 credit)
 
-Elective courses are also required to earn the degree, but allow more flexibility. Students must complete 9 elective credits to earn the degree, and can choose from a variety of available options.
+Students must complete 9 elective credits to earn the degree, and can choose from a variety of available options.
 
 https://www.coursera.org/degrees/master-of-science-data-science-boulder/academics
