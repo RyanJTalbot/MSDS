@@ -2,9 +2,9 @@
 
 ---
 
-## Pathway:
+## [Pathway](https://github.com/RyanJTalbot/MSDS/tree/main/Pathway%20-%20Specialization):
 
-#### Data Science Foundations: Statistical Inference - 113 hours
+#### [Data Science Foundations: Statistical Inference](https://github.com/RyanJTalbot/MSDS/tree/main/Pathway%20-%20Specialization/Data%20Science%20Foundations%20-%20Statistical%20Inference%20Specialization%20) - 113 hours
 
 - Probability theory: Applications for Data Science - 48 hours
 - Statistical Inference for estimation in Data Science - 28 hours
@@ -12,9 +12,9 @@
 
 ---
 
-## Vital Skills:
+## [Vital Skills](https://github.com/RyanJTalbot/MSDS/tree/main/Vital%20Skills):
 
-#### Vital skills for Data Scientists - 68 hours
+#### [Vital skills for Data Scientists](https://github.com/RyanJTalbot/MSDS/tree/main/Vital%20Skills/Vital%20Skills%20for%20Data%20Science%20Specialization) - 68 hours
 
 - Data Science as a field - 11 hours
 - Cybersecurity for data science - 19 hours
@@ -23,33 +23,33 @@
 
 ---
 
-## Core Courses:
+## [Core Courses](https://github.com/RyanJTalbot/MSDS/tree/main/Core):
 
-#### Data Science Foundations: Data Structure and Algorithms - 107 hours
+#### [Data Science Foundations: Data Structure and Algorithms](https://github.com/RyanJTalbot/MSDS/tree/main/Pathway%20-%20Specialization/Data%20Structures%20and%20Algorithms%20Specialization) - 107 hours
 
 - Algorithms for searching, sorting and indexing - 35 hours
 - Trees and graphs: basics - 34 hours
 - Dynamic programming, Greedy algorithms - 38 hours
 
-#### Data Mining Foundations and Practice - 82 hours
+#### [Data Mining Foundations and Practice](https://github.com/RyanJTalbot/MSDS/tree/main/Core/Data%20Mining%20Foundations) - 82 hours
 
 - Data Mining Pipeline - 21 hours
 - Data Mining Methods - 23 hours
 - Data Mining Projects - 38 hours
 
-#### Statistical Modeling for Data Science - 127 hours
+#### [Statistical Modeling for Data Science](https://github.com/RyanJTalbot/MSDS/tree/main/Core/Statistical%20Modeling%20for%20Data%20Science%20Applications%20Specialization) - 127 hours
 
 - Modern Regression analysis in R - 45 hours
 - ANOVA Experimental Design - 40 hours
 - Generalized Linear Models and nonparametric regression - 42 hours
 
-#### Machine Learning - 139 hours
+#### [Machine Learning](https://github.com/RyanJTalbot/MSDS/tree/main/Core/Machine%20Learning%3A%20Theory%20and%20Hands-on%20Practice%20with%20Python%20Specialization%20) - 139 hours
 
 - Introduction to Machine Learning: Supervised Learning - 40 hours
 - Unsupervised Algorithms in Machine Learning - 38 hours
 - Introduction to Deep Learning - 61 hours
 
-#### Databases - 61 hours
+#### [Databases](https://github.com/RyanJTalbot/MSDS/tree/main/Core/Databases%20for%20Data%20Scientists%20Specialization) - 61 hours
 
 - Relational Database Design - 36 hours
 - The Structured Query Language (SQL) - 25 hours
@@ -57,25 +57,25 @@
 
 ---
 
-## Elective Courses:
+## [Elective Courses](https://github.com/RyanJTalbot/MSDS/tree/main/Electives-9credits):
 
-#### Statistical Learning for Data Science
+#### [Statistical Learning for Data Science](https://github.com/RyanJTalbot/MSDS/tree/main/Electives-9credits/Statistical%20Learning%20for%20Data%20Science%20%20-%201%20credit)
 
 - Regression and Classification - 34 hours
 - Resampling, Selection, and Splines
 - Trees, SVM, and Unsupervised Learning
 
-#### Text marketing analytics - 35 hours
+#### [Text marketing analytics](https://github.com/RyanJTalbot/MSDS/tree/main/Electives-9credits/Text%20Marketing%20Analytics%20Specialization%20-%203%20credits) - 35 hours
 
 - Supervised Text Classification for Marketing Analytics - 12 hours
 - Unsupervised Text Classification for marketing analytics - 13 hours
 - Network analysis for marketing analytics - 10 hours
 
-#### Deep Learning applications for Computer vision - 23 hours
+#### [Deep Learning applications for Computer vision](https://github.com/RyanJTalbot/MSDS/tree/main/Electives-9credits/Deep%20Learning%20Applications%20for%20Computer%20Vision%20-%201%20credit) - 23 hours
 
 - Deep Learning Applications for Computer Vision - 23 hours
 
-#### Effective Communication - 74 hours
+#### [Effective Communication](https://github.com/RyanJTalbot/MSDS/tree/main/Electives-9credits/Effective%20Communication%20Writing%2C%20Design%2C%20and%20Presentation%20Specialization%20-%202%20credits) - 74 hours
 
 - Business Writting - 12 hours
 - Graphic Design - 29 hours
