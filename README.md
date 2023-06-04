@@ -95,14 +95,14 @@
 #### [Statistical Learning for Data Science](https://github.com/RyanJTalbot/MSDS/tree/main/Electives-9credits/Statistical%20Learning%20for%20Data%20Science%20%20-%201%20credit)
 
 - Regression and Classification - 34 hours
-- Resampling, Selection, and Splines
-- Trees, SVM, and Unsupervised Learning
+- Resampling, Selection, and Splines - Coming soon!
+- Trees, SVM, and Unsupervised Learning - Coming soon!
 
-#### [Software Architecture for Big Data Specialization](https://github.com/RyanJTalbot/MSDS/tree/main/Electives-9credits/Software%20Architecture%20for%20Big%20Data%20Specialization%20-%203%20credits)
+#### [Software Architecture for Big Data Specialization](https://github.com/RyanJTalbot/MSDS/tree/main/Electives-9credits/Software%20Architecture%20for%20Big%20Data%20Specialization%20-%203%20credits) - 63 hours
 
-- Applications of Software Architecture for Big Data
-- Fundamentals of Software Architecture for Big Data
-- Software Architecture Patterns for Big Data
+- Applications of Software Architecture for Big Data - 17 hours
+- Fundamentals of Software Architecture for Big Data - 23 hours
+- Software Architecture Patterns for Big Data - 23 hours
 
 ### Elective courses (9 credits)
 
@@ -125,9 +125,6 @@
 - Project Management: Foundations and Initiation (1 credit)
 - Project Planning and Execution (1 credit)
 - Agile Project Management (1 credit)
-- Fundamentals of Software Architecture for Big Data
-- Software Architecture Patterns for Big Data
-- Applications of Software Architecture for Big Data
 - IBM Applied Data Science Capstone (1 credit)
 
 Students must complete 9 elective credits to earn the degree, and can choose from a variety of available options.
