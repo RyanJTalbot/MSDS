@@ -1,0 +1,142 @@
+---
+title: "String Manipulation and Regular Expressions Assignment"
+author: 'Owen Y.'
+---
+##### Assignment Instructions
+
+Complete all questions below. After completing the assignment, knit your document, and download both your .Rmd and knitted output. Upload your files for peer review. 
+
+For each response, include comments detailing your response and what each line does. Ensure you test your functions with sufficient test cases to identify and correct any potential bugs.
+
+##### Required Libraries
+
+Load the stringr library
+
+```{r libraries}
+library(tidyverse)
+```
+
+##### Question 1.
+
+Use str_c to put `(` before the area codes followed by `)` and a space followed by the phone number. 
+
+```{r question-1-response}
+
+### Answer should be of the form "(703) 5551212" "(863) 1234567" "(404) 7891234" "(202) 4799747"
+
+area_codes <- c(703, 863, 404, 202)
+phone_nums <- c(5551212, 1234567, 7891234, 4799747)
+
+#This alters area_codes to have the parentheses 
+area_codes <- str_c("(", area_codes, ")")
+
+#concatenates the two string vectors and adds a space in between them 
+area_codes %>%
+  str_c(phone_nums, sep = " ")
+```
+
+##### Question 2.
+
+Create a function that receives a single word as an input. Use str_length() and str_sub() to extract the middle character from the string. What will you do if the string has an even number of characters? Test your function on the strings “hamburger” and “hotdog”
+
+```{r quetsion-2-response}
+#If a word had an even amount of characters, i did the middle two (hotdog would return td, as an example)
+extract_middle <- function(x){
+  #if else statement determines if string is of even or odd length 
+  if(str_length(x) %% 2 == 0){
+    #half was determined to see the first character and one was added for the second
+    half <- str_length(x) / 2
+    str_sub(x, start = half, end = half + 1)
+  }
+  else{
+    #ceiling() was used to round up to the middle character
+    half <- ceiling(str_length(x) / 2)
+    str_sub(x, start = half, end = half)
+  }
+}
+
+extract_middle("hamburger")
+extract_middle("hotdog")
+```
+
+##### Question 3. 
+
+How would you match the sequence "’\? Note this is a double quote, single quote, backslash and question mark. Build it up one piece at a time. Use it to identify that sequence contained in s2 below.
+
+```{r question-3-response}
+
+s <- "\"'\\?"
+s2 <- str_c("some stuff",s,"more!")
+
+#writeLines(s)
+#writeLines(s2)
+
+#a lot of escapes had to be used to match with every element of the string
+str_view(s2, "\"'\\\\\\?")
+
+```
+
+##### Question 4. 
+
+Using the words provided in stringr::words, create regular expressions that find all words that:
+
+```{r question-4-response}
+
+## End with "ing" or "ise"
+
+#( | ) lets us do an or and $ represents the end of the string
+str_view(words, "(ing|ise)$")
+
+## Do not follow the rule "i before e except after c"
+
+#used or with cie and any letter followed by ei, which would not follow the rule "cei"
+str_view(words, "(cie|[^c]ei)")
+
+## Begin with at least two vowels and end with at least two consonants
+
+#^ $ were added to clarify how it starts and ends, [] were used to dictate where vowels and consonants had to be
+str_view(words, "^[aeiou][aeiou].*[^aeiou][^aeiou]$")
+
+## Contain a repeated pair of letters (e.g. "church" contains "ch" twice)
+
+#(..) was used to depict any two letter and then \\1 was used to show the repeat
+str_view(words, "(..).*\\1")
+
+## Contain one letter other than e that is repeated in at least three places (e.g. “appropriate” contains three “p”s.)
+
+#the not e condition was given, with two repetition of the parentheses 
+str_view(words, "([^e]).*\\1.*\\1")
+
+```
+
+##### Question 5. 
+
+Using the sentences provided in stringr::sentences, find all words that come after a “number” like “one”, “two”, … “twelve”. Pull out both the number and the word.
+
+```{r question-5-response}
+#\\b was added so that words like stone would not be included, \\w+ provides the word following num
+condition <- "\\b(one|two|three|four|five|six|seven|eight|nine|ten|eleven|twelve) (\\w+)"
+
+#filtered through vector by those that met the condition and then extracted 
+sentences[str_detect(sentences, condition)] %>%
+  str_extract(condition)
+  
+
+```
+
+##### Question 6. 
+
+Using the sentences provided in stringr::sentences, view all sentences that contain the word “good” or the word “bad”. Get the sentence numbers where those words occur. Use str_replace_all() to replace the word “bad” with the word “horrible” and the word “good” with the word “great”. Look at the sentence numbers you found before to verify the words were replaced correctly.
+
+```{r question-6-response}
+sentences %>%
+  #only picks out those that have "good" or "bad" with \\b not allowing words like badly
+  str_view("(good|bad)\\b") %>%
+  #does the replacing as the question asks
+  str_replace("good", "great") %>%
+  str_replace("bad", "horrible") %>%
+  #added because my Rstudio surrounds them in blue <> and replace() made it weird 
+  str_remove("\\033\\[36m<") %>%
+  str_remove(">\\033\\[39m")
+```
+

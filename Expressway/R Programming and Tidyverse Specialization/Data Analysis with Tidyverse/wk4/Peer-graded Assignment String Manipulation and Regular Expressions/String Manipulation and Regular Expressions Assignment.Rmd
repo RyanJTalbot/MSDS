@@ -28,8 +28,11 @@ Use str_c to put `(` before the area codes followed by `)` and a space followed 
 area_codes <- c(703, 863, 404, 202)
 phone_nums <- c(5551212, 1234567, 7891234, 4799747)
 
-formatted_nums <- str_c("(", area_codes, ") ", phone_nums)
-formatted_nums
+# Using str_c to get the desired pattern
+final_num<-str_c(str_c("(",area_codes,")"),phone_nums,sep = " ")
+# displaying final pattern
+final_num
+
 
 ```
 
@@ -38,20 +41,21 @@ formatted_nums
 Create a function that receives a single word as an input. Use str_length() and str_sub() to extract the middle character from the string. What will you do if the string has an even number of characters? Test your function on the strings “hamburger” and “hotdog”
 
 ```{r quetsion-2-response}
-get_middle_character <- function(word) {
-  length <- str_length(word)
-  middle_index <- length %/% 2 + 1
-  middle_character <- str_sub(word, middle_index, middle_index)
-  
-  if (length %% 2 == 0) {
-    middle_character <- "Even length"
+# Creating a function named mid_char which accepts single word as input
+mid_chr<-function(input){
+  # Checking weather length is even or odd
+  if(str_length(input)%%2!=0){
+       # Using str_length() and str_sub() to extract the middle character from the string in case of odd number of characters in the input word
+    mid<-as.integer(str_length(input)/2)+1
+    return(str_sub(input,mid,mid))
+  }else{
+     # Using str_length() and str_sub() to extract the middle 2 characters from the string in case of even number of characters in the input word
+     mid<-as.integer(str_length(input)/2)
+    return(str_sub(input,mid,mid+1))
   }
-  
-  return(middle_character)
 }
-
-get_middle_character("hamburger")
-get_middle_character("hotdog")
+mid_chr("hamburger")
+mid_chr("hotdog")
 
 ```
 
@@ -61,10 +65,17 @@ How would you match the sequence "’\? Note this is a double quote, single quot
 
 ```{r question-3-response}
 
-sequence <- "\\\'\\\\\\?"
+s<-"\"'\\?"
+s2<- str_c("some stuff",s,"more!")
+# step one
+str_view(s2,'"')
+#step two
+str_view(s2,"\"'")
+# step three
+str_view(s2,"\"'\\\\")
+# step four
+str_view(s2,"\"'\\\\\\?")
 
-s2 <- str_c("some stuff", sequence, "more!")
-s2
 
 
 ```
@@ -72,6 +83,11 @@ s2
 ##### Question 4. 
 
 Using the words provided in stringr::words, create regular expressions that find all words that:
+##    a.  End with "ing" or "ise"
+##    b.  Do not follow the rule "i before e except after c"
+##    c.  Begin with at least two vowels and end with at least two consonants
+##    d.  Contain a repeated pair of letters (e.g. "church" contains "ch" twice)
+##    e.  Contain one letter other than e that is repeated in at least three places (e.g. “appropriate” contains three “p”s.)
 
 ```{r question-4-response}
 
@@ -105,12 +121,18 @@ contain_repeated_letter
 Using the sentences provided in stringr::sentences, find all words that come after a “number” like “one”, “two”, … “twelve”. Pull out both the number and the word.
 
 ```{r question-5-response}
-sentences <- stringr::sentences
+# Assigning numbers vector to num variable
+num <- c("one","two","three","four","five","six","seven",
+             "eight","nine","ten")
 
-after_number <- str_match(sentences, "(number)\\s+(\\w+)")[, 2:3]
+# Creating a matching expression in order to find all words that come after a number
+exp_num <- str_c("[^a-zA-Z](",str_c(num,collapse = "|"),")"," (.*)")
 
-after_number
-
+# Pulling out both the number and the word
+num_word <- str_subset(sentences,exp_num)
+num_word
+num_word %>%
+  str_match(exp_num)
 ```
 
 ##### Question 6. 
@@ -118,27 +140,17 @@ after_number
 Using the sentences provided in stringr::sentences, view all sentences that contain the word “good” or the word “bad”. Get the sentence numbers where those words occur. Use str_replace_all() to replace the word “bad” with the word “horrible” and the word “good” with the word “great”. Look at the sentence numbers you found before to verify the words were replaced correctly.
 
 ```{r question-6-response}
-sentences <- stringr::sentences
+v<- c("bad", "good")
+# viewing all sentences that contain the word “good” or the word “bad”
+re <- regex(str_c("\\b", v, "\\b", collapse = " | "), ignore_case = TRUE)
 
-# View sentences that contain the word "good" or "bad"
-good_sentences <- str_subset(sentences, "good")
-bad_sentences <- str_subset(sentences, "bad")
+# Assigning all the matched sentences in a variable
+good_bad_sentences <- str_subset(sentences, re)
 
-good_sentences
-bad_sentences
+# Displaying the sentence numbers where those words occur
+match(good_bad_sentences,sentences)
 
-# Get sentence numbers where "good" or "bad" occur
-good_sentence_numbers <- which(str_detect(sentences, "good"))
-bad_sentence_numbers <- which(str_detect(sentences, "bad"))
-
-good_sentence_numbers
-bad_sentence_numbers
-
-# Replace "bad" with "horrible" and "good" with "great"
-replaced_sentences <- str_replace_all(sentences, c("bad" = "horrible", "good" = "great"))
-
-# Verify the words were replaced correctly
-replaced_sentences[bad_sentence_numbers]
-replaced_sentences[good_sentence_numbers]
+# Using str_replace_all() to replace the word “bad” with the word “horrible” and the word “good” with the word “great”
+str_replace_all(good_bad_sentences,regex(c("good" = "great", "bad" = "horrible"),ignore_case = TRUE))
 
 ```
