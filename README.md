@@ -130,3 +130,71 @@
 Students must complete 9 elective credits to earn the degree, and can choose from a variety of available options.
 
 https://www.coursera.org/degrees/master-of-science-data-science-boulder/academics
+
+### Finished:
+
+##### Expressway:
+
+[x] Expressway to Data Science: Essential Math Specialization
+
+- Algebra and Differential Calculus for Data Science
+- Essential Linear Algebra for Data Science
+- Integral Calculus and Numerical Analysis for Data Science
+
+[x] Expressway to Data Science: Python Programming Specialization
+
+- Introduction to Python Fundamentals
+- Introduction to Python Functions
+- Python Packages for Data Science
+
+[ ] Expressway to Data Science: R Programming and Tidyverse
+
+- Introduction to R Programming and Tidyverse
+- Data Analysis with Tidyverse
+- R Programming and Tidyverse Capstone Project
+
+##### Core:
+
+[x] Data Science Foundations: Data Structures and Algorithms Specialization
+
+- Algorithms for Searching, Sorting, and Indexing
+- Trees and Graphs: Basics
+- Dynamic Programming, Greedy Algorithms
+
+[x] Data Science Foundations: Statistical Inference Specialization
+
+- Probability Theory: Foundation for Data Science
+- Statistical Inference for Estimation in Data Science
+- Statistical Inference and Hypothesis Testing in Data Science Applications
+
+[x] Databases for Data Scientists Specialization
+
+- Relational Database Design
+- The Structured Query Language (SQL)
+- Advanced Topics and Future Trends in Database Technologies
+
+[ ] Machine Learning: Theory and Hands-on Practice with Python
+
+- Introduction to Machine Learning: Supervised Learning
+- Unsupervised Algorithms in Machine Learning
+- Introduction to Deep Learning
+
+[ ] Statistical Modeling for Data Science Applications
+
+- Modern Regression Analysis in R
+- ANOVA and Experimental Design
+- Generalized Linear Models and Nonparametric Regression
+
+[ ] Data Mining Foundations and Practice
+
+- Data Mining Pipeline
+- Data Mining Methods
+- Data Mining Project
+
+##### Electives:
+
+[ ] Data Science Methods for Quality Improvement
+
+- Managing, Describing, and Analyzing Data
+- Stability and Capability in Quality Improvement
+- Measurement Systems Analysis
