@@ -1,0 +1,534 @@
+%\documentclass[addpoints, answers]{exam}
+\documentclass[addpoints]{exam}
+
+% show the solutions? 0=no, 1=yes
+% if yes, then remove "answers" from the documentclass definition above.
+\def\solutions{0}
+
+% define which version of the exam (1-?)
+\def\examversion{1}
+% then use \if\examversion1 (or 2 or 3...)  ... \fi  to show only one version for each problem
+
+\newif\ifanswer\answerfalse
+
+\runningfooter{}
+{}
+{{\bf  \makebox[1in]{\hrulefill}
+/ \pointsonpage{\thepage} points}}
+
+\usepackage[top=.5in, bottom=1in, left=1in, right=1in]{geometry}
+\usepackage{graphicx}
+\usepackage{enumitem}
+\usepackage{multirow, multicol}
+\usepackage{subfig}
+\usepackage{amsmath,amsthm,amssymb}
+\usepackage{bm}
+
+\usepackage{listings}
+
+\footer{}{\thepage}{}
+
+\usepackage{tikz}
+\usetikzlibrary{patterns,decorations.pathreplacing,shapes,arrows,matrix,positioning, shapes.geometric}
+
+\tikzstyle{block} = [rectangle, draw, fill=blue!15, text width=6em, text centered, rounded corners, minimum height=4em]
+\tikzstyle{line} = [draw, -latex']
+
+\tikzset{main node/.style={circle,draw,thick,minimum size=.75cm,inner sep=0pt},
+}
+
+\tikzset{square node/.style={rectangle,draw,thick,minimum size=.75cm,inner sep=0pt},
+}
+
+\newcommand{\erad}[2]{ \hat{\mathcal{R}}_{#1}\left( #2 \right) }
+\newcommand{\rad}[2]{ \mathcal{R}_{#1}\left( #2 \right) }
+\newcommand{\pr}[1]{\mbox{Pr}\left[#1 \right]}
+\newcommand{\prd}[2]{\mbox{Pr}_{#2}\left[#1 \right]}
+\newcommand{\x}{\mathbf{x}}
+\newcommand{\X}{\mathbf{X}}
+\newcommand{\y}{\mathbf{y}}
+\newcommand{\be}{\mathbf{\beta}}
+\providecommand{\g}{\, | \,}
+\newcommand{\al}{\mathbf{\alpha}}
+
+
+\newcommand{\ind}[1]{\mathds{1}\left[ #1 \right] }
+\newcommand{\e}[2]{\mathbb{E}_{#1}\left[ #2 \right] }
+\newcommand{\eh}[2]{\hat{\mathbb{E}}_{#1}\left[ #2 \right] }
+\newcommand{\obj}[0]{\mathscr{L}}
+\newcommand{\bo}[1]{\mathcal{O} \left( #1 \right) }
+\newcommand{\ex}[1]{\mbox{exp}\left\{ #1\right\} }
+
+% matrix macro
+\newcommand{\mymat}[1]{
+\left[
+\begin{array}{rrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrr}
+#1
+\end{array}
+\right]
+}
+
+\definecolor{dkgreen}{rgb}{0,0.6,0}
+\definecolor{gray}{rgb}{0.5,0.5,0.5}
+\definecolor{mauve}{rgb}{0.58,0,0.82}
+
+\lstset{frame=tb,
+  language=Python,
+  aboveskip=3mm,
+  belowskip=3mm,
+  showstringspaces=false,
+  columns=flexible,
+  basicstyle={\small\ttfamily},
+  numbers=none,
+  numberstyle=\tiny\color{gray},
+  keywordstyle=\color{black},
+  commentstyle=\color{dkgreen},
+  stringstyle=\color{mauve},
+  breaklines=true,
+  breakatwhitespace=true,
+  tabsize=3
+} 
+
+
+\newcommand{\Cpp}{C\nolinebreak\hspace{-.05em}\raisebox{.4ex}{\tiny\bf +}\nolinebreak\hspace{-.10em}\raisebox{.4ex}{\tiny\bf +}}
+\def\Cpp{{C\nolinebreak[4]\hspace{-.05em}\raisebox{.4ex}{\tiny\bf ++}}}
+
+
+\begin{document}
+
+\begin{minipage}[ht!]{.25\textwidth}
+CSCI 3022 
+
+Midterm Exam
+
+Spring 2021
+\vfill
+\end{minipage}
+\begin{minipage}[ht]{.75\textwidth}
+	\large
+	Write \textbf{clearly} and \textbf{in the box}:
+	\centering
+	\begin{tabular}{|l c|} 	\hline 
+	\rule{0pt}{1cm}
+	\textbf{Name:} & \hspace{9cm} \\ \hline 
+	\rule{0pt}{1cm}
+	\textbf{Student ID:} & \hspace{9cm} \\ \hline 
+	\rule{0pt}{1cm} \textbf{Section number:} & \hspace{9cm} \\ \hline 
+	\end{tabular}
+	%\end{table}
+	% \end{adjustwidth}
+	%\end{figure}
+\end{minipage}%
+
+\vspace{1cm}
+
+{\bf Read the following:}
+\vspace{1pc}
+
+\begin{itemize}                        %%%(change info. as desired)
+	\item {\bf RIGHT NOW}! Write your name, student ID and section number on the top of your exam. If you're handwriting your exam, include this information at the top of the first page!
+	\item You may use the textbook, your notes, lecture materials, and Piazza as resources.  Piazza posts should not be about exact exam questions, but you may ask for technical clarifications and ask for help on review/past exam questions that might help you.  You may not use external sources from the internet or collaborate with your peers.
+	\item You may use a calculator or Python terminal to check numerical results.
+	\item If you print a copy of the exam, clearly mark answers to multiple choice questions in the provided answer box. If you type or hand-write your exam answers, write each problem on their own line, clearly indicating both the problem number and answer letter.
+	\item Mark only one answer for multiple choice questions.  If you think two answers are correct, mark the answer that {\bf best} answers the question.  No justification is required for multiple choice questions.  For handwriting multiple choice answers, clearly mark both the number of the problem and your answer for each and every problem. 
+	\item For free response questions you must clearly justify all conclusions to receive full credit.  A correct answer with no supporting work will receive no credit. 
+	\item The Exam is due to Gradescope by midnight on Friday, March 12.
+	\item When submitting your exam to Gradescope, use their submission tool to mark on which pages you answered specific questions.  Submitting your exam properly is worth 1/100 points.  The other problems sum to 99.
+\end{itemize}
+\clearpage
+% \vspace{1cm}
+
+% \begin{center}
+% \gradetable[v][pages]
+% \end{center}
+
+{\renewcommand{\arraystretch}{1.5}
+
+\vspace{8mm}
+
+% \begin{center}
+% \gradetable[v][pages]
+% \end{center}
+
+
+\label{---Problems---}
+
+
+\vspace{3cm}
+
+% =========================================================================================================
+% MCQs
+% =========================================================================================================
+{\begin{center} {\bf Multiple choice problems:} Write your answers in the boxes if using a printed version of the exam. \end{center}}\vspace{2mm}
+
+%1-2 Sampling and Sample Stats
+\begin{questions}
+\question[3] Consider the data set:  $[4, 10, 9, 19, 0, x]$, where $x \in \mathbb{R}$ is an unknown quantity. What is the smallest set of possible values that the \textit{median} of this data set \textbf{must} belong to?
+\vspace{2mm}
+
+\begin{minipage}[b]{.85\textwidth}
+	\begin{enumerate}[label=\Alph*.]
+		\item $(-\infty, \infty)$
+		\item $[6.5,9.5]$
+		\item $9$
+		\item $[0,19]$
+		\item $\{4,9,10\}$
+		\item $\emptyset$
+	\end{enumerate}
+\end{minipage}
+\begin{minipage}[b]{.1\textwidth}
+	\vspace{\fill}\framebox(40,40){\if\solutions1 \fi}
+\end{minipage}
+
+%2
+\question[3]  Suppose Zach has a list consisting of all the first generation Pok\'emon and their types (Water, Ground, Fighting, etc.). He is conducting a study of how many of them are actually stronger than Mudkip - the cutest Pok\'emon ever - by drawing a sample from his Pok\'edex, which he has sorted alphabetically.
+
+He writes a loop that will randomly pick two Pok\'emon \textit{of each type} and compares those selected Pok\'emon's statistics to Mudkip's.
+
+What type of sample did Zach collect?
+\vspace{2mm}
+
+\begin{minipage}[b]{.85\textwidth}
+	\begin{enumerate}[label=\Alph*.]
+		\item Simple random sample
+		\item Systematic sample
+		\item Census sample
+		\item Stratified sample
+		\item Free samples, all you can eat!
+	\end{enumerate}
+\end{minipage}
+\begin{minipage}[b]{.1\textwidth}
+	\vspace{\fill}\framebox(40,40){\if\solutions1 \fi}
+\end{minipage}
+
+%3 Conditioning
+\question[3]  Consider performing a simulation experiment where we record whether or not the events $A$ and $B$ happened.  We perform the experiment $n$ times, and store whether or not the events occurred each time into logical vectors of length $n$.  What does the code below calculate?
+
+\begin{lstlisting}
+def CountOutcomes(eventA,eventB):
+	return np.sum(np.logical_and((eventA==True),(eventB==True))) / np.sum((eventA==True))
+\end{lstlisting}
+
+\begin{minipage}[b]{.85\textwidth}
+	\begin{enumerate}[label=\Alph*.]
+		\item $P(A \cup B)$
+		\item $P(A \cap B)$
+		\item $P(A|B)$
+		\item $P(B|A)$
+		\item $P(\text{both flips are heads})$
+	\end{enumerate}
+\end{minipage}
+\begin{minipage}[b]{.1\textwidth}
+	\vspace{\fill}\framebox(40,40){\if\solutions1 \fi}
+\end{minipage}
+
+%4 on RVs
+\vspace{2mm}
+\question[3] We're considering a random variable to describe major earthquakes (above 8 Richter).  We want to \textit{count} how many such earthquakes occur per year.  What variable is most appropriate?
+
+\vspace{2mm}
+\begin{minipage}[b]{.85\textwidth}
+	\begin{enumerate}[label=\Alph*.]
+		\item Binomial
+		\item Negative binomial
+		\item Uniform
+		\item Normal
+		\item Poisson
+		\item Exponential
+	\end{enumerate}
+\end{minipage}
+\begin{minipage}[b]{.1\textwidth}
+	\vspace{\fill}\framebox(40,40){\if\solutions1 \fi}
+\end{minipage}
+
+%5-7 Conditionals
+\clearpage
+\noindent Use the following information for Problems 5 -- 7, which may build off of each other.
+\medskip
+
+\noindent Ani (A) has run out of interesting games to play over quarantine, and now is stuck playing a rather bland variant of Snakes and Ladders with Blaine (B).  In this game, each player tries to escape a maze.
+\vspace{1mm}
+
+Suppose that in general, Ani escapes 40\% of the time and Blaine escapes 35\% of the time.
+
+\question[3] Both players are able to escape in 1/4 of the games played.  What is the probability that neither escape?
+\vspace{2mm}
+
+\begin{minipage}[b]{.85\textwidth}
+	\begin{enumerate}[label=\Alph*.]
+		\begin{multicols}{2}
+			\item 1/10 
+			\item 3/20
+			\item 1/6
+			\item 1/5 
+			\item 1/4
+			\item 1/2
+			\item 3/4
+			\item 4/5
+			\item 5/6
+			\item 17/20
+			\item 19/20
+		\end{multicols}
+	\end{enumerate}
+\end{minipage}
+\begin{minipage}[b]{.1\textwidth}
+	\vspace{\fill}\framebox(40,40){\if\solutions1 \fi}
+\end{minipage}
+
+\question[3] Suppose that Ani \textbf{fails} to escape.  Now what is the probability that Blaine escapes?
+\vspace{2mm}
+
+\begin{minipage}[b]{.85\textwidth}
+	\begin{enumerate}[label=\Alph*.]
+	\begin{multicols}{2}
+		\item 1/10 
+		\item 3/20
+		\item 1/6
+		\item 1/5 
+		\item 1/4
+		\item 1/2
+		\item 3/4
+		\item 4/5
+		\item 5/6
+		\item 17/20
+		\item 19/20
+	\end{multicols}
+\end{enumerate}
+\end{minipage}
+\begin{minipage}[b]{.1\textwidth}
+	\vspace{\fill}\framebox(40,40){\if\solutions1 \fi}
+\end{minipage}
+
+\question[3] What is the probability that exactly one of them escapes?
+\vspace{2mm}
+
+\begin{minipage}[b]{.85\textwidth}
+	\begin{enumerate}[label=\Alph*.]
+	\begin{multicols}{2}
+		\item 1/10 
+		\item 3/20
+		\item 1/6
+		\item 1/5 
+		\item 1/4
+		\item 1/2
+		\item 3/4
+		\item 4/5
+		\item 5/6
+		\item 17/20
+		\item 19/20
+	\end{multicols}
+\end{enumerate}
+\end{minipage}
+\begin{minipage}[b]{.1\textwidth}
+	\vspace{\fill}\framebox(40,40){\if\solutions1 \fi}
+\end{minipage}
+
+% Expectation and Variance
+\question[3] The average high temperature for Boulder, CO in March is $57^\circ$ Fahrenheit with a standard deviation of 12 degrees.  If the temperature $C$ in Celsius is calculated from the temperature in Fahrenheit $F$ by  $C=\frac{5}{9}(F-32),$ what is the \textit{standard deviation} of the temperature in Boulder on March 7 in degrees Celsius?
+
+\begin{minipage}[b]{.85\textwidth}
+	\begin{enumerate}[label=\Alph*.]
+		\item $\frac{5}{9}\cdot (57-32)$
+		\item $12^2 \cdot \frac{5^2}{12^2}$
+		\item $12\cdot \frac{5}{9}$
+		\item $\left( \frac{5}{9}\right)^2 25^2$
+		\item $12^2 \cdot \frac{5}{9}$
+		\item $12\cdot \left( \frac{5}{9}\right) ^2$
+	\end{enumerate}
+\end{minipage}
+\begin{minipage}[b]{.1\textwidth}
+	\vspace{\fill}\framebox(40,40){\if\solutions1 \fi}
+\end{minipage}
+\clearpage
+%8-9 Distributions and their properties
+\question[3] Suppose when you get to the cafeteria, you and your best friend have a competition to determine who gets the sushi rolls. You each type $\textsc{np.random.rand()}$ into a terminal, and the person who gets the higher number wins and gets a sushi roll.  You play the game until all 7 available sushi rolls are claimed.  What is the probability that you get 5 or more of them?
+
+\vspace{2mm}
+\begin{minipage}[b]{.85\textwidth}
+	\begin{enumerate}[label=\Alph*.] 
+		\item $ \displaystyle {7 \choose 5} (0.5)^2 (0.5)^5 $ 
+		\item $ \displaystyle {7 \choose 2} (0.5)^2 (0.5)^7 $ 
+		\item $ \displaystyle {7 \choose 5} (0.5)^2 (0.5)^5 $ 
+		\item $ \displaystyle 1 - \sum_{i=4}^{7} {7 \choose i}(0.5)^i(0.5)^{17-i} $
+		\item $ \displaystyle \sum_{i=5}^{7} {i \choose 7}(0.5)^i(0.5)^{7-i} $
+		\item $ \displaystyle 1- \sum_{i=0}^{4} {7 \choose i}(0.5)^i(0.5)^{7-i}$
+	\end{enumerate}
+\end{minipage}
+\begin{minipage}[b]{.1\textwidth}
+	\vspace{\fill}\framebox(40,40){\if\solutions1 \fi}
+\end{minipage}
+
+
+%8-11 PDFs and CDFs
+\question[3] Suppose we have a real-valued random variable with pdf/pmf $f$ and cdf $F$.  Consider each function where we input an outcome $x$.  Which of the following can be said about the \textit{relative} magnitudes of $f(x)$ and $F(x)$?
+\vspace{2mm}
+
+\begin{minipage}[b]{.85\textwidth}
+	\begin{enumerate}[label=\Alph*.]
+		\item $f(x)\geq F(x)$ for both discrete and continuous random variables.
+		\item $f(x)\geq F(x)$ for discrete but not continuous random variables.
+		\item $f(x)\geq F(x)$ for continuous but not discrete random variables	
+		\item $F(x)\geq f(x)$ for both discrete and continuous random variables.
+		\item $F(x)\geq f(x)$ for discrete but not continuous random variables.
+		\item $F(x)\geq f(x)$ for continuous but not discrete random variables.	
+		\item None of the above are \textit{always} true.
+	\end{enumerate}
+\end{minipage}
+\begin{minipage}[b]{.1\textwidth}
+	\vspace{\fill}\framebox(40,40){\if\solutions1 \fi}
+\end{minipage}
+\vspace{3mm}
+% Expectation and Variance
+\question[3] Suppose we have a discrete rv $X$ with pdf $f$.  We then decide to take $X$ and compute $Z=X^2+2X+1$.  Which of the following represent the expected value of $Z$?
+
+\begin{minipage}[b]{.85\textwidth}
+	\begin{enumerate}[label=\Alph*.]
+		\item $E[X]^2+2E[X]+1$
+		\item $E[(X+1)^2]$
+		\item $Var[X]$
+		\item $Var[X]+2E[X]+1$
+		\item $Var[X]+(E[X]+1)^2$
+		\item $Stdev[X]+2E[X]+1$
+	\end{enumerate}
+\end{minipage}
+\begin{minipage}[b]{.1\textwidth}
+	\vspace{\fill}\framebox(40,40){\if\solutions1 \fi}
+\end{minipage}
+
+
+\clearpage
+% =========================================================================================================
+% Free Responses and Short Answers
+% =========================================================================================================
+{\begin{center} {\bf Free Response problems:} Write your answers in the spaces following each prompt if possible.\\  Make note if your work continues elsewhere!\end{center}}\vspace{2mm}
+
+%%FR 1: (Visualization) 
+\question[20] No justification is necessary for this problem. Consider the given seven box plots, each from a data set with exactly 15 elements.  Three of the data sets were generated by:
+
+
+\begin{lstlisting}
+A = np.linspace(0,1,15)
+B = [x**3 for x in np.linspace(0,1, num=15)]
+C = [0,0,0,0,0,0,0,0,0,.1,.2,.3,.4,.5,1.0]
+\end{lstlisting}
+
+\begin{enumerate}[label=(\alph*)]
+	\item (5 points) Match each of the three given data sets to their boxplot (box-whisker plot). Use the conventions from lecture, and clearly mark the number corresponding to your choice of boxplot in the boxes below for each data set. No boxplot is used more than once, and some are not used.
+	\begin{figure}[h]
+		\centering
+		\includegraphics[width=0.8\linewidth]{midtermboxplots.png}
+	\end{figure}
+	
+	\hspace{-1cm}
+	\vspace{\fill}\framebox(60,35){$A$: \qquad \if\solutions0 \quad \fi \if\solutions1  \fi}  \qquad
+	\vspace{\fill}\framebox(60,35){$B$: \qquad \if\solutions0 \quad \fi \if\solutions1  \fi}  \qquad
+	\vspace{\fill}\framebox(60,35){$C$: \qquad \if\solutions0 \quad \fi \if\solutions1  \fi}  \qquad		
+	\hspace{-1cm}
+	\item (5 points) For the data sets labeled $d2, d3$ and $d6$ in the image above, characterize the data set as symmetric, right-skew, or left-skew.  No justification needed.
+	
+	%\vspace{-10mm}
+	\vspace{\fill}\framebox(140,25){\quad $d2$: \qquad \if\solutions0 \hfill \fi \if\solutions1  \fi}  \qquad 
+	\vspace{\fill}\framebox(140,25){\quad $d3$: \qquad \if\solutions0 \hfill \fi \if\solutions1  \fi}  \qquad 
+	\vspace{\fill}\framebox(140,25){\quad $d6$: \qquad \if\solutions0 \hfill \fi \if\solutions1  \fi}  \qquad	
+	\hspace{-1cm}
+	
+	
+	\item (4 points) Some of the data sets in question have \textit{repeated} observations, where the same data value occurs multiple times.  Using only the boxplots shown, which of the 9 data sets \textbf{must} have repeated observations in them?  Explain why.
+	\if\solutions0 \vspace{2mm} \fi
+	
+	\if\solutions0
+	\hspace{-1cm}
+	\vspace{\fill}\framebox(472,140){\if\solutions1 do the thing here \fi}
+	\fi
+
+	\item (3 points)  Is the mean of $d1$ or $d2$ likely to be higher?  Explain.
+\if\solutions0 \vspace{2mm} \fi
+
+\if\solutions0
+\hspace{-1cm}
+\vspace{\fill}\framebox(472,140){\if\solutions1 do the thing here \fi}
+\fi
+
+	\item (3 points) The data sets above were meant to represent possible observations of \textit{probabilities} or \textit{proportions}.  Could any of the data sets above not have been proportion data?  Why or why not?
+\if\solutions0 \vspace{2mm} \fi
+
+\if\solutions0
+\hspace{-1cm}
+\vspace{\fill}\framebox(472,140){\if\solutions1 do the thing here \fi}
+\fi
+	
+\end{enumerate}
+
+%%FR2: Conditioning Pen and Paper
+\question[10] In order to get a little stress relief, we're volunteering for the humane society, which is currently sheltering 23 puppies (P) and 14 kittens (K).  The adorable creatures usually put us in a good mood (G), to the degree that we end up having a good time if we're petting a puppy 85\% of the time and we end up having a good time 70\% of the times we're petting a kitten.
+
+Suppose on a Monday we're assigned one of the available pets at random to play with when we enter the humane society.
+
+
+\begin{enumerate}[label=(\alph*)]
+	\item (6 points)  After we're done, we reflect on our time and realize we didn't actually have a good time.  What's the probability that the random pet we were assigned was a puppy?
+	\item (4 points) Are the events $P(G|P)$ and $P(G)$ independent?  Justify your response.
+\end{enumerate}
+
+\if\solutions0
+\vspace{6cm}
+\fi
+
+\if\solutions1 \textbf{Solution:} 
+\begin{enumerate}[label=(\alph*)]
+	\item do the thing
+\end{enumerate}
+\fi
+
+\clearpage
+
+\clearpage
+
+
+%Short Discrete pdf manipulation problem
+\question[16] Suppose whenever you roll a six-sided die and it comes up as a "2", you yell the word "deuces" as loud as you can.  You enjoy this activity so much that you manufacture a biased die.  This die rolls a two 2/3 of the time, with each other other outcome equally likely.
+\begin{enumerate}[label=(\alph*)]
+	\item (4 points) What is the probability mass function for the face of the die?
+	\item (4 points) What is the probability that it takes you 5 rolls before you can yell ``deuces" twice?
+	\item (4 points) What is the expected value of the face of the die after rolling?
+	\item (4 points) What is the expected value of the square root of the face of the die after rolling?
+\end{enumerate}
+
+
+\if\solutions1 \textbf{Solution:} 
+\begin{enumerate}[label=(\alph*)]
+	\item do the thing
+\end{enumerate}
+\fi
+
+\clearpage
+
+%Full Continuous pdf manipulation problem
+\question[20] Consider a random variable $X$ given by probability density function $f(x)=a x (3-x)^2$ on the region $x \in (0,3)$ with an unknown constant $a$.
+\begin{enumerate}[label=(\alph*)]
+	\item (4 points) Sketch the pdf of $X$ on a standard Cartesian axis, labeling any important features.
+	\item (4 points) Find the value of $a$ that will make $f$ a proper pdf.  Use this value for the rest of the problem.
+	\item (3 points) Calculate $E[X]$.
+	\item (3 points) Calculate the cumulative density function for $X$.
+	\item (3 points) Calculate $Var[X]$.
+	\item (3 points) Is the median for $x$ greater than or less than its mean?  You may compute exactly or explain your result graphically. 
+\end{enumerate}
+
+
+\if\solutions1 \textbf{Solution:} 
+\begin{enumerate}[label=(\alph*)]
+	\item do the thing
+\end{enumerate}
+\fi
+
+\clearpage
+
+
+
+
+\end{questions}
+
+\end{document}
+
+
+
