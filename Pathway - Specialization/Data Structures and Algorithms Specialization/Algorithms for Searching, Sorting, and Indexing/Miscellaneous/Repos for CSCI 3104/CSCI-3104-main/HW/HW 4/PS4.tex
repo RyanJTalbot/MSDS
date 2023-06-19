@@ -1,0 +1,277 @@
+\documentclass[11pt]{article} 
+\usepackage[english]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage[margin=0.5in]{geometry}
+\usepackage{amsmath}
+\usepackage{amsthm}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage[usenames,dvipsnames]{xcolor}
+\usepackage{graphicx}
+\usepackage[colorinlistoftodos, color=orange!50]{todonotes}
+\usepackage{hyperref}
+\usepackage[numbers, square]{natbib}
+\usepackage{fancybox}
+\usepackage{epsfig}
+\usepackage{soul}
+\usepackage[framemethod=tikz]{mdframed}
+\usepackage[shortlabels]{enumitem}
+\usepackage[version=4]{mhchem} 
+\usepackage{multicol}
+\usepackage{forest}
+\usepackage{mathtools}
+\usepackage{comment}
+\usepackage{enumitem}
+\usepackage[utf8]{inputenc}
+\usepackage{listings}
+\usepackage{color}
+\usepackage[numbers]{natbib}
+\usepackage{subfiles}
+\usepackage{algorithm}
+\usepackage[noend]{algpseudocode}
+
+
+\newtheorem{prop}{Proposition}[section]
+\newtheorem{thm}{Theorem}[section]
+\newtheorem{lemma}{Lemma}[section]
+\newtheorem{cor}{Corollary}[prop]
+
+\theoremstyle{definition}
+\newtheorem{definition}{Definition}
+
+\theoremstyle{definition}
+\newtheorem{required}{Problem}
+\newtheorem*{requiredHC}{Problem HC}
+
+\theoremstyle{definition}
+\newtheorem{ex}{Example}
+
+\newcommand{\interval}[4]{\draw (#2, #1) -- (#3, #1); % Usage: \interval{height}{start}{end}{label}
+\draw (#2, #1-0.11) -- (#2, #1+0.11); % draw left whisker
+\draw (#3, #1-0.11) -- (#3, #1+0.11); % draw right whisker
+\node[] at (#2-0.25, #1) {#4};
+}
+
+
+\setlength{\marginparwidth}{3.4cm}
+%#########################################################
+
+%To use symbols for footnotes
+\renewcommand*{\thefootnote}{\fnsymbol{footnote}}
+%To change footnotes back to numbers uncomment the following line
+%\renewcommand*{\thefootnote}{\arabic{footnote}}
+
+% Enable this command to adjust line spacing for inline math equations.
+% \everymath{\displaystyle}
+
+% _______ _____ _______ _      ______ 
+%|__   __|_   _|__   __| |    |  ____|
+%   | |    | |    | |  | |    | |__   
+%   | |    | |    | |  | |    |  __|  
+%   | |   _| |_   | |  | |____| |____ 
+%   |_|  |_____|  |_|  |______|______|
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\title{
+\normalfont \normalsize 
+\textsc{CSCI 3104 Spring 2022 \\ 
+Instructor: Profs. Chen and Layer} \\
+[10pt] 
+\rule{\linewidth}{0.5pt} \\[6pt] 
+\huge Problem Set 4 \\
+\rule{\linewidth}{2pt}  \\[10pt]
+}
+%\author{Your Name}
+\date{}
+
+\begin{document}
+\definecolor {processblue}{cmyk}{0.96,0,0,0}
+\definecolor{processred}{rgb}{200, 0, 0}
+\definecolor{processgreen}{rgb}{0, 255, 0}
+\DeclareGraphicsExtensions{.png}
+\DeclareGraphicsExtensions{.gif}
+\DeclareGraphicsExtensions{.jpg}
+
+
+\maketitle
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%FILL IN YOUR NAME%%%%%%%
+%%%%%%%%%%AND STUDENT ID%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%
+\noindent
+Due Date \dotfill February 15 \\
+Name \dotfill \textbf{Your Name} \\
+Student ID \dotfill \textbf{Your Student ID} \\
+Collaborators \dotfill \textbf{List Your Collaborators Here}
+
+\tableofcontents
+
+\section{Instructions}
+ \begin{itemize}
+	\item The solutions \textbf{must be typed}, using proper mathematical notation. We cannot accept hand-written solutions. \href{http://ece.uprm.edu/~caceros/latex/introduction.pdf}{Here's a short intro to \LaTeX.}
+	\item You should submit your work through the \textbf{class Canvas page} only. Please submit one PDF file, compiled using this \LaTeX \ template.
+	\item You may not need a full page for your solutions; pagebreaks are there to help Gradescope automatically find where each problem is. Even if you do not attempt every problem, please submit this document with no fewer pages than the blank template (or Gradescope has issues with it).
+
+	\item You are welcome and encouraged to collaborate with your classmates, as well as consult outside resources. You must \textbf{cite your sources in this document.} \textbf{Copying from any source is an Honor Code violation. Furthermore, all submissions must be in your own words and reflect your understanding of the material.} If there is any confusion about this policy, it is your responsibility to clarify before the due date. 
+
+	\item Posting to \textbf{any} service including, but not limited to Chegg, Reddit, StackExchange, etc., for help on an assignment is a violation of the Honor Code.
+
+	\item You \textbf{must} virtually sign the Honor Code (see Section \ref{HonorCode}). Failure to do so will result in your assignment not being graded.
+\end{itemize}
+
+
+\section{Honor Code (Make Sure to Virtually Sign)} \label{HonorCode}
+
+\begin{required}
+\begin{itemize}
+\item My submission is in my own words and reflects my understanding of the material.
+\item Any collaborations and external sources have been clearly cited in this document.
+\item I have not posted to external services including, but not limited to Chegg, Reddit, StackExchange, etc.
+\item I have neither copied nor provided others solutions they can copy.
+\end{itemize}
+
+%\noindent In the specified region below, clearly indicate that you have upheld the Honor Code. Then type your name. 
+\end{required}
+
+\begin{proof}[Agreed (signature here).]
+%% Typing "I agree to the above," followed by your name is sufficient.
+\end{proof}
+
+
+
+
+\newpage
+
+\section{Standard 10- Asymptotics I (Calculus I techniques)}
+\begin{required}
+For each part, you will be given a list of functions. Your goal is to order the functions from \textbf{slowest growing} to \textbf{fastest growing}. That is, if your answer is $f_{1}(n), \ldots, f_{k}(n)$, then it should be the case that $f_{i}(n) \in O(f_{i+1}(n))$ for all $i$. If two adjacent functions have the same order of growth (that is, $f_{i}(n) \in \Theta(f_{i+1}(n))$), clearly specify this. \textbf{Show all work, including Calculus details.} Plugging into WolframAlpha is not sufficient. \\
+
+\noindent You may find the following helpful.
+\begin{itemize}
+\item Recall that our asymptotic relations are transitive. So if $f(n) \in O(g(n))$ and $g(n) \in O(h(n))$, then $f(n) \in O(h(n))$. The same applies for Big-Theta, etc. Note that the goal is to order the growth rates, so transitivity is very helpful. We encourage you to make use of transitivity rather than comparing all possible pairs of functions, as using transitivity will make your life easier.
+
+\item You may also use the Limit Comparison Test. However, you \textbf{MUST} show all limit computations at the same level of detail as in Calculus I-II. Should you choose to use Calculus tools, whether you use them correctly will count towards your score.
+
+\item You may \textbf{NOT} use heuristic arguments, such as comparing degrees of polynomials or identifying the ``high order term" in the function.
+
+\item If it is the case that $g(n) = c \cdot f(n)$ for some constant $c$, you may conclude that $f(n) = \Theta(g(n))$ without using Calculus tools. You must clearly identify the constant $c$ (with any supporting work necessary to identify the constant- such as exponent or logarithm rules) and include a sentence to justify your reasoning. 
+\end{itemize}
+
+
+\noindent You may also find it helpful to order the functions using an \texttt{itemize} block, with the work following the end of the \texttt{itemize} block.
+\begin{itemize}
+\item This function grows the slowest: $f_{1}(n)$
+\item These functions grow at the same asymptotic rate and faster than $f_{1}(n)$: $f_{2}(n), f_{3}(n), \ldots$
+\item These functions grow at the same asymptotic rate, but faster than $f_{2}(n)$: $f_{k}(n)$.
+\end{itemize}
+
+
+\noindent \\ Also below is an example of an \texttt{align} block to help you organize your work.
+\begin{align*}
+\lim_{n \to \infty} \frac{n^{2}}{2^{n}} &= \lim_{n \to \infty} \frac{2n}{\ln(2) \cdot 2^{n}} \\
+&= \lim_{n \to \infty} \frac{2}{(\ln(2))^{2} \cdot 2^{n}} \\
+&= 0.
+\end{align*}
+\newpage
+\begin{enumerate} [label=(\alph*)]
+\subsection{Problem 2\ref{1a}}
+    \item \label{1a} $ n^3-10$, \qquad  $ n^3+20n^2+1000$, \qquad $n^4-50n^3$,\qquad  $10n^3\sqrt{n}$.
+    \begin{proof}[Answer]
+
+    \end{proof}
+    
+    
+    
+        
+    \newpage
+\subsection{Problem 2\ref{1b}}
+    \item \label{1b} $10 \log_2 n^3$, \qquad $(\log_3 n)^3 $, \qquad 100 $\log_4 n$,  \qquad $n^{1/1000}$.
+    
+    \emph{Hint:} Recall change of logarithmic base formula $\log_a x = \log_b x\cdot\log_a b$
+    \begin{proof}[Answer]
+
+    \end{proof}
+\end{enumerate}
+
+\end{required}
+
+\newpage
+\section{Standard 11- Asymptotics II (Calculus II techniques): }
+\begin{required}
+
+
+
+    {\itshape For each of the following questions, put the growth rates in order, from slowest-growing to fastest. That is, if your answer is $f_1(n), f_2(n), \dotsc, f_k(n)$, then $f_i(n) \in O(f_{i+1}(n))$ for all $i$. If two adjacent ones are asymptotically the same (that is, $f_i(n) = \Theta(f_{i+1}(n))$), you must specify this as well. 
+    Justify your answer (show your work). You may use transitivity: if $f(n) \in O(g(n))$ and $g(n) \in O(h(n))$, then $f(n) \in O(h(n))$, and similarly for Big-Theta, etc. The same instructions as for Problem 1 apply.}
+    \begin{enumerate}[label=(\alph*)]
+\subsection{Problem 3\ref{2a}}
+        \item \label{2a} $1$ ,\qquad $n^{\log_5 n^2}$, \qquad $n^{\log_2 n}$,\qquad  $n^{\log_n(n^3)}$, \qquad $ n^{\log_n 10}$ .
+        \begin{proof}[Answer]
+
+        \end{proof}
+        \newpage
+
+\subsection{Problem 3\ref{2b}}
+        \item \label{2b} $n!$ , \qquad $3^n$ ,\qquad  $3^{n/2}$, \qquad  $n^n$,\qquad $3^{n-2}$,\qquad  $\sqrt{n^{3n+1}}$. (\emph{Hint:} Recall \href{https://en.wikipedia.org/wiki/Stirling\%27s_approximation}{Stirling's approximation}, which says that $n! \sim \left(\frac{n}{e}\right)^n \sqrt{2 \pi n}$, i.e. $\lim_{n \to \infty} \frac{n!}{\left(\frac{n}{e}\right)^n \sqrt{2 \pi n}} = 1$. We can also say $n! = \Theta (\left(\frac{n}{e}\right)^n \sqrt{2 \pi n} )$).
+        \begin{proof}[Answer]
+
+        \end{proof}
+\end{enumerate}
+
+\end{required}
+
+
+
+\newpage
+\section{Standard 12- Analyzing Code I: (Independent nested loops)}
+\begin{required}
+
+
+Analyze the \textit{worst-case} runtime of the following algorithms. Clearly derive the runtime complexity function $T(n)$ for this algorithm, and then find a tight asymptotic bound for $T(n)$ (that is, find a function $f(n)$ such that $T(n) \in \Theta(f(n))$). Avoid heuristic arguments from 2270/2824 such as multiplying the complexities of nested loops.
+
+\begin{verbatim}
+	1: procedure foo_i(integer n):
+	2:   for i = 1, i <= n
+	3:       i = 3 * i
+	4:       print `outer'
+	5:       for j = 1, j <= n 
+	6:           j = 2 * j
+	7:           print `inner'
+\end{verbatim}
+
+
+\begin{proof}[Answer]
+
+\end{proof}
+\end{required}
+
+
+\newpage
+\section{Standard 13- Analyzing Code II: (Dependent nested loops)}
+\begin{required}
+
+
+Analyze the \textit{worst-case} runtime of the following algorithms. Clearly derive the runtime complexity function $T(n)$ for this algorithm, and then find a tight asymptotic bound for $T(n)$ (that is, find a function $f(n)$ such that $T(n) \in \Theta(f(n))$). Avoid heuristic arguments from 2270/2824 such as multiplying the complexities of nested loops.
+
+\begin{verbatim}
+	1: procedure foo_d(integer n):
+	2:   for i = 1, i <= n
+	3:       i = i + 1
+	4:       print `outer'
+	5:       for j = 1, j <= i
+	6:           j = j + 2
+	7:           print `inner'
+\end{verbatim}
+
+
+
+
+\end{required}
+
+\begin{proof}[Answer]
+\end{proof}
+
+\end{document} % NOTHING AFTER THIS LINE IS PART OF THE DOCUMENT
