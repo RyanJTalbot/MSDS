@@ -1,0 +1,320 @@
+Asymptotic NotationNow we are looking into
+Asymptotic Analysis and we're going to look
+at asymptotic notation. What is asymptotic notation? Asymptotic notation is a system
+for comparing functions. I think about it, even though this is not
+a very rigorous thought, I think about it more
+like comparing numbers. For instance, if I
+gave you a number, 20, I know it's greater
+than or equal to 15. If I gave you a number 14, I know that's equal to 14, or if I gave you a number 12, I know it's less
+than or equal to 18. These are comparing numbers. Now we are going to compare
+the growth of functions, so not just the growth but the asymptotic
+growth of functions. Now, what are these
+functions we're comparing? These functions are going
+to be functions from natural numbers which
+represent the size of inputs. Because we'll only deal
+with natural number sizes, 2 times or op counts, which could be fractions
+or real numbers. I'm allowing the y-axis
+to be real numbers, but it can only be positive. There's nothing to be said that this algorithm uses minus 2 time unless we discover algorithms that can
+take us back in time. There's no notion of minus
+2 times, same for space. There's no algorithm
+that actually takes negative space or gives
+memory back to you. No way. We are mostly
+interested in things that stay in the first quadrant. Functions that dip below into the third quadrant or the fourth quadrant
+are not allowed. You can't go into the
+third quadrant because I'll only consider n
+greater than equal to 0, and you will stay in the
+positive half of the y-axis because my functions are only
+going to be non-negative. This is not to say that
+mathematicians don't do that. It's just that we won't do that. These functions are going to be the worst case complexity of some algorithm for N or the
+average case complexity. Number 1, that's the background. These are going to be
+comparing functions or comparing the asymptotic
+growth of functions. There are three notations.
+First notation we learn is f equals o of g. Typically, I could write f of n to say that the argument is n.
+Sometimes I don't write it, I would simply say f equals
+o of g. What does this mean? This means is the informal symbol for less than or equal to. Big O is the informal symbol
+for less than equal to. What this means is f of n
+inverts is asymptotically upper bounded by g of n. Here's what I would like to capture and we saw
+this previously in the situation between
+insertion sort and merge sort. Here I have n, and
+here I have my y axis, which is going to be f of g. Now, let's draw f. Let's say f is
+a curve that goes like this. What I would like to
+do is let say g is another curve that
+goes like this. I would like to claim two things. I would like to claim that
+there is a point n,0. Let me call this
+the overtake point. There is a point
+n,0, at which point, let's say g overtakes f, so g is going to be above
+f and stays overtaken. This is going to
+continue forever. This is what I would
+like to capture. The second thing I
+would like to capture is that constant
+factors do not matter. I would like to capture
+that g overtakes f, and f stays overtaken. This is informal English, so please bear with me, so g over takes f at some point, and then beyond that point, f has to stay overtaken, which means g has to
+be above f forever. Number 2, constant factors
+must be disregarded. In other words, how do I
+disregard a constant factor? To disregard a constant factor, I am allowed to give g some help. I am allowed to compare
+f and some function, let's call it k times g of n, some constant K times g of n. I can multiply g by two or 10, or 20, or 30 or 100
+to make this happen. This constant is the help that I give g to make
+this fact happen, and this will be important. Let's see why. This is
+the big O notation. Let me write down in mathematics. What does it say in mathematics? It says there exists
+a constant K, and this constant better
+be greater than zero. I don't want to set
+this constant to zero or negative numbers
+and cause problems. There exists a constant, there exists a N_0, which is the overtake point. This N_0 is set as the
+overtake point such that for all natural numbers
+greater than or equal to N_0, what should happen? F of n must be less than or equal to K
+times g of n. Remember, this is what the big O says. Where f is on the left-hand side, less than or equal to g is
+on the right-hand side. Informal, remember this big O is the less than or equal to. Wherever you see big O, think less than or equal to, but also think that it's not exactly less
+than or equal to, it's less than or equal
+to width caveats. What are the caveats? It's not less than
+equal to everywhere, it's only less than or
+equal to beyond some point. Initially, f can be about g, but there is a point
+N_0 where g overtakes f and stays overtaken n. I can
+multiply g by a constant K, 1 million, 10 trillion. Whatever constant I feel, I can multiply it as long as
+it's a positive constant, and as long as beyond some
+N_0 f is less than or equal to g of n forever to
+the right or to your left. This is the
+mathematical notation. Whenever this happens, we
+say f equals big O of g, or f is upper bounded by g, or f is asymptotically
+upper bounded by g. This is an important concept and
+it's certainly a handful because you're already probably drowning in some math here, and lots of quantifiers here. Let me give you some rules of thumb for comparing functions. Let's take two examples. Let's take f equals n squared, and let's take g equals n cube. In fact, let me make the
+problem more interesting by making f to be half n squared, and g to be, let's say 0.1 n cube. G is 0.1 n cube, and f is half n squared. Let's plot f and g.
+Let's just try and plot. Here, one thing I could do is constants like this half
+n squared, 0.1 n cube, I could disregard
+because I'm allowed to multiply any constant
+in front of g, so I could take the
+function 10 times g. Let me take K equals 10, and consider the
+function 10 times g, which is simply n cube. What is n cube? At 0, it's 0. At 1, it's 1. At 2, it's 8. At 3, it's 27, out of the scale. That's the function n cube. Let me just draw this like that. What is n squared? Well, f is half n squared. At 0 it's 0, at one it's half, at 2 it's 2, at 3 it's 4.5, so this is f. You can convince yourself that if I
+set K equals 10, and this is just one of many
+possible choices by the way. If I set K equals 10, and N_0 equals 1, you see that for all
+n more than one, f is going to be less
+than or equal to K times g. By the way, I could have set K equals 1, it's just that N_0 would've been pushed farther
+into the future. Eventually, g overtakes f, and f stays overtaken. Therefore we write 0.5 n squared is big O of 0.1 n cube. Now let me take two
+other functions. Let me take f equals 2 in
+10 to the 0 n squared, and g equals 0.000000002. 0.000000002n cubed. Is f big O of g.
+What do you think? I think f is big O of g because one of the rules of thumb
+when you consider big O, is forget the constants in front. Just look at the functions or what we will call
+the leading terms, and compare the leading terms. Here, this is n squared,
+this is n cube, and what you will find is n
+cube is eventually going to overtake n squared no matter what constant you
+put in front of it. Another thing you could add is f is 2 times this humongous number n squared
+plus let's another add more numbers in front of it. For g, let's add a really, really small number
+in front of it. Does this make a difference by adding a huge number
+in front of f, and adding a really tiny
+number in front of g? Does this make a difference? No. You can also ignore
+addition of constant terms. In front of n squared, you can ignore any
+multiplicative term, you can ignore addition
+of constant terms, and then compare f and g, and you will find that the
+comparison is much easier. Why is this the case? Because of the K and
+because of the N_0. Because of this K and N_0, you know that no matter what constant I put in
+front of n squared, and no matter what constant
+I put in front of n cube, the n cube function is
+eventually going to overtake the n squared function,
+and stay overtaken. What about f and g where f is, let's say 2.2n and g
+is, let's say 1.5n. Is f equals big O of g? Now, this is where once again the constant comes in handy. Because if you look at
+f and g by themselves, let me draw f in green, f is going to be this
+straight line, this is 2.2n, and g is going to be the
+other straight line, let me draw that in blue, 1.5n. You see that if I didn't
+allow a constant, g is always going to remain
+below f. But which is why I compare g with the
+constant K in front of it. If I allowed a constant K, I am allowed to
+choose any constant. It just needs to be a constant. You can't change it.
+Once you decide, it needs to fit safely. I can choose K equals 10. By choosing K equals 10, you see g overtakes
+f. At n equals 1 it overtakes f and
+it stays overtaken, but you have to multiply g
+by 10 to make that happen. In this case, with f
+is 2.2n and g is 1.5n, f equals big O of g.
+At the same time, you will find that g equals
+big O of f. Why is that? Because when I talk about
+g equals big O of f, then the constant
+goes in front of f. I could use a
+constant K equals 1, and convince myself that g equals big O of f. In this case, you can have both f
+equals big O of g, and g is big O of f. Remember, this is just less
+than or equal to. It's like saying, 14 is
+less than equal to 14, 14 is less than equal to 14. In some sense, this
+suggests that f and g are asymptotically the same
+or asymptotically equal, which is the concept we will
+get to in the next lecture. We've so far looked at
+the big O notation, we've defined the big O notation, we have motivated the need
+for a big O notation, and now in the next lecture, we'll look at the two
+other notations which is the big Omega and the
+big Theta notations, and that would complete the section on
+asymptotic notation. See you next lecture bye. This lecture, we looked at the f equals big O of g definition. This means f is
+asymptotically upper bounded by g. Now, what was the definition? Informally, whenever I
+say f equals big O of g, you should be able to
+draw this diagram. On the x-axis is n,
+the size of the input, the y-axis is f and g.
+Let me draw f in green. F looks like this,
+so it can start big initially and goes like this. G, doesn't have to be, maybe initially below f, then you get some action like
+that, maybe oscillating, and eventually,
+there comes a point, you're allowed to help g by K, so some K times g is greater
+than or equal to f. Or we like to write it as f less
+than equal to Kg of n, not for all n, but for all n
+greater than equal to N_0. There exists a k,
+there exists a N_0, such that for all n
+greater than equal to N_0, f(n) less than equal to k(g(n). This is the notation for asymptotically upper
+bounded. All right? We saw some examples, so we saw that
+0.00000002n cubed is still an upper bound
+to 200000n squared. Even though this seems to be such a big number,
+only seemingly, Right? It's not big, even though
+this seems to be so small, the point is this n
+cube is eventually going to take this n
+squared. All right? We saw that addition of constant terms doesn't
+change this fact. Now we look at the
+second notation, which is f is big Omega of
+g. This is very simple. Just like this was the less
+than equal to for functions. This is going to be the
+greater than equal to. This is asymptotically
+lower bounded by. What this means is
+now once again, let me use blue for
+f and green for g, so f is like this, and g is like this. What happens is eventually
+there is a takeover point N_0 from which point
+there exists k, there exists N_0 for
+all n bigger than N_0. So for all n to the
+right, what do we have? We have that f of n is
+greater than or equal to k times g of n. k be
+greater than zero. All right. What is
+happening here? Here we had less than equal to exactly the same
+cut and paste, just change it to
+greater than equal to. Here we had k times g going about f. Here will have k
+times g coming below. So this is the undertake point, let's call it the undertake, even though that means something different and beyond that point, in k times g is always going
+to be below f. All right. Interestingly enough,
+if f equals big O of g, then g equals big Omega of f. Just like you would expect if f is less
+than equal to g, then g is greater than equal
+to f. This kind of looks. Big Omega is just
+the flip of big O, but you have to remember
+which one is upper bounded, which one is lower bounded. You need to remember the
+meaning of these two notations. Finally comes the all
+important big Theta notation. What is big Theta notation? Big Theta notation says it
+tries to approximate equality. So f equals big Theta of g means f is asymptotically equal, not upper bounded, not
+lower bounded equal. What is that concept look like? Well, let me draw an axis and show you what
+that concept looks like. Again, here is an axis n
+f and g on the y-axis. All right. Let me draw f
+with a green once again. Is that my convention
+or is a g with a green? It doesn't matter. Let me draw one of the functions
+with the green. Let me draw f with a green. Let's say this is f.
+Now what happens is, I can now have two constants. So I can have
+something like k_1g, and I can have
+something like k_2g. So k_1 times g and k_2 times g. What happens is there
+is an overtake point N_0, beyond which f
+forever is sandwiched between k_1 and k_2 times
+g. How do we write that? There exists a
+constants k_1 and k_2, such that for all
+and there exists N_0 such that for all n
+greater than equal to N_0, k_1g is greater
+than or equal to f, greater than or equal to k_2g. There is a very simple
+way of remembering it. f equals big Theta of
+g simply means that f equals big O of g and f equals big Omega of
+g. In other words, f equals big O of g, and g equals big O of f. Whenever f and g are
+big O of each other, or whenever f is Big O of g, or this is the same thing. Whenever f is big O of g
+and gf and g is big O of f, then f is big Theta of
+g. Let's do an example. Let's take this function f is 2 times n plus 3
+times log n plus 5, log to the base 2 and g, let's say is 15 times n plus 35 log n plus 5 square
+root n plus 17. Now, what this looks like, is these look like two
+different functions. They look like they will have two different rates of growth. But what can happen is, by multiplying G
+by two constants. Let say multiply g by 0.1. You will find that 0.1 G is going to consistently
+remain below F, and you will find that G itself is going to
+be remaining about F. You can always make sure that this happens
+only after an overtake point. F you will find is big Theta of G. How do we find these things? So one rule of thumb, this doesn't always work
+and this can lead you to the wrong
+conclusions sometimes. But for algorithms,
+this always will work for one reason or another
+for most practical cases. If you're confused, first figure out what
+is the leading term. The leading term in F
+and G are going to be N. Compared to N log N square root of N and
+constant terms vanish. N is going to be the
+term that matters. Strike away all constants in
+front of the leading term. There is a caveat to this. I'll explain this in
+the next lecture B up to be careful here. But if there's a 2 times
+N strike the two away, if it is a 15 times N, strike the 15 away. Up to a leading term, both these functions
+or N. Because of that, they are big Theta. You can say F equals big Beta
+of G and you can also say G equals big Theta of
+F. In this lecture, we extended from
+our big O notation to big omega and big
+Theta notations. In the next lecture, I am going to consider examples. I'm going to do more examples, and I'm going to also start
+looking into some pitfalls, some things that you have
+to be very careful about. I'll have to mention them, and I'll do so in the
+very next lecture. See you then, bye. Now let's look at some examples of
+asymptotic notations. Let's look at some
+examples of asymptotics. Let me write down about
+four or five functions. Let's call them F, G, H, and let's just call them L and M. Even though I don't like
+using L and M for functions, let's just call them these. Let's say FN is 2N
+squared plus 3 and log N plus 4 square
+root of N plus 15. Let's say GN is 200
+square root of N plus 15 log N plus 14 and
+square root N, let's say. N square root N, by the way, is nothing but N
+to the power 1.5. Let's say H is N squared plus 2N plus 3 log and just let's
+make our own lives harder. Let's say L is n cube plus
+15 N squared plus 2.5n, and let's say M is 4n squared plus 13n squared
+log to the base 2n. These are examples of functions. Now I want to compare
+these functions and let's say these are running times
+for the same algorithm. These are running times for the same algorithm and I
+would like to compare them. Which one's bigger,
+which one is smaller? Let's start with some
+simple examples. What about F and G?. F and G. Which one's bigger,
+which one is smaller? When you look at F and G, there is a leading term here and there are terms
+which are not leading. If I look at F, then the thing that I'm very interested
+in is the leading term. What you will see is that the
+leading term is n squared. N squared overlaps
+n log n because n squared is n times n and
+log n is n times log. When I want to compare
+n squared and n log n in terms of growth this
+n and this n match up, but this n dominates log n. N
+squared is the bigger term. This is the so-called
+big guy in the room. Square root of n is
+actually going to be even smaller than n log n 15 is
+going to be even smaller, so ends Fn, the leading
+term is n squared. Let me write that down.
+What about G of n? If I look at it, this
+is n to the power 1.5. This is log n, this is square
+root of n. This is n^half, 0.5. n^0.5 obviously
+is subsumed by n^1.5. What about log n? Well, log n is actually even
+less than square root of n. This is something
+for you to think about. This will come in
+very, very handy, which is, how does log n grow? Log n and square root of n. What you will find
+is at some point, square root of n is going
+to be way bigger than log n. Let's try for 10^6. Let's make this log
+to the base 10. At 10^6, log n is 6; square root of n is 1,000. At 10^8, log n has only increased by
+a little bit to eight; but a square root
+of n is now 10,000. Square root of n is a much
+faster growing function than log n. Therefore, if you think about it, the dominating term
+in g of n is n^1.5. What about h of n? If you take a second, you'll find out that n squared is the biggest
+term here, subsumes n, and definitely
+subsumes log of log of n. It's like log applied
+twice: log applied once, and then applied
+again to the result. So here, the dominating
+term is still n squared. Here, if you look at it, the dominating term is
+definitely n cubed. Check here that between n squared and n
+squared times log n, the dominating term
+is n squared times log n. Now that gives us
+some means of comparison. How do I compare f and g? Well, let's just look
+at the dominating term, let's ignore the constants, let's ignore all the other terms. Let's just look at the
+term that dominates, also called the bottleneck term. This is sometimes also called the bottleneck because it
+really affects performance. Therefore, n squared,
+n^1.5, which one's bigger? Turns out that f is bigger because n squared is
+bigger than n^1.5. f equals Omega of g and
+g equals big O of f, f is not equal to big
+Theta of g. Remember that. f is big Omega of g, g is big O of f, and f is not big
+Theta of g. Now let's do f and h. What about f and h? It turns out f is big Theta of h, or h is big Theta
+of f. Why is that? If you ignore everything else, the dominating term
+is still n squared, and asymptotically
+that's what's going to determine the rate of
+growth or the performance. n squared, n squared,
+they are equal. f is big Theta of h, h is big Theta of g. Therefore, all of these hold: fh
+is big Omega of f, f is big Omega of h, h is big O of f, f is big O of h. All of
+these facts will hold. What about m and l? Well, l is n cubed, m is n squared log n. n squared log n is
+subsumed in n cubed. So m equals big O of l, l equals big Omega of m, and m is not big Theta
+of l or vice versa. Here, g is not big Theta of
+f. Let's pick another pair. Let's pick g and m. g is n^1.5. In fact, I can put a big
+Theta in front of it. m is big Theta n squared
+log n. What about g and m? These are the two functions: g and m. Which one's
+the bigger function? Well, it turns out
+that g is n^1.5, this is n square root n.
+m is n squared log n, so this is n^2 times log n. Obviously m is
+the bigger function. So g equals big O of m, m equivalently is big Omega of g, but they are not big
+Theta of each other, they are not big Theta. Neither is big
+Theta of the other. This gives you a flavor of some examples using
+polynomials and logs. In the next lecture, I'm going to talk
+about the pitfalls of exponential functions which
+also come up, by the way. I'm going to talk about some
+of the pitfalls of reasoning about exponentials next
+lecture. See you then. Bye.

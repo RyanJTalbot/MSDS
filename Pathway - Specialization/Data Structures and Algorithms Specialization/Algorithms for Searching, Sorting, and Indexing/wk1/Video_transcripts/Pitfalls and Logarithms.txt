@@ -1,0 +1,155 @@
+In this lecture, we're going to look
+at a synthetics notation as synthetics. For exponential functions and beyond. Okay.
+So if you're going to start with that. So one thing I've already told you is
+if you had a function like one point squire five and squired 2.2 and log in. Let's say plus three and
+something like this. Then I said, you can boil this down for
+the purposes of a synthetics into and squared. For the purposes of asymptotic. Remember that. Okay, so this is theta squared,
+big theta and square. And you can work from here. All right? Now, the problem, though is, what happens
+when you have two to the power end? And two to the power let's say to end? Let's call this f, lets call this g. And let's say to make life worse,
+there's a 1.2 times two to the end. And let's say there's a 2.4 times to that. Okay, so there's two constants here. The first constant is the 1.2 that
+sticks in front of 2 to the end. So there is this constant here. And then there's a constant
+on the exponents. So there's a one here and
+there's a two here. So there is another constant here. Now the question is, which constant can
+we get rid of a synthetic analysis? Obviously the constant in front of f. And G can be gotten rid of. That part is easy. But be careful about
+the constant on the exponents. So the constant on the exponent, you should not get rid of it. Why is that? If you got rid of it, then you could
+falsely conclude that f equals theta of g. By getting rid of both
+the constant on the exponents. Okay?
+And the constants in front of the numbers. Which would be completely wrong. It should be completely
+wrong because let's call f. Let's cancel the constants
+is due to the power end. Let's call g to be two
+to the power two end. In fact, g equals have squired. Remember two to the power two end is
+two to the power and the whole squire. All right? So this constant here on the exponents
+has the effect of squiring the function, not doubling the function. So this has the effect of
+squiring the function. Because it said two it's taking
+the function to some power here. This has the effect of doubling
+the function or something like that. 2.4 times in the function. Whatever the English name for that is. All right? So roughly doubling the function. This is roughly squiring the function. So, in a symbiotic notation,
+you cannot write f equals theta g. That would be totally wrong. So, ignoring the constants in
+front of the exponent is wrong. In fact you can say f equals o of g. You can say g equals omega of f. But f is most definitely not theta of g or
+g is most definitely not theta of f. This has to be remembered. Alright? Constants in front of these
+exponents cannot be compared. So for example, let's take two to
+the power end and three to the power end. Let's call this f. Let's call this g. Are they the same up to a constant? And the answer is they are not. In fact three to the power end, is two to the power log two
+to the base three end, okay? And this is something like 1.57,
+blah, blah, blah. All right? This is a number. So, therefore this is
+two to the power end. And this is roughly two to the power,
+let's say 1.57. And even though the exact constant
+is not clear to me, this is g. All right? So in fact, you can say f equals big of g,
+you can say g equals big omega of f. But you cannot say that
+they are big theta. These two and
+three are the base of the exponents. They cannot be equated. But if you had a 1.2 times this. If you had a 7.9 times this. The constant that's multiplication
+in front can always be taken away. Okay, so that is super important to
+note which is when you're dealing with functions exponential. Be careful about the constants. Because they are not the same type of
+constant as the constants that you multiply in front of functions. All right. The other important part that goes
+with exponential is the algorithm. Okay?
+So whenever I say c equals
+log to the base a of b. What am I saying? Then I'm saying that a to
+the power c equals b. Okay? Eight the power c equals b. All right? These are the same things. Example 15 equals not 15. Let me do 16 log two to
+the base two of 16 equals four. So here a is two, b is16, c is four. So two to the power four equals 16. Okay?
+So logarithm is the inverse
+operation of exponential. And therefore, you should show
+that any two bases are related. So log eight, the base b equals,
+log let's take another number d. To the base b divided
+by log d to the base. Sorry. Log a to the base b is log of b to the base d divided by log of a. D to the base a. So log b by log a. So log b divided by log a is log d. Another way of looking at it, is log of a to the base b
+times log of c to the base b. So here b is the base years list,
+log eight to the base c. Okay?
+So log operates very much
+with these equalities. So these equalities are very important. So let me take two examples. How does this affect
+a symptomatic notation? So let me take a couple of examples on
+how this affects a symptomatic notation. All right? So let me take f equals
+log two to the base end. Let's take g equals log five. Okay?
+So to log the base five of end here, is log to the base two of end. How are F and G related? How are f and g related? So turns out, you can always write g. Which is log five to the base end. You can use this equality, to say which is the same as log five to the base two, times log to the base two of end. So this is F. And this is a constant. So even if I take f as log
+to the base two of end. And g as log five to the base end. They are just a constant times each other. So multiplying one by a constant,
+gives the other. So therefore in this case f equals big
+theta of g is symptomatically equal. Any two functions that involve logarithms. To two different positive basis
+are up to a constant the same. All right? In other words. So these are kind of very
+important equalities and hopefully you have taken them in calculus. So you should have seen
+some of these in calculus. But now it's a good time to review this. Okay?
+So chapter three of this book has a review. We're going to post a review assignment. So hopefully you follow
+the review assignment. And you understand when I say two to
+the power end and two to the power to end. Which is the bigger function. So you should not cancel the two
+in front of the exponents. Because something raised to the power of
+an exponent has the effect of squaring or taking the function to the power. Something written a constant multiplied
+in front of a function as the effect of Doubling. This has to be remembered. The other thing that has to be
+remembered is properties of logarithms. Which are going to be very important. All right? I will see you in the next lecture
+where we will summarize this notion of complexity classes. Okay?
+We will find classes of complexities of different algorithms and
+why they are important. All right.
+So far, we've looked at some asymptotic notation. Let's connect it back to algorithms. All right? So, let's look at some of the worst case
+complexities of some known algorithms. All right? So, we already did binary search
+as part of discrete math. So, there was a lecture where recovered
+by the research as part of 28 24. And it turns out if I give
+you an array of size n. The running time complexity of
+binary search is theta log in. All right? And so you can say that binary
+searches the theta to Logan algorithm. Okay?
+And we also looked at insertion sort. Okay? The worst case complexity of
+insertion sort is theta and squired. All right? We looked at merge sort so far, even though we haven't quite done
+this analysis in a very rigorous way. We had indicated last time that,
+the worst case complexity was n log in. So in terms of complexity,
+where do these things look like? So log n is going to be a very small
+complexity compared to let's say n log n. Which is going to be
+the complexity of murder sword. Okay?
+So log n is bigger and Logan. Which is bigger and squired. So, insertion sort is a synthetically
+a strictly slower algorithm than mud sort. Okay.
+It's a running time is going to be faster. Okay?
+Now are their algorithms beyond this? Right?
+So for example, multiplying two matrices. The complexity is going
+to be about n cube. Alright?
+So big o and cube. So this is matrix multiplication. And there are algorithms which have
+an enter the power for complexity. Alright? For example, all pairs shortest spot. No that's already in cube I guess
+that's n matrix multiplication. That's in four or it's q and block. It will study this. Okay?
+So there's an algorithm within four. Interestingly enough, these algorithms
+are considered efficient or polynomial time algorithms. Yeah. Even though in Logan is not a polynomial, its upper bounded by a polynomial here and
+square and cube. So these kinds of algorithms
+are called polynomial time algorithms. All right. And beyond this. There are exponential time algorithms. Algorithms who's running times go like two
+to the end, three to the power and and factorial and so on. So these are going to be
+exponential time algorithms. Okay?
+So polynomial exponential. And what are these algorithms? These are algorithms for very hard
+problems like sat satisfy ability problem or the traveling salesperson problem. I briefly mentioned in the very first
+lecture or the graph coloring problem. Okay.
+So there is a very important class of problems where the worst case
+complexity of the algorithms are here. Okay?
+And we'll talk a little bit more about this towards the end of this class
+when we consider p versus n p. All right?
+And in fact there are things in the middle. For example,
+something like two to the power log and squired or two to the power log and
+to the power four. Okay?
+And these are called poly log time. Okay?
+And these are also important. Okay?
+So these are entered the power poly log. So enter the power poly log. So these are between polynomial and
+exponential. And examples are factoring algorithms. So many factoring algorithms have
+a complexity which is in this class. Some recent algorithms for
+great graphics organism for special classes of graphs
+also belong to this class. Okay?
+So, these are going to be classes of algorithms. That are going to be very efficient, what
+we considered efficient algorithms and that's a more controversial. And these are polynomial time algorithm. So you start with some algorithms
+that take log in time and log in and squared in cube and four and so on. In fact, we'll study some
+algorithm very next lecture, which has a running time of 1.54,
+blah, blah blah. There are algorithms that
+take a running time of 2.7. So there are some very
+crazy complexities here and we'll see how they arise next time. In fact, on this other side, there
+are algorithms that run in constant time. And we call them theta one algorithms. Theta one means it's constant time. Any constant is theta one. Okay?
+So theta one is constant time. Okay?
+Simple algorithms which do not depend on the size of the input. So for example,
+given number n Is it divisible by two? If n is given in binary
+the disability by two is very simple. You just look at the last digit of and
+if it's a zero yes. If it's not a zero no. That's an example of
+a constant time algorithm. Algorithm that runs in theta 1 time. We saw binary search log in. There are intermediate algorithms
+that run and log and time. Okay? N log n we saw merge sort. Okay?
+And there are algorithms that run
+an end log and log end time. All right? So algorithms can get pretty complicated. All right? And the running times can span
+a spectrum from constant time. All the way to exponential time. And factorial. in fact the longest running
+algorithm that I know of. Is an algorithm whose complexity is
+two to the power two to the power two to the power two end times. Can these are called non
+elementary algorithms? Okay?
+There are many non elementary algorithms. Okay?
+And so there is a class of non
+elementary algorithms as well. Okay?
+So and this would be longer running times
+than any of these functions here. It's bigger than n factorial. For example,
+which is bigger than three to the end, which is bigger than two to the power end. All right? So if you keep going along the scale
+of complexity algorithms can span anywhere from theta one. Like a very simple algorithm to algorithms
+which have a non elementary complexity. Why would people study them? Well, they do because
+they are interesting. They solve interesting
+theoretical problems. So we study them. There are polynomial time,
+poly log time, exponential time and so. All right, so
+this we will start to explore divide and conquer algorithms in the very
+next set of lectures. See you then. Bye.

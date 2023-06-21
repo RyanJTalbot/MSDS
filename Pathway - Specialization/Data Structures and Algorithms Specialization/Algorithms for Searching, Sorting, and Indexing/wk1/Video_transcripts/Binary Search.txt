@@ -1,0 +1,277 @@
+Welcome to this lecture on
+analysis of algorithms. We're going to be talking about this very interesting
+and important algorithm called binary search. To be sure, binary search is a rather simple and
+elementary algorithm at least as far as
+these algorithms go. But the most
+important thing about binary search is how
+to get it correct. What we find typically
+is people struggle to get binary search correct
+especially in one shot. Let's look at the binary
+search algorithm. What is the binary search
+problem description? It is a typical search problem. You have a sorted
+list of numbers, or a sorted list of keys. It could be a sorted list
+of strings for example, and you are interested
+in whether a given key, or a given element belongs
+to the sorted list. Being sorted is going
+to be really important, because none of what
+I'm going to say will work if your list is not sorted. Let's talk about this. Here, we have an example, 1, 6, 7, 19, 22, 25, 31, and 55. We are interested in knowing, does the element 18
+exist in this list? By the way, without
+loss of generality, I will assume that it's sorted
+in the ascending order. You can also work this
+when it's sorted in the descending order,
+nothing really changes. It's just that the
+algorithm has to be rewritten with greater than
+replaced by less than. You can do that as an exercise. Returning back to the example, if the element 18 is
+not part of the list, then the expected
+answer is false. On the other hand, here is another example of ascending
+order sorted list. We are interested
+in the elements 6. Here the answer is true, because you do find the element 6 and you could return an index 1. Remember, indices in Python
+start from the index 0, so 0, 1, 2, 3, and so on, up to the length
+of the list minus one. In this case, you would return the answer one as the index, and you would also return true, and you could return a
+tuple that true an index. In the previous case, you would return a tuple with false, and for the index you would
+return a default or none. That depends on how you choose
+to implement this problem. Then let us get into the
+basic idea of binary search. What is the basic idea? Let me illustrate this
+with a search for an element 6 in this list, which is sorted and
+goes from 1-25. There are seven
+elements in this list. What we start it is defining a search region by two pointers. These are going to be values
+of indices of the array, and we'll call them
+left and right. The entire current search
+region is defined as the list between left and right
+with both ends inclusive. Currently this includes the
+entire list, and by the way, left would be zero, and right in this case
+would be, how much? 0, 1, 2, 3, 4, 5, 6. There are seven
+elements of right six. The key step in binary search and it's
+an iterative algorithm, at each iteration you
+are going to search for the middle element and you're going to check
+the middle element. The middle element is simply
+given by left plus right. You have to do an
+integer division if it's an odd number you
+have the rounded down. In Python that's done by the double slash
+operator divided by 2, and that gives you
+the middle element. In this case, this
+is the index 3, and at the index 3 you
+find the element 14, which is not what
+you're searching for. It's not what you're
+searching for, but what you're searching
+for six is less than 14. This clues you in that
+if I am to find six, I better search in the left
+hand side of this list. My new search region is
+going to have left equals 0, but my new right
+is simply going to be one to the left of my
+current middle element. That would be two. Now, again, you do
+another iteration of binary search with this
+new updated search region, so another iteration with this new updated
+search region and now mid becomes in
+this iteration one. You look at what is at index 1 and you find that it is in fact what you're
+searching for. You are done, you exit
+early and you return, true. I did find what you're
+asking me to find and you return the index
+at which you found it, which is index 1. I hope this is clear. Let's go into another
+example of binary search, just as an illustration. Here it's the same list, but we're now searching
+for the element 18. How do we find that out? Well, let's start with again, initially setting left to the
+very beginning of the list, and setting right to the
+very end of the list, in this case six,
+in this case zero. Again, mid is three. That looks at 14. In this example, you
+are searching for 18, which is greater than
+14 and therefore, your search region
+now starts to become the right half of the list that you're
+searching for because your list is
+sorted in ascending order. The middle element is 14, and you're looking for something
+that's bigger than 14. Now you go, and you say, my new search region
+has left equals four, and right remains six. At any time you're just going to move one of these pointers, and you're going to
+have the search region, which is something
+I hope you notice. Then what you say is now
+let me do a new mid, which is mid is six plus four divided by two,
+so that's five. That's my new mid
+in this iteration, and if you look at
+this middle element, now 21 is greater than 18. What you need to do is
+look to the left of 21, but also to the right of 17 because you already have
+narrowed the search region. In the last iteration, you get left remains four, but your new right in this
+iteration is also four. Now is this the end
+of our binary search? No. You have to do
+one more iteration, because what you are seeing here is if I can find the element, I would find it in
+search region which is between left and right,
+both ends inclusive. When you say, if I can find it, I'll find it at four. Let's do one more iteration. In this situation, what happens is mid which is left plus right. Mid which is left plus
+right by two is also four, which trivializes it, and you say at this four, you find the element 17 is less than what you're
+searching for, which is 18. Now something strange is done. What you do is you
+follow the same rule, and you say, then I have to find things to the right of four. Therefore what
+happens is left now ends up being one more, which is five, and right
+ends up being four. What happens here is your
+left and right pointers end up crossing over and when
+they end up crossing over, you will have to declare
+that there is no way that I can find 18. There is no way to
+find the element 18 in this list and so
+you would basically bail out at this point and say that you fail
+to return this element. In fact, there's a little bit of extra information if
+you get extracted which is you also know that if the element were to
+be found in the list, there would be found in the list. That's a little bit
+of an extra thing which we won't care
+about at this point. Hopefully the idea of
+binary search clear, let's look at how would we
+implement binary search and the easiest
+implementation would be to do a recursive implementation. Though I have uploaded some notes that I assure you that
+it's also possible, very easily to do a loop
+based implementation. Let me define a function here called binary search helper, which is going to help
+me in binary search, and I'm going to
+call this function from my main function. I'm going to create a main
+binary search function in the very next slide, and that function
+we'll call helper. Right now helper is going to help me in the middle of
+my binary search, and you have an ascending
+sorted list here. I'm just representing it like
+this smallest element here, largest element here
+and somewhere in this list you have defined
+a search region right now, between some index
+left, some index here. Let's call it left and some index here,
+let's call it right. You know that if the
+element were to be found, it's going to be found
+between left and right and that's the property that you are going to keep
+maintaining and this kind of property is called an invariant. You'll have to
+maintain two things. One is then you're going to
+call binary search helper, make sure that left and right are such that left
+is less than or equal to right and also make
+sure that you have zero is going to be less than
+or equal to the left, which is going to be less
+than the size of the list. These are going to be
+important properties that you need to maintain. The very first thing I will
+do is to make sure that if indeed this requirement
+that I just stated fails, which is if left and
+right have crossed over, then let me just
+declare that there is no way to find this
+element so let me return false and not bother returning an index in Python you could do that
+by calling that none. That's very important,
+so first let's do that. Then second, let's also have
+the following which is, let us say that otherwise else, what we do is we compute mid, which is going to be left
+plus right divided by two.. Now you have to do a comparison. I'm going to write the
+rest of the code here. I'm going to say if the list at mid equals what I'm searching for which is I'm
+searching for the element, then of course I'm going
+to return true right away. I found what you're looking
+for and I'm going to return the index which is at mid.
+That's the good part. Else what I'm going to do, there are two cases left. First case is if list of mid
+is less than the element, then I have to do something. Else if list of mid is
+greater than the element, I have to do something else. Now, what are these
+something else? Let me just go to the
+next slide where I have the code written and
+just show you the code. Here's the full code here and you can see that if left is greater than right,
+I return none. I say mid is left plus
+right divided by two. If I find the mid element, then just return the mid element. Otherwise, what do I do? I'm going to call binary
+search again on the same list, looking for the same element but my new search region is mid plus 1 comma right. Why is that? Because here's the search region and I've looked at mid
+and this element here, list of mid is less than
+what I'm looking for. What I'm looking for better be here if it's at all to be found, so my search region becomes
+mid plus 1 to right. On the other hand, if the mid element is greater
+than what I'm looking for, then the search region becomes between left and mid minus 1. That's the algorithm.
+It's just four lines but you have to be careful when you're
+writing the four lines. Instead of returning
+true and false, I simply return none when I
+cannot find it or I return a number when I can find it and that can be made into true
+and false if you know how. This is just a small variation on what I've been
+talking about so far but hopefully you know enough Python that it
+doesn't trip you up. Here is how you would
+call binary search. You would simply say, let me call binary search helper on the list on the element
+that you are being asked to find and let me
+initialize left to zero and let me initialize right
+to size of list minus 1. This is going to be important
+so you have to initialize left and right correctly
+and you're all set. Once you've initialized
+it correctly, the helper function
+takes care of the rest. I hope this is okay. Now, one of the nice things about binary search is you can
+now start to argue why is binary search correct and
+what you have to show is the following behavior
+for binary search helper. You have to show that if the
+list is sorted in ascending order and if the element
+belongs to this sub-list, list of left to list of right which defines the search region, then binary search will correctly return the index of the element that
+you're searching for. If the list does not
+belong to the sub-list, then binary search will return a special value none
+which is just a variant, previously I said false. You can just turn it into
+a special value none and previously I said
+here true and instead you can say let me just return a number which is the index of the list where you can find the element and the
+true becomes redundant, the false becomes redundant. It's just a small
+implementation change. How does that work? Well, what you show is
+the following property. That if you call
+binary search helper, it's going to maintain
+this invariant property that anytime you call binary
+search helper and let's say there is a list and there's an element you're searching for in that list and you have a search region that
+I'm showing in blue, left and right, then binary
+search helper always has this property that if I can find element in the entire list, it would be found in
+the search region. This is important. This is the main
+property I'm going to maintain and the
+way I maintain it is by showing that if in a particular iteration of binary search this
+property holds, then given that it's
+a recursive function, this binary search
+is going to call new instance of
+binary search helper, so binary search
+helper is going to call another instance of
+binary search helper, so it's going to call
+another instance of binary search helper and
+that's what recursion does. Let me just say binary search Helper. What you have to show is that if this
+property holds here, then it's maintained
+in the next call. That's very important and that's called an induction argument. In the notes that I have provided to accompany this lecture, you can see how the
+induction argument goes, and I have given it
+in a lot of detail. You typically don't need
+that level of detail, but I just wanted to
+demonstrate a couple of algorithms at that level of detail, just so that you know. Another interesting activity
+is to look at how long will binary search tick on
+an array of size n. What happens when you call binary search on an
+array of size n? To make life easy, we can always say n
+is some power of k. Let's call it two to the
+power k. Just as an example, two to the power 10 is 1,024. Let's say n is 1,024. What happens with binary search? Suppose you're searching for
+an element in this array. Suppose you're searching
+for an element. In binary search, at every
+iteration of the algorithm, your search region gets
+halved or less than halved. If you start with
+the search region initially that's
+your entire list, then in one iteration, you're going to say it's either the left side of the list or the right
+side of the list. Then in the next iteration, you further halved
+your search region. In the next iteration, you further halved
+your search region. In the next iteration, you further halved
+your search region until your search region
+becomes of size one. Then you stop in a
+further iteration. In the worst case, you could have stopped earlier. You could have
+stopped in the very first iteration if, by luck, your middle element was already what you're
+searching for. If you have already what
+you're searching for is in the middle element
+of the list and you already found it,
+then you are done. That's the lucky condition. That will not happen in the worst case you are forced
+to go all the way down, grind all the way down until
+your left and right pointers cross over and you declare that the element
+is not in the list, or otherwise you'll find
+it at the very last step. But if you go one step, and if your original
+array's of size n, then your new array is of size less than or
+equal to n by two, in this case, two to the
+power of k minus one. Then if you go one
+more step and this is in step one, in step two, your new array
+would be n by four, which is two to the
+power k minus two. At every step, you are having
+the size of the array, and the question is,
+in how many steps will I reach an
+array of size one? You can conclude in this case, that you go from two
+to the K minus one, two to the k minus
+two in two steps, two to the k minus
+three in three steps, two to the k minus k, which is one in k steps. You can claim that at most
+k plus one steps there. K is in fact log to the base two of
+n. If n is two to the k, then k is log to
+the base two of n. This analysis and it can put a big Theta
+notation around it, that requires a little bit of an extra step and
+proving a lower bound, which I won't go here. At least you can put a big o notation from
+everything I've said here. You can at least put
+a big o notation. That will convince you that at least you have shown
+that binary search has complexity O log n. It's
+upper bounded by log n. A little bit more
+work and you can look up the book on how
+you prove lower bounds. You can also show that it's big theta log n
+for this algorithm. That's about the running time
+analysis of binary search. This is very good news
+for us because let us say you want to search an
+array of one million. One million, which
+is 10 to the nine, approximately two to the power
+20 elements in your array. You can show that in roughly
+21 binary search steps, you can either zero
+in on an element, or you can conclude it doesn't exist and this is the worst case. Suppose you have, let say
+one trillion thousand. This was for one billion, let's say you have one trillion, which is 10 to the
+12, which is about two to the power, let's say 30. Well, then it's just 30 steps, or at most 31 steps here, which is really, really good. A trillion is a big number, and you can search
+this rather fast. So binary search is one of the very nice algorithms that's considered
+really, really fast. Of course, it only works
+when the array is sorted. I hope this was informative and I have a lot more
+details, in fact, too much details in the Jupyter notebook that I have attached with this lecture. I hope you are able to take a
+look at that and understand a little bit more details on how calculus can be
+established. Thank you.

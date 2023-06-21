@@ -1,0 +1,324 @@
+So welcome and now we are going to talk
+about time and space complexity analysis. And the main here idea
+here is how do we decide Between two algorithms. Alright, so the important part here is
+if I give you two algorithms to solve a problem, how do we decide. Which one we would prefer? And which one would be
+the worst algorithm for us? All right.
+So what do we care about? So we care about two things. We care about time. Okay, and these are the main resources. Of course, there are other resources,
+but we use time and space. And by space I mean
+the memory consumption, Okay? And time is usually the one that
+is the main concern for us. So a lot of algorithms
+are analyzed based on time. Space is also a concern, and
+often they are correlated. Algorithms that end up using more space
+generally end up using more time. algorithms that end up using more times
+often end up allocating a lot of space. They are somewhat correlated
+in a rough sense. But we will study them as the two factors
+that help us tell us which algorithm should be preferred over
+which other algorithm. All right. Having said that, then the analysis of
+algorithms becomes really, really simple. Take an algorithm A 1, and
+let's take a competing algorithm A 2. Which one is better? Well, simple. Let's feed the same input. Okay, let's run the two algorithms. Let's run the two algorithms and
+see which one is faster. All right. Now this seems to be a very good
+way of comparing algorithms. For all of two minutes,
+because then you ask yourself, what input should I choose here? What is the input? All right, should this be an A small
+input versus a large input. Who chooses this input? So maybe there are inputs
+in which a one is faster. And maybe there are inputs
+in which a two is faster. So maybe the designer of Avon comes in and
+says. Hey, you took the worst possible input for
+me. And the best possible for a two and
+you ran this algorithm, shame on you. And we don't want to be
+ashamed of our choices right? So in that case, there is a big question
+here, which input to be considered for both algorithms, number one, and
+number two is, how do we measure time? Well, on the face of it,
+this seems really simple. How do we measure time? Well, let's take our favorite computer. And let's run it on some processor. Let's run it this on the same CPU,
+let's be fair, same CPU. Okay, same CPU, and then measure time. Alright. That kind of works but then the question
+is, who implements this algorithm? Remember, algorithms in this class
+have been taught in pseudocode And does it make a difference? Which language do you
+implement this algorithm and it definitely makes a difference. Certain languages are some of
+the constructs that make certain algorithms faster. Some languages like C
+are highly optimized. So if you spend a lot of time
+writing highly optimized C code or assembly code Your algorithms
+going to work really, really fast. Of course, you're going to spend
+a lot of time doing it alright. So the questions start to
+become bigger and bigger. So, question is how much time do you
+spend implementing each algorithm? Which language do you implement it? Who implements it? Is it a novice programmer? Is it a seasoned programmer? Do you have teams of 1,000s
+of people to implement? So, when you look at these questions, you
+realize that comparing two algorithms and deciding between two algorithms
+is a very complicated question. And some of this complication is not going
+to be addressed in this class, okay? So there is two kinds of comparisons. So there is comparing
+two implementations and this is a very hard task and
+in computer science discourse under the name
+of performance analysis. And there is a lot of work on how
+do you analyze the performance of a computer program. We are not going to worry
+ourselves with implementations. In some language like C C plus, plus,
+where it starts to depend a lot on the type of the language the type of
+the runtime environment, the processors. How many cores you have all
+of that comes into matter. We need to rise above all
+of those considerations. So versus comparing to algorithms. All right? Now when we look at
+comparing to algorithms. We really do not want to bogged
+down by implementation details. Do not want to be bogged down. By details, okay, and
+I'll put a star next to it. And you know exactly what
+details I'm talking about. Alright. So I would like to know how
+do we compare two algorithms. All right. Now, so in that case,
+let us make some assumptions. Let us make some assumptions, all right. So the first thing that we would like
+to assume is that both algorithms will be implemented will be run
+there will be a running time. But how do we how do we measure running
+time So one thing we could do is running time is just the number of operations,
+a number of basic operations. So we could give, for example,
+anytime at two numbers, let me count that as one operation. Anytime I multiply two numbers,
+let me count that as one operation. This is not realistic computers may
+be able to add numbers faster than multiplying. I'll just count them
+as a single operation. Anytime I do a comparison,
+let me count that as one operation. Anytime I run an if statement,
+let me count that as one operation. Anytime I run a for statement,
+you initialize a counter, initialize a counter,
+increment the counter. See if the Loop is to end. So there is multiple things that we have
+to take care of in a force statement. And let's say each of these
+is a single unit operation. Alright, so I'm going to simply count instead
+of counting how much time it takes. I'm just going to count
+the number of operations. So I'm going to do an op
+count something like that. How many operations that the algorithm is
+Runs to execute the program number one. Number two is how do we deal
+with this problem of input? All right. And often enough, the input matters a lot. So we are going to treat inputs by their sizes What is that mean? So that means that if let's
+say it's a sorting algorithm. So we are comparing, let's say,
+Insertion Sort Against merge sort if we are comparing
+Insertion Sort against merge sort, the inputs for
+both kinds of sorts is an array. So let us take the length of the array
+n to be the placeholder by which we are going to compare. So we are going to say for
+an input of size 1000. How many operations that Merge Sort takes. And how many operations
+that Insertion Sort takes. Okay, so for an input of size 1000, you
+could say how many operations merge sort. And you make a point there and how many operations Insertion Sort Now
+the problem is this. This addresses one problem,
+that there are large number of arrays and we don't want to deal with each and
+every array. This puts the the number,
+the input size on the x axis, and the OP count on the y axis. So far so good. Okay, so up count on the y axis and
+input size on the x axis. The problem though is which input even
+if you look at a single size, let's say size 1000 there is a large number of
+areas infinitely many arrays of size 1000. Which of those arrays should I choose? All right now comes the second
+part of comparison. We could compare by best case. We could compare by worst case, Or we could compare by Average case,
+let me explain each of these in turn. So, let us take a single algorithm Now,
+let's just talk about Insertion Sort. Okay, last lecture,
+we looked at Insertion Sort, and we saw that even for an array of size
+1000 there is a difference okay. insertion sort is really fast If the array
+is already a sorted array in the ascending order, already ascending sorted,
+it's going to run really fast. And we saw that it's going to take a large
+time if it is sorted in the reverse order, which means if the array is descending
+sorted, that's the worst case okay? If the array is descending sorted,
+that's the worst case, so there is going to be a spread. Even, for a single input, there is
+going to be a spread which is caused by the large numbers of inputs of
+size 1,000 that are possible. So, of size 1,000 that are possible,
+there is going to be a best array, and there is going to be a worst array. All right. And the third thing is average, which means that if I put all arrays
+of size thousand inside a bowl and I shake it and I randomly draw an array,
+and I measure the time and I take the average of a large number of
+draws, there is going to be an average, somewhere between the best case and the
+worst case there's going to be an average. The average here I'm assuming there's
+a uniform distribution of inputs. I pick inputs at random,
+measure the number of opcounts. I'm not going to measure time on
+a processor, I'm measuring opcounts, and I'm going to count average all right. So with that being said, there are three
+notions of time I could use for an algorithm. I could use the worst case time I
+could use the average case time. I could use the best-case time. Now, which one would you use? All right, so
+it depends on your on how you view the. The best case of course is does it give
+you a good indication of the complexity? All right some people would say
+the best case is lame, right? But if I were going to
+sell an algorithm to you, let's say I was going to try
+to sell you on Insertion Sort. And I said the best case of insertion sort
+is if you have an array of size 1000, it can sort it in 2000 steps and if you have an array of size n It
+sorts it in three end steps, okay? So the best case is really, really good. And let's say based on my best case
+you by insertion sort question is, how likely is the best case to happen? And what you can show is
+that an insertion sort, the best case is super unlikely
+if you have random arrays, what's the probability that they are
+already sorted or they're almost sorted? Very, very tiny probability so, people generally are very
+suspicious of the best case. Okay, very few people I know do
+an analysis of an algorithm by best case. So that leaves us worst
+case an average case. So worst case is to is to give you a
+guarantee that's set in stone to say that No matter what happens no matter what
+input you provide me, insertion sort is never going to exceed two n squared
+operations or right if your input is of size and I guarantee and this is a
+guarantee you can write in a certificate, I will sign it, paste it on your wall that
+says no matter what input you provide me. I will always take no more
+than this much time, and that time is the worst case time. And that's a very, very strong
+guarantee to provide, all right? And the third one is average case. There are lots of algorithms and I will
+mention a few of them in this class where the worst case is just two pessimistic. So the opposite situation happens. Read the worst cases obtained by having
+an input that you would seldom see in practice. So if you want to capture that,
+in practice what happens in practice? You would use the average case and
+the average case is mostly to say, let me tell you what the inputs
+on average are likely to look. So on average, you would get a random
+array which is like randomised. I don't know the inputs can come
+in any order is equally likely. That That being said, now you define
+a distribution over the inputs, you define a distribution. [COUGH] And based on this distribution, you can sum up all possible inputs. Times the likelihood of getting the input,
+the probability you would get them, times how many operations, if you got that
+input and that gives you the average case. As you can imagine, the average case
+is a little bit hard to pin down. For many algorithms,
+that analysis gets complicated. It starts to involve probabilities,
+expectations, things that we love. In the book and love to forget, okay, I'm just kidding but,
+it's not everyone's cup of tea. It's not necessarily mine I deal with it,
+but it's not my favorite subject. I don't take to it like a duck in
+water and I'm sure many of you. May share the same feeling
+with me all right. So worst case analysis is easy often and
+it's nice. It gives you an ironclad guarantee, but
+at the same time, it is going to be too pessimistic in some cases,
+an average case is maybe more desirable, but it's going to be hard
+to analyze average cases. Often, as far as I know, as far as I've
+seen in my 15 years of experience, no one does best case. So let me ignore best case
+it's very self serving. Often algorithms will have
+very nice best cases. But don't get fooled by best cases. Okay, there is there is an application to
+best cases In something called proving lower bounds, but
+let's not worry about it. Worst cases and average cases are the things that we
+are often interested in, all right. Okay so
+to summarize this part of this lecture, we started off by saying how
+do we compare algorithms? What's the metric? To compare algorithms Well, we like to compare algorithms
+by their resource consumption. So that is number one point in
+this takeaway from this lecture. Resource consumption includes time and
+space. It also includes other things like
+communication, but those are energy. Those are harder to analyze. We just use time and space as proxies for
+all those things, all right? So let's focus mostly on time. Space would be analogous. If I had two algorithms. There is one thing to compare the two
+implementations of the algorithm. Where I Implement them in C or C++. I decide what kind of runtime environment. I decide what kind of libraries,
+what kind of processor, what kind and who implements them, seasoned
+programmer versus novice programmer. And I compare the two implementations
+apples to apples by providing them the same input that goes under a different
+name called performance analysis. And that's not what we
+will do in this course. In this course, we are going to compare
+two algorithms and their mathematical splendor without worrying about what
+happens when you implement them. But what we will see is that this gives
+you a flavor of how to compare algorithms. And in the next lecture, I'm going to
+talk to you a little bit about this. Here we don't get bogged down by some
+of the details I just mentioned. Instead of getting bogged
+down by some of the details, we will count the number of operations. We will use what is called
+sometimes called a cost model, which is to say how many
+operations does an addition count? Let's say one operation
+multiplication is one operation. Comparison of two numbers is an operation
+and if statement is a single operation. For statement, let's say has three basic operations
+initialize increment see if the loop ends. And then the body of the loop, which I should mention counts when
+you execute the for loop, all right? And then the second idea was okay,
+let's treat inputs by their sizes. Let's not think of the actual array
+that you're going to give the sorting algorithm. Let us more broadly talk about how does
+the running time depend on the size of the array. How does it grow with
+the size of the array. Now that you have you have a very nice
+axis, x axis which is the size input size, y axis which is the counter
+the operations. Now that we have done that, we face
+the next problem which is which input to choose if I have n equals 1000, I have
+infinitely many arrays of size 1000. Which array should I feed to algorithm A1? Well, it turns out there is three choices. Best case, worst case, average case. So we said no one does the best
+case because it's too self serving. We talked about worst case and
+average case. Average case would be ideal, but
+a little bit hard to get to. Worst case is what we will end up for
+most algorithm except for a few special ones for
+which we do average case. In the worst case, what we will find
+out is we get ironclad guarantees, they may sometimes be too pessimistic. But worst case complexity turns out
+to be a very good way of analyzing. And if you think about each end there is
+a spread of possible running operational counts, op counts or running time, which
+we'll use as a proxy for running time. The best case somewhere in the middle,
+the average case and somewhere on the top the worst case, okay? In the previous lecture,
+we started arguing the foundations for what is called the asymptotic analysis,
+okay? So we started to compare algorithms
+by either worst cases, average case But not by their best cases because
+we said that's too self serving. All right, and
+we defined a graph in which, on the x axis,
+we plot n the size of the input. On the y axis,
+we plot let's say the operation count. Counting each operation by some
+cost model, let's say addition. Course 1, multiplication course 1 Of two numbers,
+let's say comparison course 1. So we have our price list here. For loop, we have our price list here. So based on the price list,
+we count the number of operations. And for every end, we would normally get
+a spread ranging from the best case, To the worst case. And the worst case is the number of
+operations that the worst possible input, which takes the longest
+amount of operations. The best case is the best possible
+somewhere in the middle is the average case. All right, with all of this said,
+there is going to be then, and let's say we start from n equals 0,
+which say takes no time. So then there's going to be a curve, okay? And this is going to be
+the worst case curve, okay? And let's call this fWC of n. So this is a function that map's
+each input size to the number of operations in the worst case. And then there's going to be let's say, an
+average case curve and a best case curve. All right, I'm not going to worry
+too much about the best case. There's going to be a curve
+about average case. And sometimes the worse case can
+deviate a lot from the average case. They don't have to be
+parallel to each other. But every algorithm, once you do,
+subject it to this analysis, lead us to this curve, all right? So let us say for example, Insertion Sort. The curve turns out to be f of n. For the worst case,
+let's just do worst case from now on. F of n for worst case is 0.05 times n squared plus let's say
+2.5 times n plus 1.5. Why do you get fractional numbers? Maybe some of these operations are 1. But some of these operations are,
+let's say half or quarter, all right? So you get a number like this. And let's say for the sake of argument,
+this is what Insertion Sort gives you. Let's say Merge Sort gives you
+worst case complexity function, which is 200, 2,000 n log n, okay? We saw last time that n
+log n was involved plus, let's say 1500 times n plus 2000, 20,000. I don't know why plus 20,000. Okay, let's just say this. Okay, this doesn't make sense
+because at 0 this should be a 0. At 0, this is a 1.5. Just bear with me,
+I just wrote some function out. If you want, let's say log n here. Defining log 0 as 0,
+which is not the case, all right? Something like this, all right, a log n+1. All right, something like this, all right? So this the 2 functions and
+I have done allot of sweat to analyze the sudo cord and
+come up with these 2 functions. The first thing you could question me
+is the cost model, maybe addition is, should not be the same
+cost as multiplication. Maybe multiplication should be
+twice the cost as addition. Maybe have a really fast processor that
+optimizes multiplication to be like one fifth, the cost of addition, I don't know. So it all depends. So it all depends on the processor. So what that means is one thing we
+will notice is then what is going to affect if we make a faster processor? Let's say that can multiply faster or
+do comparisons 10 times faster than an addition or do a swap,
+15, but the swap is slow. Let's say the swap is 15 ops whereas
+a comparison takes 0.1 ops, all right? If you change your cost model, what's going to change is these constants
+in front of these numbers, all right? So these constants are going to change
+depending on your cost model assumptions, all right? Whether you assumed an addition was a 1,
+multiplication was a 2, or addition was a 1, multiplication
+was a 0.2, and a comparison was a 0.1. As swap was a 15 versus a swap
+is like a 0.01 who knows right? Based on the details of the processor
+based on the details of the cost model, you still can change these constants,
+all right? And we would like to be
+independent of constants. Another way you can change these constants
+is if a clever programmer sees that two comparisons could have been
+replaced by a single comparison and saves you some constant factor
+in terms of comparisons. You could reduce the constant here and we want to be independent of those
+details like we said last lecture. We did not want to be bogged down by them,
+but turns out we are bogged down by them. So what I would like to do then is
+once I get these kinds of worst case complexity functions. I would like to compare the two algorithms
+now I can compare insertion sort and merge sort but
+something very strange is happening. Something very strange is happening
+if I draw these two curves, let me draw the insertion
+sort curve in green, it's going to start fairly small,
+but it's going to go like that. If I look at the merge sort,
+it's going to actually start up here, but it's going to go like that, all right? Insertion sort in green, green, I should
+say green and merge sort in red or pink. All right,
+problem though is as n grows as n grows, initially insertion sort is doing
+way better than merge sort it may even be hundreds of thousands
+of times faster than merge sort. But eventually merge sort overtakes and stays faster so
+here Is the overtake point and here merge sort is definitely faster. And before the overtake point,
+let's say insertion sort is faster, it doesn't have to be disclaimed. Sometimes there could be like a few
+oscillations before you between who's faster before it settles down to one
+algorithm being faster, all right? Sometimes they could just be
+alternating between one algorithm and another forever,
+that's possible, all right. But this is how the graph between
+these two functions look. All right, so there are two takeaways I
+want to enforce one is I do not want to worry about constant factors. Okay, this 0.05 versus 2000 I claim can be overcome by a clever programmer,
+maybe, okay? Let's take that as a article
+of faith right now, okay? Number two is I am not very
+concerned about small inputs, I only care about large input sizes. Or there is another way of saying it,
+I only care about long term trends, I don't care about short initial gains
+I only care about long term trends. And of course, this is a completely bad
+statement to say because maybe you're only interested in sorting arrays
+of size half a million and you are not interested in
+sorting arrays larger than that. Then your choice of which algorithm
+is better depends on which algorithm performs well for
+the range of inputs you're interested in. But let us say that for the sake of argument that we are writing
+an algorithm and we would like to see inputs that are as large as possible
+being handled by the algorithm. And this is not a theoretical statement,
+for example, about 50 years ago, when computing was invented, the size of
+arrays used to be maybe 1000 or 10,000. Those used to be large arrays
+because that's how much memory or RAM a big computer had in those days and now these days you have gigabytes
+on your cell phone, all right? So things have changed a lot
+the amount of memory has gone up and therefore the size of arrays
+we can sort has gone up. In fact the size of arrays we can store
+has gone up therefore the size of arrays we can sort has gone up and
+therefore as time goes on our algorithms will be expected
+to handle larger and larger input. So we are interested in knowing
+the behavior of the algorithm as the input size goes large, ideally as the input
+size goes through infinity. Maybe, all right, even though we will try to avoid these
+kinds of limit notations in this class, I'm interested in knowing which algorithm
+is faster asymptotically, okay? And this is where the term
+asymptotically comes up, okay, this is why we call it
+asymptotic complexity. I want to know which algorithm is faster
+and remember, this is just the worst case, the best case average case they may have
+a different trend, I'm not comparing them. I'm comparing the two algorithms
+in terms of in the worst case, which one is still faster,
+all right, okay? So now comes this idea that we should
+be able to ignore constant factors and large input sizes do not matter,
+should not matter. Sorry, let me rephrase, large input sizes mattered to us
+better than smaller input sizes. So I'm more interested in inputs as
+the size goes towards infinity or put another way I'm more
+interested in trends, okay? So this gives the need for
+using asymptotic notation And what is asymptotic notation Big O,
+big omega and big theta that we have studied previously. And hopefully you have seen this this is
+the less than equal to of comparisons between two things. This is like the greater than equal
+to this is like equal to, but with some caveats. And now we are going to justify those
+caveats in the light of this discussion in the very next lecture. See you then thank you.
