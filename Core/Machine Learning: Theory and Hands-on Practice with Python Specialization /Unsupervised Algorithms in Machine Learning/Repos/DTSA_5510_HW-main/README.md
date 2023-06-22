@@ -1,0 +1,4 @@
+# DTSA_5510_HW
+Homework and Final Project for DTSA-5510: Unsupervised Algorithms in Machine Learning
+
+Weeks 1 and 2 were peer review assignments. Week 3 had an autograded and peer review component. Week 4 had a two part project: (1) an NLP assignment wherein we used matrix factorization (I used NMF) to categorize news articles by genre, and (2) a normal homework where we compared the methods in week 3 (content based and collaborative filtering) against NMF for recommender systems. For my final project I tried a bunch of unsupervised algorithms to try and determine whether chest X-Rays showed signs of pnuemonia. I found that L2 and KL Loss NMF's outperformed a random forest in binary classification (sick vs not sick). The data for that section is about 8GB, so please download it using the link in my Jupyter Notebook.
