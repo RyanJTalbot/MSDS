@@ -1,0 +1,130 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Histopathologic Cancer Detection | Kaggle</title>
+  <meta charset="utf-8" />
+    <meta name="robots" content="index, follow" />
+  <meta name="description" content="Identify metastatic tissue in histopathologic scans of lymph node sections" />
+  <meta name="turbolinks-cache-control" content="no-cache" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0, minimum-scale=1.0">
+  <meta name="theme-color" content="#008ABC" />
+  <script nonce="d2wKRzonw9JaGj2jDXVn5Q==" type="text/javascript">
+    window["pageRequestStartTime"] = 1687450574757;
+    window["pageRequestEndTime"] = 1687450574812;
+    window["initialPageLoadStartTime"] = new Date().getTime();
+  </script>
+  <link rel="preconnect" href="https://www.google-analytics.com" crossorigin="anonymous" /><link rel="preconnect" href="https://stats.g.doubleclick.net" /><link rel="preconnect" href="https://storage.googleapis.com" /><link rel="preconnect" href="https://apis.google.com" />
+  <link href="/static/images/favicon.ico" rel="shortcut icon" type="image/x-icon" />
+  <link rel="manifest" href="/static/json/manifest.json" crossorigin="use-credentials">
+
+
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/icon?family=Google+Material+Icons&display=block"
+    rel="preload" as="style" />
+  <link href="https://fonts.googleapis.com/css?family=Inter:400,400i,500,500i,600,600i,700,700i&display=swap"
+    rel="preload" as="style" />
+  <link href="https://fonts.googleapis.com/icon?family=Google+Material+Icons&display=block"
+    rel="stylesheet" media="print" id="async-google-font-1" />
+  <link href="https://fonts.googleapis.com/css?family=Inter:400,400i,500,500i,600,600i,700,700i&display=swap"
+    rel="stylesheet" media="print" id="async-google-font-2" />
+  <script nonce="d2wKRzonw9JaGj2jDXVn5Q==" type="text/javascript">
+    const styleSheetIds = ["async-google-font-1", "async-google-font-2"];
+    styleSheetIds.forEach(function (id) {
+      document.getElementById(id).addEventListener("load", function() {
+        this.media = "all";
+      });
+    });
+  </script>
+
+    <link rel="stylesheet" type="text/css" href="/static/assets/vendor.css?v=347bcfc883299a7a24f3" />
+    <link rel="stylesheet" type="text/css" href="/static/assets/app.css?v=81f9b0bf40d37d37cc8f" />
+  
+    
+ 
+      <script nonce="d2wKRzonw9JaGj2jDXVn5Q==">
+        try{(function(a,s,y,n,c,h,i,d,e){d=s.createElement("style");
+        d.appendChild(s.createTextNode(""));s.head.appendChild(d);d=d.sheet;
+        y=y.map(x => d.insertRule(x + "{ opacity: 0 !important }"));
+        h.start=1*new Date;h.end=i=function(){y.forEach(x => x<d.cssRules.length ? d.deleteRule(x) : {})};
+        (a[n]=a[n]||[]).hide=h;setTimeout(function(){i();h.end=null},c);h.timeout=c;
+        })(window,document,['.site-header-react__nav'],'dataLayer',2000,{'GTM-52LNT9S':true});}catch(ex){}
+    </script>
+    <script nonce="d2wKRzonw9JaGj2jDXVn5Q==">
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+        gtag('config', 'G-T7QHS60L4Q', {
+            'optimize_id': 'GTM-52LNT9S',
+            'displayFeaturesTask': null,
+            'send_page_view': false,
+            'content_group1': 'Competitions'
+        });
+    </script>
+    <script nonce="d2wKRzonw9JaGj2jDXVn5Q==" async src="https://www.googletagmanager.com/gtag/js?id=G-T7QHS60L4Q"></script>
+
+  
+    
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:site" content="@kaggle" />
+        <meta name="twitter:creator" content="@kaggle" />
+    <meta name="og:url" content="https://kaggle.com/competitions/histopathologic-cancer-detection" />
+    <meta name="og:title" content="Histopathologic Cancer Detection" />
+    <meta name="og:description" content="Identify metastatic tissue in histopathologic scans of lymph node sections" />
+    <meta name="og:image" content="https://storage.googleapis.com/kaggle-competitions/kaggle/11848/logos/thumb76_76.png?t=2018-11-15-01-53-05" />
+
+
+  <meta name="twitter:site" content="@Kaggle" /> 
+  
+    
+
+  
+    
+
+  
+    
+
+
+    <script nonce="d2wKRzonw9JaGj2jDXVn5Q==">window['useKaggleAnalytics'] = true;</script>
+
+  <script id="gapi-target" nonce="d2wKRzonw9JaGj2jDXVn5Q==" src="https://apis.google.com/js/api.js" defer
+    async></script>
+  <script nonce="d2wKRzonw9JaGj2jDXVn5Q==" src="/static/assets/runtime.js?v=afce10feacfc19a795ab" data-turbolinks-track="reload"></script>
+  <script nonce="d2wKRzonw9JaGj2jDXVn5Q==" src="/static/assets/vendor.js?v=60492235232b0f8a6520" data-turbolinks-track="reload"></script>
+  <script nonce="d2wKRzonw9JaGj2jDXVn5Q==" src="/static/assets/app.js?v=c401975fffcc1ff6adf8" data-turbolinks-track="reload"></script>
+    <script nonce="d2wKRzonw9JaGj2jDXVn5Q==" type="text/javascript">
+      window.kaggleStackdriverConfig = {
+        key: 'AIzaSyA4eNqUdRRskJsCZWVz-qL655Xa5JEMreE',
+        projectId: 'kaggle-161607',
+        service: 'web-fe',
+        version: 'ci',
+        userId: '0'
+      }
+    </script>
+</head>
+
+<body data-turbolinks="false">
+  <main>
+    
+
+
+
+
+
+<div id="site-container"></div>
+
+<div id="site-body" class="hide">
+    
+
+
+</div>
+
+
+
+
+  </main>
+</body>
+
+</html>
