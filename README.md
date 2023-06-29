@@ -198,3 +198,13 @@ https://www.coursera.org/degrees/master-of-science-data-science-boulder/academic
 - Managing, Describing, and Analyzing Data
 - Stability and Capability in Quality Improvement
 - Measurement Systems Analysis
+
+[x] Deep Learning Applications for Computer Vision
+
+- Deep Learning Applications for Computer Vision
+
+[ ] Finance for Technical Managers Specialization
+
+- Product Cost and Investment Cash Flow Analysis
+- Project Valuation and the Capital Budgeting Process
+- Financial Forecasting and Reporting
