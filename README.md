@@ -4,11 +4,11 @@
 
 ## [Pathway](https://github.com/RyanJTalbot/MSDS/tree/main/Pathway%20-%20Specialization):
 
-#### [Data Science Foundations: Statistical Inference](https://github.com/RyanJTalbot/MSDS/tree/main/Pathway%20-%20Specialization/Data%20Science%20Foundations%20-%20Statistical%20Inference%20Specialization%20) - 113 hours
+#### [Data Science Foundations: Data Structure and Algorithms](https://github.com/RyanJTalbot/MSDS/tree/main/Pathway%20-%20Specialization/Data%20Structures%20and%20Algorithms%20Specialization) - 107 hours
 
-- Probability theory: Applications for Data Science - 48 hours
-- Statistical Inference for estimation in Data Science - 28 hours
-- Statistical Inference and Hypothesis testing in Data Science Applications - 37 hours
+- Algorithms for searching, sorting and indexing - 35 hours
+- Trees and graphs: basics - 34 hours
+- Dynamic programming, Greedy algorithms - 38 hours
 
 ---
 
@@ -25,11 +25,11 @@
 
 ## [Core Courses](https://github.com/RyanJTalbot/MSDS/tree/main/Core):
 
-#### [Data Science Foundations: Data Structure and Algorithms](https://github.com/RyanJTalbot/MSDS/tree/main/Pathway%20-%20Specialization/Data%20Structures%20and%20Algorithms%20Specialization) - 107 hours
+#### [Data Science Foundations: Statistical Inference](https://github.com/RyanJTalbot/MSDS/tree/main/Pathway%20-%20Specialization/Data%20Science%20Foundations%20-%20Statistical%20Inference%20Specialization%20) - 113 hours
 
-- Algorithms for searching, sorting and indexing - 35 hours
-- Trees and graphs: basics - 34 hours
-- Dynamic programming, Greedy algorithms - 38 hours
+- Probability theory: Applications for Data Science - 48 hours
+- Statistical Inference for estimation in Data Science - 28 hours
+- Statistical Inference and Hypothesis testing in Data Science Applications - 37 hours
 
 #### [Data Mining Foundations and Practice](https://github.com/RyanJTalbot/MSDS/tree/main/Core/Data%20Mining%20Foundations) - 82 hours
 
