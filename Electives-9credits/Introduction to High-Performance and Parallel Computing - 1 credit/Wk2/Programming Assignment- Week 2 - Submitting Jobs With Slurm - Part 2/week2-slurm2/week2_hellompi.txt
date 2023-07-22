@@ -1,0 +1,9 @@
+ Hello World from process =            3  on processor e7c9335d2c50                                                                                                                                                                                                                                                   
+ Hello World from process =            0  on processor e7c9335d2c50                                                                                                                                                                                                                                                   
+ Hello World from process =            1  on processor e7c9335d2c50                                                                                                                                                                                                                                                   
+ Hello World from process =            2  on processor e7c9335d2c50                                                                                                                                                                                                                                                   
+ Exp(           3 ) =    20.085536923187668     
+ Exp(           1 ) =    2.7182818284590451     
+ Exp(           2 ) =    7.3890560989306504     
+ Exp(           0 ) =    1.0000000000000000     
+ Number of mpi processes =            4
