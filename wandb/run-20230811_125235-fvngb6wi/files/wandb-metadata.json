@@ -1,0 +1,41 @@
+{
+    "os": "macOS-10.16-x86_64-i386-64bit",
+    "python": "3.9.12",
+    "heartbeatAt": "2023-08-11T17:52:36.153267",
+    "startedAt": "2023-08-11T17:52:35.348113",
+    "docker": null,
+    "cuda": null,
+    "args": [],
+    "state": "running",
+    "program": "Untitled.ipynb",
+    "root": "/Users/ryantalbot/Desktop/MSDS",
+    "git": {
+        "remote": "https://github.com/RyanJTalbot/MSDS.git",
+        "commit": "82dd45d20682f170c2c4153d8f1acd4e323838e5"
+    },
+    "email": "ryantalbot7@gmail.com",
+    "host": "cu-genvpn-comp-10.180.32.224.int.colorado.edu",
+    "username": "ryantalbot",
+    "executable": "/Users/ryantalbot/opt/anaconda3/envs/tf2/bin/python",
+    "cpu_count": 6,
+    "cpu_count_logical": 12,
+    "cpu_freq": {
+        "current": 2600,
+        "min": 2600,
+        "max": 2600
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 2600,
+            "min": 2600,
+            "max": 2600
+        }
+    ],
+    "disk": {
+        "total": 233.46913528442383,
+        "used": 217.42812728881836
+    },
+    "memory": {
+        "total": 16.0
+    }
+}
