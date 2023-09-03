@@ -1,45 +1,32 @@
-
-
 import requests
 from bs4 import BeautifulSoup
-import csv
 
-# URL of the webpage containing the table
-url = 'https://en.wikipedia.org/wiki/Gymnastics_at_the_2020_Summer_Olympics_%E2%80%93_Women%27s_artistic_team_all-around'
+# URL of the webpage to scrape
+url = "https://www.gymnastics.sport/site/rankings/ranking_wag.php"
 
-
-# Send a GET request to the URL
+# Send an HTTP GET request to the URL
 response = requests.get(url)
-html = response.text
 
-# Parse the HTML content with BeautifulSoup
-soup = BeautifulSoup(html, 'html.parser')
+# Check if the request was successful
+if response.status_code == 200:
+    # Parse the HTML content of the page using BeautifulSoup
+    soup = BeautifulSoup(response.text, 'html.parser')
 
-# Find all the table elements on the page
-tables = soup.find_all('table', class_='wikitable')
+    # Find the table with the specified ID
+    table = soup.find('table', {'class': 'table table-striped'})
 
-# Check if there are at least two tables on the page
-if len(tables) >= 2:
-    # Select the second table
-    table = tables[1]
-
-    # Initialize a list to store data
-    data = []
-
-    # Iterate through rows of the table body
-    for row in table.find('tbody').find_all('tr'):
-        cols = row.find_all(['th', 'td'])
-        cols = [col.get_text(strip=True) for col in cols]
-        data.append(cols)
-
-    # Specify the CSV file name
-    csv_filename = 'scrape2020final_team_allrnd.csv'
-
-    # Write the data to the CSV file
-    with open(csv_filename, 'w', newline='', encoding='utf-8') as csvfile:
-        csv_writer = csv.writer(csvfile)
-        csv_writer.writerows(data)
-
-    print(f"Data saved to {csv_filename}")
+    # Check if the table was found
+    if table:
+        # Loop through table rows (skipping the header rows)
+        for row in table.select('tbody tr'):
+            # Extract data from table cells
+            cells = row.find_all('td')
+            if cells:
+                # Print data from each cell
+                for cell in cells:
+                    print(cell.text.strip())
+                print("------------------------")
+    else:
+        print("Table not found on the webpage.")
 else:
-    print("Not enough tables found on the page.")
+    print("Failed to retrieve the webpage.")
