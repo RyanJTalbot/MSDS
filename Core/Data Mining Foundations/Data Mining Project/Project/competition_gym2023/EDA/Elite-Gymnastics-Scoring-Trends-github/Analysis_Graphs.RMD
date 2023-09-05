@@ -1,0 +1,758 @@
+---
+title: "Gymnastics Analysis"
+author: "Avery Robinson"
+date: "12/5/2020"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r}
+load("final.RDATA")
+total[total==0] <- NA
+```
+
+libraries
+```{r}
+library(dplyr)
+library(stringr)
+library(lubridate)
+library(ggalt)
+library(grid)
+library(ggthemes)
+library(GGally)
+library(ggplot2)
+attach(total)
+library(tidyr)
+library(gridExtra)
+```
+
+Analyze USA gymnasts only
+```{r}
+totalUSA = total %>% filter(Country == "USA") %>% filter(year != "2020")
+totalUSA[totalUSA == 0] <- NA
+colors = rep(c("#D6D3E5","#AFA2E8","#8069E5","#6A4FE2"),length.out=12)
+colors2  = rep(c("#F2A7BC","#D87591","#B23558","#930A33"),length.out=11)
+```
+
+
+Execution Quad Graphs
+```{r}
+ExVtY = totalUSA  %>%
+                ggplot(aes(x=year,y=ExVT,fill=year))+scale_fill_manual(values=colors2) +geom_boxplot() +
+                theme_gdocs()+theme(legend.position = "none",axis.text.x = element_text(angle=60,hjust=1),axis.title.x=element_blank())+
+                ylab("Exection Score")+
+                annotate("text", x="2009", y=9.9, label= "boat") 
+
+ExVtY
+
+
+ExUbY = totalUSA  %>%
+                ggplot(aes(x=year,y=ExUB,fill=year))+scale_fill_manual(values=colors2) +geom_boxplot() +
+                theme_gdocs()+theme(legend.position = "none",axis.text.x = element_text(angle=60,hjust=1),axis.title.x=element_blank())+
+                ylab("Execution Score")
+ExBbY = totalUSA  %>%
+                ggplot(aes(x=year,y=ExBB,fill=year))+scale_fill_manual(values=colors2) +geom_boxplot() +
+                theme_gdocs()+theme(legend.position = "none",axis.text.x = element_text(angle=60,hjust=1),axis.title.x=element_blank())+
+                ylab("Execution Score")
+
+ExFxY= totalUSA  %>%
+                ggplot(aes(x=year,y=ExFX,fill=year))+scale_fill_manual(values=colors2) +geom_boxplot() +
+                theme_gdocs()+theme(legend.position = "none",axis.text.x = element_text(angle=60,hjust=1),axis.title.x=element_blank())+
+                ylab("Execution Score")
+
+grid.arrange(ExVtY,ExUbY,ExBbY,ExFxY,nrow=2,top = textGrob("Execution Trends From 2009-2019",gp=gpar(fontsize=20,font=2)))
+#export at ratio 1200 650 
+```
+
+
+Difficulty Quad Graphs
+```{r}
+DiffVTy=totalUSA  %>%
+                ggplot(aes(x=year,y=DiffVT,fill=year))+scale_fill_manual(values=colors2) +geom_boxplot() +theme_gdocs()+
+                theme(legend.position = "none",axis.text.x = element_text(angle=60,hjust=1),axis.title.x=element_blank())+
+                ylab("Vault Difficulty Score")+ylim(3.9,7)
+                
+DiffUBy=totalUSA  %>%
+                ggplot(aes(x=year,y=DiffUB,fill=year))+scale_fill_manual(values=colors2) +geom_boxplot() +theme_gdocs()+
+                theme(legend.position = "none",axis.text.x = element_text(angle=60,hjust=1),axis.title.x=element_blank())+
+                ylab("Bars Difficulty Score")+ylim(3.9,7)
+
+DiffBBy=totalUSA  %>%
+                ggplot(aes(x=year,y=DiffBB,fill=year))+scale_fill_manual(values=colors2) +geom_boxplot() +theme_gdocs()+
+                theme(legend.position = "none",axis.text.x = element_text(angle=60,hjust=1),axis.title.x=element_blank())+
+                ylab("Beam Difficulty Score")+ylim(3.9,7)
+DiffFXy=totalUSA  %>%
+                ggplot(aes(x=year,y=DiffFX,fill=year))+scale_fill_manual(values=colors2) +geom_boxplot() +theme_gdocs()+
+                theme(legend.position = "none",axis.text.x = element_text(angle=60,hjust=1),axis.title.x=element_blank())+
+                ylab("Floor Difficulty Score")+ylim(3.9,7)
+grid.arrange(DiffVTy,DiffUBy,DiffBBy,DiffFXy,nrow=2,top = textGrob("Difficulty Trends From 2009-2019",gp=gpar(fontsize=20,font=2)))
+```
+
+
+Explore General score trends 
+```{r}
+VtY = totalUSA  %>%
+                ggplot(aes(x=year,y=VT,fill=year))+scale_fill_manual(values=colors2) +geom_boxplot() +
+                theme_gdocs()+theme(legend.position = "none",axis.text.x = element_text(angle=60,hjust=1),axis.title.x=element_blank())+
+                ylab("Vault Score")
+UbY = totalUSA  %>%
+                ggplot(aes(x=year,y=UB,fill=year))+scale_fill_manual(values=colors2) +geom_boxplot() +
+                theme_gdocs()+theme(legend.position = "none",axis.text.x = element_text(angle=60,hjust=1),axis.title.x=element_blank())+
+                ylab("Bars Score")
+BbY = totalUSA  %>%
+                ggplot(aes(x=year,y=BB,fill=year))+scale_fill_manual(values=colors2) +geom_boxplot() +
+                theme_gdocs()+theme(legend.position = "none",axis.text.x = element_text(angle=60,hjust=1),axis.title.x=element_blank())+
+                ylab("Beam Score")
+
+FxY= totalUSA  %>%
+                ggplot(aes(x=year,y=FX,fill=year))+scale_fill_manual(values=colors2) +geom_boxplot() +
+                theme_gdocs()+theme(legend.position = "none",axis.text.x = element_text(angle=60,hjust=1),axis.title.x=element_blank())+
+                ylab("Floor Score")
+
+grid.arrange(VtY,UbY,BbY,FxY,nrow=2)
+```
+
+
+
+
+
+Post Hoc And Tukey 
+```{r}
+
+Quad1 = totalUSA %>% filter(year %in% c("2009","2010","2011","2012"))
+Quad2 = totalUSA %>% filter(year %in% c("2013","2014","2015","2016"))
+Quad3 = totalUSA %>% filter(year %in% c("2017","2018","2019"))
+
+################################################ VAULT DIFFICULTY
+VQ1.aov = aov(DiffVT~year,data=Quad1[!is.na(Quad1$DiffVT),])
+DQ1TK_VT = TukeyHSD(VQ1.aov)$year
+summary(VQ1.aov)
+# F test result : 5.36e-06 ***
+# Quad 1: 2012 is significantly different than all the others, but the others aren't different from each other.
+
+
+
+VQ2.aov = aov(DiffVT~year,data=Quad2[!is.na(Quad2$DiffVT),])
+DQ2TK_VT=TukeyHSD(VQ2.aov)$year
+summary(VQ2.aov)
+# F test result : 0.588
+# Quad 2: None of them are significantly different from each other
+
+VQ3.aov = aov(DiffVT~year,data=Quad3[!is.na(Quad3$DiffVT),])
+DQ3TK_VT=TukeyHSD(VQ3.aov)$year
+summary(VQ3.aov)
+# F test result : 0.00807 **
+# Quad 3: 2019 is significantly different from 2017 and 2018. 
+
+# conclusion: We see some evidence in 2 out of the 3 quads that vault difficulty score is higher at the end of the quads than the rest of the quad.
+# the "notion" seems less strong here. harder to increase difficulty on vault, gymnasts reach max potential faster ( its  abig leap to go up difficulty)
+
+
+################################################ BARS DIFFICULTY
+UBQ1.aov = aov(DiffUB~year,data=Quad1[!is.na(Quad1$DiffUB),])
+DQ1TK_UB = TukeyHSD(UBQ1.aov)$year
+summary(UBQ1.aov)
+# F test results: 2.89e-14 ***
+#Quad 1:  The only two not significantly different are 2010 and 2009. Everything else super different — clear upward trend
+
+UBQ2.aov = aov(DiffUB~year,data=Quad2[!is.na(Quad2$DiffUB),])
+DQ2TK_UB = TukeyHSD(UBQ2.aov)$year
+summary(UBQ2.aov)
+# F test results: 0.00926 **
+# 2015 is significantly different than 2013, and 2016 is significantly different than 2013. Trend upwards, but more like one step versus steady upwards
+
+UBQ3.aov = aov(DiffUB~year,data=Quad3[!is.na(Quad3$DiffUB),])
+DQ3TK_UB = TukeyHSD(UBQ3.aov)$year
+summary(UBQ3.aov)
+# F test results: 0.0387 *
+# Quad 3: 2019 different than 2017
+
+# Conclusion: clear pattern. Bars difficulty goes up near the end of quads. ITs not always a consistent, step-wise increase -- it sort of "jumps" at points. the most reliable upward portion is right at the end of the quad
+
+
+################################################ BEAM DIFFICULTY
+
+BBQ1.aov = aov(DiffBB ~year, data=Quad1[!is.na(Quad1$DiffBB),])
+DQ1TK_BB = TukeyHSD(BBQ1.aov)$year
+summary(BBQ1.aov)
+# F test results: 2.99e-14 ***
+# Quad 1: All statistically significantly significant apart from 2010 and 2009. Shows very clear trend upwards
+
+BBQ2.aov = aov(DiffBB ~year, data=Quad2[!is.na(Quad2$DiffBB),])
+DQ2TK_BB = TukeyHSD(BBQ2.aov)$year
+summary(BBQ2.aov)
+# F test results: 0.00174 **
+# Quad 2: 2016 different than 2014, 2015 different than 2014, 2014 different than 2013. Does show step-wise trend upward but not as significantly as Quad 1
+
+BBQ3.aov = aov(DiffBB ~year, data=Quad3[!is.na(Quad3$DiffBB),])
+DQ3TK_BB = TukeyHSD(BBQ3.aov)$year
+summary(BBQ3.aov)
+# F test results: 2e-04 ***
+# Quad 2: 2016 different than 2014, 2015 different than 2014, 2014 different than 2013. Does show step-wise trend upward but not as significantly as Quad 1
+
+#conclusion: all significantly different in final years. etc ... say more
+
+
+
+
+################################################ FLOOR DIFFICULTY
+
+FXQ1.aov = aov(DiffFX ~ year, data=Quad1[!is.na(Quad1$DiffFX),])
+DQ1TK_FX=TukeyHSD(FXQ1.aov)$year
+summary(FXQ1.aov)
+# F test results: 2.48e-09 ***
+# Quad 1: 2012 s.d. than all three, 2011 s.d. than 2010, 
+
+FXQ2.aov = aov(DiffFX ~ year, data=Quad2[!is.na(Quad2$DiffFX),])
+DQ2TK_FX=TukeyHSD(FXQ2.aov)$year
+summary(FXQ2.aov)
+# F test results: 0.448
+
+FXQ3.aov = aov(DiffFX ~ year, data=Quad3[!is.na(Quad3$DiffFX),])
+DQ3TK_FX=TukeyHSD(FXQ3.aov)$year
+summary(FXQ3.aov)
+# F test results: 0.00194 **
+# Quad 3: 2019 s.d. than 2017
+
+#  we are seeing 2 out of 3 go up at the end for sure.  can talk about all the reasons why 
+
+
+
+
+Fresults_difficulty=data.frame("Quad"=c("2009-2012","2013-2016","2017-2019"), "Vault"=c("5.36e-06 ***", "0.588","0.00807 **"),"Bars"=c("2.89e-14 ***", "0.00926 **", "0.0387 *"),"Beam"=c("2.99e-14 ***","0.00174 **","2e-04 ***"),"Floor"=c("2.48e-09 ***","0.448","0.00194 **"))
+
+formattable::formattable(Fresults_difficulty,align=c(rep("l",4)))
+
+DQ1TK_VT = data.frame(DQ1TK_VT)
+DQ1TK_VT$years = rownames(DQ1TK_VT)
+
+DQ1TK_UB = data.frame(DQ1TK_UB)
+DQ1TK_UB$years = rownames(DQ1TK_UB)
+
+DQ1TK_BB = data.frame(DQ1TK_BB)
+DQ1TK_BB$years = rownames(DQ1TK_BB)
+
+DQ1TK_FX = data.frame(DQ1TK_FX)
+DQ1TK_FX$years = rownames(DQ1TK_FX)
+
+DQ1TK = bind_rows(DQ1TK_VT,DQ1TK_UB,DQ1TK_BB,DQ1TK_FX)
+
+DQ1TK$event =c(rep("VT",6),rep("UB",6),rep("BB",6),rep("FX",6))
+
+DQ1TK$years = factor(DQ1TK$years, levels=c("2012-2011","2012-2010", "2012-2009", "2011-2010", "2011-2009" ,"2010-2009"))
+
+DQ1TK_graph =ggplot(DQ1TK,aes(x=lwr,xend=upr,y=years,color=event))+
+                geom_dumbbell(size=1)+
+                facet_grid(event~.,switch="y",scales="free_y")+
+                scale_color_manual(values=c("maroon4", "goldenrod2", "royalblue2","darkslategrey"))+
+                theme_few()+
+                geom_vline(xintercept=0,color="black")+
+                theme(axis.title.y = element_blank(),axis.text.y = element_text(face="bold",colour = "black"),axis.title.x=element_blank(),legend.position = "none",plot.title = element_text(hjust=.5))+ggtitle("Quad 1")
+
+
+DQ2TK_VT = data.frame(DQ2TK_VT)
+DQ2TK_VT$years = rownames(DQ2TK_VT)
+
+DQ2TK_UB = data.frame(DQ2TK_UB)
+DQ2TK_UB$years = rownames(DQ2TK_UB)
+
+DQ2TK_BB = data.frame(DQ2TK_BB)
+DQ2TK_BB$years = rownames(DQ2TK_BB)
+
+DQ2TK_FX = data.frame(DQ2TK_FX)
+DQ2TK_FX$years = rownames(DQ2TK_FX)
+
+
+DQ2TK = bind_rows(DQ2TK_VT,DQ2TK_UB,DQ2TK_BB,DQ2TK_FX)
+
+DQ2TK$event =c(rep("VT",6),rep("UB",6),rep("BB",6),rep("FX",6))
+
+DQ2TK$years = factor(DQ2TK$years, levels=c("2016-2015" ,"2016-2014", "2016-2013", "2015-2014", "2015-2013", "2014-2013"))
+
+DQ2TK_graph =ggplot(DQ2TK,aes(x=lwr,xend=upr,y=years,color=event))+
+                geom_dumbbell(size=1)+
+                facet_grid(event~.,switch="y",scales="free_y")+
+                scale_color_manual(values=c("maroon4", "goldenrod2", "royalblue2","darkslategrey"))+
+                theme_few()+
+                geom_vline(xintercept=0,color="black")+
+                theme(axis.title.y = element_blank(),axis.text.y = element_text(face="bold",color="black"),axis.title.x=element_blank(),legend.position = "none",plot.title = element_text(hjust=.5))+ggtitle("Quad 2")
+
+
+
+DQ3TK_VT = data.frame(DQ3TK_VT)
+DQ3TK_VT$years = rownames(DQ3TK_VT)
+
+DQ3TK_UB = data.frame(DQ3TK_UB)
+DQ3TK_UB$years = rownames(DQ3TK_UB)
+
+DQ3TK_BB = data.frame(DQ3TK_BB)
+DQ3TK_BB$years = rownames(DQ3TK_BB)
+
+DQ3TK_FX = data.frame(DQ3TK_FX)
+DQ3TK_FX$years = rownames(DQ3TK_FX)
+
+
+DQ3TK = bind_rows(DQ3TK_VT,DQ3TK_UB,DQ3TK_BB,DQ3TK_FX)
+
+DQ3TK$event =c(rep("VT",3),rep("UB",3),rep("BB",3),rep("FX",3))
+
+DQ3TK$years = factor(DQ3TK$years,levels=c("2019-2018","2019-2017","2018-2017"))
+
+DQ3TK_graph =ggplot(DQ3TK,aes(x=lwr,xend=upr,y=years,color=event))+
+                geom_dumbbell(size=1)+
+                facet_grid(event~.,switch="y",scales="free_y")+
+                scale_color_manual(values=c("maroon4", "goldenrod2", "royalblue2","darkslategrey"))+
+                theme_few()+
+                geom_vline(xintercept=0,color="black")+
+                theme(axis.title.y = element_blank(),axis.text.y = element_text(face="bold",color = "black"),axis.title.x=element_blank(),legend.position = "none", plot.title = element_text(hjust=.5))+ggtitle("Quad 3")
+
+grid.arrange(DQ1TK_graph,DQ2TK_graph,DQ3TK_graph,nrow=1,top = textGrob("Difficulty Scores Compared by Year",gp=gpar(fontsize=20,font=1)))
+
+
+
+################################################ 
+
+################################################ 
+
+################################################ 
+
+################################################ 
+
+################################################ VAULT Execution
+
+
+EVTQ1.aov = aov(ExVT ~ year, data=Quad1[!is.na(Quad1$ExVT),])
+EQ1TK_VT= TukeyHSD(EVTQ1.aov )$year
+summary(EVTQ1.aov )
+# F test :  0.312
+
+EVTQ2.aov = aov(ExVT ~ year, data=Quad2[!is.na(Quad2$ExVT),])
+EQ2TK_VT= TukeyHSD(EVTQ2.aov)$year
+summary(EVTQ2.aov)
+# F test:  0.0146 *
+# 2016 s.d. than 2015
+
+EVTQ3.aov = aov(ExVT ~ year, data=Quad3[!is.na(Quad3$ExVT),])
+EQ3TK_VT= TukeyHSD(EVTQ3.aov)$year
+summary(EVTQ3.aov)
+# F testL 0.00208 **
+# 2019 s.d. than both 2018 and 2017
+
+
+
+################################################ Bars Execution
+
+EUBQ1.aov = aov(ExUB ~ year, data=Quad1[!is.na(Quad1$ExUB),])
+summary(EUBQ1.aov)
+EQ1TK_UB =  TukeyHSD(EUBQ1.aov)$year
+
+EUBQ2.aov = aov(ExUB ~ year, data=Quad2[!is.na(Quad2$ExUB),])
+summary(EUBQ2.aov)
+EQ2TK_UB =  TukeyHSD(EUBQ2.aov)$year
+
+EUBQ3.aov = aov(ExUB ~ year, data=Quad3[!is.na(Quad3$ExUB),])
+summary(EUBQ3.aov)
+EQ3TK_UB =  TukeyHSD(EUBQ3.aov)$year
+
+# none are different
+
+################################################ Beam Execution
+
+EBBQ1.aov = aov(ExBB ~ year, data=Quad1[!is.na(Quad1$ExBB),])
+summary(EBBQ1.aov)
+EQ1TK_BB =  TukeyHSD(EBBQ1.aov)$year
+
+EBBQ2.aov = aov(ExBB ~ year, data=Quad2[!is.na(Quad2$ExBB),])
+summary(EBBQ2.aov)
+EQ2TK_BB =  TukeyHSD(EBBQ2.aov)$year
+
+EBBQ3.aov = aov(ExBB ~ year, data=Quad3[!is.na(Quad3$ExBB),])
+summary(EBBQ3.aov)
+EQ3TK_BB =  TukeyHSD(EBBQ3.aov)$year
+
+################################################ Floor Execution
+
+EFXQ1.aov = aov(ExFX ~ year, data=Quad1[!is.na(Quad1$ExFX),])
+summary(EFXQ1.aov)
+EQ1TK_FX =  TukeyHSD(EFXQ1.aov)$year
+
+EFXQ2.aov = aov(ExFX ~ year, data=Quad2[!is.na(Quad2$ExFX),])
+summary(EFXQ2.aov)
+EQ2TK_FX =  TukeyHSD(EFXQ2.aov)$year
+
+EFXQ3.aov = aov(ExFX ~ year, data=Quad3[!is.na(Quad3$ExFX),])
+summary(EFXQ3.aov)
+EQ3TK_FX =  TukeyHSD(EFXQ3.aov)$year
+# F result 0.00596 **
+# 2019 diff than 2018
+
+Fresults_Exeuction=data.frame("Quad"=c("2009-2012","2013-2016","2017-2019"), "Vault"=c("0.312","0.0146 *","0.00208 **"),"Bars"=c("0.315"," 0.505","0.965"),"Beam"=c("0.165","0.0594 .","0.26"),"Floor"=c("0.0755 .","0.725","0.00596 **"))
+
+
+formattable::formattable(Fresults_Exeuction,align=c(rep("l",4)))
+
+
+
+EQ1TK_VT = data.frame(EQ1TK_VT)
+EQ1TK_VT$years = rownames(EQ1TK_VT)
+
+EQ1TK_UB = data.frame(EQ1TK_UB)
+EQ1TK_UB$years = rownames(EQ1TK_UB)
+
+EQ1TK_BB = data.frame(EQ1TK_BB)
+EQ1TK_BB$years = rownames(EQ1TK_BB)
+
+EQ1TK_FX = data.frame(EQ1TK_FX)
+EQ1TK_FX$years = rownames(EQ1TK_FX)
+
+EQ1TK = bind_rows(EQ1TK_VT,EQ1TK_UB,EQ1TK_BB,EQ1TK_FX)
+
+EQ1TK$event =c(rep("VT",6),rep("UB",6),rep("BB",6),rep("FX",6))
+
+EQ1TK$years = factor(EQ1TK$years, levels=c("2012-2011","2012-2010", "2012-2009", "2011-2010", "2011-2009" ,"2010-2009"))
+
+EQ1TK_graph =ggplot(EQ1TK,aes(x=lwr,xend=upr,y=years,color=event))+
+                geom_dumbbell(size=1)+
+                facet_grid(event~.,switch="y",scales="free_y")+
+                scale_color_manual(values=c("maroon4", "goldenrod2", "royalblue2","darkslategrey"))+
+                theme_few()+
+                geom_vline(xintercept=0,color="black")+
+                theme(axis.title.y = element_blank(),axis.text.y = element_text(face="bold",colour="black"),axis.title.x=element_blank(),legend.position = "none")+ggtitle("Quad 1")
+
+
+EQ2TK_VT = data.frame(EQ2TK_VT)
+EQ2TK_VT$years = rownames(EQ2TK_VT)
+
+EQ2TK_UB = data.frame(EQ2TK_UB)
+EQ2TK_UB$years = rownames(EQ2TK_UB)
+
+EQ2TK_BB = data.frame(EQ2TK_BB)
+EQ2TK_BB$years = rownames(EQ2TK_BB)
+
+EQ2TK_FX = data.frame(EQ2TK_FX)
+EQ2TK_FX$years = rownames(EQ2TK_FX)
+
+EQ2TK = bind_rows(EQ2TK_VT,EQ2TK_UB,EQ2TK_BB,EQ2TK_FX)
+
+EQ2TK$event =c(rep("VT",6),rep("UB",6),rep("BB",6),rep("FX",6))
+
+EQ2TK$years = factor(EQ2TK$years, levels=c("2016-2015" ,"2016-2014", "2016-2013", "2015-2014", "2015-2013", "2014-2013"))
+
+EQ2TK_graph =ggplot(EQ2TK,aes(x=lwr,xend=upr,y=years,color=event))+
+                geom_dumbbell(size=1)+
+                facet_grid(event~.,switch="y",scales="free_y")+
+                scale_color_manual(values=c("maroon4", "goldenrod2", "royalblue2","darkslategrey"))+
+                theme_few()+
+                geom_vline(xintercept=0,color="black")+
+                theme(axis.title.y = element_blank(),axis.text.y = element_text(face="bold",colour="black"),axis.title.x=element_blank(),legend.position = "none")+ggtitle("Quad 2")
+
+
+
+
+
+
+EQ3TK_VT = data.frame(EQ3TK_VT)
+EQ3TK_VT$years = rownames(EQ3TK_VT)
+
+EQ3TK_UB = data.frame(EQ3TK_UB)
+EQ3TK_UB$years = rownames(EQ3TK_UB)
+
+EQ3TK_BB = data.frame(EQ3TK_BB)
+EQ3TK_BB$years = rownames(EQ3TK_BB)
+
+EQ3TK_FX = data.frame(EQ3TK_FX)
+EQ3TK_FX$years = rownames(EQ3TK_FX)
+
+EQ3TK = bind_rows(EQ3TK_VT,EQ3TK_UB,EQ3TK_BB,EQ3TK_FX)
+
+EQ3TK$event =c(rep("VT",3),rep("UB",3),rep("BB",3),rep("FX",3))
+
+EQ3TK$years = factor(EQ3TK$years, levels=c("2019-2018","2019-2017","2018-2017"))
+
+EQ3TK_graph =ggplot(EQ3TK,aes(x=lwr,xend=upr,y=years,color=event))+
+                geom_dumbbell(size=1)+
+                facet_grid(event~.,switch="y",scales="free_y")+
+                scale_color_manual(values=c("maroon4", "goldenrod2", "royalblue2","darkslategrey"))+
+                theme_few()+
+                geom_vline(xintercept=0,color="black")+
+                theme(axis.title.y = element_blank(),axis.text.y = element_text(face="bold",colour="black"),axis.title.x=element_blank(),legend.position = "none")+ggtitle("Quad 1")
+
+
+grid.arrange(EQ1TK_graph,EQ2TK_graph,EQ3TK_graph,nrow=1,top = textGrob("Execution Scores Compared by Year",gp=gpar(fontsize=20,font=1)))
+
+
+################################################ 
+
+################################################ VAULT 
+
+VTQ1.aov = aov(VT ~ year , data=Quad1[!is.na(Quad1$VT),])
+TukeyHSD(VTQ1.aov)
+summary(VTQ1.aov)
+
+VTQ2.aov = aov(VT ~ year , data=Quad2[!is.na(Quad2$VT),])
+TukeyHSD(VTQ2.aov)
+summary(VTQ2.aov)
+
+VTQ3.aov = aov(VT ~ year , data=Quad3[!is.na(Quad3$VT),])
+TukeyHSD(VTQ3.aov)
+summary(VTQ3.aov)
+
+################################################ Bars 
+
+UBQ1.aov = aov(UB ~ year , data=Quad1[!is.na(Quad1$UB),])
+TukeyHSD(UBQ1.aov)
+summary(UBQ1.aov)
+
+UBQ2.aov = aov(UB ~ year , data=Quad2[!is.na(Quad2$UB),])
+TukeyHSD(UBQ2.aov)
+summary(UBQ2.aov)
+
+UBQ3.aov = aov(UB ~ year , data=Quad3[!is.na(Quad3$UB),])
+TukeyHSD(UBQ3.aov)
+summary(UBQ3.aov)
+
+################################################ Beam
+
+BBQ1.aov = aov(BB ~ year , data=Quad1[!is.na(Quad1$BB),])
+TukeyHSD(BBQ1.aov)
+summary(BBQ1.aov)
+
+BBQ2.aov = aov(BB ~ year , data=Quad2[!is.na(Quad2$BB),])
+TukeyHSD(BBQ2.aov)
+summary(BBQ2.aov)
+
+BBQ3.aov = aov(BB ~ year , data=Quad3[!is.na(Quad3$BB),])
+TukeyHSD(BBQ3.aov)
+summary(BBQ3.aov)
+
+################################################ Floor
+
+FXQ1.aov = aov(FX ~ year , data=Quad1[!is.na(Quad1$FX),])
+TukeyHSD(FXQ1.aov)
+summary(FXQ1.aov)
+
+FXQ2.aov = aov(FX ~ year , data=Quad2[!is.na(Quad2$FX),])
+TukeyHSD(FXQ2.aov)
+summary(FXQ2.aov)
+
+FXQ3.aov = aov(FX ~ year , data=Quad3[!is.na(Quad3$FX),])
+TukeyHSD(FXQ3.aov)
+summary(FXQ3.aov)
+
+vt = TukeyHSD(VTQ3.aov)$year
+ub = TukeyHSD(UBQ3.aov)$year
+bb = TukeyHSD(BBQ3.aov)$year
+fx = TukeyHSD(FXQ3.aov)$year
+
+vt = data.frame(vt)
+ub = data.frame(ub)
+bb = data.frame(bb)
+fx = data.frame(fx)
+
+vt$years = rownames(vt)
+ub$years = rownames(ub)
+bb$years = rownames(bb)
+fx$years = rownames(fx)
+
+allQ3=bind_rows(vt,ub,bb,fx)
+
+
+
+allQ3$event = c(rep("VT",3),rep("UB",3),rep("BB",3),rep("FX",3))
+```
+
+
+```{r}
+
+ggplot(allQ3,aes(x=lwr,xend=upr,y=years,color=event))+
+                geom_dumbbell(size=1)+
+                facet_grid(event~.,switch="y",scales="free_y")+
+                scale_color_manual(values=c("maroon4", "goldenrod2", "royalblue2","darkslategrey"))+
+                theme_few()+
+                geom_vline(xintercept=0,color="black")+
+                theme(axis.title.y = element_blank(),axis.title.x=element_blank())+ggtitle("Confidence Intervals for the Difference in Raw Event Scores per Quad")
+```
+
+
+Graphs
+Scaled difficulty against executions and colored by Ranking Group
+Consider flipping the order
+```{r}
+
+### Scale
+XQ1 = scale(Quad1[,c(4:7,12:15)])
+Q1.scaled = data.frame(XQ1,Quad1[,-c(4:7,12:15)])
+
+XQ2 = scale(Quad2[,c(4:7,12:15)])
+Q2.scaled = data.frame(XQ2,Quad2[,-c(4:7,12:15)])
+
+XQ3 = scale(Quad3[,c(4:7,12:15)])
+Q3.scaled = data.frame(XQ3,Quad3[,-c(4:7,12:15)])
+
+allScaled = bind_rows(Q1.scaled,Q2.scaled,Q3.scaled)
+
+cols=c("#120078","#E0A00B","#930A33","#2B84AD") 
+a1=ggplot(allScaled,aes(x=DiffVT,y=ExVT,color=factor(VaultRank))) + geom_point() +scale_color_manual(values=cols)+
+                theme_gdocs() + ylab("Exection") + xlab("Vault Difficulty (Scaled)") + labs(color="Ranking Group")+ylim(4,10)+ggtitle("Vault")+theme(plot.title=element_text(hjust=.5,size=14))
+
+a2=ggplot(allScaled,aes(x=DiffUB,y=ExUB,color=factor(BarsRank))) + geom_point() +scale_color_manual(values=cols)+
+                theme_gdocs() + ylab("Exection") + xlab("Bars Difficulty (Scaled)")+ labs(color="Ranking Group")+ylim(4,10)+ggtitle("Bars")+theme(plot.title=element_text(hjust=.5,size=14))
+
+a3=ggplot(allScaled,aes(x=DiffBB,y=ExBB,color=factor(BeamRank))) + geom_point() +scale_color_manual(values=cols)+
+                theme_gdocs() + ylab("Exection") + xlab("Beam Difficulty (Scaled)")+ labs(color="Ranking Group")+ylim(4,10)+ggtitle("Beam")+theme(plot.title=element_text(hjust=.5,size=14))
+
+
+a4=ggplot(allScaled,aes(x=DiffFX,y=ExFX,color=factor(FloorRank))) + geom_point() +scale_color_manual(values=cols)+
+                theme_gdocs() + ylab("Exection") + xlab("Floor Difficulty (Scaled)")  +labs(color="Ranking Group")+ylim(4,10)+ggtitle("Floor")+theme(plot.title=element_text(hjust=.5,size=14))
+
+grid.arrange(a1,a2,a3,a4,nrow=2,top = textGrob("Execution Versus Difficulty",gp=gpar(fontsize=20,font=1)))
+```
+
+
+Execution Ghost Graphs
+```{r}
+#### Execution Distributions
+one2 <- total %>%
+                ggplot(aes(x=ExVT,fill=factor(VaultRank))) + geom_density(aes(alpha=.5))
+
+one3<-total %>%
+                ggplot(aes(x=ExUB,fill=factor(BarsRank))) + geom_density(aes(alpha=.5))
+one4<-total %>%
+                ggplot(aes(x=ExBB,fill=factor(BeamRank))) + geom_density(aes(alpha=.5))
+one5<- total %>%
+                ggplot(aes(x=ExFX,fill=factor(FloorRank))) + geom_density(aes(alpha=.5))
+
+grid.arrange(one2,one3,one4,one5,nrow=2)
+```
+
+
+Difficulty Ghost graphs
+```{r}
+#### Difficulty Distributions
+two2 <- total %>%
+                ggplot(aes(x=DiffVT,fill=factor(VaultRank))) + geom_density(aes(alpha=.5))
+
+two3 <- total %>%
+                ggplot(aes(x=DiffUB,fill=factor(BarsRank))) + geom_density(aes(alpha=.5))
+
+two4 <- total %>%
+                ggplot(aes(x=DiffBB,fill=factor(BeamRank))) + geom_density(aes(alpha=.5))
+two5 <- total %>%
+                ggplot(aes(x=DiffFX,fill=factor(FloorRank))) + geom_density(aes(alpha=.5))
+grid.arrange(two2,two3,two4,two5,nrow=2)
+```
+
+
+Anova Results Table
+```{r}
+
+diffExExplained =data.frame(c("Vault","Bars","Beam","Floor"),c(0.6119501, 0.7752071,0.7685342,0.6945753),
+        c( 0.3514445,0.1944662,0.209056,0.2380952),c(0.0366054,0.0303267,0.0224098,0.0673295))
+names(diffExExplained) = c("Event","Percent of Variation Explained By Execution Score","Percent of Variation Explained By Difficulty Score","Percent of Unexplained Variation")
+formattable::formattable(diffExExplained,align=rep("c",4))
+
+```
+
+Interaction Results and graphs 
+
+```{r}
+Quad1 = totalUSA %>% filter(year %in% c("2009","2010","2011","2012"))
+Quad2 = totalUSA %>% filter(year %in% c("2013","2014","2015","2016"))
+Quad3 = totalUSA %>% filter(year %in% c("2017","2018","2019"))
+
+Quad1VT = Quad1 %>% select(year,VT,ExVT,DiffVT)
+Quad1VT = Quad1VT[complete.cases(Quad1VT),]
+
+one = Quad1VT %>% group_by(year) %>% summarize(VTmean = mean(VT), ExVTmean = mean(ExVT),DiffVTmean=mean(DiffVT))
+two = Quad1VT %>% group_by(year) %>% summarize(VTmed = median(VT), ExVTmed = median(ExVT),DiffVTmed=median(DiffVT))
+
+one = data.frame(one)
+one = one %>% pivot_longer(!year,names_to="stat",values_to="val")
+one$stat = factor(one$stat)
+
+two = data.frame(two)
+two = two %>% pivot_longer(!year,names_to="stat",values_to="val")
+two$stat = factor(two$stat)
+
+ggplot(two,aes(x=year,y=val,group=stat,color=stat)) + geom_line()
+
+
+
+UB_to = totalUSA %>% select(year,ExUB,DiffUB)
+UB_to = UB_to[complete.cases(UB_to),]
+UB_to=UB_to %>% group_by(year) %>% summarize("Mean UB Ex Score" = mean(ExUB),"Mean UB Diff Score" = mean(DiffUB))
+UB_to = UB_to %>% pivot_longer(!year,names_to="stat",values_to="val")
+
+A=ggplot(UB_to,aes(x=year,y=val,group=stat,color=stat)) + geom_line(size=1.2)+ geom_vline(xintercept=which(levels(UB_to$year) %in% c('2012','2016','2019')))+
+                ggtitle("Uneven Bars")+
+                scale_color_manual(values=c("grey4","maroon4","grey"))+theme_gdocs()+theme(axis.title=element_blank() ,legend.title = element_blank(),plot.title = element_text(hjust = 0.5,size=15),axis.text.x = element_text(angle=60,hjust=1,size=11))
+
+BB_to = totalUSA %>% select(year,ExBB,DiffBB)
+BB_to = BB_to[complete.cases(BB_to),]
+BB_to=BB_to %>% group_by(year) %>% summarize("Mean BB Ex Score" = mean(ExBB),"Mean BB Diff Score" = mean(DiffBB))
+BB_to = BB_to %>% pivot_longer(!year,names_to="stat",values_to="val")
+
+B=ggplot(BB_to,aes(x=year,y=val,group=stat,color=stat)) + geom_line(size=1.2)+ geom_vline(xintercept=which(levels(UB_to$year) %in% c('2012','2016','2019')))+
+                ggtitle("Balance Beam")+
+                scale_color_manual(values=c("grey4","maroon4","darkorchid4"))+
+                theme_gdocs()+
+                theme(axis.title=element_blank() ,legend.title = element_blank(),plot.title = element_text(hjust = 0.5,size=15),axis.text.x = element_text(angle=60,hjust=1,size=11))
+
+
+FX_to = totalUSA %>% select(year,ExFX,DiffFX)
+FX_to = FX_to[complete.cases(FX_to),]
+FX_to=FX_to %>% group_by(year) %>% summarize("Mean FX Ex Score" = mean(ExFX),"Mean FX Diff Score" = mean(DiffFX))
+FX_to = FX_to %>% pivot_longer(!year,names_to="stat",values_to="val")
+
+C=ggplot(FX_to,aes(x=year,y=val,group=stat,color=stat)) + geom_line(size=1.2)+ geom_vline(xintercept=which(levels(UB_to$year) %in% c('2012','2016','2019')))+ scale_color_manual(values=c("grey4","maroon4","darkorchid4"))+
+                ggtitle("Floor Exercise")+
+                theme_gdocs()+
+                theme(axis.title=element_blank() ,legend.title = element_blank(),plot.title = element_text(hjust = 0.5,size=15),axis.text.x = element_text(angle=60,hjust=1,size=11))
+
+
+VT_to = totalUSA %>% select(year,ExVT,DiffVT)
+VT_to = VT_to[complete.cases(VT_to),]
+VT_to=VT_to %>% group_by(year) %>% summarize("Mean VT Ex Score" = mean(ExVT),"Mean VT Diff Score" = mean(DiffVT))
+VT_to = VT_to %>% pivot_longer(!year,names_to="stat",values_to="val")
+
+D=ggplot(VT_to,aes(x=year,y=val,group=stat,color=stat)) + geom_line(size=1.2)+ geom_vline(xintercept=which(levels(UB_to$year) %in% c('2012','2016','2019')))+ scale_color_manual(values=c("grey4","maroon4","darkorchid4"))+
+                ggtitle("Vault")+
+                theme_gdocs()+
+                theme(axis.title=element_blank() ,legend.title = element_blank(),plot.title = element_text(hjust = 0.5,size=15),axis.text.x = element_text(angle=60,hjust=1,size=11))
+
+inter_VT_DF = totalUSA %>% select(year,VT,ExVT,DiffVT)
+inter_VT_DF =inter_VT_DF [complete.cases(inter_VT_DF ),]
+inter_VT = lm(data=inter_VT_DF ,VT~ExVT*DiffVT)
+summary(inter_VT) # stat sig, not pract sig, look at coefficient
+inter_VT_aov = aov(data=inter_VT_DF ,VT~ExVT*DiffVT)
+summary(inter_VT_aov)
+# 7.21466e-05% explained by interaction
+
+inter_UB_DF = totalUSA %>% select(year,UB,ExUB,DiffUB)
+inter_UB_DF =inter_UB_DF [complete.cases(inter_UB_DF ),]
+inter_UB = lm(data=inter_UB_DF ,UB~ExUB*DiffUB)
+summary(inter_UB)  # not significant
+
+inter_BB_DF = totalUSA %>% select(year,BB,ExBB,DiffBB)
+inter_BB_DF =inter_BB_DF [complete.cases(inter_BB_DF ),]
+inter_BB = lm(data=inter_BB_DF ,BB~ExBB*DiffBB)
+summary(inter_BB)  # not significant
+
+inter_FX_DF = totalUSA %>% select(year,FX,ExFX,DiffFX)
+inter_FX_DF =inter_FX_DF [complete.cases(inter_FX_DF ),]
+inter_FX = lm(data=inter_FX_DF ,FX~ExFX*DiffFX)
+summary(inter_FX)  # not significant
+
+grid.arrange(D,A,B,C,nrow=2,top = textGrob("Difficulty and Execution Averages",gp=gpar(fontsize=20,font=1)))
+
+
+Int.Results = data.frame("Event"=c("Vault","Bars","Beam","Floor"), "Interaction P-Value"=c("0.0140 *","0.687","0.0601 .","0.253"))
+names(Int.Results) = c("Event","P Value for Interaction")
+
+formattable::formattable(Int.Results,align=c(rep("l",2)))
+
+
+```
