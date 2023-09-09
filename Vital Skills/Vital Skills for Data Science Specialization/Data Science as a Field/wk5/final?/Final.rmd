@@ -1,0 +1,145 @@
+---
+title: 'Week 5: Final'
+author: "COVID Data Analysis"
+date: "2/27/2022"
+output: pdf_document
+---
+
+```{r setup, include=FALSE}
+library(formatR)
+knitr::opts_chunk$set(echo = TRUE, tidy.opts = list(width.cutoff=I(90)), tidy = TRUE)
+```
+
+## Cleaning Data
+We are going to be looking at COVID 19 cases in the US to see if there is a state that can be used as a predictor for other states. First we need to import and clean up our data. We're going to use the Johns Hopkins data sets for the US since it's a reliable source. Then We're going to change the columns for each date into a row for each date with the new column value being number of cases. We'll also remote state location information since we don't need that and reformat the date field into a date datatype. Next we'll join the information on number of cases with the information on number of deaths into a single data set. 
+
+```{r libraries}
+library(tidyverse)
+library(lubridate)
+url_in <- "https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_time_series/"
+file_names <- c("time_series_covid19_confirmed_US.csv",
+                "time_series_covid19_deaths_US.csv")
+urls <- str_c(url_in, file_names)
+US_cases <- read_csv(urls[1])
+US_deaths <- read_csv(urls[2])
+US_cases <- US_cases %>% pivot_longer(cols = -(UID:Combined_Key), names_to = "date", values_to = "cases") %>% select(Admin2:cases) %>% mutate(date = mdy(date)) %>% select(-c(Lat, Long_))
+US_deaths <- US_deaths %>% pivot_longer(cols = -(UID:Population), names_to = "date", values_to = "deaths") %>% select(Admin2:deaths) %>% mutate(date = mdy(date)) %>% select(-c(Lat, Long_))
+US <- US_cases %>% full_join(US_deaths)
+summary(US)
+```
+
+Currently the state data is broken down by county, so we're going to change those into totals for the entire state and look at totals for the entire country.
+
+```{r checkData}
+US_by_state <- US %>% group_by(Province_State, Country_Region, date) %>% summarize(cases = sum(cases), deaths = sum(deaths), Population = sum(Population)) %>% mutate(deaths_per_mill = deaths * 1000000 / Population) %>% select(Province_State, Country_Region, date, cases, deaths, deaths_per_mill, Population) %>% ungroup()
+
+US_totals <- US_by_state %>% group_by(Country_Region, date) %>% summarize(cases = sum(cases), deaths = sum(deaths), Population = sum(Population)) %>% mutate(deaths_per_mill = deaths * 1000000 / Population) %>% select(Country_Region, date, cases, deaths, deaths_per_mill, Population) %>% ungroup()
+
+US_totals %>% filter(cases > 0) %>% ggplot(aes(x = date, y = cases)) + geom_line(aes(color = "cases")) + geom_point(aes(color = "cases")) + geom_line(aes(y = deaths, color = "deaths")) + geom_point(aes(y = deaths, color = "deaths")) + scale_y_log10() + theme(legend.position = "bottom", axis.text.x = element_text(angle = 90)) + labs(title = "COVID19 in US", y = NULL)
+```
+
+Taking a quick look at the graph of US totals (on a logarithmic scale) matches the expectations of what we've seen from other sources. Since our data looks good, let's add some extra fields that we may want for analysis. The cases and deaths are a running total, so let's add fields for the day to day change. I'd also like to add fields for cases and deaths per thousand for a finer grained analysis that is better suited to low population states.
+
+Since we've added those fields, let's take a look at the US totals and use cases per thousand to predict deaths per thousand against all the states. To avoid visual clutter, I'm leaving all the states as blue since I just want to see an overall fit.
+
+```{r addData}
+US_by_state <- US_by_state %>% mutate(new_cases = cases - lag(cases), new_deaths = deaths - lag(deaths), cases_per_thou = cases * 1000 / Population, deaths_per_thou = deaths * 1000 / Population) %>% filter(cases > 0, Population > 0)
+summary(US_by_state)
+
+mod <- lm(deaths_per_thou ~ cases_per_thou, data = US_by_state)
+summary(mod)
+US_w_pred <- US_by_state %>% mutate(pred = predict(mod))
+US_w_pred %>% ggplot() + geom_point(aes(x = cases_per_thou, y = deaths_per_thou), color = "blue") + geom_point(aes(x = cases_per_thou, y = pred), color = "red")
+```
+
+## Analysis
+Now I would like to see if we can cluster states together by models. I am going to day this by creating a linear model for each state, then applying it to all the states and seeing how well the actual deaths correlate with the predicted deaths for that model. Since this data set also includes US territories, we're going to end up with 56 models applied to 56 states or territories.
+
+```{r testPred, echo=TRUE}
+options(warn=-1)
+States <- split(US_by_state, US_by_state$Province_State)
+for(i in 1:length(States))
+{
+  States[i][[1]] <- States[i][[1]] %>% mutate(cases_per_thou = as.numeric(cases_per_thou)) %>% mutate(deaths_per_thou = as.numeric(deaths_per_thou))
+}
+
+models = c()
+states = c()
+corrs = c()
+
+for(state in States)
+{
+  m <- lm(deaths_per_thou ~ cases_per_thou, data = state)
+  name <- state$Province_State[1]
+  for(sstate in States)
+  {
+    this_s <- predict(m, sstate)
+    c <- cor(sstate$deaths_per_thou, this_s)
+    models <- append(models, name)
+    states <- append(states, sstate$Province_State[1])
+    corrs <- append(corrs, c)
+  }
+}
+results <- tibble(Model=models, State=states, Corr=corrs)
+summary(results)
+```
+
+We can see that our correlations range from very close matches (greater than 99%) to poor matches (84%). To cluster states into predictor sets, I'm going to take the state and model with the highest correlation out of the results. Those states will be added to a set together. Since those two states are in a set now, I'm going to remove them from the list of remaining states that need to be added to a set. From here I will loop until the set of remaining states is empty. I'm going to pull the next highest correlating model to state out of the results set. If the state used to create the model is already in a set, the new state is added to that set and removed from the results list. If the modeling state isn't in a set yet, we'll create a new set of states with those two. We will also need to add the special case for when a state has no correlating model (in this case, it's a state with no deaths) where it will be added to it's own unique set. You can think of this as a weighted graph partitioning algorithm where the states are the nodes and the edges are the models with weights corresponding to the correlation. This is a greedy algorithm (always taking the next best fit) so we may not end up with optimal set results. In other words, we could have fewer sets if we analyze the correlations differently or more sets if we do a different comparison (such as how well it compares to all states in the existing set, not just the generating model).
+
+```{r createSets}
+sets <- tibble(State = unique(states), Set = 0)
+count <- 1
+while(dim(results) != c(0,3))
+{
+  next_match <- results %>% slice_max(order_by = Corr)
+  if(dim(next_match) == c(0,3))
+  {
+    next_match <- results %>% slice(1)
+    sets <- rows_update(sets, tibble(State = next_match$State, Set = count))
+    count <- count + 1
+    results <- results %>% filter(State != next_match$State)
+    next
+  }
+  else
+  {
+    next_match <- next_match %>% slice(1)
+  }
+  idx <- sets %>% filter(State == next_match$Model)
+  if(idx$Set == 0)
+  {
+    sets <- rows_update(sets, tibble(State = next_match$Model, Set = count))
+    sets <- rows_update(sets, tibble(State = next_match$State, Set = count))
+    count <- count + 1
+    results <- results %>% filter(State != next_match$State) %>% filter(State != next_match$Model)
+  }
+  else
+  {
+    sets <- rows_update(sets, tibble(State = next_match$State, Set = idx$Set))
+    results <- results %>% filter(State != next_match$State)
+  }
+}
+```
+
+Now that we've created our sets, let's look at how the states were grouped together and the graph of their cases and deaths to see how the models look.
+
+```{r visualizeSets}
+for(i in 1:(count-1))
+{
+  curr_set <- sets %>% filter(Set == i) %>% select(State)
+  cat(str_c("Group ", as.character(i), ":\n"))
+  cat(curr_set$State, sep="\n")
+  cat("\n")
+  curr_data <- curr_data <- US_by_state %>% filter(Province_State %in% curr_set$State)
+  print(ggplot(curr_data, aes(x = cases_per_thou, y = deaths_per_thou, color= Province_State))+geom_point())
+}
+
+options(warn=1)
+```
+
+For groups 1, 11, 13, and 14, while the offsets are slightly different, the curves of the actual cases looks very similar. Group 2, 3, 4, 7, 9, 10, 12, 15, and 16 are well clustered and seem like a set of states that could accurately predict the others. Group 5 is a bit more disperse, with some states clustered and others not. You'll notice Florida and New Hampshire have matching curves and are a bit divergent from the rest. This is probably a result of our greedy algorithm. If we introduced a cut off value for when we consider something a correlation match, this group probably would have been split into two, separated as I mentioned above. Along those same lines, group 6 is very divergent. Since there's only two states, either Nevada or Utah was the best predictor for the other but was a poor predictor. Introducing a cut off value on correlation matching could possibly separate these two. Group 8 seems to be in a similar situation. It's well clustered except for the North Mariana Islands. That state was probably included because it was correlated with an existing state in the set, just very poorly correlated. Again, introducing a cut off value could fix this most likely. Group 17 had no correlating models, which is why it's a single state (there were no deaths as of yet in this region).
+
+## Bias
+The primary bias in generating these sets is what I've already mentioned. By not introducing a cutoff value on correlation, we're most likely including states in predictor sets that shouldn't be there. Preferably we'd want to cluster states with a very close correlation. We could handle this several ways. We could choose a cut off value for the correlation and change those values to NA. Instead of comparing a new state (the next most highest correlation), if the model generating state is already in a set, instead of just adding it to that set, see how the new state compares to the remaining models in the state. If it's a poor match to the others, we could either start a new set with just that state or NA the correlation value and continue to see if we find a better total set fit. Either of these methods is likely to remove the outlier states from groups and produce sets that correlate highly among themselves, the difference would be in the number of potential sets generated and if we wanted to go for higher accuracy and smaller sets of states or better matching than what we have but less sets. Those would both be options I would want to compare in future analysis of this data.
+
+## Conclusion
+As desired, I was able to cluster states into groups that seemed to predict each other for the most part. There were some outlier states in a few groups and a few groups that seemed to have poor correlation. Nine of the 17 groups seemed to be valid predictors of each other and one group had no deaths so it was a standalone. Overall, for a first pass of grouping analysis this seems like a decent first pass however the additional methods for clustering instead of a purely greedy algorithm would be worth a try as well. For the most part though, there are subsets of states that are good predictors of the deaths in others.

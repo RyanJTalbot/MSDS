@@ -1,0 +1,210 @@
+---
+title: "NYPD Shooting Incident Data Report"
+author: "Mohammad Abu Marar"
+date: "2023-04-27"
+output: html_document
+---
+
+```{r setup, include=FALSE} 
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Introduction:
+
+In recent years, there has been an alarming increase in hate crimes and shooting incidents across the United States. This issue has sparked a national debate, and it is crucial to gain a better understanding of criminal activity through the statistical analysis of available data, such as the New York City Shooting Incidents dataset. This analysis can provide valuable insights and help formulate effective police enforcement and intervention strategies. In this report, we will explore the NYPD Shooting Incident data to identify patterns, relationships, and trends in the criminal activity, and generate insights that can inform decision-making and policy development.
+
+To begin, we need to install these necessary packages:(tidyverse), (lubridate), (ggplot2), (gridExtra), (knitr)
+
+```{r, include=FALSE}
+library(tidyverse)
+library(lubridate)
+library(ggplot2)
+library(gridExtra)
+library(knitr)
+```
+
+Read the data from the link.
+
+```{r}
+# Read CSV file from URL
+nypd_shooting <- read_csv("https://data.cityofnewyork.us/api/views/833y-fsy8/rows.csv?accessType=DOWNLOAD")
+```
+
+
+Display the first 10 rows of the dataset.
+
+```{r}
+head(nypd_shooting, 10)
+```
+
+
+## Data Preparation and Cleaning
+
+Rename OCCUR_DATE and OCCUR_TIME to Date and Time respectively.
+
+```{r}
+nypd_shooting <- nypd_shooting %>%
+  rename(Date = OCCUR_DATE,
+         Time = OCCUR_TIME)
+```
+
+
+Missing Values.
+
+```{r}
+# Replace missing values with "N/A"
+nypd_shooting <- nypd_shooting %>% 
+  mutate(across(-Time, ~ifelse(is.na(.), "N/A", .)))
+```
+
+
+Making sure there is no missing values.
+
+```{r}
+sum(is.na(nypd_shooting))
+```
+
+
+Show the first 10 rows
+
+```{r}
+head(nypd_shooting, 10)
+```
+
+
+Check and remove any duplicates.
+
+```{r}
+duplicated_rows <- nypd_shooting[duplicated(nypd_shooting),]
+nypd_shooting <- distinct(nypd_shooting)
+nrow(nypd_shooting)
+```
+
+
+It appears there are no duplicates.
+
+Now let’s check unique Values in borough.
+
+```{r}
+unique(nypd_shooting$BORO)
+nypd_shooting$Date <- as.Date(nypd_shooting$Date, format = "%m/%d/%Y")
+```
+
+
+Let’s take a look at the table.
+
+```{r}
+head(nypd_shooting, 10)
+```
+
+
+I just want to make sure the Date column in the right datatype.
+
+```{r}
+class(nypd_shooting$Date)
+```
+
+
+Here I made a new column for the population for each borough.
+
+```{r}
+nypd_shooting <- nypd_shooting %>%
+ mutate(Population = case_when(
+    BORO == "BROOKLYN" ~ 2576771,
+    BORO == "QUEENS" ~ 2270976,
+    BORO == "BRONX" ~ 1427056,
+    BORO == "MANHATTAN" ~ 1629153,
+    BORO == "STATEN ISLAND" ~ 475596,
+    TRUE ~ NA_real_
+  ))
+head(nypd_shooting, 10)
+```
+
+Sort the borough in descending order to see which one has the most shootings.
+
+```{r}
+nypd_shooting %>% 
+  group_by(BORO) %>% 
+  summarise(Total = n()) %>% 
+  arrange(desc(Total))
+```
+
+
+Bar Chart to see incidences.
+
+```{r}
+# Group data by BORO and calculate the total number of incidents
+boro_shootings <- nypd_shooting %>% group_by(BORO) %>% 
+  summarize(incidents = n())
+
+# Create bar graph
+ggplot(boro_shootings, aes(x=BORO, y=incidents, fill=BORO)) +
+  geom_bar(stat="identity") +
+  xlab("BOROUGH") + ylab("INCIDENCES") +
+  ggtitle("INCIDENCES IN VARIOUS BOROUGHS") +
+  theme_minimal()
+```
+
+
+Calculate the shooting rate per 100,000 people and Plot the shooting rate for each borough
+
+```{r}
+nypd_shooting_rate <- nypd_shooting %>%
+  group_by(BORO) %>%
+  summarise(total_shootings = n(),
+            population = unique(Population),
+            shooting_rate = total_shootings / (population / 100000)) %>%
+  arrange(desc(shooting_rate))
+
+ggplot(nypd_shooting_rate, aes(x = BORO, y = shooting_rate)) +
+  geom_bar(stat = "identity", fill = "skyblue", color = "black") +
+  ggtitle("Chance of Getting Shot in Each Borough") +
+  xlab("Borough") +
+  ylab("Shooting Rate per 100,000 People") +
+  theme_minimal()
+nypd_shooting_rate %>%
+  as_tibble() %>%
+  select(BORO, shooting_rate) %>%
+  mutate(shooting_rate = sprintf("%.2f", shooting_rate))
+nypd_shooting_rate_per_person <- nypd_shooting_rate %>%
+  mutate(shooting_rate_per_person = total_shootings / population) %>%
+  select(BORO, shooting_rate_per_person) %>%
+  mutate(shooting_rate_per_person = sprintf("%.6f", shooting_rate_per_person * 100)) %>%
+  rename(`Borough` = BORO, `Shooting Rate per Person` = shooting_rate_per_person) %>%
+  mutate(`Shooting Rate per Person` = paste0(`Shooting Rate per Person`, "%"))
+
+print(nypd_shooting_rate_per_person)
+```
+
+
+Create the linear regression model and Print the summary of the model
+
+```{r}
+nypd_shooting <- nypd_shooting %>%
+  mutate(Total = ifelse(!is.na(BORO), 1, 0)) %>%
+  group_by(BORO) %>%
+  mutate(Total = cumsum(Total))
+
+lm_model <- lm(Total ~ Population, data = nypd_shooting)
+
+summary(lm_model)
+```
+
+
+Create a scatter plot with the regression line
+
+```{r}
+ggplot(nypd_shooting, aes(x = Population, y = Total)) +
+  geom_point() +
+  geom_smooth(method = "lm", se = FALSE) +
+  xlab("Population") +
+  ylab("Total Incidences") +
+  ggtitle("Linear Regression: Total Incidences vs Population")
+```
+
+
+## Conclusion:
+
+we can conclude that the Bronx has the highest chance of getting shot per person compared to the other boroughs in New York City. Staten Island has the lowest chance of getting shot per person. However, it’s important to note that the difference in shooting rates between the boroughs is not very large, with the highest rate being only slightly above 0.5% and the lowest rate being just over 0.15%.
+
+Based on the linear regression results, we can conclude that there is a positive relationship between the number of shooting incidents and the population size in each borough. In other words, as the population size increases, the number of shooting incidents tends to increase as well. The R-squared value of 0.717 indicates that the model explains approximately 72% of the variability in the number of shooting incidents. However, it’s important to note that correlation does not imply causation, and there may be other factors that contribute to the number of shooting incidents beyond just population size.
