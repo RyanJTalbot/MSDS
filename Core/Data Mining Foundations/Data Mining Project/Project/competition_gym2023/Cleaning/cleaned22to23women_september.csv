@@ -1,12 +1,12 @@
 Name,Country,Competition,Round,Location,Apparatus,Rank,D_Score,E_Score,Penalty,Score
-Jana ABDELSALAM,EGY,World Cup,qual,"Baku, Azerbaijan",BB,22.0,4.8,6.733,0.0,11.533
-Jana ABDELSALAM,EGY,World Cup,final,"Cairo, Egypt",BB,8.0,4.8,6.566,0.0,11.366
-Jana ABDELSALAM,EGY,World Cup,qual,"Cairo, Egypt",BB,9.0,4.7,7.466,0.0,12.166
-Jana ABDELSALAM,EGY,World Cup,final,"Doha, Qatar",BB,4.0,5.0,8.0,0.0,13.0
-Jana ABDELSALAM,EGY,World Cup,qual,"Doha, Qatar",BB,6.0,5.0,7.933,0.0,12.933
-Jana ABDELSALAM,EGY,World Cup,qual,"Baku, Azerbaijan",FX,22.0,4.5,7.366,0.0,11.866
-Jana ABDELSALAM,EGY,World Cup,qual,"Cairo, Egypt",UB,29.0,4.5,6.266,0.0,10.766
-Jana ABDELSALAM,EGY,World Cup,qual,"Doha, Qatar",UB,21.0,3.8,5.533,0.0,9.333
+Jana ABDELSALAM,EGY,FIG Apparatus World Cup 2023,qual,"Baku, Azerbaijan",BB,22.0,4.8,6.733,0.0,11.533
+Jana ABDELSALAM,EGY,FIG Apparatus World Cup 2023,final,"Cairo, Egypt",BB,8.0,4.8,6.566,0.0,11.366
+Jana ABDELSALAM,EGY,FIG Apparatus World Cup 2023,qual,"Cairo, Egypt",BB,9.0,4.7,7.466,0.0,12.166
+Jana ABDELSALAM,EGY,FIG Apparatus World Cup 2023,final,"Doha, Qatar",BB,4.0,5.0,8.0,0.0,13.0
+Jana ABDELSALAM,EGY,FIG Apparatus World Cup 2023,qual,"Doha, Qatar",BB,6.0,5.0,7.933,0.0,12.933
+Jana ABDELSALAM,EGY,FIG Apparatus World Cup 2023,qual,"Baku, Azerbaijan",FX,22.0,4.5,7.366,0.0,11.866
+Jana ABDELSALAM,EGY,FIG Apparatus World Cup 2023,qual,"Cairo, Egypt",UB,29.0,4.5,6.266,0.0,10.766
+Jana ABDELSALAM,EGY,FIG Apparatus World Cup 2023,qual,"Doha, Qatar",UB,21.0,3.8,5.533,0.0,9.333
 Ayesha ABDULLAHI,GBR,2022 British Gymnastics Championships,qual,"Liverpool, England",BB,41.0,3.7,6.5,0.0,10.2
 Ayesha ABDULLAHI,GBR,2022 British Gymnastics Championships,qual,"Liverpool, England",UB,45.0,3.5,6.7,0.0,10.2
 Ondine ACHAMPONG,GBR,2022 British Gymnastics Championships,final,"Liverpool, England",BB,4.0,5.1,7.7,0.0,12.8
@@ -45,8 +45,8 @@ Jess ADAMSON,GBR,2022 British Gymnastics Championships,qual,"Liverpool, England"
 Jess ADAMSON,GBR,2022 British Gymnastics Championships,qual,"Liverpool, England",FX,52.0,4.0,6.45,0.0,10.45
 Jess ADAMSON,GBR,2022 British Gymnastics Championships,qual,"Liverpool, England",UB,24.0,3.7,7.6,0.0,11.3
 Jess ADAMSON,GBR,2022 British Gymnastics Championships,qual,"Liverpool, England",VT,44.0,3.6,8.4,0.0,12.0
-Ruba ALDAOUD,JOR,World Cup,qual,"Cairo, Egypt",VT,23.0,3.2,8.6,0.0,11.8
-Ruba ALDAOUD,JOR,World Cup,qual,"Cairo, Egypt",VT,23.0,1.6,8.566,0.0,10.166
+Ruba ALDAOUD,JOR,FIG Apparatus World Cup 2023,qual,"Cairo, Egypt",VT,23.0,3.2,8.6,0.0,11.8
+Ruba ALDAOUD,JOR,FIG Apparatus World Cup 2023,qual,"Cairo, Egypt",VT,23.0,1.6,8.566,0.0,10.166
 Mei AMORELLI,GBR,2023 British Gymnastics Championships,qual,"Liverpool, England",BB,22.0,4.2,7.3,0.0,11.5
 Mei AMORELLI,GBR,2023 British Gymnastics Championships,qual,"Liverpool, England",FX,31.0,4.3,6.7,0.0,11.0
 Mei AMORELLI,GBR,2023 British Gymnastics Championships,qual,"Liverpool, England",UB,35.0,3.4,6.5,0.0,9.9
@@ -55,9 +55,9 @@ Lobar AMRILLAEVA,UZB,2023 Varna World Challenge Cup Results,qual,"Varna, Bulgari
 Lobar AMRILLAEVA,UZB,2023 Varna World Challenge Cup Results,qual,"Varna, Bulgaria",UB,16.0,4.3,6.133,0.0,10.433
 Lobar AMRILLAEVA,UZB,2023 Varna World Challenge Cup Results,qual,"Varna, Bulgaria",VT,9.0,3.8,8.566,0.0,12.366
 Lobar AMRILLAEVA,UZB,2023 Varna World Challenge Cup Results,qual,"Varna, Bulgaria",VT,9.0,3.4,8.733,0.0,12.133
-Lobar AMRILLAEVA,UZB,World Cup,qual,"Baku, Azerbaijan",BB,17.0,4.9,7.2,0.0,12.1
-Lobar AMRILLAEVA,UZB,World Cup,qual,"Baku, Azerbaijan",FX,21.0,4.9,7.166,0.1,11.966
-Lobar AMRILLAEVA,UZB,World Cup,qual,"Baku, Azerbaijan",UB,28.0,3.6,6.3,0.0,9.9
+Lobar AMRILLAEVA,UZB,FIG Apparatus World Cup 2023,qual,"Baku, Azerbaijan",BB,17.0,4.9,7.2,0.0,12.1
+Lobar AMRILLAEVA,UZB,FIG Apparatus World Cup 2023,qual,"Baku, Azerbaijan",FX,21.0,4.9,7.166,0.1,11.966
+Lobar AMRILLAEVA,UZB,FIG Apparatus World Cup 2023,qual,"Baku, Azerbaijan",UB,28.0,3.6,6.3,0.0,9.9
 Anastasija ANANJEVA,LAT,2022 Senior European Championships,qual,"Munich, Germany",BB,117.0,4.7,3.533,0.0,8.233
 Anastasija ANANJEVA,LAT,2022 Senior European Championships,qual,"Munich, Germany",FX,101.0,4.4,6.4,0.0,10.8
 Anastasija ANANJEVA,LAT,2022 Senior European Championships,qual,"Munich, Germany",UB,111.0,2.7,5.933,0.0,8.633
@@ -94,26 +94,26 @@ Shannon ARCHER,GBR,2022 British Gymnastics Championships,final,"Liverpool, Engla
 Shannon ARCHER,GBR,2022 British Gymnastics Championships,qual,"Liverpool, England",VT,3.0,5.0,8.85,0.0,13.85
 Shannon ARCHER,GBR,2022 British Gymnastics Championships,final,"Liverpool, England",VT,6.0,4.4,8.45,0.0,12.85
 Shannon ARCHER,GBR,2022 British Gymnastics Championships,qual,"Liverpool, England",VT,3.0,4.4,8.5,0.0,12.9
+Dildora ARIPOVA,UZB,FIG Apparatus World Cup 2023,qual,"Cairo, Egypt",BB,30.0,4.3,5.833,0.0,10.133
 Dildora ARIPOVA,UZB,FIG Apparatus World Cup 2023,final,"Cottbus, Germany",BB,8.0,5.0,6.066,0.0,11.066
 Dildora ARIPOVA,UZB,FIG Apparatus World Cup 2023,qual,"Cottbus, Germany",BB,7.0,5.2,7.766,0.0,12.966
+Dildora ARIPOVA,UZB,FIG Apparatus World Cup 2023,qual,"Doha, Qatar",BB,31.0,5.0,6.033,0.0,11.033
+Dildora ARIPOVA,UZB,FIG Apparatus World Cup 2023,qual,"Cairo, Egypt",FX,26.0,4.4,6.666,0.0,11.066
 Dildora ARIPOVA,UZB,FIG Apparatus World Cup 2023,qual,"Cottbus, Germany",FX,15.0,4.6,8.0,0.3,12.3
+Dildora ARIPOVA,UZB,FIG Apparatus World Cup 2023,final,"Doha, Qatar",FX,4.0,5.0,7.566,0.0,12.566
+Dildora ARIPOVA,UZB,FIG Apparatus World Cup 2023,qual,"Doha, Qatar",FX,2.0,5.0,7.866,0.0,12.866
+Dildora ARIPOVA,UZB,FIG Apparatus World Cup 2023,final,"Cairo, Egypt",UB,8.0,4.9,7.2,0.0,12.1
+Dildora ARIPOVA,UZB,FIG Apparatus World Cup 2023,qual,"Cairo, Egypt",UB,8.0,5.0,7.5,0.0,12.5
 Dildora ARIPOVA,UZB,FIG Apparatus World Cup 2023,qual,"Cottbus, Germany",UB,22.0,5.0,5.7,0.0,10.7
+Dildora ARIPOVA,UZB,FIG Apparatus World Cup 2023,qual,"Doha, Qatar",UB,22.0,4.5,3.866,0.5,7.866
+Dildora ARIPOVA,UZB,FIG Apparatus World Cup 2023,qual,"Cairo, Egypt",VT,18.0,4.2,7.633,0.1,11.733
 Dildora ARIPOVA,UZB,FIG Apparatus World Cup 2023,final,"Cottbus, Germany",VT,8.0,4.2,8.466,0.3,12.366
 Dildora ARIPOVA,UZB,FIG Apparatus World Cup 2023,qual,"Cottbus, Germany",VT,8.0,4.2,8.566,0.0,12.766
+Dildora ARIPOVA,UZB,FIG Apparatus World Cup 2023,qual,"Doha, Qatar",VT,12.0,4.2,8.433,0.1,12.533
+Dildora ARIPOVA,UZB,FIG Apparatus World Cup 2023,qual,"Cairo, Egypt",VT,18.0,3.8,8.633,0.0,12.433
 Dildora ARIPOVA,UZB,FIG Apparatus World Cup 2023,final,"Cottbus, Germany",VT,8.0,3.8,8.666,0.0,12.466
 Dildora ARIPOVA,UZB,FIG Apparatus World Cup 2023,qual,"Cottbus, Germany",VT,8.0,3.8,8.533,0.0,12.333
-Dildora ARIPOVA,UZB,World Cup,qual,"Cairo, Egypt",BB,30.0,4.3,5.833,0.0,10.133
-Dildora ARIPOVA,UZB,World Cup,qual,"Doha, Qatar",BB,31.0,5.0,6.033,0.0,11.033
-Dildora ARIPOVA,UZB,World Cup,qual,"Cairo, Egypt",FX,26.0,4.4,6.666,0.0,11.066
-Dildora ARIPOVA,UZB,World Cup,final,"Doha, Qatar",FX,4.0,5.0,7.566,0.0,12.566
-Dildora ARIPOVA,UZB,World Cup,qual,"Doha, Qatar",FX,2.0,5.0,7.866,0.0,12.866
-Dildora ARIPOVA,UZB,World Cup,final,"Cairo, Egypt",UB,8.0,4.9,7.2,0.0,12.1
-Dildora ARIPOVA,UZB,World Cup,qual,"Cairo, Egypt",UB,8.0,5.0,7.5,0.0,12.5
-Dildora ARIPOVA,UZB,World Cup,qual,"Doha, Qatar",UB,22.0,4.5,3.866,0.5,7.866
-Dildora ARIPOVA,UZB,World Cup,qual,"Doha, Qatar",VT,12.0,4.2,8.433,0.1,12.533
-Dildora ARIPOVA,UZB,World Cup,qual,"Doha, Qatar",VT,12.0,3.8,8.7,0.0,12.5
-Dildora ARIPOVA,UZB,World Cup,qual,"Cairo, Egypt",VT,18.0,4.2,7.633,0.1,11.733
-Dildora ARIPOVA,UZB,World Cup,qual,"Cairo, Egypt",VT,18.0,3.8,8.633,0.0,12.433
+Dildora ARIPOVA,UZB,FIG Apparatus World Cup 2023,qual,"Doha, Qatar",VT,12.0,3.8,8.7,0.0,12.5
 Valeria ARRAIZ,VEN,2023 Central American and Caribbean Games,qual,"San Salvador, El Salvador",BB,9.0,4.2,7.35,0.0,11.55
 Valeria ARRAIZ,VEN,2023 Central American and Caribbean Games,qual,"San Salvador, El Salvador",FX,12.0,4.3,7.7,0.0,12.0
 Valeria ARRAIZ,VEN,2023 Central American and Caribbean Games,qual,"San Salvador, El Salvador",UB,28.0,4.1,5.7,0.0,9.8
@@ -132,9 +132,9 @@ Amelie ATTWOOD,GBR,2022 British Gymnastics Championships,qual,"Liverpool, Englan
 Amelie ATTWOOD,GBR,2022 British Gymnastics Championships,qual,"Liverpool, England",FX,41.0,4.3,7.05,0.0,11.35
 Amelie ATTWOOD,GBR,2022 British Gymnastics Championships,qual,"Liverpool, England",UB,43.0,3.2,7.0,0.0,10.2
 Amelie ATTWOOD,GBR,2022 British Gymnastics Championships,qual,"Liverpool, England",VT,49.0,3.2,8.65,0.0,11.85
-Nada AWAD,EGY,World Cup,qual,"Cairo, Egypt",BB,25.0,4.4,6.033,0.0,10.433
-Nada AWAD,EGY,World Cup,qual,"Cairo, Egypt",FX,33.0,4.2,6.3,0.6,9.9
-Nada AWAD,EGY,World Cup,qual,"Cairo, Egypt",UB,28.0,4.5,6.3,0.0,10.8
+Nada AWAD,EGY,FIG Apparatus World Cup 2023,qual,"Cairo, Egypt",BB,25.0,4.4,6.033,0.0,10.433
+Nada AWAD,EGY,FIG Apparatus World Cup 2023,qual,"Cairo, Egypt",FX,33.0,4.2,6.3,0.6,9.9
+Nada AWAD,EGY,FIG Apparatus World Cup 2023,qual,"Cairo, Egypt",UB,28.0,4.5,6.3,0.0,10.8
 Caleigh Anders,RSA,2023 Tel Aviv Challenge Cup,final,"Tel Aviv, Israel",UB,5.0,4.7,7.1,0.0,11.8
 Caleigh Anders,RSA,2023 Tel Aviv Challenge Cup,qual,"Tel Aviv, Israel",UB,5.0,4.7,7.167,0.0,11.867
 Wong Hiu Ying Angel,HKG,2023 Tel Aviv Challenge Cup,qual,"Tel Aviv, Israel",BB,12.0,4.5,6.9,0.1,11.3
@@ -185,20 +185,20 @@ Ana BARBOSU,ROU,2023 Senior European Championships,qual,"Antalya, Turkey",UB,13.
 Ana BARBOSU,ROU,2023 Senior European Championships,AAfinal,"Antalya, Turkey",VT,8.0,4.6,8.8,0.0,13.4
 Ana BARBOSU,ROU,2023 Senior European Championships,qual,"Antalya, Turkey",VT,98.0,4.6,7.633,0.3,11.933
 Sydney BARROS,PUR,2023 Central American and Caribbean Games,qual,"San Salvador, El Salvador",FX,13.0,5.2,6.75,0.0,11.95
-Aida BAUYRZHANOVA,KAZ,World Cup,qual,"Baku, Azerbaijan",BB,9.0,5.1,7.6,0.0,12.7
-Aida BAUYRZHANOVA,KAZ,World Cup,qual,"Cairo, Egypt",BB,10.0,4.8,7.266,0.0,12.066
-Aida BAUYRZHANOVA,KAZ,World Cup,qual,"Doha, Qatar",BB,10.0,4.8,7.9,0.0,12.7
-Aida BAUYRZHANOVA,KAZ,World Cup,qual,"Baku, Azerbaijan",FX,15.0,4.7,7.5,0.1,12.1
-Aida BAUYRZHANOVA,KAZ,World Cup,final,"Cairo, Egypt",FX,4.0,4.7,7.833,0.0,12.533
-Aida BAUYRZHANOVA,KAZ,World Cup,qual,"Cairo, Egypt",FX,3.0,4.7,8.033,0.0,12.733
-Aida BAUYRZHANOVA,KAZ,World Cup,qual,"Doha, Qatar",FX,15.0,4.7,7.2,0.4,11.5
-Aida BAUYRZHANOVA,KAZ,World Cup,qual,"Baku, Azerbaijan",UB,24.0,4.5,6.7,0.0,11.2
-Aida BAUYRZHANOVA,KAZ,World Cup,qual,"Cairo, Egypt",UB,26.0,4.2,6.833,0.0,11.033
-Aida BAUYRZHANOVA,KAZ,World Cup,qual,"Doha, Qatar",UB,13.0,4.3,6.8,0.0,11.1
+Aida BAUYRZHANOVA,KAZ,FIG Apparatus World Cup 2023,qual,"Baku, Azerbaijan",BB,9.0,5.1,7.6,0.0,12.7
+Aida BAUYRZHANOVA,KAZ,FIG Apparatus World Cup 2023,qual,"Cairo, Egypt",BB,10.0,4.8,7.266,0.0,12.066
+Aida BAUYRZHANOVA,KAZ,FIG Apparatus World Cup 2023,qual,"Doha, Qatar",BB,10.0,4.8,7.9,0.0,12.7
+Aida BAUYRZHANOVA,KAZ,FIG Apparatus World Cup 2023,qual,"Baku, Azerbaijan",FX,15.0,4.7,7.5,0.1,12.1
+Aida BAUYRZHANOVA,KAZ,FIG Apparatus World Cup 2023,final,"Cairo, Egypt",FX,4.0,4.7,7.833,0.0,12.533
+Aida BAUYRZHANOVA,KAZ,FIG Apparatus World Cup 2023,qual,"Cairo, Egypt",FX,3.0,4.7,8.033,0.0,12.733
+Aida BAUYRZHANOVA,KAZ,FIG Apparatus World Cup 2023,qual,"Doha, Qatar",FX,15.0,4.7,7.2,0.4,11.5
+Aida BAUYRZHANOVA,KAZ,FIG Apparatus World Cup 2023,qual,"Baku, Azerbaijan",UB,24.0,4.5,6.7,0.0,11.2
+Aida BAUYRZHANOVA,KAZ,FIG Apparatus World Cup 2023,qual,"Cairo, Egypt",UB,26.0,4.2,6.833,0.0,11.033
+Aida BAUYRZHANOVA,KAZ,FIG Apparatus World Cup 2023,qual,"Doha, Qatar",UB,13.0,4.3,6.8,0.0,11.1
 Teja BELAK,SLO,2022 Senior European Championships,qual,"Munich, Germany",VT,117.0,4.0,7.6,0.3,11.3
-Arianna BELARDELLI,ITA,World Cup,final,"Baku, Azerbaijan",FX,2.0,5.3,7.8,0.3,12.8
-Arianna BELARDELLI,ITA,World Cup,qual,"Baku, Azerbaijan",FX,7.0,5.3,7.533,0.4,12.433
-Arianna BELARDELLI,ITA,World Cup,qual,"Baku, Azerbaijan",UB,10.0,5.1,7.733,0.0,12.833
+Arianna BELARDELLI,ITA,FIG Apparatus World Cup 2023,final,"Baku, Azerbaijan",FX,2.0,5.3,7.8,0.3,12.8
+Arianna BELARDELLI,ITA,FIG Apparatus World Cup 2023,qual,"Baku, Azerbaijan",FX,7.0,5.3,7.533,0.4,12.433
+Arianna BELARDELLI,ITA,FIG Apparatus World Cup 2023,qual,"Baku, Azerbaijan",UB,10.0,5.1,7.733,0.0,12.833
 Ellie BELBIN,GBR,2023 British Gymnastics Championships,qual,"Liverpool, England",BB,36.0,4.1,6.1,0.0,10.2
 Ellie BELBIN,GBR,2023 British Gymnastics Championships,qual,"Liverpool, England",FX,22.0,4.3,7.15,0.0,11.45
 Ellie BELBIN,GBR,2023 British Gymnastics Championships,qual,"Liverpool, England",UB,42.0,4.1,5.15,0.0,9.25
@@ -250,10 +250,10 @@ Marine BOYER,FRA,2023 Senior European Championships,qual,"Antalya, Turkey",BB,17
 Marine BOYER,FRA,2023 Senior European Championships,qual,"Antalya, Turkey",FX,17.0,4.9,7.833,0.0,12.733
 Marine BOYER,FRA,2023 Senior European Championships,qual,"Antalya, Turkey",UB,43.0,4.8,7.7,0.0,12.5
 Marine BOYER,FRA,2023 Senior European Championships,qual,"Antalya, Turkey",VT,18.0,4.2,9.133,0.0,13.333
-Marine BOYER,FRA,World Cup,final,"Baku, Azerbaijan",BB,2.0,5.8,8.066,0.0,13.866
-Marine BOYER,FRA,World Cup,qual,"Baku, Azerbaijan",BB,2.0,5.6,8.033,0.0,13.633
-Marine BOYER,FRA,World Cup,final,"Baku, Azerbaijan",FX,1.0,4.9,7.933,0.0,12.833
-Marine BOYER,FRA,World Cup,qual,"Baku, Azerbaijan",FX,1.0,4.9,8.066,0.0,12.966
+Marine BOYER,FRA,FIG Apparatus World Cup 2023,final,"Baku, Azerbaijan",BB,2.0,5.8,8.066,0.0,13.866
+Marine BOYER,FRA,FIG Apparatus World Cup 2023,qual,"Baku, Azerbaijan",BB,2.0,5.6,8.033,0.0,13.633
+Marine BOYER,FRA,FIG Apparatus World Cup 2023,final,"Baku, Azerbaijan",FX,1.0,4.9,7.933,0.0,12.833
+Marine BOYER,FRA,FIG Apparatus World Cup 2023,qual,"Baku, Azerbaijan",FX,1.0,4.9,8.066,0.0,12.966
 Jacinta BRACKLEY,GBR,2022 British Gymnastics Championships,qual,"Liverpool, England",BB,58.0,4.7,4.45,0.0,9.15
 Jacinta BRACKLEY,GBR,2022 British Gymnastics Championships,qual,"Liverpool, England",FX,56.0,3.6,6.65,0.0,10.25
 Jacinta BRACKLEY,GBR,2022 British Gymnastics Championships,qual,"Liverpool, England",UB,56.0,3.3,5.8,0.0,9.1
@@ -291,10 +291,10 @@ Megan BRIDGE,GBR,2022 British Gymnastics Championships,qual,"Liverpool, England"
 Megan BRIDGE,GBR,2022 British Gymnastics Championships,qual,"Liverpool, England",VT,12.0,3.8,8.5,0.0,12.3
 Valentina BROSTELLA,PAN,2023 Central American and Caribbean Games,qual,"San Salvador, El Salvador",FX,21.0,4.2,7.35,0.1,11.45
 Valentina BROSTELLA,PAN,2023 Central American and Caribbean Games,qual,"San Salvador, El Salvador",UB,27.0,2.9,6.9,0.0,9.8
-Georgia Rose BROWN,AUS,World Cup,final,"Baku, Azerbaijan",UB,4.0,5.7,7.933,0.0,13.633
-Georgia Rose BROWN,AUS,World Cup,qual,"Baku, Azerbaijan",UB,5.0,5.7,7.8,0.0,13.5
-Georgia Rose BROWN,AUS,World Cup,final,"Doha, Qatar",UB,5.0,5.7,6.766,0.0,12.466
-Georgia Rose BROWN,AUS,World Cup,qual,"Doha, Qatar",UB,6.0,5.5,7.033,0.0,12.533
+Georgia Rose BROWN,AUS,FIG Apparatus World Cup 2023,final,"Baku, Azerbaijan",UB,4.0,5.7,7.933,0.0,13.633
+Georgia Rose BROWN,AUS,FIG Apparatus World Cup 2023,qual,"Baku, Azerbaijan",UB,5.0,5.7,7.8,0.0,13.5
+Georgia Rose BROWN,AUS,FIG Apparatus World Cup 2023,final,"Doha, Qatar",UB,5.0,5.7,6.766,0.0,12.466
+Georgia Rose BROWN,AUS,FIG Apparatus World Cup 2023,qual,"Doha, Qatar",UB,6.0,5.5,7.033,0.0,12.533
 Romi BROWN,AUS,EnBW DTB Pokal Team Challenge 2023,qual,"Stuttgart, Germany",BB,13.0,4.8,7.8,0.0,12.6
 Romi BROWN,AUS,EnBW DTB Pokal Team Challenge 2023,qual,"Stuttgart, Germany",UB,20.0,5.0,7.4,0.0,12.4
 Kim BUI,GER,2022 Senior European Championships,qual,"Munich, Germany",BB,17.0,4.9,7.933,0.0,12.833
@@ -393,12 +393,12 @@ Cheuk Lam CHAN,HKG,2023 Varna World Challenge Cup Results,qual,"Varna, Bulgaria"
 Cheuk Lam CHAN,HKG,2023 Varna World Challenge Cup Results,qual,"Varna, Bulgaria",FX,19.0,3.4,7.3,0.0,10.7
 Cheuk Lam CHAN,HKG,2023 Varna World Challenge Cup Results,qual,"Varna, Bulgaria",VT,12.0,3.6,8.566,0.0,12.166
 Cheuk Lam CHAN,HKG,2023 Varna World Challenge Cup Results,qual,"Varna, Bulgaria",VT,12.0,3.4,8.6,0.0,12.0
+Cheuk Lam CHAN,HKG,FIG Apparatus World Cup 2023,qual,"Baku, Azerbaijan",BB,20.0,4.6,7.033,0.0,11.633
 Cheuk Lam CHAN,HKG,FIG Apparatus World Cup 2023,qual,"Cottbus, Germany",BB,39.0,4.0,6.4,0.0,10.4
+Cheuk Lam CHAN,HKG,FIG Apparatus World Cup 2023,qual,"Doha, Qatar",BB,12.0,4.6,7.766,0.0,12.366
+Cheuk Lam CHAN,HKG,FIG Apparatus World Cup 2023,qual,"Baku, Azerbaijan",FX,30.0,4.0,7.3,0.0,11.3
 Cheuk Lam CHAN,HKG,FIG Apparatus World Cup 2023,qual,"Cottbus, Germany",FX,25.0,3.4,7.633,0.0,11.033
-Cheuk Lam CHAN,HKG,World Cup,qual,"Baku, Azerbaijan",BB,20.0,4.6,7.033,0.0,11.633
-Cheuk Lam CHAN,HKG,World Cup,qual,"Doha, Qatar",BB,12.0,4.6,7.766,0.0,12.366
-Cheuk Lam CHAN,HKG,World Cup,qual,"Baku, Azerbaijan",FX,30.0,4.0,7.3,0.0,11.3
-Cheuk Lam CHAN,HKG,World Cup,qual,"Doha, Qatar",FX,17.0,3.4,7.533,0.0,10.933
+Cheuk Lam CHAN,HKG,FIG Apparatus World Cup 2023,qual,"Doha, Qatar",FX,17.0,3.4,7.533,0.0,10.933
 Georgia CHARALAMPOUS,CYP,2023 Senior European Championships,qual,"Antalya, Turkey",BB,121.0,4.4,3.2,0.0,7.6
 Georgia CHARALAMPOUS,CYP,2023 Senior European Championships,qual,"Antalya, Turkey",FX,117.0,3.5,6.366,0.0,9.866
 Georgia CHARALAMPOUS,CYP,2023 Senior European Championships,qual,"Antalya, Turkey",UB,86.0,3.6,7.366,0.0,10.966
@@ -414,26 +414,26 @@ Dasol CHOI,KOR,2023 FISU World University Games,qual,"Chengdu, China",BB,19.0,4.
 Dasol CHOI,KOR,2023 FISU World University Games,qual,"Chengdu, China",FX,40.0,4.3,6.566,0.1,10.766
 Dasol CHOI,KOR,2023 FISU World University Games,qual,"Chengdu, China",UB,44.0,4.2,4.566,0.0,8.766
 Dasol CHOI,KOR,2023 FISU World University Games,qual,"Chengdu, China",VT,32.0,3.4,8.6,0.0,12.0
+Oksana CHUSOVITINA,UZB,FIG Apparatus World Cup 2023,qual,"Baku, Azerbaijan",BB,25.0,4.3,7.033,0.0,11.333
+Oksana CHUSOVITINA,UZB,FIG Apparatus World Cup 2023,qual,"Cairo, Egypt",FX,22.0,4.0,7.3,0.0,11.3
+Oksana CHUSOVITINA,UZB,FIG Apparatus World Cup 2023,qual,"Cairo, Egypt",UB,22.0,3.9,7.433,0.0,11.333
+Oksana CHUSOVITINA,UZB,FIG Apparatus World Cup 2023,qual,"Doha, Qatar",UB,20.0,3.5,6.666,0.3,9.866
+Oksana CHUSOVITINA,UZB,FIG Apparatus World Cup 2023,final,"Cairo, Egypt",VT,8.0,3.6,8.3,0.0,11.9
+Oksana CHUSOVITINA,UZB,FIG Apparatus World Cup 2023,qual,"Cairo, Egypt",VT,5.0,4.0,8.833,0.0,12.833
 Oksana CHUSOVITINA,UZB,FIG Apparatus World Cup 2023,final,"Cottbus, Germany",VT,3.0,4.4,8.566,0.1,12.866
 Oksana CHUSOVITINA,UZB,FIG Apparatus World Cup 2023,qual,"Cottbus, Germany",VT,3.0,4.0,8.7,0.0,12.7
+Oksana CHUSOVITINA,UZB,FIG Apparatus World Cup 2023,final,"Cairo, Egypt",VT,8.0,3.4,8.7,0.0,12.1
+Oksana CHUSOVITINA,UZB,FIG Apparatus World Cup 2023,qual,"Cairo, Egypt",VT,5.0,4.4,8.9,0.0,13.3
 Oksana CHUSOVITINA,UZB,FIG Apparatus World Cup 2023,final,"Cottbus, Germany",VT,3.0,4.4,8.766,0.0,13.166
 Oksana CHUSOVITINA,UZB,FIG Apparatus World Cup 2023,qual,"Cottbus, Germany",VT,3.0,4.4,8.633,0.0,13.033
-Oksana CHUSOVITINA,UZB,World Cup,qual,"Baku, Azerbaijan",BB,25.0,4.3,7.033,0.0,11.333
-Oksana CHUSOVITINA,UZB,World Cup,qual,"Cairo, Egypt",FX,22.0,4.0,7.3,0.0,11.3
-Oksana CHUSOVITINA,UZB,World Cup,qual,"Cairo, Egypt",UB,22.0,3.9,7.433,0.0,11.333
-Oksana CHUSOVITINA,UZB,World Cup,qual,"Doha, Qatar",UB,20.0,3.5,6.666,0.3,9.866
-Oksana CHUSOVITINA,UZB,World Cup,final,"Cairo, Egypt",VT,8.0,3.6,8.3,0.0,11.9
-Oksana CHUSOVITINA,UZB,World Cup,qual,"Cairo, Egypt",VT,5.0,4.0,8.833,0.0,12.833
-Oksana CHUSOVITINA,UZB,World Cup,final,"Cairo, Egypt",VT,8.0,3.4,8.7,0.0,12.1
-Oksana CHUSOVITINA,UZB,World Cup,qual,"Cairo, Egypt",VT,5.0,4.4,8.9,0.0,13.3
-Oksana CHUSOVITINA,UZB,World Cup,final,"Doha, Qatar",VT,3.0,4.0,8.7,0.0,12.7
-Oksana CHUSOVITINA,UZB,World Cup,qual,"Doha, Qatar",VT,4.0,4.0,8.633,0.0,12.633
-Oksana CHUSOVITINA,UZB,World Cup,final,"Doha, Qatar",VT,3.0,4.4,8.733,0.0,13.133
-Oksana CHUSOVITINA,UZB,World Cup,qual,"Doha, Qatar",VT,4.0,4.4,8.766,0.0,13.166
-Oksana CHUSOVITINA,UZB,World Cup,final,"Baku, Azerbaijan",VT,2.0,5.0,8.733,0.1,13.633
-Oksana CHUSOVITINA,UZB,World Cup,qual,"Baku, Azerbaijan",VT,2.0,4.0,8.833,0.0,12.833
-Oksana CHUSOVITINA,UZB,World Cup,final,"Baku, Azerbaijan",VT,2.0,4.4,8.833,0.0,13.233
-Oksana CHUSOVITINA,UZB,World Cup,qual,"Baku, Azerbaijan",VT,2.0,4.4,8.8,0.0,13.2
+Oksana CHUSOVITINA,UZB,FIG Apparatus World Cup 2023,final,"Baku, Azerbaijan",VT,2.0,5.0,8.733,0.1,13.633
+Oksana CHUSOVITINA,UZB,FIG Apparatus World Cup 2023,qual,"Baku, Azerbaijan",VT,2.0,4.0,8.833,0.0,12.833
+Oksana CHUSOVITINA,UZB,FIG Apparatus World Cup 2023,final,"Doha, Qatar",VT,3.0,4.0,8.7,0.0,12.7
+Oksana CHUSOVITINA,UZB,FIG Apparatus World Cup 2023,qual,"Doha, Qatar",VT,4.0,4.0,8.633,0.0,12.633
+Oksana CHUSOVITINA,UZB,FIG Apparatus World Cup 2023,final,"Baku, Azerbaijan",VT,2.0,4.4,8.833,0.0,13.233
+Oksana CHUSOVITINA,UZB,FIG Apparatus World Cup 2023,qual,"Baku, Azerbaijan",VT,2.0,4.4,8.8,0.0,13.2
+Oksana CHUSOVITINA,UZB,FIG Apparatus World Cup 2023,final,"Doha, Qatar",VT,3.0,4.4,8.733,0.0,13.133
+Oksana CHUSOVITINA,UZB,FIG Apparatus World Cup 2023,qual,"Doha, Qatar",VT,4.0,4.4,8.766,0.0,13.166
 Lou Anne CITHERLET,SUI,2023 Varna World Challenge Cup Results,qual,"Varna, Bulgaria",UB,13.0,4.1,7.366,0.0,11.466
 Lou Anne CITHERLET,SUI,2023 Varna World Challenge Cup Results,qual,"Varna, Bulgaria",VT,10.0,3.8,8.633,0.0,12.433
 Lou Anne CITHERLET,SUI,2023 Varna World Challenge Cup Results,qual,"Varna, Bulgaria",VT,10.0,3.4,8.5,0.0,11.9
@@ -454,11 +454,11 @@ Mafalda COSTA,POR,2023 Senior European Championships,qual,"Antalya, Turkey",BB,6
 Mafalda COSTA,POR,2023 Senior European Championships,qual,"Antalya, Turkey",FX,54.0,4.6,7.366,0.0,11.966
 Mafalda COSTA,POR,2023 Senior European Championships,qual,"Antalya, Turkey",UB,72.0,4.2,7.233,0.0,11.433
 Mafalda COSTA,POR,2023 Senior European Championships,qual,"Antalya, Turkey",VT,79.0,3.6,8.733,0.0,12.333
-Mafalda COSTA,POR,World Cup,qual,"Baku, Azerbaijan",BB,28.0,5.0,6.3,0.0,11.3
-Mafalda COSTA,POR,World Cup,qual,"Baku, Azerbaijan",FX,20.0,4.7,7.3,0.0,12.0
-Mafalda COSTA,POR,World Cup,qual,"Baku, Azerbaijan",UB,30.0,4.1,4.466,0.3,8.266
-Mafalda COSTA,POR,World Cup,qual,"Baku, Azerbaijan",VT,17.0,3.2,8.533,0.0,11.733
-Mafalda COSTA,POR,World Cup,qual,"Baku, Azerbaijan",VT,17.0,3.2,8.5,0.0,11.7
+Mafalda COSTA,POR,FIG Apparatus World Cup 2023,qual,"Baku, Azerbaijan",BB,28.0,5.0,6.3,0.0,11.3
+Mafalda COSTA,POR,FIG Apparatus World Cup 2023,qual,"Baku, Azerbaijan",FX,20.0,4.7,7.3,0.0,12.0
+Mafalda COSTA,POR,FIG Apparatus World Cup 2023,qual,"Baku, Azerbaijan",UB,30.0,4.1,4.466,0.3,8.266
+Mafalda COSTA,POR,FIG Apparatus World Cup 2023,qual,"Baku, Azerbaijan",VT,17.0,3.2,8.533,0.0,11.733
+Mafalda COSTA,POR,FIG Apparatus World Cup 2023,qual,"Baku, Azerbaijan",VT,17.0,3.2,8.5,0.0,11.7
 Lara CRNJAC,SLO,2023 FISU World University Games,qual,"Chengdu, China",UB,20.0,4.3,7.533,0.0,11.833
 Karen CUBILLOS,COL,2023 Central American and Caribbean Games,qual,"San Salvador, El Salvador",BB,17.0,4.0,7.05,0.0,11.05
 Karen CUBILLOS,COL,2023 Central American and Caribbean Games,qual,"San Salvador, El Salvador",UB,16.0,4.3,7.45,0.0,11.75
@@ -491,14 +491,14 @@ Alice D AMATO,ITA,2023 Senior European Championships,final,"Antalya, Turkey",UB,
 Alice D AMATO,ITA,2023 Senior European Championships,qual,"Antalya, Turkey",UB,1.0,6.2,8.3,0.0,14.5
 Alice D AMATO,ITA,2023 Senior European Championships,AAfinal,"Antalya, Turkey",VT,4.0,5.0,9.0,0.0,14.0
 Alice D AMATO,ITA,2023 Senior European Championships,qual,"Antalya, Turkey",VT,5.0,5.0,9.0,0.0,14.0
+Alice D AMATO,ITA,FIG Apparatus World Cup 2023,final,"Cairo, Egypt",FX,2.0,5.4,8.1,0.0,13.5
+Alice D AMATO,ITA,FIG Apparatus World Cup 2023,qual,"Cairo, Egypt",FX,2.0,5.4,8.166,0.0,13.566
 Alice D AMATO,ITA,FIG Apparatus World Cup 2023,final,"Cottbus, Germany",FX,4.0,5.2,8.133,0.2,13.133
 Alice D AMATO,ITA,FIG Apparatus World Cup 2023,qual,"Cottbus, Germany",FX,3.0,5.2,8.266,0.0,13.466
+Alice D AMATO,ITA,FIG Apparatus World Cup 2023,final,"Cairo, Egypt",UB,1.0,6.2,8.433,0.0,14.633
+Alice D AMATO,ITA,FIG Apparatus World Cup 2023,qual,"Cairo, Egypt",UB,1.0,6.2,8.266,0.0,14.466
 Alice D AMATO,ITA,FIG Apparatus World Cup 2023,final,"Cottbus, Germany",UB,1.0,6.2,8.3,0.0,14.5
 Alice D AMATO,ITA,FIG Apparatus World Cup 2023,qual,"Cottbus, Germany",UB,1.0,6.2,8.3,0.0,14.5
-Alice D AMATO,ITA,World Cup,final,"Cairo, Egypt",FX,2.0,5.4,8.1,0.0,13.5
-Alice D AMATO,ITA,World Cup,qual,"Cairo, Egypt",FX,2.0,5.4,8.166,0.0,13.566
-Alice D AMATO,ITA,World Cup,final,"Cairo, Egypt",UB,1.0,6.2,8.433,0.0,14.633
-Alice D AMATO,ITA,World Cup,qual,"Cairo, Egypt",UB,1.0,6.2,8.266,0.0,14.466
 Asia D AMATO,ITA,2022 Senior European Championships,qual,"Munich, Germany",BB,3.0,5.4,8.1,0.0,13.5
 Asia D AMATO,ITA,2022 Senior European Championships,TeamFinal,"Munich, Germany",BB,1.0,5.6,8.2,0.0,13.8
 Asia D AMATO,ITA,2022 Senior European Championships,qual,"Munich, Germany",FX,5.0,5.4,8.166,0.0,13.566
@@ -514,16 +514,16 @@ Asia D AMATO,ITA,2023 Senior European Championships,qual,"Antalya, Turkey",UB,7.
 Asia D AMATO,ITA,2023 Senior European Championships,qual,"Antalya, Turkey",VT,7.0,5.0,8.933,0.0,13.933
 Asia D AMATO,ITA,2023 Senior European Championships,final,"Antalya, Turkey",VT,2.0,4.8,8.7,0.3,13.2
 Asia D AMATO,ITA,2023 Senior European Championships,qual,"Antalya, Turkey",VT,3.0,4.2,8.7,0.0,12.9
-Asia D AMATO,ITA,World Cup,qual,"Cairo, Egypt",BB,1.0,5.5,7.933,0.0,13.433
-Asia D AMATO,ITA,World Cup,qual,"Cairo, Egypt",FX,15.0,4.9,7.233,0.3,11.833
-Asia D AMATO,ITA,World Cup,final,"Cairo, Egypt",VT,2.0,5.0,9.1,0.0,14.1
-Asia D AMATO,ITA,World Cup,qual,"Cairo, Egypt",VT,1.0,5.0,9.133,0.0,14.133
-Asia D AMATO,ITA,World Cup,final,"Cairo, Egypt",VT,2.0,4.2,8.9,0.0,13.1
-Asia D AMATO,ITA,World Cup,qual,"Cairo, Egypt",VT,1.0,4.8,9.1,0.0,13.9
-Farida DABOUR,EGY,World Cup,qual,"Cairo, Egypt",VT,20.0,3.6,8.5,0.0,12.1
-Farida DABOUR,EGY,World Cup,qual,"Cairo, Egypt",VT,20.0,3.4,8.533,0.0,11.933
-Margaux DANDOIS,BEL,World Cup,qual,"Cairo, Egypt",BB,20.0,4.6,6.433,0.0,11.033
-Margaux DANDOIS,BEL,World Cup,qual,"Cairo, Egypt",FX,12.0,5.0,7.066,0.0,12.066
+Asia D AMATO,ITA,FIG Apparatus World Cup 2023,qual,"Cairo, Egypt",BB,1.0,5.5,7.933,0.0,13.433
+Asia D AMATO,ITA,FIG Apparatus World Cup 2023,qual,"Cairo, Egypt",FX,15.0,4.9,7.233,0.3,11.833
+Asia D AMATO,ITA,FIG Apparatus World Cup 2023,final,"Cairo, Egypt",VT,2.0,5.0,9.1,0.0,14.1
+Asia D AMATO,ITA,FIG Apparatus World Cup 2023,qual,"Cairo, Egypt",VT,1.0,5.0,9.133,0.0,14.133
+Asia D AMATO,ITA,FIG Apparatus World Cup 2023,final,"Cairo, Egypt",VT,2.0,4.2,8.9,0.0,13.1
+Asia D AMATO,ITA,FIG Apparatus World Cup 2023,qual,"Cairo, Egypt",VT,1.0,4.8,9.1,0.0,13.9
+Farida DABOUR,EGY,FIG Apparatus World Cup 2023,qual,"Cairo, Egypt",VT,20.0,3.6,8.5,0.0,12.1
+Farida DABOUR,EGY,FIG Apparatus World Cup 2023,qual,"Cairo, Egypt",VT,20.0,3.4,8.533,0.0,11.933
+Margaux DANDOIS,BEL,FIG Apparatus World Cup 2023,qual,"Cairo, Egypt",BB,20.0,4.6,6.433,0.0,11.033
+Margaux DANDOIS,BEL,FIG Apparatus World Cup 2023,qual,"Cairo, Egypt",FX,12.0,5.0,7.066,0.0,12.066
 Grace DAVIES,GBR,2023 British Gymnastics Championships,final,"Liverpool, England",BB,5.0,5.1,7.55,0.0,12.65
 Grace DAVIES,GBR,2023 British Gymnastics Championships,qual,"Liverpool, England",BB,6.0,5.1,7.55,0.0,12.65
 Grace DAVIES,GBR,2023 British Gymnastics Championships,qual,"Liverpool, England",FX,11.0,5.1,7.05,0.1,12.05
@@ -544,11 +544,11 @@ Joana DE FREITAS,MON,2023 Senior European Championships,qual,"Antalya, Turkey",B
 Joana DE FREITAS,MON,2023 Senior European Championships,qual,"Antalya, Turkey",FX,83.0,4.1,7.3,0.0,11.4
 Joana DE FREITAS,MON,2023 Senior European Championships,qual,"Antalya, Turkey",UB,94.0,3.5,6.866,0.0,10.366
 Joana DE FREITAS,MON,2023 Senior European Championships,qual,"Antalya, Turkey",VT,71.0,4.2,8.566,0.1,12.666
+Joana DE FREITAS,MON,FIG Apparatus World Cup 2023,qual,"Baku, Azerbaijan",BB,44.0,3.8,6.2,0.0,10.0
 Joana DE FREITAS,MON,FIG Apparatus World Cup 2023,qual,"Cottbus, Germany",BB,36.0,4.4,6.533,0.0,10.933
+Joana DE FREITAS,MON,FIG Apparatus World Cup 2023,qual,"Baku, Azerbaijan",FX,33.0,4.1,6.666,0.0,10.766
 Joana DE FREITAS,MON,FIG Apparatus World Cup 2023,qual,"Cottbus, Germany",FX,26.0,4.1,6.833,0.0,10.933
-Joana DE FREITAS,MON,World Cup,qual,"Baku, Azerbaijan",BB,44.0,3.8,6.2,0.0,10.0
-Joana DE FREITAS,MON,World Cup,qual,"Baku, Azerbaijan",FX,33.0,4.1,6.666,0.0,10.766
-Joana DE FREITAS,MON,World Cup,qual,"Baku, Azerbaijan",VT,22.0,3.2,8.566,0.0,11.766
+Joana DE FREITAS,MON,FIG Apparatus World Cup 2023,qual,"Baku, Azerbaijan",VT,22.0,3.2,8.566,0.0,11.766
 Natalia DELGADO,PUR,2023 Central American and Caribbean Games,qual,"San Salvador, El Salvador",BB,13.0,4.5,6.9,0.0,11.4
 Natalia DELGADO,PUR,2023 Central American and Caribbean Games,qual,"San Salvador, El Salvador",FX,33.0,4.5,5.65,0.0,10.15
 Natalia DELGADO,PUR,2023 Central American and Caribbean Games,qual,"San Salvador, El Salvador",UB,29.0,2.9,6.85,0.0,9.75
@@ -563,16 +563,16 @@ Coline DEVILLARD,FRA,2023 Senior European Championships,qual,"Antalya, Turkey",B
 Coline DEVILLARD,FRA,2023 Senior European Championships,qual,"Antalya, Turkey",VT,1.0,5.4,8.966,0.0,14.366
 Coline DEVILLARD,FRA,2023 Senior European Championships,final,"Antalya, Turkey",VT,1.0,4.2,9.1,0.0,13.3
 Coline DEVILLARD,FRA,2023 Senior European Championships,qual,"Antalya, Turkey",VT,1.0,4.2,9.166,0.0,13.366
-Coline DEVILLARD,FRA,World Cup,final,"Doha, Qatar",BB,6.0,4.8,7.8,0.0,12.6
-Coline DEVILLARD,FRA,World Cup,qual,"Doha, Qatar",BB,8.0,5.0,7.9,0.0,12.9
-Coline DEVILLARD,FRA,World Cup,final,"Doha, Qatar",VT,1.0,5.4,9.0,0.0,14.4
-Coline DEVILLARD,FRA,World Cup,qual,"Doha, Qatar",VT,1.0,5.4,8.533,0.1,13.833
-Coline DEVILLARD,FRA,World Cup,final,"Doha, Qatar",VT,1.0,4.2,9.0,0.0,13.2
-Coline DEVILLARD,FRA,World Cup,qual,"Doha, Qatar",VT,1.0,4.2,8.766,0.0,12.966
-Coline DEVILLARD,FRA,World Cup,final,"Baku, Azerbaijan",VT,1.0,5.4,8.933,0.0,14.333
-Coline DEVILLARD,FRA,World Cup,qual,"Baku, Azerbaijan",VT,7.0,5.4,7.533,0.3,12.633
-Coline DEVILLARD,FRA,World Cup,final,"Baku, Azerbaijan",VT,1.0,4.2,8.833,0.0,13.033
-Coline DEVILLARD,FRA,World Cup,qual,"Baku, Azerbaijan",VT,7.0,4.2,8.4,0.0,12.6
+Coline DEVILLARD,FRA,FIG Apparatus World Cup 2023,final,"Doha, Qatar",BB,6.0,4.8,7.8,0.0,12.6
+Coline DEVILLARD,FRA,FIG Apparatus World Cup 2023,qual,"Doha, Qatar",BB,8.0,5.0,7.9,0.0,12.9
+Coline DEVILLARD,FRA,FIG Apparatus World Cup 2023,final,"Baku, Azerbaijan",VT,1.0,5.4,8.933,0.0,14.333
+Coline DEVILLARD,FRA,FIG Apparatus World Cup 2023,qual,"Baku, Azerbaijan",VT,7.0,5.4,7.533,0.3,12.633
+Coline DEVILLARD,FRA,FIG Apparatus World Cup 2023,final,"Doha, Qatar",VT,1.0,5.4,9.0,0.0,14.4
+Coline DEVILLARD,FRA,FIG Apparatus World Cup 2023,qual,"Doha, Qatar",VT,1.0,5.4,8.533,0.1,13.833
+Coline DEVILLARD,FRA,FIG Apparatus World Cup 2023,final,"Baku, Azerbaijan",VT,1.0,4.2,8.833,0.0,13.033
+Coline DEVILLARD,FRA,FIG Apparatus World Cup 2023,qual,"Baku, Azerbaijan",VT,7.0,4.2,8.4,0.0,12.6
+Coline DEVILLARD,FRA,FIG Apparatus World Cup 2023,final,"Doha, Qatar",VT,1.0,4.2,9.0,0.0,13.2
+Coline DEVILLARD,FRA,FIG Apparatus World Cup 2023,qual,"Doha, Qatar",VT,1.0,4.2,8.766,0.0,12.966
 Karelys DIAZ,PUR,2023 Central American and Caribbean Games,AAfinal,"San Salvador, El Salvador",BB,14.0,4.4,6.5,0.0,10.9
 Karelys DIAZ,PUR,2023 Central American and Caribbean Games,qual,"San Salvador, El Salvador",BB,21.0,4.5,6.1,0.0,10.6
 Karelys DIAZ,PUR,2023 Central American and Caribbean Games,AAfinal,"San Salvador, El Salvador",FX,7.0,4.5,7.6,0.0,12.1
@@ -614,12 +614,12 @@ Jessica DOWLING,CAN,2023 Varna World Challenge Cup Results,final,"Varna, Bulgari
 Jessica DOWLING,CAN,2023 Varna World Challenge Cup Results,qual,"Varna, Bulgaria",FX,7.0,4.9,7.4,0.2,12.1
 Jessica DOWLING,CAN,2023 Varna World Challenge Cup Results,final,"Varna, Bulgaria",UB,8.0,5.5,5.566,0.0,11.066
 Jessica DOWLING,CAN,2023 Varna World Challenge Cup Results,qual,"Varna, Bulgaria",UB,6.0,5.4,7.233,0.0,12.633
-Jessica DOWLING,CAN,World Cup,qual,"Cairo, Egypt",BB,22.0,4.5,6.433,0.1,10.833
-Jessica DOWLING,CAN,World Cup,qual,"Cairo, Egypt",FX,9.0,4.9,7.533,0.3,12.133
-Jessica DOWLING,CAN,World Cup,final,"Cairo, Egypt",UB,6.0,5.4,7.333,0.0,12.733
-Jessica DOWLING,CAN,World Cup,qual,"Cairo, Egypt",UB,6.0,5.4,7.366,0.0,12.766
-Jessica DOWLING,CAN,World Cup,qual,"Cairo, Egypt",VT,21.0,4.2,8.5,0.1,12.6
-Jessica DOWLING,CAN,World Cup,qual,"Cairo, Egypt",VT,21.0,3.4,7.7,0.1,11.0
+Jessica DOWLING,CAN,FIG Apparatus World Cup 2023,qual,"Cairo, Egypt",BB,22.0,4.5,6.433,0.1,10.833
+Jessica DOWLING,CAN,FIG Apparatus World Cup 2023,qual,"Cairo, Egypt",FX,9.0,4.9,7.533,0.3,12.133
+Jessica DOWLING,CAN,FIG Apparatus World Cup 2023,final,"Cairo, Egypt",UB,6.0,5.4,7.333,0.0,12.733
+Jessica DOWLING,CAN,FIG Apparatus World Cup 2023,qual,"Cairo, Egypt",UB,6.0,5.4,7.366,0.0,12.766
+Jessica DOWLING,CAN,FIG Apparatus World Cup 2023,qual,"Cairo, Egypt",VT,21.0,4.2,8.5,0.1,12.6
+Jessica DOWLING,CAN,FIG Apparatus World Cup 2023,qual,"Cairo, Egypt",VT,21.0,3.4,7.7,0.1,11.0
 Rebecca DOWNIE,GBR,2022 British Gymnastics Championships,qual,"Liverpool, England",BB,9.0,5.0,6.95,0.0,11.95
 Rebecca DOWNIE,GBR,2022 British Gymnastics Championships,qual,"Liverpool, England",FX,10.0,4.4,8.1,0.0,12.5
 Rebecca DOWNIE,GBR,2022 British Gymnastics Championships,qual,"Liverpool, England",UB,2.0,5.7,7.9,0.0,13.6
@@ -676,9 +676,9 @@ Martina EISENEGGER,SUI,2023 Senior European Championships,qual,"Antalya, Turkey"
 Martina EISENEGGER,SUI,2023 Senior European Championships,qual,"Antalya, Turkey",UB,65.0,5.0,6.666,0.0,11.666
 Darja ELBE,LAT,2022 Senior European Championships,qual,"Munich, Germany",BB,113.0,3.7,5.3,0.0,9.0
 Darja ELBE,LAT,2022 Senior European Championships,qual,"Munich, Germany",UB,113.0,1.8,6.4,0.0,8.2
-Alexandra EMEINIDOU,GRE,World Cup,qual,"Baku, Azerbaijan",FX,28.0,4.1,7.266,0.0,11.366
-Alexandra EMEINIDOU,GRE,World Cup,qual,"Baku, Azerbaijan",VT,19.0,3.6,7.666,0.1,11.166
-Alexandra EMEINIDOU,GRE,World Cup,qual,"Baku, Azerbaijan",VT,19.0,3.4,8.4,0.0,11.8
+Alexandra EMEINIDOU,GRE,FIG Apparatus World Cup 2023,qual,"Baku, Azerbaijan",FX,28.0,4.1,7.266,0.0,11.366
+Alexandra EMEINIDOU,GRE,FIG Apparatus World Cup 2023,qual,"Baku, Azerbaijan",VT,19.0,3.6,7.666,0.1,11.166
+Alexandra EMEINIDOU,GRE,FIG Apparatus World Cup 2023,qual,"Baku, Azerbaijan",VT,19.0,3.4,8.4,0.0,11.8
 Fien ENGHELS,BEL,2022 Senior European Championships,qual,"Munich, Germany",BB,19.0,4.7,8.0,0.0,12.7
 Fien ENGHELS,BEL,2022 Senior European Championships,qual,"Munich, Germany",UB,36.0,5.4,7.2,0.0,12.6
 Fien ENGHELS,BEL,2022 Senior European Championships,TeamFinal,"Munich, Germany",UB,22.0,5.5,7.133,0.0,12.633
@@ -691,13 +691,13 @@ Fien ENGHELS,BEL,EnBW DTB Pokal Team Challenge 2023,qual,"Stuttgart, Germany",UB
 Antea ERCEGOVIC,CRO,2023 Senior European Championships,qual,"Antalya, Turkey",FX,115.0,3.2,7.366,0.6,9.966
 Julie ERICHSEN,NOR,2023 Senior European Championships,qual,"Antalya, Turkey",UB,40.0,5.0,7.566,0.0,12.566
 Julie ERICHSEN,NOR,2023 Senior European Championships,qual,"Antalya, Turkey",VT,104.0,3.6,8.266,0.0,11.866
+Julie ERICHSEN,NOR,FIG Apparatus World Cup 2023,qual,"Cairo, Egypt",UB,16.0,5.0,6.766,0.0,11.766
 Julie ERICHSEN,NOR,FIG Apparatus World Cup 2023,final,"Cottbus, Germany",UB,6.0,5.0,7.566,0.0,12.566
 Julie ERICHSEN,NOR,FIG Apparatus World Cup 2023,qual,"Cottbus, Germany",UB,8.0,5.0,7.7,0.0,12.7
+Julie ERICHSEN,NOR,FIG Apparatus World Cup 2023,qual,"Cairo, Egypt",VT,13.0,4.2,8.766,0.0,12.966
 Julie ERICHSEN,NOR,FIG Apparatus World Cup 2023,qual,"Cottbus, Germany",VT,11.0,4.2,8.633,0.0,12.833
+Julie ERICHSEN,NOR,FIG Apparatus World Cup 2023,qual,"Cairo, Egypt",VT,13.0,3.4,8.7,0.0,12.1
 Julie ERICHSEN,NOR,FIG Apparatus World Cup 2023,qual,"Cottbus, Germany",VT,11.0,3.4,8.666,0.0,12.066
-Julie ERICHSEN,NOR,World Cup,qual,"Cairo, Egypt",UB,16.0,5.0,6.766,0.0,11.766
-Julie ERICHSEN,NOR,World Cup,qual,"Cairo, Egypt",VT,13.0,4.2,8.766,0.0,12.966
-Julie ERICHSEN,NOR,World Cup,qual,"Cairo, Egypt",VT,13.0,3.4,8.7,0.0,12.1
 Alva ERIKSSON,SWE,2022 Senior European Championships,qual,"Munich, Germany",BB,72.0,4.1,7.166,0.0,11.266
 Alva ERIKSSON,SWE,2022 Senior European Championships,qual,"Munich, Germany",FX,51.0,4.4,7.7,0.1,12.0
 Alva ERIKSSON,SWE,2022 Senior European Championships,qual,"Munich, Germany",UB,52.0,4.4,7.533,0.0,11.933
@@ -724,10 +724,10 @@ Ginna ESCOBAR,COL,2023 Central American and Caribbean Games,final,"San Salvador,
 Ginna ESCOBAR,COL,2023 Central American and Caribbean Games,qual,"San Salvador, El Salvador",UB,8.0,4.3,8.05,0.0,12.35
 Ginna ESCOBAR,COL,2023 Central American and Caribbean Games,AAfinal,"San Salvador, El Salvador",VT,7.0,4.2,8.55,0.0,12.75
 Ginna ESCOBAR,COL,2023 Central American and Caribbean Games,qual,"San Salvador, El Salvador",VT,12.0,4.2,8.6,0.0,12.8
-Ginna ESCOBAR,COL,World Cup,qual,"Baku, Azerbaijan",VT,14.0,4.2,8.566,0.0,12.766
-Ginna ESCOBAR,COL,World Cup,qual,"Baku, Azerbaijan",VT,14.0,4.0,7.433,0.1,11.333
-Ginna ESCOBAR BETANCUR,COL,World Cup,qual,"Baku, Azerbaijan",BB,43.0,4.4,5.933,0.1,10.233
-Ginna ESCOBAR BETANCUR,COL,World Cup,qual,"Baku, Azerbaijan",UB,20.0,4.4,7.066,0.0,11.466
+Ginna ESCOBAR,COL,FIG Apparatus World Cup 2023,qual,"Baku, Azerbaijan",VT,14.0,4.2,8.566,0.0,12.766
+Ginna ESCOBAR,COL,FIG Apparatus World Cup 2023,qual,"Baku, Azerbaijan",VT,14.0,4.0,7.433,0.1,11.333
+Ginna ESCOBAR BETANCUR,COL,FIG Apparatus World Cup 2023,qual,"Baku, Azerbaijan",BB,43.0,4.4,5.933,0.1,10.233
+Ginna ESCOBAR BETANCUR,COL,FIG Apparatus World Cup 2023,qual,"Baku, Azerbaijan",UB,20.0,4.4,7.066,0.0,11.466
 Manila ESPOSITO,ITA,2023 Senior European Championships,AAfinal,"Antalya, Turkey",BB,5.0,5.7,7.333,0.0,13.033
 Manila ESPOSITO,ITA,2023 Senior European Championships,final,"Antalya, Turkey",BB,2.0,5.7,8.0,0.0,13.7
 Manila ESPOSITO,ITA,2023 Senior European Championships,qual,"Antalya, Turkey",BB,8.0,5.6,7.233,0.0,12.833
@@ -824,8 +824,8 @@ Léa FRANCERIES,FRA,EnBW DTB Pokal Team Challenge 2023,final,"Stuttgart, Germany
 Léa FRANCERIES,FRA,EnBW DTB Pokal Team Challenge 2023,qual,"Stuttgart, Germany",BB,5.0,5.4,7.8,0.0,13.2
 Léa FRANCERIES,FRA,EnBW DTB Pokal Team Challenge 2023,qual,"Stuttgart, Germany",FX,3.0,5.2,7.8,0.0,13.0
 Léa FRANCERIES,FRA,EnBW DTB Pokal Team Challenge 2023,qual,"Stuttgart, Germany",VT,18.0,4.2,8.8,0.0,13.0
-Alice FRANCOY,BEL,World Cup,qual,"Cairo, Egypt",FX,25.0,4.5,6.9,0.3,11.1
-Alice FRANCOY,BEL,World Cup,qual,"Cairo, Egypt",UB,24.0,4.6,6.566,0.0,11.166
+Alice FRANCOY,BEL,FIG Apparatus World Cup 2023,qual,"Cairo, Egypt",FX,25.0,4.5,6.9,0.3,11.1
+Alice FRANCOY,BEL,FIG Apparatus World Cup 2023,qual,"Cairo, Egypt",UB,24.0,4.6,6.566,0.0,11.166
 Aline FRIESS,FRA,2022 Senior European Championships,qual,"Munich, Germany",BB,38.0,5.1,7.066,0.0,12.166
 Aline FRIESS,FRA,2022 Senior European Championships,qual,"Munich, Germany",FX,17.0,4.9,7.9,0.0,12.8
 Aline FRIESS,FRA,2022 Senior European Championships,qual,"Munich, Germany",UB,38.0,5.4,7.1,0.0,12.5
@@ -856,8 +856,8 @@ Bianca FRYSAK,AUT,2023 Senior European Championships,AAfinal,"Antalya, Turkey",V
 Bianca FRYSAK,AUT,2023 Senior European Championships,qual,"Antalya, Turkey",VT,63.0,4.2,8.566,0.0,12.766
 Kokoro FUKASAWA,JPN,2023 FISU World University Games,qual,"Chengdu, China",BB,6.0,5.2,7.7,0.0,12.9
 Kokoro FUKASAWA,JPN,2023 FISU World University Games,qual,"Chengdu, China",UB,13.0,5.3,7.066,0.0,12.366
-Kokoro FUKASAWA,JPN,World Cup,qual,"Doha, Qatar",BB,26.0,5.1,6.366,0.0,11.466
-Kokoro FUKASAWA,JPN,World Cup,qual,"Doha, Qatar",UB,12.0,5.8,5.7,0.0,11.5
+Kokoro FUKASAWA,JPN,FIG Apparatus World Cup 2023,qual,"Doha, Qatar",BB,26.0,5.1,6.366,0.0,11.466
+Kokoro FUKASAWA,JPN,FIG Apparatus World Cup 2023,qual,"Doha, Qatar",UB,12.0,5.8,5.7,0.0,11.5
 Petra FURAC,CRO,2022 Senior European Championships,qual,"Munich, Germany",BB,85.0,4.3,6.766,0.1,10.966
 Petra FURAC,CRO,2022 Senior European Championships,qual,"Munich, Germany",FX,104.0,3.4,7.033,0.0,10.433
 Petra FURAC,CRO,2022 Senior European Championships,qual,"Munich, Germany",UB,85.0,4.0,6.666,0.0,10.666
@@ -923,11 +923,11 @@ Samira GAHRAMANOVA,AZE,2023 Senior European Championships,qual,"Antalya, Turkey"
 Samira GAHRAMANOVA,AZE,2023 Senior European Championships,qual,"Antalya, Turkey",VT,109.0,3.4,8.366,0.0,11.766
 Samira GAHRAMANOVA,AZE,2023 Varna World Challenge Cup Results,qual,"Varna, Bulgaria",BB,22.0,4.5,6.2,0.0,10.7
 Samira GAHRAMANOVA,AZE,2023 Varna World Challenge Cup Results,qual,"Varna, Bulgaria",FX,17.0,4.4,6.766,0.1,11.066
+Samira GAHRAMANOVA,AZE,FIG Apparatus World Cup 2023,qual,"Baku, Azerbaijan",BB,32.0,4.4,6.7,0.0,11.1
+Samira GAHRAMANOVA,AZE,FIG Apparatus World Cup 2023,qual,"Cairo, Egypt",BB,26.0,4.5,5.833,0.0,10.333
 Samira GAHRAMANOVA,AZE,FIG Apparatus World Cup 2023,qual,"Cottbus, Germany",BB,32.0,4.7,6.466,0.0,11.166
-Samira GAHRAMANOVA,AZE,World Cup,qual,"Baku, Azerbaijan",BB,32.0,4.4,6.7,0.0,11.1
-Samira GAHRAMANOVA,AZE,World Cup,qual,"Cairo, Egypt",BB,26.0,4.5,5.833,0.0,10.333
-Samira GAHRAMANOVA,AZE,World Cup,qual,"Doha, Qatar",BB,32.0,4.3,6.6,0.0,10.9
-Samira GAHRAMANOVA,AZE,World Cup,qual,"Cairo, Egypt",FX,20.0,4.5,7.033,0.1,11.433
+Samira GAHRAMANOVA,AZE,FIG Apparatus World Cup 2023,qual,"Doha, Qatar",BB,32.0,4.3,6.6,0.0,10.9
+Samira GAHRAMANOVA,AZE,FIG Apparatus World Cup 2023,qual,"Cairo, Egypt",FX,20.0,4.5,7.033,0.1,11.433
 Ellie GARGETT,GBR,2022 British Gymnastics Championships,qual,"Liverpool, England",BB,44.0,3.3,6.85,0.0,10.15
 Ellie GARGETT,GBR,2022 British Gymnastics Championships,qual,"Liverpool, England",FX,60.0,3.1,6.95,0.0,10.05
 Ellie GARGETT,GBR,2022 British Gymnastics Championships,qual,"Liverpool, England",VT,49.0,3.2,8.65,0.0,11.85
@@ -967,8 +967,8 @@ Ani GOBADZE,GEO,2023 Senior European Championships,qual,"Antalya, Turkey",BB,116
 Ani GOBADZE,GEO,2023 Senior European Championships,qual,"Antalya, Turkey",FX,101.0,4.0,6.933,0.0,10.933
 Ani GOBADZE,GEO,2023 Senior European Championships,qual,"Antalya, Turkey",UB,110.0,3.2,6.266,0.0,9.466
 Ani GOBADZE,GEO,2023 Senior European Championships,qual,"Antalya, Turkey",VT,88.0,3.6,8.566,0.0,12.166
-Ani GOBADZE,GEO,World Cup,qual,"Baku, Azerbaijan",BB,37.0,4.2,6.466,0.1,10.566
-Ani GOBADZE,GEO,World Cup,qual,"Baku, Azerbaijan",FX,36.0,3.7,6.366,0.3,9.766
+Ani GOBADZE,GEO,FIG Apparatus World Cup 2023,qual,"Baku, Azerbaijan",BB,37.0,4.2,6.466,0.1,10.566
+Ani GOBADZE,GEO,FIG Apparatus World Cup 2023,qual,"Baku, Azerbaijan",FX,36.0,3.7,6.366,0.3,9.766
 Eilidh GORRELL,GBR,2022 British Gymnastics Championships,qual,"Liverpool, England",BB,39.0,4.3,6.1,0.0,10.4
 Eilidh GORRELL,GBR,2022 British Gymnastics Championships,qual,"Liverpool, England",FX,18.0,4.4,7.65,0.1,11.95
 Eilidh GORRELL,GBR,2022 British Gymnastics Championships,qual,"Liverpool, England",UB,28.0,4.5,6.5,0.0,11.0
@@ -996,9 +996,9 @@ Shanna Kae GRANT,GBR,2023 British Gymnastics Championships,final,"Liverpool, Eng
 Shanna Kae GRANT,GBR,2023 British Gymnastics Championships,qual,"Liverpool, England",FX,5.0,4.7,8.25,0.0,12.95
 Shanna Kae GRANT,GBR,2023 British Gymnastics Championships,qual,"Liverpool, England",UB,13.0,4.6,7.4,0.0,12.0
 Elina GRAVIN,SWE,2023 Senior European Championships,qual,"Antalya, Turkey",UB,80.0,3.7,7.433,0.0,11.133
-Elina GRAVIN,SWE,World Cup,qual,"Doha, Qatar",BB,13.0,4.7,7.733,0.1,12.333
-Elina GRAVIN,SWE,World Cup,final,"Doha, Qatar",FX,6.0,4.3,7.933,0.0,12.233
-Elina GRAVIN,SWE,World Cup,qual,"Doha, Qatar",FX,7.0,4.2,8.033,0.0,12.233
+Elina GRAVIN,SWE,FIG Apparatus World Cup 2023,qual,"Doha, Qatar",BB,13.0,4.7,7.733,0.1,12.333
+Elina GRAVIN,SWE,FIG Apparatus World Cup 2023,final,"Doha, Qatar",FX,6.0,4.3,7.933,0.0,12.233
+Elina GRAVIN,SWE,FIG Apparatus World Cup 2023,qual,"Doha, Qatar",FX,7.0,4.2,8.033,0.0,12.233
 Magdalena GRYGIEL,POL,2023 Senior European Championships,qual,"Antalya, Turkey",BB,102.0,4.1,5.3,0.0,9.4
 Magdalena GRYGIEL,POL,2023 Senior European Championships,qual,"Antalya, Turkey",FX,93.0,4.1,7.066,0.0,11.166
 Magdalena GRYGIEL,POL,2023 Senior European Championships,qual,"Antalya, Turkey",UB,85.0,4.1,6.9,0.0,11.0
@@ -1044,23 +1044,23 @@ Maddison HAJJAR,CAN,2023 Varna World Challenge Cup Results,qual,"Varna, Bulgaria
 Maddison HAJJAR,CAN,2023 Varna World Challenge Cup Results,qual,"Varna, Bulgaria",UB,11.0,4.7,7.066,0.0,11.766
 Maddison HAJJAR,CAN,EnBW DTB Pokal Team Challenge 2023,qual,"Stuttgart, Germany",BB,15.0,4.8,7.75,0.0,12.55
 Maddison HAJJAR,CAN,EnBW DTB Pokal Team Challenge 2023,qual,"Stuttgart, Germany",FX,18.0,4.7,7.55,0.0,12.25
-Sabina HALOVA,CZE,World Cup,qual,"Cairo, Egypt",BB,13.0,4.0,7.566,0.0,11.566
-Sabina HALOVA,CZE,World Cup,qual,"Cairo, Egypt",UB,27.0,4.2,6.733,0.0,10.933
-Sihem HAMIDI,ALG,World Cup,qual,"Cairo, Egypt",BB,35.0,3.7,5.833,0.0,9.533
-Sihem HAMIDI,ALG,World Cup,qual,"Cairo, Egypt",VT,17.0,3.8,8.533,0.0,12.333
-Sihem HAMIDI,ALG,World Cup,qual,"Cairo, Egypt",VT,17.0,3.4,8.466,0.0,11.866
+Sabina HALOVA,CZE,FIG Apparatus World Cup 2023,qual,"Cairo, Egypt",BB,13.0,4.0,7.566,0.0,11.566
+Sabina HALOVA,CZE,FIG Apparatus World Cup 2023,qual,"Cairo, Egypt",UB,27.0,4.2,6.733,0.0,10.933
+Sihem HAMIDI,ALG,FIG Apparatus World Cup 2023,qual,"Cairo, Egypt",BB,35.0,3.7,5.833,0.0,9.533
+Sihem HAMIDI,ALG,FIG Apparatus World Cup 2023,qual,"Cairo, Egypt",VT,17.0,3.8,8.533,0.0,12.333
+Sihem HAMIDI,ALG,FIG Apparatus World Cup 2023,qual,"Cairo, Egypt",VT,17.0,3.4,8.466,0.0,11.866
 Gudrun HARDARDOTTIR,ISL,2022 Senior European Championships,qual,"Munich, Germany",BB,67.0,4.4,6.933,0.0,11.333
 Gudrun HARDARDOTTIR,ISL,2022 Senior European Championships,qual,"Munich, Germany",UB,99.0,3.9,6.2,0.0,10.1
-Ameera HARIADI,INA,World Cup,qual,"Baku, Azerbaijan",BB,38.0,4.4,5.966,0.0,10.366
-Ameera HARIADI,INA,World Cup,qual,"Cairo, Egypt",BB,19.0,4.3,6.733,0.0,11.033
-Ameera HARIADI,INA,World Cup,qual,"Baku, Azerbaijan",FX,31.0,4.3,6.933,0.1,11.133
-Ameera HARIADI,INA,World Cup,qual,"Cairo, Egypt",FX,19.0,4.3,7.166,0.0,11.466
-Ameera HARIADI,INA,World Cup,qual,"Baku, Azerbaijan",UB,22.0,3.9,7.4,0.0,11.3
-Ameera HARIADI,INA,World Cup,qual,"Cairo, Egypt",UB,17.0,4.1,7.6,0.0,11.7
-Ameera HARIADI,INA,World Cup,qual,"Baku, Azerbaijan",VT,20.0,3.6,7.866,0.3,11.166
-Ameera HARIADI,INA,World Cup,qual,"Cairo, Egypt",VT,15.0,4.2,8.7,0.0,12.9
-Ameera HARIADI,INA,World Cup,qual,"Baku, Azerbaijan",VT,20.0,3.2,8.566,0.0,11.766
-Ameera HARIADI,INA,World Cup,qual,"Cairo, Egypt",VT,15.0,3.2,8.466,0.0,11.666
+Ameera HARIADI,INA,FIG Apparatus World Cup 2023,qual,"Baku, Azerbaijan",BB,38.0,4.4,5.966,0.0,10.366
+Ameera HARIADI,INA,FIG Apparatus World Cup 2023,qual,"Cairo, Egypt",BB,19.0,4.3,6.733,0.0,11.033
+Ameera HARIADI,INA,FIG Apparatus World Cup 2023,qual,"Baku, Azerbaijan",FX,31.0,4.3,6.933,0.1,11.133
+Ameera HARIADI,INA,FIG Apparatus World Cup 2023,qual,"Cairo, Egypt",FX,19.0,4.3,7.166,0.0,11.466
+Ameera HARIADI,INA,FIG Apparatus World Cup 2023,qual,"Baku, Azerbaijan",UB,22.0,3.9,7.4,0.0,11.3
+Ameera HARIADI,INA,FIG Apparatus World Cup 2023,qual,"Cairo, Egypt",UB,17.0,4.1,7.6,0.0,11.7
+Ameera HARIADI,INA,FIG Apparatus World Cup 2023,qual,"Baku, Azerbaijan",VT,20.0,3.6,7.866,0.3,11.166
+Ameera HARIADI,INA,FIG Apparatus World Cup 2023,qual,"Cairo, Egypt",VT,15.0,4.2,8.7,0.0,12.9
+Ameera HARIADI,INA,FIG Apparatus World Cup 2023,qual,"Baku, Azerbaijan",VT,20.0,3.2,8.566,0.0,11.766
+Ameera HARIADI,INA,FIG Apparatus World Cup 2023,qual,"Cairo, Egypt",VT,15.0,3.2,8.466,0.0,11.666
 Daria Angelina HARTMANN,SUI,2023 Varna World Challenge Cup Results,qual,"Varna, Bulgaria",BB,9.0,4.6,7.633,0.0,12.233
 Daria Angelina HARTMANN,SUI,2023 Varna World Challenge Cup Results,final,"Varna, Bulgaria",FX,8.0,4.6,7.5,0.1,12.0
 Daria Angelina HARTMANN,SUI,2023 Varna World Challenge Cup Results,qual,"Varna, Bulgaria",FX,6.0,4.5,7.6,0.0,12.1
@@ -1073,10 +1073,10 @@ Chiaki HATAKEDA,JPN,2023 FISU World University Games,qual,"Chengdu, China",BB,13
 Chiaki HATAKEDA,JPN,2023 FISU World University Games,qual,"Chengdu, China",FX,5.0,5.1,7.866,0.0,12.966
 Chiaki HATAKEDA,JPN,2023 FISU World University Games,qual,"Chengdu, China",UB,17.0,5.3,6.8,0.0,12.1
 Chiaki HATAKEDA,JPN,2023 FISU World University Games,qual,"Chengdu, China",VT,4.0,4.6,8.966,0.0,13.56
-Chiaki HATAKEDA,JPN,World Cup,final,"Doha, Qatar",BB,5.0,5.3,7.633,0.0,12.933
-Chiaki HATAKEDA,JPN,World Cup,qual,"Doha, Qatar",BB,4.0,5.3,7.666,0.0,12.966
-Chiaki HATAKEDA,JPN,World Cup,final,"Doha, Qatar",FX,2.0,5.1,7.8,0.0,12.9
-Chiaki HATAKEDA,JPN,World Cup,qual,"Doha, Qatar",FX,3.0,5.1,7.666,0.0,12.766
+Chiaki HATAKEDA,JPN,FIG Apparatus World Cup 2023,final,"Doha, Qatar",BB,5.0,5.3,7.633,0.0,12.933
+Chiaki HATAKEDA,JPN,FIG Apparatus World Cup 2023,qual,"Doha, Qatar",BB,4.0,5.3,7.666,0.0,12.966
+Chiaki HATAKEDA,JPN,FIG Apparatus World Cup 2023,final,"Doha, Qatar",FX,2.0,5.1,7.8,0.0,12.9
+Chiaki HATAKEDA,JPN,FIG Apparatus World Cup 2023,qual,"Doha, Qatar",FX,3.0,5.1,7.666,0.0,12.766
 Ada HAUTALA,FIN,2022 Senior European Championships,qual,"Munich, Germany",BB,102.0,4.8,4.9,0.0,9.7
 Ada HAUTALA,FIN,2022 Senior European Championships,qual,"Munich, Germany",FX,45.0,4.4,7.7,0.0,12.1
 Ada HAUTALA,FIN,2022 Senior European Championships,qual,"Munich, Germany",UB,34.0,4.9,7.733,0.0,12.633
@@ -1109,14 +1109,14 @@ Tommera HENDRICKS,GBR,2022 British Gymnastics Championships,qual,"Liverpool, Eng
 Tommera HENDRICKS,GBR,2023 British Gymnastics Championships,qual,"Liverpool, England",BB,32.0,4.6,6.0,0.0,10.6
 Tommera HENDRICKS,GBR,2023 British Gymnastics Championships,qual,"Liverpool, England",FX,13.0,4.3,7.65,0.2,11.75
 Tommera HENDRICKS,GBR,2023 British Gymnastics Championships,qual,"Liverpool, England",UB,40.0,4.3,5.1,0.0,9.4
-Hillary HERON,PAN,World Cup,qual,"Cairo, Egypt",BB,17.0,5.0,6.133,0.0,11.133
-Hillary HERON,PAN,World Cup,final,"Cairo, Egypt",FX,5.0,5.1,7.266,0.0,12.366
-Hillary HERON,PAN,World Cup,qual,"Cairo, Egypt",FX,6.0,5.1,7.2,0.0,12.3
-Hillary HERON,PAN,World Cup,qual,"Cairo, Egypt",UB,12.0,4.8,7.366,0.0,12.166
-Hillary HERON,PAN,World Cup,final,"Cairo, Egypt",VT,3.0,5.4,8.366,0.0,13.766
-Hillary HERON,PAN,World Cup,qual,"Cairo, Egypt",VT,4.0,5.4,8.233,0.3,13.333
-Hillary HERON,PAN,World Cup,final,"Cairo, Egypt",VT,3.0,5.0,8.433,0.0,13.433
-Hillary HERON,PAN,World Cup,qual,"Cairo, Egypt",VT,4.0,4.2,8.733,0.0,12.933
+Hillary HERON,PAN,FIG Apparatus World Cup 2023,qual,"Cairo, Egypt",BB,17.0,5.0,6.133,0.0,11.133
+Hillary HERON,PAN,FIG Apparatus World Cup 2023,final,"Cairo, Egypt",FX,5.0,5.1,7.266,0.0,12.366
+Hillary HERON,PAN,FIG Apparatus World Cup 2023,qual,"Cairo, Egypt",FX,6.0,5.1,7.2,0.0,12.3
+Hillary HERON,PAN,FIG Apparatus World Cup 2023,qual,"Cairo, Egypt",UB,12.0,4.8,7.366,0.0,12.166
+Hillary HERON,PAN,FIG Apparatus World Cup 2023,final,"Cairo, Egypt",VT,3.0,5.4,8.366,0.0,13.766
+Hillary HERON,PAN,FIG Apparatus World Cup 2023,qual,"Cairo, Egypt",VT,4.0,5.4,8.233,0.3,13.333
+Hillary HERON,PAN,FIG Apparatus World Cup 2023,final,"Cairo, Egypt",VT,3.0,5.0,8.433,0.0,13.433
+Hillary HERON,PAN,FIG Apparatus World Cup 2023,qual,"Cairo, Egypt",VT,4.0,4.2,8.733,0.0,12.933
 Hillary HERON SOTO,PAN,2023 Central American and Caribbean Games,AAfinal,"San Salvador, El Salvador",BB,9.0,4.5,6.85,0.0,11.35
 Hillary HERON SOTO,PAN,2023 Central American and Caribbean Games,qual,"San Salvador, El Salvador",BB,23.0,4.5,6.0,0.0,10.5
 Hillary HERON SOTO,PAN,2023 Central American and Caribbean Games,AAfinal,"San Salvador, El Salvador",FX,1.0,5.0,7.95,0.0,12.95
@@ -1128,11 +1128,11 @@ Hillary HERON SOTO,PAN,2023 Central American and Caribbean Games,AAfinal,"San Sa
 Hillary HERON SOTO,PAN,2023 Central American and Caribbean Games,qual,"San Salvador, El Salvador",VT,2.0,5.0,8.95,0.0,13.95
 Hillary HERON SOTO,PAN,2023 Central American and Caribbean Games,final,"San Salvador, El Salvador",VT,5.0,4.6,7.45,0.3,11.75
 Hillary HERON SOTO,PAN,2023 Central American and Caribbean Games,qual,"San Salvador, El Salvador",VT,5.0,4.2,8.55,0.1,12.65
-Lana HERRERA,PAN,World Cup,qual,"Cairo, Egypt",BB,37.0,4.0,4.7,0.0,8.7
-Lana HERRERA,PAN,World Cup,qual,"Cairo, Egypt",FX,16.0,4.6,7.233,0.0,11.833
-Lana HERRERA,PAN,World Cup,qual,"Cairo, Egypt",UB,15.0,4.9,7.0,0.0,11.9
-Lana HERRERA,PAN,World Cup,qual,"Cairo, Egypt",VT,12.0,4.2,8.633,0.0,12.833
-Lana HERRERA,PAN,World Cup,qual,"Cairo, Egypt",VT,12.0,3.8,8.466,0.0,12.266
+Lana HERRERA,PAN,FIG Apparatus World Cup 2023,qual,"Cairo, Egypt",BB,37.0,4.0,4.7,0.0,8.7
+Lana HERRERA,PAN,FIG Apparatus World Cup 2023,qual,"Cairo, Egypt",FX,16.0,4.6,7.233,0.0,11.833
+Lana HERRERA,PAN,FIG Apparatus World Cup 2023,qual,"Cairo, Egypt",UB,15.0,4.9,7.0,0.0,11.9
+Lana HERRERA,PAN,FIG Apparatus World Cup 2023,qual,"Cairo, Egypt",VT,12.0,4.2,8.633,0.0,12.833
+Lana HERRERA,PAN,FIG Apparatus World Cup 2023,qual,"Cairo, Egypt",VT,12.0,3.8,8.466,0.0,12.266
 Lana HERRERA RODRIGUEZ,PAN,2023 Central American and Caribbean Games,qual,"San Salvador, El Salvador",BB,27.0,4.6,5.5,0.0,10.1
 Lana HERRERA RODRIGUEZ,PAN,2023 Central American and Caribbean Games,final,"San Salvador, El Salvador",FX,4.0,4.6,8.05,0.0,12.65
 Lana HERRERA RODRIGUEZ,PAN,2023 Central American and Caribbean Games,qual,"San Salvador, El Salvador",FX,7.0,4.6,7.7,0.0,12.3
@@ -1153,12 +1153,12 @@ Halle HILTON,IRL,2023 Senior European Championships,qual,"Antalya, Turkey",BB,55
 Halle HILTON,IRL,2023 Senior European Championships,qual,"Antalya, Turkey",FX,62.0,4.6,7.266,0.0,11.866
 Halle HILTON,IRL,2023 Senior European Championships,qual,"Antalya, Turkey",UB,93.0,4.4,6.1,0.0,10.5
 Halle HILTON,IRL,2023 Senior European Championships,qual,"Antalya, Turkey",VT,60.0,4.2,8.6,0.0,12.8
-Halle HILTON,IRL,World Cup,qual,"Baku, Azerbaijan",BB,15.0,4.9,7.3,0.0,12.2
-Halle HILTON,IRL,World Cup,qual,"Doha, Qatar",BB,9.0,4.9,7.833,0.0,12.733
-Halle HILTON,IRL,World Cup,final,"Baku, Azerbaijan",FX,6.0,4.9,7.5,0.0,12.4
-Halle HILTON,IRL,World Cup,qual,"Baku, Azerbaijan",FX,4.0,4.8,7.766,0.0,12.566
-Halle HILTON,IRL,World Cup,qual,"Baku, Azerbaijan",UB,18.0,4.3,7.233,0.0,11.533
-Halle HILTON,IRL,World Cup,qual,"Doha, Qatar",UB,18.0,4.3,6.0,0.0,10.3
+Halle HILTON,IRL,FIG Apparatus World Cup 2023,qual,"Baku, Azerbaijan",BB,15.0,4.9,7.3,0.0,12.2
+Halle HILTON,IRL,FIG Apparatus World Cup 2023,qual,"Doha, Qatar",BB,9.0,4.9,7.833,0.0,12.733
+Halle HILTON,IRL,FIG Apparatus World Cup 2023,final,"Baku, Azerbaijan",FX,6.0,4.9,7.5,0.0,12.4
+Halle HILTON,IRL,FIG Apparatus World Cup 2023,qual,"Baku, Azerbaijan",FX,4.0,4.8,7.766,0.0,12.566
+Halle HILTON,IRL,FIG Apparatus World Cup 2023,qual,"Baku, Azerbaijan",UB,18.0,4.3,7.233,0.0,11.533
+Halle HILTON,IRL,FIG Apparatus World Cup 2023,qual,"Doha, Qatar",UB,18.0,4.3,6.0,0.0,10.3
 Aneta HOLASOVA,CZE,2022 Senior European Championships,qual,"Munich, Germany",BB,87.0,5.1,5.833,0.1,10.833
 Aneta HOLASOVA,CZE,2022 Senior European Championships,qual,"Munich, Germany",FX,30.0,4.9,7.666,0.0,12.566
 Aneta HOLASOVA,CZE,2022 Senior European Championships,qual,"Munich, Germany",UB,63.0,4.7,6.8,0.0,11.5
@@ -1171,15 +1171,15 @@ Lucija HRIBAR,SLO,2023 Senior European Championships,qual,"Antalya, Turkey",BB,3
 Lucija HRIBAR,SLO,2023 Senior European Championships,qual,"Antalya, Turkey",FX,104.0,4.4,6.666,0.3,10.766
 Lucija HRIBAR,SLO,2023 Senior European Championships,qual,"Antalya, Turkey",UB,27.0,4.8,8.033,0.0,12.833
 Lucija HRIBAR,SLO,2023 Senior European Championships,qual,"Antalya, Turkey",VT,27.0,4.2,8.966,0.0,13.166
+Lucija HRIBAR,SLO,FIG Apparatus World Cup 2023,qual,"Baku, Azerbaijan",BB,24.0,4.7,6.8,0.0,11.5
+Lucija HRIBAR,SLO,FIG Apparatus World Cup 2023,qual,"Cairo, Egypt",BB,14.0,4.7,6.866,0.0,11.566
 Lucija HRIBAR,SLO,FIG Apparatus World Cup 2023,qual,"Cottbus, Germany",BB,19.0,4.7,7.533,0.0,12.233
+Lucija HRIBAR,SLO,FIG Apparatus World Cup 2023,qual,"Baku, Azerbaijan",FX,15.0,4.7,7.5,0.1,12.1
 Lucija HRIBAR,SLO,FIG Apparatus World Cup 2023,qual,"Cottbus, Germany",FX,18.0,4.4,7.9,0.1,12.2
+Lucija HRIBAR,SLO,FIG Apparatus World Cup 2023,qual,"Baku, Azerbaijan",UB,14.0,4.7,7.066,0.0,11.766
+Lucija HRIBAR,SLO,FIG Apparatus World Cup 2023,qual,"Cairo, Egypt",UB,14.0,4.9,7.133,0.0,12.033
 Lucija HRIBAR,SLO,FIG Apparatus World Cup 2023,final,"Cottbus, Germany",UB,4.0,5.0,7.833,0.0,12.833
 Lucija HRIBAR,SLO,FIG Apparatus World Cup 2023,qual,"Cottbus, Germany",UB,5.0,5.0,8.033,0.0,13.033
-Lucija HRIBAR,SLO,World Cup,qual,"Baku, Azerbaijan",BB,24.0,4.7,6.8,0.0,11.5
-Lucija HRIBAR,SLO,World Cup,qual,"Cairo, Egypt",BB,14.0,4.7,6.866,0.0,11.566
-Lucija HRIBAR,SLO,World Cup,qual,"Baku, Azerbaijan",FX,15.0,4.7,7.5,0.1,12.1
-Lucija HRIBAR,SLO,World Cup,qual,"Baku, Azerbaijan",UB,14.0,4.7,7.066,0.0,11.766
-Lucija HRIBAR,SLO,World Cup,qual,"Cairo, Egypt",UB,14.0,4.9,7.133,0.0,12.033
 Yelyzaveta HUBAREVA,UKR,2022 Senior European Championships,qual,"Munich, Germany",BB,58.0,4.9,6.733,0.0,11.633
 Yelyzaveta HUBAREVA,UKR,2022 Senior European Championships,qual,"Munich, Germany",FX,74.0,4.3,7.366,0.1,11.566
 Yelyzaveta HUBAREVA,UKR,2022 Senior European Championships,qual,"Munich, Germany",UB,33.0,5.3,7.366,0.0,12.666
@@ -1187,38 +1187,38 @@ Yelyzaveta HUBAREVA,UKR,2022 Senior European Championships,qual,"Munich, Germany
 Yelyzaveta HUBAREVA,UKR,2023 Senior European Championships,qual,"Antalya, Turkey",BB,74.0,4.9,5.633,0.0,10.533
 Yelyzaveta HUBAREVA,UKR,2023 Senior European Championships,qual,"Antalya, Turkey",UB,20.0,5.4,7.766,0.0,13.166
 Yelyzaveta HUBAREVA,UKR,2023 Senior European Championships,qual,"Antalya, Turkey",VT,65.0,4.2,8.533,0.0,12.733
+Yelyzaveta HUBAREVA,UKR,FIG Apparatus World Cup 2023,final,"Baku, Azerbaijan",BB,6.0,5.1,7.5,0.0,12.6
+Yelyzaveta HUBAREVA,UKR,FIG Apparatus World Cup 2023,qual,"Baku, Azerbaijan",BB,6.0,5.1,7.733,0.0,12.833
+Yelyzaveta HUBAREVA,UKR,FIG Apparatus World Cup 2023,qual,"Cairo, Egypt",BB,15.0,5.1,6.3,0.0,11.4
 Yelyzaveta HUBAREVA,UKR,FIG Apparatus World Cup 2023,qual,"Cottbus, Germany",BB,29.0,4.9,6.4,0.0,11.3
+Yelyzaveta HUBAREVA,UKR,FIG Apparatus World Cup 2023,qual,"Doha, Qatar",BB,19.0,4.9,7.033,0.0,11.933
+Yelyzaveta HUBAREVA,UKR,FIG Apparatus World Cup 2023,qual,"Baku, Azerbaijan",UB,17.0,5.2,6.4,0.0,11.6
+Yelyzaveta HUBAREVA,UKR,FIG Apparatus World Cup 2023,final,"Cairo, Egypt",UB,4.0,5.4,7.733,0.0,13.133
+Yelyzaveta HUBAREVA,UKR,FIG Apparatus World Cup 2023,qual,"Cairo, Egypt",UB,3.0,5.4,7.833,0.0,13.233
 Yelyzaveta HUBAREVA,UKR,FIG Apparatus World Cup 2023,final,"Cottbus, Germany",UB,5.0,5.3,7.366,0.0,12.666
 Yelyzaveta HUBAREVA,UKR,FIG Apparatus World Cup 2023,qual,"Cottbus, Germany",UB,6.0,5.3,7.466,0.0,12.766
-Yelyzaveta HUBAREVA,UKR,World Cup,final,"Baku, Azerbaijan",BB,6.0,5.1,7.5,0.0,12.6
-Yelyzaveta HUBAREVA,UKR,World Cup,qual,"Baku, Azerbaijan",BB,6.0,5.1,7.733,0.0,12.833
-Yelyzaveta HUBAREVA,UKR,World Cup,qual,"Cairo, Egypt",BB,15.0,5.1,6.3,0.0,11.4
-Yelyzaveta HUBAREVA,UKR,World Cup,qual,"Doha, Qatar",BB,19.0,4.9,7.033,0.0,11.933
-Yelyzaveta HUBAREVA,UKR,World Cup,qual,"Baku, Azerbaijan",UB,17.0,5.2,6.4,0.0,11.6
-Yelyzaveta HUBAREVA,UKR,World Cup,final,"Cairo, Egypt",UB,4.0,5.4,7.733,0.0,13.133
-Yelyzaveta HUBAREVA,UKR,World Cup,qual,"Cairo, Egypt",UB,3.0,5.4,7.833,0.0,13.233
-Yelyzaveta HUBAREVA,UKR,World Cup,final,"Doha, Qatar",UB,4.0,5.3,7.7,0.0,13.0
-Yelyzaveta HUBAREVA,UKR,World Cup,qual,"Doha, Qatar",UB,5.0,5.3,7.6,0.0,12.9
+Yelyzaveta HUBAREVA,UKR,FIG Apparatus World Cup 2023,final,"Doha, Qatar",UB,4.0,5.3,7.7,0.0,13.0
+Yelyzaveta HUBAREVA,UKR,FIG Apparatus World Cup 2023,qual,"Doha, Qatar",UB,5.0,5.3,7.6,0.0,12.9
 Elisa Hämmerle,AUT,2023 Osijek Challenge Cup,final,"Osijek, Croatia.",BB,6.0,4.7,7.933,0.0,12.633
 Elisa Hämmerle,AUT,2023 Osijek Challenge Cup,qual,"Osijek, Croatia.",BB,8.0,4.7,7.766,0.1,12.366
 Elisa Hämmerle,AUT,2023 Osijek Challenge Cup,qual,"Osijek, Croatia.",FX,6.0,4.7,7.933,0.1,12.533
 Elisa Hämmerle,AUT,2023 Osijek Challenge Cup,final,"Osijek, Croatia.",FX,7.0,4.4,7.766,0.0,12.166
 Elisa IORIO,ITA,FIG Apparatus World Cup 2023,qual,"Cottbus, Germany",UB,3.0,6.2,7.566,0.0,13.766
-Rifda IRFANALUTHFI,INA,World Cup,qual,"Baku, Azerbaijan",BB,16.0,4.7,7.433,0.0,12.133
-Rifda IRFANALUTHFI,INA,World Cup,qual,"Cairo, Egypt",BB,12.0,4.8,6.9,0.0,11.7
-Rifda IRFANALUTHFI,INA,World Cup,qual,"Baku, Azerbaijan",FX,11.0,4.8,7.5,0.0,12.3
-Rifda IRFANALUTHFI,INA,World Cup,final,"Cairo, Egypt",FX,3.0,4.8,7.833,0.0,12.633
-Rifda IRFANALUTHFI,INA,World Cup,qual,"Cairo, Egypt",FX,4.0,4.8,7.7,0.0,12.5
-Rifda IRFANALUTHFI,INA,World Cup,qual,"Baku, Azerbaijan",UB,15.0,4.0,7.666,0.0,11.666
-Rifda IRFANALUTHFI,INA,World Cup,qual,"Cairo, Egypt",UB,11.0,4.3,7.9,0.0,12.2
-Rifda IRFANALUTHFI,INA,World Cup,final,"Baku, Azerbaijan",VT,5.0,4.2,8.833,0.0,13.033
-Rifda IRFANALUTHFI,INA,World Cup,qual,"Baku, Azerbaijan",VT,3.0,4.2,8.866,0.0,13.066
-Rifda IRFANALUTHFI,INA,World Cup,final,"Cairo, Egypt",VT,4.0,4.2,8.866,0.0,13.066
-Rifda IRFANALUTHFI,INA,World Cup,qual,"Cairo, Egypt",VT,6.0,4.2,8.8,0.0,13.0
-Rifda IRFANALUTHFI,INA,World Cup,final,"Baku, Azerbaijan",VT,5.0,3.8,8.766,0.0,12.566
-Rifda IRFANALUTHFI,INA,World Cup,qual,"Baku, Azerbaijan",VT,3.0,3.8,8.866,0.0,12.666
-Rifda IRFANALUTHFI,INA,World Cup,final,"Cairo, Egypt",VT,4.0,4.0,8.9,0.0,12.9
-Rifda IRFANALUTHFI,INA,World Cup,qual,"Cairo, Egypt",VT,6.0,4.0,8.633,0.0,12.633
+Rifda IRFANALUTHFI,INA,FIG Apparatus World Cup 2023,qual,"Baku, Azerbaijan",BB,16.0,4.7,7.433,0.0,12.133
+Rifda IRFANALUTHFI,INA,FIG Apparatus World Cup 2023,qual,"Cairo, Egypt",BB,12.0,4.8,6.9,0.0,11.7
+Rifda IRFANALUTHFI,INA,FIG Apparatus World Cup 2023,qual,"Baku, Azerbaijan",FX,11.0,4.8,7.5,0.0,12.3
+Rifda IRFANALUTHFI,INA,FIG Apparatus World Cup 2023,final,"Cairo, Egypt",FX,3.0,4.8,7.833,0.0,12.633
+Rifda IRFANALUTHFI,INA,FIG Apparatus World Cup 2023,qual,"Cairo, Egypt",FX,4.0,4.8,7.7,0.0,12.5
+Rifda IRFANALUTHFI,INA,FIG Apparatus World Cup 2023,qual,"Baku, Azerbaijan",UB,15.0,4.0,7.666,0.0,11.666
+Rifda IRFANALUTHFI,INA,FIG Apparatus World Cup 2023,qual,"Cairo, Egypt",UB,11.0,4.3,7.9,0.0,12.2
+Rifda IRFANALUTHFI,INA,FIG Apparatus World Cup 2023,final,"Baku, Azerbaijan",VT,5.0,4.2,8.833,0.0,13.033
+Rifda IRFANALUTHFI,INA,FIG Apparatus World Cup 2023,qual,"Baku, Azerbaijan",VT,3.0,4.2,8.866,0.0,13.066
+Rifda IRFANALUTHFI,INA,FIG Apparatus World Cup 2023,final,"Cairo, Egypt",VT,4.0,4.2,8.866,0.0,13.066
+Rifda IRFANALUTHFI,INA,FIG Apparatus World Cup 2023,qual,"Cairo, Egypt",VT,6.0,4.2,8.8,0.0,13.0
+Rifda IRFANALUTHFI,INA,FIG Apparatus World Cup 2023,final,"Baku, Azerbaijan",VT,5.0,3.8,8.766,0.0,12.566
+Rifda IRFANALUTHFI,INA,FIG Apparatus World Cup 2023,qual,"Baku, Azerbaijan",VT,3.0,3.8,8.866,0.0,12.666
+Rifda IRFANALUTHFI,INA,FIG Apparatus World Cup 2023,final,"Cairo, Egypt",VT,4.0,4.0,8.9,0.0,12.9
+Rifda IRFANALUTHFI,INA,FIG Apparatus World Cup 2023,qual,"Cairo, Egypt",VT,6.0,4.0,8.633,0.0,12.633
 Sara JACOBSEN,DEN,2023 Senior European Championships,qual,"Antalya, Turkey",BB,107.0,3.6,5.666,0.0,9.266
 Sara JACOBSEN,DEN,2023 Senior European Championships,qual,"Antalya, Turkey",FX,95.0,4.2,6.966,0.0,11.166
 Sara JACOBSEN,DEN,2023 Senior European Championships,qual,"Antalya, Turkey",UB,109.0,1.4,8.2,0.0,9.6
@@ -1246,22 +1246,22 @@ Gulnaz JUMABEKOVA,UZB,2023 Varna World Challenge Cup Results,final,"Varna, Bulga
 Gulnaz JUMABEKOVA,UZB,2023 Varna World Challenge Cup Results,qual,"Varna, Bulgaria",VT,4.0,4.2,8.733,0.0,12.933
 Gulnaz JUMABEKOVA,UZB,2023 Varna World Challenge Cup Results,final,"Varna, Bulgaria",VT,6.0,3.6,8.733,0.0,12.333
 Gulnaz JUMABEKOVA,UZB,2023 Varna World Challenge Cup Results,qual,"Varna, Bulgaria",VT,4.0,3.6,8.666,0.0,12.266
-Gulnaz JUMABEKOVA,UZB,World Cup,qual,"Baku, Azerbaijan",FX,25.0,4.6,6.966,0.0,11.566
-Gulnaz JUMABEKOVA,UZB,World Cup,qual,"Baku, Azerbaijan",VT,12.0,4.2,8.5,0.0,12.7
-Gulnaz JUMABEKOVA,UZB,World Cup,qual,"Baku, Azerbaijan",VT,12.0,3.6,8.5,0.1,12.0
+Gulnaz JUMABEKOVA,UZB,FIG Apparatus World Cup 2023,qual,"Baku, Azerbaijan",FX,25.0,4.6,6.966,0.0,11.566
+Gulnaz JUMABEKOVA,UZB,FIG Apparatus World Cup 2023,qual,"Baku, Azerbaijan",VT,12.0,4.2,8.5,0.0,12.7
+Gulnaz JUMABEKOVA,UZB,FIG Apparatus World Cup 2023,qual,"Baku, Azerbaijan",VT,12.0,3.6,8.5,0.1,12.0
 Katrina JUREVICA,LAT,2023 Senior European Championships,qual,"Antalya, Turkey",BB,80.0,4.6,5.666,0.0,10.266
 Katrina JUREVICA,LAT,2023 Senior European Championships,qual,"Antalya, Turkey",FX,102.0,4.2,6.7,0.0,10.9
 Katrina JUREVICA,LAT,2023 Senior European Championships,qual,"Antalya, Turkey",UB,107.0,1.9,7.8,0.0,9.7
 Katrina JUREVICA,LAT,2023 Senior European Championships,qual,"Antalya, Turkey",VT,69.0,4.2,8.5,0.0,12.7
 Katrina JUREVICA,LAT,2023 Senior European Championships,qual,"Antalya, Turkey",VT,16.0,3.6,7.566,0.0,11.166
+Katrina JUREVICA,LAT,FIG Apparatus World Cup 2023,qual,"Baku, Azerbaijan",BB,45.0,4.6,5.233,0.0,9.833
 Katrina JUREVICA,LAT,FIG Apparatus World Cup 2023,qual,"Cottbus, Germany",BB,31.0,4.6,6.566,0.0,11.166
+Katrina JUREVICA,LAT,FIG Apparatus World Cup 2023,qual,"Baku, Azerbaijan",FX,29.0,4.3,7.066,0.0,11.366
 Katrina JUREVICA,LAT,FIG Apparatus World Cup 2023,qual,"Cottbus, Germany",FX,24.0,4.5,6.7,0.1,11.1
+Katrina JUREVICA,LAT,FIG Apparatus World Cup 2023,qual,"Baku, Azerbaijan",VT,15.0,4.2,8.633,0.1,12.733
 Katrina JUREVICA,LAT,FIG Apparatus World Cup 2023,qual,"Cottbus, Germany",VT,10.0,4.2,8.5,0.0,12.7
+Katrina JUREVICA,LAT,FIG Apparatus World Cup 2023,qual,"Baku, Azerbaijan",VT,15.0,3.6,7.433,0.0,11.033
 Katrina JUREVICA,LAT,FIG Apparatus World Cup 2023,qual,"Cottbus, Germany",VT,10.0,3.6,8.666,0.0,12.266
-Katrina JUREVICA,LAT,World Cup,qual,"Baku, Azerbaijan",BB,45.0,4.6,5.233,0.0,9.833
-Katrina JUREVICA,LAT,World Cup,qual,"Baku, Azerbaijan",FX,29.0,4.3,7.066,0.0,11.366
-Katrina JUREVICA,LAT,World Cup,qual,"Baku, Azerbaijan",VT,15.0,4.2,8.633,0.1,12.733
-Katrina JUREVICA,LAT,World Cup,qual,"Baku, Azerbaijan",VT,15.0,3.6,7.433,0.0,11.033
 Julia KACZMAREK,GBR,2022 British Gymnastics Championships,qual,"Liverpool, England",BB,54.0,4.3,5.4,0.0,9.7
 Julia KACZMAREK,GBR,2022 British Gymnastics Championships,qual,"Liverpool, England",FX,25.0,4.2,7.55,0.0,11.75
 Julia KACZMAREK,GBR,2022 British Gymnastics Championships,qual,"Liverpool, England",UB,42.0,3.5,6.75,0.0,10.25
@@ -1281,9 +1281,9 @@ Mari KANTER,NOR,2023 Senior European Championships,qual,"Antalya, Turkey",BB,94.
 Mari KANTER,NOR,2023 Senior European Championships,qual,"Antalya, Turkey",FX,56.0,4.4,7.533,0.0,11.933
 Mari KANTER,NOR,2023 Senior European Championships,qual,"Antalya, Turkey",UB,66.0,4.1,7.533,0.0,11.633
 Mari KANTER,NOR,2023 Senior European Championships,qual,"Antalya, Turkey",VT,85.0,3.6,8.6,0.0,12.2
-Mari KANTER,NOR,World Cup,qual,"Baku, Azerbaijan",BB,18.0,4.7,7.366,0.0,12.066
-Mari KANTER,NOR,World Cup,qual,"Baku, Azerbaijan",FX,9.0,4.5,7.8,0.0,12.3
-Mari KANTER,NOR,World Cup,qual,"Baku, Azerbaijan",UB,25.0,4.1,6.933,0.0,11.033
+Mari KANTER,NOR,FIG Apparatus World Cup 2023,qual,"Baku, Azerbaijan",BB,18.0,4.7,7.366,0.0,12.066
+Mari KANTER,NOR,FIG Apparatus World Cup 2023,qual,"Baku, Azerbaijan",FX,9.0,4.5,7.8,0.0,12.3
+Mari KANTER,NOR,FIG Apparatus World Cup 2023,qual,"Baku, Azerbaijan",UB,25.0,4.1,6.933,0.0,11.033
 Yuliia KASIANENKO,UKR,2022 Senior European Championships,qual,"Munich, Germany",BB,31.0,5.5,6.866,0.0,12.366
 Yuliia KASIANENKO,UKR,2022 Senior European Championships,qual,"Munich, Germany",FX,50.0,5.1,7.133,0.2,12.033
 Yuliia KASIANENKO,UKR,2022 Senior European Championships,qual,"Munich, Germany",UB,56.0,4.9,6.866,0.0,11.766
@@ -1292,10 +1292,10 @@ Elvira KATSALI,GRE,2022 Senior European Championships,qual,"Munich, Germany",BB,
 Elvira KATSALI,GRE,2022 Senior European Championships,qual,"Munich, Germany",FX,52.0,4.4,7.6,0.0,12.0
 Elvira KATSALI,GRE,2022 Senior European Championships,qual,"Munich, Germany",UB,67.0,3.6,7.8,0.0,11.4
 Elvira KATSALI,GRE,2022 Senior European Championships,qual,"Munich, Germany",VT,94.0,3.2,8.566,0.0,11.766
-Elvira KATSALI,GRE,World Cup,qual,"Baku, Azerbaijan",BB,27.0,4.6,6.7,0.0,11.3
-Elvira KATSALI,GRE,World Cup,final,"Baku, Azerbaijan",FX,7.0,4.3,7.3,0.0,11.6
-Elvira KATSALI,GRE,World Cup,qual,"Baku, Azerbaijan",FX,8.0,4.7,7.7,0.0,12.4
-Elvira KATSALI,GRE,World Cup,qual,"Baku, Azerbaijan",UB,29.0,4.3,4.866,0.0,9.166
+Elvira KATSALI,GRE,FIG Apparatus World Cup 2023,qual,"Baku, Azerbaijan",BB,27.0,4.6,6.7,0.0,11.3
+Elvira KATSALI,GRE,FIG Apparatus World Cup 2023,final,"Baku, Azerbaijan",FX,7.0,4.3,7.3,0.0,11.6
+Elvira KATSALI,GRE,FIG Apparatus World Cup 2023,qual,"Baku, Azerbaijan",FX,8.0,4.7,7.7,0.0,12.4
+Elvira KATSALI,GRE,FIG Apparatus World Cup 2023,qual,"Baku, Azerbaijan",UB,29.0,4.3,4.866,0.0,9.166
 Sevgi KAYISOGLU,TUR,2022 Senior European Championships,qual,"Munich, Germany",BB,88.0,5.0,5.766,0.0,10.766
 Sevgi KAYISOGLU,TUR,2022 Senior European Championships,qual,"Munich, Germany",FX,61.0,4.5,7.3,0.0,11.8
 Sevgi KAYISOGLU,TUR,2022 Senior European Championships,qual,"Munich, Germany",UB,64.0,4.7,6.766,0.0,11.466
@@ -1308,10 +1308,10 @@ Sevgi KAYISOGLU,TUR,2023 Varna World Challenge Cup Results,final,"Varna, Bulgari
 Sevgi KAYISOGLU,TUR,2023 Varna World Challenge Cup Results,qual,"Varna, Bulgaria",BB,4.0,5.0,7.633,0.0,12.633
 Sevgi KAYISOGLU,TUR,2023 Varna World Challenge Cup Results,qual,"Varna, Bulgaria",FX,10.0,4.7,7.2,0.0,11.9
 Sevgi KAYISOGLU,TUR,2023 Varna World Challenge Cup Results,qual,"Varna, Bulgaria",UB,12.0,5.1,6.6,0.0,11.7
-Sevgi KAYISOGLU,TUR,World Cup,final,"Baku, Azerbaijan",FX,3.0,5.0,7.566,0.0,12.566
-Sevgi KAYISOGLU,TUR,World Cup,qual,"Baku, Azerbaijan",FX,6.0,4.9,7.6,0.0,12.5
-Sevgi KAYISOGLU,TUR,World Cup,final,"Baku, Azerbaijan",UB,7.0,5.3,7.666,0.0,12.966
-Sevgi KAYISOGLU,TUR,World Cup,qual,"Baku, Azerbaijan",UB,7.0,5.4,7.633,0.0,13.033
+Sevgi KAYISOGLU,TUR,FIG Apparatus World Cup 2023,final,"Baku, Azerbaijan",FX,3.0,5.0,7.566,0.0,12.566
+Sevgi KAYISOGLU,TUR,FIG Apparatus World Cup 2023,qual,"Baku, Azerbaijan",FX,6.0,4.9,7.6,0.0,12.5
+Sevgi KAYISOGLU,TUR,FIG Apparatus World Cup 2023,final,"Baku, Azerbaijan",UB,7.0,5.3,7.666,0.0,12.966
+Sevgi KAYISOGLU,TUR,FIG Apparatus World Cup 2023,qual,"Baku, Azerbaijan",UB,7.0,5.4,7.633,0.0,13.033
 Cara KENNEDY,GBR,2022 British Gymnastics Championships,qual,"Liverpool, England",BB,37.0,4.2,6.25,0.0,10.45
 Cara KENNEDY,GBR,2022 British Gymnastics Championships,qual,"Liverpool, England",FX,9.0,4.7,7.85,0.0,12.55
 Cara KENNEDY,GBR,2022 British Gymnastics Championships,qual,"Liverpool, England",UB,27.0,3.4,7.6,0.0,11.0
@@ -1319,12 +1319,12 @@ Cara KENNEDY,GBR,2022 British Gymnastics Championships,final,"Liverpool, England
 Cara KENNEDY,GBR,2022 British Gymnastics Championships,qual,"Liverpool, England",VT,8.0,4.2,8.95,0.0,13.15
 Cara KENNEDY,GBR,2022 British Gymnastics Championships,final,"Liverpool, England",VT,4.0,3.8,8.75,0.0,12.55
 Cara KENNEDY,GBR,2022 British Gymnastics Championships,qual,"Liverpool, England",VT,8.0,3.8,8.85,0.0,12.65
-Zarith Imaan KHALID,MAS,World Cup,qual,"Cairo, Egypt",BB,32.0,4.3,5.633,0.0,9.933
-Zarith Imaan KHALID,MAS,World Cup,qual,"Cairo, Egypt",UB,10.0,4.9,7.433,0.0,12.333
-Amina KHALIMARDEN,KAZ,World Cup,qual,"Baku, Azerbaijan",BB,46.0,4.4,5.066,0.0,9.466
-Amina KHALIMARDEN,KAZ,World Cup,qual,"Baku, Azerbaijan",UB,27.0,3.5,6.5,0.0,10.0
-Amina KHALIMARDEN,KAZ,World Cup,qual,"Baku, Azerbaijan",VT,13.0,3.6,8.6,0.0,12.2
-Amina KHALIMARDEN,KAZ,World Cup,qual,"Baku, Azerbaijan",VT,13.0,3.4,8.633,0.0,12.033
+Zarith Imaan KHALID,MAS,FIG Apparatus World Cup 2023,qual,"Cairo, Egypt",BB,32.0,4.3,5.633,0.0,9.933
+Zarith Imaan KHALID,MAS,FIG Apparatus World Cup 2023,qual,"Cairo, Egypt",UB,10.0,4.9,7.433,0.0,12.333
+Amina KHALIMARDEN,KAZ,FIG Apparatus World Cup 2023,qual,"Baku, Azerbaijan",BB,46.0,4.4,5.066,0.0,9.466
+Amina KHALIMARDEN,KAZ,FIG Apparatus World Cup 2023,qual,"Baku, Azerbaijan",UB,27.0,3.5,6.5,0.0,10.0
+Amina KHALIMARDEN,KAZ,FIG Apparatus World Cup 2023,qual,"Baku, Azerbaijan",VT,13.0,3.6,8.6,0.0,12.2
+Amina KHALIMARDEN,KAZ,FIG Apparatus World Cup 2023,qual,"Baku, Azerbaijan",VT,13.0,3.4,8.633,0.0,12.033
 Selina KICKINGER,AUT,2022 Senior European Championships,qual,"Munich, Germany",BB,34.0,4.4,7.933,0.1,12.233
 Selina KICKINGER,AUT,2022 Senior European Championships,qual,"Munich, Germany",FX,71.0,4.3,7.466,0.1,11.666
 Selina KICKINGER,AUT,2022 Senior European Championships,qual,"Munich, Germany",UB,35.0,4.9,7.7,0.0,12.6
@@ -1494,8 +1494,8 @@ Maisa KUUSIKKO,FIN,2023 Senior European Championships,AAfinal,"Antalya, Turkey",
 Maisa KUUSIKKO,FIN,2023 Senior European Championships,qual,"Antalya, Turkey",UB,51.0,5.4,6.9,0.0,12.3
 Maisa KUUSIKKO,FIN,2023 Senior European Championships,AAfinal,"Antalya, Turkey",VT,17.0,4.2,8.9,0.0,13.1
 Maisa KUUSIKKO,FIN,2023 Senior European Championships,qual,"Antalya, Turkey",VT,34.0,4.2,8.9,0.0,13.1
-Vasiliki KYRLIDOU,GRE,World Cup,qual,"Cairo, Egypt",BB,38.0,4.7,3.433,0.1,8.033
-Vasiliki KYRLIDOU,GRE,World Cup,qual,"Cairo, Egypt",FX,31.0,4.1,6.333,0.0,10.433
+Vasiliki KYRLIDOU,GRE,FIG Apparatus World Cup 2023,qual,"Cairo, Egypt",BB,38.0,4.7,3.433,0.1,8.033
+Vasiliki KYRLIDOU,GRE,FIG Apparatus World Cup 2023,qual,"Cairo, Egypt",FX,31.0,4.1,6.333,0.0,10.433
 Tjasa KYSSELEF,SLO,2022 Senior European Championships,qual,"Munich, Germany",VT,26.0,4.6,8.533,0.0,13.133
 Tjasa KYSSELEF,SLO,2022 Senior European Championships,qual,"Munich, Germany",VT,14.0,4.2,8.4,0.0,12.6
 Sara King,SLO,2023 Osijek Challenge Cup,qual,"Osijek, Croatia.",BB,21.0,4.1,6.933,0.0,11.033
@@ -1526,15 +1526,15 @@ Pin LAI,TPE,2023 FISU World University Games,qual,"Chengdu, China",UB,21.0,4.1,7
 Pin LAI,TPE,2023 FISU World University Games,qual,"Chengdu, China",VT,17.0,4.2,8.766,0.0,12.96
 Pin LAI,TPE,2023 FISU World University Games,final,"Chengdu, China",VT,7.0,3.4,8.633,0.0,12.033
 Pin LAI,TPE,2023 FISU World University Games,qual,"Chengdu, China",VT,9.0,3.4,8.766,0.0,12.166
+Pin Ju LAI,TPE,FIG Apparatus World Cup 2023,qual,"Baku, Azerbaijan",BB,14.0,4.7,7.5,0.0,12.2
+Pin Ju LAI,TPE,FIG Apparatus World Cup 2023,qual,"Cairo, Egypt",BB,21.0,4.9,5.966,0.0,10.866
 Pin Ju LAI,TPE,FIG Apparatus World Cup 2023,qual,"Cottbus, Germany",BB,40.0,4.8,6.033,0.5,10.333
-Pin Ju LAI,TPE,World Cup,qual,"Baku, Azerbaijan",BB,14.0,4.7,7.5,0.0,12.2
-Pin Ju LAI,TPE,World Cup,qual,"Cairo, Egypt",BB,21.0,4.9,5.966,0.0,10.866
-Pin Ju LAI,TPE,World Cup,qual,"Doha, Qatar",BB,21.0,4.9,6.866,0.0,11.766
-Pin Ju LAI,TPE,World Cup,qual,"Baku, Azerbaijan",FX,10.0,4.7,7.6,0.0,12.3
-Pin Ju LAI,TPE,World Cup,qual,"Cairo, Egypt",FX,17.0,4.5,7.266,0.1,11.666
-Pin Ju LAI,TPE,World Cup,qual,"Baku, Azerbaijan",UB,16.0,4.1,7.533,0.0,11.633
-Pin Ju LAI,TPE,World Cup,qual,"Cairo, Egypt",UB,23.0,4.1,7.2,0.0,11.3
-Pin Ju LAI,TPE,World Cup,qual,"Doha, Qatar",UB,11.0,4.1,7.533,0.0,11.633
+Pin Ju LAI,TPE,FIG Apparatus World Cup 2023,qual,"Doha, Qatar",BB,21.0,4.9,6.866,0.0,11.766
+Pin Ju LAI,TPE,FIG Apparatus World Cup 2023,qual,"Baku, Azerbaijan",FX,10.0,4.7,7.6,0.0,12.3
+Pin Ju LAI,TPE,FIG Apparatus World Cup 2023,qual,"Cairo, Egypt",FX,17.0,4.5,7.266,0.1,11.666
+Pin Ju LAI,TPE,FIG Apparatus World Cup 2023,qual,"Baku, Azerbaijan",UB,16.0,4.1,7.533,0.0,11.633
+Pin Ju LAI,TPE,FIG Apparatus World Cup 2023,qual,"Cairo, Egypt",UB,23.0,4.1,7.2,0.0,11.3
+Pin Ju LAI,TPE,FIG Apparatus World Cup 2023,qual,"Doha, Qatar",UB,11.0,4.1,7.533,0.0,11.633
 Isabelle LAMB,GBR,2022 British Gymnastics Championships,qual,"Liverpool, England",BB,27.0,3.9,7.25,0.0,11.15
 Isabelle LAMB,GBR,2022 British Gymnastics Championships,qual,"Liverpool, England",FX,38.0,4.0,7.4,0.0,11.4
 Isabelle LAMB,GBR,2022 British Gymnastics Championships,qual,"Liverpool, England",UB,40.0,2.8,7.5,0.0,10.3
@@ -1558,18 +1558,18 @@ Anna LASHCHEVSKA,UKR,2023 Senior European Championships,qual,"Antalya, Turkey",B
 Anna LASHCHEVSKA,UKR,2023 Senior European Championships,qual,"Antalya, Turkey",FX,48.0,4.9,7.166,0.0,12.066
 Anna LASHCHEVSKA,UKR,2023 Senior European Championships,qual,"Antalya, Turkey",UB,32.0,5.6,7.133,0.0,12.733
 Anna LASHCHEVSKA,UKR,2023 Senior European Championships,qual,"Antalya, Turkey",VT,65.0,4.2,8.533,0.0,12.733
+Anna LASHCHEVSKA,UKR,FIG Apparatus World Cup 2023,final,"Baku, Azerbaijan",BB,3.0,5.7,7.733,0.0,13.433
+Anna LASHCHEVSKA,UKR,FIG Apparatus World Cup 2023,qual,"Baku, Azerbaijan",BB,3.0,5.7,7.833,0.0,13.533
+Anna LASHCHEVSKA,UKR,FIG Apparatus World Cup 2023,qual,"Cairo, Egypt",BB,24.0,5.6,5.266,0.1,10.766
 Anna LASHCHEVSKA,UKR,FIG Apparatus World Cup 2023,qual,"Cottbus, Germany",BB,21.0,5.2,6.966,0.0,12.166
+Anna LASHCHEVSKA,UKR,FIG Apparatus World Cup 2023,final,"Doha, Qatar",BB,2.0,5.7,7.633,0.0,13.333
+Anna LASHCHEVSKA,UKR,FIG Apparatus World Cup 2023,qual,"Doha, Qatar",BB,2.0,5.7,7.6,0.0,13.3
+Anna LASHCHEVSKA,UKR,FIG Apparatus World Cup 2023,qual,"Cairo, Egypt",FX,24.0,4.9,6.366,0.0,11.266
+Anna LASHCHEVSKA,UKR,FIG Apparatus World Cup 2023,qual,"Baku, Azerbaijan",UB,11.0,5.4,6.833,0.0,12.233
+Anna LASHCHEVSKA,UKR,FIG Apparatus World Cup 2023,qual,"Cairo, Egypt",UB,18.0,5.3,6.4,0.0,11.7
 Anna LASHCHEVSKA,UKR,FIG Apparatus World Cup 2023,qual,"Cottbus, Germany",UB,10.0,5.7,6.866,0.0,12.566
-Anna LASHCHEVSKA,UKR,World Cup,final,"Baku, Azerbaijan",BB,3.0,5.7,7.733,0.0,13.433
-Anna LASHCHEVSKA,UKR,World Cup,qual,"Baku, Azerbaijan",BB,3.0,5.7,7.833,0.0,13.533
-Anna LASHCHEVSKA,UKR,World Cup,qual,"Cairo, Egypt",BB,24.0,5.6,5.266,0.1,10.766
-Anna LASHCHEVSKA,UKR,World Cup,final,"Doha, Qatar",BB,2.0,5.7,7.633,0.0,13.333
-Anna LASHCHEVSKA,UKR,World Cup,qual,"Doha, Qatar",BB,2.0,5.7,7.6,0.0,13.3
-Anna LASHCHEVSKA,UKR,World Cup,qual,"Cairo, Egypt",FX,24.0,4.9,6.366,0.0,11.266
-Anna LASHCHEVSKA,UKR,World Cup,qual,"Baku, Azerbaijan",UB,11.0,5.4,6.833,0.0,12.233
-Anna LASHCHEVSKA,UKR,World Cup,qual,"Cairo, Egypt",UB,18.0,5.3,6.4,0.0,11.7
-Anna LASHCHEVSKA,UKR,World Cup,final,"Doha, Qatar",UB,1.0,5.6,7.9,0.0,13.5
-Anna LASHCHEVSKA,UKR,World Cup,qual,"Doha, Qatar",UB,3.0,5.6,7.7,0.0,13.3
+Anna LASHCHEVSKA,UKR,FIG Apparatus World Cup 2023,final,"Doha, Qatar",UB,1.0,5.6,7.9,0.0,13.5
+Anna LASHCHEVSKA,UKR,FIG Apparatus World Cup 2023,qual,"Doha, Qatar",UB,3.0,5.6,7.7,0.0,13.3
 Michelle LAURITSEN,DEN,2022 Senior European Championships,qual,"Munich, Germany",UB,59.0,4.1,7.533,0.0,11.633
 Michelle LAURITSEN,DEN,2022 Senior European Championships,qual,"Munich, Germany",VT,100.0,3.2,8.433,0.0,11.633
 Alia LEAT,GBR,2022 British Gymnastics Championships,qual,"Liverpool, England",BB,21.0,5.4,6.0,0.0,11.4
@@ -1647,8 +1647,8 @@ Sara Sofia LOIKAS,FIN,2023 FISU World University Games,qual,"Chengdu, China",BB,
 Sara Sofia LOIKAS,FIN,2023 FISU World University Games,qual,"Chengdu, China",FX,33.0,3.9,7.3,0.0,11.2
 Sara Sofia LOIKAS,FIN,2023 FISU World University Games,qual,"Chengdu, China",UB,36.0,4.6,5.633,0.0,10.233
 Sara Sofia LOIKAS,FIN,2023 FISU World University Games,qual,"Chengdu, China",VT,36.0,3.4,8.533,0.0,11.93
-Louise LOPEZ,MEX,World Cup,qual,"Cairo, Egypt",BB,27.0,4.5,5.8,0.0,10.3
-Louise LOPEZ,MEX,World Cup,qual,"Cairo, Egypt",FX,21.0,4.2,7.2,0.0,11.4
+Louise LOPEZ,MEX,FIG Apparatus World Cup 2023,qual,"Cairo, Egypt",BB,27.0,4.5,5.8,0.0,10.3
+Louise LOPEZ,MEX,FIG Apparatus World Cup 2023,qual,"Cairo, Egypt",FX,21.0,4.2,7.2,0.0,11.4
 Noemie LOUON,BEL,2022 Senior European Championships,qual,"Munich, Germany",BB,13.0,4.8,8.133,0.0,12.933
 Noemie LOUON,BEL,2022 Senior European Championships,TeamFinal,"Munich, Germany",BB,10.0,4.8,8.033,0.0,12.833
 Noemie LOUON,BEL,2022 Senior European Championships,qual,"Munich, Germany",UB,24.0,4.9,8.033,0.0,12.933
@@ -1670,7 +1670,7 @@ Jasmin MADER,AUT,2022 Senior European Championships,qual,"Munich, Germany",BB,47
 Jasmin MADER,AUT,2022 Senior European Championships,qual,"Munich, Germany",FX,36.0,4.7,8.033,0.3,12.433
 Jasmin MADER,AUT,2022 Senior European Championships,qual,"Munich, Germany",UB,48.0,4.5,7.566,0.0,12.066
 Jasmin MADER,AUT,2022 Senior European Championships,qual,"Munich, Germany",VT,71.0,4.2,8.233,0.1,12.333
-Jasmin MADER,AUT,World Cup,qual,"Cairo, Egypt",UB,13.0,4.5,7.6,0.0,12.1
+Jasmin MADER,AUT,FIG Apparatus World Cup 2023,qual,"Cairo, Egypt",UB,13.0,4.5,7.6,0.0,12.1
 Julie MADSOE,NOR,2022 Senior European Championships,qual,"Munich, Germany",BB,60.0,5.1,6.466,0.0,11.566
 Julie MADSOE,NOR,2022 Senior European Championships,qual,"Munich, Germany",FX,93.0,4.6,6.533,0.0,11.133
 Julie MADSOE,NOR,2022 Senior European Championships,qual,"Munich, Germany",UB,83.0,4.3,6.5,0.0,10.8
@@ -1680,10 +1680,10 @@ Sani MAEKELAE,FIN,2022 Senior European Championships,qual,"Munich, Germany",FX,4
 Sani MAEKELAE,FIN,2022 Senior European Championships,qual,"Munich, Germany",UB,26.0,5.2,7.666,0.0,12.866
 Sani MAEKELAE,FIN,2022 Senior European Championships,qual,"Munich, Germany",VT,21.0,4.6,8.666,0.0,13.266
 Sani MAEKELAE,FIN,2022 Senior European Championships,qual,"Munich, Germany",VT,15.0,3.8,8.633,0.0,12.433
-Sani MAEKELAE,FIN,World Cup,qual,"Doha, Qatar",BB,28.0,4.3,6.866,0.1,11.066
-Sani MAEKELAE,FIN,World Cup,qual,"Doha, Qatar",UB,19.0,4.6,5.333,0.0,9.933
-Sani MAEKELAE,FIN,World Cup,qual,"Doha, Qatar",VT,11.0,4.6,8.033,0.1,12.533
-Sani MAEKELAE,FIN,World Cup,qual,"Doha, Qatar",VT,11.0,3.8,8.8,0.0,12.6
+Sani MAEKELAE,FIN,FIG Apparatus World Cup 2023,qual,"Doha, Qatar",BB,28.0,4.3,6.866,0.1,11.066
+Sani MAEKELAE,FIN,FIG Apparatus World Cup 2023,qual,"Doha, Qatar",UB,19.0,4.6,5.333,0.0,9.933
+Sani MAEKELAE,FIN,FIG Apparatus World Cup 2023,qual,"Doha, Qatar",VT,11.0,4.6,8.033,0.1,12.533
+Sani MAEKELAE,FIN,FIG Apparatus World Cup 2023,qual,"Doha, Qatar",VT,11.0,3.8,8.8,0.0,12.6
 Martina MAGGIO,ITA,2022 Senior European Championships,final,"Munich, Germany",BB,4.0,5.6,7.633,0.0,13.233
 Martina MAGGIO,ITA,2022 Senior European Championships,qual,"Munich, Germany",BB,6.0,5.6,7.8,0.0,13.4
 Martina MAGGIO,ITA,2022 Senior European Championships,TeamFinal,"Munich, Germany",BB,7.0,5.4,7.666,0.0,13.066
@@ -1695,28 +1695,28 @@ Martina MAGGIO,ITA,2022 Senior European Championships,qual,"Munich, Germany",VT,
 Martina MAGGIO,ITA,2022 Senior European Championships,TeamFinal,"Munich, Germany",VT,11.0,4.6,9.033,0.0,13.633
 Martina MAGGIO,ITA,FIG Apparatus World Cup 2023,final,"Cottbus, Germany",BB,5.0,5.0,8.066,0.0,13.066
 Martina MAGGIO,ITA,FIG Apparatus World Cup 2023,qual,"Cottbus, Germany",BB,5.0,5.0,8.033,0.0,13.033
-Jana MAHMOUD,EGY,World Cup,qual,"Baku, Azerbaijan",BB,23.0,4.3,7.2,0.0,11.5
-Jana MAHMOUD,EGY,World Cup,qual,"Doha, Qatar",BB,30.0,4.2,6.833,0.0,11.033
-Jana MAHMOUD,EGY,World Cup,qual,"Baku, Azerbaijan",UB,13.0,5.1,6.866,0.0,11.966
-Jana MAHMOUD,EGY,World Cup,final,"Doha, Qatar",UB,8.0,3.6,4.966,0.0,8.566
-Jana MAHMOUD,EGY,World Cup,qual,"Doha, Qatar",UB,7.0,5.1,7.366,0.0,12.466
+Jana MAHMOUD,EGY,FIG Apparatus World Cup 2023,qual,"Baku, Azerbaijan",BB,23.0,4.3,7.2,0.0,11.5
+Jana MAHMOUD,EGY,FIG Apparatus World Cup 2023,qual,"Doha, Qatar",BB,30.0,4.2,6.833,0.0,11.033
+Jana MAHMOUD,EGY,FIG Apparatus World Cup 2023,qual,"Baku, Azerbaijan",UB,13.0,5.1,6.866,0.0,11.966
+Jana MAHMOUD,EGY,FIG Apparatus World Cup 2023,final,"Doha, Qatar",UB,8.0,3.6,4.966,0.0,8.566
+Jana MAHMOUD,EGY,FIG Apparatus World Cup 2023,qual,"Doha, Qatar",UB,7.0,5.1,7.366,0.0,12.466
 Luisa MAIA,BRA,EnBW DTB Pokal Team Challenge 2023,qual,"Stuttgart, Germany",BB,32.0,5.0,6.7,0.0,11.7
 Luisa MAIA,BRA,EnBW DTB Pokal Team Challenge 2023,qual,"Stuttgart, Germany",FX,15.0,4.8,7.55,0.0,12.35
 Luisa MAIA,BRA,EnBW DTB Pokal Team Challenge 2023,qual,"Stuttgart, Germany",VT,18.0,4.2,8.9,0.1,13.0
 Lilla MAKAI,HUN,2023 Varna World Challenge Cup Results,qual,"Varna, Bulgaria",BB,12.0,4.6,7.566,0.0,12.166
 Lilla MAKAI,HUN,2023 Varna World Challenge Cup Results,qual,"Varna, Bulgaria",FX,14.0,4.4,7.133,0.0,11.533
 Lilla MAKAI,HUN,2023 Varna World Challenge Cup Results,qual,"Varna, Bulgaria",UB,9.0,5.2,6.933,0.0,12.133
-Patricie MAKOVICKOVA,CZE,World Cup,qual,"Doha, Qatar",BB,34.0,5.0,5.633,0.0,10.633
-Patricie MAKOVICKOVA,CZE,World Cup,qual,"Cairo, Egypt",FX,30.0,4.7,6.3,0.1,10.9
-Patricie MAKOVICKOVA,CZE,World Cup,qual,"Doha, Qatar",FX,18.0,4.3,6.7,0.3,10.7
-Patricie MAKOVICKOVA,CZE,World Cup,final,"Cairo, Egypt",VT,7.0,4.0,8.5,0.0,12.5
-Patricie MAKOVICKOVA,CZE,World Cup,qual,"Cairo, Egypt",VT,7.0,4.0,8.633,0.0,12.633
-Patricie MAKOVICKOVA,CZE,World Cup,final,"Cairo, Egypt",VT,7.0,4.0,8.733,0.0,11.733
-Patricie MAKOVICKOVA,CZE,World Cup,qual,"Cairo, Egypt",VT,7.0,4.0,8.6,0.0,12.6
-Patricie MAKOVICKOVA,CZE,World Cup,final,"Doha, Qatar",VT,4.0,3.8,8.933,0.0,12.733
-Patricie MAKOVICKOVA,CZE,World Cup,qual,"Doha, Qatar",VT,7.0,3.8,8.966,0.0,12.766
-Patricie MAKOVICKOVA,CZE,World Cup,final,"Doha, Qatar",VT,4.0,3.8,8.766,0.1,12.466
-Patricie MAKOVICKOVA,CZE,World Cup,qual,"Doha, Qatar",VT,7.0,3.8,8.7,0.0,12.5
+Patricie MAKOVICKOVA,CZE,FIG Apparatus World Cup 2023,qual,"Doha, Qatar",BB,34.0,5.0,5.633,0.0,10.633
+Patricie MAKOVICKOVA,CZE,FIG Apparatus World Cup 2023,qual,"Cairo, Egypt",FX,30.0,4.7,6.3,0.1,10.9
+Patricie MAKOVICKOVA,CZE,FIG Apparatus World Cup 2023,qual,"Doha, Qatar",FX,18.0,4.3,6.7,0.3,10.7
+Patricie MAKOVICKOVA,CZE,FIG Apparatus World Cup 2023,final,"Cairo, Egypt",VT,7.0,4.0,8.5,0.0,12.5
+Patricie MAKOVICKOVA,CZE,FIG Apparatus World Cup 2023,qual,"Cairo, Egypt",VT,7.0,4.0,8.633,0.0,12.633
+Patricie MAKOVICKOVA,CZE,FIG Apparatus World Cup 2023,final,"Cairo, Egypt",VT,7.0,4.0,8.733,0.0,11.733
+Patricie MAKOVICKOVA,CZE,FIG Apparatus World Cup 2023,qual,"Cairo, Egypt",VT,7.0,4.0,8.6,0.0,12.6
+Patricie MAKOVICKOVA,CZE,FIG Apparatus World Cup 2023,final,"Doha, Qatar",VT,4.0,3.8,8.933,0.0,12.733
+Patricie MAKOVICKOVA,CZE,FIG Apparatus World Cup 2023,qual,"Doha, Qatar",VT,7.0,3.8,8.966,0.0,12.766
+Patricie MAKOVICKOVA,CZE,FIG Apparatus World Cup 2023,final,"Doha, Qatar",VT,4.0,3.8,8.766,0.1,12.466
+Patricie MAKOVICKOVA,CZE,FIG Apparatus World Cup 2023,qual,"Doha, Qatar",VT,7.0,3.8,8.7,0.0,12.5
 Mirtill MAKOVITS,HUN,2022 Senior European Championships,qual,"Munich, Germany",BB,65.0,4.5,6.9,0.0,11.4
 Mirtill MAKOVITS,HUN,2022 Senior European Championships,TeamFinal,"Munich, Germany",BB,17.0,4.5,7.766,0.0,12.266
 Mirtill MAKOVITS,HUN,2022 Senior European Championships,qual,"Munich, Germany",FX,49.0,4.4,7.633,0.0,12.033
@@ -1738,25 +1738,25 @@ Emma Leonie MALEWSKI,GER,2022 Senior European Championships,qual,"Munich, German
 Emma Leonie MALEWSKI,GER,2023 Senior European Championships,qual,"Antalya, Turkey",BB,35.0,5.3,6.5,0.0,11.8
 Emma Leonie MALEWSKI,GER,2023 Senior European Championships,qual,"Antalya, Turkey",FX,27.0,4.7,7.833,0.0,12.533
 Emma Leonie MALEWSKI,GER,2023 Senior European Championships,qual,"Antalya, Turkey",UB,29.0,5.0,7.766,0.0,12.766
-Emma Leonie MALEWSKI,GER,World Cup,final,"Doha, Qatar",BB,3.0,5.5,7.733,0.0,13.233
-Emma Leonie MALEWSKI,GER,World Cup,qual,"Doha, Qatar",BB,1.0,5.5,8.233,0.0,13.733
-Emma Leonie MALEWSKI,GER,World Cup,qual,"Doha, Qatar",UB,9.0,4.8,7.466,0.0,12.266
+Emma Leonie MALEWSKI,GER,FIG Apparatus World Cup 2023,final,"Doha, Qatar",BB,3.0,5.5,7.733,0.0,13.233
+Emma Leonie MALEWSKI,GER,FIG Apparatus World Cup 2023,qual,"Doha, Qatar",BB,1.0,5.5,8.233,0.0,13.733
+Emma Leonie MALEWSKI,GER,FIG Apparatus World Cup 2023,qual,"Doha, Qatar",UB,9.0,4.8,7.466,0.0,12.266
 Sabrina MANECA VOINEA,ROU,2023 Senior European Championships,qual,"Antalya, Turkey",BB,79.0,5.1,5.3,0.1,10.3
 Sabrina MANECA VOINEA,ROU,2023 Senior European Championships,final,"Antalya, Turkey",FX,3.0,5.9,7.666,0.0,13.566
 Sabrina MANECA VOINEA,ROU,2023 Senior European Championships,qual,"Antalya, Turkey",FX,2.0,6.0,7.7,0.0,13.7
 Sabrina MANECA VOINEA,ROU,2023 Senior European Championships,qual,"Antalya, Turkey",UB,90.0,4.7,5.933,0.0,10.633
 Sabrina MANECA VOINEA,ROU,2023 Senior European Championships,qual,"Antalya, Turkey",VT,13.0,5.0,8.7,0.1,13.6
-Sabrina MANECA VOINEA,ROU,World Cup,final,"Doha, Qatar",BB,1.0,6.0,7.766,0.0,13.766
-Sabrina MANECA VOINEA,ROU,World Cup,qual,"Doha, Qatar",BB,5.0,5.6,7.366,0.0,12.966
-Sabrina MANECA VOINEA,ROU,World Cup,final,"Doha, Qatar",FX,1.0,5.7,7.9,0.0,13.6
-Sabrina MANECA VOINEA,ROU,World Cup,qual,"Doha, Qatar",FX,1.0,5.5,7.766,0.0,13.266
-Sabrina MANECA VOINEA,ROU,World Cup,qual,"Doha, Qatar",UB,14.0,5.3,5.633,0.0,10.933
+Sabrina MANECA VOINEA,ROU,FIG Apparatus World Cup 2023,final,"Doha, Qatar",BB,1.0,6.0,7.766,0.0,13.766
+Sabrina MANECA VOINEA,ROU,FIG Apparatus World Cup 2023,qual,"Doha, Qatar",BB,5.0,5.6,7.366,0.0,12.966
+Sabrina MANECA VOINEA,ROU,FIG Apparatus World Cup 2023,final,"Doha, Qatar",FX,1.0,5.7,7.9,0.0,13.6
+Sabrina MANECA VOINEA,ROU,FIG Apparatus World Cup 2023,qual,"Doha, Qatar",FX,1.0,5.5,7.766,0.0,13.266
+Sabrina MANECA VOINEA,ROU,FIG Apparatus World Cup 2023,qual,"Doha, Qatar",UB,14.0,5.3,5.633,0.0,10.933
 Sabrina MANECA VOINEA,ROU,2023 Senior European Championships,final,"Antalya, Turkey",VT,4.0,3.8,8.666,0.1,12.366
 Sabrina MANECA VOINEA,ROU,2023 Senior European Championships,qual,"Antalya, Turkey",VT,5.0,4.0,8.733,0.3,12.433
-Sabrina MANECA VOINEA,ROU,World Cup,final,"Doha, Qatar",VT,5.0,5.0,8.733,0.0,13.733
-Sabrina MANECA VOINEA,ROU,World Cup,qual,"Doha, Qatar",VT,3.0,5.0,8.766,0.0,13.766
-Sabrina MANECA VOINEA,ROU,World Cup,final,"Doha, Qatar",VT,5.0,3.8,7.7,0.3,11.2
-Sabrina MANECA VOINEA,ROU,World Cup,qual,"Doha, Qatar",VT,3.0,3.8,8.466,0.0,12.266
+Sabrina MANECA VOINEA,ROU,FIG Apparatus World Cup 2023,final,"Doha, Qatar",VT,5.0,5.0,8.733,0.0,13.733
+Sabrina MANECA VOINEA,ROU,FIG Apparatus World Cup 2023,qual,"Doha, Qatar",VT,3.0,5.0,8.766,0.0,13.766
+Sabrina MANECA VOINEA,ROU,FIG Apparatus World Cup 2023,final,"Doha, Qatar",VT,5.0,3.8,7.7,0.3,11.2
+Sabrina MANECA VOINEA,ROU,FIG Apparatus World Cup 2023,qual,"Doha, Qatar",VT,3.0,3.8,8.466,0.0,12.266
 Violet MANSER,GBR,2022 British Gymnastics Championships,qual,"Liverpool, England",BB,63.0,4.4,4.25,0.0,8.65
 Violet MANSER,GBR,2022 British Gymnastics Championships,qual,"Liverpool, England",FX,59.0,4.1,6.1,0.1,10.1
 Violet MANSER,GBR,2022 British Gymnastics Championships,qual,"Liverpool, England",VT,62.0,3.2,7.3,0.1,10.6
@@ -1776,18 +1776,18 @@ Madeleine MARSHALL,GBR,2022 British Gymnastics Championships,qual,"Liverpool, En
 Madeleine MARSHALL,GBR,2022 British Gymnastics Championships,qual,"Liverpool, England",FX,35.0,4.4,7.35,0.3,11.45
 Madeleine MARSHALL,GBR,2022 British Gymnastics Championships,qual,"Liverpool, England",UB,36.0,3.0,7.6,0.0,10.6
 Madeleine MARSHALL,GBR,2022 British Gymnastics Championships,qual,"Liverpool, England",VT,37.0,3.6,8.8,0.0,12.4
+Madeleine MARSHALL,NZL,FIG Apparatus World Cup 2023,qual,"Baku, Azerbaijan",BB,30.0,4.3,6.933,0.0,11.233
 Madeleine MARSHALL,NZL,FIG Apparatus World Cup 2023,qual,"Cottbus, Germany",BB,38.0,4.2,6.366,0.0,10.566
+Madeleine MARSHALL,NZL,FIG Apparatus World Cup 2023,qual,"Doha, Qatar",BB,24.0,4.3,7.333,0.0,11.633
+Madeleine MARSHALL,NZL,FIG Apparatus World Cup 2023,qual,"Baku, Azerbaijan",FX,17.0,4.6,7.433,0.0,12.033
 Madeleine MARSHALL,NZL,FIG Apparatus World Cup 2023,qual,"Cottbus, Germany",FX,31.0,4.1,5.733,0.1,9.733
+Madeleine MARSHALL,NZL,FIG Apparatus World Cup 2023,qual,"Doha, Qatar",FX,13.0,4.0,7.633,0.0,11.633
 Madeleine MARSHALL,NZL,FIG Apparatus World Cup 2023,qual,"Cottbus, Germany",VT,15.0,3.6,8.566,0.0,12.166
 Madeleine MARSHALL,NZL,FIG Apparatus World Cup 2023,qual,"Cottbus, Germany",VT,15.0,3.4,8.666,0.0,12.066
-Madeleine MARSHALL,NZL,World Cup,qual,"Baku, Azerbaijan",BB,30.0,4.3,6.933,0.0,11.233
-Madeleine MARSHALL,NZL,World Cup,qual,"Doha, Qatar",BB,24.0,4.3,7.333,0.0,11.633
-Madeleine MARSHALL,NZL,World Cup,qual,"Baku, Azerbaijan",FX,17.0,4.6,7.433,0.0,12.033
-Madeleine MARSHALL,NZL,World Cup,qual,"Doha, Qatar",FX,13.0,4.0,7.633,0.0,11.633
-Madeleine MARSHALL,NZL,World Cup,qual,"Doha, Qatar",VT,16.0,3.2,8.4,0.0,11.6
-Madeleine MARSHALL,NZL,World Cup,qual,"Doha, Qatar",VT,16.0,3.2,8.433,0.0,11.633
-Madeleine MARSHALL,NZL,World Cup,qual,"Baku, Azerbaijan",VT,18.0,3.2,8.433,0.0,11.633
-Madeleine MARSHALL,NZL,World Cup,qual,"Baku, Azerbaijan",VT,18.0,3.2,8.5,0.0,11.7
+Madeleine MARSHALL,NZL,FIG Apparatus World Cup 2023,qual,"Baku, Azerbaijan",VT,18.0,3.2,8.433,0.0,11.633
+Madeleine MARSHALL,NZL,FIG Apparatus World Cup 2023,qual,"Doha, Qatar",VT,16.0,3.2,8.4,0.0,11.6
+Madeleine MARSHALL,NZL,FIG Apparatus World Cup 2023,qual,"Baku, Azerbaijan",VT,18.0,3.2,8.5,0.0,11.7
+Madeleine MARSHALL,NZL,FIG Apparatus World Cup 2023,qual,"Doha, Qatar",VT,16.0,3.2,8.433,0.0,11.633
 Getsemary MARTINEZ,VEN,2023 Central American and Caribbean Games,qual,"San Salvador, El Salvador",BB,30.0,4.0,5.7,0.0,9.7
 Getsemary MARTINEZ,VEN,2023 Central American and Caribbean Games,qual,"San Salvador, El Salvador",FX,23.0,4.0,7.3,0.0,11.3
 Getsemary MARTINEZ,VEN,2023 Central American and Caribbean Games,qual,"San Salvador, El Salvador",UB,23.0,2.4,8.2,0.0,10.6
@@ -1798,12 +1798,12 @@ Filipa MARTINS,POR,2023 Senior European Championships,qual,"Antalya, Turkey",BB,
 Filipa MARTINS,POR,2023 Senior European Championships,qual,"Antalya, Turkey",FX,19.0,4.8,7.9,0.0,12.7
 Filipa MARTINS,POR,2023 Senior European Championships,qual,"Antalya, Turkey",UB,61.0,5.5,6.533,0.0,12.033
 Filipa MARTINS,POR,2023 Senior European Championships,qual,"Antalya, Turkey",VT,21.0,4.2,9.1,0.0,13.3
+Filipa MARTINS,POR,FIG Apparatus World Cup 2023,qual,"Baku, Azerbaijan",BB,21.0,4.8,6.833,0.0,11.633
 Filipa MARTINS,POR,FIG Apparatus World Cup 2023,final,"Cottbus, Germany",BB,3.0,5.0,8.133,0.0,13.133
 Filipa MARTINS,POR,FIG Apparatus World Cup 2023,qual,"Cottbus, Germany",BB,6.0,5.0,8.0,0.0,13.0
+Filipa MARTINS,POR,FIG Apparatus World Cup 2023,final,"Baku, Azerbaijan",UB,8.0,5.2,7.7,0.0,12.9
+Filipa MARTINS,POR,FIG Apparatus World Cup 2023,qual,"Baku, Azerbaijan",UB,8.0,5.3,7.633,0.0,12.933
 Filipa MARTINS,POR,FIG Apparatus World Cup 2023,qual,"Cottbus, Germany",UB,17.0,4.8,6.766,0.0,11.566
-Filipa MARTINS,POR,World Cup,qual,"Baku, Azerbaijan",BB,21.0,4.8,6.833,0.0,11.633
-Filipa MARTINS,POR,World Cup,final,"Baku, Azerbaijan",UB,8.0,5.2,7.7,0.0,12.9
-Filipa MARTINS,POR,World Cup,qual,"Baku, Azerbaijan",UB,8.0,5.3,7.633,0.0,12.933
 Laia MASFERRER,ESP,FIG Apparatus World Cup 2023,qual,"Cottbus, Germany",BB,12.0,5.3,7.466,0.1,12.666
 Laia MASFERRER,ESP,FIG Apparatus World Cup 2023,qual,"Cottbus, Germany",UB,18.0,4.6,6.7,0.0,11.3
 Nola MATTHEWS,USA,EnBW DTB Pokal Team Challenge 2023,qual,"Stuttgart, Germany",BB,4.0,5.2,8.0,0.0,13.2
@@ -1915,8 +1915,8 @@ Zoe MILLER,USA,EnBW DTB Pokal Team Challenge 2023,qual,"Stuttgart, Germany",UB,1
 Zoe MILLER,USA,EnBW DTB Pokal Team Challenge 2023,qual,"Stuttgart, Germany",VT,4.0,4.6,9.3,0.0,13.9
 Vasiliki MILLOUSI,GRE,2023 Senior European Championships,qual,"Antalya, Turkey",BB,31.0,5.1,6.8,0.0,11.9
 Vasiliki MILLOUSI,GRE,2023 Senior European Championships,qual,"Antalya, Turkey",UB,84.0,4.6,6.433,0.0,11.033
-Vasiliki MILLOUSI,GRE,World Cup,qual,"Cairo, Egypt",BB,18.0,4.8,6.4,0.1,11.1
-Vasiliki MILLOUSI,GRE,World Cup,qual,"Cairo, Egypt",UB,19.0,4.0,7.466,0.0,11.466
+Vasiliki MILLOUSI,GRE,FIG Apparatus World Cup 2023,qual,"Cairo, Egypt",BB,18.0,4.8,6.4,0.1,11.1
+Vasiliki MILLOUSI,GRE,FIG Apparatus World Cup 2023,qual,"Cairo, Egypt",UB,19.0,4.0,7.466,0.0,11.466
 Milana MINAKOVSKAYA,AZE,2022 Senior European Championships,qual,"Munich, Germany",BB,106.0,4.6,4.9,0.0,9.5
 Milana MINAKOVSKAYA,AZE,2022 Senior European Championships,qual,"Munich, Germany",FX,106.0,4.2,6.466,0.3,10.366
 Milana MINAKOVSKAYA,AZE,2022 Senior European Championships,qual,"Munich, Germany",UB,101.0,4.2,5.766,0.0,9.966
@@ -1946,12 +1946,12 @@ Charlize MOERZ,AUT,2023 Senior European Championships,qual,"Antalya, Turkey",BB,
 Charlize MOERZ,AUT,2023 Senior European Championships,qual,"Antalya, Turkey",FX,28.0,5.2,7.333,0.0,12.533
 Charlize MOERZ,AUT,2023 Senior European Championships,qual,"Antalya, Turkey",UB,58.0,4.1,8.066,0.0,12.166
 Charlize MOERZ,AUT,2023 Senior European Championships,qual,"Antalya, Turkey",VT,49.0,4.4,8.6,0.0,13.0
-Charlize MOERZ,AUT,World Cup,qual,"Cairo, Egypt",BB,23.0,4.6,6.233,0.0,10.833
-Charlize MOERZ,AUT,World Cup,final,"Cairo, Egypt",FX,6.0,5.1,7.233,0.0,12.333
-Charlize MOERZ,AUT,World Cup,qual,"Cairo, Egypt",FX,5.0,5.2,7.2,0.0,12.4
-Charlize MOERZ,AUT,World Cup,qual,"Cairo, Egypt",UB,25.0,4.1,7.033,0.0,11.133
-Charlize MOERZ,AUT,World Cup,qual,"Cairo, Egypt",VT,10.0,4.4,8.366,0.0,12.766
-Charlize MOERZ,AUT,World Cup,qual,"Cairo, Egypt",VT,10.0,3.8,8.566,0.0,12.366
+Charlize MOERZ,AUT,FIG Apparatus World Cup 2023,qual,"Cairo, Egypt",BB,23.0,4.6,6.233,0.0,10.833
+Charlize MOERZ,AUT,FIG Apparatus World Cup 2023,final,"Cairo, Egypt",FX,6.0,5.1,7.233,0.0,12.333
+Charlize MOERZ,AUT,FIG Apparatus World Cup 2023,qual,"Cairo, Egypt",FX,5.0,5.2,7.2,0.0,12.4
+Charlize MOERZ,AUT,FIG Apparatus World Cup 2023,qual,"Cairo, Egypt",UB,25.0,4.1,7.033,0.0,11.133
+Charlize MOERZ,AUT,FIG Apparatus World Cup 2023,qual,"Cairo, Egypt",VT,10.0,4.4,8.366,0.0,12.766
+Charlize MOERZ,AUT,FIG Apparatus World Cup 2023,qual,"Cairo, Egypt",VT,10.0,3.8,8.566,0.0,12.366
 Chiara MOISZI,GE2,EnBW DTB Pokal Team Challenge 2023,qual,"Stuttgart, Germany",BB,31.0,5.1,6.7,0.1,11.7
 Chiara MOISZI,GE2,EnBW DTB Pokal Team Challenge 2023,qual,"Stuttgart, Germany",FX,35.0,4.8,6.5,0.0,11.3
 Chiara MOISZI,GE2,EnBW DTB Pokal Team Challenge 2023,qual,"Stuttgart, Germany",UB,39.0,3.4,6.4,0.0,9.8
@@ -2030,8 +2030,8 @@ Mali MORGAN,GBR,2023 British Gymnastics Championships,qual,"Liverpool, England",
 Mali MORGAN,GBR,2023 British Gymnastics Championships,final,"Liverpool, England",FX,6.0,4.3,7.95,0.0,12.25
 Mali MORGAN,GBR,2023 British Gymnastics Championships,qual,"Liverpool, England",FX,6.0,4.7,8.2,0.0,12.9
 Mali MORGAN,GBR,2023 British Gymnastics Championships,qual,"Liverpool, England",UB,15.0,4.4,7.5,0.0,11.9
-Aoka MORI,JPN,World Cup,qual,"Baku, Azerbaijan",BB,12.0,5.1,7.533,0.0,12.633
-Aoka MORI,JPN,World Cup,qual,"Baku, Azerbaijan",UB,9.0,5.6,7.3,0.0,12.9
+Aoka MORI,JPN,FIG Apparatus World Cup 2023,qual,"Baku, Azerbaijan",BB,12.0,5.1,7.533,0.0,12.633
+Aoka MORI,JPN,FIG Apparatus World Cup 2023,qual,"Baku, Azerbaijan",UB,9.0,5.6,7.3,0.0,12.9
 Liliana MORING,GBR,2022 British Gymnastics Championships,qual,"Liverpool, England",BB,31.0,4.1,6.7,0.0,10.8
 Liliana MORING,GBR,2022 British Gymnastics Championships,qual,"Liverpool, England",FX,54.0,3.6,6.8,0.0,10.4
 Liliana MORING,GBR,2022 British Gymnastics Championships,qual,"Liverpool, England",VT,55.0,3.2,8.5,0.0,11.7
@@ -2111,13 +2111,13 @@ Annalise NEWMAN ACHEE,TTO,2023 Central American and Caribbean Games,final,"San S
 Annalise NEWMAN ACHEE,TTO,2023 Central American and Caribbean Games,qual,"San Salvador, El Salvador",UB,4.0,4.7,8.15,0.0,12.85
 Annalise NEWMAN ACHEE,TTO,2023 Central American and Caribbean Games,AAfinal,"San Salvador, El Salvador",VT,6.0,4.2,8.65,0.0,12.85
 Annalise NEWMAN ACHEE,TTO,2023 Central American and Caribbean Games,qual,"San Salvador, El Salvador",VT,7.0,4.2,8.9,0.0,13.1
+Viivi NIEMINEN,FIN,FIG Apparatus World Cup 2023,qual,"Cairo, Egypt",BB,39.0,4.0,4.033,0.1,7.933
+Viivi NIEMINEN,FIN,FIG Apparatus World Cup 2023,qual,"Cairo, Egypt",FX,29.0,4.0,7.3,0.3,11.0
+Viivi NIEMINEN,FIN,FIG Apparatus World Cup 2023,qual,"Cairo, Egypt",UB,30.0,2.8,7.6,0.0,10.4
+Viivi NIEMINEN,FIN,FIG Apparatus World Cup 2023,qual,"Cairo, Egypt",VT,14.0,4.4,8.133,0.3,12.233
 Viivi NIEMINEN,FIN,FIG Apparatus World Cup 2023,qual,"Cottbus, Germany",VT,13.0,4.4,7.3,0.0,11.7
+Viivi NIEMINEN,FIN,FIG Apparatus World Cup 2023,qual,"Cairo, Egypt",VT,14.0,3.8,8.8,0.0,12.6
 Viivi NIEMINEN,FIN,FIG Apparatus World Cup 2023,qual,"Cottbus, Germany",VT,13.0,3.8,8.9,0.0,12.7
-Viivi NIEMINEN,FIN,World Cup,qual,"Cairo, Egypt",BB,39.0,4.0,4.033,0.1,7.933
-Viivi NIEMINEN,FIN,World Cup,qual,"Cairo, Egypt",FX,29.0,4.0,7.3,0.3,11.0
-Viivi NIEMINEN,FIN,World Cup,qual,"Cairo, Egypt",UB,30.0,2.8,7.6,0.0,10.4
-Viivi NIEMINEN,FIN,World Cup,qual,"Cairo, Egypt",VT,14.0,4.4,8.133,0.3,12.233
-Viivi NIEMINEN,FIN,World Cup,qual,"Cairo, Egypt",VT,14.0,3.8,8.8,0.0,12.6
 Camille NORMANN,DEN,2022 Senior European Championships,qual,"Munich, Germany",BB,97.0,3.9,6.366,0.1,10.166
 Camille NORMANN,DEN,2022 Senior European Championships,qual,"Munich, Germany",FX,115.0,3.8,5.333,0.0,9.133
 Camille NORMANN,DEN,2022 Senior European Championships,qual,"Munich, Germany",UB,94.0,2.2,8.066,0.0,10.266
@@ -2219,16 +2219,16 @@ Faustina PASCUCCI OSIROFF,ARG,2023 FISU World University Games,qual,"Chengdu, Ch
 Faustina PASCUCCI OSIROFF,ARG,2023 FISU World University Games,qual,"Chengdu, China",UB,26.0,3.9,7.1,0.0,11.0
 Faustina PASCUCCI OSIROFF,ARG,2023 FISU World University Games,qual,"Chengdu, China",VT,42.0,3.2,8.5,0.1,11.6
 Faustina PASCUCCI OSIROFF,ARG,2023 FISU World University Games,qual,"Chengdu, China",VT,17.0,3.4,8.6,2.1,9.9
-Ruby PASS,AUS,World Cup,final,"Baku, Azerbaijan",BB,8.0,4.7,6.366,0.0,11.066
-Ruby PASS,AUS,World Cup,qual,"Baku, Azerbaijan",BB,4.0,5.5,7.6,0.0,13.1
-Ruby PASS,AUS,World Cup,qual,"Doha, Qatar",BB,17.0,5.6,6.633,0.0,12.233
-Ruby PASS,AUS,World Cup,final,"Baku, Azerbaijan",FX,4.0,5.0,7.766,0.3,12.466
-Ruby PASS,AUS,World Cup,qual,"Baku, Azerbaijan",FX,2.0,5.0,7.9,0.0,12.9
-Ruby PASS,AUS,World Cup,final,"Doha, Qatar",FX,5.0,5.0,7.433,0.0,12.433
-Ruby PASS,AUS,World Cup,qual,"Doha, Qatar",FX,6.0,4.8,7.466,0.0,12.266
-Ruby PASS,AUS,World Cup,final,"Baku, Azerbaijan",UB,5.0,5.8,7.833,0.0,13.633
-Ruby PASS,AUS,World Cup,qual,"Baku, Azerbaijan",UB,6.0,5.8,7.566,0.0,13.366
-Ruby PASS,AUS,World Cup,qual,"Doha, Qatar",UB,10.0,4.7,7.2,0.0,11.9
+Ruby PASS,AUS,FIG Apparatus World Cup 2023,final,"Baku, Azerbaijan",BB,8.0,4.7,6.366,0.0,11.066
+Ruby PASS,AUS,FIG Apparatus World Cup 2023,qual,"Baku, Azerbaijan",BB,4.0,5.5,7.6,0.0,13.1
+Ruby PASS,AUS,FIG Apparatus World Cup 2023,qual,"Doha, Qatar",BB,17.0,5.6,6.633,0.0,12.233
+Ruby PASS,AUS,FIG Apparatus World Cup 2023,final,"Baku, Azerbaijan",FX,4.0,5.0,7.766,0.3,12.466
+Ruby PASS,AUS,FIG Apparatus World Cup 2023,qual,"Baku, Azerbaijan",FX,2.0,5.0,7.9,0.0,12.9
+Ruby PASS,AUS,FIG Apparatus World Cup 2023,final,"Doha, Qatar",FX,5.0,5.0,7.433,0.0,12.433
+Ruby PASS,AUS,FIG Apparatus World Cup 2023,qual,"Doha, Qatar",FX,6.0,4.8,7.466,0.0,12.266
+Ruby PASS,AUS,FIG Apparatus World Cup 2023,final,"Baku, Azerbaijan",UB,5.0,5.8,7.833,0.0,13.633
+Ruby PASS,AUS,FIG Apparatus World Cup 2023,qual,"Baku, Azerbaijan",UB,6.0,5.8,7.566,0.0,13.366
+Ruby PASS,AUS,FIG Apparatus World Cup 2023,qual,"Doha, Qatar",UB,10.0,4.7,7.2,0.0,11.9
 Ellie PATRICK,GBR,2022 British Gymnastics Championships,qual,"Liverpool, England",BB,10.0,4.8,7.1,0.0,11.9
 Ellie PATRICK,GBR,2022 British Gymnastics Championships,qual,"Liverpool, England",FX,22.0,4.5,7.35,0.0,11.85
 Ellie PATRICK,GBR,2022 British Gymnastics Championships,qual,"Liverpool, England",UB,11.0,4.1,7.95,0.0,12.05
@@ -2297,9 +2297,9 @@ Klara PETERKOVA,CZE,2022 Senior European Championships,qual,"Munich, Germany",BB
 Klara PETERKOVA,CZE,2022 Senior European Championships,qual,"Munich, Germany",FX,46.0,4.5,7.6,0.0,12.1
 Klara PETERKOVA,CZE,2022 Senior European Championships,qual,"Munich, Germany",UB,68.0,4.1,7.233,0.0,11.333
 Klara PETERKOVA,CZE,2022 Senior European Championships,qual,"Munich, Germany",VT,81.0,3.6,8.6,0.0,12.2
-Klara PETERKOVA,CZE,World Cup,qual,"Baku, Azerbaijan",BB,29.0,5.2,6.166,0.1,11.266
-Klara PETERKOVA,CZE,World Cup,qual,"Baku, Azerbaijan",FX,32.0,4.8,6.233,0.1,10.933
-Klara PETERKOVA,CZE,World Cup,qual,"Baku, Azerbaijan",UB,26.0,4.3,6.2,0.0,10.5
+Klara PETERKOVA,CZE,FIG Apparatus World Cup 2023,qual,"Baku, Azerbaijan",BB,29.0,5.2,6.166,0.1,11.266
+Klara PETERKOVA,CZE,FIG Apparatus World Cup 2023,qual,"Baku, Azerbaijan",FX,32.0,4.8,6.233,0.1,10.933
+Klara PETERKOVA,CZE,FIG Apparatus World Cup 2023,qual,"Baku, Azerbaijan",UB,26.0,4.3,6.2,0.0,10.5
 Freja PETERSEN,DEN,2022 Senior European Championships,qual,"Munich, Germany",BB,64.0,4.4,7.1,0.0,11.5
 Freja PETERSEN,DEN,2022 Senior European Championships,qual,"Munich, Germany",FX,64.0,4.3,7.433,0.0,11.733
 Freja PETERSEN,DEN,2022 Senior European Championships,qual,"Munich, Germany",UB,81.0,3.9,6.933,0.0,10.833
@@ -2331,19 +2331,19 @@ Marija PETROVA,LAT,2023 Senior European Championships,qual,"Antalya, Turkey",VT,
 Amelie PFEIL,GE2,EnBW DTB Pokal Team Challenge 2023,qual,"Stuttgart, Germany",FX,37.0,3.9,7.1,0.0,11.0
 Amelie PFEIL,GE2,EnBW DTB Pokal Team Challenge 2023,qual,"Stuttgart, Germany",UB,29.0,4.4,7.65,0.0,12.05
 Amelie PFEIL,GE2,EnBW DTB Pokal Team Challenge 2023,qual,"Stuttgart, Germany",VT,33.0,3.8,8.65,0.0,12.45
-Nhu Phuong PHAM,VIE,World Cup,qual,"Cairo, Egypt",BB,33.0,4.2,5.433,0.0,9.633
-Viola PIERAZZINI,ITA,World Cup,final,"Baku, Azerbaijan",BB,5.0,5.5,7.133,0.0,12.633
-Viola PIERAZZINI,ITA,World Cup,qual,"Baku, Azerbaijan",BB,5.0,5.5,7.366,0.0,12.866
-Viola PIERAZZINI,ITA,World Cup,qual,"Baku, Azerbaijan",FX,27.0,4.8,6.666,0.0,11.466
-Marta PIHAN KULESZA,POL,World Cup,final,"Cairo, Egypt",BB,7.0,4.4,7.2,0.0,11.6
-Marta PIHAN KULESZA,POL,World Cup,qual,"Cairo, Egypt",BB,6.0,5.0,7.4,0.0,12.4
+Nhu Phuong PHAM,VIE,FIG Apparatus World Cup 2023,qual,"Cairo, Egypt",BB,33.0,4.2,5.433,0.0,9.633
+Viola PIERAZZINI,ITA,FIG Apparatus World Cup 2023,final,"Baku, Azerbaijan",BB,5.0,5.5,7.133,0.0,12.633
+Viola PIERAZZINI,ITA,FIG Apparatus World Cup 2023,qual,"Baku, Azerbaijan",BB,5.0,5.5,7.366,0.0,12.866
+Viola PIERAZZINI,ITA,FIG Apparatus World Cup 2023,qual,"Baku, Azerbaijan",FX,27.0,4.8,6.666,0.0,11.466
+Marta PIHAN KULESZA,POL,FIG Apparatus World Cup 2023,final,"Cairo, Egypt",BB,7.0,4.4,7.2,0.0,11.6
+Marta PIHAN KULESZA,POL,FIG Apparatus World Cup 2023,qual,"Cairo, Egypt",BB,6.0,5.0,7.4,0.0,12.4
 Erika PINXTEN,BEL,EnBW DTB Pokal Team Challenge 2023,qual,"Stuttgart, Germany",FX,26.0,4.5,7.45,0.1,11.85
 Erika PINXTEN,BEL,EnBW DTB Pokal Team Challenge 2023,qual,"Stuttgart, Germany",UB,40.0,3.5,4.4,0.0,7.9
 Erika PINXTEN,BEL,EnBW DTB Pokal Team Challenge 2023,qual,"Stuttgart, Germany",VT,36.0,3.2,8.55,0.0,11.75
-Erika PINXTEN,BEL,World Cup,final,"Cairo, Egypt",BB,3.0,5.4,7.633,0.0,13.033
-Erika PINXTEN,BEL,World Cup,qual,"Cairo, Egypt",BB,4.0,5.2,7.466,0.0,12.666
-Erika PINXTEN,BEL,World Cup,final,"Cairo, Egypt",UB,3.0,5.2,8.033,0.0,13.233
-Erika PINXTEN,BEL,World Cup,qual,"Cairo, Egypt",UB,5.0,5.2,7.733,0.0,12.933
+Erika PINXTEN,BEL,FIG Apparatus World Cup 2023,final,"Cairo, Egypt",BB,3.0,5.4,7.633,0.0,13.033
+Erika PINXTEN,BEL,FIG Apparatus World Cup 2023,qual,"Cairo, Egypt",BB,4.0,5.2,7.466,0.0,12.666
+Erika PINXTEN,BEL,FIG Apparatus World Cup 2023,final,"Cairo, Egypt",UB,3.0,5.2,8.033,0.0,13.233
+Erika PINXTEN,BEL,FIG Apparatus World Cup 2023,qual,"Cairo, Egypt",UB,5.0,5.2,7.733,0.0,12.933
 Angelissa PONCE,CUB,2023 Central American and Caribbean Games,qual,"San Salvador, El Salvador",BB,29.0,4.3,5.65,0.0,9.95
 Angelissa PONCE,CUB,2023 Central American and Caribbean Games,qual,"San Salvador, El Salvador",FX,14.0,4.6,7.6,0.3,11.9
 Angelissa PONCE,CUB,2023 Central American and Caribbean Games,qual,"San Salvador, El Salvador",VT,30.0,3.4,8.35,0.0,11.75
@@ -2363,9 +2363,9 @@ Dominika PONIZILOVA,CZE,2023 FISU World University Games,final,"Chengdu, China",
 Dominika PONIZILOVA,CZE,2023 FISU World University Games,qual,"Chengdu, China",VT,4.0,3.8,8.733,0.0,12.533
 Dominika PONIZILOVA,CZE,2023 Senior European Championships,qual,"Antalya, Turkey",UB,56.0,4.7,7.533,0.0,12.233
 Dominika PONIZILOVA,CZE,2023 Senior European Championships,qual,"Antalya, Turkey",VT,37.0,4.4,8.666,0.0,13.066
-Dominika PONIZILOVA,CZE,World Cup,qual,"Baku, Azerbaijan",FX,13.0,4.5,7.666,0.0,12.166
-Dominika PONIZILOVA,CZE,World Cup,qual,"Baku, Azerbaijan",VT,21.0,3.4,7.133,0.3,10.233
-Dominika PONIZILOVA,CZE,World Cup,qual,"Baku, Azerbaijan",VT,21.0,3.8,8.6,0.3,12.1
+Dominika PONIZILOVA,CZE,FIG Apparatus World Cup 2023,qual,"Baku, Azerbaijan",FX,13.0,4.5,7.666,0.0,12.166
+Dominika PONIZILOVA,CZE,FIG Apparatus World Cup 2023,qual,"Baku, Azerbaijan",VT,21.0,3.4,7.133,0.3,10.233
+Dominika PONIZILOVA,CZE,FIG Apparatus World Cup 2023,qual,"Baku, Azerbaijan",VT,21.0,3.8,8.6,0.3,12.1
 Kacey PRATLEY,GBR,2022 British Gymnastics Championships,qual,"Liverpool, England",BB,60.0,3.9,5.05,0.0,8.95
 Kacey PRATLEY,GBR,2022 British Gymnastics Championships,qual,"Liverpool, England",FX,29.0,4.3,7.35,0.0,11.65
 Kacey PRATLEY,GBR,2022 British Gymnastics Championships,qual,"Liverpool, England",UB,22.0,4.1,7.3,0.0,11.4
@@ -2396,13 +2396,13 @@ Alba Petisco,ESP,2023 Tel Aviv Challenge Cup,final,"Tel Aviv, Israel",VT,5.0,4.2
 Alba Petisco,ESP,2023 Tel Aviv Challenge Cup,qual,"Tel Aviv, Israel",VT,3.0,4.2,8.867,0.0,13.067
 Alba Petisco,ESP,2023 Tel Aviv Challenge Cup,qual,"Tel Aviv, Israel",VT,3.0,3.8,8.867,0.0,12.667
 Alba Petisco,ESP,2023 Tel Aviv Challenge Cup,final,"Tel Aviv, Israel",VT,5.0,3.8,8.4,0.0,12.2
-Qiyuan QIU,CHN,World Cup,qual,"Baku, Azerbaijan",BB,10.0,5.3,7.4,0.0,12.7
-Qiyuan QIU,CHN,World Cup,final,"Doha, Qatar",BB,7.0,5.4,6.833,0.0,12.233
-Qiyuan QIU,CHN,World Cup,qual,"Doha, Qatar",BB,3.0,5.5,7.766,0.0,13.266
-Qiyuan QIU,CHN,World Cup,final,"Baku, Azerbaijan",UB,1.0,6.2,8.5,0.0,14.7
-Qiyuan QIU,CHN,World Cup,qual,"Baku, Azerbaijan",UB,1.0,6.2,8.566,0.0,14.766
-Qiyuan QIU,CHN,World Cup,final,"Doha, Qatar",UB,6.0,6.1,5.533,0.0,11.633
-Qiyuan QIU,CHN,World Cup,qual,"Doha, Qatar",UB,1.0,6.4,8.366,0.0,14.766
+Qiyuan QIU,CHN,FIG Apparatus World Cup 2023,qual,"Baku, Azerbaijan",BB,10.0,5.3,7.4,0.0,12.7
+Qiyuan QIU,CHN,FIG Apparatus World Cup 2023,final,"Doha, Qatar",BB,7.0,5.4,6.833,0.0,12.233
+Qiyuan QIU,CHN,FIG Apparatus World Cup 2023,qual,"Doha, Qatar",BB,3.0,5.5,7.766,0.0,13.266
+Qiyuan QIU,CHN,FIG Apparatus World Cup 2023,final,"Baku, Azerbaijan",UB,1.0,6.2,8.5,0.0,14.7
+Qiyuan QIU,CHN,FIG Apparatus World Cup 2023,qual,"Baku, Azerbaijan",UB,1.0,6.2,8.566,0.0,14.766
+Qiyuan QIU,CHN,FIG Apparatus World Cup 2023,final,"Doha, Qatar",UB,6.0,6.1,5.533,0.0,11.633
+Qiyuan QIU,CHN,FIG Apparatus World Cup 2023,qual,"Doha, Qatar",UB,1.0,6.4,8.366,0.0,14.766
 Lea QUAAS,GE1,EnBW DTB Pokal Team Challenge 2023,qual,"Stuttgart, Germany",BB,28.0,5.3,6.7,0.0,12.0
 Lea QUAAS,GE1,EnBW DTB Pokal Team Challenge 2023,qual,"Stuttgart, Germany",FX,27.0,4.8,7.05,0.0,11.85
 Lea QUAAS,GE1,EnBW DTB Pokal Team Challenge 2023,qual,"Stuttgart, Germany",UB,24.0,4.2,8.1,0.0,12.3
@@ -2411,8 +2411,8 @@ Lea Marie QUAAS,GER,2023 Senior European Championships,qual,"Antalya, Turkey",BB
 Lea Marie QUAAS,GER,2023 Senior European Championships,qual,"Antalya, Turkey",FX,45.0,4.9,7.3,0.1,12.1
 Lea Marie QUAAS,GER,2023 Senior European Championships,qual,"Antalya, Turkey",UB,34.0,5.0,7.7,0.0,12.7
 Lea Marie QUAAS,GER,2023 Senior European Championships,qual,"Antalya, Turkey",VT,50.0,4.2,8.766,0.0,12.966
-Lea Marie QUAAS,GER,World Cup,qual,"Doha, Qatar",BB,27.0,5.2,6.2,0.0,11.4
-Lea Marie QUAAS,GER,World Cup,qual,"Doha, Qatar",FX,12.0,4.8,7.466,0.6,11.666
+Lea Marie QUAAS,GER,FIG Apparatus World Cup 2023,qual,"Doha, Qatar",BB,27.0,5.2,6.2,0.0,11.4
+Lea Marie QUAAS,GER,FIG Apparatus World Cup 2023,qual,"Doha, Qatar",FX,12.0,4.8,7.466,0.6,11.666
 Camille RASMUSSEN,DEN,2022 Senior European Championships,qual,"Munich, Germany",BB,62.0,4.4,7.133,0.0,11.533
 Camille RASMUSSEN,DEN,2022 Senior European Championships,qual,"Munich, Germany",FX,33.0,4.8,7.733,0.0,12.533
 Camille RASMUSSEN,DEN,2022 Senior European Championships,qual,"Munich, Germany",UB,51.0,4.2,7.766,0.0,11.966
@@ -2423,30 +2423,30 @@ Camille RASMUSSEN,DEN,2023 Senior European Championships,qual,"Antalya, Turkey",
 Camille RASMUSSEN,DEN,2023 Senior European Championships,qual,"Antalya, Turkey",FX,59.0,4.7,7.2,0.0,11.9
 Camille RASMUSSEN,DEN,2023 Senior European Championships,qual,"Antalya, Turkey",UB,69.0,4.2,7.333,0.0,11.533
 Camille RASMUSSEN,DEN,2023 Senior European Championships,qual,"Antalya, Turkey",VT,11.0,5.0,8.7,0.0,13.7
-Camille RASMUSSEN,DEN,World Cup,qual,"Cairo, Egypt",BB,16.0,4.5,6.866,0.0,11.366
-Camille RASMUSSEN,DEN,World Cup,qual,"Doha, Qatar",BB,16.0,4.5,7.766,0.0,12.266
-Camille RASMUSSEN,DEN,World Cup,final,"Cairo, Egypt",VT,5.0,5.0,8.866,0.0,13.866
-Camille RASMUSSEN,DEN,World Cup,qual,"Cairo, Egypt",VT,3.0,5.0,8.766,0.1,13.666
-Camille RASMUSSEN,DEN,World Cup,final,"Cairo, Egypt",VT,5.0,4.4,7.466,0.0,11.866
-Camille RASMUSSEN,DEN,World Cup,qual,"Cairo, Egypt",VT,3.0,4.4,8.7,0.0,13.1
+Camille RASMUSSEN,DEN,FIG Apparatus World Cup 2023,qual,"Cairo, Egypt",BB,16.0,4.5,6.866,0.0,11.366
+Camille RASMUSSEN,DEN,FIG Apparatus World Cup 2023,qual,"Doha, Qatar",BB,16.0,4.5,7.766,0.0,12.266
+Camille RASMUSSEN,DEN,FIG Apparatus World Cup 2023,final,"Cairo, Egypt",VT,5.0,5.0,8.866,0.0,13.866
+Camille RASMUSSEN,DEN,FIG Apparatus World Cup 2023,qual,"Cairo, Egypt",VT,3.0,5.0,8.766,0.1,13.666
+Camille RASMUSSEN,DEN,FIG Apparatus World Cup 2023,final,"Cairo, Egypt",VT,5.0,4.4,7.466,0.0,11.866
+Camille RASMUSSEN,DEN,FIG Apparatus World Cup 2023,qual,"Cairo, Egypt",VT,3.0,4.4,8.7,0.0,13.1
 Camille RASMUSSEN,DEN,2023 Senior European Championships,final,"Antalya, Turkey",VT,8.0,4.4,8.566,0.0,12.966
 Camille RASMUSSEN,DEN,2023 Senior European Championships,qual,"Antalya, Turkey",VT,4.0,4.4,8.633,0.0,13.033
-Camille RASMUSSEN,DEN,World Cup,final,"Doha, Qatar",VT,2.0,5.0,8.7,0.0,13.7
-Camille RASMUSSEN,DEN,World Cup,qual,"Doha, Qatar",VT,5.0,5.0,8.733,0.0,13.733
-Camille RASMUSSEN,DEN,World Cup,final,"Doha, Qatar",VT,2.0,4.4,8.566,0.0,12.966
-Camille RASMUSSEN,DEN,World Cup,qual,"Doha, Qatar",VT,5.0,3.4,8.6,0.0,12.0
+Camille RASMUSSEN,DEN,FIG Apparatus World Cup 2023,final,"Doha, Qatar",VT,2.0,5.0,8.7,0.0,13.7
+Camille RASMUSSEN,DEN,FIG Apparatus World Cup 2023,qual,"Doha, Qatar",VT,5.0,5.0,8.733,0.0,13.733
+Camille RASMUSSEN,DEN,FIG Apparatus World Cup 2023,final,"Doha, Qatar",VT,2.0,4.4,8.566,0.0,12.966
+Camille RASMUSSEN,DEN,FIG Apparatus World Cup 2023,qual,"Doha, Qatar",VT,5.0,3.4,8.6,0.0,12.0
 Valerija RATOBILSKA,LAT,2023 Senior European Championships,qual,"Antalya, Turkey",BB,69.0,4.9,5.966,0.0,10.866
 Valerija RATOBILSKA,LAT,2023 Senior European Championships,qual,"Antalya, Turkey",FX,57.0,4.6,7.333,0.0,11.933
 Valerija RATOBILSKA,LAT,2023 Senior European Championships,qual,"Antalya, Turkey",UB,99.0,3.6,6.633,0.0,10.233
 Valerija RATOBILSKA,LAT,2023 Senior European Championships,qual,"Antalya, Turkey",VT,85.0,3.6,8.6,0.0,12.2
+Valerija RATOBILSKA,LAT,FIG Apparatus World Cup 2023,qual,"Baku, Azerbaijan",BB,42.0,4.8,5.466,0.0,10.266
+Valerija RATOBILSKA,LAT,FIG Apparatus World Cup 2023,qual,"Cairo, Egypt",BB,36.0,4.8,4.666,0.1,9.366
 Valerija RATOBILSKA,LAT,FIG Apparatus World Cup 2023,qual,"Cottbus, Germany",BB,27.0,4.8,6.666,0.0,11.466
+Valerija RATOBILSKA,LAT,FIG Apparatus World Cup 2023,qual,"Baku, Azerbaijan",FX,24.0,4.4,7.233,0.0,11.633
+Valerija RATOBILSKA,LAT,FIG Apparatus World Cup 2023,qual,"Cairo, Egypt",FX,23.0,4.4,6.866,0.0,11.266
 Valerija RATOBILSKA,LAT,FIG Apparatus World Cup 2023,qual,"Cottbus, Germany",FX,22.0,4.2,7.333,0.0,11.533
-Valerija RATOBILSKA,LAT,World Cup,qual,"Baku, Azerbaijan",BB,42.0,4.8,5.466,0.0,10.266
-Valerija RATOBILSKA,LAT,World Cup,qual,"Cairo, Egypt",BB,36.0,4.8,4.666,0.1,9.366
-Valerija RATOBILSKA,LAT,World Cup,qual,"Baku, Azerbaijan",FX,24.0,4.4,7.233,0.0,11.633
-Valerija RATOBILSKA,LAT,World Cup,qual,"Cairo, Egypt",FX,23.0,4.4,6.866,0.0,11.266
-Valerija RATOBILSKA,LAT,World Cup,qual,"Cairo, Egypt",VT,22.0,3.6,8.6,0.1,12.2
-Valerija RATOBILSKA,LAT,World Cup,qual,"Cairo, Egypt",VT,22.0,3.6,7.6,0.0,11.2
+Valerija RATOBILSKA,LAT,FIG Apparatus World Cup 2023,qual,"Cairo, Egypt",VT,22.0,3.6,8.6,0.1,12.2
+Valerija RATOBILSKA,LAT,FIG Apparatus World Cup 2023,qual,"Cairo, Egypt",VT,22.0,3.6,7.6,0.0,11.2
 Paula RAYA I ARTIGAS,ESP,2022 Senior European Championships,qual,"Munich, Germany",UB,32.0,5.1,7.6,0.0,12.7
 Paula RAYA I ARTIGAS,ESP,2022 Senior European Championships,TeamFinal,"Munich, Germany",UB,23.0,5.0,7.466,0.0,12.466
 Lihie RAZ,ISR,2022 Senior European Championships,qual,"Munich, Germany",BB,55.0,5.0,6.733,0.0,11.733
@@ -2459,13 +2459,13 @@ Lihie RAZ,ISR,2023 Senior European Championships,qual,"Antalya, Turkey",BB,98.0,
 Lihie RAZ,ISR,2023 Senior European Championships,qual,"Antalya, Turkey",FX,46.0,5.0,7.2,0.1,12.1
 Lihie RAZ,ISR,2023 Senior European Championships,qual,"Antalya, Turkey",UB,77.0,4.7,6.533,0.0,11.233
 Lihie RAZ,ISR,2023 Senior European Championships,qual,"Antalya, Turkey",VT,51.0,4.2,8.733,0.0,12.933
-Lihie RAZ,ISR,World Cup,qual,"Baku, Azerbaijan",BB,39.0,5.3,5.066,0.0,10.366
-Lihie RAZ,ISR,World Cup,qual,"Baku, Azerbaijan",FX,12.0,4.7,7.5,0.0,12.2
-Lihie RAZ,ISR,World Cup,qual,"Baku, Azerbaijan",UB,19.0,4.9,6.633,0.0,11.533
-Lihie RAZ,ISR,World Cup,qual,"Baku, Azerbaijan",VT,11.0,4.2,8.7,0.0,12.9
-Lihie RAZ,ISR,World Cup,qual,"Baku, Azerbaijan",VT,11.0,3.4,8.533,0.0,11.933
-Malek REZAGUI,ALG,World Cup,qual,"Cairo, Egypt",FX,28.0,4.3,6.833,0.1,11.033
-Malek REZAGUI,ALG,World Cup,qual,"Cairo, Egypt",VT,24.0,3.6,8.733,0.0,12.333
+Lihie RAZ,ISR,FIG Apparatus World Cup 2023,qual,"Baku, Azerbaijan",BB,39.0,5.3,5.066,0.0,10.366
+Lihie RAZ,ISR,FIG Apparatus World Cup 2023,qual,"Baku, Azerbaijan",FX,12.0,4.7,7.5,0.0,12.2
+Lihie RAZ,ISR,FIG Apparatus World Cup 2023,qual,"Baku, Azerbaijan",UB,19.0,4.9,6.633,0.0,11.533
+Lihie RAZ,ISR,FIG Apparatus World Cup 2023,qual,"Baku, Azerbaijan",VT,11.0,4.2,8.7,0.0,12.9
+Lihie RAZ,ISR,FIG Apparatus World Cup 2023,qual,"Baku, Azerbaijan",VT,11.0,3.4,8.533,0.0,11.933
+Malek REZAGUI,ALG,FIG Apparatus World Cup 2023,qual,"Cairo, Egypt",FX,28.0,4.3,6.833,0.1,11.033
+Malek REZAGUI,ALG,FIG Apparatus World Cup 2023,qual,"Cairo, Egypt",VT,24.0,3.6,8.733,0.0,12.333
 Joscelyn ROBERSON,USA,EnBW DTB Pokal Team Challenge 2023,qual,"Stuttgart, Germany",BB,18.0,6.0,6.5,0.0,12.5
 Joscelyn ROBERSON,USA,EnBW DTB Pokal Team Challenge 2023,final,"Stuttgart, Germany",FX,2.0,5.6,7.7,0.0,13.3
 Joscelyn ROBERSON,USA,EnBW DTB Pokal Team Challenge 2023,qual,"Stuttgart, Germany",FX,1.0,6.2,7.95,0.0,14.15
@@ -2474,15 +2474,15 @@ Joscelyn ROBERSON,USA,EnBW DTB Pokal Team Challenge 2023,final,"Stuttgart, Germa
 Joscelyn ROBERSON,USA,EnBW DTB Pokal Team Challenge 2023,qual,"Stuttgart, Germany",VT,1.0,5.2,9.0,0.0,14.2
 Joscelyn ROBERSON,USA,EnBW DTB Pokal Team Challenge 2023,final,"Stuttgart, Germany",VT,1.0,5.0,8.933,0.0,13.933
 Joscelyn ROBERSON,USA,EnBW DTB Pokal Team Challenge 2023,qual,"Stuttgart, Germany",VT,1.0,5.0,9.05,0.1,13.95
-Joscelyn ROBERSON,USA,World Cup,final,"Cairo, Egypt",BB,2.0,5.8,7.433,0.0,13.233
-Joscelyn ROBERSON,USA,World Cup,qual,"Cairo, Egypt",BB,3.0,5.3,7.533,0.0,12.833
-Joscelyn ROBERSON,USA,World Cup,final,"Cairo, Egypt",FX,1.0,5.9,7.8,0.0,13.7
-Joscelyn ROBERSON,USA,World Cup,qual,"Cairo, Egypt",FX,1.0,6.1,7.966,0.0,14.066
-Joscelyn ROBERSON,USA,World Cup,qual,"Cairo, Egypt",UB,20.0,5.1,6.3,0.0,11.4
-Joscelyn ROBERSON,USA,World Cup,final,"Cairo, Egypt",VT,1.0,5.2,8.833,0.0,14.033
-Joscelyn ROBERSON,USA,World Cup,qual,"Cairo, Egypt",VT,2.0,5.2,8.866,0.0,14.066
-Joscelyn ROBERSON,USA,World Cup,final,"Cairo, Egypt",VT,1.0,5.0,8.933,0.0,13.933
-Joscelyn ROBERSON,USA,World Cup,qual,"Cairo, Egypt",VT,2.0,5.0,8.966,0.0,13.966
+Joscelyn ROBERSON,USA,FIG Apparatus World Cup 2023,final,"Cairo, Egypt",BB,2.0,5.8,7.433,0.0,13.233
+Joscelyn ROBERSON,USA,FIG Apparatus World Cup 2023,qual,"Cairo, Egypt",BB,3.0,5.3,7.533,0.0,12.833
+Joscelyn ROBERSON,USA,FIG Apparatus World Cup 2023,final,"Cairo, Egypt",FX,1.0,5.9,7.8,0.0,13.7
+Joscelyn ROBERSON,USA,FIG Apparatus World Cup 2023,qual,"Cairo, Egypt",FX,1.0,6.1,7.966,0.0,14.066
+Joscelyn ROBERSON,USA,FIG Apparatus World Cup 2023,qual,"Cairo, Egypt",UB,20.0,5.1,6.3,0.0,11.4
+Joscelyn ROBERSON,USA,FIG Apparatus World Cup 2023,final,"Cairo, Egypt",VT,1.0,5.2,8.833,0.0,14.033
+Joscelyn ROBERSON,USA,FIG Apparatus World Cup 2023,qual,"Cairo, Egypt",VT,2.0,5.2,8.866,0.0,14.066
+Joscelyn ROBERSON,USA,FIG Apparatus World Cup 2023,final,"Cairo, Egypt",VT,1.0,5.0,8.933,0.0,13.933
+Joscelyn ROBERSON,USA,FIG Apparatus World Cup 2023,qual,"Cairo, Egypt",VT,2.0,5.0,8.966,0.0,13.966
 Ella ROBINSON,GBR,2022 British Gymnastics Championships,qual,"Liverpool, England",BB,32.0,4.2,6.6,0.0,10.8
 Ella ROBINSON,GBR,2022 British Gymnastics Championships,qual,"Liverpool, England",FX,33.0,4.3,7.3,0.0,11.6
 Ella ROBINSON,GBR,2022 British Gymnastics Championships,qual,"Liverpool, England",UB,61.0,3.4,4.9,0.0,8.3
@@ -2513,9 +2513,9 @@ Marie ROENBECK,NOR,2023 Varna World Challenge Cup Results,qual,"Varna, Bulgaria"
 Marie ROENBECK,NOR,2023 Varna World Challenge Cup Results,final,"Varna, Bulgaria",FX,5.0,4.9,7.433,0.1,12.233
 Marie ROENBECK,NOR,2023 Varna World Challenge Cup Results,qual,"Varna, Bulgaria",FX,8.0,4.8,7.266,0.0,12.066
 Marie ROENBECK,NOR,2023 Varna World Challenge Cup Results,qual,"Varna, Bulgaria",UB,13.0,4.1,7.366,0.0,11.466
-Marie ROENBECK,NOR,World Cup,final,"Cairo, Egypt",BB,6.0,4.9,7.2,0.0,12.1
-Marie ROENBECK,NOR,World Cup,qual,"Cairo, Egypt",BB,7.0,5.0,7.266,0.0,12.266
-Marie ROENBECK,NOR,World Cup,qual,"Cairo, Egypt",FX,14.0,4.8,7.3,0.1,12.0
+Marie ROENBECK,NOR,FIG Apparatus World Cup 2023,final,"Cairo, Egypt",BB,6.0,4.9,7.2,0.0,12.1
+Marie ROENBECK,NOR,FIG Apparatus World Cup 2023,qual,"Cairo, Egypt",BB,7.0,5.0,7.266,0.0,12.266
+Marie ROENBECK,NOR,FIG Apparatus World Cup 2023,qual,"Cairo, Egypt",FX,14.0,4.8,7.3,0.1,12.0
 Abigail ROPER,GBR,2022 British Gymnastics Championships,qual,"Liverpool, England",BB,22.0,4.7,6.65,0.0,11.35
 Abigail ROPER,GBR,2022 British Gymnastics Championships,qual,"Liverpool, England",FX,34.0,4.4,7.2,0.0,11.6
 Abigail ROPER,GBR,2022 British Gymnastics Championships,qual,"Liverpool, England",UB,32.0,4.2,6.65,0.0,10.85
@@ -2599,14 +2599,14 @@ Ayaka SAKAGUCHI,JPN,2023 FISU World University Games,qual,"Chengdu, China",UB,8.
 Ayaka SAKAGUCHI,JPN,2023 FISU World University Games,qual,"Chengdu, China",VT,1.0,5.0,9.066,0.0,14.06
 Ayaka SAKAGUCHI,JPN,2023 FISU World University Games,final,"Chengdu, China",VT,2.0,4.4,8.633,0.0,13.033
 Ayaka SAKAGUCHI,JPN,2023 FISU World University Games,qual,"Chengdu, China",VT,2.0,4.4,8.9,0.0,13.3
-Ayaka SAKAGUCHI,JPN,World Cup,final,"Baku, Azerbaijan",BB,4.0,5.6,7.766,0.0,13.366
-Ayaka SAKAGUCHI,JPN,World Cup,qual,"Baku, Azerbaijan",BB,8.0,5.2,7.533,0.0,12.733
-Ayaka SAKAGUCHI,JPN,World Cup,final,"Baku, Azerbaijan",FX,5.0,4.8,7.633,0.0,12.433
-Ayaka SAKAGUCHI,JPN,World Cup,qual,"Baku, Azerbaijan",FX,3.0,5.2,7.733,0.2,12.733
-Ayaka SAKAGUCHI,JPN,World Cup,qual,"Baku, Azerbaijan",UB,21.0,4.6,6.8,0.0,11.4
-Jasmin SALAMA,EGY,World Cup,qual,"Cairo, Egypt",FX,18.0,4.4,7.233,0.0,11.633
-Lahna SALEM,ALG,World Cup,qual,"Doha, Qatar",BB,33.0,4.6,6.166,0.0,10.766
-Lahna SALEM,ALG,World Cup,qual,"Doha, Qatar",UB,17.0,4.7,5.633,0.0,10.333
+Ayaka SAKAGUCHI,JPN,FIG Apparatus World Cup 2023,final,"Baku, Azerbaijan",BB,4.0,5.6,7.766,0.0,13.366
+Ayaka SAKAGUCHI,JPN,FIG Apparatus World Cup 2023,qual,"Baku, Azerbaijan",BB,8.0,5.2,7.533,0.0,12.733
+Ayaka SAKAGUCHI,JPN,FIG Apparatus World Cup 2023,final,"Baku, Azerbaijan",FX,5.0,4.8,7.633,0.0,12.433
+Ayaka SAKAGUCHI,JPN,FIG Apparatus World Cup 2023,qual,"Baku, Azerbaijan",FX,3.0,5.2,7.733,0.2,12.733
+Ayaka SAKAGUCHI,JPN,FIG Apparatus World Cup 2023,qual,"Baku, Azerbaijan",UB,21.0,4.6,6.8,0.0,11.4
+Jasmin SALAMA,EGY,FIG Apparatus World Cup 2023,qual,"Cairo, Egypt",FX,18.0,4.4,7.233,0.0,11.633
+Lahna SALEM,ALG,FIG Apparatus World Cup 2023,qual,"Doha, Qatar",BB,33.0,4.6,6.166,0.0,10.766
+Lahna SALEM,ALG,FIG Apparatus World Cup 2023,qual,"Doha, Qatar",UB,17.0,4.7,5.633,0.0,10.333
 Deborah SALMINA,VEN,2023 Central American and Caribbean Games,AAfinal,"San Salvador, El Salvador",BB,6.0,4.8,7.05,0.1,11.75
 Deborah SALMINA,VEN,2023 Central American and Caribbean Games,qual,"San Salvador, El Salvador",BB,24.0,4.8,5.75,0.1,10.45
 Deborah SALMINA,VEN,2023 Central American and Caribbean Games,AAfinal,"San Salvador, El Salvador",FX,4.0,4.7,7.7,0.0,12.4
@@ -2650,12 +2650,12 @@ Karina SCHÖNMAIER,GER,EnBW DTB Pokal Team Challenge 2023,final,"Stuttgart, Germ
 Karina SCHÖNMAIER,GE1,EnBW DTB Pokal Team Challenge 2023,qual,"Stuttgart, Germany",VT,2.0,4.2,9.2,0.0,13.4
 Karina SCHÖNMAIER,GER,EnBW DTB Pokal Team Challenge 2023,final,"Stuttgart, Germany",VT,2.0,3.8,9.0,0.0,12.8
 Karina SCHÖNMAIER,GE1,EnBW DTB Pokal Team Challenge 2023,qual,"Stuttgart, Germany",VT,2.0,3.8,9.1,0.0,12.9
-Breanna SCOTT,AUS,World Cup,qual,"Baku, Azerbaijan",BB,11.0,5.6,7.066,0.0,12.666
-Breanna SCOTT,AUS,World Cup,qual,"Doha, Qatar",BB,14.0,5.4,6.933,0.0,12.333
-Breanna SCOTT,AUS,World Cup,qual,"Baku, Azerbaijan",FX,26.0,5.1,6.7,0.3,11.5
-Breanna SCOTT,AUS,World Cup,final,"Doha, Qatar",FX,3.0,4.9,7.9,0.0,12.8
-Breanna SCOTT,AUS,World Cup,qual,"Doha, Qatar",FX,8.0,4.7,7.533,0.0,12.233
-Rihab Sidra SEDHANE,ALG,World Cup,qual,"Cairo, Egypt",UB,31.0,3.4,7.0,0.0,10.4
+Breanna SCOTT,AUS,FIG Apparatus World Cup 2023,qual,"Baku, Azerbaijan",BB,11.0,5.6,7.066,0.0,12.666
+Breanna SCOTT,AUS,FIG Apparatus World Cup 2023,qual,"Doha, Qatar",BB,14.0,5.4,6.933,0.0,12.333
+Breanna SCOTT,AUS,FIG Apparatus World Cup 2023,qual,"Baku, Azerbaijan",FX,26.0,5.1,6.7,0.3,11.5
+Breanna SCOTT,AUS,FIG Apparatus World Cup 2023,final,"Doha, Qatar",FX,3.0,4.9,7.9,0.0,12.8
+Breanna SCOTT,AUS,FIG Apparatus World Cup 2023,qual,"Doha, Qatar",FX,8.0,4.7,7.533,0.0,12.233
+Rihab Sidra SEDHANE,ALG,FIG Apparatus World Cup 2023,qual,"Cairo, Egypt",UB,31.0,3.4,7.0,0.0,10.4
 Elisabeth SEITZ,GER,2022 Senior European Championships,final,"Munich, Germany",UB,1.0,6.1,8.333,0.0,14.433
 Elisabeth SEITZ,GER,2022 Senior European Championships,qual,"Munich, Germany",UB,5.0,6.0,8.2,0.0,14.2
 Elisabeth SEITZ,GER,2022 Senior European Championships,TeamFinal,"Munich, Germany",UB,2.0,6.0,8.3,0.0,14.3
@@ -2667,10 +2667,10 @@ Elisabeth SEITZ,GER,2023 Senior European Championships,qual,"Antalya, Turkey",UB
 Elisabeth SEITZ,GER,2023 Senior European Championships,qual,"Antalya, Turkey",VT,18.0,4.2,9.133,0.0,13.333
 Elisabeth SEITZ,GER,FIG Apparatus World Cup 2023,final,"Cottbus, Germany",UB,8.0,5.7,6.366,0.0,12.066
 Elisabeth SEITZ,GER,FIG Apparatus World Cup 2023,qual,"Cottbus, Germany",UB,2.0,5.9,8.2,0.0,14.1
-Mikako SERITA,JPN,World Cup,final,"Doha, Qatar",UB,3.0,5.6,7.633,0.0,13.233
-Mikako SERITA,JPN,World Cup,qual,"Doha, Qatar",UB,2.0,5.7,7.933,0.0,13.633
-Mikako SERITA,JPN,World Cup,qual,"Doha, Qatar",VT,15.0,4.4,8.4,0.0,12.8
-Mikako SERITA,JPN,World Cup,qual,"Doha, Qatar",VT,15.0,3.2,8.433,0.0,11.633
+Mikako SERITA,JPN,FIG Apparatus World Cup 2023,final,"Doha, Qatar",UB,3.0,5.6,7.633,0.0,13.233
+Mikako SERITA,JPN,FIG Apparatus World Cup 2023,qual,"Doha, Qatar",UB,2.0,5.7,7.933,0.0,13.633
+Mikako SERITA,JPN,FIG Apparatus World Cup 2023,qual,"Doha, Qatar",VT,15.0,4.4,8.4,0.0,12.8
+Mikako SERITA,JPN,FIG Apparatus World Cup 2023,qual,"Doha, Qatar",VT,15.0,3.2,8.433,0.0,11.633
 Silviana SFIRINGU,ROU,2022 Senior European Championships,qual,"Munich, Germany",BB,23.0,5.0,7.533,0.0,12.533
 Silviana SFIRINGU,ROU,2022 Senior European Championships,qual,"Munich, Germany",FX,109.0,4.1,6.066,0.1,10.066
 Silviana SFIRINGU,ROU,2022 Senior European Championships,qual,"Munich, Germany",UB,75.0,4.6,6.533,0.0,11.133
@@ -2678,8 +2678,8 @@ Silviana SFIRINGU,ROU,2022 Senior European Championships,qual,"Munich, Germany",
 Noga SHALIT,ISR,2022 Senior European Championships,qual,"Munich, Germany",BB,90.0,4.7,5.766,0.0,10.466
 Noga SHALIT,ISR,2022 Senior European Championships,qual,"Munich, Germany",FX,76.0,4.7,6.9,0.1,11.5
 Noga SHALIT,ISR,2022 Senior European Championships,qual,"Munich, Germany",VT,78.0,3.6,8.666,0.0,12.266
-Ayazhan SHAMSHITDINOVA,KAZ,World Cup,qual,"Cairo, Egypt",BB,34.0,4.4,5.2,0.0,9.6
-Ayazhan SHAMSHITDINOVA,KAZ,World Cup,qual,"Cairo, Egypt",UB,32.0,3.5,6.566,0.0,10.066
+Ayazhan SHAMSHITDINOVA,KAZ,FIG Apparatus World Cup 2023,qual,"Cairo, Egypt",BB,34.0,4.4,5.2,0.0,9.6
+Ayazhan SHAMSHITDINOVA,KAZ,FIG Apparatus World Cup 2023,qual,"Cairo, Egypt",UB,32.0,3.5,6.566,0.0,10.066
 Maggie May SHEPHERD,GBR,2023 British Gymnastics Championships,qual,"Liverpool, England",BB,34.0,4.0,6.3,0.0,10.3
 Maggie May SHEPHERD,GBR,2023 British Gymnastics Championships,qual,"Liverpool, England",FX,25.0,4.3,7.1,0.1,11.3
 Maggie May SHEPHERD,GBR,2023 British Gymnastics Championships,qual,"Liverpool, England",UB,43.0,3.0,6.15,0.0,9.15
@@ -2713,8 +2713,8 @@ Emma SLEVIN,IRL,2023 Senior European Championships,qual,"Antalya, Turkey",BB,34.
 Emma SLEVIN,IRL,2023 Senior European Championships,qual,"Antalya, Turkey",FX,34.0,4.6,7.633,0.0,12.233
 Emma SLEVIN,IRL,2023 Senior European Championships,qual,"Antalya, Turkey",UB,64.0,4.7,7.133,0.0,11.833
 Emma SLEVIN,IRL,2023 Senior European Championships,qual,"Antalya, Turkey",VT,46.0,4.2,8.8,0.0,13.0
-Emma SLEVIN,IRL,World Cup,qual,"Baku, Azerbaijan",BB,41.0,5.0,5.333,0.0,10.333
-Emma SLEVIN,IRL,World Cup,qual,"Baku, Azerbaijan",FX,34.0,4.6,6.433,0.3,10.733
+Emma SLEVIN,IRL,FIG Apparatus World Cup 2023,qual,"Baku, Azerbaijan",BB,41.0,5.0,5.333,0.0,10.333
+Emma SLEVIN,IRL,FIG Apparatus World Cup 2023,qual,"Baku, Azerbaijan",FX,34.0,4.6,6.433,0.3,10.733
 Floor SLOOFF,NED,2023 Varna World Challenge Cup Results,final,"Varna, Bulgaria",BB,5.0,4.9,7.0,0.0,11.9
 Floor SLOOFF,NED,2023 Varna World Challenge Cup Results,qual,"Varna, Bulgaria",BB,5.0,5.0,7.566,0.0,12.566
 Floor SLOOFF,NED,2023 Varna World Challenge Cup Results,qual,"Varna, Bulgaria",FX,13.0,4.7,6.866,0.0,11.566
@@ -2741,35 +2741,35 @@ Lia SOBRAL,POR,2022 Senior European Championships,qual,"Munich, Germany",VT,85.0
 Josephine SOERENSEN,DEN,2022 Senior European Championships,qual,"Munich, Germany",BB,96.0,4.1,6.1,0.0,10.2
 Josephine SOERENSEN,DEN,2022 Senior European Championships,qual,"Munich, Germany",FX,86.0,4.2,7.2,0.1,11.3
 Josephine SOERENSEN,DEN,2022 Senior European Championships,qual,"Munich, Germany",VT,96.0,3.2,8.533,0.0,11.733
-Shizuku SONEZAKI,JPN,World Cup,qual,"Doha, Qatar",FX,11.0,4.4,7.533,0.1,11.833
-Shizuku SONEZAKI,JPN,World Cup,qual,"Doha, Qatar",VT,14.0,4.2,8.8,0.0,13.0
-Shizuku SONEZAKI,JPN,World Cup,qual,"Doha, Qatar",VT,14.0,3.4,8.433,0.0,11.833
+Shizuku SONEZAKI,JPN,FIG Apparatus World Cup 2023,qual,"Doha, Qatar",FX,11.0,4.4,7.533,0.1,11.833
+Shizuku SONEZAKI,JPN,FIG Apparatus World Cup 2023,qual,"Doha, Qatar",VT,14.0,4.2,8.8,0.0,13.0
+Shizuku SONEZAKI,JPN,FIG Apparatus World Cup 2023,qual,"Doha, Qatar",VT,14.0,3.4,8.433,0.0,11.833
 Lara SPEERS,GBR,2023 British Gymnastics Championships,qual,"Liverpool, England",BB,42.0,3.9,5.6,0.0,9.5
 Lara SPEERS,GBR,2023 British Gymnastics Championships,qual,"Liverpool, England",FX,35.0,4.4,6.45,0.0,10.85
 Lara SPEERS,GBR,2023 British Gymnastics Championships,qual,"Liverpool, England",UB,27.0,3.1,7.7,0.0,10.8
 Maya STAAHL,SWE,2023 Senior European Championships,qual,"Antalya, Turkey",BB,100.0,4.3,5.2,0.0,9.5
 Maya STAAHL,SWE,2023 Senior European Championships,qual,"Antalya, Turkey",FX,70.0,4.2,7.5,0.0,11.7
 Ruby STACEY,GBR,2023 British Gymnastics Championships,qual,"Liverpool, England",UB,11.0,5.0,7.25,0.0,12.25
-Ruby STACEY,GBR,World Cup,qual,"Doha, Qatar",BB,15.0,4.8,7.5,0.0,12.3
-Ruby STACEY,GBR,World Cup,final,"Doha, Qatar",FX,7.0,4.6,7.733,0.1,12.233
-Ruby STACEY,GBR,World Cup,qual,"Doha, Qatar",FX,4.0,4.6,7.766,0.0,12.366
-Ruby STACEY,GBR,World Cup,qual,"Doha, Qatar",UB,15.0,5.4,5.333,0.0,10.733
-Ruby STACEY,GBR,World Cup,final,"Doha, Qatar",VT,7.0,4.6,7.666,0.1,12.166
-Ruby STACEY,GBR,World Cup,qual,"Doha, Qatar",VT,9.0,4.6,8.633,0.1,13.133
-Ruby STACEY,GBR,World Cup,final,"Doha, Qatar",VT,7.0,3.4,8.6,0.0,12.0
-Ruby STACEY,GBR,World Cup,qual,"Doha, Qatar",VT,9.0,3.4,8.633,0.0,12.033
+Ruby STACEY,GBR,FIG Apparatus World Cup 2023,qual,"Doha, Qatar",BB,15.0,4.8,7.5,0.0,12.3
+Ruby STACEY,GBR,FIG Apparatus World Cup 2023,final,"Doha, Qatar",FX,7.0,4.6,7.733,0.1,12.233
+Ruby STACEY,GBR,FIG Apparatus World Cup 2023,qual,"Doha, Qatar",FX,4.0,4.6,7.766,0.0,12.366
+Ruby STACEY,GBR,FIG Apparatus World Cup 2023,qual,"Doha, Qatar",UB,15.0,5.4,5.333,0.0,10.733
+Ruby STACEY,GBR,FIG Apparatus World Cup 2023,final,"Doha, Qatar",VT,7.0,4.6,7.666,0.1,12.166
+Ruby STACEY,GBR,FIG Apparatus World Cup 2023,qual,"Doha, Qatar",VT,9.0,4.6,8.633,0.1,13.133
+Ruby STACEY,GBR,FIG Apparatus World Cup 2023,final,"Doha, Qatar",VT,7.0,3.4,8.6,0.0,12.0
+Ruby STACEY,GBR,FIG Apparatus World Cup 2023,qual,"Doha, Qatar",VT,9.0,3.4,8.633,0.0,12.033
 Tara STEFANOVIC,SRB,2023 Varna World Challenge Cup Results,qual,"Varna, Bulgaria",BB,30.0,3.5,1.566,0.1,4.966
 Tara STEFANOVIC,SRB,2023 Varna World Challenge Cup Results,qual,"Varna, Bulgaria",FX,20.0,4.4,5.933,0.1,10.233
 Tara STEFANOVIC,SRB,2023 Varna World Challenge Cup Results,qual,"Varna, Bulgaria",VT,11.0,3.6,8.633,0.0,12.233
 Tara STEFANOVIC,SRB,2023 Varna World Challenge Cup Results,qual,"Varna, Bulgaria",VT,11.0,3.4,8.533,0.0,11.933
 Ava STEWART,CAN,EnBW DTB Pokal Team Challenge 2023,qual,"Stuttgart, Germany",UB,21.0,5.4,7.0,0.0,12.4
 Ava STEWART,CAN,EnBW DTB Pokal Team Challenge 2023,qual,"Stuttgart, Germany",VT,6.0,4.6,8.75,0.0,13.35
-Ava STEWART,CAN,World Cup,qual,"Cairo, Egypt",BB,29.0,5.2,4.966,0.0,10.166
-Ava STEWART,CAN,World Cup,qual,"Cairo, Egypt",FX,11.0,4.9,7.2,0.0,12.1
-Ava STEWART,CAN,World Cup,final,"Cairo, Egypt",UB,5.0,5.6,7.333,0.0,12.933
-Ava STEWART,CAN,World Cup,qual,"Cairo, Egypt",UB,4.0,5.6,7.433,0.0,13.033
-Ava STEWART,CAN,World Cup,qual,"Cairo, Egypt",VT,16.0,4.6,8.7,0.0,13.3
-Ava STEWART,CAN,World Cup,qual,"Cairo, Egypt",VT,16.0,4.2,8.8,2.0,11.0
+Ava STEWART,CAN,FIG Apparatus World Cup 2023,qual,"Cairo, Egypt",BB,29.0,5.2,4.966,0.0,10.166
+Ava STEWART,CAN,FIG Apparatus World Cup 2023,qual,"Cairo, Egypt",FX,11.0,4.9,7.2,0.0,12.1
+Ava STEWART,CAN,FIG Apparatus World Cup 2023,final,"Cairo, Egypt",UB,5.0,5.6,7.333,0.0,12.933
+Ava STEWART,CAN,FIG Apparatus World Cup 2023,qual,"Cairo, Egypt",UB,4.0,5.6,7.433,0.0,13.033
+Ava STEWART,CAN,FIG Apparatus World Cup 2023,qual,"Cairo, Egypt",VT,16.0,4.6,8.7,0.0,13.3
+Ava STEWART,CAN,FIG Apparatus World Cup 2023,qual,"Cairo, Egypt",VT,16.0,4.2,8.8,2.0,11.0
 Poppy Grace STICKLER,GBR,2022 British Gymnastics Championships,qual,"Liverpool, England",BB,13.0,4.6,7.1,0.0,11.7
 Poppy Grace STICKLER,GBR,2022 British Gymnastics Championships,final,"Liverpool, England",FX,3.0,5.1,8.3,0.0,13.4
 Poppy Grace STICKLER,GBR,2022 British Gymnastics Championships,qual,"Liverpool, England",FX,5.0,5.0,7.75,0.0,12.75
@@ -2872,22 +2872,22 @@ Nikolett Szilagyi,HUN,2023 Tel Aviv Challenge Cup,qual,"Tel Aviv, Israel",BB,20.
 Nikolett Szilagyi,HUN,2023 Tel Aviv Challenge Cup,qual,"Tel Aviv, Israel",FX,11.0,4.9,7.1,0.0,12.0
 Nikolett Szilagyi,HUN,2023 Tel Aviv Challenge Cup,qual,"Tel Aviv, Israel",VT,10.0,3.6,8.8,0.0,12.4
 Nikolett Szilagyi,HUN,2023 Tel Aviv Challenge Cup,qual,"Tel Aviv, Israel",VT,10.0,3.4,8.833,0.0,12.233
-Nancy TAMAN,EGY,World Cup,qual,"Doha, Qatar",VT,2.0,5.0,8.566,0.0,13.566
-Nancy TAMAN,EGY,World Cup,qual,"Doha, Qatar",VT,2.0,4.0,8.6,0.0,12.6
-Nancy TAMAN,EGY,World Cup,final,"Baku, Azerbaijan",VT,7.0,4.2,8.866,0.0,13.066
-Nancy TAMAN,EGY,World Cup,qual,"Baku, Azerbaijan",VT,6.0,4.2,8.766,0.1,12.866
-Nancy TAMAN,EGY,World Cup,qual,"Cairo, Egypt",VT,19.0,4.2,8.666,0.0,12.866
-Nancy TAMAN,EGY,World Cup,final,"Baku, Azerbaijan",VT,7.0,3.8,8.733,0.3,12.233
-Nancy TAMAN,EGY,World Cup,qual,"Baku, Azerbaijan",VT,6.0,3.8,8.666,0.0,12.466
-Nancy TAMAN,EGY,World Cup,qual,"Cairo, Egypt",VT,19.0,3.6,7.666,0.0,11.266
+Nancy TAMAN,EGY,FIG Apparatus World Cup 2023,final,"Baku, Azerbaijan",VT,7.0,4.2,8.866,0.0,13.066
+Nancy TAMAN,EGY,FIG Apparatus World Cup 2023,qual,"Baku, Azerbaijan",VT,6.0,4.2,8.766,0.1,12.866
+Nancy TAMAN,EGY,FIG Apparatus World Cup 2023,qual,"Cairo, Egypt",VT,19.0,4.2,8.666,0.0,12.866
+Nancy TAMAN,EGY,FIG Apparatus World Cup 2023,qual,"Doha, Qatar",VT,2.0,5.0,8.566,0.0,13.566
+Nancy TAMAN,EGY,FIG Apparatus World Cup 2023,final,"Baku, Azerbaijan",VT,7.0,3.8,8.733,0.3,12.233
+Nancy TAMAN,EGY,FIG Apparatus World Cup 2023,qual,"Baku, Azerbaijan",VT,6.0,3.8,8.666,0.0,12.466
+Nancy TAMAN,EGY,FIG Apparatus World Cup 2023,qual,"Cairo, Egypt",VT,19.0,3.6,7.666,0.0,11.266
+Nancy TAMAN,EGY,FIG Apparatus World Cup 2023,qual,"Doha, Qatar",VT,2.0,4.0,8.6,0.0,12.6
 Derin TANRIYASUKUR,TUR,2023 Senior European Championships,qual,"Antalya, Turkey",BB,47.0,4.4,7.1,0.1,11.4
 Derin TANRIYASUKUR,TUR,2023 Senior European Championships,qual,"Antalya, Turkey",FX,63.0,4.9,7.166,0.2,11.866
 Derin TANRIYASUKUR,TUR,2023 Senior European Championships,qual,"Antalya, Turkey",UB,60.0,5.0,7.066,0.0,12.066
 Derin TANRIYASUKUR,TUR,2023 Varna World Challenge Cup Results,qual,"Varna, Bulgaria",FX,16.0,4.9,6.266,0.0,11.166
 Derin TANRIYASUKUR,TUR,2023 Varna World Challenge Cup Results,final,"Varna, Bulgaria",UB,6.0,5.0,7.5,0.0,12.5
 Derin TANRIYASUKUR,TUR,2023 Varna World Challenge Cup Results,qual,"Varna, Bulgaria",UB,5.0,5.0,7.666,0.0,12.666
-Derin TANRIYASUKUR,TUR,World Cup,qual,"Baku, Azerbaijan",BB,19.0,5.2,6.833,0.1,11.933
-Derin TANRIYASUKUR,TUR,World Cup,qual,"Baku, Azerbaijan",UB,23.0,5.0,6.3,0.0,11.3
+Derin TANRIYASUKUR,TUR,FIG Apparatus World Cup 2023,qual,"Baku, Azerbaijan",BB,19.0,5.2,6.833,0.1,11.933
+Derin TANRIYASUKUR,TUR,FIG Apparatus World Cup 2023,qual,"Baku, Azerbaijan",UB,23.0,5.0,6.3,0.0,11.3
 Kaia TANSKANEN,FIN,2022 Senior European Championships,qual,"Munich, Germany",BB,82.0,4.7,6.333,0.0,11.033
 Kaia TANSKANEN,FIN,2022 Senior European Championships,qual,"Munich, Germany",FX,33.0,4.8,7.733,0.0,12.533
 Kaia TANSKANEN,FIN,2022 Senior European Championships,qual,"Munich, Germany",UB,49.0,4.8,7.233,0.0,12.033
@@ -2901,10 +2901,10 @@ Kaia TANSKANEN,FIN,2023 Senior European Championships,AAfinal,"Antalya, Turkey",
 Kaia TANSKANEN,FIN,2023 Senior European Championships,qual,"Antalya, Turkey",UB,28.0,5.1,7.7,0.0,12.8
 Kaia TANSKANEN,FIN,2023 Senior European Championships,AAfinal,"Antalya, Turkey",VT,14.0,4.4,8.8,0.0,13.2
 Kaia TANSKANEN,FIN,2023 Senior European Championships,qual,"Antalya, Turkey",VT,44.0,4.4,8.633,0.0,13.033
-Kaia TANSKANEN,FIN,World Cup,final,"Doha, Qatar",BB,8.0,5.2,6.4,0.0,11.6
-Kaia TANSKANEN,FIN,World Cup,qual,"Doha, Qatar",BB,7.0,5.1,7.833,0.0,12.933
-Kaia TANSKANEN,FIN,World Cup,final,"Doha, Qatar",UB,7.0,4.5,7.0,0.0,11.5
-Kaia TANSKANEN,FIN,World Cup,qual,"Doha, Qatar",UB,8.0,4.7,7.7,0.0,12.4
+Kaia TANSKANEN,FIN,FIG Apparatus World Cup 2023,final,"Doha, Qatar",BB,8.0,5.2,6.4,0.0,11.6
+Kaia TANSKANEN,FIN,FIG Apparatus World Cup 2023,qual,"Doha, Qatar",BB,7.0,5.1,7.833,0.0,12.933
+Kaia TANSKANEN,FIN,FIG Apparatus World Cup 2023,final,"Doha, Qatar",UB,7.0,4.5,7.0,0.0,11.5
+Kaia TANSKANEN,FIN,FIG Apparatus World Cup 2023,qual,"Doha, Qatar",UB,8.0,4.7,7.7,0.0,12.4
 Bilge TARHAN,TUR,2022 Senior European Championships,qual,"Munich, Germany",BB,104.0,4.5,5.1,0.0,9.6
 Bilge TARHAN,TUR,2022 Senior European Championships,qual,"Munich, Germany",FX,111.0,4.7,5.033,0.0,9.733
 Bilge TARHAN,TUR,2022 Senior European Championships,qual,"Munich, Germany",UB,77.0,4.9,6.2,0.0,11.1
@@ -2924,11 +2924,11 @@ Bilge TARHAN,TUR,2023 Senior European Championships,qual,"Antalya, Turkey",BB,50
 Bilge TARHAN,TUR,2023 Senior European Championships,qual,"Antalya, Turkey",VT,60.0,4.2,8.6,0.0,12.8
 Bilge TARHAN,TUR,2023 Senior European Championships,final,"Antalya, Turkey",VT,5.0,4.0,8.633,0.0,12.633
 Bilge TARHAN,TUR,2023 Senior European Championships,qual,"Antalya, Turkey",VT,7.0,4.0,8.733,0.0,12.733
-Bilge TARHAN,TUR,World Cup,qual,"Baku, Azerbaijan",BB,36.0,5.3,5.566,0.1,10.766
-Bilge TARHAN,TUR,World Cup,final,"Baku, Azerbaijan",VT,4.0,4.2,8.7,0.0,12.9
-Bilge TARHAN,TUR,World Cup,qual,"Baku, Azerbaijan",VT,4.0,4.2,8.8,0.0,13.0
-Bilge TARHAN,TUR,World Cup,final,"Baku, Azerbaijan",VT,4.0,4.0,8.733,0.0,12.733
-Bilge TARHAN,TUR,World Cup,qual,"Baku, Azerbaijan",VT,4.0,4.0,8.566,0.0,12.566
+Bilge TARHAN,TUR,FIG Apparatus World Cup 2023,qual,"Baku, Azerbaijan",BB,36.0,5.3,5.566,0.1,10.766
+Bilge TARHAN,TUR,FIG Apparatus World Cup 2023,final,"Baku, Azerbaijan",VT,4.0,4.2,8.7,0.0,12.9
+Bilge TARHAN,TUR,FIG Apparatus World Cup 2023,qual,"Baku, Azerbaijan",VT,4.0,4.2,8.8,0.0,13.0
+Bilge TARHAN,TUR,FIG Apparatus World Cup 2023,final,"Baku, Azerbaijan",VT,4.0,4.0,8.733,0.0,12.733
+Bilge TARHAN,TUR,FIG Apparatus World Cup 2023,qual,"Baku, Azerbaijan",VT,4.0,4.0,8.566,0.0,12.566
 Nazanin TEYMUROVA,AZE,2023 Senior European Championships,qual,"Antalya, Turkey",BB,96.0,4.7,5.133,0.1,9.733
 Nazanin TEYMUROVA,AZE,2023 Senior European Championships,qual,"Antalya, Turkey",FX,96.0,4.6,6.566,0.0,11.166
 Nazanin TEYMUROVA,AZE,2023 Senior European Championships,qual,"Antalya, Turkey",UB,81.0,4.4,6.666,0.0,11.066
@@ -2940,27 +2940,27 @@ Nazanin TEYMUROVA,AZE,2023 Varna World Challenge Cup Results,final,"Varna, Bulga
 Nazanin TEYMUROVA,AZE,2023 Varna World Challenge Cup Results,qual,"Varna, Bulgaria",VT,5.0,4.0,8.9,0.0,12.9
 Nazanin TEYMUROVA,AZE,2023 Varna World Challenge Cup Results,final,"Varna, Bulgaria",VT,4.0,3.8,8.9,0.0,12.7
 Nazanin TEYMUROVA,AZE,2023 Varna World Challenge Cup Results,qual,"Varna, Bulgaria",VT,5.0,3.4,8.6,0.0,12.0
+Nazanin TEYMUROVA,AZE,FIG Apparatus World Cup 2023,qual,"Baku, Azerbaijan",BB,26.0,4.7,6.633,0.0,11.333
+Nazanin TEYMUROVA,AZE,FIG Apparatus World Cup 2023,qual,"Cairo, Egypt",BB,11.0,5.2,6.933,0.1,12.033
 Nazanin TEYMUROVA,AZE,FIG Apparatus World Cup 2023,qual,"Cottbus, Germany",BB,37.0,4.7,6.266,0.1,10.866
+Nazanin TEYMUROVA,AZE,FIG Apparatus World Cup 2023,qual,"Doha, Qatar",BB,11.0,5.2,7.366,0.0,12.566
+Nazanin TEYMUROVA,AZE,FIG Apparatus World Cup 2023,final,"Baku, Azerbaijan",FX,8.0,4.6,5.366,0.0,9.966
+Nazanin TEYMUROVA,AZE,FIG Apparatus World Cup 2023,qual,"Baku, Azerbaijan",FX,5.0,4.9,7.666,0.0,12.566
+Nazanin TEYMUROVA,AZE,FIG Apparatus World Cup 2023,final,"Cairo, Egypt",FX,7.0,4.7,7.566,0.0,12.266
+Nazanin TEYMUROVA,AZE,FIG Apparatus World Cup 2023,qual,"Cairo, Egypt",FX,7.0,4.7,7.533,0.0,12.233
 Nazanin TEYMUROVA,AZE,FIG Apparatus World Cup 2023,qual,"Cottbus, Germany",FX,11.0,4.9,7.733,0.0,12.633
+Nazanin TEYMUROVA,AZE,FIG Apparatus World Cup 2023,final,"Doha, Qatar",FX,8.0,4.7,7.366,0.0,12.066
+Nazanin TEYMUROVA,AZE,FIG Apparatus World Cup 2023,qual,"Doha, Qatar",FX,5.0,4.7,7.566,0.0,12.266
+Nazanin TEYMUROVA,AZE,FIG Apparatus World Cup 2023,qual,"Cairo, Egypt",UB,33.0,3.5,6.433,0.0,9.933
 Nazanin TEYMUROVA,AZE,FIG Apparatus World Cup 2023,qual,"Cottbus, Germany",UB,27.0,3.6,5.233,0.0,8.833
+Nazanin TEYMUROVA,AZE,FIG Apparatus World Cup 2023,qual,"Cairo, Egypt",VT,9.0,4.0,8.666,0.0,12.666
+Nazanin TEYMUROVA,AZE,FIG Apparatus World Cup 2023,qual,"Cairo, Egypt",VT,9.0,3.8,8.7,0.0,12.5
 Nazanin TEYMUROVA,AZE,FIG Apparatus World Cup 2023,qual,"Cottbus, Germany",VT,19.0,4.0,8.7,0.0,12.7
-Nazanin TEYMUROVA,AZE,World Cup,qual,"Baku, Azerbaijan",BB,26.0,4.7,6.633,0.0,11.333
-Nazanin TEYMUROVA,AZE,World Cup,qual,"Cairo, Egypt",BB,11.0,5.2,6.933,0.1,12.033
-Nazanin TEYMUROVA,AZE,World Cup,qual,"Doha, Qatar",BB,11.0,5.2,7.366,0.0,12.566
-Nazanin TEYMUROVA,AZE,World Cup,final,"Baku, Azerbaijan",FX,8.0,4.6,5.366,0.0,9.966
-Nazanin TEYMUROVA,AZE,World Cup,qual,"Baku, Azerbaijan",FX,5.0,4.9,7.666,0.0,12.566
-Nazanin TEYMUROVA,AZE,World Cup,final,"Cairo, Egypt",FX,7.0,4.7,7.566,0.0,12.266
-Nazanin TEYMUROVA,AZE,World Cup,qual,"Cairo, Egypt",FX,7.0,4.7,7.533,0.0,12.233
-Nazanin TEYMUROVA,AZE,World Cup,final,"Doha, Qatar",FX,8.0,4.7,7.366,0.0,12.066
-Nazanin TEYMUROVA,AZE,World Cup,qual,"Doha, Qatar",FX,5.0,4.7,7.566,0.0,12.266
-Nazanin TEYMUROVA,AZE,World Cup,qual,"Cairo, Egypt",UB,33.0,3.5,6.433,0.0,9.933
-Nazanin TEYMUROVA,AZE,World Cup,qual,"Cairo, Egypt",VT,9.0,4.0,8.666,0.0,12.666
-Nazanin TEYMUROVA,AZE,World Cup,qual,"Cairo, Egypt",VT,9.0,3.8,8.7,0.0,12.5
 Nazanin TEYMUROVA,AZE,2023 Senior European Championships,qual,"Antalya, Turkey",VT,13.0,3.4,8.533,0.0,11.933
-Nazanin TEYMUROVA,AZE,World Cup,qual,"Doha, Qatar",VT,13.0,4.0,8.533,0.0,12.533
-Nazanin TEYMUROVA,AZE,World Cup,qual,"Doha, Qatar",VT,13.0,3.8,8.566,0.0,12.366
-Nazanin TEYMUROVA,AZE,World Cup,qual,"Baku, Azerbaijan",VT,10.0,4.0,8.833,0.0,12.833
-Nazanin TEYMUROVA,AZE,World Cup,qual,"Baku, Azerbaijan",VT,10.0,3.4,8.666,0.0,12.066
+Nazanin TEYMUROVA,AZE,FIG Apparatus World Cup 2023,qual,"Baku, Azerbaijan",VT,10.0,4.0,8.833,0.0,12.833
+Nazanin TEYMUROVA,AZE,FIG Apparatus World Cup 2023,qual,"Doha, Qatar",VT,13.0,4.0,8.533,0.0,12.533
+Nazanin TEYMUROVA,AZE,FIG Apparatus World Cup 2023,qual,"Baku, Azerbaijan",VT,10.0,3.4,8.666,0.0,12.066
+Nazanin TEYMUROVA,AZE,FIG Apparatus World Cup 2023,qual,"Doha, Qatar",VT,13.0,3.8,8.566,0.0,12.366
 Keira THORNTON,GBR,2022 British Gymnastics Championships,qual,"Liverpool, England",BB,57.0,4.3,5.1,0.1,9.3
 Keira THORNTON,GBR,2022 British Gymnastics Championships,qual,"Liverpool, England",FX,15.0,4.6,7.55,0.0,12.15
 Keira THORNTON,GBR,2022 British Gymnastics Championships,qual,"Liverpool, England",UB,13.0,4.1,7.75,0.0,11.85
@@ -2980,10 +2980,10 @@ Eythora THORSDOTTIR,NED,2023 Senior European Championships,AAfinal,"Antalya, Tur
 Eythora THORSDOTTIR,NED,2023 Senior European Championships,qual,"Antalya, Turkey",UB,14.0,5.5,8.033,0.0,13.533
 Eythora THORSDOTTIR,NED,2023 Senior European Championships,AAfinal,"Antalya, Turkey",VT,5.0,5.0,8.933,0.0,13.933
 Eythora THORSDOTTIR,NED,2023 Senior European Championships,qual,"Antalya, Turkey",VT,8.0,5.0,8.866,0.0,13.866
-Eythora THORSDOTTIR,NED,World Cup,final,"Baku, Azerbaijan",UB,6.0,5.6,7.966,0.0,13.566
-Eythora THORSDOTTIR,NED,World Cup,qual,"Baku, Azerbaijan",UB,4.0,5.6,7.933,0.0,13.533
-Eythora THORSDOTTIR,NED,World Cup,qual,"Baku, Azerbaijan",VT,5.0,5.0,8.733,0.0,13.733
-Eythora THORSDOTTIR,NED,World Cup,qual,"Baku, Azerbaijan",VT,5.0,4.4,7.633,0.3,11.733
+Eythora THORSDOTTIR,NED,FIG Apparatus World Cup 2023,final,"Baku, Azerbaijan",UB,6.0,5.6,7.966,0.0,13.566
+Eythora THORSDOTTIR,NED,FIG Apparatus World Cup 2023,qual,"Baku, Azerbaijan",UB,4.0,5.6,7.933,0.0,13.533
+Eythora THORSDOTTIR,NED,FIG Apparatus World Cup 2023,qual,"Baku, Azerbaijan",VT,5.0,5.0,8.733,0.0,13.733
+Eythora THORSDOTTIR,NED,FIG Apparatus World Cup 2023,qual,"Baku, Azerbaijan",VT,5.0,4.4,7.633,0.3,11.733
 Hua TING,TPE,2023 FISH World University Games,AAfinal,"Chengdu, China",BB,5.0,5.2,7.566,0.0,12.766
 Hua TING,TPE,2023 FISH World University Games,AAfinal,"Chengdu, China",FX,12.0,4.7,7.2,0.0,11.9
 Hua TING,TPE,2023 FISH World University Games,AAfinal,"Chengdu, China",UB,18.0,4.1,5.866,0.0,9.966
@@ -2992,12 +2992,12 @@ Hua TING,TPE,2023 FISU World University Games,qual,"Chengdu, China",BB,20.0,4.4,
 Hua TING,TPE,2023 FISU World University Games,qual,"Chengdu, China",FX,14.0,4.5,7.633,0.0,12.133
 Hua TING,TPE,2023 FISU World University Games,qual,"Chengdu, China",UB,18.0,4.0,7.933,0.0,11.933
 Hua TING,TPE,2023 FISU World University Games,qual,"Chengdu, China",VT,32.0,3.4,8.6,0.0,12.0
+Hua Tien TING,TPE,FIG Apparatus World Cup 2023,final,"Baku, Azerbaijan",BB,7.0,4.9,6.533,0.0,11.433
+Hua Tien TING,TPE,FIG Apparatus World Cup 2023,qual,"Baku, Azerbaijan",BB,7.0,5.0,7.766,0.0,12.766
 Hua Tien TING,TPE,FIG Apparatus World Cup 2023,final,"Cottbus, Germany",BB,4.0,5.4,7.7,0.0,13.1
 Hua Tien TING,TPE,FIG Apparatus World Cup 2023,qual,"Cottbus, Germany",BB,2.0,5.6,8.033,0.0,13.633
-Hua Tien TING,TPE,World Cup,final,"Baku, Azerbaijan",BB,7.0,4.9,6.533,0.0,11.433
-Hua Tien TING,TPE,World Cup,qual,"Baku, Azerbaijan",BB,7.0,5.0,7.766,0.0,12.766
-Hua Tien TING,TPE,World Cup,qual,"Doha, Qatar",BB,18.0,5.3,6.866,0.0,12.166
-Hua Tien TING,TPE,World Cup,qual,"Doha, Qatar",UB,16.0,4.4,5.966,0.0,10.366
+Hua Tien TING,TPE,FIG Apparatus World Cup 2023,qual,"Doha, Qatar",BB,18.0,5.3,6.866,0.0,12.166
+Hua Tien TING,TPE,FIG Apparatus World Cup 2023,qual,"Doha, Qatar",UB,16.0,4.4,5.966,0.0,10.366
 Emily TODD,GBR,2022 British Gymnastics Championships,qual,"Liverpool, England",BB,38.0,4.7,5.75,0.0,10.45
 Emily TODD,GBR,2022 British Gymnastics Championships,qual,"Liverpool, England",FX,16.0,4.7,7.45,0.0,12.15
 Emily TODD,GBR,2022 British Gymnastics Championships,final,"Liverpool, England",UB,7.0,4.3,7.95,0.0,12.25
@@ -3011,17 +3011,17 @@ Juliane TOESSEBRO,NOR,2022 Senior European Championships,qual,"Munich, Germany",
 Juliane TOESSEBRO,NOR,2022 Senior European Championships,qual,"Munich, Germany",FX,54.0,4.4,7.566,0.0,11.966
 Juliane TOESSEBRO,NOR,2022 Senior European Championships,qual,"Munich, Germany",UB,71.0,3.8,7.4,0.0,11.2
 Juliane TOESSEBRO,NOR,2022 Senior European Championships,qual,"Munich, Germany",VT,75.0,4.2,8.4,0.3,12.3
-Juliane TOESSEBRO,NOR,World Cup,qual,"Baku, Azerbaijan",BB,33.0,4.5,6.533,0.0,11.033
-Juliane TOESSEBRO,NOR,World Cup,qual,"Baku, Azerbaijan",FX,35.0,4.3,6.233,0.4,10.133
-Juliane TOESSEBRO,NOR,World Cup,qual,"Baku, Azerbaijan",VT,16.0,4.2,7.433,0.0,11.633
-Juliane TOESSEBRO,NOR,World Cup,qual,"Baku, Azerbaijan",VT,16.0,3.4,8.6,0.0,12.0
+Juliane TOESSEBRO,NOR,FIG Apparatus World Cup 2023,qual,"Baku, Azerbaijan",BB,33.0,4.5,6.533,0.0,11.033
+Juliane TOESSEBRO,NOR,FIG Apparatus World Cup 2023,qual,"Baku, Azerbaijan",FX,35.0,4.3,6.233,0.4,10.133
+Juliane TOESSEBRO,NOR,FIG Apparatus World Cup 2023,qual,"Baku, Azerbaijan",VT,16.0,4.2,7.433,0.0,11.633
+Juliane TOESSEBRO,NOR,FIG Apparatus World Cup 2023,qual,"Baku, Azerbaijan",VT,16.0,3.4,8.6,0.0,12.0
 Aurelie TRAN,CAN,EnBW DTB Pokal Team Challenge 2023,qual,"Stuttgart, Germany",BB,30.0,5.3,6.5,0.0,11.8
 Aurelie TRAN,CAN,EnBW DTB Pokal Team Challenge 2023,final,"Stuttgart, Germany",FX,3.0,4.6,8.233,0.0,12.833
 Aurelie TRAN,CAN,EnBW DTB Pokal Team Challenge 2023,qual,"Stuttgart, Germany",FX,8.0,4.7,8.1,0.0,12.8
 Aurelie TRAN,CAN,EnBW DTB Pokal Team Challenge 2023,qual,"Stuttgart, Germany",UB,23.0,5.2,7.15,0.0,12.35
 Aurelie TRAN,CAN,EnBW DTB Pokal Team Challenge 2023,qual,"Stuttgart, Germany",VT,5.0,4.2,9.3,0.0,13.5
-Doan Quynh Nam TRAN,VIE,World Cup,qual,"Cairo, Egypt",BB,31.0,4.8,5.266,0.1,9.966
-Doan Quynh Nam TRAN,VIE,World Cup,qual,"Cairo, Egypt",FX,10.0,4.7,7.4,0.0,12.1
+Doan Quynh Nam TRAN,VIE,FIG Apparatus World Cup 2023,qual,"Cairo, Egypt",BB,31.0,4.8,5.266,0.1,9.966
+Doan Quynh Nam TRAN,VIE,FIG Apparatus World Cup 2023,qual,"Cairo, Egypt",FX,10.0,4.7,7.4,0.0,12.1
 Lily TRANFIELD,GBR,2022 British Gymnastics Championships,qual,"Liverpool, England",BB,65.0,3.2,4.75,0.0,7.95
 Lily TRANFIELD,GBR,2022 British Gymnastics Championships,qual,"Liverpool, England",FX,61.0,3.5,6.35,0.3,9.55
 Lucie TRNKOVA,CZE,2022 Senior European Championships,qual,"Munich, Germany",BB,30.0,4.8,7.566,0.0,12.366
@@ -3029,11 +3029,11 @@ Lucie TRNKOVA,CZE,2022 Senior European Championships,qual,"Munich, Germany",FX,4
 Lucie TRNKOVA,CZE,2022 Senior European Championships,qual,"Munich, Germany",VT,116.0,3.2,8.4,0.3,11.3
 Lucie TRNKOVA,CZE,2023 Senior European Championships,qual,"Antalya, Turkey",BB,68.0,4.6,6.266,0.0,10.866
 Lucie TRNKOVA,CZE,2023 Senior European Championships,qual,"Antalya, Turkey",FX,86.0,4.3,7.033,0.0,11.333
-Lucie TRNKOVA,CZE,World Cup,qual,"Cairo, Egypt",BB,28.0,4.6,5.6,0.0,10.2
-Lucie TRNKOVA,CZE,World Cup,qual,"Doha, Qatar",BB,23.0,4.5,7.2,0.0,11.7
-Lucie TRNKOVA,CZE,World Cup,final,"Cairo, Egypt",FX,8.0,4.5,7.466,0.0,11.966
-Lucie TRNKOVA,CZE,World Cup,qual,"Cairo, Egypt",FX,8.0,4.6,7.6,0.0,12.2
-Lucie TRNKOVA,CZE,World Cup,qual,"Doha, Qatar",FX,10.0,4.6,7.3,0.0,11.9
+Lucie TRNKOVA,CZE,FIG Apparatus World Cup 2023,qual,"Cairo, Egypt",BB,28.0,4.6,5.6,0.0,10.2
+Lucie TRNKOVA,CZE,FIG Apparatus World Cup 2023,qual,"Doha, Qatar",BB,23.0,4.5,7.2,0.0,11.7
+Lucie TRNKOVA,CZE,FIG Apparatus World Cup 2023,final,"Cairo, Egypt",FX,8.0,4.5,7.466,0.0,11.966
+Lucie TRNKOVA,CZE,FIG Apparatus World Cup 2023,qual,"Cairo, Egypt",FX,8.0,4.6,7.6,0.0,12.2
+Lucie TRNKOVA,CZE,FIG Apparatus World Cup 2023,qual,"Doha, Qatar",FX,10.0,4.6,7.3,0.0,11.9
 Maria TRONRUD,NOR,2022 Senior European Championships,qual,"Munich, Germany",BB,15.0,5.1,7.8,0.0,12.9
 Maria TRONRUD,NOR,2022 Senior European Championships,qual,"Munich, Germany",FX,81.0,4.0,7.366,0.0,11.366
 Maria TRONRUD,NOR,2022 Senior European Championships,qual,"Munich, Germany",UB,50.0,4.1,7.9,0.0,12.0
@@ -3046,20 +3046,20 @@ Maria TRONRUD,NOR,2023 Senior European Championships,AAfinal,"Antalya, Turkey",U
 Maria TRONRUD,NOR,2023 Senior European Championships,qual,"Antalya, Turkey",UB,53.0,4.2,8.033,0.0,12.233
 Maria TRONRUD,NOR,2023 Senior European Championships,AAfinal,"Antalya, Turkey",VT,22.0,4.2,8.633,0.1,12.733
 Maria TRONRUD,NOR,2023 Senior European Championships,qual,"Antalya, Turkey",VT,57.0,4.2,8.733,0.1,12.833
+Maria TRONRUD,NOR,FIG Apparatus World Cup 2023,final,"Cairo, Egypt",BB,4.0,5.2,7.733,0.0,12.933
+Maria TRONRUD,NOR,FIG Apparatus World Cup 2023,qual,"Cairo, Egypt",BB,2.0,5.2,7.833,0.0,13.033
 Maria TRONRUD,NOR,FIG Apparatus World Cup 2023,final,"Cottbus, Germany",BB,7.0,5.0,7.533,0.0,12.533
 Maria TRONRUD,NOR,FIG Apparatus World Cup 2023,qual,"Cottbus, Germany",BB,3.0,5.0,8.233,0.0,13.233
+Maria TRONRUD,NOR,FIG Apparatus World Cup 2023,qual,"Cairo, Egypt",FX,13.0,4.4,7.6,0.0,12.0
 Maria TRONRUD,NOR,FIG Apparatus World Cup 2023,qual,"Cottbus, Germany",FX,28.0,4.2,6.566,0.3,10.466
+Maria TRONRUD,NOR,FIG Apparatus World Cup 2023,qual,"Cairo, Egypt",UB,9.0,4.5,7.833,0.0,12.333
 Maria TRONRUD,NOR,FIG Apparatus World Cup 2023,qual,"Cottbus, Germany",UB,15.0,4.1,7.866,0.0,11.966
+Maria TRONRUD,NOR,FIG Apparatus World Cup 2023,final,"Cairo, Egypt",VT,6.0,4.2,8.866,0.0,13.066
+Maria TRONRUD,NOR,FIG Apparatus World Cup 2023,qual,"Cairo, Egypt",VT,8.0,4.2,8.8,0.0,13.0
 Maria TRONRUD,NOR,FIG Apparatus World Cup 2023,qual,"Cottbus, Germany",VT,9.0,4.2,8.766,0.0,12.966
+Maria TRONRUD,NOR,FIG Apparatus World Cup 2023,final,"Cairo, Egypt",VT,6.0,3.4,8.733,0.0,12.133
+Maria TRONRUD,NOR,FIG Apparatus World Cup 2023,qual,"Cairo, Egypt",VT,8.0,3.4,8.766,0.0,12.166
 Maria TRONRUD,NOR,FIG Apparatus World Cup 2023,qual,"Cottbus, Germany",VT,9.0,3.4,8.6,0.0,12.0
-Maria TRONRUD,NOR,World Cup,final,"Cairo, Egypt",BB,4.0,5.2,7.733,0.0,12.933
-Maria TRONRUD,NOR,World Cup,qual,"Cairo, Egypt",BB,2.0,5.2,7.833,0.0,13.033
-Maria TRONRUD,NOR,World Cup,qual,"Cairo, Egypt",FX,13.0,4.4,7.6,0.0,12.0
-Maria TRONRUD,NOR,World Cup,qual,"Cairo, Egypt",UB,9.0,4.5,7.833,0.0,12.333
-Maria TRONRUD,NOR,World Cup,final,"Cairo, Egypt",VT,6.0,4.2,8.866,0.0,13.066
-Maria TRONRUD,NOR,World Cup,qual,"Cairo, Egypt",VT,8.0,4.2,8.8,0.0,13.0
-Maria TRONRUD,NOR,World Cup,final,"Cairo, Egypt",VT,6.0,3.4,8.733,0.0,12.133
-Maria TRONRUD,NOR,World Cup,qual,"Cairo, Egypt",VT,8.0,3.4,8.766,0.0,12.166
 Zala TRTNIK,SLO,2022 Senior European Championships,qual,"Munich, Germany",BB,39.0,4.7,7.366,0.0,12.066
 Zala TRTNIK,SLO,2022 Senior European Championships,qual,"Munich, Germany",FX,73.0,4.5,7.133,0.0,11.633
 Zala TRTNIK,SLO,2022 Senior European Championships,qual,"Munich, Germany",UB,69.0,4.4,6.866,0.0,11.266
@@ -3068,23 +3068,23 @@ Zala TRTNIK,SLO,2023 Senior European Championships,qual,"Antalya, Turkey",BB,25.
 Zala TRTNIK,SLO,2023 Senior European Championships,qual,"Antalya, Turkey",FX,89.0,5.0,6.566,0.3,11.266
 Zala TRTNIK,SLO,2023 Senior European Championships,qual,"Antalya, Turkey",UB,55.0,4.4,7.833,0.0,12.233
 Zala TRTNIK,SLO,2023 Senior European Championships,qual,"Antalya, Turkey",VT,112.0,4.2,7.633,0.1,11.733
+Zala TRTNIK,SLO,FIG Apparatus World Cup 2023,qual,"Baku, Azerbaijan",BB,35.0,4.6,6.333,0.0,10.933
+Zala TRTNIK,SLO,FIG Apparatus World Cup 2023,final,"Cairo, Egypt",BB,5.0,5.0,7.233,0.0,12.233
+Zala TRTNIK,SLO,FIG Apparatus World Cup 2023,qual,"Cairo, Egypt",BB,8.0,4.9,7.333,0.0,12.233
 Zala TRTNIK,SLO,FIG Apparatus World Cup 2023,qual,"Cottbus, Germany",BB,18.0,4.8,7.533,0.0,12.333
+Zala TRTNIK,SLO,FIG Apparatus World Cup 2023,qual,"Doha, Qatar",BB,20.0,4.7,7.066,0.0,11.766
+Zala TRTNIK,SLO,FIG Apparatus World Cup 2023,qual,"Baku, Azerbaijan",FX,14.0,4.5,7.6,0.0,12.1
+Zala TRTNIK,SLO,FIG Apparatus World Cup 2023,qual,"Cairo, Egypt",FX,27.0,4.6,6.466,0.0,11.066
 Zala TRTNIK,SLO,FIG Apparatus World Cup 2023,qual,"Cottbus, Germany",FX,19.0,4.5,7.766,0.1,12.166
-Zala TRTNIK,SLO,World Cup,qual,"Baku, Azerbaijan",BB,35.0,4.6,6.333,0.0,10.933
-Zala TRTNIK,SLO,World Cup,final,"Cairo, Egypt",BB,5.0,5.0,7.233,0.0,12.233
-Zala TRTNIK,SLO,World Cup,qual,"Cairo, Egypt",BB,8.0,4.9,7.333,0.0,12.233
-Zala TRTNIK,SLO,World Cup,qual,"Doha, Qatar",BB,20.0,4.7,7.066,0.0,11.766
-Zala TRTNIK,SLO,World Cup,qual,"Baku, Azerbaijan",FX,14.0,4.5,7.6,0.0,12.1
-Zala TRTNIK,SLO,World Cup,qual,"Cairo, Egypt",FX,27.0,4.6,6.466,0.0,11.066
-Zala TRTNIK,SLO,World Cup,qual,"Doha, Qatar",FX,14.0,4.5,7.033,0.0,11.533
-Zala TRTNIK,SLO,World Cup,final,"Cairo, Egypt",UB,7.0,4.5,7.933,0.0,12.433
-Zala TRTNIK,SLO,World Cup,qual,"Cairo, Egypt",UB,7.0,4.5,8.1,0.0,12.6
+Zala TRTNIK,SLO,FIG Apparatus World Cup 2023,qual,"Doha, Qatar",FX,14.0,4.5,7.033,0.0,11.533
+Zala TRTNIK,SLO,FIG Apparatus World Cup 2023,final,"Cairo, Egypt",UB,7.0,4.5,7.933,0.0,12.433
+Zala TRTNIK,SLO,FIG Apparatus World Cup 2023,qual,"Cairo, Egypt",UB,7.0,4.5,8.1,0.0,12.6
 Magdalini TSIORI,GRE,2023 Senior European Championships,qual,"Antalya, Turkey",BB,75.0,4.9,5.666,0.1,10.466
 Magdalini TSIORI,GRE,2023 Senior European Championships,qual,"Antalya, Turkey",FX,103.0,4.0,7.066,0.3,10.766
 Magdalini TSIORI,GRE,2023 Senior European Championships,qual,"Antalya, Turkey",UB,95.0,4.7,5.633,0.0,10.333
 Magdalini TSIORI,GRE,2023 Senior European Championships,qual,"Antalya, Turkey",VT,64.0,4.2,8.633,0.1,12.733
-Magdalini TSIORI,GRE,World Cup,qual,"Baku, Azerbaijan",BB,40.0,3.9,6.433,0.0,10.333
-Magdalini TSIORI,GRE,World Cup,qual,"Baku, Azerbaijan",UB,12.0,4.6,7.533,0.0,12.133
+Magdalini TSIORI,GRE,FIG Apparatus World Cup 2023,qual,"Baku, Azerbaijan",BB,40.0,3.9,6.433,0.0,10.333
+Magdalini TSIORI,GRE,FIG Apparatus World Cup 2023,qual,"Baku, Azerbaijan",UB,12.0,4.6,7.533,0.0,12.133
 Andy TURISKI,ISR,2022 Senior European Championships,qual,"Munich, Germany",UB,80.0,4.5,6.433,0.0,10.933
 Andy TURISKI,ISR,2022 Senior European Championships,qual,"Munich, Germany",VT,64.0,3.8,8.7,0.0,12.5
 Andy TURISKI,ISR,2023 Senior European Championships,qual,"Antalya, Turkey",BB,91.0,4.3,5.6,0.0,9.9
@@ -3197,10 +3197,10 @@ Sanna VEERMAN,NED,EnBW DTB Pokal Team Challenge 2023,qual,"Stuttgart, Germany",F
 Sanna VEERMAN,NED,EnBW DTB Pokal Team Challenge 2023,final,"Stuttgart, Germany",UB,2.0,6.2,8.033,0.0,14.233
 Sanna VEERMAN,NED,EnBW DTB Pokal Team Challenge 2023,qual,"Stuttgart, Germany",UB,2.0,6.0,8.25,0.0,14.25
 Sanna VEERMAN,NED,EnBW DTB Pokal Team Challenge 2023,qual,"Stuttgart, Germany",VT,25.0,4.2,8.75,0.0,12.95
-Sanna VEERMAN,NED,World Cup,qual,"Baku, Azerbaijan",BB,34.0,4.9,6.066,0.0,10.966
-Sanna VEERMAN,NED,World Cup,qual,"Baku, Azerbaijan",FX,23.0,5.1,7.033,0.4,11.733
-Sanna VEERMAN,NED,World Cup,final,"Baku, Azerbaijan",UB,3.0,6.2,7.566,0.0,13.766
-Sanna VEERMAN,NED,World Cup,qual,"Baku, Azerbaijan",UB,3.0,6.1,7.6,0.0,13.7
+Sanna VEERMAN,NED,FIG Apparatus World Cup 2023,qual,"Baku, Azerbaijan",BB,34.0,4.9,6.066,0.0,10.966
+Sanna VEERMAN,NED,FIG Apparatus World Cup 2023,qual,"Baku, Azerbaijan",FX,23.0,5.1,7.033,0.4,11.733
+Sanna VEERMAN,NED,FIG Apparatus World Cup 2023,final,"Baku, Azerbaijan",UB,3.0,6.2,7.566,0.0,13.766
+Sanna VEERMAN,NED,FIG Apparatus World Cup 2023,qual,"Baku, Azerbaijan",UB,3.0,6.1,7.6,0.0,13.7
 Tara VELLA CLARK,MLT,2022 Senior European Championships,qual,"Munich, Germany",BB,41.0,4.6,7.433,0.0,12.033
 Tara VELLA CLARK,MLT,2022 Senior European Championships,qual,"Munich, Germany",FX,87.0,4.3,7.0,0.0,11.3
 Tara VELLA CLARK,MLT,2022 Senior European Championships,qual,"Munich, Germany",UB,103.0,3.5,6.266,0.0,9.766
@@ -3234,14 +3234,14 @@ Giorgia VILLA,ITA,2022 Senior European Championships,TeamFinal,"Munich, Germany"
 Giorgia VILLA,ITA,2023 Senior European Championships,qual,"Antalya, Turkey",BB,19.0,5.4,6.933,0.0,12.333
 Giorgia VILLA,ITA,2023 Senior European Championships,final,"Antalya, Turkey",UB,4.0,5.8,8.266,0.0,14.066
 Giorgia VILLA,ITA,2023 Senior European Championships,qual,"Antalya, Turkey",UB,6.0,5.8,8.366,0.0,14.166
-Giorgia VILLA,ITA,World Cup,final,"Baku, Azerbaijan",BB,1.0,5.4,8.566,0.0,13.966
-Giorgia VILLA,ITA,World Cup,qual,"Baku, Azerbaijan",BB,1.0,5.4,8.466,0.0,13.866
-Giorgia VILLA,ITA,World Cup,final,"Cairo, Egypt",BB,1.0,5.3,8.3,0.0,13.6
-Giorgia VILLA,ITA,World Cup,qual,"Cairo, Egypt",BB,5.0,5.2,7.366,0.0,12.566
-Giorgia VILLA,ITA,World Cup,final,"Baku, Azerbaijan",UB,2.0,5.8,8.2,0.0,14.0
-Giorgia VILLA,ITA,World Cup,qual,"Baku, Azerbaijan",UB,2.0,5.9,8.0,0.0,13.9
-Giorgia VILLA,ITA,World Cup,final,"Cairo, Egypt",UB,2.0,5.8,8.4,0.0,14.2
-Giorgia VILLA,ITA,World Cup,qual,"Cairo, Egypt",UB,2.0,5.8,8.233,0.0,14.033
+Giorgia VILLA,ITA,FIG Apparatus World Cup 2023,final,"Baku, Azerbaijan",BB,1.0,5.4,8.566,0.0,13.966
+Giorgia VILLA,ITA,FIG Apparatus World Cup 2023,qual,"Baku, Azerbaijan",BB,1.0,5.4,8.466,0.0,13.866
+Giorgia VILLA,ITA,FIG Apparatus World Cup 2023,final,"Cairo, Egypt",BB,1.0,5.3,8.3,0.0,13.6
+Giorgia VILLA,ITA,FIG Apparatus World Cup 2023,qual,"Cairo, Egypt",BB,5.0,5.2,7.366,0.0,12.566
+Giorgia VILLA,ITA,FIG Apparatus World Cup 2023,final,"Baku, Azerbaijan",UB,2.0,5.8,8.2,0.0,14.0
+Giorgia VILLA,ITA,FIG Apparatus World Cup 2023,qual,"Baku, Azerbaijan",UB,2.0,5.9,8.0,0.0,13.9
+Giorgia VILLA,ITA,FIG Apparatus World Cup 2023,final,"Cairo, Egypt",UB,2.0,5.8,8.4,0.0,14.2
+Giorgia VILLA,ITA,FIG Apparatus World Cup 2023,qual,"Cairo, Egypt",UB,2.0,5.8,8.233,0.0,14.033
 Maria VILLEGAS,COL,2023 Central American and Caribbean Games,qual,"San Salvador, El Salvador",FX,31.0,4.2,7.0,0.6,10.6
 Maria VILLEGAS,COL,2023 Central American and Caribbean Games,qual,"San Salvador, El Salvador",VT,26.0,3.6,8.5,0.0,12.1
 Naomi VISSER,NED,2022 Senior European Championships,qual,"Munich, Germany",BB,36.0,5.1,7.233,0.1,12.233
@@ -3328,10 +3328,10 @@ Agata VOSTRUCHOVAITE,LTU,FIG Apparatus World Cup 2023,final,"Cottbus, Germany",V
 Agata VOSTRUCHOVAITE,LTU,FIG Apparatus World Cup 2023,qual,"Cottbus, Germany",VT,7.0,3.8,8.6,0.0,12.4
 Agata VOSTRUCHOVAITE,LTU,FIG Apparatus World Cup 2023,final,"Cottbus, Germany",VT,7.0,4.4,8.6,0.0,13.0
 Agata VOSTRUCHOVAITE,LTU,FIG Apparatus World Cup 2023,qual,"Cottbus, Germany",VT,7.0,4.4,8.5,0.1,12.8
-Agata VOSTRUCHOVAITE,LTU,World Cup,final,"Doha, Qatar",VT,6.0,4.0,8.633,0.0,12.633
-Agata VOSTRUCHOVAITE,LTU,World Cup,qual,"Doha, Qatar",VT,8.0,4.0,8.566,0.1,12.466
-Agata VOSTRUCHOVAITE,LTU,World Cup,final,"Doha, Qatar",VT,6.0,4.4,8.066,0.3,12.166
-Agata VOSTRUCHOVAITE,LTU,World Cup,qual,"Doha, Qatar",VT,8.0,4.4,8.433,0.1,12.733
+Agata VOSTRUCHOVAITE,LTU,FIG Apparatus World Cup 2023,final,"Doha, Qatar",VT,6.0,4.0,8.633,0.0,12.633
+Agata VOSTRUCHOVAITE,LTU,FIG Apparatus World Cup 2023,qual,"Doha, Qatar",VT,8.0,4.0,8.566,0.1,12.466
+Agata VOSTRUCHOVAITE,LTU,FIG Apparatus World Cup 2023,final,"Doha, Qatar",VT,6.0,4.4,8.066,0.3,12.166
+Agata VOSTRUCHOVAITE,LTU,FIG Apparatus World Cup 2023,qual,"Doha, Qatar",VT,8.0,4.4,8.433,0.1,12.733
 Karma Visagie,RSA,2023 Osijek Challenge Cup,qual,"Osijek, Croatia.",BB,19.0,4.7,6.533,0.0,11.233
 Karma Visagie,RSA,2023 Osijek Challenge Cup,qual,"Osijek, Croatia.",VT,17.0,3.6,8.4,0.0,12.0
 Karma Visagie,RSA,2023 Osijek Challenge Cup,qual,"Osijek, Croatia.",VT,17.0,3.8,8.366,0.0,12.166
@@ -3376,10 +3376,10 @@ Nathalie WESTLUND,SWE,2023 Senior European Championships,qual,"Antalya, Turkey",
 Nathalie WESTLUND,SWE,2023 Senior European Championships,qual,"Antalya, Turkey",FX,36.0,4.2,8.0,0.0,12.2
 Nathalie WESTLUND,SWE,2023 Senior European Championships,qual,"Antalya, Turkey",UB,57.0,5.3,6.933,0.0,12.233
 Nathalie WESTLUND,SWE,2023 Senior European Championships,qual,"Antalya, Turkey",VT,38.0,4.2,8.833,0.0,13.033
-Nathalie WESTLUND,SWE,World Cup,qual,"Doha, Qatar",BB,29.0,4.6,6.566,0.1,11.066
-Nathalie WESTLUND,SWE,World Cup,qual,"Doha, Qatar",FX,9.0,4.2,7.8,0.0,12.0
-Nathalie WESTLUND,SWE,World Cup,final,"Doha, Qatar",UB,2.0,5.3,7.933,0.0,13.233
-Nathalie WESTLUND,SWE,World Cup,qual,"Doha, Qatar",UB,4.0,5.4,7.866,0.0,13.266
+Nathalie WESTLUND,SWE,FIG Apparatus World Cup 2023,qual,"Doha, Qatar",BB,29.0,4.6,6.566,0.1,11.066
+Nathalie WESTLUND,SWE,FIG Apparatus World Cup 2023,qual,"Doha, Qatar",FX,9.0,4.2,7.8,0.0,12.0
+Nathalie WESTLUND,SWE,FIG Apparatus World Cup 2023,final,"Doha, Qatar",UB,2.0,5.3,7.933,0.0,13.233
+Nathalie WESTLUND,SWE,FIG Apparatus World Cup 2023,qual,"Doha, Qatar",UB,4.0,5.4,7.866,0.0,13.266
 Sanne WEVERS,NED,2023 Senior European Championships,final,"Antalya, Turkey",BB,1.0,5.8,8.0,0.0,13.8
 Sanne WEVERS,NED,2023 Senior European Championships,qual,"Antalya, Turkey",BB,3.0,5.9,7.533,0.0,13.433
 Anina WILDI,SUI,2022 Senior European Championships,qual,"Munich, Germany",BB,112.0,4.6,4.6,0.1,9.1
@@ -3395,9 +3395,9 @@ Natalie WOLFGANG,GER,2023 FISU World University Games,qual,"Chengdu, China",FX,3
 Natalie WOLFGANG,GER,2023 FISU World University Games,qual,"Chengdu, China",UB,34.0,4.3,6.033,0.0,10.333
 Natalie WOLFGANG,GER,2023 FISU World University Games,qual,"Chengdu, China",VT,30.0,3.4,8.7,0.0,12.1
 Hiu Ying Angel WONG,HKG,2023 Varna World Challenge Cup Results,qual,"Varna, Bulgaria",BB,19.0,5.0,6.6,0.0,11.6
+Hiu Ying Angel WONG,HKG,FIG Apparatus World Cup 2023,qual,"Baku, Azerbaijan",BB,31.0,4.4,6.733,0.0,11.133
 Hiu Ying Angel WONG,HKG,FIG Apparatus World Cup 2023,qual,"Cottbus, Germany",BB,9.0,4.9,7.9,0.0,12.8
-Hiu Ying Angel WONG,HKG,World Cup,qual,"Baku, Azerbaijan",BB,31.0,4.4,6.733,0.0,11.133
-Hiu Ying Angel WONG,HKG,World Cup,qual,"Doha, Qatar",BB,22.0,4.0,7.733,0.0,11.733
+Hiu Ying Angel WONG,HKG,FIG Apparatus World Cup 2023,qual,"Doha, Qatar",BB,22.0,4.0,7.733,0.0,11.733
 Poppy WOODHEAD,GBR,2023 British Gymnastics Championships,qual,"Liverpool, England",BB,41.0,4.1,5.6,0.1,9.6
 Poppy WOODHEAD,GBR,2023 British Gymnastics Championships,qual,"Liverpool, England",FX,33.0,4.0,7.3,0.4,10.9
 Poppy WOODHEAD,GBR,2023 British Gymnastics Championships,qual,"Liverpool, England",UB,37.0,2.1,7.55,0.0,9.65
@@ -3427,21 +3427,21 @@ Nanami YAMAMOTO,JPN,EnBW DTB Pokal Team Challenge 2023,qual,"Stuttgart, Germany"
 Nanami YAMAMOTO,JPN,EnBW DTB Pokal Team Challenge 2023,qual,"Stuttgart, Germany",FX,24.0,4.9,7.0,0.0,11.9
 Nanami YAMAMOTO,JPN,EnBW DTB Pokal Team Challenge 2023,qual,"Stuttgart, Germany",UB,10.0,5.6,7.75,0.0,13.35
 Nanami YAMAMOTO,JPN,EnBW DTB Pokal Team Challenge 2023,qual,"Stuttgart, Germany",VT,6.0,4.6,8.75,0.0,13.35
-Darya YASSINSKAYA,KAZ,World Cup,qual,"Doha, Qatar",BB,35.0,3.8,5.866,0.0,9.666
-Darya YASSINSKAYA,KAZ,World Cup,qual,"Baku, Azerbaijan",FX,19.0,4.7,7.4,0.1,12.0
-Darya YASSINSKAYA,KAZ,World Cup,qual,"Cairo, Egypt",FX,32.0,4.4,6.3,0.6,10.1
-Darya YASSINSKAYA,KAZ,World Cup,qual,"Doha, Qatar",FX,16.0,4.3,6.833,0.0,11.133
-Darya YASSINSKAYA,KAZ,World Cup,final,"Doha, Qatar",VT,8.0,4.0,8.666,0.1,12.566
-Darya YASSINSKAYA,KAZ,World Cup,qual,"Doha, Qatar",VT,6.0,4.0,8.533,0.0,12.533
-Darya YASSINSKAYA,KAZ,World Cup,final,"Doha, Qatar",VT,8.0,3.8,7.5,0.3,11.0
-Darya YASSINSKAYA,KAZ,World Cup,qual,"Doha, Qatar",VT,6.0,4.2,8.766,0.0,12.966
-Darya YASSINSKAYA,KAZ,World Cup,final,"Baku, Azerbaijan",VT,6.0,4.0,8.8,0.0,12.8
-Darya YASSINSKAYA,KAZ,World Cup,qual,"Baku, Azerbaijan",VT,8.0,4.0,8.666,0.0,12.666
-Darya YASSINSKAYA,KAZ,World Cup,qual,"Cairo, Egypt",VT,11.0,4.0,8.733,0.0,12.733
-Darya YASSINSKAYA,KAZ,World Cup,final,"Baku, Azerbaijan",VT,6.0,3.8,8.833,0.0,12.633
-Darya YASSINSKAYA,KAZ,World Cup,qual,"Baku, Azerbaijan",VT,8.0,3.8,8.733,0.0,12.533
-Darya YASSINSKAYA,KAZ,World Cup,qual,"Cairo, Egypt",VT,11.0,3.8,8.6,0.0,12.4
-Li Wen YEOH,MAS,World Cup,qual,"Cairo, Egypt",UB,21.0,4.9,6.766,0.3,11.366
+Darya YASSINSKAYA,KAZ,FIG Apparatus World Cup 2023,qual,"Doha, Qatar",BB,35.0,3.8,5.866,0.0,9.666
+Darya YASSINSKAYA,KAZ,FIG Apparatus World Cup 2023,qual,"Baku, Azerbaijan",FX,19.0,4.7,7.4,0.1,12.0
+Darya YASSINSKAYA,KAZ,FIG Apparatus World Cup 2023,qual,"Cairo, Egypt",FX,32.0,4.4,6.3,0.6,10.1
+Darya YASSINSKAYA,KAZ,FIG Apparatus World Cup 2023,qual,"Doha, Qatar",FX,16.0,4.3,6.833,0.0,11.133
+Darya YASSINSKAYA,KAZ,FIG Apparatus World Cup 2023,final,"Baku, Azerbaijan",VT,6.0,4.0,8.8,0.0,12.8
+Darya YASSINSKAYA,KAZ,FIG Apparatus World Cup 2023,qual,"Baku, Azerbaijan",VT,8.0,4.0,8.666,0.0,12.666
+Darya YASSINSKAYA,KAZ,FIG Apparatus World Cup 2023,qual,"Cairo, Egypt",VT,11.0,4.0,8.733,0.0,12.733
+Darya YASSINSKAYA,KAZ,FIG Apparatus World Cup 2023,final,"Doha, Qatar",VT,8.0,4.0,8.666,0.1,12.566
+Darya YASSINSKAYA,KAZ,FIG Apparatus World Cup 2023,qual,"Doha, Qatar",VT,6.0,4.0,8.533,0.0,12.533
+Darya YASSINSKAYA,KAZ,FIG Apparatus World Cup 2023,final,"Baku, Azerbaijan",VT,6.0,3.8,8.833,0.0,12.633
+Darya YASSINSKAYA,KAZ,FIG Apparatus World Cup 2023,qual,"Baku, Azerbaijan",VT,8.0,3.8,8.733,0.0,12.533
+Darya YASSINSKAYA,KAZ,FIG Apparatus World Cup 2023,qual,"Cairo, Egypt",VT,11.0,3.8,8.6,0.0,12.4
+Darya YASSINSKAYA,KAZ,FIG Apparatus World Cup 2023,final,"Doha, Qatar",VT,8.0,3.8,7.5,0.3,11.0
+Darya YASSINSKAYA,KAZ,FIG Apparatus World Cup 2023,qual,"Doha, Qatar",VT,6.0,4.2,8.766,0.0,12.966
+Li Wen YEOH,MAS,FIG Apparatus World Cup 2023,qual,"Cairo, Egypt",UB,21.0,4.9,6.766,0.3,11.366
 Bengisu YILDIZ,TUR,2022 Senior European Championships,qual,"Munich, Germany",BB,91.0,4.8,5.666,0.0,10.466
 Bengisu YILDIZ,TUR,2022 Senior European Championships,qual,"Munich, Germany",FX,89.0,4.7,6.533,0.0,11.233
 Bengisu YILDIZ,TUR,2022 Senior European Championships,qual,"Munich, Germany",UB,70.0,4.6,6.633,0.0,11.233
@@ -3458,17 +3458,17 @@ Bengisu YILDIZ,TUR,2023 Varna World Challenge Cup Results,final,"Varna, Bulgaria
 Bengisu YILDIZ,TUR,2023 Varna World Challenge Cup Results,qual,"Varna, Bulgaria",VT,3.0,4.2,8.933,0.0,13.133
 Bengisu YILDIZ,TUR,2023 Varna World Challenge Cup Results,final,"Varna, Bulgaria",VT,3.0,3.8,8.866,0.0,12.666
 Bengisu YILDIZ,TUR,2023 Varna World Challenge Cup Results,qual,"Varna, Bulgaria",VT,3.0,3.8,8.733,0.0,12.533
-Bengisu YILDIZ,TUR,World Cup,qual,"Baku, Azerbaijan",FX,18.0,4.7,7.333,0.0,12.033
-Bengisu YILDIZ,TUR,World Cup,final,"Baku, Azerbaijan",VT,8.0,4.2,8.666,0.0,12.866
-Bengisu YILDIZ,TUR,World Cup,qual,"Baku, Azerbaijan",VT,9.0,4.2,8.566,0.0,12.766
-Bengisu YILDIZ,TUR,World Cup,final,"Baku, Azerbaijan",VT,8.0,3.8,8.6,0.1,12.3
-Bengisu YILDIZ,TUR,World Cup,qual,"Baku, Azerbaijan",VT,9.0,3.8,8.5,0.0,12.3
-Linmin YU,CHN,World Cup,qual,"Doha, Qatar",VT,10.0,4.2,8.8,0.0,13.0
-Linmin YU,CHN,World Cup,qual,"Doha, Qatar",VT,10.0,4.8,7.633,0.3,12.133
-Linmin YU,CHN,World Cup,final,"Baku, Azerbaijan",VT,3.0,5.2,8.566,0.0,13.766
-Linmin YU,CHN,World Cup,qual,"Baku, Azerbaijan",VT,1.0,5.2,8.533,0.3,13.433
-Linmin YU,CHN,World Cup,final,"Baku, Azerbaijan",VT,3.0,4.2,8.8,0.0,13.0
-Linmin YU,CHN,World Cup,qual,"Baku, Azerbaijan",VT,1.0,4.2,8.8,0.1,12.9
+Bengisu YILDIZ,TUR,FIG Apparatus World Cup 2023,qual,"Baku, Azerbaijan",FX,18.0,4.7,7.333,0.0,12.033
+Bengisu YILDIZ,TUR,FIG Apparatus World Cup 2023,final,"Baku, Azerbaijan",VT,8.0,4.2,8.666,0.0,12.866
+Bengisu YILDIZ,TUR,FIG Apparatus World Cup 2023,qual,"Baku, Azerbaijan",VT,9.0,4.2,8.566,0.0,12.766
+Bengisu YILDIZ,TUR,FIG Apparatus World Cup 2023,final,"Baku, Azerbaijan",VT,8.0,3.8,8.6,0.1,12.3
+Bengisu YILDIZ,TUR,FIG Apparatus World Cup 2023,qual,"Baku, Azerbaijan",VT,9.0,3.8,8.5,0.0,12.3
+Linmin YU,CHN,FIG Apparatus World Cup 2023,final,"Baku, Azerbaijan",VT,3.0,5.2,8.566,0.0,13.766
+Linmin YU,CHN,FIG Apparatus World Cup 2023,qual,"Baku, Azerbaijan",VT,1.0,5.2,8.533,0.3,13.433
+Linmin YU,CHN,FIG Apparatus World Cup 2023,qual,"Doha, Qatar",VT,10.0,4.2,8.8,0.0,13.0
+Linmin YU,CHN,FIG Apparatus World Cup 2023,final,"Baku, Azerbaijan",VT,3.0,4.2,8.8,0.0,13.0
+Linmin YU,CHN,FIG Apparatus World Cup 2023,qual,"Baku, Azerbaijan",VT,1.0,4.2,8.8,0.1,12.9
+Linmin YU,CHN,FIG Apparatus World Cup 2023,qual,"Doha, Qatar",VT,10.0,4.8,7.633,0.3,12.133
 Boeun YUN,KOR,2023 FISH World University Games,AAfinal,"Chengdu, China",BB,17.0,4.4,6.5,0.0,10.9
 Boeun YUN,KOR,2023 FISH World University Games,AAfinal,"Chengdu, China",FX,15.0,4.4,7.2,0.0,11.6
 Boeun YUN,KOR,2023 FISH World University Games,AAfinal,"Chengdu, China",UB,12.0,4.3,7.533,0.0,11.833
@@ -3480,8 +3480,8 @@ Boeun YUN,KOR,2023 FISU World University Games,qual,"Chengdu, China",VT,12.0,4.2
 Tina ZELCIC,CRO,2023 Senior European Championships,qual,"Antalya, Turkey",BB,61.0,4.6,6.433,0.0,11.033
 Tina ZELCIC,CRO,2023 Varna World Challenge Cup Results,final,"Varna, Bulgaria",BB,2.0,4.6,7.666,0.0,12.26
 Tina ZELCIC,CRO,2023 Varna World Challenge Cup Results,qual,"Varna, Bulgaria",BB,6.0,4.6,7.9,0.0,12.5
-Tina ZELCIC,CRO,World Cup,qual,"Baku, Azerbaijan",BB,13.0,4.6,7.7,0.0,12.3
-Tina ZELCIC,CRO,World Cup,qual,"Doha, Qatar",BB,25.0,4.9,6.6,0.0,11.5
+Tina ZELCIC,CRO,FIG Apparatus World Cup 2023,qual,"Baku, Azerbaijan",BB,13.0,4.6,7.7,0.0,12.3
+Tina ZELCIC,CRO,FIG Apparatus World Cup 2023,qual,"Doha, Qatar",BB,25.0,4.9,6.6,0.0,11.5
 Jin ZHANG,CHN,2023 FISU World University Games,qual,"Chengdu, China",BB,5.0,5.3,8.033,0.0,13.333
 Jin ZHANG,CHN,2023 FISU World University Games,final,"Chengdu, China",FX,7.0,5.4,6.966,0.0,12.36
 Jin ZHANG,CHN,2023 FISU World University Games,qual,"Chengdu, China",FX,4.0,5.4,7.866,0.0,13.266
