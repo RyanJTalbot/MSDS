@@ -3,7 +3,7 @@ from bs4 import BeautifulSoup
 import csv
 
 # URL of the page containing the tables
-url = "https://thegymter.net/joscelyn-roberson/"
+url = "https://thegymter.net/zoe-miller/"
 
 # Send a GET request to the URL
 response = requests.get(url)
