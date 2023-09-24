@@ -1,10 +1,9 @@
-
 import requests
 from bs4 import BeautifulSoup
 import csv
 
 # URL of the webpage containing the table
-url = "https://en.wikipedia.org/wiki/Gymnastics_at_the_2016_Summer_Olympics_%E2%80%93_Men%27s_artistic_individual_all-around"
+url = "https://en.wikipedia.org/wiki/Gymnastics_at_the_2012_Summer_Olympics_%E2%80%93_Men%27s_vault"
 
 # Send a GET request to the URL
 response = requests.get(url)
@@ -17,9 +16,9 @@ soup = BeautifulSoup(html, 'html.parser')
 tables = soup.find_all('table', class_='wikitable')
 
 # Check if there are at least two tables on the page
-if len(tables) >= 3:
+if len(tables) >= 2:
     # Select the second table
-    table = tables[2]
+    table = tables[1]
 
     # Initialize a list to store data
     data = []
@@ -31,7 +30,7 @@ if len(tables) >= 3:
         data.append(cols)
 
     # Specify the CSV file name
-    csv_filename = 'Gymnastics_ 2016_Olympics_Men\'s_artistic_team_all-around.csv'
+    csv_filename = 'Gymnastics_ 2012_Olympics_Men\'s_artistic_vault.csv'
 
     # Write the data to the CSV file
     with open(csv_filename, 'w', newline='', encoding='utf-8') as csvfile:
