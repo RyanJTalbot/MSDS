@@ -1,0 +1,32 @@
+---
+title: "nypd"
+author: "Ryan Talbot"
+date: "2023-09-27"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+### create variable to url
+
+url_in <-"https://data.cityofnewyork.us/api/views/833y-fsy8/rows.csv?accessType=DOWNLOAD"
+
+### Create variable to read csv file from url
+nypd <- read_csv(url_in)
+
+### rename nypd to df to save original nypd data in original state
+
+
+### remove un needed columns
+nypd <- subset(nypd, select = -c(X_COORD_CD, Y_COORD_CD, Latitude, Longitude, Lon_Lat))
+
+### join time and date and save as datetime data type
+nypd <- subset(nypd, select = -c(X_COORD_CD, Y_COORD_CD, Latitude, Longitude, Lon_Lat))
+
+### remove columns from date and time
+# Assuming dff is your data frame
+nypd <- subset(nypd, select = -c(OCCUR_DATE, OCCUR_TIME))
+
+
