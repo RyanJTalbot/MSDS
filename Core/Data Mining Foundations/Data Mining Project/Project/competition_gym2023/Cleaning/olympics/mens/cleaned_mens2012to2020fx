@@ -4,7 +4,7 @@ Rank,Gymnast,Nation,D Score,E Score,Pen.,Total,year
 3,Denis Ablyazin,RUS,7.1,8.7,0.0,15.800*,2012
 4,Tomás González,Chile,6.5,8.866,0.0,15.366,2012
 5,Jake Dalton,USA,6.4,8.933,0.0,15.333*,2012
-6,Alexander Shatilov,ISR,6.6,8.733,0.0,0,2012
+6,Alexander Shatilov,ISR,6.6,8.733,0.0,15.333,2012
 7,Flavius Koczi,RUM,6.7,8.5,0.1,15.1,2012
 8,Marcel Nguyen,GER,6.6,8.466,0.0,14.966,2012
 1,Max Whitlock,GBR,6.8,8.833,0.0,15.633,2016
@@ -16,10 +16,10 @@ Rank,Gymnast,Nation,D Score,E Score,Pen.,Total,year
 7,Kristian Thomas,GBR,6.2,8.858,0.0,15.058,2016
 8,Sam Mikulak,USA,6.6,7.833,-0.1,14.333,2016
 1,Artem Dolgopyat,ISR,6.6,8.433,0.1,14.933,2020
-2,Rayderley Zapata,ESP,6.5,0.0,0.0,0,2020
+2,Rayderley Zapata,ESP,6.5,8.433,0.0,14.933,2020
 3,Xiao Ruoteng,CHN,6.2,8.566,0.0,14.766,2020
 4,Ryu Sung-hyun,KOR,7.0,7.533,0.3,14.233,2020
-5,Milad Karimi,KAZ,6.4,8.033,14.133,0,2020
+5,Milad Karimi,KAZ,6.4,8.033,0.3,14.133,2020
 6,Yul Moldauer,USA,5.4,8.133,0.0,13.533,2020
 7,Nikita Nagornyy,ROC,6.4,6.966,0.3,13.066,2020
-8,Kim Han-sol,KOR,6.3,6.766,0.0,0,2020
+8,Kim Han-sol,KOR,6.3,6.766,0.0,13.066,2020
