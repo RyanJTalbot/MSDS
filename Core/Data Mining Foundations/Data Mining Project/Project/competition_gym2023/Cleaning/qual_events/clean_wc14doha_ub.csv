@@ -1,0 +1,68 @@
+Rank,Athlete,Nation,D,E,ND,Score,round,year
+1,Larisa Iordache,Romania,6.3,8.55,0.0,14.85,final,2014
+2,Mary-Anne Monckton,Australia,6.3,8.4,0.0,14.7,final,2014
+3,Phan Thi Ha Thanh,Vietnam,5.9,7.975,0.0,13.875,final,2014
+4,Diana Bulimar,Romania,5.3,8.35,0.0,13.65,final,2014
+5,Dorina Böczögö,Hungary,5.1,8.3,-0.1,13.3,final,2014
+6,Kristyna Palesova,Czech Republic,5.2,7.95,0.0,13.15,final,2014
+7,Ashly Lau,Singapore,5.6,7.225,0.0,12.825,final,2014
+8,Shaden Wohdan,Qatar,4.5,6.45,0.0,10.95,final,2014
+9,Zhanerke Duisek,Kazakhstan,5.5,5.275,0.0,10.775,final,2014
+1,Larisa Iordache,Romania,6.4,8.6,0.0,15.0,qual,2014
+2,Diana Bulimar,Romania,5.7,8.5,0.0,14.2,qual,2014
+3,Ashly Lau,Singapore,5.8,8.35,0.0,14.15,qual,2014
+4,Mary-Anne Monckton,Australia,6.1,7.9,0.0,14.0,qual,2014
+5,Phan Thi Ha Thanh,Vietnam,6.0,7.55,0.0,13.55,qual,2014
+6,Dorina Böczögö,Hungary,5.6,8.0,-0.1,13.5,qual,2014
+7,Zhanerke Duisek,Kazakhstan,5.8,7.5,0.0,13.3,qual,2014
+8,Kristyna Palesova,Czech Republic,5.2,7.7,0.0,12.9,qual,2014
+9,Courtney McGregor,New Zealand,5.8,7.2,-0.1,12.9,qual,2014
+10,Nicole Hitz,Switzerland,5.0,7.8,0.0,12.8,qual,2014
+11,Janessa Dai,Singapore,5.1,7.55,0.0,12.65,qual,2014
+12,Teja Belak,Slovenia,4.8,7.75,0.0,12.55,qual,2014
+13,Anastasiya Yekimenka,Belarus,4.9,7.5,0.0,12.4,qual,2014
+14,Charlotte Sullivan,New Zealand,5.3,7.0,0.0,12.3,qual,2014
+15,Lauren Mitchell,Australia,5.7,6.45,0.0,12.15,qual,2014
+16,Jana Sikulova,Czech Republic,5.0,7.1,0.0,12.1,qual,2014
+17,Tjasa Kysselef,Slovenia,4.6,7.25,0.0,11.85,qual,2014
+18,Aida Bauyrzhanova,Kazakhstan,5.2,6.55,0.0,11.75,qual,2014
+19,Katsiaryna Fiadutsik,Belarus,4.8,6.6,0.0,11.4,qual,2014
+20,Isabela Onyshko,Canada,5.6,5.75,0.0,11.35,qual,2014
+21,Tünde Csillag,Hungary,4.0,7.2,0.0,11.2,qual,2014
+22,Laura Schulte,Switzerland,5.1,6.05,0.0,11.15,qual,2014
+23,Hiu Ying Angel Wong,Hong Kong,4.6,6.5,-0.1,11.0,qual,2014
+24,Shaden Wohdan,Qatar,4.5,6.35,0.0,10.85,qual,2014
+25,Kamile Ahsen Göktekin,Turkey,4.8,5.95,0.0,10.75,qual,2014
+26,Demet Mutlu,Turkey,5.1,5.5,0.0,10.6,qual,2014
+27,Yuen Yin Ng,Hong Kong,3.0,6.8,0.0,9.8,qual,2014
+28,Elena Rega,Uzbekistan,4.9,5.0,-0.1,9.8,qual,2014
+29,Ahlam Al Habshi,Qatar,2.9,4.7,0.0,7.6,qual,2014
+1,Larisa Iordache,Romania,6.4,8.6,0.0,15.0,qual,2014
+2,Diana Bulimar,Romania,5.7,8.5,0.0,14.2,qual,2014
+3,Ashly Lau,Singapore,5.8,8.35,0.0,14.15,qual,2014
+4,Mary-Anne Monckton,Australia,6.1,7.9,0.0,14.0,qual,2014
+5,Phan Thi Ha Thanh,Vietnam,6.0,7.55,0.0,13.55,qual,2014
+6,Dorina Böczögö,Hungary,5.6,8.0,-0.1,13.5,qual,2014
+7,Zhanerke Duisek,Kazakhstan,5.8,7.5,0.0,13.3,qual,2014
+8,Kristyna Palesova,Czech Republic,5.2,7.7,0.0,12.9,qual,2014
+9,Courtney McGregor,New Zealand,5.8,7.2,-0.1,12.9,qual,2014
+10,Nicole Hitz,Switzerland,5.0,7.8,0.0,12.8,qual,2014
+11,Janessa Dai,Singapore,5.1,7.55,0.0,12.65,qual,2014
+12,Teja Belak,Slovenia,4.8,7.75,0.0,12.55,qual,2014
+13,Anastasiya Yekimenka,Belarus,4.9,7.5,0.0,12.4,qual,2014
+14,Charlotte Sullivan,New Zealand,5.3,7.0,0.0,12.3,qual,2014
+15,Lauren Mitchell,Australia,5.7,6.45,0.0,12.15,qual,2014
+16,Jana Sikulova,Czech Republic,5.0,7.1,0.0,12.1,qual,2014
+17,Tjasa Kysselef,Slovenia,4.6,7.25,0.0,11.85,qual,2014
+18,Aida Bauyrzhanova,Kazakhstan,5.2,6.55,0.0,11.75,qual,2014
+19,Katsiaryna Fiadutsik,Belarus,4.8,6.6,0.0,11.4,qual,2014
+20,Isabela Onyshko,Canada,5.6,5.75,0.0,11.35,qual,2014
+21,Tünde Csillag,Hungary,4.0,7.2,0.0,11.2,qual,2014
+22,Laura Schulte,Switzerland,5.1,6.05,0.0,11.15,qual,2014
+23,Hiu Ying Angel Wong,Hong Kong,4.6,6.5,-0.1,11.0,qual,2014
+24,Shaden Wohdan,Qatar,4.5,6.35,0.0,10.85,qual,2014
+25,Kamile Ahsen Göktekin,Turkey,4.8,5.95,0.0,10.75,qual,2014
+26,Demet Mutlu,Turkey,5.1,5.5,0.0,10.6,qual,2014
+27,Yuen Yin Ng,Hong Kong,3.0,6.8,0.0,9.8,qual,2014
+28,Elena Rega,Uzbekistan,4.9,5.0,-0.1,9.8,qual,2014
+29,Ahlam Al Habshi,Qatar,2.9,4.7,0.0,7.6,qual,2014
