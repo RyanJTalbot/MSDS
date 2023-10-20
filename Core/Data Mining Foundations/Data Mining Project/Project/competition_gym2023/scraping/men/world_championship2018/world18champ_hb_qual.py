@@ -1,0 +1,23 @@
+
+import pandas as pd
+
+# Specify the URL of the page containing the table
+url = 'https://thegymter.net/2018/11/29/2018-world-championships-mens-results/'
+
+# Use pandas to read the HTML tables on the page
+tables = pd.read_html(url)
+
+# Assuming the table you want is the first one on the page, you can access it like this:
+df = tables[14]
+
+# Drop rows with all NaN values
+df.dropna(how='all', inplace=True)
+
+# Reset the index
+df.reset_index(drop=True, inplace=True)
+
+# Display the DataFrame
+print(df)
+# Save the DataFrame to a CSV file
+df.to_csv(
+    '/Users/ryantalbot/Desktop/MSDS/world_championship2018hb_qual.csv', index=False)
