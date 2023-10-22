@@ -1,0 +1,214 @@
+Rank,Athlete,Nation,D,E,ND,Total,round,year
+1,carlos edriel yulo,PHI,6.5,8.8,0.0,15.3,final,2019
+2,artem dolgopyat,ISR,6.4,8.8,0.0,15.2,final,2019
+3,xiao ruoteng,CHN,6.2,8.733,0.0,14.933,final,2019
+4,artur dalaloyan,RUS,6.2,8.6,0.0,14.8,final,2019
+5,lin chaopan,CHN,6.2,8.5,0.0,14.7,final,2019
+6,nikita nagornyy,RUS,6.2,8.266,-0.3,14.166,final,2019
+7,kim han-sol,SKR,6.3,7.533,0.0,13.833,final,2019
+8,dominick cunningham,none,6.1,7.566,-0.1,13.566,final,2019
+1,artem dolgopyat,ISR,6.4,8.633,0.0,15.033,qual,2019
+2,lin chaopan,CHN,6.2,8.733,0.0,14.933,qual,2019
+3,nikita nagornyy,RUS,6.4,8.5,0.0,14.9,qual,2019
+4,xiao ruoteng,CHN,6.2,8.633,0.0,14.833,qual,2019
+5,artur dalaloyan,RUS,6.5,8.233,0.0,14.733,qual,2019
+6,kim han-sol,SKR,6.1,8.566,0.0,14.666,qual,2019
+7,carlos edriel yulo,PHI,6.5,8.133,0.0,14.633,qual,2019
+8,dominick cunningham,none,6.1,8.5,0.0,14.6,qual,2019
+9,nicolau mir,ESP,6.0,8.533,0.0,14.533,qual,2019
+10,yul moldauer,USA,5.8,8.666,0.0,14.466,qual,2019
+11,daiki hashimoto,JPN,5.8,8.633,0.0,14.433,qual,2019
+12,milad karimi,KAZ,6.2,8.333,-0.1,14.433,qual,2019
+13,lee jun-ho,SKR,6.0,8.366,0.0,14.366,qual,2019
+14,lee chih kai,none,5.8,8.533,0.0,14.333,qual,2019
+15,giarnni regini-moran,none,5.9,8.416,0.0,14.316,qual,2019
+16,alexander shatilov,ISR,5.9,8.4,0.0,14.3,qual,2019
+17,william emard,CAN,5.9,8.333,0.0,14.233,qual,2019
+18,tang chia-hung,none,5.4,8.766,0.0,14.166,qual,2019
+19,sun wei,CHN,5.5,8.666,0.0,14.166,qual,2019
+20,james hall,none,5.7,8.566,-0.1,14.166,qual,2019
+21,arthur mariano,BRA,5.6,8.566,0.0,14.166,qual,2019
+21,emil soravuo,FIN,5.6,8.566,0.0,14.166,qual,2019
+23,loris frasca,FRA,5.7,8.466,0.0,14.166,qual,2019
+24,deng shudi,CHN,6.3,8.166,-0.3,14.166,qual,2019
+25,pablo brägger,SUI,6.0,8.441,-0.3,14.141,qual,2019
+26,luka van den keybus,BEL,5.6,8.533,0.0,14.133,qual,2019
+27,petro pakhniuk,UKR,5.7,8.433,0.0,14.133,qual,2019
+27,yevgen yudenkov,UKR,5.7,8.433,0.0,14.133,qual,2019
+29,stian skjerahaug,NOR,5.6,8.6,-0.1,14.1,qual,2019
+30,nicola bartolini,ITA,5.8,8.3,0.0,14.1,qual,2019
+31,nestor abad,ESP,5.9,8.2,0.0,14.1,qual,2019
+32,nick klessing,none,5.7,8.366,0.0,14.066,qual,2019
+33,marian dragulescu,ROU,5.9,8.166,0.0,14.066,qual,2019
+34,caio souza,BRA,5.5,8.533,0.0,14.033,qual,2019
+35,benjamin gischard,SUI,5.7,8.333,0.0,14.033,qual,2019
+36,casimir schmidt,NED,5.9,8.133,0.0,14.033,qual,2019
+37,niccolo mozzato,ITA,5.5,8.5,0.0,14.0,qual,2019
+37,bart deurloo,NED,5.5,8.5,0.0,14.0,qual,2019
+39,tomas gonzalez,CHI,5.9,8.1,0.0,14.0,qual,2019
+40,david rumbutis,SWE,5.5,8.466,0.0,13.966,qual,2019
+41,dzianis sanuvonh,BLR,5.4,8.533,0.0,13.933,qual,2019
+41,konstantin kuzovkov,GEO,5.4,8.533,0.0,13.933,qual,2019
+43,kazuma kaya,JPN,5.8,8.433,-0.3,13.933,qual,2019
+44,ahmet önder,TUR,5.6,8.333,0.0,13.933,qual,2019
+45,philipp herder,none,5.7,8.233,0.0,13.933,qual,2019
+46,eddy yusof,SUI,5.6,8.3,0.0,13.9,qual,2019
+47,yuya kamoto,JPN,5.6,8.366,-0.1,13.866,qual,2019
+48,ludovico edalli,ITA,5.3,8.533,0.0,13.833,qual,2019
+49,randy leru,CUB,5.4,8.433,0.0,13.833,qual,2019
+50,manrique larduet,CUB,5.5,8.333,0.0,13.833,qual,2019
+51,joel plata,ESP,5.9,7.933,0.0,13.833,qual,2019
+52,daniel corral,MEX,5.6,8.2,0.0,13.8,qual,2019
+53,akim mussayev,KAZ,5.7,8.1,0.0,13.8,qual,2019
+54,joe fraser,none,5.8,8.0,0.0,13.8,qual,2019
+55,rok klavora,SLO,5.9,7.9,0.0,13.8,qual,2019
+56,ivan stretovich,RUS,5.8,8.066,-0.1,13.766,qual,2019
+57,oliver hegi,SUI,5.3,8.433,0.0,13.733,qual,2019
+58,yang hak-seon,SKR,5.7,8.033,0.0,13.733,qual,2019
+59,adam steele,IRL,5.2,8.5,0.0,13.7,qual,2019
+60,david huddleston,BUL,5.3,8.4,0.0,13.7,qual,2019
+61,arthur zanetti,BRA,5.9,7.8,0.0,13.7,qual,2019
+62,artur davtyan,ARM,4.9,8.766,0.0,13.666,qual,2019
+63,karim rida,none,5.7,8.266,-0.3,13.666,qual,2019
+64,andreas toba,none,5.2,8.433,0.0,13.633,qual,2019
+65,robert kirmes,FIN,5.4,8.233,0.0,13.633,qual,2019
+66,vladyslav hryko,UKR,5.8,7.833,0.0,13.633,qual,2019
+67,theodor gadderud,NOR,5.3,8.4,-0.1,13.6,qual,2019
+68,karl idesjö,SWE,5.2,8.4,0.0,13.6,qual,2019
+69,majdi al hmood,JOR,5.4,8.2,0.0,13.6,qual,2019
+70,julien saleur,FRA,5.2,8.366,0.0,13.566,qual,2019
+71,jimmy verbaeys,BEL,5.3,8.266,0.0,13.566,qual,2019
+72,robert tvorogal,LTU,5.4,8.166,0.0,13.566,qual,2019
+73,andres martinez,COL,5.4,8.133,0.0,13.533,qual,2019
+74,marco lodadio,ITA,5.8,7.733,0.0,13.533,qual,2019
+75,yerbol jantykov,KAZ,5.1,8.4,0.0,13.5,qual,2019
+75,rasuljon abdurakhimov,UZB,5.1,8.4,0.0,13.5,qual,2019
+77,rene cournoyer,CAN,5.5,8.0,0.0,13.5,qual,2019
+77,ashish kumar,IND,5.5,8.0,0.0,13.5,qual,2019
+79,ivan tikhonov,AZE,5.3,8.266,-0.1,13.466,qual,2019
+80,tikumporn surintornta,THA,5.8,7.766,-0.1,13.466,qual,2019
+81,shane wiskus,USA,5.7,7.766,0.0,13.466,qual,2019
+82,yordan aleksandrov,BUL,5.2,8.233,0.0,13.433,qual,2019
+83,antoine borello,FRA,5.4,8.133,-0.1,13.433,qual,2019
+84,daan kenis,BEL,5.4,8.033,0.0,13.433,qual,2019
+84,sofus heggemsnes,NOR,5.4,8.033,0.0,13.433,qual,2019
+86,samuel zakutney,CAN,5.5,7.933,0.0,13.433,qual,2019
+86,lee jung-hyo,SKR,5.5,7.933,0.0,13.433,qual,2019
+88,abdulla azimov,UZB,5.0,8.4,0.0,13.4,qual,2019
+89,isaac nunez,MEX,5.2,8.2,0.0,13.4,qual,2019
+90,ahmet anis maoudj,ALG,5.3,8.1,0.0,13.4,qual,2019
+91,kim vanström,SWE,5.9,7.9,-0.4,13.4,qual,2019
+92,valgard reinhardsson,ISL,5.3,8.166,-0.1,13.366,qual,2019
+93,shiao yu-jan,none,5.4,7.933,0.0,13.333,qual,2019
+94,akash modi,USA,5.6,7.733,0.0,13.333,qual,2019
+95,mitchell morgans,AUS,4.9,8.408,0.0,13.308,qual,2019
+96,oskar kirmes,FIN,5.4,8.0,-0.1,13.3,qual,2019
+97,ferhat arican,TUR,5.6,7.8,-0.1,13.3,qual,2019
+98,ioane jimsheleishvili,GEO,5.5,7.8,0.0,13.3,qual,2019
+98,le thanh tung,VIE,5.5,7.8,0.0,13.3,qual,2019
+100,james bacueti,AUS,5.6,7.7,0.0,13.3,qual,2019
+101,santiago mayol,ARG,5.7,7.6,0.0,13.3,qual,2019
+102,andrey likhovitskiy,BLR,4.8,8.466,0.0,13.266,qual,2019
+103,david jessen,CZE,5.1,8.166,0.0,13.266,qual,2019
+104,pietro giachino,NOR,5.2,8.066,0.0,13.266,qual,2019
+105,frantisek cerny,CZE,5.5,7.766,0.0,13.266,qual,2019
+106,michel bletterman,NED,4.9,8.333,0.0,13.233,qual,2019
+107,christian riisberg,DEN,5.3,8.033,-0.1,13.233,qual,2019
+108,luka terbovsek,SLO,5.7,7.533,0.0,13.233,qual,2019
+109,dawid weglarz,POL,5.3,7.9,0.0,13.2,qual,2019
+110,victor rostagno,URU,5.4,7.8,0.0,13.2,qual,2019
+111,thierno diallo,ESP,5.7,7.566,-0.1,13.166,qual,2019
+112,ri wi chol,none,5.6,7.566,0.0,13.166,qual,2019
+113,khabibullo ergashev,UZB,5.0,8.133,0.0,13.133,qual,2019
+114,andres perez,PUR,5.2,7.933,0.0,13.133,qual,2019
+115,matthias schwab,AUT,5.4,7.733,0.0,13.133,qual,2019
+116,alexander benda,AUT,5.5,7.6,0.0,13.1,qual,2019
+117,bernardo almeida,POR,5.1,7.966,0.0,13.066,qual,2019
+118,krisztofer meszaros,HUN,5.2,7.866,0.0,13.066,qual,2019
+119,elias koski,FIN,5.3,7.766,0.0,13.066,qual,2019
+120,yunus gündogdu,TUR,5.4,7.666,0.0,13.066,qual,2019
+121,tomas kuzmickas,LTU,5.0,8.033,0.0,13.033,qual,2019
+122,murad agharzayev,AZE,5.7,7.533,-0.2,13.033,qual,2019
+123,vinzenz höck,AUT,4.8,8.2,0.0,13.0,qual,2019
+124,bojan dejanovic,SRB,4.9,8.1,0.0,13.0,qual,2019
+125,aditya rana,IND,5.0,8.0,0.0,13.0,qual,2019
+125,petar vefic,SRB,5.0,8.0,0.0,13.0,qual,2019
+127,razvan-denis marc,ROU,5.2,7.9,-0.1,13.0,qual,2019
+128,lucas bitencourt,BRA,5.5,7.8,-0.3,13.0,qual,2019
+129,oleg verniaiev,UKR,5.7,7.7,-0.4,13.0,qual,2019
+130,daniel radovesnicky,CZE,4.9,8.066,0.0,12.966,qual,2019
+131,noah kuavita,BEL,5.3,7.866,-0.2,12.966,qual,2019
+132,vitalijs kardasovs,LAT,5.2,7.766,0.0,12.966,qual,2019
+133,reiss beckford,JAM,5.4,7.633,-0.1,12.933,qual,2019
+134,mohamed abdeldjalil bourguieg,ALG,4.9,8.0,0.0,12.9,qual,2019
+135,rihards trams,LAT,4.8,8.066,0.0,12.866,qual,2019
+136,joel alvarez,CHI,4.9,7.966,0.0,12.866,qual,2019
+136,yogeshwar singh,IND,4.9,7.966,0.0,12.866,qual,2019
+138,audrys nin reyes,DOM,5.6,7.266,0.0,12.866,qual,2019
+139,olegs ivanovs,LAT,4.9,8.033,-0.1,12.833,qual,2019
+140,lukasz borkowski,POL,4.9,7.933,0.0,12.833,qual,2019
+141,cory paterson,CAN,5.3,7.5,0.0,12.8,qual,2019
+142,arian leon prado,PER,4.4,8.366,0.0,12.766,qual,2019
+143,jamorn prommanee,THA,5.1,7.6,0.0,12.7,qual,2019
+144,bidzina sitchinava,GEO,5.4,7.4,-0.1,12.7,qual,2019
+145,michael tone,AUS,4.5,8.166,0.0,12.666,qual,2019
+146,enkhtulga altansukh,MGL,4.8,7.866,0.0,12.666,qual,2019
+147,israel chiriboga,ECU,5.3,7.433,-0.1,12.633,qual,2019
+148,jesus moreto,PER,4.5,8.1,0.0,12.6,qual,2019
+149,mikhail koudinov,NZL,4.7,7.9,0.0,12.6,qual,2019
+150,adickxon trejo,VEN,5.0,7.666,-0.1,12.566,qual,2019
+151,kakeru tanigawa,JPN,6.2,6.966,-0.6,12.566,qual,2019
+152,frank rijken,NED,4.5,8.433,-0.4,12.533,qual,2019
+153,mohamed afify,EGY,4.3,8.233,0.0,12.533,qual,2019
+154,benedek tomcsanyi,HUN,5.4,7.133,0.0,12.533,qual,2019
+155,gabriel swan,AUS,6.2,6.333,0.0,12.533,qual,2019
+156,hsu ping chien,none,4.3,8.2,0.0,12.5,qual,2019
+157,nikolaos iliopoulos,GRE,4.8,7.7,0.0,12.5,qual,2019
+158,soma laszlo csorvasi,HUN,5.1,7.933,-0.6,12.433,qual,2019
+159,dinh phuong thanh,VIE,5.1,7.333,0.0,12.433,qual,2019
+160,yahor sharamkou,BLR,6.0,6.733,-0.3,12.433,qual,2019
+161,vlada rakovic,SRB,3.7,8.7,0.0,12.4,qual,2019
+162,devy dyson,NZL,4.7,7.9,-0.2,12.4,qual,2019
+163,fabian de luna,MEX,4.9,7.5,0.0,12.4,qual,2019
+164,hillal metidji,ALG,4.3,8.066,0.0,12.366,qual,2019
+165,ilya yakauleu,BLR,5.3,7.566,-0.5,12.366,qual,2019
+166,ahmed al dyani,QAT,4.9,7.466,0.0,12.366,qual,2019
+167,marios georgiou,CYP,5.1,7.333,-0.1,12.333,qual,2019
+168,daniel villafañe,ARG,5.2,7.4,-0.3,12.3,qual,2019
+169,saleem naghouj,JOR,4.5,7.766,0.0,12.266,qual,2019
+169,petrix barbosa,POR,4.5,7.766,0.0,12.266,qual,2019
+171,mustafa arca,TUR,5.5,6.966,-0.2,12.266,qual,2019
+172,rafael rosendi,CUB,5.3,6.966,0.0,12.266,qual,2019
+173,andres valverde,CRC,4.0,8.233,0.0,12.233,qual,2019
+174,isaac cotto,PUR,4.7,7.366,0.0,12.066,qual,2019
+175,filip sasnal,POL,4.8,7.6,-0.4,12.0,qual,2019
+176,carlos calvo,COL,5.3,6.7,0.0,12.0,qual,2019
+177,ilyas azizov,KAZ,5.7,6.5,-0.2,12.0,qual,2019
+178,ryan sheppard,HUN,5.5,6.533,-0.1,11.933,qual,2019
+179,joseph fox,TRI,3.8,8.366,-0.3,11.866,qual,2019
+180,tarik soto,CRC,4.4,7.766,-0.3,11.866,qual,2019
+181,andrei muntean,ROU,5.7,6.533,-0.4,11.833,qual,2019
+182,loo phay xing,MAS,5.5,6.333,0.0,11.833,qual,2019
+183,ali al jafar,KUW,3.8,7.966,0.0,11.766,qual,2019
+184,nabil zouhair,MAR,4.9,6.866,0.0,11.766,qual,2019
+185,ilias georgiou,CYP,4.8,6.9,0.0,11.7,qual,2019
+186,martin gudmundsson,ISL,4.4,7.266,0.0,11.666,qual,2019
+187,kevin crovetto,MON,4.5,7.233,-0.1,11.633,qual,2019
+188,jorge vega,GUA,5.4,6.5,-0.3,11.6,qual,2019
+189,samuel mikulak,USA,5.4,6.133,0.0,11.533,qual,2019
+190,matvei petrov,ALB,4.4,7.333,-0.3,11.433,qual,2019
+191,samir aït saïd,FRA,5.1,6.566,-0.3,11.366,qual,2019
+192,slavomir michnak,SVK,5.1,6.3,-0.1,11.3,qual,2019
+193,sabah al subaiei,KUW,3.8,7.433,0.0,11.233,qual,2019
+194,mohamed aziz trabelsi,TUN,5.3,6.4,-0.6,11.1,qual,2019
+195,yazan al souliman,SYR,4.8,6.6,-0.4,11.0,qual,2019
+196,manuel martinez,COL,4.5,6.466,0.0,10.966,qual,2019
+197,fabio chicas,ESA,3.2,7.633,0.0,10.833,qual,2019
+198,toma modoianu-zseder,ROU,5.0,6.333,-0.7,10.633,qual,2019
+199,gerardo cabrera,URU,5.1,5.533,0.0,10.633,qual,2019
+200,jose lopez,PUR,4.8,6.266,-0.7,10.366,qual,2019
+201,abellino rubio,GUA,4.0,6.633,-0.4,10.233,qual,2019
+202,meshari al deriwish,KUW,3.2,6.5,0.0,9.7,qual,2019
+203,andrey medvedev,ISR,2.9,7.333,-0.8,9.433,qual,2019
+204,prosper okosun,NGR,3.6,6.133,-0.3,9.433,qual,2019
+205,nahel clement bouanane,MAR,4.6,5.5,-1.1,9.0,qual,2019
