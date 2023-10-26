@@ -1,0 +1,134 @@
+0,1,2,3,4,5,6
+Rank,Athlete,Nation,D,E,ND,Total
+1,Carlos Yulo,Philippines,6.4,8.866,,15.266
+2,Doi Ryosuke,Japan,6.2,8.566,,14.766
+3,Milad Karimi,Kazakhstan,6.3,8.433,,14.733
+4,Giarnni Regini-Moran,Great Britain,6.2,8.333,,14.533
+5,Zhang Boheng,China,6.1,8.400,,14.500
+6,Ryu Sunghyun,South Korea,5.9,8.566,,14.466
+7,Hashimoto Daiki,Japan,6.0,8.466,,14.466
+8,Nicola Bartolini,Italy,5.9,8.533,,14.433
+9,Tanigawa Kakeru,Japan,5.8,8.500,,14.300
+10,Benjamin Osberger,France,5.6,8.666,,14.266
+11,Aurel Benovic,Croatia,6.1,8.366,-0.2,14.266
+12,Kim Hansol,South Korea,6.0,8.266,,14.266
+13,Krisztofer Meszaros,Hungary,6.0,8.333,-0.1,14.233
+14,Tang Chia-Hung,Taiwan,5.5,8.666,,14.166
+15,Tanigawa Wataru,Japan,5.6,8.566,,14.166
+16,James Hall,Great Britain,5.8,8.366,,14.166
+17,Adem Asil,Turkey,5.8,8.333,,14.133
+18,Donnell Whittenburg,United States,6.4,7.733,,14.133
+19,Arthur Mariano,Brazil,5.5,8.600,,14.100
+20,William Emard,Canada,5.7,8.400,,14.100
+21,Yuri Guimarães,Brazil,5.9,8.166,,14.066
+22,Rayderley Zapata,Spain,6.2,7.833,-0.1,13.933
+23,Joe Fraser,Great Britain,5.7,8.300,-0.1,13.900
+24,Jake Jarman,Great Britain,6.7,7.200,,13.900
+25,Botond Kardos,Hungary,5.7,8.166,,13.866
+26,Asher Hong,United States,6.0,7.966,-0.1,13.866
+27,Lorenzo Casali,Italy,5.5,8.333,,13.833
+28,Moreno Kratter,Switzerland,5.9,7.933,,13.833
+29,Dominick Cunningham,Ireland,5.7,8.100,,13.800
+,Ahmet Önder,Turkey,5.7,8.100,,13.800
+31,Casimir Schmidt,Netherlands,5.8,8.000,,13.800
+32,Omar Mohamed,Egypt,5.5,8.233,,13.733
+33,Luka van den Keybus,Belgium,5.5,8.200,,13.700
+34,Yumin Abbadini,Italy,5.1,8.566,,13.666
+35,Lukas Dauser,Germany,5.3,8.366,,13.666
+36,Jordi Hagenaar,Netherlands,5.4,8.233,,13.633
+37,Mehmet Ayberk Koask,Turkey,5.5,8.100,,13.600
+38,Caio Souza,Brazil,5.6,8.066,-0.1,13.566
+39,Takumi Onoshima,Belgium,5.6,7.966,,13.566
+40,Niklas Syverhuset,Norway,5.4,8.233,-0.1,13.533
+41,Sofus Heggemsnes,Norway,5.1,8.400,,13.500
+42,Razvan-Denis Marc,Romania,5.6,7.900,,13.500
+43,Joel Plata,Spain,6.0,7.800,-0.3,13.500
+44,Diogo Soares,Brazil,5.4,8.366,-0.3,13.466
+45,Benedek Tomcsanyi,Hungary,5.4,8.066,,13.466
+46,Harald Wibye,Norway,5.5,7.966,,13.466
+47,Kim Jaeho,South Korea,5.3,8.200,-0.1,13.400
+48,Nestor Abad,Spain,5.5,7.900,,13.400
+49,Martijn de Veer,Netherlands,5.2,8.166,,13.366
+50,Ilyas Azizov,Kazakhstan,5.8,7.866,-0.3,13.366
+51,Yeh Cheng,Taiwan,5.4,7.933,,13.333
+52,Yang Jiaxing,China,6.1,7.200,,13.300
+53,Robert Kirmes,Finland,5.4,7.966,-0.1,13.266
+54,Lais Najjar,Syria,5.3,7.966,,13.266
+55,Alexander Benda,Austria,5.5,7.766,,13.266
+56,Gabriel Burtanete,Romania,5.6,7.666,,13.266
+57,Dmitriy Patanin,Kazakhstan,5.9,7.566,-0.2,13.266
+58,Matteo Levantesi,Italy,5.1,8.133,,13.233
+59,Santiago Mayol,Argentina,5.4,7.833,,13.233
+60,Andrin Frey,Switzerland,6.0,7.533,-0.3,13.233
+61,Abdulla Azimov,Uzbekistan,4.9,8.266,,13.166
+62,Nils Dunkel,Germany,5.1,8.166,-0.1,13.166
+63,Krisztian Balazs,Hungary,5.3,7.866,,13.166
+64,Noah Kuavita,Belgium,5.3,8.100,-0.3,13.100
+65,Chris Kaji,Canada,5.1,8.000,,13.100
+,Mohamed Afify,Egypt,5.1,8.000,,13.100
+67,Maxime Gentges,Belgium,5.0,8.066,,13.066
+68,Leo Saladino,France,5.5,7.866,-0.3,13.066
+69,James Bacueti,Australia,5.3,8.033,-0.3,13.033
+70,Guilherme Campos,Portugal,5.4,7.633,,13.033
+71,Utkirbek Juraev,Uzbekistan,4.0,9.000,,13.000
+72,Gagik Khachikyan,Armenia,4.8,8.200,,13.000
+73,Artem Dolgopyat,Israel,5.9,7.100,,13.000
+74,Jossimar Calvo,Colombia,5.6,7.333,,12.933
+75,Jermain Grünberg,Netherlands,5.2,7.800,-0.1,12.900
+76,Bohdan Suprun,Ukraine,5.5,7.500,-0.1,12.900
+77,Eamon Montgomery,Ireland,5.9,7.000,,12.900
+78,Manuel Martinez,Colombia,4.5,8.333,,12.833
+79,Glenn Trebing,Germany,5.4,7.433,,12.833
+80,Elias Koski,Finland,5.0,7.900,-0.1,12.800
+81,Gaurav Kumar,India,5.2,7.600,,12.800
+82,Jose Nogueira,Portugal,5.5,7.400,-0.1,12.800
+83,Michalis Chari,Cyprus,5.6,7.200,,12.800
+84,Brody Malone,United States,5.9,6.966,-0.1,12.766
+85,Lee Junho,South Korea,5.3,7.433,,12.733
+86,Khabibullo Ergashev,Uzbekistan,4.9,7.800,,12.700
+87,Heath Thorpe,Australia,5.2,7.600,-0.1,12.700
+88,Pascal Brendel,Germany,5.1,7.600,,12.700
+89,Nicolau Mir,Spain,5.9,7.000,-0.2,12.700
+90,Illia Kovtun,Ukraine,6.1,6.700,-0.1,12.700
+91,Jonas Thorisson,Iceland,5.0,7.633,,12.633
+92,Askhab Matiev,Austria,5.3,7.300,,12.600
+93,Yordan Aleksandrov,Bulgaria,4.9,7.666,,12.566
+94,Joel Alvarez,Chile,5.1,7.466,,12.566
+95,Tomas Kuzmickas,Lithuania,5.2,7.633,-0.3,12.533
+96,Ricards Plate,Latvia,5.0,7.533,,12.533
+97,Paul Degouy,France,5.3,7.233,,12.533
+98,Joakim Lenberg,Sweden,4.9,7.600,,12.500
+99,Noe Seifert,Switzerland,5.7,6.800,,12.500
+100,Abderrazak Nasser,Morocco,4.8,7.666,,12.466
+101,Ricardo Rudy,Austria,5.1,7.333,,12.433
+102,Felix Dolci,Canada,5.9,6.633,-0.1,12.433
+103,Apostolos Kanellos,Greece,4.7,7.766,-0.1,12.366
+104,Leandro Peña,Dominican Republic,5.1,7.166,,12.266
+105,Mathias Philippe,France,5.2,7.033,,12.233
+106,Yogeshwar Singh,India,5.3,6.933,,12.233
+107,Clay Mason Stephens,Australia,5.5,6.700,,12.200
+108,Sun Wei,China,5.7,6.600,-0.1,12.200
+109,Andrey Medvedev,Israel,4.0,8.133,,12.133
+110,Andrei Muntean,Romania,5.2,6.900,,12.100
+111,David Rumbutis,Sweden,4.5,7.566,,12.066
+112,Robert Burtanete,Romania,5.3,7.033,-0.3,12.033
+113,Abdelrahman Abdelhaleem,Egypt,5.2,7.200,-0.4,12.000
+114,Nikolaj Bozic,Slovenia,5.3,6.700,,12.000
+115,Severin Kranzlmüller,Austria,5.1,6.866,,11.966
+116,Ahmed Abdelrahman,Egypt,5.4,7.433,-0.3,11.933
+117,Yunus Gündogdu,Turkey,5.0,6.866,,11.866
+118,Florian Langenegger,Switzerland,5.2,6.766,-0.1,11.866
+119,Gytis Chasazyrovas,Lithuania,5.6,6.533,-0.4,11.733
+120,Georgios Angonas,Cyprus,4.8,7.266,-0.4,11.666
+121,William Fu-Allen,New Zealand,5.1,6.533,,11.633
+122,David Huddleston,Bulgaria,5.0,6.700,-0.1,11.600
+123,Edward Gonzales,Peru,5.2,6.600,-0.2,11.600
+124,Uri Zeidel,Israel,5.0,6.600,,11.600
+125,Valgard Reinhardsson,Iceland,5.0,6.300,-0.1,11.200
+126,Ivan Tikhonov,Azerbaijan,5.5,5.666,,11.166
+127,Andres Martinez,Colombia,3.9,7.233,,11.133
+128,Mykyta Melnykov,Ukraine,4.6,6.166,-0.1,10.666
+129,Emil Akhmejanov,Kazakhstan,5.7,5.400,-0.5,10.600
+130,Jose Lopez,Puerto Rico,5.4,5.666,-0.5,10.566
+131,Colt Walker,United States,5.3,5.233,-0.1,10.433
+132,Lin Guan-Yi,Taiwan,4.9,5.466,,10.366

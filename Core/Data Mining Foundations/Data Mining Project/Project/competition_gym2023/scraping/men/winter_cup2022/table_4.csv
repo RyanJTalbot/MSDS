@@ -1,0 +1,72 @@
+0,1,2,3,4,5,6,7
+Rank,Athlete,Club,D,E,ND,Score,Total
+1,Asher Hong,Cypress Academy,6.0,8.900,,16.680 (+1.780),32.860 (+3.560)
+1,Asher Hong,Cypress Academy,6.0,8.400,,16.180 (+1.780),32.860 (+3.560)
+2,Khoi Young,Stanford,5.4,9.600,,15.244 (+0.244),30.238 (+0.488)
+2,Khoi Young,Stanford,5.4,9.350,,14.994 (+0.244),30.238 (+0.488)
+3,Colt Walker,Stanford,5.6,8.700,,14.897 (+0.597),30.144 (+1.194)
+3,Colt Walker,Stanford,5.6,9.150,-0.1,15.247 (+0.597),30.144 (+1.194)
+4,Riley Loos,Stanford,5.6,8.550,,14.747 (+0.597),29.844 (+1.194)
+4,Riley Loos,Stanford,5.6,8.900,,15.097 (+0.597),29.844 (+1.194)
+5,Colin Van Wicklen,Oklahoma,5.6,8.650,,14.847 (+0.597),29.744 (+1.194)
+5,Colin Van Wicklen,Oklahoma,5.6,8.700,,14.897 (+0.597),29.744 (+1.194)
+6,Curran Phillips,Stanford,5.2,9.500,,14.700,29.600
+6,Curran Phillips,Stanford,5.2,9.700,,14.900,29.600
+7,Taylor Burkhart,Stanford Boys,5.4,8.950,,14.594 (+0.244),29.238 (+0.488)
+7,Taylor Burkhart,Stanford Boys,5.4,9.000,,14.644 (+0.244),29.238 (+0.488)
+8,Fuzzy Benas,Oklahoma,5.2,9.200,,14.400,28.650
+8,Fuzzy Benas,Oklahoma,5.2,9.050,,14.250,28.650
+9,Matt Cormier,Penn State,5.2,9.000,,14.200,28.450
+9,Matt Cormier,Penn State,5.2,9.050,,14.250,28.450
+10,Kazuki Hayashi,Ohio State,5.2,9.400,,14.600,28.350
+10,Kazuki Hayashi,Ohio State,5.2,8.650,-0.1,13.750,28.350
+11,Isaiah Drake,Navy,5.2,9.050,,14.250,28.350
+11,Isaiah Drake,Navy,5.2,8.900,,14.100,28.350
+12,Landen Blixt,Infinity,4.8,9.350,,14.150,28.200
+12,Landen Blixt,Infinity,4.8,9.250,,14.050,28.200
+13,Raydel Gamboa,Oklahoma,4.8,9.300,,14.100,28.150
+13,Raydel Gamboa,Oklahoma,4.8,9.250,,14.050,28.150
+14,Zachary Nunez,Oklahoma,4.8,9.200,,14.000,28.000
+14,Zachary Nunez,Oklahoma,5.2,8.900,-0.1,14.000,28.000
+15,Michael Artlip,Penn State,5.2,8.900,-0.1,14.000,27.900
+15,Michael Artlip,Penn State,4.8,9.100,,13.900,27.900
+16,Jack Freeman,Oklahoma,4.8,9.150,,13.950,27.850
+16,Jack Freeman,Oklahoma,4.8,9.100,,13.900,27.850
+17,Evan Davis,Iowa Gym ACT,4.8,9.300,,14.100,27.800
+17,Evan Davis,Iowa Gym ACT,4.8,8.900,,13.700,27.800
+18,Fred Richard,MEGA,5.2,8.800,-0.1,13.900,27.750
+18,Fred Richard,MEGA,5.2,8.650,,13.850,27.750
+19,Jeremy Bischoff,Stanford,4.8,9.100,,13.900,27.700
+19,Jeremy Bischoff,Stanford,4.8,9.000,,13.800,27.700
+20,Yul Moldauer,5280 Gymnastics,4.8,8.700,-0.1,13.400,27.550
+20,Yul Moldauer,5280 Gymnastics,5.2,8.950,,14.150,27.550
+21,Michael Jaroh,Penn State,5.2,8.150,,13.350,27.350
+21,Michael Jaroh,Penn State,5.2,8.800,,14.000,27.350
+22,Alex Diab,USOPTC,5.2,7.800,,13.000,27.297 (+0.597)
+22,Alex Diab,USOPTC,5.6,8.400,-0.3,14.297 (+0.597),27.297 (+0.597)
+23,Mike Fletcher,Illinois,5.2,8.050,-0.1,13.150,27.200
+23,Mike Fletcher,Illinois,5.2,8.950,-0.1,14.050,27.200
+24,Noah Newfeld,UC Berkeley,4.0,9.500,,13.500,27.000
+24,Noah Newfeld,UC Berkeley,4.0,9.500,,13.500,27.000
+25,Ian Lasic-Ellis,Stanford,4.8,9.050,-0.3,13.550,26.900
+25,Ian Lasic-Ellis,Stanford,4.8,8.650,-0.1,13.350,26.900
+26,James Friedman,Iowa Gym ACT,4.8,8.450,,13.250,26.750
+26,James Friedman,Iowa Gym ACT,5.2,8.400,-0.1,13.500,26.750
+27,Nicolas Kuebler,Stanford,4.8,8.650,,13.450,26.650
+27,Nicolas Kuebler,Stanford,4.8,8.700,-0.3,13.200,26.650
+28,Cole Partridge,USA Gym World,4.8,8.550,-0.1,13.250,26.600
+28,Cole Partridge,USA Gym World,4.8,8.550,,13.350,26.600
+29,Garrett Braunton,Air Force,4.4,7.800,,12.200,25.800
+29,Garrett Braunton,Air Force,4.8,8.800,,13.600,25.800
+30,Mathew Davis,Army,4.8,9.000,-0.1,13.700,25.600
+30,Mathew Davis,Army,4.8,7.400,-0.3,11.900,25.600
+31,Ignacio Yockers,Pride,4.8,8.800,,13.600,25.600
+31,Ignacio Yockers,Pride,4.8,7.200,,12.000,25.600
+32,Paul Juda,Michigan,—,——,,——,14.800
+32,Paul Juda,Michigan,5.2,9.600,,14.800,14.800
+33,Crew Bold,Michigan,—,——,,——,13.600
+33,Crew Bold,Michigan,5.2,8.500,-0.1,13.600,13.600
+34,Ian Gunther,Stanford,4.8,8.750,-0.1,13.450,13.450
+34,Ian Gunther,Stanford,—,——,,——,13.450
+35,David Willett,Michigan,—,——,,——,12.950
+35,David Willett,Michigan,4.8,8.150,,12.950,12.950

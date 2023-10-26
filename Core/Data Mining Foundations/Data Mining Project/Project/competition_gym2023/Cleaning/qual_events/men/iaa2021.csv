@@ -1,0 +1,212 @@
+Rank,Athlete,FX,PH,SR,VT,PB,HB,AA,round,year,Nation
+1,hashimoto daiki japan,14.733,15.075,13.333,15.066,15.2,14.633,88.04,qual,2021,None
+2,zhang boheng china,14.133,14.666,14.866,14.766,15.3,14.166,87.897,qual,2021,None
+3,adem asil turkey,14.066,12.666,14.533,14.966,14.366,13.833,84.43,qual,2021,None
+4,shi cong china,13.2,13.466,13.933,14.233,15.2,13.866,83.898,qual,2021,None
+5,illia kovtun ukraine,14.333,13.766,12.5,14.066,14.7,14.2,83.565,qual,2021,None
+6,krisztofer meszaros hungary,14.033,13.6,12.933,14.2,14.566,13.3,82.632,qual,2021,None
+7,ilias georgiou cyprus,13.633,11.866,13.5,14.366,14.766,14.233,82.364,qual,2021,None
+8,ahmet önder turkey,13.4,12.866,13.933,14.2,14.7,12.966,82.065,qual,2021,None
+9,joel plata spain,14.133,13.633,13.3,14.066,13.666,13.1,81.898,qual,2021,None
+10,robert tvorogal lithuania,13.433,13.233,13.1,13.8,14.6,13.6,81.766,qual,2021,None
+11,william emard canada,13.9,11.233,14.733,14.666,13.833,13.133,81.498,qual,2021,None
+12,luka van den keybus belgium,13.966,12.7,12.433,14.333,14.0,13.666,81.098,qual,2021,None
+13,yul moldauer united states,14.433,10.633,13.466,14.433,14.866,13.233,81.064,qual,2021,None
+14,henji mboyo switzerland,13.1,12.966,13.333,13.833,13.933,13.8,80.965,qual,2021,None
+15,joshua nathan great britain,13.433,15.033,12.6,14.4,12.133,13.166,80.765,qual,2021,None
+16,milad karimi kazakhstan,14.941,11.6,12.133,12.966,14.633,14.433,80.706,qual,2021,None
+17,caio souza brazil,13.666,10.233,14.033,14.666,14.8,13.2,80.598,qual,2021,None
+18,nestor abad spain,14.233,12.933,13.466,13.8,13.566,12.5,80.498,qual,2021,None
+19,sofus heggemsnes norway,12.966,13.366,13.0,14.233,13.933,13.3,80.498,qual,2021,None
+20,jossimar calvo colombia,13.3,13.433,12.3,14.3,13.866,12.866,80.065,qual,2021,None
+21,oskar kirmes finland,13.733,12.766,12.2,13.766,13.933,12.9,79.298,qual,2021,None
+22,eyal indig israel,12.6,14.066,12.4,13.933,13.5,12.6,79.099,qual,2021,None
+23,nikita ignatyev russia,12.366,11.866,12.766,14.008,13.5,13.433,77.939,qual,2021,None
+24,noah kuavita belgium,13.6,12.5,11.966,14.2,11.3,14.066,77.632,qual,2021,None
+25,alexander benda austria,12.566,12.666,12.6,13.766,12.633,13.366,77.597,qual,2021,None
+26,robert kirmes finland,13.733,13.5,12.666,13.933,11.966,11.766,77.564,qual,2021,None
+27,nikolaos iliopoulos greece,12.5,11.666,13.133,13.766,13.533,12.833,77.431,qual,2021,None
+28,andres martinez colombia,13.866,13.533,10.933,13.833,13.1,12.133,77.398,qual,2021,None
+29,harald wibye norway,12.566,11.466,12.033,13.9,14.566,12.833,76.964,qual,2021,None
+30,yogeshwar singh india,13.266,12.633,12.133,14.2,13.466,10.8,76.498,qual,2021,None
+31,carlo hörr germany,13.566,11.3,12.266,14.0,13.366,12.0,76.498,qual,2021,None
+32,ricardo rudy austria,13.166,11.833,12.3,13.833,12.966,11.833,75.931,qual,2021,None
+33,tomas kuzmickas lithuania,13.4,12.4,12.766,13.866,11.4,11.966,75.798,qual,2021,None
+34,nguyen van khanh phong vietnam,10.933,10.8,14.166,13.5,13.333,12.7,75.432,qual,2021,None
+35,yordan aleksandrov bulgaria,11.6,11.2,12.466,13.566,13.9,12.566,75.298,qual,2021,None
+36,valgard reinhardsson iceland,13.166,11.833,11.866,13.766,12.466,12.133,75.23,qual,2021,None
+37,benedek tomcsanyi hungary,11.833,13.166,12.45,13.816,12.833,10.933,75.031,qual,2021,None
+38,jermain grünberg netherlands,12.733,11.3,10.933,13.966,14.333,11.7,74.965,qual,2021,None
+39,gytis chasazyrovas lithuania,12.733,13.7,11.733,12.033,12.966,11.4,74.565,qual,2021,None
+40,lee junho south korea,14.166,10.633,12.9,13.2,12.8,10.733,74.432,qual,2021,None
+41,jose nogueira portugal,13.366,11.066,10.8,13.9,12.933,12.266,74.331,qual,2021,None
+42,israel chiriboga ecuador,12.566,11.3,11.566,12.566,13.6,12.733,74.331,qual,2021,None
+43,guilherme campos portugal,13.466,10.166,12.633,13.9,12.666,10.966,73.797,qual,2021,None
+44,kim wanström sweden,13.8,11.8,9.825,13.233,12.7,12.4,73.758,qual,2021,None
+45,sviataslau dranitski belarus,12.966,11.7,11.433,14.3,12.2,11.033,73.632,qual,2021,None
+46,abhijeet kumar india,12.666,11.733,11.166,12.433,13.2,12.133,73.331,qual,2021,None
+47,frantisek cerny czech republic,13.166,10.7,11.2,13.9,11.766,12.2,72.932,qual,2021,None
+48,jonas thorisson iceland,12.7,10.566,11.5,13.733,12.133,12.266,72.898,qual,2021,None
+49,hung shih-tung taiwan,11.833,12.0,11.7,13.733,13.133,10.266,72.665,qual,2021,None
+50,kaya kazuma japan,14.566,14.933,13.966,0.0,14.833,13.966,72.264,qual,2021,None
+51,teodor trifonov bulgaria,10.933,10.733,10.666,13.833,12.866,11.5,70.531,qual,2021,None
+52,ricards plate latvia,9.9,11.833,11.566,13.033,9.166,12.233,67.731,qual,2021,None
+53,ryu sunghyun south korea,14.6,0.0,13.0,14.066,12.666,13.333,67.665,qual,2021,None
+54,lee junghyo south korea,12.466,13.966,12.833,0.0,14.3,13.2,66.765,qual,2021,None
+55,van vi luong vietnam,11.966,11.5,12.733,13.166,13.233,0.0,62.598,qual,2021,None
+56,martin gudmundsson iceland,12.766,11.2,0.0,13.833,12.5,12.266,62.565,qual,2021,None
+57,pablo broszio panama,9.933,6.866,11.133,12.633,11.533,9.333,61.431,qual,2021,None
+58,mohamed afify egypt,10.7,11.866,0.0,13.9,13.566,11.3,61.332,qual,2021,None
+59,farukh nabiyev kazakhstan,11.2,0.0,9.766,13.9,14.066,12.0,60.932,qual,2021,None
+60,suphacheep baobenmad thailand,10.233,3.8,4.7,13.3,10.633,9.833,52.499,qual,2021,None
+61,omar mohamed egypt,13.333,0.0,12.733,0.0,13.8,11.8,51.666,qual,2021,None
+62,hung yuan-hsi taiwan,0.0,10.733,12.966,0.0,14.3,13.0,50.999,qual,2021,None
+63,glenn trebing germany,0.0,11.466,12.333,0.0,14.4,12.733,50.932,qual,2021,None
+64,bernardo almeida portugal,13.466,11.533,0.0,0.0,13.2,11.633,49.832,qual,2021,None
+65,tikumporn surintornta thailand,13.966,0.0,11.466,12.9,0.0,10.633,48.965,qual,2021,None
+66,isaac nuñez mexico,7.433,0.0,0.0,13.566,14.733,13.166,48.898,qual,2021,None
+67,joseph cemlyn-jones great britain,0.0,12.666,13.1,0.0,9.933,12.633,48.332,qual,2021,None
+68,carlos yulo philippines,15.166,0.0,0.0,14.733,15.566,0.0,45.465,qual,2021,None
+69,nicola bartolini italy,14.966,13.8,0.0,14.7,0.0,0.0,43.466,qual,2021,None
+70,nazar chepurnyi ukraine,14.008,0.0,0.0,14.966,14.433,0.0,43.407,qual,2021,None
+71,nicolau mir spain,12.933,0.0,0.0,14.233,14.466,0.0,41.632,qual,2021,None
+72,javier rojo mexico,13.166,0.0,0.0,14.333,13.466,0.0,40.965,qual,2021,None
+73,sergei naidin russia,0.0,14.533,0.0,0.0,14.433,11.9,40.866,qual,2021,None
+74,nicolo mozzato italy,14.0,11.966,0.0,0.0,14.4,0.0,40.366,qual,2021,None
+75,marios georgiou cyprus,0.0,12.6,0.0,0.0,14.8,12.8,40.2,qual,2021,None
+76,dario sissakis germany,13.633,12.266,0.0,14.3,0.0,0.0,40.199,qual,2021,None
+77,felix remuta germany,13.7,0.0,0.0,12.9,13.333,0.0,39.933,qual,2021,None
+78,zaid khater egypt,12.9,0.0,12.733,13.933,0.0,0.0,39.566,qual,2021,None
+79,andrin frey switzerland,13.966,12.366,0.0,13.2,0.0,0.0,39.532,qual,2021,None
+80,rene cournoyer canada,13.666,0.0,0.0,0.0,14.4,11.033,39.099,qual,2021,None
+81,ahmed abdelrahman egypt,0.0,12.666,0.0,13.066,12.333,0.0,38.065,qual,2021,None
+82,roman vashchenko ukraine,13.933,0.0,12.3,0.0,0.0,11.8,38.033,qual,2021,None
+83,pavel gulidov israel,13.033,0.0,11.466,0.0,13.166,0.0,37.665,qual,2021,None
+84,trinh hai khang vietnam,11.966,0.0,0.0,13.966,11.7,0.0,37.632,qual,2021,None
+85,adam dobrovitz hungary,10.95,0.0,12.2,12.933,0.0,0.0,36.083,qual,2021,None
+86,ashish kumar india,0.0,11.0,12.1,10.083,0.0,0.0,33.183,qual,2021,None
+87,hu xuwei china,0.0,0.0,0.0,0.0,15.233,14.533,29.766,qual,2021,None
+88,courtney tulloch great britain,0.0,0.0,14.666,14.533,0.0,0.0,29.199,qual,2021,None
+89,donnell whittenburg united states,13.866,0.0,0.0,15.033,0.0,0.0,28.899,qual,2021,None
+90,petro pakhniuk ukraine,0.0,13.9,0.0,0.0,14.666,0.0,28.566,qual,2021,None
+91,yahor sharamkou belarus,13.766,0.0,0.0,14.566,0.0,0.0,28.332,qual,2021,None
+92,ivan stretovich russia,14.266,0.0,0.0,0.0,0.0,14.0,28.266,qual,2021,None
+93,shiao yu-jan taiwan,13.933,14.233,0.0,0.0,0.0,0.0,28.166,qual,2021,None
+94,frank rijken netherlands,0.0,13.966,0.0,0.0,14.133,0.0,28.099,qual,2021,None
+95,noe seifert switzerland,0.0,13.466,0.0,0.0,14.566,0.0,28.032,qual,2021,None
+96,ondrej kalny czech republic,14.2,0.0,0.0,13.766,0.0,0.0,27.966,qual,2021,None
+97,filip lidbeck sweden,13.433,0.0,0.0,14.3,0.0,0.0,27.733,qual,2021,None
+98,thomas grasso italy,12.8,0.0,0.0,14.833,0.0,0.0,27.633,qual,2021,None
+99,zachary clay canada,0.0,13.933,0.0,0.0,13.633,0.0,27.566,qual,2021,None
+100,alexander myakinin israel,0.0,13.566,0.0,0.0,0.0,13.8,27.366,qual,2021,None
+100,mukhammadzhon yakubov russia,13.233,0.0,0.0,14.133,0.0,0.0,27.366,qual,2021,None
+102,vladislav poliashov russia,0.0,13.766,0.0,0.0,13.533,0.0,27.299,qual,2021,None
+103,vladyslav hryko ukraine,0.0,14.166,0.0,0.0,0.0,13.066,27.232,qual,2021,None
+104,felix dolci canada,0.0,0.0,13.666,0.0,0.0,13.4,27.066,qual,2021,None
+105,maxime gentges belgium,0.0,13.033,0.0,0.0,0.0,13.9,26.933,qual,2021,None
+106,lin guan-yi taiwan,0.0,0.0,14.133,0.0,12.2,0.0,26.333,qual,2021,None
+107,tseng wei-sheng taiwan,12.766,0.0,0.0,13.366,0.0,0.0,26.132,qual,2021,None
+108,dominick cunningham great britain,11.466,0.0,0.0,14.633,0.0,0.0,26.099,qual,2021,None
+108,david rumbutis sweden,0.0,0.0,12.833,13.266,0.0,0.0,26.099,qual,2021,None
+110,brinn bevan great britain,0.0,11.666,0.0,0.0,14.366,0.0,26.032,qual,2021,None
+111,kristopher bohorquez colombia,0.0,0.0,13.366,0.0,12.633,0.0,25.999,qual,2021,None
+112,josue juarez mexico,0.0,0.0,0.0,0.0,14.566,11.333,25.899,qual,2021,None
+113,javier sandoval colombia,0.0,13.133,0.0,0.0,0.0,12.666,25.799,qual,2021,None
+114,thierno diallo spain,0.0,13.033,12.366,0.0,0.0,0.0,25.399,qual,2021,None
+115,dilan jimenez colombia,11.866,0.0,0.0,13.366,0.0,0.0,25.232,qual,2021,None
+116,antonios tantalidis greece,13.033,12.166,0.0,0.0,0.0,0.0,25.199,qual,2021,None
+117,mustafa arca turkey,11.466,0.0,0.0,13.666,0.0,0.0,25.132,qual,2021,None
+118,stefanos tsolakidis greece,0.0,12.8,0.0,0.0,12.2,0.0,25.0,qual,2021,None
+119,szabolcs batori hungary,0.0,12.033,0.0,0.0,12.866,0.0,24.899,qual,2021,None
+120,santos martinez mexico,0.0,0.0,11.7,13.033,0.0,0.0,24.733,qual,2021,None
+121,dimitar dimitrov bulgaria,10.6,0.0,0.0,14.1,0.0,0.0,24.7,qual,2021,None
+122,ivan tikhonov azerbaijan,0.0,0.0,0.0,13.7,0.0,10.966,24.666,qual,2021,None
+123,phan ngoc hung vietnam,0.0,12.5,11.8,0.0,0.0,0.0,24.3,qual,2021,None
+124,ilyas azizov kazakhstan,13.933,9.966,0.0,0.0,0.0,0.0,23.899,qual,2021,None
+125,gagik khachikyan armenia,0.0,11.6,0.0,0.0,12.066,0.0,23.666,qual,2021,None
+126,moreno kratter switzerland,11.033,0.0,0.0,0.0,0.0,11.975,23.008,qual,2021,None
+127,abdelrahman abdelhaleem egypt,0.0,11.366,0.0,0.0,0.0,11.6,22.966,qual,2021,None
+128,yazan al souliman syria,0.0,9.933,0.0,0.0,12.533,0.0,22.466,qual,2021,None
+129,igor radivilov ukraine,0.0,0.0,7.166,14.7,0.0,0.0,21.866,qual,2021,None
+130,diego neumaier mexico,0.0,12.4,0.0,0.0,0.0,8.433,20.833,qual,2021,None
+131,kerem sener turkey,0.0,8.866,0.0,0.0,0.0,11.166,20.032,qual,2021,None
+132,weng hao china,0.0,15.6,0.0,0.0,0.0,0.0,15.6,qual,2021,None
+133,stephen nedoroscik united states,0.0,15.366,0.0,0.0,0.0,0.0,15.366,qual,2021,None
+134,alec yoder united states,0.0,15.3,0.0,0.0,0.0,0.0,15.3,qual,2021,None
+135,lan xingyu china,0.0,0.0,15.266,0.0,0.0,0.0,15.266,qual,2021,None
+136,nariman kurbanov kazakhstan,0.0,15.0,0.0,0.0,0.0,0.0,15.0,qual,2021,None
+137,minami kazuki japan,14.966,0.0,0.0,0.0,0.0,0.0,14.966,qual,2021,None
+138,yonekura hidenobu japan,0.0,0.0,0.0,14.933,0.0,0.0,14.933,qual,2021,None
+139,yang hakseon south korea,0.0,0.0,0.0,14.933,0.0,0.0,14.933,qual,2021,None
+140,filip ude croatia,0.0,14.866,0.0,0.0,0.0,0.0,14.866,qual,2021,None
+141,christian baumann switzerland,0.0,0.0,0.0,0.0,14.841,0.0,14.841,qual,2021,None
+142,vinzenz höck austria,0.0,0.0,14.766,0.0,0.0,0.0,14.766,qual,2021,None
+142,grigoriy klimentev russia,0.0,0.0,14.766,0.0,0.0,0.0,14.766,qual,2021,None
+142,ibrahim colak turkey,0.0,0.0,14.766,0.0,0.0,0.0,14.766,qual,2021,None
+145,harutyun merdinyan armenia,0.0,14.666,0.0,0.0,0.0,0.0,14.666,qual,2021,None
+145,salvatore maresca italy,0.0,0.0,14.666,0.0,0.0,0.0,14.666,qual,2021,None
+147,andrey medvedev israel,0.0,0.0,0.0,14.6,0.0,0.0,14.6,qual,2021,None
+147,marco lodadio italy,0.0,0.0,14.6,0.0,0.0,0.0,14.6,qual,2021,None
+149,hayden skinner great britain,14.566,0.0,0.0,0.0,0.0,0.0,14.566,qual,2021,None
+149,marian dragulescu romania,0.0,0.0,0.0,14.566,0.0,0.0,14.566,qual,2021,None
+152,emil soravuo finland,14.533,0.0,0.0,0.0,0.0,0.0,14.533,qual,2021,None
+153,brody malone united states,0.0,0.0,0.0,0.0,0.0,14.366,14.366,qual,2021,None
+154,asato keisuke japan,0.0,0.0,0.0,14.3,0.0,0.0,14.3,qual,2021,None
+154,uchimura kohei japan,0.0,0.0,0.0,0.0,0.0,14.3,14.3,qual,2021,None
+156,carlo macchini italy,0.0,0.0,0.0,0.0,0.0,14.266,14.266,qual,2021,None
+157,ali zahran egypt,0.0,0.0,14.233,0.0,0.0,0.0,14.233,qual,2021,None
+158,saso bertoncelj slovenia,0.0,14.133,0.0,0.0,0.0,0.0,14.133,qual,2021,None
+159,andreas bretschneider germany,0.0,0.0,0.0,0.0,0.0,14.1,14.1,qual,2021,None
+159,shek wai hung hong kong,0.0,0.0,0.0,14.1,0.0,0.0,14.1,qual,2021,None
+161,ng ka ki hong kong,0.0,0.0,0.0,14.0,0.0,0.0,14.0,qual,2021,None
+162,chris kaji canada,0.0,0.0,13.966,0.0,0.0,0.0,13.966,qual,2021,None
+163,mateo zugec croatia,0.0,13.866,0.0,0.0,0.0,0.0,13.866,qual,2021,None
+163,david vecsernyes hungary,0.0,0.0,0.0,0.0,0.0,13.866,13.866,qual,2021,None
+165,arthur mariano brazil,0.0,0.0,0.0,0.0,0.0,13.766,13.766,qual,2021,None
+165,jakov vlahek croatia,0.0,13.766,0.0,0.0,0.0,0.0,13.766,qual,2021,None
+165,rhys mcclenaghan ireland,0.0,13.766,0.0,0.0,0.0,0.0,13.766,qual,2021,None
+168,stavros gkinis greece,0.0,0.0,13.666,0.0,0.0,0.0,13.666,qual,2021,None
+169,jaffar saleh al sayigh saudi arabia,0.0,0.0,0.0,13.6,0.0,0.0,13.6,qual,2021,None
+170,rani dalsgard denmark,13.5,0.0,0.0,0.0,0.0,0.0,13.5,qual,2021,None
+171,xheni dyrmishi austria,0.0,13.466,0.0,0.0,0.0,0.0,13.466,qual,2021,None
+171,jon gunnarsson iceland,0.0,0.0,13.466,0.0,0.0,0.0,13.466,qual,2021,None
+173,konstantine konstantinidis greece,0.0,0.0,13.4,0.0,0.0,0.0,13.4,qual,2021,None
+174,sercan demir turkey,0.0,0.0,0.0,0.0,13.366,0.0,13.366,qual,2021,None
+174,alexander diab united states,0.0,0.0,13.366,0.0,0.0,0.0,13.366,qual,2021,None
+176,cyril tommasone france,0.0,13.333,0.0,0.0,0.0,0.0,13.333,qual,2021,None
+177,huang mingqi china,0.0,0.0,0.0,13.233,0.0,0.0,13.233,qual,2021,None
+178,radomir sliz czech republic,0.0,12.566,0.0,0.0,0.0,0.0,12.566,qual,2021,None
+179,adria vera spain,0.0,0.0,0.0,0.0,0.0,12.466,12.466,qual,2021,None
+180,auren benovic croatia,12.366,0.0,0.0,0.0,0.0,0.0,12.366,qual,2021,None
+181,ilfrat imarjanov kazakhstan,0.0,0.0,0.0,0.0,12.066,0.0,12.066,qual,2021,None
+182,bae garam south korea,0.0,11.9,0.0,0.0,0.0,0.0,11.9,qual,2021,None
+183,elias koski finland,0.0,11.366,0.0,0.0,0.0,0.0,11.366,qual,2021,None
+184,jayson rampersad canada,0.0,11.333,0.0,0.0,0.0,0.0,11.333,qual,2021,None
+185,nasser al samiri saudi arabia,0.0,0.0,0.0,0.0,10.933,0.0,10.933,qual,2021,None
+186,taha serhani switzerland,0.0,0.0,0.0,0.0,0.0,10.666,10.666,qual,2021,None
+187,christoforos konstantinidis greece,10.566,0.0,0.0,0.0,0.0,0.0,10.566,qual,2021,None
+188,marko jovicic croatia,10.1,0.0,0.0,0.0,0.0,0.0,10.1,qual,2021,None
+1,zhang boheng china,14.883,13.466,14.6,14.866,15.366,14.8,87.981,final,2021,None
+2,hashimoto daiki japan,14.833,14.166,13.966,14.8,15.066,15.133,87.964,final,2021,None
+3,illia kovtun ukraine,14.366,14.4,12.933,14.3,14.4,14.5,84.899,final,2021,None
+4,yul moldauer united states,14.5,14.866,12.466,14.333,14.9,13.3,84.365,final,2021,None
+5,ahmet önder turkey,14.1,13.8,13.666,13.966,14.8,13.9,84.232,final,2021,None
+6,shi cong china,14.466,13.5,13.733,14.658,13.4,14.3,84.057,final,2021,None
+7,joel plata spain,14.133,13.766,13.2,14.0,14.666,13.6,83.365,final,2021,None
+8,william emard canada,14.633,12.433,14.625,14.466,13.766,13.333,83.256,final,2021,None
+9,joshua nathan great britain,13.7,15.0,12.833,14.366,13.966,13.366,83.231,final,2021,None
+10,nestor abad spain,13.9,13.233,13.666,14.233,14.366,13.333,82.731,final,2021,None
+11,adem asil turkey,14.4,12.733,14.466,14.7,12.6,13.8,82.699,final,2021,None
+12,henji mboyo switzerland,13.7,13.7,13.4,14.058,13.9,13.933,82.691,final,2021,None
+13,caio souza brazil,13.3,12.2,13.966,14.633,14.566,14.0,82.665,final,2021,None
+14,krisztofer meszaros hungary,13.8,13.716,13.066,13.833,13.633,13.533,81.581,final,2021,None
+15,robert tvorogal lithuania,13.033,13.2,13.175,13.666,14.466,14.0,81.54,final,2021,None
+16,luka van den keybus belgium,13.666,12.933,12.833,14.533,13.5,13.8,81.265,final,2021,None
+17,nikita ignatyev russia,13.733,12.466,13.366,14.116,13.4,13.566,80.647,final,2021,None
+18,robert kirmes finland,13.866,13.7,12.633,13.966,13.266,12.366,79.797,final,2021,None
+19,nikolaos iliopoulos greece,12.733,12.633,13.308,14.033,13.666,13.366,79.739,final,2021,None
+20,noah kuavita belgium,13.6,12.9,12.366,13.3,13.166,14.266,79.598,final,2021,None
+21,sofus heggemsnes norway,12.5,13.6,13.233,14.266,12.5,13.2,79.299,final,2021,None
+22,oskar kirmes finland,13.566,13.333,12.5,13.666,13.7,11.466,78.231,final,2021,None
+23,eyal indig israel,12.833,12.666,11.166,13.466,13.3,12.833,76.264,final,2021,None
+24,alexander benda austria,12.333,11.2,12.666,13.633,13.0,11.333,74.165,final,2021,None
