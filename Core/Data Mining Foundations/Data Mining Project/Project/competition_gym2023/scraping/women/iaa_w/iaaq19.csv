@@ -1,0 +1,235 @@
+Rank,Athlete,Nation,VT,UB,BB,FX,AA
+1,Simone Biles,United States,15.066,14.733,14.8,14.833,59.432
+2,Sunisa Lee,United States,14.566,15,13.4,14.2,57.166
+3,Melanie De Jesus Dos Santos,France,14.6,14.6,13.616,13.966,56.782
+4,Angelina Melnikova,Russia,14.433,14.7,13.366,14.1,56.599
+5,Grace McCallum,United States,14.566,14.641,12.933,13.766,55.906
+6,Liu Tingting,China,13.566,14.766,14.3,13.233,55.865
+7,Li Shijia,China,14.466,14.166,14.5,12.6,55.732
+8,Nina Derwael,Belgium,13.5,15.141,13.2,13.6,55.441
+9,Ellie Black,Canada,14.2,14.266,13.533,13.2,55.199
+10,Elisabeth Seitz,Germany,14.6,14.8,12.833,12.766,54.999
+11,Flavia Saraiva,Brazil,14.566,12.833,13.7,13.833,54.932
+12,Lilia Akhaimova,Russia,14.733,13.366,12.9,13.933,54.932
+13,Giorgia Villa,Italy,14.666,14.3,12.533,12.9,54.399
+14,Sarah Voss,Germany,14.366,13.766,13.6,12.4,54.132
+15,Alice Kinsella,Great Britain,14.3,13.966,13.433,12.433,54.132
+16,Asuka Teramoto,Japan,14.633,13.966,12.966,12.566,54.131
+17,Aline Friess,France,15,13.566,12.7,12.733,53.999
+18,Anastasia Agafonova,Russia,13.4,14.7,13.033,12.666,53.799
+19,Giulia Steingruber,Switzerland,15.066,12.4,12.766,13.5,53.732
+20,Elisa Iorio,Italy,14.366,14.133,12.633,12.4,53.532
+21,Tang Xijing,China,14.266,14.633,11.733,12.866,53.498
+22,Georgia Godwin,Australia,13.866,13.566,12.866,13.033,53.331
+23,Hitomi Hatakeda,Japan,14.033,13.733,12.966,12.5,53.232
+24,Naomi Visser,Netherlands,13.933,13.466,12.466,13.366,53.231
+25,Brooklyn Moors,Canada,13.9,13.333,12.133,13.566,52.932
+26,Diana Varinska,Ukraine,13.5,13.733,12.966,12.7,52.899
+27,Cintia Rodriguez,Spain,13.533,13.866,12.6,12.8,52.799
+28,Lee Yunseo,South Korea,13.333,14.133,12.433,12.6,52.499
+29,Asia D’Amato,Italy,14.5,14,11.833,12.1,52.433
+30,Zsofia Kovacs,Hungary,14.433,14.2,11.566,12.233,52.432
+31,Martina Dominici,Argentina,14.2,13.3,12.366,12.566,52.432
+32,Ana Perez,Spain,13.666,13.833,11.5,13.2,52.199
+33,Yeo Seojeong,South Korea,14.933,12.366,11.833,13.066,52.198
+34,Eythora Thorsdottir,Netherlands,14.4,11.466,13.333,12.966,52.165
+35,Anastasiia Bachynska,Ukraine,13.866,13.1,11.966,13.233,52.165
+36,Abigail Magistrati,Argentina,14.4,12.866,12,12.766,52.032
+37,Georgia-Mae Fenton,Great Britain,13.533,14.333,11.566,12.5,51.932
+38,Ellie Downie,Great Britain,14.466,12.666,12.366,12.433,51.931
+39,Victoria-Kayen Woo,Canada,13.5,13.5,12.3,12.5,51.8
+40,Alexa Moreno,Mexico,14.9,12.666,11.9,12.3,51.766
+41,Ilaria Käslin,Switzerland,13.6,12.966,12.466,12.466,51.498
+42,Roxana Popa,Spain,13.766,13.991,9.9,13.8,51.457
+43,Maellyse Brassart,Belgium,13.6,13.133,11.733,12.766,51.232
+44,Bianka Schermann,Hungary,13.366,13.966,11.266,12.6,51.198
+45,Lieke Wevers,Netherlands,13.733,13.9,10.366,13.033,51.032
+46,Thais Fidelis,Brazil,13.633,12.733,12.833,11.833,51.032
+47,Danusia Francis,Jamaica,13.5,12.35,12.566,12.566,50.982
+48,Emma Nedov,Australia,13.533,12.8,13.1,11.466,50.899
+49,Angelina Radivilova,Ukraine,13.566,12.966,11.3,13.066,50.898
+50,Kim Su Jong,North Korea,14.2,12.933,11.1,12.633,50.866
+51,Aneta Holasova,Czech Republic,13.533,12.233,12.733,12.366,50.766
+52,Emelie Petz,Germany,13.766,13.233,11.533,12.166,50.698
+53,Marcia Vidiaux,Cuba,14.366,11.8,11.733,12.733,50.632
+54,Maria Holbura,Romania,13.3,12.233,12.733,12.366,50.632
+55,Elisa Hämmerle,Austria,13.333,12.866,11.933,12.4,50.532
+56,Ioana Crisan,Romania,13.833,12.666,11.733,12.066,50.298
+57,Anastasiya Alistratava,Belarus,12.9,14.066,10.5,12.6,50.066
+58,Anapaula Gutierrez,Mexico,14.133,12.666,10.933,12.266,49.998
+59,Farah Ann Abdul Hadi,Malaysia,13.433,12.833,11.066,12.566,49.898
+60,Mandy Mohamed,Egypt,13.466,12.366,11.466,12.533,49.831
+61,Nazli Savranbasi,Turkey,13.433,12.633,11.733,12,49.799
+62,Agustina Pisos,Argentina,13.533,12.666,11.466,12.1,49.765
+63,Barbora Mokosova,Slovakia,13.5,13.1,11.366,11.766,49.732
+64,Jasmin Mader,Austria,13.433,12.666,11.733,11.9,49.732
+65,Filipa Martins,Portugal,13.533,12.233,11.966,11.966,49.698
+66,An Chang Ok,North Korea,13.1,13.033,11,12.4,49.533
+67,Ana Derek,Croatia,13.433,10.6,12.4,13.033,49.466
+68,Caitlin Rooskrantz,South Africa,13.233,13.1,11.3,11.833,49.466
+69,Dorina Böczögö,Hungary,13.566,11.633,11.366,12.866,49.431
+70,Naveen Daries,South Africa,13.133,12.3,12.1,11.866,49.399
+71,Carmen Ghiciuc,Romania,13.366,11.466,12.6,11.966,49.398
+72,Kim Son Hyang,North Korea,14.033,12.266,10.533,12.5,49.332
+73,Eom Dohyun,South Korea,12.5,11.933,12.333,12.566,49.332
+74,Ana Lago,Mexico,13.633,12.333,11.433,11.8,49.199
+75,Jonna Adlerteg,Sweden,13.433,12.7,11.033,11.933,49.099
+76,Göksu Üctas Sanli,Turkey,13.333,10.8,11.933,13,49.066
+77,Denisa Golgota,Romania,14.033,12.2,11.833,11,49.066
+78,Stefanie Siegenthaler,Switzerland,12.933,12.633,11.933,11.533,49.032
+79,Gabriela Janik,Poland,13.666,12.633,10.233,12.3,48.832
+79,Leticia Costa,Brazil,13.633,11.3,11.233,12.633,48.799
+80,Farah Salem,Egypt,13.533,12.133,11.4,11.633,48.699
+81,Simona Castro,Chile,13.4,12.133,10.841,12.233,48.607
+82,Lihie Raz,Israel,13.433,11.333,11.5,12.333,48.599
+83,Julie Erichsen,Norway,13.4,11.966,11.5,11.733,48.599
+84,Ariana Orrego,Peru,13.433,11.333,11.5,12.3,48.566
+85,Dominika Ponizilova,Czech Republic,12.933,12.1,12.133,11.333,48.499
+86,Beatriz Cardoso,Portugal,13,11.533,12.1,11.866,48.499
+87,Oksana Chusovitina,Uzbekistan,14.833,11.2,11.1,11.3,48.433
+88,Ting Hua-Tien,Chinese Taipei,12.633,12.433,11.466,11.866,48.398
+89,Jessica Castles,Sweden,11.666,12.066,12.333,12.333,48.398
+90,Tan Ing Yueh,Malaysia,13.4,12.633,11.266,11,48.299
+91,Tutya Yilmaz,Turkey,13.466,11.966,10.5,12.333,48.265
+92,Farah Hussein,Egypt,13.5,11.833,11.433,11.433,48.199
+93,Marina Nekrasova,Azerbaijan,14.3,12.2,10.3,11.366,48.166
+94,Tan Sze En,Singapore,13.433,11.766,11.633,11.266,48.098
+95,Megan Ryan,Ireland,13.4,11.3,11.266,12.1,48.066
+96,Emma Slevin,Ireland,13.4,12.2,10.633,11.733,47.966
+97,Hanna Traukova,Belarus,13.466,11.733,11,11.766,47.965
+98,Maria Kharenkova,Georgia,12.866,10.766,12.033,12.2,47.865
+99,Argyro Afrati,Greece,13.5,11.433,11.066,11.866,47.865
+100,Maia Fishwick,New Zealand,13.6,11.333,11.166,11.766,47.865
+101,Adela Sajn,Slovenia,12.8,10.166,11.933,12.933,47.832
+102,Courtney McGregor,New Zealand,13.933,10.7,11.466,11.7,47.799
+103,Toni-Ann Williams,Jamaica,13.666,11.8,10.166,12.166,47.798
+104,Luciana Alvarado,Costa Rica,13.466,11.933,11.266,11.1,47.765
+105,Lucie Jirikova,Czech Republic,13,11.9,10.9,11.933,47.733
+106,Tjasa Kysselef,Slovenia,13.8,10.333,11.266,12.3,47.699
+107,Tracie Ang,Malaysia,12.533,12.233,10,12.633,47.399
+108,Chiara Bunce,Slovakia,13.266,10.9,11.266,11.8,47.232
+109,Elina Vihrova,Latvia,13.333,12.1,9.6,12.166,47.199
+110,Irina Sazonova,Iceland,13.366,12.2,9.666,11.966,47.198
+111,Franchesca Santi,Chile,14.3,10.666,10.975,11.166,47.107
+112,Maria Tronrud,Norway,12.733,11.9,11.033,11.433,47.099
+113,Marlies Männersdorfer,Austria,13.333,10.6,11.333,11.766,47.032
+114,Milka Gehani,Sri Lanka,13.4,10.75,10.733,12.133,47.016
+115,Karelys Diaz,Puerto Rico,13.5,11.4,10.066,12,46.966
+116,Heika del Sol Salas,Costa Rica,12.7,12.266,10.833,11.166,46.965
+117,Elvira Katsali,Greece,12.1,10.266,12.266,12.2,46.832
+118,Ioanna Xoulogi,Greece,12.5,11.066,10.566,12.666,46.798
+119,Maija Leinonen,Finland,12.566,11.866,11.1,11.266,46.798
+120,Nitta Nieminen,Finland,13.066,11.7,11.633,10.3,46.699
+121,Sandra Collantes,Peru,13.566,11.166,9.3,12.566,46.598
+122,Ana Palacios,Guatemala,14.033,11.333,10.066,11.166,46.598
+123,Lai Chin,Chinese Taipei,13.166,9.7,12.233,11.466,46.565
+124,Kate Molloy,Ireland,12.533,10.833,11.133,11.833,46.332
+125,Julie Søderstrøm,Norway,13.133,10.733,10.433,11.9,46.199
+126,Fabiola Diaz,Peru,13.233,10.033,12.3,10.5,46.066
+127,Pranati Nayak,India,14.2,10.566,9.933,11.133,45.832
+128,Nancy Taman,Egypt,13.9,11.433,10.166,10.3,45.799
+129,Fang Ko-Ching,Chinese Taipei,13.4,11.766,8.666,11.933,45.765
+130,Paula Mejias,Puerto Rico,11.433,10.566,10.933,12.7,45.632
+131,Tran Doan Quynh Nam,Vietnam,12.933,10.133,10.533,11.866,45.465
+132,Pranati Das,India,13,9.916,10.866,11.466,45.248
+133,Mammule Rankoe,South Africa,11.3,11.6,11.033,11.3,45.233
+134,Egle Stalinkeviciute,Lithuania,12.666,10.966,9.4,12.2,45.232
+135,Katriel de Sousa,Venezuela,13,10.666,9.766,11.8,45.232
+136,Agata Vostruchovaite,Lithuania,13.466,10.833,9.933,10.966,45.198
+137,Celeste Mordenti,Luxembourg,13.1,10.5,10.033,11.4,45.033
+138,Camila Montoya,Costa Rica,13.4,10.733,9.633,11.266,45.032
+139,Anastasija Dubova,Latvia,12.233,10.133,11.466,11.166,44.998
+140,Angelica Mesa,Colombia,12.166,11.733,9.666,11.333,44.898
+141,Rifda Irfanaluthfi,Indonesia,13.266,11.333,8.733,11.5,44.832
+142,Gloria Philassides,Cyprus,12.333,10.033,10.7,11.733,44.799
+143,Nataly Rodriguez,Colombia,13.233,11.366,9.066,11.133,44.798
+144,Teja Belak,Slovenia,14.333,7.833,11.466,11.133,44.765
+145,Kiara Richmon,Jamaica,12.8,11.466,9.233,11.133,44.632
+146,Alexa Grande,El Salvador,13.3,9.033,10.833,11.366,44.532
+147,Do Thi Van Anh,Vietnam,13.3,9.6,9.533,11.7,44.133
+148,Ominakhon Khalilova,Uzbekistan,12.333,8.633,10.966,12.033,43.965
+149,Kaylee Cole,Bolivia,13.366,10.5,8.533,11.5,43.899
+150,Kimberly del Valle,Guatemala,13.2,10.2,8.933,11.533,43.866
+151,Indira Ulmasova,Uzbekistan,13.2,8.666,10.433,11.533,43.832
+152,Annabel Agba,Nigeria,13.133,9.8,10.316,10.575,43.824
+153,Meitar Lavy,Israel,13,9.7,9.366,11.5,43.566
+154,Laney Madsen,Bulgaria,13.4,7.566,11.233,11.333,43.532
+155,Rosanna Ojala,Finland,11.333,10.333,10.4,11.433,43.499
+156,Victoria Gilberg,Denmark,12.7,9.1,10.2,11.133,43.133
+157,Aleksandra Rajcic,Serbia,11.833,11.9,9.733,9.666,43.132
+158,Raegan Rutty,Cayman Islands,12.1,10,10.166,10.8,43.066
+159,Paola Ruano,El Salvador,12.9,9.333,9.7,11.1,43.033
+160,Sofia Nair,Algeria,12.933,8.133,10.433,11.466,42.965
+161,Anahit Assadourian,Armenia,11.966,9.766,9.833,11.4,42.965
+162,Maria Villegas,Colombia,11.6,11.366,9.008,10.933,42.907
+163,Marcela Bonifasi,Guatemala,12.033,9.966,9.3,11.4,42.699
+164,Emilie Winther,Denmark,12.2,10.5,9.166,10.7,42.566
+165,Victoria Kajø,Denmark,12.233,9.4,10.366,10.2,42.199
+166,Marija Ribalcenko,Latvia,11.9,10.033,9.6,10.6,42.133
+167,Pierina Cedres,Uruguay,12.4,9.166,8.6,11.233,41.399
+167,Kim Bui,Germany,13.666,14.2,0,13,40.866
+168,Kristina Zivadinovic,Serbia,12.466,6.641,10.433,11.2,40.74
+168,Georgia-Rose Brown,Australia,13.566,13.633,0,13.3,40.499
+169,Milca Leon,Venezuela,12.8,8.666,9.566,9.433,40.465
+169,Lorette Charpy,France,0,14.166,12.6,13.233,39.999
+169,Marine Boyer,France,13.733,0,13.166,12.966,39.865
+169,Akari Matsumura,Japan,14.1,0,12.633,12.933,39.666
+170,Laura Rodriguez,Panama,12,8.466,9.066,10,39.532
+170,Margaux Daveloose,Belgium,0,13.166,12.9,13.366,39.432
+170,Senna Deriks,Belgium,13.566,13.733,12.1,0,39.399
+170,Alba Petisco,Spain,13.633,12.833,12.366,0,38.832
+170,Nagi Kajita,Japan,0,13.533,11.9,13.166,38.599
+170,Aleksandra Shchekoldina,Russia,14.5,0,12,11.866,38.366
+170,Ri Su Ryon,North Korea,14.466,12.433,0,10.866,37.765
+170,Valeriia Osipova,Ukraine,13.866,0,11.933,11.9,37.699
+170,Talia Folino,Australia,13.566,0,11.233,12.483,37.282
+171,Dianne Soria,Bolivia,11.9,7.483,7.666,10.2,37.249
+171,Elsa Garcia,Mexico,14,0,10.666,12.466,37.132
+172,Cloe Godoy,Panama,11.1,4.5,10.5,10.566,36.666
+173,Camil Betances,Dominican Republic,12.366,6.633,8.1,9.5,36.599
+173,Noemi Makra,Hungary,0,13.133,11.166,12.133,36.432
+173,Caterina Barloggio,Switzerland,0,12.866,11.2,12.066,36.132
+173,Sandra Jessenova,Czech Republic,13.333,0,10.908,11.566,35.807
+174,Bianca Leon,Puerto Rico,0,11.366,10.333,11.6,33.299
+175,Tienna Nguyen,Vietnam,12.5,8.033,9.733,DNS,30.266
+176,Jade Carey,United States,15.3,0,0,14.2,29.5
+177,Claire Pontlevoy,France,14.3,14.4,0,0,28.7
+178,Alice D’Amato,Italy,14.5,14.133,0,0,28.633
+179,Chen Yile,China,0,14.366,14.266,0,28.632
+180,Tisha Volleman,Netherlands,14.4,0,0,13.533,27.933
+181,Becky Downie,Great Britain,0,14.8,13.1,0,27.9
+182,Shallon Olsen,Canada,14.833,0,0,12.691,27.524
+183,Qi Qi,China,14.533,0,0,12.966,27.499
+184,Kara Eaker,United States,0,14,13.466,0,27.466
+185,Aiko Sugihara,Japan,14.033,13.266,0,0,27.299
+186,Yamilet a Peña,Dominican Republic,14.433,11.566,1.191,DNS,27.19
+187,Ana Padurariu,Canada,0,13.433,13.5,0,26.933
+188,Ayelen Tarabini,Argentina,14.2,12.7,0,0,26.9
+189,Sanne Wevers,Netherlands,0,13.633,13.2,0,26.833
+190,Taeja James,Great Britain,13.766,0,0,12.5,26.266
+191,Jade Vansteenkiste,Belgium,14.1,0,0,12.2,26.2
+192,Ham Miju,South Korea,14.066,0,0,12,26.066
+193,Lee Eunju,South Korea,0,12.8,12.033,0,24.833
+194,Gaya Giladi,Israel,13.333,DNS,DNS,11.433,24.766
+195,Desiree Carofiglio,Italy,0,0,11.266,13.4,24.666
+196,Mariana Pitrez,Portugal,12.766,11.233,DNS,DNS,23.999
+197,Luna Fernandez,Argentina,0,0,11.233,12.433,23.666
+198,Kate McDonald,Australia,0,11.2,12.166,0,23.366
+199,Chahed Sakr,Tunisia,12.5,DNS,DNS,9.566,22.066
+200,Aruna Budda Reddy,India,DNS,8.925,10.2,DNS,19.125
+201,Sandra Contreras,Dominican Republic,0,0,7.433,9.4,16.833
+202,Daria Spiridonova,Russia,0,15.016,0,0,15.016
+203,Sara Peter,Hungary,14.466,0,0,0,14.466
+204,Jade Barbosa,Brazil,14.133,0,0,0,14.133
+205,Frida Esparza,Mexico,0,13.766,0,0,13.766
+206,Lorrane Oliveira,Brazil,0,13.633,0,0,13.633
+207,Anny Wu,Switzerland,13.433,0,0,0,13.433
+208,Kim Won Yong,North Korea,0,0,13.066,0,13.066
+209,Marina Gonzalez,Spain,0,0,0,12.733,12.733
+210,Elizabeth Chan Tsz Sum,Hong Kong,12.733,0,0,0,12.733
+211,Pauline Schäfer,Germany,0,0,11.8,0,11.8
+212,Anna-Maria Kanyai,Czech Republic,0,11.033,0,0,11.033
+213,Ng Yan Yin,Hong Kong,0,0,10.566,0,10.566
+214,Yana Fedorova,Ukraine,0,10.4,0,0,10.4
+215,Giulianna Pino,Ecuador,0,0,8.333,0,8.333
+216,Amenaghawon Melvin,Nigeria,0,0,5.733,0,5.733
