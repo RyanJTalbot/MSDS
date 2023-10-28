@@ -1,17 +1,9 @@
-Rank,Athlete,Nation,D,E,ND,Total,Average
-1,Kim Han-sol,South Korea,5.6,9.2,,14.8,14.65
-1,Kim Han-sol,South Korea,5.2,9.3,,14.5,14.65
-2,Yahor Sharamkou,Belarus,5.2,9.25,,14.45,14.35
-2,Yahor Sharamkou,Belarus,5.2,9.15,-0.1,14.25,14.35
-3,Luis Porto,Brazil,5.2,9.2,,14.4,14.35
-3,Luis Porto,Brazil,4.8,9.5,,14.3,14.35
-4,Wataru Tanigawa,Japan,6,7.9,,13.9,14.275
-4,Wataru Tanigawa,Japan,5.6,9.05,,14.65,14.275
-5,Fabian de Luna,Mexico,5.2,9.1,,14.3,14.175
-5,Fabian de Luna,Mexico,5.2,8.95,-0.1,14.05,14.175
-6,Heath Thorpe,Australia,4.8,9.35,,14.15,13.8
-6,Heath Thorpe,Australia,4.6,8.95,-0.1,13.45,13.8
-7,Robert Ghiuzan,Romania,5.2,7.8,-0.3,12.7,13.3
-7,Robert Ghiuzan,Romania,5.2,9,-0.3,13.9,13.3
-8,Marco Walter,Switzerland,5.2,9.2,,14.4,13.25
-8,Marco Walter,Switzerland,4.8,7.6,-0.3,12.1,13.25
+Rank,Athlete,Nation,D,E,ND,Total,D,E,ND,Total,avg
+1,Kim Han-sol,South Korea,5.6,9.2,,14.8,5.2,9.3,,14.5,14.65
+2,Yahor Sharamkou,Belarus,5.2,9.25,,14.45,5.2,9.15,-0.1,14.25,14.35
+3,Luis Porto,Brazil,5.2,9.2,,14.4,4.8,9.5,,14.3,14.35
+4,Wataru Tanigawa,Japan,6,7.9,,13.9,5.6,9.05,,14.65,14.275
+5,Fabian de Luna,Mexico,5.2,9.1,,14.3,5.2,8.95,-0.1,14.05,14.175
+6,Heath Thorpe,Australia,4.8,9.35,,14.15,4.6,8.95,-0.1,13.45,13.8
+7,Robert Ghiuzan,Romania,5.2,7.8,-0.3,12.7,5.2,9,-0.3,13.9,13.3
+8,Marco Walter,Switzerland,5.2,9.2,,14.4,4.8,7.6,-0.3,12.1,13.25
