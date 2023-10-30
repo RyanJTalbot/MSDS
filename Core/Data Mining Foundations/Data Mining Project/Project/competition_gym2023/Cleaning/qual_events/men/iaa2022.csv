@@ -1,249 +1,249 @@
-Rank,Athlete,FX,PH,SR,VT,PB,HB,AA,round,year,Nation
-1,tanigawa wataru japan,14.166,13.733,14.0,14.4,14.866,13.566,84.731,qual,2022,None
-2,hashimoto daiki japan,14.466,11.666,14.0,14.7,14.733,15.1,84.665,qual,2022,None
-3,carlos yulo philippines,15.266,11.766,14.066,14.733,15.3,13.533,84.664,qual,2022,None
-4,joe fraser great britain,13.9,12.533,13.933,14.266,15.066,14.266,83.964,qual,2022,None
-5,zhang boheng china,14.5,14.0,12.033,13.6,14.9,14.733,83.766,qual,2022,None
-6,asher hong united states,13.866,13.3,13.9,14.433,14.6,13.2,83.299,qual,2022,None
-7,joel plata spain,13.5,12.9,13.3,14.6,14.666,13.833,82.799,qual,2022,None
-8,brody malone united states,12.766,13.433,13.7,14.333,13.966,14.433,82.631,qual,2022,None
-9,casimir schmidt netherlands,13.8,13.5,13.933,14.333,13.966,13.033,82.565,qual,2022,None
-10,caio souza brazil,13.566,13.166,13.8,14.533,13.166,14.333,82.564,qual,2022,None
-11,jake jarman great britain,13.9,13.533,13.066,14.6,14.166,13.1,82.365,qual,2022,None
-12,diogo soares brazil,13.466,13.566,13.066,14.1,14.1,13.966,82.264,qual,2022,None
-13,ryu sunghyun south korea,14.466,13.033,13.366,13.666,13.766,13.633,81.93,qual,2022,None
-14,adem asil turkey,14.133,12.933,14.666,13.933,12.533,13.566,81.764,qual,2022,None
-15,illia kovtun ukraine,12.7,13.733,12.4,14.4,14.966,13.533,81.732,qual,2022,None
-16,yumin abbadini italy,13.666,13.966,13.0,13.6,13.7,13.6,81.532,qual,2022,None
-17,tang chia-hung taiwan,14.166,13.0,13.366,13.9,13.533,12.733,80.698,qual,2022,None
-18,lukas dauser germany,13.666,12.233,13.133,13.866,15.4,12.133,80.431,qual,2022,None
-19,sofus heggemsnes norway,13.5,12.4,13.233,14.433,13.433,13.1,80.099,qual,2022,None
-20,krisztian balazs hungary,13.166,12.3,12.8,13.166,14.533,14.1,80.065,qual,2022,None
-21,jossimar calvo colombia,12.933,13.3,12.066,13.033,15.166,13.4,79.898,qual,2022,None
-22,luka van den keybus belgium,13.7,11.733,12.8,14.5,14.333,12.733,79.799,qual,2022,None
-23,gabriel burtanete romania,13.266,12.466,13.2,14.8,13.5,12.566,79.798,qual,2022,None
-24,lorenzo casali italy,13.833,13.166,13.266,14.3,13.2,12.0,79.765,qual,2022,None
-25,nestor abad spain,13.4,12.766,12.566,13.5,14.3,13.166,79.698,qual,2022,None
-26,omar mohamed egypt,13.733,12.866,13.6,13.766,13.866,11.7,79.531,qual,2022,None
-27,mohamed afify egypt,13.1,13.3,12.966,13.666,13.866,12.633,79.531,qual,2022,None
-28,krisztofer meszaros hungary,14.233,12.466,13.1,12.833,14.5,12.366,79.498,qual,2022,None
-29,harald wibye norway,13.466,12.2,12.6,13.9,14.2,13.0,79.366,qual,2022,None
-30,abdulla azimov uzbekistan,13.166,14.3,11.966,13.9,13.533,12.433,79.298,qual,2022,None
-31,paul degouy france,12.533,12.166,13.2,14.1,13.7,13.566,79.265,qual,2022,None
-32,leo saladino france,13.066,12.933,13.3,13.166,13.966,12.633,79.064,qual,2022,None
-33,lee junho south korea,12.733,12.633,13.433,14.6,13.266,12.233,78.898,qual,2022,None
-34,kim jaeho south korea,13.4,11.9,11.766,14.533,13.766,13.266,78.631,qual,2022,None
-35,felix dolci canada,12.433,10.366,13.366,14.533,13.866,13.766,78.33,qual,2022,None
-36,benedek tomcsanyi hungary,13.466,13.033,13.2,12.8,13.266,12.533,78.298,qual,2022,None
-37,glenn trebing germany,12.833,12.166,13.166,13.766,13.2,13.1,78.231,qual,2022,None
-38,dominick cunningham ireland,13.8,12.033,13.066,13.333,13.133,12.7,78.065,qual,2022,None
-39,noe seifert switzerland,12.5,13.533,12.833,13.466,12.6,13.033,77.965,qual,2022,None
-40,elias koski finland,12.8,12.133,12.633,13.8,13.566,13.0,77.932,qual,2022,None
-41,ilyas azizov kazakhstan,13.366,13.1,12.5,13.766,13.466,11.5,77.698,qual,2022,None
-42,david rumbutis sweden,12.066,12.466,12.866,14.0,13.466,12.566,77.43,qual,2022,None
-43,noah kuavita belgium,13.1,10.966,11.733,14.3,13.866,13.4,77.365,qual,2022,None
-44,takumi onoshima belgium,13.566,11.733,12.566,13.566,13.533,11.966,76.93,qual,2022,None
-45,khabibullo ergashev uzbekistan,12.7,13.6,12.6,13.7,12.833,11.466,76.899,qual,2022,None
-46,santiago mayol argentina,13.233,12.733,11.1,13.733,13.3,12.5,76.599,qual,2022,None
-47,yogeshwar singh india,12.233,12.366,12.033,13.666,13.566,12.666,76.53,qual,2022,None
-48,razvan-denis marc romania,13.5,11.133,13.2,12.2,13.5,12.966,76.499,qual,2022,None
-49,lais najjar syria,13.266,12.533,12.0,13.5,13.333,11.466,76.098,qual,2022,None
-50,heath thorpe australia,12.7,10.3,12.7,14.433,12.6,13.266,75.999,qual,2022,None
-51,maxime gentges belgium,13.066,12.833,13.0,12.766,13.5,10.766,75.931,qual,2022,None
-52,mehmet ayberk kosak turkey,13.6,11.7,13.8,12.966,11.933,11.866,75.865,qual,2022,None
-53,alexander benda austria,13.266,12.3,11.7,13.533,11.966,13.1,75.865,qual,2022,None
-54,askhab matiev austria,12.6,12.6,12.166,13.566,12.3,12.566,75.798,qual,2022,None
-55,georgios angonas cyprus,11.666,11.766,12.566,13.866,12.8,13.066,75.73,qual,2022,None
-56,robert kirmes finland,13.266,11.433,11.233,13.8,12.6,13.366,75.698,qual,2022,None
-57,clay mason stephens australia,12.2,11.4,12.3,13.933,13.1,12.733,75.666,qual,2022,None
-58,ivan tikhonov azerbaijan,11.166,11.5,12.633,14.366,13.866,12.1,75.631,qual,2022,None
-59,tomas kuzmickas lithuania,12.533,10.9,12.3,13.4,13.533,12.9,75.566,qual,2022,None
-60,jose nogueira portugal,12.8,12.266,11.966,13.533,12.4,12.5,75.465,qual,2022,None
-61,david huddleston bulgaria,11.6,11.8,13.4,14.166,13.966,10.5,75.432,qual,2022,None
-62,gaurav kumar india,12.8,11.7,12.3,12.566,13.5,11.9,74.766,qual,2022,None
-63,andres martinez colombia,11.133,11.833,12.0,13.766,12.9,13.033,74.665,qual,2022,None
-64,manuel martinez colombia,12.833,12.1,11.566,12.733,12.966,12.433,74.631,qual,2022,None
-65,gagik khachikyan armenia,13.0,13.0,11.866,13.3,12.3,10.9,74.366,qual,2022,None
-66,joel alvarez chile,12.566,10.366,12.366,13.7,12.933,12.366,74.297,qual,2022,None
-67,jermain grünberg netherlands,12.9,12.066,12.766,12.633,11.466,12.133,73.964,qual,2022,None
-68,yordan aleksandrov bulgaria,12.566,9.5,12.866,13.2,12.7,12.966,73.798,qual,2022,None
-69,edward gonzales peru,11.6,12.566,11.833,13.7,12.8,11.033,73.532,qual,2022,None
-70,andrin frey switzerland,13.233,11.866,12.566,12.6,12.3,10.866,73.431,qual,2022,None
-71,uri zeidel israel,11.6,12.3,12.8,13.5,13.033,10.166,73.399,qual,2022,None
-72,abderrazak nasser morocco,12.466,11.066,12.033,13.7,11.633,12.033,72.931,qual,2022,None
-73,jose lopez puerto rico,10.566,12.166,12.566,12.766,12.733,12.133,72.93,qual,2022,None
-74,severin kranzlmüller austria,11.966,9.566,12.566,13.2,12.366,12.733,72.397,qual,2022,None
-75,jonas thorisson iceland,12.633,10.033,11.9,13.5,12.466,11.766,72.298,qual,2022,None
-76,joakim lenberg sweden,12.5,10.966,11.666,12.9,11.8,12.2,72.032,qual,2022,None
-77,valgard reinhardsson iceland,11.2,10.866,12.433,13.533,12.1,11.866,71.998,qual,2022,None
-78,bohdan suprun ukraine,12.9,10.233,12.4,12.9,12.2,10.9,71.533,qual,2022,None
-79,gytis chasazyrovas lithuania,11.733,9.033,12.233,13.633,12.433,12.2,71.265,qual,2022,None
-NR,tanigawa kakeru japan,14.3,14.266,13.233,14.266,14.933,0.0,70.998,qual,2022,None
-80,apostolos kanellos greece,12.366,12.4,10.5,12.666,11.7,11.1,70.732,qual,2022,None
-81,leandro peña dominican republic,12.266,9.233,11.6,13.533,12.566,11.4,70.598,qual,2022,None
-82,michalis chari cyprus,12.8,9.433,11.8,12.233,12.466,11.766,70.498,qual,2022,None
-83,guilherme campos portugal,13.033,5.4,12.633,14.233,12.6,11.833,69.732,qual,2022,None
-84,ricards plate latvia,12.533,8.666,11.266,12.966,11.666,11.3,68.397,qual,2022,None
-NR,nicola bartolini italy,14.433,12.266,12.833,14.6,14.1,0.0,68.232,qual,2022,None
-NR,matteo levantesi italy,13.233,0.0,12.866,13.833,14.533,13.5,67.965,qual,2022,None
-85,donnell whittenburg united states,14.133,12.833,14.333,0.0,13.666,11.9,66.865,qual,2022,None
-NR,arthur mariano brazil,14.1,12.0,0.0,13.9,12.4,14.366,66.766,qual,2022,None
-NR,colt walker united states,10.433,0.0,13.566,14.6,14.866,13.2,66.665,qual,2022,None
-NR,moreno kratter switzerland,13.833,0.0,12.6,14.0,13.833,12.133,66.399,qual,2022,None
-NR,james hall great britain,14.166,14.033,13.466,0.0,12.766,11.633,66.064,qual,2022,None
-NR,chris kaji canada,13.1,0.0,13.433,13.9,12.733,12.833,65.999,qual,2022,None
-NR,yeh cheng taiwan,13.333,12.3,0.0,14.3,12.933,12.3,65.166,qual,2022,None
-NR,ahmed abdelrahman egypt,11.933,13.166,0.0,13.966,13.0,12.966,65.031,qual,2022,None
-NR,nicolau mir spain,12.7,10.2,0.0,14.066,14.766,13.166,64.898,qual,2022,None
-NR,giarnni regini-moran great britain,14.533,13.433,0.0,14.633,14.966,7.133,64.698,qual,2022,None
-86,emil akhmejanov kazakhstan,10.6,4.533,11.766,13.1,13.0,11.666,64.665,qual,2022,None
-NR,cameron-lie bernard france,0.0,12.766,13.3,13.5,12.966,11.866,64.398,qual,2022,None
-NR,jordi hagenaar netherlands,13.633,11.033,12.866,13.866,0.0,12.7,64.098,qual,2022,None
-NR,dmitriy patanin kazakhstan,13.266,0.0,12.733,13.733,13.166,10.233,63.131,qual,2022,None
-NR,robert burtanete romania,12.033,11.766,0.0,13.433,13.366,12.166,62.764,qual,2022,None
-NR,mykyta melnykov ukraine,10.666,12.066,0.0,12.633,13.866,10.366,59.597,qual,2022,None
-NR,doi ryosuke japan,14.766,14.466,0.0,14.566,0.0,13.8,57.598,qual,2022,None
-NR,ferhat arican turkey,0.0,13.0,0.0,14.033,15.2,12.933,55.166,qual,2022,None
-NR,milad karimi kazakhstan,14.733,12.166,0.0,14.2,0.0,13.833,54.932,qual,2022,None
-NR,nils dunkel germany,13.166,14.166,13.466,0.0,14.133,0.0,54.931,qual,2022,None
-NR,botond kardos hungary,13.866,0.0,0.0,13.8,13.966,13.2,54.832,qual,2022,None
-NR,andreas toba germany,0.0,13.433,13.666,14.3,0.0,13.133,54.532,qual,2022,None
-NR,you hao china,0.0,13.633,14.633,0.0,12.7,13.233,54.199,qual,2022,None
-NR,yang jiaxing china,13.3,12.666,0.0,14.466,0.0,13.666,54.098,qual,2022,None
-NR,andrei muntean romania,12.1,0.0,13.333,14.0,14.6,0.0,54.033,qual,2022,None
-NR,sun wei china,12.2,12.966,0.0,13.4,0.0,14.833,53.399,qual,2022,None
-NR,samuel zakutney canada,0.0,12.4,12.766,0.0,14.4,13.633,53.199,qual,2022,None
-NR,martijn de veer netherlands,13.366,0.0,0.0,13.6,13.3,12.333,52.599,qual,2022,None
-NR,hung yuan-hsi taiwan,0.0,11.433,13.033,0.0,14.3,13.433,52.199,qual,2022,None
-NR,pascal brendel germany,12.7,0.0,0.0,13.633,13.666,11.733,51.732,qual,2022,None
-NR,mathias philippe france,12.233,0.0,13.566,0.0,13.833,12.033,51.665,qual,2022,None
-NR,zachary clay canada,0.0,14.2,12.8,0.0,13.866,10.733,51.599,qual,2022,None
-NR,lin guan-yi taiwan,10.366,13.0,13.833,14.2,0.0,0.0,51.399,qual,2022,None
-NR,ricardo rudy austria,12.433,12.233,0.0,13.6,12.566,0.0,50.832,qual,2022,None
-NR,florian langenegger switzerland,11.866,11.833,12.633,14.3,0.0,0.0,50.632,qual,2022,None
-NR,lee junghyo south korea,0.0,13.0,12.1,0.0,12.566,12.866,50.532,qual,2022,None
-NR,lucas bitencourt brazil,0.0,11.9,12.766,0.0,11.733,13.833,50.232,qual,2022,None
-NR,abdelrahman abdelhaleem egypt,12.0,12.766,0.0,0.0,12.4,12.766,49.932,qual,2022,None
-NR,ahmet önder turkey,13.8,9.966,0.0,13.866,0.0,12.066,49.698,qual,2022,None
-NR,pantely kolodii ukraine,0.0,11.666,12.8,0.0,12.166,12.166,48.798,qual,2022,None
-NR,william fu-allen new zealand,11.633,9.9,0.0,13.566,11.066,0.0,46.165,qual,2022,None
-NR,kamoto yuya japan,0.0,0.0,14.5,0.0,15.433,14.4,44.333,qual,2022,None
-NR,loran de munck netherlands,0.0,14.833,13.166,0.0,13.766,0.0,41.765,qual,2022,None
-NR,benjamin osberger france,14.266,13.3,0.0,13.666,0.0,0.0,41.232,qual,2022,None
-NR,yuri guimarães brazil,14.066,0.0,12.9,14.2,0.0,0.0,41.166,qual,2022,None
-NR,artem dolgopyat israel,13.0,13.866,0.0,14.133,0.0,0.0,40.999,qual,2022,None
-NR,rayderley zapata spain,13.933,0.0,13.6,13.433,0.0,0.0,40.966,qual,2022,None
-NR,william emard canada,14.1,11.933,0.0,14.4,0.0,0.0,40.433,qual,2022,None
-NR,thierno diallo spain,0.0,13.5,0.0,0.0,14.366,12.4,40.266,qual,2022,None
-NR,taha serhani switzerland,0.0,12.533,0.0,0.0,13.866,13.7,40.099,qual,2022,None
-NR,tyson bull australia,0.0,12.2,0.0,0.0,13.2,14.333,39.733,qual,2022,None
-NR,mitchell morgans australia,0.0,0.0,11.866,0.0,12.766,14.333,38.965,qual,2022,None
-NR,yunus gündogdu turkey,11.866,0.0,13.6,0.0,13.466,0.0,38.932,qual,2022,None
-NR,toma modoianu-zseder romania,0.0,11.733,13.366,0.0,0.0,12.466,37.565,qual,2022,None
-NR,isaac nuñez mexico,0.0,0.0,0.0,13.7,13.566,10.066,37.332,qual,2022,None
-NR,james bacueti australia,13.033,11.066,0.0,13.1,0.0,0.0,37.199,qual,2022,None
-NR,zou jingyuan china,0.0,0.0,14.666,0.0,15.7,0.0,30.366,qual,2022,None
-NR,courtney tulloch great britain,0.0,0.0,14.666,14.7,0.0,0.0,29.366,qual,2022,None
-NR,kim hansol south korea,14.266,0.0,0.0,14.7,0.0,0.0,28.966,qual,2022,None
-NR,marios georgiou cyprus,0.0,0.0,0.0,0.0,14.833,14.1,28.933,qual,2022,None
-NR,igor radivilov ukraine,0.0,0.0,13.866,14.7,0.0,0.0,28.566,qual,2022,None
-NR,robert tvorogal lithuania,0.0,0.0,0.0,0.0,13.333,14.3,27.633,qual,2022,None
-NR,rasuljon abdurakhimov uzbekistan,0.0,0.0,0.0,0.0,14.233,13.266,27.499,qual,2022,None
-NR,carlo macchini italy,0.0,13.233,0.0,0.0,0.0,14.066,27.299,qual,2022,None
-NR,ilias georgiou cyprus,0.0,0.0,0.0,0.0,12.633,14.466,27.099,qual,2022,None
-NR,mikhail koudinov new zealand,0.0,0.0,0.0,0.0,13.633,13.3,26.933,qual,2022,None
-NR,balazs kiss hungary,0.0,13.366,13.3,0.0,0.0,0.0,26.666,qual,2022,None
-NR,utkirbek juraev uzbekistan,13.0,0.0,0.0,0.0,13.633,0.0,26.633,qual,2022,None
-NR,vinzenz höck austria,0.0,0.0,13.933,0.0,0.0,12.366,26.299,qual,2022,None
-NR,nikolaos iliopoulos greece,0.0,0.0,0.0,0.0,13.4,12.733,26.133,qual,2022,None
-NR,hillal metidji algeria,0.0,12.7,0.0,0.0,13.133,0.0,25.833,qual,2022,None
-NR,javier sandoval colombia,0.0,13.2,0.0,0.0,12.466,0.0,25.666,qual,2022,None
-NR,andrey medvedev israel,12.133,0.0,0.0,13.5,0.0,0.0,25.633,qual,2022,None
-NR,alexander myakinin israel,0.0,11.2,0.0,0.0,0.0,14.0,25.2,qual,2022,None
-NR,rhys mcclenaghan ireland,0.0,15.233,0.0,0.0,0.0,0.0,15.233,qual,2022,None
-NR,stephen nedoroscik united states,0.0,15.233,0.0,0.0,0.0,0.0,15.233,qual,2022,None
-NR,nariman kurbanov kazakhstan,0.0,15.033,0.0,0.0,0.0,0.0,15.033,qual,2022,None
-NR,artur davtyan armenia,0.0,0.0,0.0,14.9,0.0,0.0,14.9,qual,2022,None
-NR,harutyun merdinyan armenia,0.0,14.7,0.0,0.0,0.0,0.0,14.7,qual,2022,None
-NR,vahagn davtyan armenia,0.0,0.0,14.566,0.0,0.0,0.0,14.566,qual,2022,None
-NR,artur avetisyan armenia,0.0,0.0,14.466,0.0,0.0,0.0,14.466,qual,2022,None
-NR,filip ude croatia,0.0,14.4,0.0,0.0,0.0,0.0,14.4,qual,2022,None
-NR,ahmad abu al soud jordan,0.0,14.366,0.0,0.0,0.0,0.0,14.366,qual,2022,None
-NR,aurel benovic croatia,14.266,0.0,0.0,0.0,0.0,0.0,14.266,qual,2022,None
-NR,sokratis pilakouris cyprus,0.0,0.0,14.133,0.0,0.0,0.0,14.133,qual,2022,None
-NR,shek wai hung hong kong,0.0,0.0,0.0,14.0,0.0,0.0,14.0,qual,2022,None
-NR,ewan mcateer ireland,0.0,0.0,0.0,13.966,0.0,0.0,13.966,qual,2022,None
-NR,nikita simonov azerbaijan,0.0,0.0,13.966,0.0,0.0,0.0,13.966,qual,2022,None
-NR,ali zahran egypt,0.0,0.0,13.8,0.0,0.0,0.0,13.8,qual,2022,None
-NR,stefanos tsolakidis greece,0.0,0.0,0.0,0.0,13.566,0.0,13.566,qual,2022,None
-NR,niklas syverhuset norway,13.533,0.0,0.0,0.0,0.0,0.0,13.533,qual,2022,None
-NR,tin srbic croatia,0.0,0.0,0.0,0.0,0.0,13.2,13.2,qual,2022,None
-NR,konstantinos konstantinidis greece,0.0,0.0,13.033,0.0,0.0,0.0,13.033,qual,2022,None
-NR,tseng wei-sheng taiwan,0.0,0.0,0.0,12.933,0.0,0.0,12.933,qual,2022,None
-NR,eamon montgomery ireland,12.9,0.0,0.0,0.0,0.0,0.0,12.9,qual,2022,None
-NR,ilia liubimov israel,0.0,0.0,0.0,0.0,12.5,0.0,12.5,qual,2022,None
-NR,akseli karsikas finland,0.0,0.0,0.0,12.3,0.0,0.0,12.3,qual,2022,None
-NR,stavros gkinis greece,0.0,0.0,12.066,0.0,0.0,0.0,12.066,qual,2022,None
-NR,nikolaj bozic slovenia,12.0,0.0,0.0,0.0,0.0,0.0,12.0,qual,2022,None
-1,hashimoto daiki japan,14.666,14.333,13.866,14.9,15.0,14.433,87.198,final,2022,None
-2,zhang boheng china,14.033,14.233,14.1,14.9,15.066,14.433,86.765,final,2022,None
-3,tanigawa wataru japan,14.266,13.766,13.833,15.0,14.766,13.6,85.231,final,2022,None
-4,brody malone united states,14.133,13.766,13.666,14.5,14.366,14.5,84.931,final,2022,None
-5,jake jarman great britain,14.433,13.333,13.0,14.8,14.166,13.133,82.865,final,2022,None
-6,asher hong united states,14.266,13.7,13.833,14.166,14.9,11.5,82.365,final,2022,None
-7,illia kovtun ukraine,14.0,13.933,12.666,14.3,14.6,12.866,82.365,final,2022,None
-8,carlos yulo philippines,15.166,11.9,13.8,14.166,15.166,11.9,82.098,final,2022,None
-9,tang chia-hung taiwan,14.133,13.033,13.366,14.0,13.366,14.066,81.964,final,2022,None
-10,caio souza brazil,13.766,12.766,13.7,12.7,14.566,14.133,81.631,final,2022,None
-11,lukas dauser germany,13.666,13.2,12.9,13.766,15.166,12.9,81.598,final,2022,None
-12,casimir schmidt netherlands,14.0,12.733,13.8,14.233,13.733,13.0,81.499,final,2022,None
-13,lorenzo casali italy,12.966,12.833,13.1,14.233,14.333,12.866,80.331,final,2022,None
-14,krisztofer meszaros hungary,13.7,12.6,13.066,13.7,14.066,12.833,79.965,final,2022,None
-15,krisztian balazs hungary,12.833,12.7,12.866,13.2,14.433,13.8,79.832,final,2022,None
-16,nestor abad spain,13.8,11.266,13.233,13.733,14.2,13.433,79.665,final,2022,None
-17,diogo soares brazil,12.766,13.433,12.9,14.266,12.433,13.866,79.664,final,2022,None
-18,joel plata spain,14.333,11.533,13.233,14.7,12.766,13.033,79.598,final,2022,None
-19,sofus heggemsnes norway,12.766,12.7,12.766,14.466,13.3,12.933,78.931,final,2022,None
-20,luka van den keybus belgium,13.333,10.566,12.8,14.133,14.066,13.366,78.264,final,2022,None
-21,yumin abbadini italy,13.566,13.666,13.166,13.866,13.066,9.9,77.23,final,2022,None
-22,joe fraser great britain,13.866,13.166,13.6,12.833,11.533,12.1,77.098,final,2022,None
-23,gabriel burtanete romania,13.1,10.166,13.133,14.5,13.4,12.6,76.899,final,2022,None
-24,jossimar calvo colombia,13.166,10.4,11.566,14.4,12.366,13.5,75.398,final,2022,None
-1,vitaliy guimaraes oklahoma,14.25,14.35,13.6,14.45,13.9,13.4,83.95,final,2022,None
-2,khoi young stanford,13.55,15.342 (+0.642),12.55,15.244 (+0.244),13.75,13.1,83.536 (+0.886),final,2022,None
-3,asher hong cypress academy,14.029 (+0.229),12.949 (+0.349),14.566 (+0.366),16.680 (+1.780),14.355 (+0.105),10.45,83.029 (+2.829),final,2022,None
-4,yul moldauer 5280 gymnastics,13.4,13.789 (+0.489),14.116 (+0.366),13.4,15.543 (+0.993),11.4,81.648 (+1.848),final,2022,None
-5,colt walker stanford,12.45,12.75,13.25,14.897 (+0.597),15.055 (+0.105),13.1,81.502 (+0.702),final,2022,None
-6,taylor burkhart stanford boys,13.2,13.6,12.95,14.594 (+0.244),14.15,12.7,81.194 (+0.244),final,2022,None
-7,ian lasic-ellis stanford,13.65,13.5,13.75,13.55,13.3,13.3,81.05,final,2022,None
-8,riley loos stanford,12.7,13.6,13.6,14.747 (+0.597),14.1,12.3,81.047 (+0.597),final,2022,None
-9,colin van wicklen oklahoma,13.45,11.7,13.3,14.847 (+0.597),13.7,13.15,80.147 (+0.597),final,2022,None
-10,zachary nunez oklahoma,12.6,13.6,12.95,14,13.4,13.15,79.7,final,2022,None
-11,fuzzy benas oklahoma,13.2,11.8,13.2,14.4,13.75,12.95,79.3,final,2022,None
-12,raydel gamboa oklahoma,13.45,11.85,11.9,14.1,14.05,13.45,78.8,final,2022,None
-13,ian gunther stanford,13.15,13.2,13.5,13.45,12.1,13.25,78.65,final,2022,None
-14,michael jaroh penn state,11.2,12.7,13.5,13.35,14.1,13.65,78.5,final,2022,None
-15,isaiah drake navy,13.15,12.7,12.15,14.25,12.85,12.95,78.05,final,2022,None
-16,nicolas kuebler stanford,12.15,12.95,13.05,13.45,13.2,13.15,77.95,final,2022,None
-17,evan davis iowa gym act,13.35,11.35,13.2,14.1,13.25,12.55,77.8,final,2022,None
-18,mike fletcher illinois,12.4,13.35,12.9,13.15,13.15,12.4,77.35,final,2022,None
-19,jeremy bischoff stanford,12.55,12.05,12.65,13.9,13.05,12.85,77.05,final,2022,None
-20,jack freeman oklahoma,13.25,11.2,12.8,13.95,12.05,13.35,76.6,final,2022,None
-21,mathew davis army,13.4,12.55,12.85,13.7,11.7,12.05,76.25,final,2022,None
-22,noah newfeld uc berkeley,12.2,13.05,12.1,13.5,13.2,12.15,76.2,final,2022,None
-23,toby liang roswell,12.55,13,12.4,14,10.6,13.25,75.8,final,2022,None
-24,garrett braunton air force,12.85,12.9,13.05,12.2,13.15,11.65,75.8,final,2022,None
-25,james friedman iowa gym act,12.6,12.85,12.2,13.25,11.85,12.8,75.55,final,2022,None
-26,landen blixt infinity,12.6,11.35,11.85,14.15,12.4,12.6,74.95,final,2022,None
-27,michael artlip penn state,12.7,11.5,13.05,14,12.65,10.1,74,final,2022,None
-28,fred richard mega,11.85,12.25,11.95,13.9,12.4,11.65,74,final,2022,None
-29,matt cormier penn state,10.15,12.1,13.5,14.2,11.05,12.95,73.95,final,2022,None
-30,ignacio yockers pride,11.75,12.893 (+1.193),11.45,13.6,11.95,11.4,73.043 (+1.193),final,2022,None
-31,kazuki hayashi ohio state,12.2,9.6,12.25,14.6,12.75,11.25,72.65,final,2022,None
-32,cole partridge usa gym world,12.05,9.5,12.5,13.25,13.1,11.85,72.25,final,2022,None
-33,evan hymanson stanford boys,11.5,10,12.8,13.2,11.75,12.75,72,final,2022,None
-34,caleb melton apollo,11.75,11.75,12.05,12.9,11.5,12,71.95,final,2022,None
-35,robert neff usoptc,12.95,12.15,0,14.25,12.7,11.65,63.7,final,2022,None
-36,curran phillips stanford,0,0,0,14.7,16.343 (+1.193),13.757 (+0.107),63.700 (+1.300),final,2022,None
-37,alex diab usoptc,13.55,0,14.445 (+0.895),13,0,0,40.995 (+0.895),final,2022,None
-38,blake sun stanford,0,13.1,0,0,11.4,0,24.5,final,2022,None
+Rank,Athlete,FX,PH,SR,VT,PB,HB,AA,round,Nation,year
+1,tanigawa wataru,14.166,13.733,14.0,14.4,14.866,13.566,84.731,qual,Japan,2022
+2,hashimoto daiki,14.466,11.666,14.0,14.7,14.733,15.1,84.665,qual,Japan,2022
+3,carlos yulo,15.266,11.766,14.066,14.733,15.3,13.533,84.664,qual,Philippines,2022
+4,joe fraser great,13.9,12.533,13.933,14.266,15.066,14.266,83.964,qual,Britain,2022
+5,zhang boheng,14.5,14.0,12.033,13.6,14.9,14.733,83.766,qual,China,2022
+6,asher hong united,13.866,13.3,13.9,14.433,14.6,13.2,83.299,qual,States,2022
+7,joel plata,13.5,12.9,13.3,14.6,14.666,13.833,82.799,qual,Spain,2022
+8,brody malone united,12.766,13.433,13.7,14.333,13.966,14.433,82.631,qual,States,2022
+9,casimir schmidt,13.8,13.5,13.933,14.333,13.966,13.033,82.565,qual,Netherlands,2022
+10,caio souza,13.566,13.166,13.8,14.533,13.166,14.333,82.564,qual,Brazil,2022
+11,jake jarman great,13.9,13.533,13.066,14.6,14.166,13.1,82.365,qual,Britain,2022
+12,diogo soares,13.466,13.566,13.066,14.1,14.1,13.966,82.264,qual,Brazil,2022
+13,ryu sunghyun south,14.466,13.033,13.366,13.666,13.766,13.633,81.93,qual,Korea,2022
+14,adem asil,14.133,12.933,14.666,13.933,12.533,13.566,81.764,qual,Turkey,2022
+15,illia kovtun,12.7,13.733,12.4,14.4,14.966,13.533,81.732,qual,Ukraine,2022
+16,yumin abbadini,13.666,13.966,13.0,13.6,13.7,13.6,81.532,qual,Italy,2022
+17,tang chia-hung,14.166,13.0,13.366,13.9,13.533,12.733,80.698,qual,Taiwan,2022
+18,lukas dauser,13.666,12.233,13.133,13.866,15.4,12.133,80.431,qual,Germany,2022
+19,sofus heggemsnes,13.5,12.4,13.233,14.433,13.433,13.1,80.099,qual,Norway,2022
+20,krisztian balazs,13.166,12.3,12.8,13.166,14.533,14.1,80.065,qual,Hungary,2022
+21,jossimar calvo,12.933,13.3,12.066,13.033,15.166,13.4,79.898,qual,Colombia,2022
+22,luka van den keybus,13.7,11.733,12.8,14.5,14.333,12.733,79.799,qual,Belgium,2022
+23,gabriel burtanete,13.266,12.466,13.2,14.8,13.5,12.566,79.798,qual,Romania,2022
+24,lorenzo casali,13.833,13.166,13.266,14.3,13.2,12.0,79.765,qual,Italy,2022
+25,nestor abad,13.4,12.766,12.566,13.5,14.3,13.166,79.698,qual,Spain,2022
+26,omar mohamed,13.733,12.866,13.6,13.766,13.866,11.7,79.531,qual,Egypt,2022
+27,mohamed afify,13.1,13.3,12.966,13.666,13.866,12.633,79.531,qual,Egypt,2022
+28,krisztofer meszaros,14.233,12.466,13.1,12.833,14.5,12.366,79.498,qual,Hungary,2022
+29,harald wibye,13.466,12.2,12.6,13.9,14.2,13.0,79.366,qual,Norway,2022
+30,abdulla azimov,13.166,14.3,11.966,13.9,13.533,12.433,79.298,qual,Uzbekistan,2022
+31,paul degouy,12.533,12.166,13.2,14.1,13.7,13.566,79.265,qual,France,2022
+32,leo saladino,13.066,12.933,13.3,13.166,13.966,12.633,79.064,qual,France,2022
+33,lee junho south,12.733,12.633,13.433,14.6,13.266,12.233,78.898,qual,Korea,2022
+34,kim jaeho south,13.4,11.9,11.766,14.533,13.766,13.266,78.631,qual,Korea,2022
+35,felix dolci,12.433,10.366,13.366,14.533,13.866,13.766,78.33,qual,Canada,2022
+36,benedek tomcsanyi,13.466,13.033,13.2,12.8,13.266,12.533,78.298,qual,Hungary,2022
+37,glenn trebing,12.833,12.166,13.166,13.766,13.2,13.1,78.231,qual,Germany,2022
+38,dominick cunningham,13.8,12.033,13.066,13.333,13.133,12.7,78.065,qual,Ireland,2022
+39,noe seifert,12.5,13.533,12.833,13.466,12.6,13.033,77.965,qual,Switzerland,2022
+40,elias koski,12.8,12.133,12.633,13.8,13.566,13.0,77.932,qual,Finland,2022
+41,ilyas azizov,13.366,13.1,12.5,13.766,13.466,11.5,77.698,qual,Kazakhstan,2022
+42,david rumbutis,12.066,12.466,12.866,14.0,13.466,12.566,77.43,qual,Sweden,2022
+43,noah kuavita,13.1,10.966,11.733,14.3,13.866,13.4,77.365,qual,Belgium,2022
+44,takumi onoshima,13.566,11.733,12.566,13.566,13.533,11.966,76.93,qual,Belgium,2022
+45,khabibullo ergashev,12.7,13.6,12.6,13.7,12.833,11.466,76.899,qual,Uzbekistan,2022
+46,santiago mayol,13.233,12.733,11.1,13.733,13.3,12.5,76.599,qual,Argentina,2022
+47,yogeshwar singh,12.233,12.366,12.033,13.666,13.566,12.666,76.53,qual,India,2022
+48,razvan-denis marc,13.5,11.133,13.2,12.2,13.5,12.966,76.499,qual,Romania,2022
+49,lais najjar,13.266,12.533,12.0,13.5,13.333,11.466,76.098,qual,Syria,2022
+50,heath thorpe,12.7,10.3,12.7,14.433,12.6,13.266,75.999,qual,Australia,2022
+51,maxime gentges,13.066,12.833,13.0,12.766,13.5,10.766,75.931,qual,Belgium,2022
+52,mehmet ayberk kosak,13.6,11.7,13.8,12.966,11.933,11.866,75.865,qual,Turkey,2022
+53,alexander benda,13.266,12.3,11.7,13.533,11.966,13.1,75.865,qual,Austria,2022
+54,askhab matiev,12.6,12.6,12.166,13.566,12.3,12.566,75.798,qual,Austria,2022
+55,georgios angonas,11.666,11.766,12.566,13.866,12.8,13.066,75.73,qual,Cyprus,2022
+56,robert kirmes,13.266,11.433,11.233,13.8,12.6,13.366,75.698,qual,Finland,2022
+57,clay mason stephens,12.2,11.4,12.3,13.933,13.1,12.733,75.666,qual,Australia,2022
+58,ivan tikhonov,11.166,11.5,12.633,14.366,13.866,12.1,75.631,qual,Azerbaijan,2022
+59,tomas kuzmickas,12.533,10.9,12.3,13.4,13.533,12.9,75.566,qual,Lithuania,2022
+60,jose nogueira,12.8,12.266,11.966,13.533,12.4,12.5,75.465,qual,Portugal,2022
+61,david huddleston,11.6,11.8,13.4,14.166,13.966,10.5,75.432,qual,Bulgaria,2022
+62,gaurav kumar,12.8,11.7,12.3,12.566,13.5,11.9,74.766,qual,India,2022
+63,andres martinez,11.133,11.833,12.0,13.766,12.9,13.033,74.665,qual,Colombia,2022
+64,manuel martinez,12.833,12.1,11.566,12.733,12.966,12.433,74.631,qual,Colombia,2022
+65,gagik khachikyan,13.0,13.0,11.866,13.3,12.3,10.9,74.366,qual,Armenia,2022
+66,joel alvarez,12.566,10.366,12.366,13.7,12.933,12.366,74.297,qual,Chile,2022
+67,jermain grünberg,12.9,12.066,12.766,12.633,11.466,12.133,73.964,qual,Netherlands,2022
+68,yordan aleksandrov,12.566,9.5,12.866,13.2,12.7,12.966,73.798,qual,Bulgaria,2022
+69,edward gonzales,11.6,12.566,11.833,13.7,12.8,11.033,73.532,qual,Peru,2022
+70,andrin frey,13.233,11.866,12.566,12.6,12.3,10.866,73.431,qual,Switzerland,2022
+71,uri zeidel,11.6,12.3,12.8,13.5,13.033,10.166,73.399,qual,Israel,2022
+72,abderrazak nasser,12.466,11.066,12.033,13.7,11.633,12.033,72.931,qual,Morocco,2022
+73,jose lopez puerto,10.566,12.166,12.566,12.766,12.733,12.133,72.93,qual,Rico,2022
+74,severin kranzlmüller,11.966,9.566,12.566,13.2,12.366,12.733,72.397,qual,Austria,2022
+75,jonas thorisson,12.633,10.033,11.9,13.5,12.466,11.766,72.298,qual,Iceland,2022
+76,joakim lenberg,12.5,10.966,11.666,12.9,11.8,12.2,72.032,qual,Sweden,2022
+77,valgard reinhardsson,11.2,10.866,12.433,13.533,12.1,11.866,71.998,qual,Iceland,2022
+78,bohdan suprun,12.9,10.233,12.4,12.9,12.2,10.9,71.533,qual,Ukraine,2022
+79,gytis chasazyrovas,11.733,9.033,12.233,13.633,12.433,12.2,71.265,qual,Lithuania,2022
+NR,tanigawa kakeru,14.3,14.266,13.233,14.266,14.933,0.0,70.998,qual,Japan,2022
+80,apostolos kanellos,12.366,12.4,10.5,12.666,11.7,11.1,70.732,qual,Greece,2022
+81,leandro peña dominican,12.266,9.233,11.6,13.533,12.566,11.4,70.598,qual,Republic,2022
+82,michalis chari,12.8,9.433,11.8,12.233,12.466,11.766,70.498,qual,Cyprus,2022
+83,guilherme campos,13.033,5.4,12.633,14.233,12.6,11.833,69.732,qual,Portugal,2022
+84,ricards plate,12.533,8.666,11.266,12.966,11.666,11.3,68.397,qual,Latvia,2022
+NR,nicola bartolini,14.433,12.266,12.833,14.6,14.1,0.0,68.232,qual,Italy,2022
+NR,matteo levantesi,13.233,0.0,12.866,13.833,14.533,13.5,67.965,qual,Italy,2022
+85,donnell whittenburg united,14.133,12.833,14.333,0.0,13.666,11.9,66.865,qual,States,2022
+NR,arthur mariano,14.1,12.0,0.0,13.9,12.4,14.366,66.766,qual,Brazil,2022
+NR,colt walker united,10.433,0.0,13.566,14.6,14.866,13.2,66.665,qual,States,2022
+NR,moreno kratter,13.833,0.0,12.6,14.0,13.833,12.133,66.399,qual,Switzerland,2022
+NR,james hall great,14.166,14.033,13.466,0.0,12.766,11.633,66.064,qual,Britain,2022
+NR,chris kaji,13.1,0.0,13.433,13.9,12.733,12.833,65.999,qual,Canada,2022
+NR,yeh cheng,13.333,12.3,0.0,14.3,12.933,12.3,65.166,qual,Taiwan,2022
+NR,ahmed abdelrahman,11.933,13.166,0.0,13.966,13.0,12.966,65.031,qual,Egypt,2022
+NR,nicolau mir,12.7,10.2,0.0,14.066,14.766,13.166,64.898,qual,Spain,2022
+NR,giarnni regini-moran great,14.533,13.433,0.0,14.633,14.966,7.133,64.698,qual,Britain,2022
+86,emil akhmejanov,10.6,4.533,11.766,13.1,13.0,11.666,64.665,qual,Kazakhstan,2022
+NR,cameron-lie bernard,0.0,12.766,13.3,13.5,12.966,11.866,64.398,qual,France,2022
+NR,jordi hagenaar,13.633,11.033,12.866,13.866,0.0,12.7,64.098,qual,Netherlands,2022
+NR,dmitriy patanin,13.266,0.0,12.733,13.733,13.166,10.233,63.131,qual,Kazakhstan,2022
+NR,robert burtanete,12.033,11.766,0.0,13.433,13.366,12.166,62.764,qual,Romania,2022
+NR,mykyta melnykov,10.666,12.066,0.0,12.633,13.866,10.366,59.597,qual,Ukraine,2022
+NR,doi ryosuke,14.766,14.466,0.0,14.566,0.0,13.8,57.598,qual,Japan,2022
+NR,ferhat arican,0.0,13.0,0.0,14.033,15.2,12.933,55.166,qual,Turkey,2022
+NR,milad karimi,14.733,12.166,0.0,14.2,0.0,13.833,54.932,qual,Kazakhstan,2022
+NR,nils dunkel,13.166,14.166,13.466,0.0,14.133,0.0,54.931,qual,Germany,2022
+NR,botond kardos,13.866,0.0,0.0,13.8,13.966,13.2,54.832,qual,Hungary,2022
+NR,andreas toba,0.0,13.433,13.666,14.3,0.0,13.133,54.532,qual,Germany,2022
+NR,you hao,0.0,13.633,14.633,0.0,12.7,13.233,54.199,qual,China,2022
+NR,yang jiaxing,13.3,12.666,0.0,14.466,0.0,13.666,54.098,qual,China,2022
+NR,andrei muntean,12.1,0.0,13.333,14.0,14.6,0.0,54.033,qual,Romania,2022
+NR,sun wei,12.2,12.966,0.0,13.4,0.0,14.833,53.399,qual,China,2022
+NR,samuel zakutney,0.0,12.4,12.766,0.0,14.4,13.633,53.199,qual,Canada,2022
+NR,martijn de veer,13.366,0.0,0.0,13.6,13.3,12.333,52.599,qual,Netherlands,2022
+NR,hung yuan-hsi,0.0,11.433,13.033,0.0,14.3,13.433,52.199,qual,Taiwan,2022
+NR,pascal brendel,12.7,0.0,0.0,13.633,13.666,11.733,51.732,qual,Germany,2022
+NR,mathias philippe,12.233,0.0,13.566,0.0,13.833,12.033,51.665,qual,France,2022
+NR,zachary clay,0.0,14.2,12.8,0.0,13.866,10.733,51.599,qual,Canada,2022
+NR,lin guan-yi,10.366,13.0,13.833,14.2,0.0,0.0,51.399,qual,Taiwan,2022
+NR,ricardo rudy,12.433,12.233,0.0,13.6,12.566,0.0,50.832,qual,Austria,2022
+NR,florian langenegger,11.866,11.833,12.633,14.3,0.0,0.0,50.632,qual,Switzerland,2022
+NR,lee junghyo south,0.0,13.0,12.1,0.0,12.566,12.866,50.532,qual,Korea,2022
+NR,lucas bitencourt,0.0,11.9,12.766,0.0,11.733,13.833,50.232,qual,Brazil,2022
+NR,abdelrahman abdelhaleem,12.0,12.766,0.0,0.0,12.4,12.766,49.932,qual,Egypt,2022
+NR,ahmet önder,13.8,9.966,0.0,13.866,0.0,12.066,49.698,qual,Turkey,2022
+NR,pantely kolodii,0.0,11.666,12.8,0.0,12.166,12.166,48.798,qual,Ukraine,2022
+NR,william fu-allen new,11.633,9.9,0.0,13.566,11.066,0.0,46.165,qual,Zealand,2022
+NR,kamoto yuya,0.0,0.0,14.5,0.0,15.433,14.4,44.333,qual,Japan,2022
+NR,loran de munck,0.0,14.833,13.166,0.0,13.766,0.0,41.765,qual,Netherlands,2022
+NR,benjamin osberger,14.266,13.3,0.0,13.666,0.0,0.0,41.232,qual,France,2022
+NR,yuri guimarães,14.066,0.0,12.9,14.2,0.0,0.0,41.166,qual,Brazil,2022
+NR,artem dolgopyat,13.0,13.866,0.0,14.133,0.0,0.0,40.999,qual,Israel,2022
+NR,rayderley zapata,13.933,0.0,13.6,13.433,0.0,0.0,40.966,qual,Spain,2022
+NR,william emard,14.1,11.933,0.0,14.4,0.0,0.0,40.433,qual,Canada,2022
+NR,thierno diallo,0.0,13.5,0.0,0.0,14.366,12.4,40.266,qual,Spain,2022
+NR,taha serhani,0.0,12.533,0.0,0.0,13.866,13.7,40.099,qual,Switzerland,2022
+NR,tyson bull,0.0,12.2,0.0,0.0,13.2,14.333,39.733,qual,Australia,2022
+NR,mitchell morgans,0.0,0.0,11.866,0.0,12.766,14.333,38.965,qual,Australia,2022
+NR,yunus gündogdu,11.866,0.0,13.6,0.0,13.466,0.0,38.932,qual,Turkey,2022
+NR,toma modoianu-zseder,0.0,11.733,13.366,0.0,0.0,12.466,37.565,qual,Romania,2022
+NR,isaac nuñez,0.0,0.0,0.0,13.7,13.566,10.066,37.332,qual,Mexico,2022
+NR,james bacueti,13.033,11.066,0.0,13.1,0.0,0.0,37.199,qual,Australia,2022
+NR,zou jingyuan,0.0,0.0,14.666,0.0,15.7,0.0,30.366,qual,China,2022
+NR,courtney tulloch great,0.0,0.0,14.666,14.7,0.0,0.0,29.366,qual,Britain,2022
+NR,kim hansol south,14.266,0.0,0.0,14.7,0.0,0.0,28.966,qual,Korea,2022
+NR,marios georgiou,0.0,0.0,0.0,0.0,14.833,14.1,28.933,qual,Cyprus,2022
+NR,igor radivilov,0.0,0.0,13.866,14.7,0.0,0.0,28.566,qual,Ukraine,2022
+NR,robert tvorogal,0.0,0.0,0.0,0.0,13.333,14.3,27.633,qual,Lithuania,2022
+NR,rasuljon abdurakhimov,0.0,0.0,0.0,0.0,14.233,13.266,27.499,qual,Uzbekistan,2022
+NR,carlo macchini,0.0,13.233,0.0,0.0,0.0,14.066,27.299,qual,Italy,2022
+NR,ilias georgiou,0.0,0.0,0.0,0.0,12.633,14.466,27.099,qual,Cyprus,2022
+NR,mikhail koudinov new,0.0,0.0,0.0,0.0,13.633,13.3,26.933,qual,Zealand,2022
+NR,balazs kiss,0.0,13.366,13.3,0.0,0.0,0.0,26.666,qual,Hungary,2022
+NR,utkirbek juraev,13.0,0.0,0.0,0.0,13.633,0.0,26.633,qual,Uzbekistan,2022
+NR,vinzenz höck,0.0,0.0,13.933,0.0,0.0,12.366,26.299,qual,Austria,2022
+NR,nikolaos iliopoulos,0.0,0.0,0.0,0.0,13.4,12.733,26.133,qual,Greece,2022
+NR,hillal metidji,0.0,12.7,0.0,0.0,13.133,0.0,25.833,qual,Algeria,2022
+NR,javier sandoval,0.0,13.2,0.0,0.0,12.466,0.0,25.666,qual,Colombia,2022
+NR,andrey medvedev,12.133,0.0,0.0,13.5,0.0,0.0,25.633,qual,Israel,2022
+NR,alexander myakinin,0.0,11.2,0.0,0.0,0.0,14.0,25.2,qual,Israel,2022
+NR,rhys mcclenaghan,0.0,15.233,0.0,0.0,0.0,0.0,15.233,qual,Ireland,2022
+NR,stephen nedoroscik united,0.0,15.233,0.0,0.0,0.0,0.0,15.233,qual,States,2022
+NR,nariman kurbanov,0.0,15.033,0.0,0.0,0.0,0.0,15.033,qual,Kazakhstan,2022
+NR,artur davtyan,0.0,0.0,0.0,14.9,0.0,0.0,14.9,qual,Armenia,2022
+NR,harutyun merdinyan,0.0,14.7,0.0,0.0,0.0,0.0,14.7,qual,Armenia,2022
+NR,vahagn davtyan,0.0,0.0,14.566,0.0,0.0,0.0,14.566,qual,Armenia,2022
+NR,artur avetisyan,0.0,0.0,14.466,0.0,0.0,0.0,14.466,qual,Armenia,2022
+NR,filip ude,0.0,14.4,0.0,0.0,0.0,0.0,14.4,qual,Croatia,2022
+NR,ahmad abu al soud,0.0,14.366,0.0,0.0,0.0,0.0,14.366,qual,Jordan,2022
+NR,aurel benovic,14.266,0.0,0.0,0.0,0.0,0.0,14.266,qual,Croatia,2022
+NR,sokratis pilakouris,0.0,0.0,14.133,0.0,0.0,0.0,14.133,qual,Cyprus,2022
+NR,shek wai hung hong,0.0,0.0,0.0,14.0,0.0,0.0,14.0,qual,Kong,2022
+NR,ewan mcateer,0.0,0.0,0.0,13.966,0.0,0.0,13.966,qual,Ireland,2022
+NR,nikita simonov,0.0,0.0,13.966,0.0,0.0,0.0,13.966,qual,Azerbaijan,2022
+NR,ali zahran,0.0,0.0,13.8,0.0,0.0,0.0,13.8,qual,Egypt,2022
+NR,stefanos tsolakidis,0.0,0.0,0.0,0.0,13.566,0.0,13.566,qual,Greece,2022
+NR,niklas syverhuset,13.533,0.0,0.0,0.0,0.0,0.0,13.533,qual,Norway,2022
+NR,tin srbic,0.0,0.0,0.0,0.0,0.0,13.2,13.2,qual,Croatia,2022
+NR,konstantinos konstantinidis,0.0,0.0,13.033,0.0,0.0,0.0,13.033,qual,Greece,2022
+NR,tseng wei-sheng,0.0,0.0,0.0,12.933,0.0,0.0,12.933,qual,Taiwan,2022
+NR,eamon montgomery,12.9,0.0,0.0,0.0,0.0,0.0,12.9,qual,Ireland,2022
+NR,ilia liubimov,0.0,0.0,0.0,0.0,12.5,0.0,12.5,qual,Israel,2022
+NR,akseli karsikas,0.0,0.0,0.0,12.3,0.0,0.0,12.3,qual,Finland,2022
+NR,stavros gkinis,0.0,0.0,12.066,0.0,0.0,0.0,12.066,qual,Greece,2022
+NR,nikolaj bozic,12.0,0.0,0.0,0.0,0.0,0.0,12.0,qual,Slovenia,2022
+1,hashimoto daiki,14.666,14.333,13.866,14.9,15.0,14.433,87.198,final,Japan,2022
+2,zhang boheng,14.033,14.233,14.1,14.9,15.066,14.433,86.765,final,China,2022
+3,tanigawa wataru,14.266,13.766,13.833,15.0,14.766,13.6,85.231,final,Japan,2022
+4,brody malone united,14.133,13.766,13.666,14.5,14.366,14.5,84.931,final,States,2022
+5,jake jarman great,14.433,13.333,13.0,14.8,14.166,13.133,82.865,final,Britain,2022
+6,asher hong united,14.266,13.7,13.833,14.166,14.9,11.5,82.365,final,States,2022
+7,illia kovtun,14.0,13.933,12.666,14.3,14.6,12.866,82.365,final,Ukraine,2022
+8,carlos yulo,15.166,11.9,13.8,14.166,15.166,11.9,82.098,final,Philippines,2022
+9,tang chia-hung,14.133,13.033,13.366,14.0,13.366,14.066,81.964,final,Taiwan,2022
+10,caio souza,13.766,12.766,13.7,12.7,14.566,14.133,81.631,final,Brazil,2022
+11,lukas dauser,13.666,13.2,12.9,13.766,15.166,12.9,81.598,final,Germany,2022
+12,casimir schmidt,14.0,12.733,13.8,14.233,13.733,13.0,81.499,final,Netherlands,2022
+13,lorenzo casali,12.966,12.833,13.1,14.233,14.333,12.866,80.331,final,Italy,2022
+14,krisztofer meszaros,13.7,12.6,13.066,13.7,14.066,12.833,79.965,final,Hungary,2022
+15,krisztian balazs,12.833,12.7,12.866,13.2,14.433,13.8,79.832,final,Hungary,2022
+16,nestor abad,13.8,11.266,13.233,13.733,14.2,13.433,79.665,final,Spain,2022
+17,diogo soares,12.766,13.433,12.9,14.266,12.433,13.866,79.664,final,Brazil,2022
+18,joel plata,14.333,11.533,13.233,14.7,12.766,13.033,79.598,final,Spain,2022
+19,sofus heggemsnes,12.766,12.7,12.766,14.466,13.3,12.933,78.931,final,Norway,2022
+20,luka van den keybus,13.333,10.566,12.8,14.133,14.066,13.366,78.264,final,Belgium,2022
+21,yumin abbadini,13.566,13.666,13.166,13.866,13.066,9.9,77.23,final,Italy,2022
+22,joe fraser great,13.866,13.166,13.6,12.833,11.533,12.1,77.098,final,Britain,2022
+23,gabriel burtanete,13.1,10.166,13.133,14.5,13.4,12.6,76.899,final,Romania,2022
+24,jossimar calvo,13.166,10.4,11.566,14.4,12.366,13.5,75.398,final,Colombia,2022
+1,vitaliy guimaraes,14.25,14.35,13.6,14.45,13.9,13.4,83.95,final,USA,2022
+2,khoi young,13.55,15.342 (+0.642),12.55,15.244 (+0.244),13.75,13.1,83.536 (+0.886),final,USA,2022
+3,asher hong,14.029 (+0.229),12.949 (+0.349),14.566 (+0.366),16.680 (+1.780),14.355 (+0.105),10.45,83.029 (+2.829),final,USA,2022
+4,yul moldauer,13.4,13.789 (+0.489),14.116 (+0.366),13.4,15.543 (+0.993),11.4,81.648 (+1.848),final,USA,2022
+5,colt walker,12.45,12.75,13.25,14.897 (+0.597),15.055 (+0.105),13.1,81.502 (+0.702),final,USA,2022
+6,taylor burkhart,13.2,13.6,12.95,14.594 (+0.244),14.15,12.7,81.194 (+0.244),final,USA,2022
+7,ian lasic-ellis,13.65,13.5,13.75,13.55,13.3,13.3,81.05,final,USA,2022
+8,riley loos,12.7,13.6,13.6,14.747 (+0.597),14.1,12.3,81.047 (+0.597),final,USA,2022
+9,colin van,13.45,11.7,13.3,14.847 (+0.597),13.7,13.15,80.147 (+0.597),final,USA,2022
+10,zachary nunez,12.6,13.6,12.95,14,13.4,13.15,79.7,final,USA,2022
+11,fuzzy benas,13.2,11.8,13.2,14.4,13.75,12.95,79.3,final,USA,2022
+12,raydel gamboa,13.45,11.85,11.9,14.1,14.05,13.45,78.8,final,USA,2022
+13,ian gunther,13.15,13.2,13.5,13.45,12.1,13.25,78.65,final,USA,2022
+14,michael jaroh,11.2,12.7,13.5,13.35,14.1,13.65,78.5,final,USA,2022
+15,isaiah drake,13.15,12.7,12.15,14.25,12.85,12.95,78.05,final,USA,2022
+16,nicolas kuebler,12.15,12.95,13.05,13.45,13.2,13.15,77.95,final,USA,2022
+17,evan davis,13.35,11.35,13.2,14.1,13.25,12.55,77.8,final,USA,2022
+18,mike fletcher,12.4,13.35,12.9,13.15,13.15,12.4,77.35,final,USA,2022
+19,jeremy bischoff,12.55,12.05,12.65,13.9,13.05,12.85,77.05,final,USA,2022
+20,jack freeman,13.25,11.2,12.8,13.95,12.05,13.35,76.6,final,USA,2022
+21,mathew davis,13.4,12.55,12.85,13.7,11.7,12.05,76.25,final,USA,2022
+22,noah newfeld,12.2,13.05,12.1,13.5,13.2,12.15,76.2,final,USA,2022
+23,toby liang,12.55,13,12.4,14,10.6,13.25,75.8,final,USA,2022
+24,garrett braunton,12.85,12.9,13.05,12.2,13.15,11.65,75.8,final,USA,2022
+25,james friedman,12.6,12.85,12.2,13.25,11.85,12.8,75.55,final,USA,2022
+26,landen blixt,12.6,11.35,11.85,14.15,12.4,12.6,74.95,final,USA,2022
+27,michael artlip,12.7,11.5,13.05,14,12.65,10.1,74,final,USA,2022
+28,fred richard,11.85,12.25,11.95,13.9,12.4,11.65,74,final,USA,2022
+29,matt cormier,10.15,12.1,13.5,14.2,11.05,12.95,73.95,final,USA,2022
+30,ignacio yockers,11.75,12.893 (+1.193),11.45,13.6,11.95,11.4,73.043 (+1.193),final,USA,2022
+31,kazuki hayashi,12.2,9.6,12.25,14.6,12.75,11.25,72.65,final,USA,2022
+32,cole partridge,12.05,9.5,12.5,13.25,13.1,11.85,72.25,final,USA,2022
+33,evan hymanson,11.5,10,12.8,13.2,11.75,12.75,72,final,USA,2022
+34,caleb melton,11.75,11.75,12.05,12.9,11.5,12,71.95,final,USA,2022
+35,robert neff,12.95,12.15,0,14.25,12.7,11.65,63.7,final,USA,2022
+36,curran phillips,0,0,0,14.7,16.343 (+1.193),13.757 (+0.107),63.700 (+1.300),final,USA,2022
+37,alex diab,13.55,0,14.445 (+0.895),13,0,0,40.995 (+0.895),final,USA,2022
+38,blake sun,0,13.1,0,0,11.4,0,24.5,final,USA,2022

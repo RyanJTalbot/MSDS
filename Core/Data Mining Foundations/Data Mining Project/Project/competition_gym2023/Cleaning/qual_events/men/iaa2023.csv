@@ -1,263 +1,263 @@
-Rank,Athlete,FX,PH,SR,VT,PB,HB,AA,round,year,Nation
-1,chiba kenta japan,13.9,14.7,13.666,14.333,14.7,14.5,85.799,qual,2023,None
-2,kaya kazuma japan,14.1,14.066,14.2,14.266,14.8,14.166,85.598,qual,2023,None
-3,hashimoto daiki japan,14.5,13.266,13.7,14.366,14.6,15.0,85.432,qual,2023,None
-4,jake jarman great britain,14.366,13.9,13.233,14.0,14.566,13.966,84.031,qual,2023,None
-5,james hall great britain,13.966,14.033,13.833,13.5,14.466,13.833,83.631,qual,2023,None
-6,fred richard united states,14.6,14.2,13.4,14.533,14.6,12.233,83.566,qual,2023,None
-7,milad karimi kazakhstan,14.5,12.2,13.166,14.566,14.2,14.6,83.232,qual,2023,None
-8,asher hong united states,14.3,13.1,13.966,14.766,14.833,12.2,83.165,qual,2023,None
-9,artem dolgopyat israel,15.1,13.5,12.833,14.4,13.866,13.3,82.999,qual,2023,None
-10,adem asil türkiye,13.8,12.866,14.166,14.566,13.866,13.366,82.63,qual,2023,None
-11,yumin abbadini italy,13.533,13.5,13.5,13.966,14.0,14.033,82.532,qual,2023,None
-12,noe seifert switzerland,14.2,12.766,13.366,14.066,14.333,13.733,82.464,qual,2023,None
-13,lukas dauser germany,13.433,13.233,12.966,13.866,15.3,13.566,82.364,qual,2023,None
-14,sun wei china,13.6,12.966,13.633,14.2,14.233,13.466,82.098,qual,2023,None
-15,lorenzo casali italy,13.6,13.2,13.566,14.566,14.0,13.133,82.065,qual,2023,None
-16,artur davtyan armenia,13.233,13.833,13.833,15.033,13.2,12.9,82.032,qual,2023,None
-17,rene cournoyer canada,13.5,12.933,13.666,14.233,13.8,13.866,81.998,qual,2023,None
-18,krisztofer meszaros hungary,14.2,13.5,13.7,14.133,14.2,12.2,81.933,qual,2023,None
-19,illia kovtun ukraine,13.133,14.366,13.133,14.266,15.233,11.8,81.931,qual,2023,None
-20,florian langenegger switzerland,14.2,13.366,12.933,14.266,13.866,13.233,81.864,qual,2023,None
-21,casimir schmidt netherlands,13.533,13.133,13.933,14.366,13.6,13.266,81.831,qual,2023,None
-22,mario macchiati italy,13.633,13.2,13.1,14.5,14.166,13.2,81.799,qual,2023,None
-23,lee junho south korea,13.633,12.666,13.566,14.3,14.0,13.5,81.665,qual,2023,None
-24,ilia liubimov israel,13.633,13.9,12.466,14.033,13.933,13.433,81.398,qual,2023,None
-25,ahmet önder türkiye,14.266,12.966,13.4,14.166,12.766,13.6,81.164,qual,2023,None
-26,diogo soares brazil,12.866,13.766,13.0,14.033,14.233,13.166,81.064,qual,2023,None
-27,nestor abad spain,14.166,13.1,13.6,13.2,13.8,13.033,80.899,qual,2023,None
-28,thierno diallo spain,13.633,13.6,13.3,14.0,14.366,11.9,80.799,qual,2023,None
-29,luka van den keybus belgium,13.933,12.066,12.8,14.4,14.366,13.233,80.798,qual,2023,None
-30,andrei muntean romania,13.633,11.666,13.5,14.5,14.4,12.966,80.665,qual,2023,None
-31,khabibullo ergashev uzbekistan,13.233,13.966,13.1,14.0,13.133,13.233,80.665,qual,2023,None
-32,ivan tikhonov azerbaijan,13.733,13.466,13.533,13.966,13.266,12.666,80.63,qual,2023,None
-33,sofus heggemsnes norway,13.2,12.8,13.066,14.3,13.933,13.2,80.499,qual,2023,None
-34,pascal brendel germany,14.0,13.3,13.2,12.833,12.8,13.933,80.066,qual,2023,None
-35,patrick sampaio brazil,13.6,11.966,13.366,13.866,13.533,13.6,79.931,qual,2023,None
-36,abdulla azimov uzbekistan,13.7,14.333,12.366,13.833,12.533,13.1,79.865,qual,2023,None
-37,omar mohamed egypt,13.566,12.333,12.9,14.0,13.666,13.2,79.665,qual,2023,None
-38,clay mason stephens australia,13.833,12.133,12.566,14.2,13.666,13.266,79.664,qual,2023,None
-39,oskar kirmes finland,13.233,12.4,13.266,13.933,13.766,13.033,79.631,qual,2023,None
-40,ilias georgiou cyprus,12.433,12.066,13.4,14.366,14.133,13.066,79.464,qual,2023,None
-41,oleg verniaiev ukraine,13.533,12.0,12.866,13.366,14.8,12.6,79.165,qual,2023,None
-42,jermain grünberg netherlands,13.733,10.5,12.933,13.7,14.5,13.666,79.032,qual,2023,None
-43,utkirbek juraev uzbekistan,12.2,13.6,11.8,14.4,13.7,13.233,78.933,qual,2023,None
-44,léo saladino france,13.3,12.0,13.3,14.366,13.0,12.9,78.866,qual,2023,None
-45,lee chih-kai taiwan,13.5,14.8,12.066,13.5,13.366,11.633,78.865,qual,2023,None
-46,harald wibye norway,13.266,12.1,12.866,14.2,13.066,13.1,78.598,qual,2023,None
-47,uri zeidel israel,13.333,13.366,13.0,12.966,12.7,13.233,78.598,qual,2023,None
-48,jose nogueira portugal,13.9,12.366,12.733,13.766,12.933,12.866,78.564,qual,2023,None
-49,zachary clay canada,13.1,13.666,13.033,13.466,12.166,13.066,78.497,qual,2023,None
-50,mohamed afify egypt,13.233,11.866,12.7,13.766,13.933,12.5,77.998,qual,2023,None
-51,mikhail koudinov new zealand,12.866,12.533,13.033,13.866,13.9,11.633,77.831,qual,2023,None
-52,gagik khachikyan armenia,12.666,14.6,12.266,13.333,12.733,12.133,77.731,qual,2023,None
-53,benedek tomcsanyi hungary,13.5,13.1,13.233,13.966,12.7,11.166,77.665,qual,2023,None
-54,william emard canada,14.033,12.666,14.133,9.5,13.766,13.333,77.431,qual,2023,None
-55,askhab matiev austria,13.3,11.666,12.8,13.833,12.866,12.966,77.431,qual,2023,None
-56,isaac nuñez mexico,13.366,11.966,12.166,13.966,13.7,12.066,77.23,qual,2023,None
-57,nazar chepurnyi ukraine,12.266,12.633,12.966,14.966,11.6,12.7,77.131,qual,2023,None
-58,andres martinez colombia,13.366,12.066,12.566,13.8,12.966,12.366,77.13,qual,2023,None
-59,krisztian balazs hungary,12.966,12.233,11.9,13.566,13.833,12.533,77.031,qual,2023,None
-60,jim zona france,13.833,9.166,13.333,14.133,13.533,12.866,76.864,qual,2023,None
-61,nikolaos iliopoulos greece,12.466,11.966,11.966,13.533,13.933,12.966,76.83,qual,2023,None
-62,james hardy australia,13.366,12.0,12.766,13.933,13.3,11.3,76.665,qual,2023,None
-63,sebastian gawronski poland,13.9,11.7,12.5,13.8,13.133,11.6,76.633,qual,2023,None
-64,santiago mayol argentina,12.666,12.7,12.133,13.5,13.366,12.233,76.598,qual,2023,None
-65,elias koski finland,11.9,13.6,13.5,13.966,10.6,12.9,76.466,qual,2023,None
-66,kevin penev bulgaria,13.633,12.766,12.466,14.333,12.266,10.933,76.397,qual,2023,None
-67,robert tvorogal lithuania,13.166,12.866,11.866,13.866,12.733,11.6,76.097,qual,2023,None
-68,diorges escobar cuba,12.933,11.566,11.633,14.033,12.1,13.8,76.065,qual,2023,None
-69,robert burtanete romania,13.3,12.266,11.3,14.066,12.666,12.466,76.064,qual,2023,None
-70,valgard reinhardsson iceland,12.766,11.7,12.833,14.033,13.333,11.1,75.765,qual,2023,None
-71,petar vefic serbia,12.033,12.633,12.633,13.366,13.366,11.633,75.664,qual,2023,None
-72,andres perez puerto rico,13.366,10.766,12.633,13.3,12.366,13.0,75.431,qual,2023,None
-73,yeh cheng taiwan,13.533,12.8,11.333,13.133,12.066,12.533,75.398,qual,2023,None
-74,van vi luong vietnam,12.1,11.5,12.4,14.1,12.866,12.3,75.266,qual,2023,None
-75,ethan dick new zealand,12.933,11.4,12.233,13.833,11.9,12.833,75.132,qual,2023,None
-76,diyas toishybek kazakhstan,12.566,13.833,12.166,13.166,13.366,9.9,74.997,qual,2023,None
-77,hillal metidji algeria,10.833,12.633,12.566,13.7,13.066,12.066,74.864,qual,2023,None
-78,marcus stenberg sweden,12.666,10.2,13.2,13.5,12.566,12.6,74.732,qual,2023,None
-79,adam steele ireland,10.766,12.1,12.366,14.366,12.166,12.733,74.497,qual,2023,None
-80,kacper garnczarek poland,11.433,11.766,12.166,14.1,11.866,12.833,74.164,qual,2023,None
-81,gytis chasazyrovas lithuania,12.733,11.566,12.5,13.4,11.4,12.5,74.099,qual,2023,None
-82,ricardo rudy austria,12.033,12.2,12.533,13.633,11.766,11.933,74.098,qual,2023,None
-83,ilyas azizov kazakhstan,11.833,12.433,12.0,13.4,11.5,12.9,74.066,qual,2023,None
-84,usukhbayar erkhembayar mongolia,13.7,10.8,12.233,14.0,11.833,11.4,73.966,qual,2023,None
-85,manuel martinez colombia,12.366,10.566,11.866,13.633,13.033,12.333,73.797,qual,2023,None
-86,michalis chari cyprus,12.666,9.666,13.033,13.566,12.933,11.633,73.497,qual,2023,None
-87,joel alvarez chile,11.866,11.166,11.6,13.633,12.733,12.166,73.164,qual,2023,None
-88,yogeshwar singh india,9.766,12.233,12.133,13.9,13.333,10.966,72.331,qual,2023,None
-89,yordan aleksandrov bulgaria,12.666,11.333,12.8,11.733,11.2,12.466,72.198,qual,2023,None
-90,rodrigo gomez mexico,14.0,10.066,12.433,12.966,10.3,12.366,72.131,qual,2023,None
-NR,félix dolci canada,14.5,0.0,13.9,14.466,14.233,14.133,71.232,qual,2023,None
-NR,nicolau mir spain,14.333,12.766,0.0,13.1,14.433,13.633,68.265,qual,2023,None
-NR,emre dodanli türkiye,14.166,0.0,12.666,14.0,13.833,13.533,68.198,qual,2023,None
-NR,noah kuavita belgium,13.666,12.533,0.0,14.4,14.333,13.033,67.965,qual,2023,None
-NR,arthur mariano brazil,13.966,11.8,0.0,14.7,13.3,14.133,67.899,qual,2023,None
-91,carlos yulo philippines,14.6,13.233,11.566,0.0,14.666,13.7,67.765,qual,2023,None
-NR,lucas kochan germany,12.9,13.1,0.0,14.066,14.233,13.4,67.699,qual,2023,None
-NR,dmitriy patanin kazakhstan,13.9,0.0,13.366,14.4,13.166,12.4,67.232,qual,2023,None
-NR,kim jaeho south korea,13.633,13.433,0.0,14.7,12.0,13.4,67.199,qual,2023,None
-NR,jordi hagenaar netherlands,13.3,13.1,0.0,14.166,12.333,13.366,66.265,qual,2023,None
-NR,maxime gentges belgium,13.233,12.7,13.266,0.0,14.066,12.033,65.298,qual,2023,None
-NR,ryu sunghyun south korea,14.2,11.066,0.0,13.3,13.133,13.266,64.965,qual,2023,None
-NR,kevin carvalho france,0.0,12.366,12.766,14.1,14.0,11.3,64.532,qual,2023,None
-NR,nicholas tarca romania,12.8,13.066,0.0,12.866,13.2,11.9,63.832,qual,2023,None
-NR,dilan jimenez colombia,12.7,0.0,12.1,14.266,13.966,10.666,63.698,qual,2023,None
-NR,ahmed abdelrahman egypt,12.566,12.266,0.0,14.133,11.766,12.8,63.531,qual,2023,None
-NR,zaid khater egypt,11.533,11.1,12.733,12.966,13.833,0.0,62.165,qual,2023,None
-NR,hamza hossaini morocco,12.966,11.0,0.0,14.333,12.233,7.766,58.298,qual,2023,None
-NR,paul juda united states,13.933,0.0,13.733,14.866,0.0,14.166,56.698,qual,2023,None
-NR,khoi young united states,0.0,15.066,0.0,14.8,14.533,11.933,56.332,qual,2023,None
-NR,sugimoto kaito japan,0.0,13.333,13.766,0.0,15.166,13.866,56.131,qual,2023,None
-NR,yul moldauer united states,14.233,12.666,14.0,0.0,14.966,0.0,55.865,qual,2023,None
-NR,lucas desanges france,14.0,0.0,0.0,13.8,14.033,13.5,55.333,qual,2023,None
-NR,shi cong china,0.0,13.6,0.0,13.5,14.9,13.133,55.133,qual,2023,None
-NR,nils dunkel germany,0.0,14.6,13.533,0.0,14.133,12.5,54.766,qual,2023,None
-NR,christian baumann switzerland,0.0,13.5,13.666,0.0,14.066,13.233,54.465,qual,2023,None
-NR,seo jungwon south korea,13.566,0.0,13.566,14.1,13.2,0.0,54.432,qual,2023,None
-NR,nicola cuyle belgium,0.0,13.366,13.833,13.0,14.166,0.0,54.365,qual,2023,None
-NR,taha serhani switzerland,11.7,0.0,0.0,14.366,14.3,13.666,54.032,qual,2023,None
-NR,joel plata spain,0.0,13.5,13.033,0.0,14.433,13.066,54.032,qual,2023,None
-NR,ferhat arican türkiye,0.0,13.6,0.0,13.866,13.766,12.733,53.965,qual,2023,None
-NR,glen cuyle belgium,13.733,0.0,14.133,13.5,0.0,12.5,53.866,qual,2023,None
-NR,su weide china,14.2,10.9,0.0,14.266,0.0,14.3,53.666,qual,2023,None
-NR,bart deurloo netherlands,11.266,0.0,13.3,14.1,0.0,14.1,52.766,qual,2023,None
-NR,pavel gulidov israel,13.4,0.0,11.966,14.2,12.966,0.0,52.532,qual,2023,None
-NR,courtney tulloch great britain,12.133,0.0,14.3,13.233,12.2,0.0,51.866,qual,2023,None
-NR,radomyr stelmakh ukraine,13.233,13.8,0.0,0.0,13.5,10.933,51.466,qual,2023,None
-NR,bernardo miranda brazil,0.0,12.6,11.5,0.0,13.1,13.866,51.066,qual,2023,None
-NR,toma modoianu romania,0.0,11.8,13.033,0.0,12.5,12.766,50.099,qual,2023,None
-NR,harry hepworth great britain,14.5,0.0,14.366,14.466,0.0,0.0,43.332,qual,2023,None
-NR,max whitlock great britain,0.0,15.266,0.0,0.0,14.133,12.733,42.132,qual,2023,None
-NR,rayderley zapata spain,14.466,0.0,13.166,14.4,0.0,0.0,42.032,qual,2023,None
-NR,nicola bartolini italy,14.4,12.933,0.0,14.666,0.0,0.0,41.999,qual,2023,None
-NR,abdulaziz mirvaliev uzbekistan,13.9,0.0,13.533,14.533,0.0,0.0,41.966,qual,2023,None
-NR,yuri guimarães brazil,14.1,0.0,13.133,14.4,0.0,0.0,41.633,qual,2023,None
-NR,liu yang china,13.033,0.0,15.2,13.133,0.0,0.0,41.366,qual,2023,None
-NR,neofytos kyriakou cyprus,13.4,0.0,0.0,14.3,0.0,13.3,41.0,qual,2023,None
-NR,nick klessing germany,12.233,0.0,13.733,14.433,0.0,0.0,40.399,qual,2023,None
-NR,lee junghyo south korea,0.0,13.3,13.533,0.0,0.0,13.366,40.199,qual,2023,None
-NR,botond molnar hungary,12.9,0.0,0.0,13.733,13.566,0.0,40.199,qual,2023,None
-NR,loran de munck netherlands,0.0,14.466,13.0,0.0,12.666,0.0,40.132,qual,2023,None
-NR,benjamin osberger france,14.166,13.033,12.9,0.0,0.0,0.0,40.099,qual,2023,None
-NR,matteo levantesi italy,0.0,0.0,12.333,0.0,14.833,12.5,39.666,qual,2023,None
-NR,luca giubellini switzerland,13.866,11.433,0.0,14.366,0.0,0.0,39.665,qual,2023,None
-NR,you hao china,0.0,0.0,14.8,0.0,14.233,10.6,39.633,qual,2023,None
-NR,mehmet ayberk kosak türkiye,13.766,11.3,13.766,0.0,0.0,0.0,38.832,qual,2023,None
-NR,juan larrahondo colombia,13.2,0.0,11.233,14.2,0.0,0.0,38.633,qual,2023,None
-NR,balazs kiss hungary,0.0,13.566,13.1,0.0,0.0,11.933,38.599,qual,2023,None
-NR,emilian neagu romania,13.0,0.0,11.4,13.233,0.0,0.0,37.633,qual,2023,None
-NR,rasuljon abdurakhimov uzbekistan,0.0,10.1,0.0,0.0,13.0,13.266,36.366,qual,2023,None
-NR,fabian de luna mexico,0.0,0.0,12.666,13.733,9.966,0.0,36.365,qual,2023,None
-NR,sergio vargas colombia,0.0,11.533,0.0,0.0,13.5,10.666,35.699,qual,2023,None
-NR,igor radivilov ukraine,0.0,0.0,13.966,14.833,0.0,0.0,28.799,qual,2023,None
-NR,minami kazuki japan,14.566,0.0,0.0,14.033,0.0,0.0,28.599,qual,2023,None
-NR,audrys nin reyes dominican republic,0.0,0.0,0.0,14.6,13.933,0.0,28.533,qual,2023,None
-NR,sebastian sponevik norway,0.0,0.0,0.0,14.466,13.3,0.0,27.766,qual,2023,None
-NR,mitchell morgans australia,0.0,0.0,0.0,0.0,13.9,13.8,27.7,qual,2023,None
-NR,alexander myakinin israel,0.0,13.2,0.0,0.0,0.0,13.7,26.9,qual,2023,None
-NR,dominick cunningham ireland,13.7,0.0,0.0,13.066,0.0,0.0,26.766,qual,2023,None
-NR,ahmed elmaraghy egypt,0.0,0.0,12.966,0.0,0.0,12.9,25.866,qual,2023,None
-NR,enkhtuvshin damdindorj mongolia,13.533,0.0,0.0,0.0,0.0,12.133,25.666,qual,2023,None
-NR,ricards plate latvia,0.0,0.0,0.0,0.0,12.7,12.7,25.4,qual,2023,None
-NR,ahmed riadh aliouat algeria,0.0,0.0,0.0,0.0,12.9,12.3,25.2,qual,2023,None
-NR,rhys mcclenaghan ireland,0.0,14.933,0.0,0.0,0.0,0.0,14.933,qual,2023,None
-NR,ahmad abu al soud jordan,0.0,14.9,0.0,0.0,0.0,0.0,14.9,qual,2023,None
-NR,eleftherios petrounias greece,0.0,0.0,14.9,0.0,0.0,0.0,14.9,qual,2023,None
-NR,nikita simonov azerbaijan,0.0,0.0,14.666,0.0,0.0,0.0,14.666,qual,2023,None
-NR,shek wai hung hong kong,0.0,0.0,0.0,14.633,0.0,0.0,14.633,qual,2023,None
-NR,harutyun merdinyan armenia,0.0,14.6,0.0,0.0,0.0,0.0,14.6,qual,2023,None
-NR,vinzenz höck austria,0.0,0.0,14.6,0.0,0.0,0.0,14.6,qual,2023,None
-NR,artur avetisyan armenia,0.0,0.0,14.433,0.0,0.0,0.0,14.433,qual,2023,None
-NR,vahagn davtyan armenia,0.0,0.0,14.433,0.0,0.0,0.0,14.433,qual,2023,None
-NR,tin srbic croatia,0.0,0.0,0.0,0.0,0.0,14.433,14.433,qual,2023,None
-NR,vedant sawant australia,0.0,14.4,0.0,0.0,0.0,0.0,14.4,qual,2023,None
-NR,matvei petrov albania,0.0,14.4,0.0,0.0,0.0,0.0,14.4,qual,2023,None
-NR,tseng wei-sheng taiwan,0.0,0.0,0.0,14.233,0.0,0.0,14.233,qual,2023,None
-NR,lin guan-yi taiwan,0.0,0.0,14.166,0.0,0.0,0.0,14.166,qual,2023,None
-NR,nariman kurbanov kazakhstan,0.0,14.133,0.0,0.0,0.0,0.0,14.133,qual,2023,None
-NR,filip lidbeck sweden,14.133,0.0,0.0,0.0,0.0,0.0,14.133,qual,2023,None
-NR,tyson bull australia,0.0,0.0,0.0,0.0,0.0,13.966,13.966,qual,2023,None
-NR,radomir sliz czechia,0.0,13.8,0.0,0.0,0.0,0.0,13.8,qual,2023,None
-NR,dmitrijs mickevics latvia,0.0,13.7,0.0,0.0,0.0,0.0,13.7,qual,2023,None
-NR,jayson rampersad canada,0.0,13.633,0.0,0.0,0.0,0.0,13.633,qual,2023,None
-NR,ivan dejanovic serbia,0.0,0.0,0.0,0.0,0.0,13.433,13.433,qual,2023,None
-NR,guilherme campos portugal,13.333,0.0,0.0,0.0,0.0,0.0,13.333,qual,2023,None
-NR,shiao yu-jan taiwan,0.0,13.3,0.0,0.0,0.0,0.0,13.3,qual,2023,None
-NR,marios georgiou cyprus,0.0,0.0,0.0,0.0,0.0,13.233,13.233,qual,2023,None
-NR,filip ude croatia,0.0,13.133,0.0,0.0,0.0,0.0,13.133,qual,2023,None
-NR,quentin brandenburger luxembourg,0.0,0.0,0.0,0.0,13.066,0.0,13.066,qual,2023,None
-NR,sokratis pilakouris cyprus,0.0,0.0,13.033,0.0,0.0,0.0,13.033,qual,2023,None
-NR,stefanos tsolakidis greece,0.0,0.0,0.0,0.0,12.933,0.0,12.933,qual,2023,None
-NR,dagur olafsson iceland,0.0,12.533,0.0,0.0,0.0,0.0,12.533,qual,2023,None
-NR,kim wanström sweden,12.5,0.0,0.0,0.0,0.0,0.0,12.5,qual,2023,None
-NR,eamon montgomery ireland,12.5,0.0,0.0,0.0,0.0,0.0,12.5,qual,2023,None
-NR,ondrej kalny czechia,0.0,0.0,0.0,11.8,0.0,0.0,11.8,qual,2023,None
-NR,akseli karsikas finland,9.566,0.0,0.0,0.0,0.0,0.0,9.566,qual,2023,None
-1,hashimoto daiki japan,13.466,14.366,14.0,15.0,14.8,14.5,86.132,final,2023,None
-2,illia kovtun ukraine,14.0,14.3,13.133,14.333,15.166,14.066,84.998,final,2023,None
-3,fred richard united states,14.633,13.733,13.5,14.566,14.6,13.3,84.332,final,2023,None
-4,chiba kenta japan,13.966,14.8,13.733,13.666,14.666,12.633,83.464,final,2023,None
-5,milad karimi kazakhstan,14.366,13.0,12.966,14.233,14.1,14.266,82.931,final,2023,None
-6,yumin abbadini italy,13.866,13.8,13.3,13.9,13.933,14.033,82.832,final,2023,None
-7,sun wei china,13.333,12.3,14.266,14.166,14.4,14.233,82.698,final,2023,None
-8,noe seifert switzerland,13.833,13.566,13.366,14.1,14.766,12.8,82.431,final,2023,None
-9,james hall great britain,13.6,13.3,13.566,13.733,14.666,13.466,82.331,final,2023,None
-10,diogo soares brazil,13.0,13.6,13.066,14.1,14.266,13.8,81.832,final,2023,None
-11,krisztofer meszaros hungary,14.266,13.5,13.366,14.3,12.533,13.7,81.665,final,2023,None
-12,rene cournoyer canada,13.566,12.6,13.766,13.7,13.933,13.8,81.365,final,2023,None
-13,jake jarman great britain,14.5,13.433,12.9,15.433,12.766,12.166,81.198,final,2023,None
-14,florian langenegger switzerland,13.433,13.466,12.9,14.233,13.866,13.033,80.931,final,2023,None
-15,mario macchiati italy,13.466,13.433,13.1,14.466,13.2,13.0,80.665,final,2023,None
-16,lukas dauser germany,11.966,13.033,12.933,13.733,15.4,13.366,80.431,final,2023,None
-17,casimir schmidt netherlands,14.0,13.266,12.8,14.3,12.933,13.0,80.299,final,2023,None
-18,ilia liubimov israel,13.2,13.7,12.4,13.966,13.533,13.366,80.165,final,2023,None
-19,asher hong united states,13.733,12.333,13.833,13.866,14.466,11.833,80.064,final,2023,None
-20,thierno diallo spain,13.366,13.3,13.0,14.133,13.833,12.3,79.932,final,2023,None
-21,luka van den keybus belgium,13.6,9.666,12.9,14.5,14.2,13.5,78.366,final,2023,None
-22,ahmet önder türkiye,13.8,9.933,13.133,14.533,12.866,14.066,78.331,final,2023,None
-23,lee junho south korea,13.466,11.933,13.166,14.1,11.733,13.566,77.964,final,2023,None
-24,khabibullo ergashev uzbekistan,12.8,13.5,12.266,13.866,13.166,11.733,77.331,final,2023,None
-1,yul moldauer 5280 gymnastics,14.4,13.957 (+0.107),14.114 (+0.114),14.25,15.121 (+0.321),13.5,85.342 (+0.542),final,2023,None
-2,fred richard michigan,14.483 (+0.183),13.357 (+0.107),13.35,14,14.45,14.962 (+0.412),84.602 (+0.702),final,2023,None
-3,asher hong stanford,12.203 (+0.053),12.507 (+0.107),14.133 (+0.183),14.755 (+0.705),14.7,13.65,81.948 (+1.048),final,2023,None
-4,ian lasic-ellis stanford,13.6,13.4,13.95,13.7,14.5,12.755 (+0.055),81.905 (+0.055),final,2023,None
-5,shane wiskus evo,13.7,13.25,14.25,13.75,14.05,12.2,81.2,final,2023,None
-6,riley loos stanford,12.9,12.3,13.953 (+0.053),14.252 (+0.202),13.35,13.45,80.205 (+0.255),final,2023,None
-7,joshua karnes penn state,13.75,11.3,13.1,13.7,14.4,13.25,79.5,final,2023,None
-8,ian gunther stanford,12.9,12.902 (+0.052),13.8,13.5,12.45,13.6,79.152 (+0.052),final,2023,None
-9,mike fletcher illinois,12.6,13.05,13.15,14.45,13.55,12.1,78.9,final,2023,None
-10,cameron bock michigan,13.4,13.05,11.6,13.95,13.3,13.55,78.85,final,2023,None
-11,landen blixt michigan,13.5,12.8,12.45,12.65,13.8,13.2,78.4,final,2023,None
-12,david shamah evo,12.7,12.9,12.15,13.5,13.4,12.9,77.55,final,2023,None
-13,michael jaroh penn state,12.3,12.65,13.5,13,12.75,12.8,77,final,2023,None
-14,taylor christopulos nebraska,13.55,13.4,10.7,14.25,12.95,11.25,76.1,final,2023,None
-15,jeremy bischoff stanford,12.6,11.15,13.2,14.05,13.65,11.45,76.1,final,2023,None
-16,kameron nelson ohio state,14.114 (+0.114),9.8,12.6,14.302 (+0.202),13.25,11.65,75.716 (+0.316),final,2023,None
-17,noah newfeld berkeley,11.55,11.3,12.9,13.3,13.35,12.9,75.3,final,2023,None
-18,maxim bereznev roswell,12.1,10.95,12.85,13.05,13.1,12.6,74.65,final,2023,None
-19,chase davenport-mills roswell,11.1,12.4,12.3,13.9,10.95,12.75,73.4,final,2023,None
-20,evan hymanson stanford boys,12.1,10.2,12.6,11.7,13.75,12.5,72.85,final,2023,None
-21,rithik puri michigan,11.4,10.15,11.35,13.4,13,11.65,70.95,final,2023,None
-22,matt cormier penn state,11.05,8.95,12.05,12.25,13.45,11.3,69.05,final,2023,None
-23,anthony koppie roswell,11.9,4.65,12.55,13.95,11.75,11.4,66.2,final,2023,None
-24,isaiah drake navy,0,12.15,13.4,14.15,13.55,11.55,64.8,final,2023,None
-25,garrett braunton air force,12.15,10.3,12.95,0,13.55,9.35,58.3,final,2023,None
-26,drake andrews evo,0,12.15,12.85,0,11.4,12.9,49.3,final,2023,None
-27,michael artlip penn state,0,11,11.65,0,11.3,12.65,46.6,final,2023,None
-28,alex diab evo,12.9,0,14.698 (+0.448),13.552 (+0.202),0,0,41.150 (+0.650),final,2023,None
-29,javier alfonso michigan,13.2,0,14.15,0,12.6,0,39.95,final,2023,None
-30,curran phillips stanford,0,0,0,0,15.997 (+0.597),13.7,29.697 (+0.597),final,2023,None
-31,blake sun stanford,0,13.5,0,0,15.044 (+0.244),0,28.544 (+0.244),final,2023,None
-32,connor mccool illinois,13.803 (+0.053),0,0,14.15,0,0,27.953 (+0.053),final,2023,None
-33,spencer goodell oklahoma,13.45,0,0,0,13.75,0,27.2,final,2023,None
-34,khoi young stanford,0,11.2,0,14.802 (+0.202),0,0,26.002 (+0.202),final,2023,None
-35,jack freeman oklahoma,13.2,0,0,0,0,10.95,24.15,final,2023,None
-36,stephen nedoroscik evo,0,15.092 (+0.442),0,0,0,0,15.092 (+0.442),final,2023,None
-37,patrick hoopes air force,0,14.992 (+0.442),0,0,0,0,14.992 (+0.442),final,2023,None
-38,ian skirkey illinois,0,14.972 (+0.522),0,0,0,0,14.972 (+0.522),final,2023,None
-39,ignacio yockers oklahoma,0,14.942 (+0.442),0,0,0,0,14.942 (+0.442),final,2023,None
-40,brandon dang west coast,0,14.466 (+0.366),0,0,0,0,14.466 (+0.366),final,2023,None
-41,vahe petrosyan gym olympica,0,0,0,13.35,0,0,13.35,final,2023,None
-42,troy lipis gym world,0,0,12.711 (+0.261),0,0,0,12.711 (+0.261),final,2023,None
+Rank,Athlete,FX,PH,SR,VT,PB,HB,AA,round,Nation,year
+1,chiba kenta,13.9,14.7,13.666,14.333,14.7,14.5,85.799,qual,Japan,2023
+2,kaya kazuma,14.1,14.066,14.2,14.266,14.8,14.166,85.598,qual,Japan,2023
+3,hashimoto daiki,14.5,13.266,13.7,14.366,14.6,15.0,85.432,qual,Japan,2023
+4,jake jarman great,14.366,13.9,13.233,14.0,14.566,13.966,84.031,qual,Britain,2023
+5,james hall great,13.966,14.033,13.833,13.5,14.466,13.833,83.631,qual,Britain,2023
+6,fred richard united,14.6,14.2,13.4,14.533,14.6,12.233,83.566,qual,States,2023
+7,milad karimi,14.5,12.2,13.166,14.566,14.2,14.6,83.232,qual,Kazakhstan,2023
+8,asher hong united,14.3,13.1,13.966,14.766,14.833,12.2,83.165,qual,States,2023
+9,artem dolgopyat,15.1,13.5,12.833,14.4,13.866,13.3,82.999,qual,Israel,2023
+10,adem asil,13.8,12.866,14.166,14.566,13.866,13.366,82.63,qual,Türkiye,2023
+11,yumin abbadini,13.533,13.5,13.5,13.966,14.0,14.033,82.532,qual,Italy,2023
+12,noe seifert,14.2,12.766,13.366,14.066,14.333,13.733,82.464,qual,Switzerland,2023
+13,lukas dauser,13.433,13.233,12.966,13.866,15.3,13.566,82.364,qual,Germany,2023
+14,sun wei,13.6,12.966,13.633,14.2,14.233,13.466,82.098,qual,China,2023
+15,lorenzo casali,13.6,13.2,13.566,14.566,14.0,13.133,82.065,qual,Italy,2023
+16,artur davtyan,13.233,13.833,13.833,15.033,13.2,12.9,82.032,qual,Armenia,2023
+17,rene cournoyer,13.5,12.933,13.666,14.233,13.8,13.866,81.998,qual,Canada,2023
+18,krisztofer meszaros,14.2,13.5,13.7,14.133,14.2,12.2,81.933,qual,Hungary,2023
+19,illia kovtun,13.133,14.366,13.133,14.266,15.233,11.8,81.931,qual,Ukraine,2023
+20,florian langenegger,14.2,13.366,12.933,14.266,13.866,13.233,81.864,qual,Switzerland,2023
+21,casimir schmidt,13.533,13.133,13.933,14.366,13.6,13.266,81.831,qual,Netherlands,2023
+22,mario macchiati,13.633,13.2,13.1,14.5,14.166,13.2,81.799,qual,Italy,2023
+23,lee junho south,13.633,12.666,13.566,14.3,14.0,13.5,81.665,qual,Korea,2023
+24,ilia liubimov,13.633,13.9,12.466,14.033,13.933,13.433,81.398,qual,Israel,2023
+25,ahmet önder,14.266,12.966,13.4,14.166,12.766,13.6,81.164,qual,Türkiye,2023
+26,diogo soares,12.866,13.766,13.0,14.033,14.233,13.166,81.064,qual,Brazil,2023
+27,nestor abad,14.166,13.1,13.6,13.2,13.8,13.033,80.899,qual,Spain,2023
+28,thierno diallo,13.633,13.6,13.3,14.0,14.366,11.9,80.799,qual,Spain,2023
+29,luka van den keybus,13.933,12.066,12.8,14.4,14.366,13.233,80.798,qual,Belgium,2023
+30,andrei muntean,13.633,11.666,13.5,14.5,14.4,12.966,80.665,qual,Romania,2023
+31,khabibullo ergashev,13.233,13.966,13.1,14.0,13.133,13.233,80.665,qual,Uzbekistan,2023
+32,ivan tikhonov,13.733,13.466,13.533,13.966,13.266,12.666,80.63,qual,Azerbaijan,2023
+33,sofus heggemsnes,13.2,12.8,13.066,14.3,13.933,13.2,80.499,qual,Norway,2023
+34,pascal brendel,14.0,13.3,13.2,12.833,12.8,13.933,80.066,qual,Germany,2023
+35,patrick sampaio,13.6,11.966,13.366,13.866,13.533,13.6,79.931,qual,Brazil,2023
+36,abdulla azimov,13.7,14.333,12.366,13.833,12.533,13.1,79.865,qual,Uzbekistan,2023
+37,omar mohamed,13.566,12.333,12.9,14.0,13.666,13.2,79.665,qual,Egypt,2023
+38,clay mason stephens,13.833,12.133,12.566,14.2,13.666,13.266,79.664,qual,Australia,2023
+39,oskar kirmes,13.233,12.4,13.266,13.933,13.766,13.033,79.631,qual,Finland,2023
+40,ilias georgiou,12.433,12.066,13.4,14.366,14.133,13.066,79.464,qual,Cyprus,2023
+41,oleg verniaiev,13.533,12.0,12.866,13.366,14.8,12.6,79.165,qual,Ukraine,2023
+42,jermain grünberg,13.733,10.5,12.933,13.7,14.5,13.666,79.032,qual,Netherlands,2023
+43,utkirbek juraev,12.2,13.6,11.8,14.4,13.7,13.233,78.933,qual,Uzbekistan,2023
+44,léo saladino,13.3,12.0,13.3,14.366,13.0,12.9,78.866,qual,France,2023
+45,lee chih-kai,13.5,14.8,12.066,13.5,13.366,11.633,78.865,qual,Taiwan,2023
+46,harald wibye,13.266,12.1,12.866,14.2,13.066,13.1,78.598,qual,Norway,2023
+47,uri zeidel,13.333,13.366,13.0,12.966,12.7,13.233,78.598,qual,Israel,2023
+48,jose nogueira,13.9,12.366,12.733,13.766,12.933,12.866,78.564,qual,Portugal,2023
+49,zachary clay,13.1,13.666,13.033,13.466,12.166,13.066,78.497,qual,Canada,2023
+50,mohamed afify,13.233,11.866,12.7,13.766,13.933,12.5,77.998,qual,Egypt,2023
+51,mikhail koudinov new,12.866,12.533,13.033,13.866,13.9,11.633,77.831,qual,Zealand,2023
+52,gagik khachikyan,12.666,14.6,12.266,13.333,12.733,12.133,77.731,qual,Armenia,2023
+53,benedek tomcsanyi,13.5,13.1,13.233,13.966,12.7,11.166,77.665,qual,Hungary,2023
+54,william emard,14.033,12.666,14.133,9.5,13.766,13.333,77.431,qual,Canada,2023
+55,askhab matiev,13.3,11.666,12.8,13.833,12.866,12.966,77.431,qual,Austria,2023
+56,isaac nuñez,13.366,11.966,12.166,13.966,13.7,12.066,77.23,qual,Mexico,2023
+57,nazar chepurnyi,12.266,12.633,12.966,14.966,11.6,12.7,77.131,qual,Ukraine,2023
+58,andres martinez,13.366,12.066,12.566,13.8,12.966,12.366,77.13,qual,Colombia,2023
+59,krisztian balazs,12.966,12.233,11.9,13.566,13.833,12.533,77.031,qual,Hungary,2023
+60,jim zona,13.833,9.166,13.333,14.133,13.533,12.866,76.864,qual,France,2023
+61,nikolaos iliopoulos,12.466,11.966,11.966,13.533,13.933,12.966,76.83,qual,Greece,2023
+62,james hardy,13.366,12.0,12.766,13.933,13.3,11.3,76.665,qual,Australia,2023
+63,sebastian gawronski,13.9,11.7,12.5,13.8,13.133,11.6,76.633,qual,Poland,2023
+64,santiago mayol,12.666,12.7,12.133,13.5,13.366,12.233,76.598,qual,Argentina,2023
+65,elias koski,11.9,13.6,13.5,13.966,10.6,12.9,76.466,qual,Finland,2023
+66,kevin penev,13.633,12.766,12.466,14.333,12.266,10.933,76.397,qual,Bulgaria,2023
+67,robert tvorogal,13.166,12.866,11.866,13.866,12.733,11.6,76.097,qual,Lithuania,2023
+68,diorges escobar,12.933,11.566,11.633,14.033,12.1,13.8,76.065,qual,Cuba,2023
+69,robert burtanete,13.3,12.266,11.3,14.066,12.666,12.466,76.064,qual,Romania,2023
+70,valgard reinhardsson,12.766,11.7,12.833,14.033,13.333,11.1,75.765,qual,Iceland,2023
+71,petar vefic,12.033,12.633,12.633,13.366,13.366,11.633,75.664,qual,Serbia,2023
+72,andres perez puerto,13.366,10.766,12.633,13.3,12.366,13.0,75.431,qual,Rico,2023
+73,yeh cheng,13.533,12.8,11.333,13.133,12.066,12.533,75.398,qual,Taiwan,2023
+74,van vi luong,12.1,11.5,12.4,14.1,12.866,12.3,75.266,qual,Vietnam,2023
+75,ethan dick new,12.933,11.4,12.233,13.833,11.9,12.833,75.132,qual,Zealand,2023
+76,diyas toishybek,12.566,13.833,12.166,13.166,13.366,9.9,74.997,qual,Kazakhstan,2023
+77,hillal metidji,10.833,12.633,12.566,13.7,13.066,12.066,74.864,qual,Algeria,2023
+78,marcus stenberg,12.666,10.2,13.2,13.5,12.566,12.6,74.732,qual,Sweden,2023
+79,adam steele,10.766,12.1,12.366,14.366,12.166,12.733,74.497,qual,Ireland,2023
+80,kacper garnczarek,11.433,11.766,12.166,14.1,11.866,12.833,74.164,qual,Poland,2023
+81,gytis chasazyrovas,12.733,11.566,12.5,13.4,11.4,12.5,74.099,qual,Lithuania,2023
+82,ricardo rudy,12.033,12.2,12.533,13.633,11.766,11.933,74.098,qual,Austria,2023
+83,ilyas azizov,11.833,12.433,12.0,13.4,11.5,12.9,74.066,qual,Kazakhstan,2023
+84,usukhbayar erkhembayar,13.7,10.8,12.233,14.0,11.833,11.4,73.966,qual,Mongolia,2023
+85,manuel martinez,12.366,10.566,11.866,13.633,13.033,12.333,73.797,qual,Colombia,2023
+86,michalis chari,12.666,9.666,13.033,13.566,12.933,11.633,73.497,qual,Cyprus,2023
+87,joel alvarez,11.866,11.166,11.6,13.633,12.733,12.166,73.164,qual,Chile,2023
+88,yogeshwar singh,9.766,12.233,12.133,13.9,13.333,10.966,72.331,qual,India,2023
+89,yordan aleksandrov,12.666,11.333,12.8,11.733,11.2,12.466,72.198,qual,Bulgaria,2023
+90,rodrigo gomez,14.0,10.066,12.433,12.966,10.3,12.366,72.131,qual,Mexico,2023
+NR,félix dolci,14.5,0.0,13.9,14.466,14.233,14.133,71.232,qual,Canada,2023
+NR,nicolau mir,14.333,12.766,0.0,13.1,14.433,13.633,68.265,qual,Spain,2023
+NR,emre dodanli,14.166,0.0,12.666,14.0,13.833,13.533,68.198,qual,Türkiye,2023
+NR,noah kuavita,13.666,12.533,0.0,14.4,14.333,13.033,67.965,qual,Belgium,2023
+NR,arthur mariano,13.966,11.8,0.0,14.7,13.3,14.133,67.899,qual,Brazil,2023
+91,carlos yulo,14.6,13.233,11.566,0.0,14.666,13.7,67.765,qual,Philippines,2023
+NR,lucas kochan,12.9,13.1,0.0,14.066,14.233,13.4,67.699,qual,Germany,2023
+NR,dmitriy patanin,13.9,0.0,13.366,14.4,13.166,12.4,67.232,qual,Kazakhstan,2023
+NR,kim jaeho south,13.633,13.433,0.0,14.7,12.0,13.4,67.199,qual,Korea,2023
+NR,jordi hagenaar,13.3,13.1,0.0,14.166,12.333,13.366,66.265,qual,Netherlands,2023
+NR,maxime gentges,13.233,12.7,13.266,0.0,14.066,12.033,65.298,qual,Belgium,2023
+NR,ryu sunghyun south,14.2,11.066,0.0,13.3,13.133,13.266,64.965,qual,Korea,2023
+NR,kevin carvalho,0.0,12.366,12.766,14.1,14.0,11.3,64.532,qual,France,2023
+NR,nicholas tarca,12.8,13.066,0.0,12.866,13.2,11.9,63.832,qual,Romania,2023
+NR,dilan jimenez,12.7,0.0,12.1,14.266,13.966,10.666,63.698,qual,Colombia,2023
+NR,ahmed abdelrahman,12.566,12.266,0.0,14.133,11.766,12.8,63.531,qual,Egypt,2023
+NR,zaid khater,11.533,11.1,12.733,12.966,13.833,0.0,62.165,qual,Egypt,2023
+NR,hamza hossaini,12.966,11.0,0.0,14.333,12.233,7.766,58.298,qual,Morocco,2023
+NR,paul juda united,13.933,0.0,13.733,14.866,0.0,14.166,56.698,qual,States,2023
+NR,khoi young united,0.0,15.066,0.0,14.8,14.533,11.933,56.332,qual,States,2023
+NR,sugimoto kaito,0.0,13.333,13.766,0.0,15.166,13.866,56.131,qual,Japan,2023
+NR,yul moldauer united,14.233,12.666,14.0,0.0,14.966,0.0,55.865,qual,States,2023
+NR,lucas desanges,14.0,0.0,0.0,13.8,14.033,13.5,55.333,qual,France,2023
+NR,shi cong,0.0,13.6,0.0,13.5,14.9,13.133,55.133,qual,China,2023
+NR,nils dunkel,0.0,14.6,13.533,0.0,14.133,12.5,54.766,qual,Germany,2023
+NR,christian baumann,0.0,13.5,13.666,0.0,14.066,13.233,54.465,qual,Switzerland,2023
+NR,seo jungwon south,13.566,0.0,13.566,14.1,13.2,0.0,54.432,qual,Korea,2023
+NR,nicola cuyle,0.0,13.366,13.833,13.0,14.166,0.0,54.365,qual,Belgium,2023
+NR,taha serhani,11.7,0.0,0.0,14.366,14.3,13.666,54.032,qual,Switzerland,2023
+NR,joel plata,0.0,13.5,13.033,0.0,14.433,13.066,54.032,qual,Spain,2023
+NR,ferhat arican,0.0,13.6,0.0,13.866,13.766,12.733,53.965,qual,Türkiye,2023
+NR,glen cuyle,13.733,0.0,14.133,13.5,0.0,12.5,53.866,qual,Belgium,2023
+NR,su weide,14.2,10.9,0.0,14.266,0.0,14.3,53.666,qual,China,2023
+NR,bart deurloo,11.266,0.0,13.3,14.1,0.0,14.1,52.766,qual,Netherlands,2023
+NR,pavel gulidov,13.4,0.0,11.966,14.2,12.966,0.0,52.532,qual,Israel,2023
+NR,courtney tulloch great,12.133,0.0,14.3,13.233,12.2,0.0,51.866,qual,Britain,2023
+NR,radomyr stelmakh,13.233,13.8,0.0,0.0,13.5,10.933,51.466,qual,Ukraine,2023
+NR,bernardo miranda,0.0,12.6,11.5,0.0,13.1,13.866,51.066,qual,Brazil,2023
+NR,toma modoianu,0.0,11.8,13.033,0.0,12.5,12.766,50.099,qual,Romania,2023
+NR,harry hepworth great,14.5,0.0,14.366,14.466,0.0,0.0,43.332,qual,Britain,2023
+NR,max whitlock great,0.0,15.266,0.0,0.0,14.133,12.733,42.132,qual,Britain,2023
+NR,rayderley zapata,14.466,0.0,13.166,14.4,0.0,0.0,42.032,qual,Spain,2023
+NR,nicola bartolini,14.4,12.933,0.0,14.666,0.0,0.0,41.999,qual,Italy,2023
+NR,abdulaziz mirvaliev,13.9,0.0,13.533,14.533,0.0,0.0,41.966,qual,Uzbekistan,2023
+NR,yuri guimarães,14.1,0.0,13.133,14.4,0.0,0.0,41.633,qual,Brazil,2023
+NR,liu yang,13.033,0.0,15.2,13.133,0.0,0.0,41.366,qual,China,2023
+NR,neofytos kyriakou,13.4,0.0,0.0,14.3,0.0,13.3,41.0,qual,Cyprus,2023
+NR,nick klessing,12.233,0.0,13.733,14.433,0.0,0.0,40.399,qual,Germany,2023
+NR,lee junghyo south,0.0,13.3,13.533,0.0,0.0,13.366,40.199,qual,Korea,2023
+NR,botond molnar,12.9,0.0,0.0,13.733,13.566,0.0,40.199,qual,Hungary,2023
+NR,loran de munck,0.0,14.466,13.0,0.0,12.666,0.0,40.132,qual,Netherlands,2023
+NR,benjamin osberger,14.166,13.033,12.9,0.0,0.0,0.0,40.099,qual,France,2023
+NR,matteo levantesi,0.0,0.0,12.333,0.0,14.833,12.5,39.666,qual,Italy,2023
+NR,luca giubellini,13.866,11.433,0.0,14.366,0.0,0.0,39.665,qual,Switzerland,2023
+NR,you hao,0.0,0.0,14.8,0.0,14.233,10.6,39.633,qual,China,2023
+NR,mehmet ayberk kosak,13.766,11.3,13.766,0.0,0.0,0.0,38.832,qual,Türkiye,2023
+NR,juan larrahondo,13.2,0.0,11.233,14.2,0.0,0.0,38.633,qual,Colombia,2023
+NR,balazs kiss,0.0,13.566,13.1,0.0,0.0,11.933,38.599,qual,Hungary,2023
+NR,emilian neagu,13.0,0.0,11.4,13.233,0.0,0.0,37.633,qual,Romania,2023
+NR,rasuljon abdurakhimov,0.0,10.1,0.0,0.0,13.0,13.266,36.366,qual,Uzbekistan,2023
+NR,fabian de luna,0.0,0.0,12.666,13.733,9.966,0.0,36.365,qual,Mexico,2023
+NR,sergio vargas,0.0,11.533,0.0,0.0,13.5,10.666,35.699,qual,Colombia,2023
+NR,igor radivilov,0.0,0.0,13.966,14.833,0.0,0.0,28.799,qual,Ukraine,2023
+NR,minami kazuki,14.566,0.0,0.0,14.033,0.0,0.0,28.599,qual,Japan,2023
+NR,audrys nin reyes dominican,0.0,0.0,0.0,14.6,13.933,0.0,28.533,qual,Republic,2023
+NR,sebastian sponevik,0.0,0.0,0.0,14.466,13.3,0.0,27.766,qual,Norway,2023
+NR,mitchell morgans,0.0,0.0,0.0,0.0,13.9,13.8,27.7,qual,Australia,2023
+NR,alexander myakinin,0.0,13.2,0.0,0.0,0.0,13.7,26.9,qual,Israel,2023
+NR,dominick cunningham,13.7,0.0,0.0,13.066,0.0,0.0,26.766,qual,Ireland,2023
+NR,ahmed elmaraghy,0.0,0.0,12.966,0.0,0.0,12.9,25.866,qual,Egypt,2023
+NR,enkhtuvshin damdindorj,13.533,0.0,0.0,0.0,0.0,12.133,25.666,qual,Mongolia,2023
+NR,ricards plate,0.0,0.0,0.0,0.0,12.7,12.7,25.4,qual,Latvia,2023
+NR,ahmed riadh aliouat,0.0,0.0,0.0,0.0,12.9,12.3,25.2,qual,Algeria,2023
+NR,rhys mcclenaghan,0.0,14.933,0.0,0.0,0.0,0.0,14.933,qual,Ireland,2023
+NR,ahmad abu al soud,0.0,14.9,0.0,0.0,0.0,0.0,14.9,qual,Jordan,2023
+NR,eleftherios petrounias,0.0,0.0,14.9,0.0,0.0,0.0,14.9,qual,Greece,2023
+NR,nikita simonov,0.0,0.0,14.666,0.0,0.0,0.0,14.666,qual,Azerbaijan,2023
+NR,shek wai hung hong,0.0,0.0,0.0,14.633,0.0,0.0,14.633,qual,Kong,2023
+NR,harutyun merdinyan,0.0,14.6,0.0,0.0,0.0,0.0,14.6,qual,Armenia,2023
+NR,vinzenz höck,0.0,0.0,14.6,0.0,0.0,0.0,14.6,qual,Austria,2023
+NR,artur avetisyan,0.0,0.0,14.433,0.0,0.0,0.0,14.433,qual,Armenia,2023
+NR,vahagn davtyan,0.0,0.0,14.433,0.0,0.0,0.0,14.433,qual,Armenia,2023
+NR,tin srbic,0.0,0.0,0.0,0.0,0.0,14.433,14.433,qual,Croatia,2023
+NR,vedant sawant,0.0,14.4,0.0,0.0,0.0,0.0,14.4,qual,Australia,2023
+NR,matvei petrov,0.0,14.4,0.0,0.0,0.0,0.0,14.4,qual,Albania,2023
+NR,tseng wei-sheng,0.0,0.0,0.0,14.233,0.0,0.0,14.233,qual,Taiwan,2023
+NR,lin guan-yi,0.0,0.0,14.166,0.0,0.0,0.0,14.166,qual,Taiwan,2023
+NR,nariman kurbanov,0.0,14.133,0.0,0.0,0.0,0.0,14.133,qual,Kazakhstan,2023
+NR,filip lidbeck,14.133,0.0,0.0,0.0,0.0,0.0,14.133,qual,Sweden,2023
+NR,tyson bull,0.0,0.0,0.0,0.0,0.0,13.966,13.966,qual,Australia,2023
+NR,radomir sliz,0.0,13.8,0.0,0.0,0.0,0.0,13.8,qual,Czechia,2023
+NR,dmitrijs mickevics,0.0,13.7,0.0,0.0,0.0,0.0,13.7,qual,Latvia,2023
+NR,jayson rampersad,0.0,13.633,0.0,0.0,0.0,0.0,13.633,qual,Canada,2023
+NR,ivan dejanovic,0.0,0.0,0.0,0.0,0.0,13.433,13.433,qual,Serbia,2023
+NR,guilherme campos,13.333,0.0,0.0,0.0,0.0,0.0,13.333,qual,Portugal,2023
+NR,shiao yu-jan,0.0,13.3,0.0,0.0,0.0,0.0,13.3,qual,Taiwan,2023
+NR,marios georgiou,0.0,0.0,0.0,0.0,0.0,13.233,13.233,qual,Cyprus,2023
+NR,filip ude,0.0,13.133,0.0,0.0,0.0,0.0,13.133,qual,Croatia,2023
+NR,quentin brandenburger,0.0,0.0,0.0,0.0,13.066,0.0,13.066,qual,Luxembourg,2023
+NR,sokratis pilakouris,0.0,0.0,13.033,0.0,0.0,0.0,13.033,qual,Cyprus,2023
+NR,stefanos tsolakidis,0.0,0.0,0.0,0.0,12.933,0.0,12.933,qual,Greece,2023
+NR,dagur olafsson,0.0,12.533,0.0,0.0,0.0,0.0,12.533,qual,Iceland,2023
+NR,kim wanström,12.5,0.0,0.0,0.0,0.0,0.0,12.5,qual,Sweden,2023
+NR,eamon montgomery,12.5,0.0,0.0,0.0,0.0,0.0,12.5,qual,Ireland,2023
+NR,ondrej kalny,0.0,0.0,0.0,11.8,0.0,0.0,11.8,qual,Czechia,2023
+NR,akseli karsikas,9.566,0.0,0.0,0.0,0.0,0.0,9.566,qual,Finland,2023
+1,hashimoto daiki,13.466,14.366,14.0,15.0,14.8,14.5,86.132,final,Japan,2023
+2,illia kovtun,14.0,14.3,13.133,14.333,15.166,14.066,84.998,final,Ukraine,2023
+3,fred richard united,14.633,13.733,13.5,14.566,14.6,13.3,84.332,final,States,2023
+4,chiba kenta,13.966,14.8,13.733,13.666,14.666,12.633,83.464,final,Japan,2023
+5,milad karimi,14.366,13.0,12.966,14.233,14.1,14.266,82.931,final,Kazakhstan,2023
+6,yumin abbadini,13.866,13.8,13.3,13.9,13.933,14.033,82.832,final,Italy,2023
+7,sun wei,13.333,12.3,14.266,14.166,14.4,14.233,82.698,final,China,2023
+8,noe seifert,13.833,13.566,13.366,14.1,14.766,12.8,82.431,final,Switzerland,2023
+9,james hall great,13.6,13.3,13.566,13.733,14.666,13.466,82.331,final,Britain,2023
+10,diogo soares,13.0,13.6,13.066,14.1,14.266,13.8,81.832,final,Brazil,2023
+11,krisztofer meszaros,14.266,13.5,13.366,14.3,12.533,13.7,81.665,final,Hungary,2023
+12,rene cournoyer,13.566,12.6,13.766,13.7,13.933,13.8,81.365,final,Canada,2023
+13,jake jarman great,14.5,13.433,12.9,15.433,12.766,12.166,81.198,final,Britain,2023
+14,florian langenegger,13.433,13.466,12.9,14.233,13.866,13.033,80.931,final,Switzerland,2023
+15,mario macchiati,13.466,13.433,13.1,14.466,13.2,13.0,80.665,final,Italy,2023
+16,lukas dauser,11.966,13.033,12.933,13.733,15.4,13.366,80.431,final,Germany,2023
+17,casimir schmidt,14.0,13.266,12.8,14.3,12.933,13.0,80.299,final,Netherlands,2023
+18,ilia liubimov,13.2,13.7,12.4,13.966,13.533,13.366,80.165,final,Israel,2023
+19,asher hong united,13.733,12.333,13.833,13.866,14.466,11.833,80.064,final,States,2023
+20,thierno diallo,13.366,13.3,13.0,14.133,13.833,12.3,79.932,final,Spain,2023
+21,luka van den keybus,13.6,9.666,12.9,14.5,14.2,13.5,78.366,final,Belgium,2023
+22,ahmet önder,13.8,9.933,13.133,14.533,12.866,14.066,78.331,final,Türkiye,2023
+23,lee junho south,13.466,11.933,13.166,14.1,11.733,13.566,77.964,final,Korea,2023
+24,khabibullo ergashev,12.8,13.5,12.266,13.866,13.166,11.733,77.331,final,Uzbekistan,2023
+1,yul moldauer,14.4,13.957 (+0.107),14.114 (+0.114),14.25,15.121 (+0.321),13.5,85.342 (+0.542),final,USA,2023
+2,fred richard,14.483 (+0.183),13.357 (+0.107),13.35,14,14.45,14.962 (+0.412),84.602 (+0.702),final,USA,2023
+3,asher hong,12.203 (+0.053),12.507 (+0.107),14.133 (+0.183),14.755 (+0.705),14.7,13.65,81.948 (+1.048),final,USA,2023
+4,ian lasic-ellis,13.6,13.4,13.95,13.7,14.5,12.755 (+0.055),81.905 (+0.055),final,USA,2023
+5,shane wiskus,13.7,13.25,14.25,13.75,14.05,12.2,81.2,final,USA,2023
+6,riley loos,12.9,12.3,13.953 (+0.053),14.252 (+0.202),13.35,13.45,80.205 (+0.255),final,USA,2023
+7,joshua karnes,13.75,11.3,13.1,13.7,14.4,13.25,79.5,final,USA,2023
+8,ian gunther,12.9,12.902 (+0.052),13.8,13.5,12.45,13.6,79.152 (+0.052),final,USA,2023
+9,mike fletcher,12.6,13.05,13.15,14.45,13.55,12.1,78.9,final,USA,2023
+10,cameron bock,13.4,13.05,11.6,13.95,13.3,13.55,78.85,final,USA,2023
+11,landen blixt,13.5,12.8,12.45,12.65,13.8,13.2,78.4,final,USA,2023
+12,david shamah,12.7,12.9,12.15,13.5,13.4,12.9,77.55,final,USA,2023
+13,michael jaroh,12.3,12.65,13.5,13,12.75,12.8,77,final,USA,2023
+14,taylor christopulos,13.55,13.4,10.7,14.25,12.95,11.25,76.1,final,USA,2023
+15,jeremy bischoff,12.6,11.15,13.2,14.05,13.65,11.45,76.1,final,USA,2023
+16,kameron nelson,14.114 (+0.114),9.8,12.6,14.302 (+0.202),13.25,11.65,75.716 (+0.316),final,USA,2023
+17,noah newfeld,11.55,11.3,12.9,13.3,13.35,12.9,75.3,final,USA,2023
+18,maxim bereznev,12.1,10.95,12.85,13.05,13.1,12.6,74.65,final,USA,2023
+19,chase davenport-mills,11.1,12.4,12.3,13.9,10.95,12.75,73.4,final,USA,2023
+20,evan hymanson,12.1,10.2,12.6,11.7,13.75,12.5,72.85,final,USA,2023
+21,rithik puri,11.4,10.15,11.35,13.4,13,11.65,70.95,final,USA,2023
+22,matt cormier,11.05,8.95,12.05,12.25,13.45,11.3,69.05,final,USA,2023
+23,anthony koppie,11.9,4.65,12.55,13.95,11.75,11.4,66.2,final,USA,2023
+24,isaiah drake,0,12.15,13.4,14.15,13.55,11.55,64.8,final,USA,2023
+25,garrett braunton,12.15,10.3,12.95,0,13.55,9.35,58.3,final,USA,2023
+26,drake andrews,0,12.15,12.85,0,11.4,12.9,49.3,final,USA,2023
+27,michael artlip,0,11,11.65,0,11.3,12.65,46.6,final,USA,2023
+28,alex diab,12.9,0,14.698 (+0.448),13.552 (+0.202),0,0,41.150 (+0.650),final,USA,2023
+29,javier alfonso,13.2,0,14.15,0,12.6,0,39.95,final,USA,2023
+30,curran phillips,0,0,0,0,15.997 (+0.597),13.7,29.697 (+0.597),final,USA,2023
+31,blake sun,0,13.5,0,0,15.044 (+0.244),0,28.544 (+0.244),final,USA,2023
+32,connor mccool,13.803 (+0.053),0,0,14.15,0,0,27.953 (+0.053),final,USA,2023
+33,spencer goodell,13.45,0,0,0,13.75,0,27.2,final,USA,2023
+34,khoi young,0,11.2,0,14.802 (+0.202),0,0,26.002 (+0.202),final,USA,2023
+35,jack freeman,13.2,0,0,0,0,10.95,24.15,final,USA,2023
+36,stephen nedoroscik,0,15.092 (+0.442),0,0,0,0,15.092 (+0.442),final,USA,2023
+37,patrick hoopes,0,14.992 (+0.442),0,0,0,0,14.992 (+0.442),final,USA,2023
+38,ian skirkey,0,14.972 (+0.522),0,0,0,0,14.972 (+0.522),final,USA,2023
+39,ignacio yockers,0,14.942 (+0.442),0,0,0,0,14.942 (+0.442),final,USA,2023
+40,brandon dang,0,14.466 (+0.366),0,0,0,0,14.466 (+0.366),final,USA,2023
+41,vahe petrosyan,0,0,0,13.35,0,0,13.35,final,USA,2023
+42,troy lipis,0,0,12.711 (+0.261),0,0,0,12.711 (+0.261),final,USA,2023
