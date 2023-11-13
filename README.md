@@ -155,11 +155,18 @@ https://www.coursera.org/degrees/master-of-science-data-science-boulder/academic
 
 ##### Core:
 
-[x] Data Science Foundations: Data Structures and Algorithms Specialization
+[xx] Data Science Foundations: Data Structures and Algorithms Specialization
 
 - Algorithms for Searching, Sorting, and Indexing
 - Trees and Graphs: Basics
 - Dynamic Programming, Greedy Algorithms
+
+[ ] Vital Skills for Data Science Specialization
+
+- Cybersecurity for Data Science
+- Data Science as a Field
+- Ethical Issues in Data Science
+- Fundamentals of Data Visualization
 
 [x] Data Science Foundations: Statistical Inference Specialization
 
