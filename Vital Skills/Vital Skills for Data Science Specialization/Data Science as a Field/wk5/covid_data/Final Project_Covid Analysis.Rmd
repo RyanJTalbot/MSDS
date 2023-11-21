@@ -1,0 +1,271 @@
+---
+title: "Final Project - Covid Analysis"
+author: "GAE"
+date: "2023-03-01"
+output:
+  html_document:
+    df_print: paged
+  pdf_document: default
+---
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+# Load Packages
+```{r load packages, echo=FALSE}
+library(tidyverse)
+library(readr)
+library(dplyr)
+library(lubridate)
+library(ggplot2)
+```
+
+## Covid Data Analysis Project
+This project will download the United States Covid Death and Infection data from
+John's Hopkins University Github page.  The aim of this project to review the data
+for the state of Colorado to identify the counties with the highest infection rate.
+The question we will seek to answer is whether the infection rate of the
+
+```{r obtain data from JHU, echo=FALSE}
+# Read COVID death data from JHU Github page
+
+US_covid_deaths_url = "https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_time_series/time_series_covid19_deaths_US.csv"
+
+US_covid_confirmed_url = "https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_time_series/time_series_covid19_confirmed_US.csv"
+
+# using the readr library to eliminate issues in parsing dates
+raw_US_covid_deaths = readr::read_csv(US_covid_deaths_url)
+raw_US_covid_confirmed = readr::read_csv(US_covid_confirmed_url)
+
+# reading data using read.csv yields dates with 'X' appended requiring parsing
+# utilizing different library (readr) that corrects issue
+#US_covid_deaths = read.csv(url)
+```
+## Insepct the data
+The next step it to review the data that was downloaded to understand the format
+for cleaning and tidying.
+
+```{r inspect the data}
+
+head(raw_US_covid_deaths)
+head(raw_US_covid_confirmed)
+
+```
+# Transform the data
+In this next section, we clean and transform the death and confirmed cases data
+sets by removing unnecessary columns and summing the cumulative deaths.  The date
+column was then converted to a datetime object for plotting and analysis purposes.
+The column headings were changed to a more descriptive title. Next the two
+cleaned data sets were merged to combine the data on the dates.
+
+```{r clean, transform, and organize the data}
+# Pivot wide-format data for dates and sum totals for each state
+US_covid_deaths = raw_US_covid_deaths %>% 
+  pivot_longer(cols = 13:ncol(raw_US_covid_deaths), names_to = "date") %>%
+  group_by(Province_State, Admin2, date,Population) %>%
+  summarise("cumulative_deaths" = sum(value, na.rm = TRUE))
+
+US_covid_confirmed = raw_US_covid_confirmed %>% 
+  pivot_longer(cols = 12:ncol(raw_US_covid_confirmed), names_to = "date") %>%
+  group_by(Province_State, Admin2, date) %>%
+  summarise("cumulative_confirmed" = sum(value, na.rm = TRUE))
+
+# Convert dates to datetime object
+US_covid_deaths$date = lubridate::mdy(US_covid_deaths$date)
+US_covid_confirmed$date = lubridate::mdy(US_covid_confirmed$date)
+
+# Rename columns from Province_State -> State & Admin2 -> County
+US_covid_deaths = US_covid_deaths %>% 
+  rename_at('Province_State', ~'State') %>%
+  rename_at('Admin2', ~'County')
+
+US_covid_confirmed = US_covid_confirmed %>% 
+  rename_at('Province_State', ~'State') %>%
+  rename_at('Admin2', ~'County')
+
+head(US_covid_deaths,3)
+head(US_covid_confirmed,3)
+
+merged_data = merge(x=US_covid_deaths, y=US_covid_confirmed, all.x=TRUE)
+
+CO = merged_data[merged_data$State == "Colorado",]
+
+```
+
+#Filter the data
+The merged data set was then filtered by the top three counties for deaths per 
+capita and raw total deaths by county.
+``` {r Filter Data for Analysis}
+
+# Filter US data frame by State
+#state = "Colorado"
+#CO = US_covid_deaths[US_covid_deaths$State == state,]
+
+head(CO)
+
+#Group by max value
+County_Totals = CO %>% 
+  group_by(County, Population) %>% 
+  summarise("death_totals" = max(cumulative_deaths)) %>%
+  #summarise("population" = min(Population)) %>%
+  mutate("deaths_per_capita" = death_totals / Population * 100000) %>%
+  arrange(desc(death_totals))
+
+County_Totals
+
+# Collect the ten counties with highest Covid deaths for masking
+max_ten_counties = County_Totals[1:10,]
+#max_ten_counties
+
+#Select the three highest counties by raw death count and deaths per 100,000 ppl
+top_three_by_death_totals = max_ten_counties[1:3,]
+#top_three_by_death_totals
+
+top_three_per_capita = max_ten_counties %>%
+    arrange(desc(deaths_per_capita))
+
+top_three_per_capita = top_three_per_capita[1:3,]
+#top_three_per_capita
+
+#Subset data by raw death totals and per capita
+
+top_three_by_death_totals_df = 
+  CO[CO$County %in% top_three_by_death_totals$County,]
+
+top_three_per_capita_df = 
+  CO[CO$County %in% top_three_per_capita$County,]
+
+```
+<br>
+## Data Plots
+The following data plots illustrate the cumulative death across the counties of
+Colorado.
+<br>
+
+```{r data timeseries plots, echo=FALSE}
+# Plot data by county
+#Time Series Cumulative Deaths by County
+CO %>% 
+  ggplot(aes(x = date, y = cumulative_deaths, col = County)) +
+  ggtitle("Cumulative Deaths by County Time Series Data") + 
+  geom_line() +
+  theme(legend.position = "none")
+
+#Time Series Cumulative Deaths by County - Top 3 by Death Totals
+top_three_by_death_totals_df %>% 
+  ggplot(aes(x = date, y = cumulative_deaths, col = County)) +
+  ggtitle("Cumulative Deaths by County Time Series Data") + 
+  geom_line() + 
+  scale_y_continuous(trans="log10")
+
+#Time Series Cumulative Deaths by County - Top 3 by Per Capita
+top_three_per_capita_df %>% 
+  ggplot(aes(x = date, y = cumulative_deaths, col = County)) +
+  ggtitle("Cumulative Deaths by County Time Series Data") + 
+  geom_line() +
+  scale_y_continuous(trans="log10")
+```
+<br>
+## Time Series Plots
+The above time-series plots illustrate the growth/trajectory of the cumulative deaths
+by Colorado counties throughout the pandemic.  The first plot shows trajectory of all 64
+Colorado counties. The second plot shows the top 3 counties by raw cumulative death count.
+The third plot shows the top three counties for cumulative death where the cumulative
+death data was normalized by population - this plot illustrates the deaths per 100,000 people.
+<br>
+
+``` {Bar Plots}
+
+#Bar Chart Cumulative Deaths by County
+CO %>% 
+  ggplot(aes(x = County, y=cumulative_deaths, col=County)) +
+  geom_bar(position = 'dodge2', stat = "identity") +
+  ggtitle("Cumulative Deaths by County Bar Chart")
+  theme(axis.text.x=element_text(angle=60,hjust=1), legend.position = "none") 
+
+#Bar plot of the counties with the greatest # of covid deaths
+max_ten_counties %>%
+  ggplot(aes(x = County, y = death_totals, col = County)) +
+  geom_bar(position = 'dodge2', stat = "identity") +
+  theme(axis.text.x=element_text(angle=60,hjust=1)) +
+  ggtitle("Top 10 Counties for Highest Covid Deaths by Count")
+
+#Per capita death totals
+max_ten_counties %>%
+  ggplot(aes(x = County, y = deaths_per_capita, col = County)) +
+  geom_bar(position = 'dodge2', stat = "identity") +
+  theme(axis.text.x=element_text(angle=60,hjust=1)) +
+  ggtitle("Top 10 Counties Covid Deaths per 100,000 People")
+
+```
+<br>
+## Bar Plots
+The above bar plots illustrate the cumulative deaths by all counties, the top 10 
+higest death count by raw cumulative deaths, and the top 10 counties with the higest
+cumulative deaths normalized by population.  This data shows that the raw death counts
+were the higest in the largest counties but when normalized, the death rate was not
+necessarily the greatest of all counties.
+
+
+``` {r analysis}
+
+days = max(top_three_by_death_totals_df$date) - 
+  min(top_three_by_death_totals_df$date)
+
+day_range = seq(0,days)
+#Filter data by top counties for deaths for model analysis
+ElPaso = top_three_by_death_totals_df[top_three_by_death_totals_df$County == "El Paso",]
+Pueblo = top_three_per_capita_df[top_three_per_capita_df$County == "Pueblo",]
+
+#top_three_by_death_totals_df[top_three_by_death_totals_df$County == "El Paso",] %>%
+#  arrange(date) %>%
+#  ggplot(aes(x = day_range, y = log(cumulative_deaths), col = County)) +
+#  ggtitle("Cumulative Deaths by County Time Series Data") + 
+#  geom_point()
+
+#top_three_per_capita_df[top_three_per_capita_df$County == "Pueblo",] %>%
+#  arrange(date) %>%
+#  ggplot(aes(x = day_range, y = log(cumulative_deaths), col = County)) +
+#  ggtitle("Cumulative Deaths by County Time Series Data") + 
+#  geom_point()
+
+# Develop linear model for El Paso County
+ElPaso_Model = lm(cumulative_deaths ~ cumulative_confirmed, data = ElPaso)
+
+summary(ElPaso_Model)
+
+ElPaso$predicted_deaths = predict(ElPaso_Model)
+# Plot model data against actual data
+ElPaso %>% 
+  ggplot(aes(x=cumulative_confirmed, y=cumulative_deaths)) + 
+  geom_point(color='red') +
+  geom_smooth(method='lm')
+
+
+Pueblo_Model = lm(cumulative_deaths ~ cumulative_confirmed, data = Pueblo)
+
+summary(Pueblo_Model)
+
+Pueblo$predicted_deaths = predict(Pueblo_Model)
+
+Pueblo %>% 
+  ggplot(aes(x=cumulative_confirmed, y=cumulative_deaths)) + 
+  geom_point(color='green') +
+  geom_smooth(method='lm')
+
+
+```
+<br>
+## Analysis and Conclusion
+Linear models were developed for two counties, El Paso and Pueblo.  These models
+were develope to determine if the death rate was greater in one county versus the other.
+El Paso county had the highest raw count of covid deaths. Pueblo county had the highest
+normalized count of covid deaths.  Thus, these two counties were selected for analysis
+to determine if one had a higher rate of covid deaths.  When looking at the normalized 
+deaths - deaths per 100,000 people - the data indicated that Pueblo county had the 
+a much higher rate of covid deaths when compared to El Paso.  The summary data for 
+the linear models show that the slope of the line of covid deaths to covid confirmed cases
+is much higher for Pueblo when compared to El Paso by approximately 2.88 times.
+<br>
+

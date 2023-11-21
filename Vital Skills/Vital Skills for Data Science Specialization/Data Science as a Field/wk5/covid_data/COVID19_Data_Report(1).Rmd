@@ -1,0 +1,231 @@
+---
+title: "COVID19 Data Report"
+date: "`r Sys.Date()`"
+output:
+  pdf_document: default
+  html_document: default
+---
+
+```{r setup, include = FALSE}
+knitr::opts_chunk$set(echo = TRUE, warning = FALSE)
+```
+
+## Dataset Description
+
+This COVID-19 dataset is from the Johns Hopkins Github site and contains daily time series summary tables, including confirmed, deaths, and recovered. The COVID-19 data repository is operated by the Johns Hopkins University Center for Systems Science and Engineering (JHU CSSE). Since January 21, 2020, this dataset has collected data from sources such as the World Health Organization (WHO), Los Angeles Times, and QQ News, etc. On March 10, 2023, the Johns Hopkins Coronavirus Resource Center ceased its collecting and reporting of global COVID-19 data.
+
+(Please refer to <https://github.com/CSSEGISandData/COVID-19> for additional information about this dataset.)
+
+## Step 0: Import Packages
+
+```{r import_package, message = FALSE}
+library(tidyverse)
+library(forecast)
+```
+
+## Step 1: Import the Data
+
+- Copy the link address of the csv file.
+
+```{r get_data}
+# Get the beginning part of the link address
+url_in = "https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_time_series/"
+
+# Get the file names
+file_names = c("time_series_covid19_confirmed_global.csv", "time_series_covid19_deaths_global.csv")
+
+# Use `str_c()` to put those together
+urls = str_c(url_in, file_names)
+urls
+```
+
+- Use `read_csv()` to read in the data.
+
+```{r read_global_cases, message = FALSE}
+global_cases = read_csv(urls[1])
+```
+```{r head_global_cases, echo = FALSE}
+head(global_cases)
+```
+```{r read_global_deaths, message = FALSE}
+global_deaths = read_csv(urls[2])
+```
+```{r head_global_deaths, echo = FALSE}
+head(global_deaths)
+```
+
+## Step 2: Tidy and Transform the Data
+
+### **1. Tidy the columns**
+  - Put each variable (**date**, **cases**, and **deaths**) in their own column.
+  
+  - Remove columns: **Lat** and **Long**.
+  
+  - Rename columns: **Province/State** and **Country/Region**.
+  
+  - Convert column **date** to date object.
+  
+```{r tidy_columns}
+# Use `pivot_longer()` to make each date on a separate row
+tidy_cases = global_cases %>%
+  pivot_longer(cols = -c(`Province/State`, `Country/Region`, Lat, Long), names_to = "date", 
+               values_to = "cases")
+
+tidy_deaths = global_deaths %>%
+  pivot_longer(cols = -c(`Province/State`, `Country/Region`, Lat, Long), names_to = "date", 
+               values_to = "deaths")
+```
+```{r join_datasets, message = FALSE}
+# Use `full_join()` to combine the datasets
+global_tidy = tidy_cases  %>%
+  full_join(tidy_deaths)  %>%
+  select(-c(Lat, Long)) %>%
+  rename(Country_Region = `Country/Region`, Province_State = `Province/State`) %>%
+  mutate(date = mdy(date))
+```
+
+### **2. Tidy the rows**
+  - Filter the rows of **Country_Region** of Taiwan*.
+  
+```{r tidy_rows}
+# Filter out the rows
+# Because Taiwan* has no provinces or states, remove column Province_State
+taiwan_tidy = global_tidy %>%
+  filter(Country_Region == "Taiwan*") %>%
+  select(-c(Province_State))
+```
+```{r summary_taiwan_tidy}
+summary(taiwan_tidy)
+```
+
+## Step 3: Add Visualizations and Analysis
+
+### Question 1: What are the trends for daily cumulative confirmed cases and new confirmed cases of COVID-19 in Taiwan?
+
+- Since the spread of the COVID-19 pandemic in **January 2020**, Taiwan did not see a significant surge in confirmed cases until **April 2022**.
+
+- After the outbreak of a large-scale epidemic, there were higher cases of infections in **September 2022** and **January 2023**, but there has been an overall downward trend.
+
+```{r ggplot_1}
+# Calculate the new cases
+# Handle NA and negative values
+taiwan_tidy = taiwan_tidy %>%
+  mutate(new_cases = cases - lag(cases)) %>%
+  mutate(new_cases = ifelse(is.na(new_cases) | new_cases < 0, 0, new_cases))
+
+# Print and check the tail
+tail(taiwan_tidy %>% select(new_cases, everything()))
+
+# Since there are no new cases updated, remove rows at the tail end that do not update
+taiwan_tidy = taiwan_tidy %>%
+  filter(!(cases == 9970937 & new_cases == 0))
+
+# For charting purpose, convert cumulative and new cases into units of thousand
+taiwan_tidy$cases_100k = taiwan_tidy$cases / 100000
+taiwan_tidy$new_cases_k = taiwan_tidy$new_cases / 1000
+
+# Create a chart
+ggplot(taiwan_tidy, aes(x = date)) +
+  geom_line(aes(y = cases_100k, color = "Cumulative Cases"), linewidth = 0.7) +
+  geom_bar(aes(y = new_cases_k, fill = "New Cases"), stat = "identity", alpha = 0.5) +
+  labs(x = "Date", y = "Number of Cases") +
+  scale_color_manual(values = c("Cumulative Cases" = "blue")) +
+  scale_fill_manual(values = c("New Cases" = "orange")) +
+  ggtitle("COVID-19 Cases in Taiwan") +
+  theme_minimal() +
+  theme(axis.text.x = element_text(angle = 90, hjust = 1), 
+        axis.text.y.right = element_text(color = "blue"),
+        axis.text.y.left = element_text(color = "orange"),
+        axis.title.y.left = element_text(color = "black")) +
+  scale_y_continuous(
+    sec.axis = sec_axis(~.*100000, labels = scales::unit_format(unit = "M", scale = 1e-6)),
+    limits = c(0, 150), 
+    breaks = seq(0, 150, by = 50),labels = function(x) paste0(x, "K")
+    ) +
+  scale_x_date(date_labels = "%Y-%m", date_breaks = "2 month") +
+  guides(color = guide_legend(title = NULL), fill = guide_legend(title = NULL))
+```
+
+### Question 2: What are the trends for daily cumulative deaths and new confirmed cases of COVID-19 in Taiwan?
+
+- The number of deaths has been increasing alongside the rising number of confirmed cases.
+
+```{r ggplot_2}
+# Convert cumulative deaths into units of thousand
+taiwan_tidy$deaths_k = taiwan_tidy$deaths / 1000
+
+# Create a chart
+ggplot(taiwan_tidy, aes(x = date)) +
+  geom_line(aes(y = deaths_k, color = "Cumulative Deaths"), linewidth = 0.7) +
+  geom_bar(aes(y = new_cases_k, fill = "New Cases"), stat = "identity", alpha = 0.5) +
+  labs(x = "Date", y = " ") +
+  scale_color_manual(values = c("Cumulative Deaths" = "purple")) +
+  scale_fill_manual(values = c("New Cases" = "orange")) +
+  ggtitle("COVID-19 Cases and Deaths in Taiwan") +
+  theme_minimal() +
+  theme(axis.text.x = element_text(angle = 90, hjust = 1), 
+        axis.text.y.right = element_text(color = "purple"),
+        axis.text.y.left = element_text(color = "orange")) +
+  scale_y_continuous(
+    sec.axis = sec_axis(~., labels = function(x) paste0(x, "K")),
+    limits = c(0, 150), 
+    breaks = seq(0, 150, by = 50),labels = function(x) paste0(x, "K")
+    ) +
+  scale_x_date(date_labels = "%Y-%m", date_breaks = "2 month") +
+  guides(color = guide_legend(title = NULL), fill = guide_legend(title = NULL))
+```
+  
+### Question 3: Can we predict the future number of confirmed cases in Taiwan?
+
+- **Purpose**: Predict the future number of COVID-19 confirmed cases in Taiwan for the upcoming year based on the data collected by JHU CSSE.
+
+- **Methods**: Use a **ARIMA model** to model and forecast.
+  - Use `auto.arima()` to build a time series model.
+  - Use `forecast()` to predict future data.
+
+```{r model}
+# Use `ts()` convert data into a time series object
+ts_cases = ts(taiwan_tidy$cases)
+
+# ARIMA model
+arima_model = auto.arima(ts_cases)
+
+# Make predictions using the established ARIMA model
+future_forecast = forecast(arima_model, h = 365)
+
+# Create a chart
+plot(future_forecast, main = "Taiwan COVID-19 Cases Forecast", yaxt = "n", xaxt = "n")
+grid(lty = "dotted", col = "gray")
+
+# Draw the y-axis labels
+y_labels = c(-10, 0, 10, 20, 30, 40) * 1e6
+axis(2, at = y_labels, labels = paste0(y_labels / 1e6, "M"))
+
+# Draw the x-axis labels
+x_labels = c(0, 500, 1000, 1500)
+x_labels_dates = c(taiwan_tidy$date[1], taiwan_tidy$date[1] + 499, taiwan_tidy$date[1] + 999, 
+                   taiwan_tidy$date[1] + 1499)
+axis(1, at = x_labels, labels = paste0(x_labels_dates))
+
+# Add text to x-axis and y-axis
+mtext("Date", side = 1, line = 3)
+mtext("Number of Cases", side = 2, line = 3)
+```
+
+## Step 4: Add Bias Identification
+
+**1. Personal bias**
+
+  - **Before analysis**: Due to having previously observed the global COVID-19 trends, I might have assumed that the situation in Taiwan had also eased. However, the data shows that due to Taiwan's later onset of a severe outbreak, while the global situation has been improving, Taiwan's situation hasn't followed suit yet.
+  
+  - **After analysis**: Due to my limited experience, it might lead to overlooking crucial data or neglecting alternative explanations when interpreting results.
+
+**2. Other bias**
+
+  - **Reporting Bias**: Reporting systems can vary across different regions, including differences in reporting times, methods, and accuracy. Some areas might report data more promptly, while others could experience delays or underreporting in their data.
+  
+  - **Temporal Bias**: The pandemic evolves over time, and data from different stages can be influenced by factors such as implementation of measures, improved testing capabilities, or changes in societal behavior.
+
+## Conclusion
+
+In summary, the confirmed cases and fatalities of COVID-19 in Taiwan have increased over time, but there's a declining trend in daily new confirmed cases. This report analyzed COVID-19 data from January 2020 to March 2023, presenting two data visualizations and one model for predictive purposes, offering insights into the future trajectory of the pandemic.
