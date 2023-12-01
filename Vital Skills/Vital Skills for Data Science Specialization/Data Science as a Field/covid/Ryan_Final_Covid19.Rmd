@@ -1,0 +1,240 @@
+---
+title: "Final-Covid19"
+author: "Ryan Talbot"
+date: "2023-11-20"
+output:
+  pdf_document: default
+  html_document: default
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Description of Data
+
+The following data set is from Johns Hopikins Github account. The dataset we are using from the repo are daily time series summary tables, for Global cases and deatahs by country. The repository has aggregate data from across the world and states from the United States since January 21, 2020. On March 10, 2023 the repository cased collecting and reporting of global covid-19 data. 
+
+(for additional information about this dataset refer to <https://github.com/CSSEGISandData/COVID-19> )
+
+## Import Packages
+
+```{r libraries}
+# Add libraries
+library(tidyverse)
+library(readr)
+library(dplyr)
+library(lubridate)
+library(ggplot2)
+```
+
+## Import the Data
+### Copy the link address of the csv file from github.
+
+```{r COVID-19 github urls, echo=FALSE}
+# github link to the 4 time series df
+url_in = "https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_time_series/"
+
+#  the csv files
+file_names = c("time_series_covid19_confirmed_global.csv", "time_series_covid19_deaths_global.csv", "time_series_covid19_deaths_US.csv", "time_series_covid19_confirmed_US.csv")
+
+# Using `str_c()` to concatenate into correct url
+urls = str_c(url_in, file_names)
+urls
+
+```
+
+## Assigning and reading in the data to Variables.
+```{r {r, variables, message = FALSE}
+
+# `read_csv()` usecd to read in the data to variables
+global_cases = read_csv(urls[1])
+global_deaths = read_csv(urls[2])
+
+```
+```{r }
+# first rows of csv files get better understanding for tidy
+head(global_cases)
+head(global_deaths)
+
+
+```
+
+
+# Tidy Data
+** Tidy the Data**
+  Data reshaping, Conversion, and Renaming
+  
+  - Pivot the wide-format data (global_deaths and global_cases) for dates, converting it to a long format.
+  - Sum totals for each state (Province/State) and country (Country/Region) for each date.
+  - Create two new data frames: covid_global_deaths for cumulative deaths and covid_global_cases for cumulative cases.
+  - Convert the date columns in both data frames to datetime objects using the mdy function from the lubridate package.
+  - Rename columns from Province/State to State and from Country/Region to Country in both data frames.
+
+```{r tidy, message = FALSE}
+
+# Pivot wide-format data for dates and sum totals for each state
+covid_global_deaths = global_deaths %>% 
+  pivot_longer(cols = 13:ncol(global_deaths), names_to = "date") %>%
+  group_by(`Country/Region`, `Province/State`, date) %>%
+  summarise("cumulative_deaths" = sum(value, na.rm = TRUE), .groups = 'drop')
+
+covid_global_cases = global_cases %>% 
+  pivot_longer(cols = 13:ncol(global_cases), names_to = "date") %>%
+  group_by(`Country/Region`, `Province/State`, date) %>%
+  summarise("cumulative_cases" = sum(value, na.rm = TRUE), .groups = 'drop')
+
+
+# Convert dates to datetime object
+covid_global_deaths$date = lubridate::mdy(covid_global_deaths$date)
+covid_global_cases$date = lubridate::mdy(covid_global_cases$date)
+
+# Rename columns from Province_State -> State & Admin2 -> County
+covid_global_deaths = covid_global_deaths %>% 
+  rename_at('Province/State', ~'State') %>%
+  rename_at('Country/Region', ~'Country')
+
+covid_global_cases = covid_global_cases %>% 
+  rename_at('Province/State', ~'State') %>%
+  rename_at('Country/Region', ~'Country')
+
+
+# check global deaths and cases data 
+head(covid_global_deaths)
+head(covid_global_cases)
+```
+**Merging the Data**
+- Merge the covid_global_deaths and covid_global_cases data frames based on common columns using the merge function. The all.x=TRUE argument indicates a left join, meaning all rows from the left data frame (covid_global_deaths) will be included.
+- Create subsets of the merged data frame for specific countries, namely Switzerland (ch) and Germany (de).
+- Create tidy versions of the data frames (de and ch) by removing the State column.
+
+```{r merge global cases and deaths}
+# merge global data sets and filter to get data just for Switzerland and for germany
+world = merge(x=covid_global_deaths, y=covid_global_cases, all.x=TRUE)
+ch <- world[world$Country == "Switzerland", ]
+de <- world[world$Country == "Germany", ]
+
+
+de_tidy <- de %>% select(-State)
+ch_tidy <- ch %>% select(-State)
+
+# View first several lines of each data set
+
+head(ch_tidy)
+head(de_tidy)
+
+```
+
+
+
+
+** Add Visualizations and Analysis**
+
+## More than half of the population of switzerland (8.703 million) had covid. while less than half of germanys population (83.2 million) had covid. And .203% of the population died from covid in germany, while Switzerland had .163% of population. This is interesting, you'd think that the more cases per capita would result in more deaths per capita. 
+```{r Adding a per capita column }
+
+# Adding a per capita column to both data sets and viewing their summaries
+de_per_cap <- de_tidy %>%
+  mutate(
+    de_deaths_per_capita = cumulative_deaths / 83.2e6,
+    de_cases_per_capita = cumulative_cases / 83.2e6
+  )
+
+
+ch_per_cap <- ch_tidy %>%
+  mutate(
+    ch_deaths_per_capita = cumulative_deaths / 8703000,
+    ch_cases_per_capita = cumulative_cases / 8703000
+  )
+
+summary(de_per_cap)
+summary(ch_per_cap)
+
+```
+
+
+
+
+
+
+```{r}
+# Merge Germany and Switzerland per capita data
+combined_data <- merge(x = de_per_cap, y = ch_per_cap, by = "date", all = TRUE)
+
+# Create line plots for deaths per capita
+ggplot(combined_data, aes(x = date, y = de_deaths_per_capita, color = "Germany", linetype = "deaths")) +
+  geom_line() +
+  geom_line(aes(y = ch_deaths_per_capita, color = "Switzerland", linetype = "deaths")) +
+  labs(title = "Cumulative Deaths Per Capita Comparison",
+       x = "Date",
+       y = "Cumulative Deaths Per Capita") +
+  scale_color_manual(values = c("Germany" = "blue", "Switzerland" = "red")) +
+  scale_linetype_manual(values = c("dashed")) +
+  theme_minimal()
+
+# Create line plots for cases per capita
+ggplot(combined_data, aes(x = date, y = de_cases_per_capita, color = "Germany", linetype = "cases")) +
+  geom_line() +
+  geom_line(aes(y = ch_cases_per_capita, color = "Switzerland", linetype = "cases")) +
+  labs(title = "Cumulative Cases Per Capita Comparison",
+       x = "Date",
+       y = "Cumulative Cases Per Capita") +
+  scale_color_manual(values = c("Germany" = "blue", "Switzerland" = "red")) +
+  scale_linetype_manual(values = c("solid")) +
+  theme_minimal()
+
+```
+
+
+## Below we can see Germany did much better than Switzerland in respect to the numbers of deaths per case, but as the pandemic continued Switzerland dropped their deaths per case below Germany.
+```{r}
+
+# Calculate deaths per case with a check for division by zero
+de_tidy$deaths_per_case <- ifelse(de_tidy$cumulative_cases > 0,
+                                   de_tidy$cumulative_deaths / de_tidy$cumulative_cases,
+                                   0)
+
+# Create a time series plot
+ggplot(de_tidy, aes(x = date, y = deaths_per_case, color = Country)) +
+  geom_line() +
+  labs(title = "Deaths per Case Over Time",
+       x = "Date",
+       y = "Deaths per Case",
+       color = "Country") +
+  theme_minimal()
+
+
+ch_tidy$deaths_per_case <- ifelse(ch_tidy$cumulative_cases > 0,
+                                   ch_tidy$cumulative_deaths / ch_tidy$cumulative_cases,
+                                   0)
+
+# Create a time series plot
+ggplot(ch_tidy, aes(x = date, y = deaths_per_case, color = Country)) +
+  geom_line() +
+  labs(title = "Deaths per Case Over Time",
+       x = "Date",
+       y = "Deaths per Case",
+       color = "Country") +
+  theme_minimal()
+
+
+combined_df <- rbind(transform(de_tidy, dataset = "de_tidy"),
+                    transform(ch_tidy, dataset = "ch_tidy"))
+
+# Create a time series plot with multiple datasets
+ggplot(combined_df, aes(x = date, y = deaths_per_case, color = Country, linetype = dataset)) +
+  geom_line() +
+  labs(title = "Deaths per Case Over Time",
+       x = "Date",
+       y = "Deaths per Case",
+       color = "Country",
+       linetype = "Dataset") +
+  theme_minimal()
+
+```
+
+
+ 
+
+
+
