@@ -163,8 +163,8 @@ https://www.coursera.org/degrees/master-of-science-data-science-boulder/academic
 
 [ ] Vital Skills for Data Science Specialization
 
-- Cybersecurity for Data Science
-- Data Science as a Field
+- [X] Cybersecurity for Data Science
+- [X] Data Science as a Field
 - Ethical Issues in Data Science
 - Fundamentals of Data Visualization
 
