@@ -1,0 +1,11 @@
+Algorithm,IAA/Apparatus,Total Score,name1,name2,name3,name4
+Variable Neighborhood Search (VNS),IAA,171.47074999999998,shilese jones,simone biles,jordan chiles,jade carey
+Tabu Search,IAA,171.33725,jade carey,jordan chiles,shilese jones,simone biles
+CBC (Coin-or branch and cut) MILP solver,IAA,171.33725,jade carey,jordan chiles,shilese jones,simone biles
+Tabu Search,Apparatus,170.79811666666666,jade carey,konnor mcclain,shilese jones,simone biles
+Brute Force,IAA,169.96300000000002,jade carey,jordan chiles,shilese jones,simone biles
+Hyper-Heuristics,IAA,169.963,skye blakely,jade carey,shilese jones,simone biles
+Brute Force,Apparatus,169.12011666666666,addison fatta,jade carey,shilese jones,simone biles
+Hyper-Heuristics,Apparatus,166.26328333333333,christiane popovich,ashlee sullivan,shilese jones,simone biles
+Variable Neighborhood Search (VNS),Apparatus,166.038475,simone biles,leanne wong,konnor mcclain,kayla dicello
+CBC (Coin-or branch and cut) MILP solver,Apparatus,131.02735,camryn richardson,chloe cho,emjae frazier,simone biles

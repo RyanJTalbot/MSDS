@@ -1,0 +1,5 @@
+Algorithm,Athletes,Score Type,Score
+Variable Neighborhood Search (VNS),"['Jordan Chiles', 'Joscelyn Roberson', 'Shilese Jones', 'Simone Biles']",Total Score,168.99812500000002
+Hyper-Heuristics,"['Joscelyn Roberson', 'Simone Biles', 'Shilese Jones', 'Jordan Chiles']",Best Score,168.42235
+Tabu Search,"['Simone Biles', 'Shilese Jones', 'Zoe Miller', 'Joscelyn Roberson']",Total Score,169.71908928571426
+Brute Force,"['Ashlee Sullivan', 'Jordan Chiles', 'Shilese Jones', 'Simone Biles']",Maximum Score,168.42235

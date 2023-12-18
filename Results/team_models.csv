@@ -1,0 +1,13 @@
+Category,Subcategory,Classifier
+MEN,ph,AdaBoostClassifier
+MEN,pb,XGBClassifier
+MEN,vt,AdaBoost Classifier
+MEN,sr,AdaBoost Classifier
+MEN,hb,AdaBoost Classifier
+MEN,fx,AdaBoostClassifier
+MEN,iaa,AdaBoost Classifier
+WOMEN,fx,AdaBoost Classifier
+WOMEN,vt,RandomForestClassifier
+WOMEN,ub,DecisionTreeClassifier
+WOMEN,bb,AdaBoostClassifier
+WOMEN,iaa,AdaBoostClassifier

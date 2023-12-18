@@ -1,0 +1,5 @@
+Algorithm,Athletes,Score,nation
+VNS,"['ondine achampong', 'alice kinsella', 'jessica gadirova', 'georgia-mae fenton']",167.763,GBR
+HH,"['jessica gadirova', 'alice kinsella', 'georgia-mae fenton', 'ondine achampong']",166.496,GBR
+TS,"['georgia-mae fenton', 'jessica gadirova', 'alice kinsella', 'ondine achampong']",167.796,GBR
+Brute Force,"['alice kinsella', 'georgia-mae fenton', 'jessica gadirova', 'ondine achampong']",166.496,GBR

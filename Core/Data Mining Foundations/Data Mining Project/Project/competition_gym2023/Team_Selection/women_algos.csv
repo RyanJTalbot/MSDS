@@ -1,0 +1,33 @@
+Algorithm,Method,Athletes,Score
+VNS,IAA,jordan chiles,169.67175
+VNS,IAA,shilese jones,169.67175
+VNS,IAA,simone biles,169.67175
+VNS,IAA,ashlee sullivan,169.67175
+VNS,App,shilese jones,168.99812500000002
+VNS,App,jordan chiles,168.99812500000002
+VNS,App,simone biles,168.99812500000002
+VNS,App,joscelyn roberson,168.99812500000002
+Randomized Heuristic,IAA,jordan chiles,168.829
+Randomized Heuristic,IAA,simone biles,168.829
+Randomized Heuristic,IAA,shilese jones,168.829
+Randomized Heuristic,IAA,zoe miller,168.829
+Randomized Heuristic,App,shilese jones,168.42235
+Randomized Heuristic,App,jordan chiles,168.42235
+Randomized Heuristic,App,joscelyn roberson,168.42235
+Randomized Heuristic,App,simone biles,168.42235
+Tabu Search,IAA,simone biles,170.81300000000002
+Tabu Search,IAA,jordan chiles,170.81300000000002
+Tabu Search,IAA,shilese jones,170.81300000000002
+Tabu Search,IAA,ashlee sullivan,170.81300000000002
+Tabu Search,App,joscelyn roberson,169.71908928571426
+Tabu Search,App,zoe miller,169.71908928571426
+Tabu Search,App,simone biles,169.71908928571426
+Tabu Search,App,shilese jones,169.71908928571426
+brute force,IAA,ashlee sullivan,168.829
+brute force,IAA,jordan chiles,168.829
+brute force,IAA,shilese jones,168.829
+brute force,IAA,simone biles,168.829
+brute force,App,ashlee sullivan,168.42235
+brute force,App,jordan chiles,168.42235
+brute force,App,shilese jones,168.42235
+brute force,App,simone biles,168.42235

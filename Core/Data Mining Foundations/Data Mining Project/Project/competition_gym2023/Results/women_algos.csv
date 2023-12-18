@@ -1,0 +1,11 @@
+Algorithm,IAA/Apparatus,Total Score,Selected Athletes,ashlee sullivan,christiane popovich,kelise woolford,leanne wong,jordan chiles,annalisa milton,shilese jones,simone biles,addison fatta,skye blakely,joscelyn roberson,chloe cho,kayla dicello,konnor mcclain,jade carey
+Variable Neighborhood Search (VNS),IAA,171.47074999999998,"['shilese jones', 'simone biles', 'jordan chiles', 'jade carey']",0,0,0,0,1,0,1,1,0,0,0,0,0,0,1
+Tabu Search,IAA,171.33725,"['jade carey', 'jordan chiles', 'shilese jones', 'simone biles']",0,0,0,0,1,0,1,1,0,0,0,0,0,0,1
+Tabu Search,Apparatus,170.79811666666666,"['jade carey', 'konnor mcclain', 'shilese jones', 'simone biles']",0,0,0,0,0,0,1,1,0,0,0,0,0,1,1
+brute force,IAA,169.96300000000002,"['jade carey', 'jordan chiles', 'shilese jones', 'simone biles']",0,0,0,0,1,0,1,1,0,0,0,0,0,0,1
+Randomized Heuristics,IAA,169.963,"['skye blakely', 'jade carey', 'shilese jones', 'simone biles']",0,0,0,0,0,0,1,1,0,1,0,0,0,0,1
+brute force,Apparatus,169.12011666666666,"['addison fatta', 'jade carey', 'shilese jones', 'simone biles']",0,0,0,0,0,0,1,1,1,0,0,0,0,0,1
+Randomized Heuristics,Apparatus,166.26328333333333,"['christiane popovich', 'ashlee sullivan', 'shilese jones', 'simone biles']",1,1,0,0,0,0,1,1,0,0,0,0,0,0,0
+Variable Neighborhood Search (VNS),Apparatus,166.038475,"['simone biles', 'leanne wong', 'konnor mcclain', 'kayla dicello']",0,0,0,1,0,0,0,1,0,0,0,0,1,1,0
+Stochastic control,IAA,156.9955,"['jade carey', 'jordan chiles', 'joscelyn roberson', 'simone biles']",0,0,0,0,1,0,0,1,0,0,1,0,0,0,1
+Stochastic control,Apparatus,141.70375,"['addison fatta', 'annalisa milton', 'chloe cho', 'kelise woolford']",0,0,1,0,0,1,0,0,1,0,0,1,0,0,0

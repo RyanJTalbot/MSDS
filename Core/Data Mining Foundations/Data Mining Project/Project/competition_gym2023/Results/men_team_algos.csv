@@ -1,0 +1,7 @@
+Algorithm,IAA/Apparatus,Total Score,Selected Athletes
+Tabu Search,IAA,260.57900000000006,"['khoi young', 'asher hong', 'fred richard', 'yul moldauer']"
+Variable Neighborhood Search (VNS),IAA,257.34200000000004,"['fuzzy benas', 'yul moldauer', 'asher hong', 'fred richard']"
+Randomized Heuristics,IAA,254.94,"['joshua karnes', 'ian lasic-ellis', 'asher hong', 'yul moldauer']"
+Tabu Search,Apparatus,253.19598690476192,"['fred richard', 'paul juda', 'khoi young', 'brody malone']"
+Variable Neighborhood Search (VNS),Apparatus,251.11566666666667,"['shane wiskus', 'khoi young', 'donnell whittenburg', 'brody malone']"
+Randomized Heuristics,Apparatus,250.58868690476191,"['khoi young', 'paul juda', 'brody malone', 'fuzzy benas']"

@@ -1,0 +1,5 @@
+Algorithm,Athletes,Score,nation
+VNS,"['ava stewart', 'ellie black', 'laurie denommée', 'sydney turner']",159.562,CAN
+Hyper-Heuristics,"['ellie black', 'laurie denommée', 'ava stewart', 'aurélie tran']",145.53,CAN
+TAbu Search,"['ellie black', 'sydney turner', 'denelle pedrick', 'emma spence']",160.197,CAN
+Brute force,"['aurélie tran', 'ava stewart', 'ellie black', 'laurie denommée']",145.53,CAN

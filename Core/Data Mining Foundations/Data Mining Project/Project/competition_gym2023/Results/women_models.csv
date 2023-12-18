@@ -1,0 +1,11 @@
+Algorithm,IAA/Apparatus,Selected Athletes,Total Score
+Tabu Search,IAA,"['jade carey', 'jordan chiles', 'shilese jones', 'simone biles']",171.33725
+Tabu Search,Apparatus,"['jade carey', 'konnor mcclain', 'shilese jones', 'simone biles']",170.79811666666666
+Variable Neighborhood Search (VNS),IAA,"['shilese jones', 'simone biles', 'jordan chiles', 'jade carey']",171.47074999999998
+Variable Neighborhood Search (VNS),Apparatus,"['simone biles', 'leanne wong', 'konnor mcclain', 'kayla dicello']",166.038475
+Hyper-Heuristics,IAA,"['skye blakely', 'jade carey', 'shilese jones', 'simone biles']",169.963
+Hyper-Heuristics,Apparatus,"['christiane popovich', 'ashlee sullivan', 'shilese jones', 'simone biles']",166.26328333333333
+CBC (Coin-or branch and cut) MILP solver,IAA,"['jade carey', 'jordan chiles', 'shilese jones', 'simone biles']",
+CBC (Coin-or branch and cut) MILP solver,Apparatus,"['camryn richardson', 'chloe cho', 'emjae frazier', 'simone biles']",
+Brute Force,IAA,"['jade carey', 'jordan chiles', 'shilese jones', 'simone biles']",169.96300000000002
+Brute Force,Apparatus,"['addison fatta', 'jade carey', 'shilese jones', 'simone biles']",169.12011666666666

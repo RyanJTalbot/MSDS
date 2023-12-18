@@ -1,0 +1,4 @@
+Method,Athletes,Score
+vns,"['sun wei', 'zhang boheng', 'shi cong', 'weng hao']",262.537
+Hyper-Heuristics,"['sun wei', 'zhang boheng', 'shi cong', 'huang mingqi']",259.903
+Tabu search,"['weng hao', 'zhang boheng', 'sun wei', 'shi cong']",262.537

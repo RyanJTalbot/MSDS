@@ -1,0 +1,12 @@
+Algorithm,IAA/Apparatus,Selected Athletes,Total Score
+Tabu Search,IAA,"['jade carey', 'jordan chiles', 'shilese jones', 'simone biles']",171.33725
+Tabu Search,Apparatus,"['jade carey', 'konnor mcclain', 'shilese jones', 'simone biles']",170.79811666666666
+Variable Neighborhood Search (VNS),IAA,"['shilese jones', 'simone biles', 'jordan chiles', 'jade carey']",171.47074999999998
+Variable Neighborhood Search (VNS),Apparatus,"['simone biles', 'leanne wong', 'konnor mcclain', 'kayla dicello']",166.038475
+Hyper-Heuristics,IAA,"['skye blakely', 'jade carey', 'shilese jones', 'simone biles']",169.963
+Hyper-Heuristics,Apparatus,"['christiane popovich', 'ashlee sullivan', 'shilese jones', 'simone biles']",166.26328333333333
+brute force,IAA,"['jade carey', 'jordan chiles', 'shilese jones', 'simone biles']",169.96300000000002
+brute force,Apparatus,"['addison fatta', 'jade carey', 'shilese jones', 'simone biles']",169.12011666666666
+Stochastic control,IAA,"['jade carey', 'jordan chiles', 'joscelyn roberson', 'simone biles']",156.9955
+Stochastic control,Apparatus,"['addison fatta', 'annalisa milton', 'chloe cho', 'kelise woolford']",141.70375
+Constraint Satisfaction Problem (CSP),IAA,"['shilese jones', 'simone biles', 'jordan chiles', 'jade carey']",171.33725

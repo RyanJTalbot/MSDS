@@ -1,0 +1,10 @@
+Country,Algorithm,Score
+Canada,VNS,159.562
+France,vns,164.763
+Brazil,vns,164.995
+China,vns,166.965
+Great Britain,VNS,167.763
+USA,Hyper-Heuristics,168.42235
+USA,Brute Force,168.42235
+USA,Variable Neighborhood Search (VNS),168.99812500000002
+USA,Tabu Search,169.71908928571426
