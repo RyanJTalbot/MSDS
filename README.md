@@ -135,17 +135,17 @@ https://www.coursera.org/degrees/master-of-science-data-science-boulder/academic
 
 ##### Expressway:
 
-[x] Expressway to Data Science: Essential Math Specialization
+[X] Expressway to Data Science: Essential Math Specialization
 
-- Algebra and Differential Calculus for Data Science
-- Essential Linear Algebra for Data Science
-- Integral Calculus and Numerical Analysis for Data Science
+- [x] Algebra and Differential Calculus for Data Science
+- [x] Essential Linear Algebra for Data Science
+- [x] Integral Calculus and Numerical Analysis for Data Science
 
-[x] Expressway to Data Science: Python Programming Specialization
+[X] Expressway to Data Science: Python Programming Specialization
 
-- Introduction to Python Fundamentals
-- Introduction to Python Functions
-- Python Packages for Data Science
+- [x] Introduction to Python Fundamentals
+- [x] Introduction to Python Functions
+- [x] Python Packages for Data Science
 
 [ ] Expressway to Data Science: R Programming and Tidyverse
 
@@ -155,16 +155,16 @@ https://www.coursera.org/degrees/master-of-science-data-science-boulder/academic
 
 ##### Core:
 
-[xx] Data Science Foundations: Data Structures and Algorithms Specialization
+[X] Data Science Foundations: Data Structures and Algorithms Specialization
 
-- Algorithms for Searching, Sorting, and Indexing
-- Trees and Graphs: Basics
-- Dynamic Programming, Greedy Algorithms
+- [x] Algorithms for Searching, Sorting, and Indexing
+- [x] Trees and Graphs: Basics
+- [x] Dynamic Programming, Greedy Algorithms
 
 [ ] Vital Skills for Data Science Specialization
 
-- [X] Cybersecurity for Data Science
-- [X] Data Science as a Field
+- [x] Cybersecurity for Data Science
+- [x] Data Science as a Field
 - Ethical Issues in Data Science
 - Fundamentals of Data Visualization
 
