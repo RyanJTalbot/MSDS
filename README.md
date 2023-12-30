@@ -194,8 +194,8 @@ https://www.coursera.org/degrees/master-of-science-data-science-boulder/academic
 
 [ ] Data Mining Foundations and Practice
 
-- Data Mining Pipeline
-- Data Mining Methods
+- [X] Data Mining Pipeline
+- [X] Data Mining Methods
 - Data Mining Project
 
 ##### Electives:
