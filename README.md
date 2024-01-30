@@ -161,7 +161,7 @@ https://www.coursera.org/degrees/master-of-science-data-science-boulder/academic
 - [x] Trees and Graphs: Basics
 - [x] Dynamic Programming, Greedy Algorithms
 
-[ ] Vital Skills for Data Science Specialization
+[X] Vital Skills for Data Science Specialization
 
 - [x] Cybersecurity for Data Science
 - [x] Data Science as a Field
@@ -194,8 +194,8 @@ https://www.coursera.org/degrees/master-of-science-data-science-boulder/academic
 
 [ ] Data Mining Foundations and Practice
 
-- [X] Data Mining Pipeline
-- [X] Data Mining Methods
+- [x] Data Mining Pipeline
+- [x] Data Mining Methods
 - Data Mining Project
 
 ##### Electives:
