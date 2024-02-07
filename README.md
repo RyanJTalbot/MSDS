@@ -166,7 +166,7 @@ https://www.coursera.org/degrees/master-of-science-data-science-boulder/academic
 - [x] Cybersecurity for Data Science
 - [x] Data Science as a Field
 - [ ] Ethical Issues in Data Science
-- [ ] Fundamentals of Data Visualization
+- [ ] Fundamentals of Data Visualization.
 
 [x] Data Science Foundations: Statistical Inference Specialization
 
