@@ -161,7 +161,7 @@ https://www.coursera.org/degrees/master-of-science-data-science-boulder/academic
 - [x] Trees and Graphs: Basics
 - [x] Dynamic Programming, Greedy Algorithms
 
-[X] Vital Skills for Data Science Specialization
+[ ] Vital Skills for Data Science Specialization
 
 - [x] Cybersecurity for Data Science
 - [x] Data Science as a Field
