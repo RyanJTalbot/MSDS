@@ -1,0 +1,178 @@
+Superstore
+Relational
+Database
+Design
+Project Agenda
+1. Business Background
+2. Creating ER Model
+3. Creating ERD
+4. Creating Relational DB
+5. 3NF Normalization
+6. Further Implementation
+Business Background
+◆Superstore is an e -commerce 
+website, covering a wide range 
+of categories of products across 
+the United States' geography.
+◆Superstore shares their data 
+online and the dataset is famous 
+for data visualization and data 
+analysis practice.
+◆As their business volume 
+gradually expands, the existing 
+data storage method can no 
+longer meet their needs.Business Objectives
+Objectives: Building a relational database for Superstore
+Retains Original Information Meets 3NF Standards
+Simplifies Data Structure Implements Flexible QueriesDemands:
+◆A Superstore Giant is seeking help to redesign its data storage structure.
+◆They need more efficient storage and retrieval system as volumes surge.
+◆They need easy manipulation methods for daily use and further analysis.Business Background
+➢Each row indicates one item within an order.
+Project Agenda
+1. Business Background
+2. Creating ER Model
+3. Creating ERD
+4. Creating Relational DB
+5. 3NF Normalization
+6. Further Implementation
+Creating ER Model --Entities
+➢Each row should include 5 clusters of information.
+➢Each cluster could be a table within the database.
+Order Location Product 
+Order_itemCustomer When Where What Who 
+How muchCreating ER Model –Entities Connection
+Order
+Location Product 
+Order_itemWhen 
+Where What
+Who 
+Customer How muchCreating ER Model –Relationship1
+Product.ProductID (PK) --> Order_item.ProductID (FK)A Product may belong to one or more Orders_items .
+Each Order_item must have one and only one Product.Product to Order_item Relationship:
+ProductIDProduct
+NameManufacturerSub
+CategoryCategory
+L01086 Message  BooMessage  Book Paper Office  Supplie
+L00217 Avery  508 Avery Labels Office  Supplie
+L00707 GBC  Standar GBC Binders Office  Supplie
+L01371 SAFCO  Boltle SAFCO Storage Office  Supplie
+L00251 Avery  Hi-Liter Avery Art Office  Supplie
+OrderItemID ProductID OrderID Discount Quantity Profit Sales
+CA-2011 -103L01086 CA-2011 -10320% 2 $6 $16 
+CA-2011 -112L00217 CA-2011 -11220% 3 $4 $12 
+CA-2011 -112L00707 CA-2011 -11280% 2 $4 
+CA-2011 -112L01371 CA-2011 -11220% 3 $273  
+CA-2011 -141L00251 CA-2011 -14120% 3 $5 $20 ($5)
+($65)Creating ER Model –Relationship2
+Order.OrderID (PK) --> Order_item.OrderID (FK)An Order may have one or more Orders_items .
+Each Order_item must belong to one and only one Order.Order toOrder_item Relationship:
+OrderItemID ProductID OrderID Discount Quantity Profit Sales
+CA-2011 -103L01086 CA-2011 -10320% 2 $6 $16 
+CA-2011 -112L00217 CA-2011 -11220% 3 $4 $12 
+CA-2011 -112L00707 CA-2011 -11280% 2 $4 
+CA-2011 -112L01371 CA-2011 -11220% 3 $273  
+CA-2011 -141L00251 CA-2011 -14120% 3 $5 $20 ($5)
+($65)
+OrderID CustomerID PostalCode OrderDate ShipDate ShipMode
+CA-2011 -103C00184 77095 2011/1/4 2011/1/8 Standard  Cla
+CA-2011 -112C00477 60540 2011/1/5 2011/1/9 Standard  Cla
+CA-2011 -112C00477 60540 2011/1/5 2011/1/9 Standard  Cla
+CA-2011 -112C00477 60540 2011/1/5 2011/1/9 Standard  Cla
+CA-2011 -141C00484 19143 2011/1/6 2011/1/13 Standard  ClaCreating ER Model –Relationship3
+Customer.CustomerID (PK) --> Order.CustomerID (FK)A Customer may have one or more Orders.
+Each Order must belong to one and only one Customer.Customer to Order Relationship:
+CustomerIDCustomer
+NameSegment
+C00184 Darren  Power Consumer
+C00477 Phillina  Ober Home  Office
+C00477 Phillina  Ober Home  Office
+C00477 Phillina  Ober Home  Office
+C00484 Mick Brown Consumer
+OrderID CustomerID PostalCode OrderDate ShipDate ShipMode
+CA-2011 -103C00184 77095 2011/1/4 2011/1/8 Standard  Clas
+CA-2011 -112C00477 60540 2011/1/5 2011/1/9 Standard  Clas
+CA-2011 -112C00477 60540 2011/1/5 2011/1/9 Standard  Clas
+CA-2011 -112C00477 60540 2011/1/5 2011/1/9 Standard  Clas
+CA-2011 -141C00484 19143 2011/1/6 2011/1/13 Standard  ClasCreating ER Model –Relationship4
+Location .PostalCode (PK) --> Order.PostalCode (FK)A PostalCode may belong to one or more Orders.
+Each Order must have one and only one PostalCode .Location toOrder Relationship:
+PostalCode City State Region Country
+77095 Houston Texas Central United  States
+60540 Naperville Illinois Central United  States
+60540 Naperville Illinois Central United  States
+60540 Naperville Illinois Central United  States
+19143 Philadelphia Pennsylvania East United  States
+OrderID CustomerID PostalCode OrderDate ShipDate ShipMode
+CA-2011 -103C00184 77095 2011/1/4 2011/1/8 Standard  Clas
+CA-2011 -112C00477 60540 2011/1/5 2011/1/9 Standard  Clas
+CA-2011 -112C00477 60540 2011/1/5 2011/1/9 Standard  Clas
+CA-2011 -112C00477 60540 2011/1/5 2011/1/9 Standard  Clas
+CA-2011 -141C00484 19143 2011/1/6 2011/1/13 Standard  ClasProject Agenda
+1. Business Background
+2. Creating ER Model
+3. Creating ERD
+4. Creating Relational DB
+5. 3NF Normalization
+6. Further Implementation
+Creating ERD
+Project Agenda
+1. Business Background
+2. Creating ER Model
+3. Creating ERD
+4. Creating Relational DB
+5. 3NF Normalization
+6. Further Implementation
+Creating Relational DB
+Project Agenda
+1. Business Background
+2. Creating ER Model
+3. Creating ERD
+4. Creating Relational DB
+5. 3NF Normalization
+6. Further Implementation
+3NF Normalization
+Customer ( CustomerID , CustomerName , Segment)
+◆FD1: CustomerID → CustomerName , Segment
+Location ( PostalCode , City, State, Region, Country
+◆FD1: PostalCode → City, State, Region, Country
+Order ( OrderID , OrderDate , ShipDate , ShipMode , CustomerID (FK), PostalCode (FK))
+◆FD1: OrderID → OrderDate , ShipDate , ShipMode , CustomerID (FK), PostalCode (FK)
+OrderItem (OrderItemID , Discount, Quantity, Profit, Sales, OrderID (FK), ProductID (FK))
+◆FD1: OrderItemID → Discount, Quantity, Profit, Sales, OrderID (FK), ProductID (FK)✓Customer, Location , Order, and OrderItem relations are in 3NF
+✓There is no partial functional and no transitive functional dependencies.3NF Normalization
+Product ( ProductID , ProductName, Manufacturer, SubCategory , Category
+FD1: ProductID → ProductName, Manufacturer, SubCategory , Category
+FD2: SubCategory → Category✓Product is in 2NF and there is no partial functional dependencies.
+✓Product is not in 3NF since there is transitive functional dependencies.
+Create a new relation to put SubCategory → Category
+Category ( SubCategory , Category)
+✓FD1: SubCategory → Category
+Product ( ProductID , ProductName, Manufacturer, SubCategory )
+✓FD1: ProductID → ProductName, Manufacturer, SubCategoryProject Agenda
+1. Business Background
+2. Creating ER Model
+3. Creating ERD
+4. Creating Relational DB
+5. 3NF Normalization
+6. Summarization
+Summarization
+Final Relational Model in 3NF
+Customer ( CustomerID , CustomerName , Segment
+◆FD1: CustomerID → CustomerName , Segment)
+Location ( PostalCode , City, State, Region, Country
+◆FD1: PostalCode → City, State, Region, Country
+Order ( OrderID , OrderDate , ShipDate , ShipMode , CustomerID (FK), PostalCode (FK)
+◆FD1: OrderID → OrderDate , ShipDate , ShipMode , CustomerID (FK), PostalCode (FK)
+OrderItem (OrderItemID , Discount, Quantity, Profit, Sales, OrderID (FK), ProductID (FK)
+◆FD1: OrderItemID → Discount, Quantity, Profit, Sales, OrderID (FK), ProductID (FK)
+Category ( SubCategory , Category)
+◆FD1: SubCategory → Category
+Product ( ProductID , ProductName, Manufacturer, SubCategory )
+◆FD1: ProductID → ProductName, Manufacturer, SubCategoryCalculate the average sales per order in Chicago in the 
+year 2013, grouped by customer segment.
+✓The result is correct!
+✓The structure is understandable!
+✓The queries are easily adaptable!Thanks
+for 
+Watching
