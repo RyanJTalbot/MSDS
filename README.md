@@ -176,9 +176,9 @@ https://www.coursera.org/degrees/master-of-science-data-science-boulder/academic
 
 [x] Databases for Data Scientists Specialization
 
-- Relational Database Design
-- The Structured Query Language (SQL)
-- Advanced Topics and Future Trends in Database Technologies
+- [x] Relational Database Design
+- [x] The Structured Query Language (SQL)
+- [x] Advanced Topics and Future Trends in Database Technologies
 
 [ ] Machine Learning: Theory and Hands-on Practice with Python
 
