@@ -49,15 +49,18 @@
 - Unsupervised Algorithms in Machine Learning - 38 hours
 - Introduction to Deep Learning - 61 hours
 
-#### [Databases](https://github.com/RyanJTalbot/MSDS/tree/main/Core/Databases%20for%20Data%20Scientists%20Specialization) - 61 hours
+#### [Databases](https://github.com/RyanJTalbot/MSDS/tree/main/Core/Databases%20for%20Data%20Scientists%20Specialization) - 53 hours
 
 - Relational Database Design - 36 hours
-- The Structured Query Language (SQL) - 25 hours
 - Advanced Topics and Future Trends in Database Technologies - 17 hours
 
 ---
 
 ## [Elective Courses](https://github.com/RyanJTalbot/MSDS/tree/main/Electives-9credits):
+
+#### [Databases](https://github.com/RyanJTalbot/MSDS/tree/main/Core/Databases%20for%20Data%20Scientists%20Specialization) - 25 hours
+
+- The Structured Query Language (SQL) - 25 hours
 
 #### [Text marketing analytics](https://github.com/RyanJTalbot/MSDS/tree/main/Electives-9credits/Text%20Marketing%20Analytics%20Specialization%20-%203%20credits) - 35 hours
 
