@@ -177,7 +177,7 @@ https://www.coursera.org/degrees/master-of-science-data-science-boulder/academic
 - Statistical Inference for Estimation in Data Science
 - Statistical Inference and Hypothesis Testing in Data Science Applications
 
-[x] Databases for Data Scientists Specialization
+[ ] Databases for Data Scientists Specialization
 
 - [x] Relational Database Design
 - [x] The Structured Query Language (SQL)
