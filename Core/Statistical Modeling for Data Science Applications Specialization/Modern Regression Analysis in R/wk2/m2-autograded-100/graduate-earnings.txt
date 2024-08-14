@@ -1,0 +1,707 @@
+School	Public	Location	Earn	SAT	ACT	Price	Price_with_aid	need_fraction	merit_aided
+Princeton University	0	"Princeton, NJ"	62800	1510	33	61300	20600	0.59	
+University of Michigan-Ann Arbor	1	"Ann Arbor, MI"	59000	1380	30	28100	17300	0.3	0.16
+Harvard University	0	"Cambridge, MA"	62900	1510	34	64800	16500	0.58	
+Rice University	0	"Houston, TX"	63700	1460	33	58600	22400	0.39	0.11
+University of California-Berkeley	1	"Berkeley, CA"	60300	1360	30	35700	18200	0.51	0.06
+Brigham Young University-Provo	1	"Provo, UT"	51800	1260	29	18500	13400	0.39	0.24
+Amherst College	1	"Amherst, MA"	53400	1440	32	66600	16000	0.58	
+Cooper Union for the Advancement of Science and Art	0	"New York, NY"	63200	1360	31	62800	19000	0.32	0.55
+University of Virginia-Main Campus	1	"Charlottesville, VA"	55400	1360	31	28100	15300	0.27	0.03
+Stanford University	0	"Stanford, CA"	68600	1480	33	65300	19600	0.48	
+Massachusetts Institute of Technology	0	"Cambridge, MA"	74800	1500	34	63500	24200	0.56	
+Yale University	0	"New Haven, CT"	58800	1500	34	66600	21100	0.5	
+Texas A & M University-College Station	1	"College Station, TX"	55100	1180	26	23900	12800	0.37	0.06
+University of California-San Diego	1	"La Jolla, CA"	53700	1280	28	32500	14900	0.58	0.02
+University of Florida	1	"Gainesville, FL"	49700	1270	29	21400	16100	0.34	0.06
+University of California-Irvine	1	"Irvine, CA"	50600	1130	24	32900	13200	0.67	0.02
+University of California-Davis	1	"Davis, CA"	51000	1200	26	35100	17700	0.63	0.04
+Virginia Polytechnic Institute and State University	1	"Blacksburg, VA"	55300	1220	25	26900	20100	0.32	0.11
+University of Maryland-College Park	1	"College Park, MD"	54500	1310	28	25300	16200	0.35	0.13
+University of California-Los Angeles	1	"Los Angeles, CA"	52200	1300	28	34300	13600	0.54	0.03
+Clemson University	1	"Clemson, SC"	53100	1250	29	30300	18300	0.37	0.28
+University of Illinois at Urbana-Champaign	1	"Champaign, IL"	56800	1360	29	30800	17700	0.37	0.12
+Pomona College	0	"Claremont, CA"	49200	1460	33	65200	20900	0.56	
+California Institute of Technology	0	"Pasadena, CA"	76000	1550	34	63500	29300	0.5	
+Saint Johns University	0	"Collegeville, MN"	47400	1100	26	52400	26500	0.66	0.24
+University of Pennsylvania	0	"Philadelphia, PA"	60700	1450	32	66800	24700	0.47	
+Vanderbilt University	0	"Nashville, TN"	58300	1490	33	64800	24200	0.45	0.11
+Earlham College	0	"Richmond, IN"	45600	1250	29	56700	22400	0.64	0.11
+Washington and Lee University	0	"Lexington, VA"	53900	1390	32	62500	22600	0.41	0.08
+University of Washington-Seattle Campus	1	"Seattle, WA"	54000	1230	28	27800	11300	0.37	0.04
+Brown University	0	"Providence, RI"	57500	1440	32	65200	23100	0.45	
+University of Notre Dame	0	"Notre Dame, IN"	58700	1430	33	65000	29500	0.43	0.08
+Dartmouth College	0	"Hanover, NH"	60200	1460	32	67800	23200	0.49	
+Wellesley College	0	"Wellesley, MA"	49000	1410	31	63600	23100	0.62	
+Georgia Institute of Technology-Main Campus	1	"Atlanta, GA"	63800	1360	30	25700	13300	0.39	0.24
+College of William and Mary	1	"Williamsburg, VA"	47400	1370	30	32400	13500	0.28	0.06
+Washington State University	1	"Pullman, WA"	49200	1030	22	29300	17900	0.49	0.11
+University of Connecticut	1	"Storrs, CT"	52400	1230	28	29400	20800	0.41	0.11
+Duke University	0	"Durham, NC"	61600	1460	32	66600	23700	0.41	0.03
+Hamilton College	0	"Clinton, NY"	54800	1390	31	64300	24400	0.47	
+University of California-Santa Cruz	1	"Santa Cruz, CA"	49600	1100	23	35600	16100	0.67	0.06
+Virginia Military Institute	1	"Lexington, VA"	56400	1150	25	28100	17700	0.43	0.13
+Massachusetts Maritime Academy	1	"Buzzards Bay, MA"	58400	1060	22	23600	14400	0.44	0.05
+Bowdoin College	0	"Brunswick, ME"	48900	1440	32	64100	24300	0.45	0.03
+University of North Carolina at Chapel Hill	1	"Chapel Hill, NC"	46500	1310	30	26700	11900	0.43	0.05
+Davidson College	0	"Davidson, NC"	50000	1340	31	63400	24500	0.48	0.09
+College of Saint Benedict	0	"Saint Joseph, MN"	41800	1060	26	53900	27900	0.69	0.24
+Middlebury College	0	"Middlebury, VT"	49300	1380	32	63600	22800	0.42	
+Williams College	0	"Williamstown, MA"	53100	1450	32	66600	22100	0.5	
+The University of Texas at Austin	1	"Austin, TX"	53000	1260	28	27400	18300	0.35	0.01
+Purdue University-Main Campus	1	"West Lafayette, IN"	56200	1200	27	23900	14300	0.3	0.12
+Columbia University in the City of New York	0	"New York, NY"	61300	1480	33	69300	22700	0.48	
+St Mary's University	0	"San Antonio, TX"	43100	1050	23	41100	18800	0.77	0.16
+University of Delaware	1	"Newark, DE"	50700	1170	27	27300	16800	0.41	0.19
+Michigan State University	1	"East Lansing, MI"	49600	1120	26	26400	16100	0.34	0.08
+University of Georgia	1	"Athens, GA"	47000	1240	28	23600	14500	0.4	0.05
+University of Illinois at Chicago	1	"Chicago, IL"	51000	1120	24	30700	12600	0.61	0.03
+University of Minnesota-Twin Cities	1	"Minneapolis, MN"	50500	1300	28	26700	17000	0.42	0.07
+Colgate University	0	"Hamilton, NY"	55800	1370	31	64900	23600	0.34	
+University of North Carolina School of the Arts	1	"Winston-Salem, NC"	54800	1120	23	23100	13000	0.56	0.04
+Bates College	0	"Lewiston, ME"	46700	1310	28	65300	24000	0.44	
+Maine Maritime Academy	1	"Castine, ME"	66000	1030	22	26900	19700	0.61	0.04
+University of Wisconsin-Madison	1	"Madison, WI"	50100	1280	28	25400	17600	0.3	0.07
+Cornell University	0	"Ithaca, NY"	60700	1420	32	66200	31100	0.46	
+Vassar College	0	"Poughkeepsie, NY"	44500	1390	32	66000	21400	0.58	
+College of the Holy Cross	0	"Worcester, MA"	49500	1380	29	62100	28500	0.46	0.01
+DePauw University	0	"Greencastle, IN"	47500	1200	27	58200	32200	0.55	0.42
+Wesleyan University	0	"Middletown, CT"	47000	1390	31	66800	26300	0.44	0.01
+Lafayette College	0	"Easton, PA"	57800	1280	29	64400	29500	0.36	0.09
+Northwestern University	0	"Evanston, IL"	56400	1470	33	68200	31200	0.43	0.04
+Claremont McKenna College	0	"Claremont, CA"	58800	1410	31	66800	26100	0.38	0.06
+Bentley University	0	"Waltham, MA"	58400	1230	28	61200	34500	0.44	0.2
+Siena College	0	"Loudonville, NY"	46700	1120	25	50800	27400	0.73	0.18
+Gustavus Adolphus College	0	"Saint Peter, MN"	43900	1210	27	53600	27300	0.71	0.27
+Wheaton College	0	"Wheaton, IL"	44100	1320	30	45500	27500	0.52	0.21
+Colby College	0	"Waterville, ME"	48600	1350	30	63600	20100	0.38	0.01
+Indiana University-Bloomington	1	"Bloomington, IN"	46600	1180	27	25400	12600	0.35	0.29
+Saint Vincent College	0	"Latrobe, PA"	45200	1030	23	46100	21300	0.47	0.15
+Harvey Mudd College	0	"Claremont, CA"	79700	1480	34	69300	36100	0.5	0.24
+University of Vermont	1	"Burlington, VT"	45400	1190	27	30900	18600	0.56	0.27
+Johns Hopkins University	0	"Baltimore, MD"	60300	1420	32	66100	27500	0.43	0.01
+Bethel University	0	"Saint Paul, MN"	43800	1140	25	47700	29000	0.74	0.25
+University of Chicago	0	"Chicago, IL"	52700	1520	34	70300	37400	0.45	
+Georgetown University	0	"Washington, DC"	52900	1410	31	67100	28100	0.35	
+Molloy College	0	"Rockville Centre, NY"	58900	1060	23	47300	25500	0.78	0.07
+Citadel Military College of South Carolina	1	"Charleston, SC"	54100	1090	23	27400	19000	0.45	0.22
+Washington University in St Louis	0	"Saint Louis, MO"	55900	1490	33	69100	36400	0.39	0.11
+Muhlenberg College	0	"Allentown, PA"	48400	1240	28	59300	38800	0.5	0.37
+Tufts University	0	"Medford, MA"	55000	1450	32	66000	28500	0.37	0.02
+Michigan Technological University	1	"Houghton, MI"	63100	1220	27	28100	17000	0.5	0.26
+The University of Texas at Dallas	1	"Richardson, TX"	50600	1260	28	26100	9900	0.48	0.21
+University of California-Santa Barbara	1	"Santa Barbara, CA"	49700	1220	27	36200	16300	0.59	0.02
+Wake Forest University	0	"Winston Salem, NC"	50600	1430	31	65100	28200	0.33	0.07
+The College of New Jersey	1	"Ewing, NJ"	50500	1240	26	32000	20800	0.21	0.08
+Martin Luther College	0	"New Ulm, MN"	33200	1220	25	24100	17600	0.76	0.15
+St Lawrence University	0	"Canton, NY"	49800	1330	28	64100	33700	0.55	0.39
+California State University-Chico	1	"Chico, CA"	48100	1020	22	23300	12800	0.5	
+Union College-Schenectady	0	"Schenectady, NY"	51200	1310	30	64700	36900	0.5	0.29
+University of Rochester	0	"Rochester, NY"	53000	1350	31	65800	36000	0.51	0.31
+Swarthmore College	0	"Swarthmore, PA"	50000	1440	33	65000	24600	0.51	0.01
+McDaniel College	0	"Westminster, MD"	43000	1110	24	52200	25000	0.75	0.22
+University of Wisconsin-Eau Claire	1	"Eau Claire, WI"	45600	1120	24	19800	13600	0.43	0.05
+Lehigh University	0	"Bethlehem, PA"	61600	1320	30	61200	30400	0.4	0.06
+Trinity College	0	"Hartford, CT"	53400	1250	27	66900	27400	0.39	0.03
+Rutgers University-New Brunswick	1	"New Brunswick, NJ"	51100	1210	25	31100	17300	0.38	0.02
+California State University-Fresno	1	"Fresno, CA"	44800	930	19	21800	6100	0.65	0.03
+University of Utah	1	"Salt Lake City, UT"	48400	1130	24	23700	12300	0.12	0.24
+Stevens Institute of Technology	0	"Hoboken, NJ"	65200	1300	30	63900	34300	0.53	
+University of New Hampshire-Main Campus	1	"Durham, NH"	47600	1100	22	32000	22400	0.47	0.15
+Westfield State University	1	"Westfield, MA"	45300	1000	20	22600	16900	0.44	0.01
+Babson College	0	"Wellesley, MA"	60000	1260	28	65000	29900	0.4	0.06
+James Madison University	1	"Harrisonburg, VA"	49300	1150	25	25000	16100	0.18	0.01
+SUNY at Binghamton	1	"Vestal, NY"	49400	1300	29	24600	17000	0.41	0.03
+University of Richmond	0	"University of Richmond, VA"	50000	1310	30	62000	26200	0.4	0.17
+Western Washington University	1	"Bellingham, WA"	46800	1110	25	24200	16600	0.38	0.02
+Lawrence University	0	"Appleton, WI"	42500	1330	28	56000	30200	0.66	0.36
+Gettysburg College	0	"Gettysburg, PA"	47400	1290	28	62800	36300	0.59	0.18
+Gonzaga University	0	"Spokane, WA"	51000	1190	27	52500	34100	0.57	0.4
+Missouri University of Science and Technology	1	"Rolla, MO"	63100	1250	28	22700	15700	0.53	0.11
+Elmhurst College	0	"Elmhurst, IL"	43800	1020	24	49200	23800	0.72	0.18
+Wofford College	0	"Spartanburg, SC"	45900	1170	27	53600	27000	0.62	0.25
+SUNY College at Brockport	1	"Brockport, NY"	40900	1060	24	22500	15100	0.56	0.02
+Wabash College	0	"Crawfordsville, IN"	52400	1240	25	51400	24900	0.78	0.22
+Berea College	0	"Berea, KY"	33100	1130	24	34800	2200	1	
+Manhattan College	0	"Riverdale, NY"	58000	1080	25	56300	32500	0.67	0.25
+Stony Brook University	1	"Stony Brook, NY"	49800	1250	28	23800	14600	0.49	0.09
+Southern Nazarene University	0	"Bethany, OK"	43000	1190	24	34800	19200		
+North Carolina State University at Raleigh	1	"Raleigh, NC"	51100	1230	28	23900	14800	0.46	0.05
+Juniata College	0	"Huntingdon, PA"	42600	1290	27	53300	28200	0.69	0.25
+Ohio State University-Main Campus	1	"Columbus, OH"	50100	1270	29	26800	19900	0.4	0.19
+California Polytechnic State University-San Luis Obispo	1	"San Luis Obispo, CA"	58100	1240	28	25700	18300	0.31	0.11
+Iowa State University	1	"Ames, IA"	50200	1150	25	19800	15100	0.52	0.32
+St Olaf College	0	"Northfield, MN"	45800	1300	29	55200	30500	0.66	0.22
+Providence College	0	"Providence, RI"	50400	1160	26	61500	36900	0.52	0.18
+Niagara University	0	"Niagara University, NY"	39700	1030	23	45300	20900	0.75	0.16
+Stonehill College	0	"Easton, MA"	46400	1130	25	56400	33900	0.68	0.24
+Mount Mercy University	0	"Cedar Rapids, IA"	42900	1070	22	41700	22000	0.74	0.21
+Clarkson University	0	"Potsdam, NY"	61700	1190	26	62300	30900	0.84	0.15
+Colorado School of Mines	1	"Golden, CO"	65600	1300	29	32700	27400	0.27	0.26
+Saint Francis University	0	"Loretto, PA"	44300	1020	23	48700	25600	0.45	0.18
+Denison University	0	"Granville, OH"	46100	1260	29	61100	32100	0.53	0.45
+Worcester Polytechnic Institute	0	"Worcester, MA"	64100	1380	29	61900	40700	0.66	0.32
+University of California-Riverside	1	"Riverside, CA"	46300	1090	23	34000	14300	0.76	0.02
+Barnard College	0	"New York, NY"	48500	1340	30	65800	23800	0.4	
+Wayne State College	1	"Wayne, NE"	37500	1230	25	16500	12300	0.46	0.07
+Mount Holyoke College	0	"South Hadley, MA"	44300	1360	29	59400	29900	0.67	0.13
+Messiah College	0	"Mechanicsburg, PA"	44900	1150	26	46000	28500	0.71	0.27
+Emory University	0	"Atlanta, GA"	52300	1370	31	63800	30700	0.4	0.02
+California State Polytechnic University-Pomona	1	"Pomona, CA"	50800	1070	23	24900	10700	0.54	
+Boston College	0	"Chestnut Hill, MA"	55200	1360	32	65600	28700	0.37	0.02
+University at Buffalo	1	"Buffalo, NY"	48000	1160	26	25900	15900	0.52	0.01
+Kenyon College	0	"Gambier, OH"	45300	1320	30	64700	29100	0.39	0.12
+Bucknell University	0	"Lewisburg, PA"	57900	1300	30	65600	36100	0.4	0.09
+Arizona State University	1	"Tempe, AZ"	48900	1150	25	25600	13300	0.54	0.2
+University of Southern California	0	"Los Angeles, CA"	54600	1380	31	67300	34000	0.37	0.18
+Grinnell College	0	"Grinnell, IA"	41300	1380	30	61700	27100	0.7	0.19
+Villanova University	0	"Villanova, PA"	57400	1310	30	63100	35600	0.45	0.06
+Northwest University	0	"Kirkland, WA"	47000	1060	24	39200	22100	0.79	0.12
+Colorado College	0	"Colorado Springs, CO"	42700	1330	30	62900	26300	0.35	0.08
+Loyola University Maryland	0	"Baltimore, MD"	51900	1180	27	62300	36300	0.52	0.15
+Cedar Crest College	0	"Allentown, PA"	44700	950	21	48700	19600	0.92	0.06
+College of Our Lady of the Elms	0	"Chicopee, MA"	49700	930	19	47900	23800	0.85	0.08
+Mount Saint Mary's University	0	"Los Angeles, CA"	45900	940	19	54700	29800	0.86	0.06
+Trinity University	0	"San Antonio, TX"	43300	1260	29	52600	30400	0.44	0.5
+Fresno Pacific University	0	"Fresno, CA"	42100	990	20	39600	17800	0.7	0.09
+Franklin and Marshall College	0	"Lancaster, PA"	45200	1450	32	65800	25000	0.5	0.01
+SUNY at Albany	1	"Albany, NY"	46300	1100	24	24000	15700	0.54	0.05
+University of Wyoming	1	"Laramie, WY"	49000	1110	25	19400	12900	0.33	0.22
+Carnegie Mellon University	0	"Pittsburgh, PA"	67100	1440	32	66400	36700	0.44	0.04
+Bloomsburg University of Pennsylvania	1	"Bloomsburg, PA"	43700	990	21	23500	17200	0.41	0.02
+La Salle University	0	"Philadelphia, PA"	47000	990	22	56600	27300	0.8	0.15
+The University of Montana Western	1	"Dillon, MT"	33000	1220	25	16700	10400		0.01
+University of Portland	0	"Portland, OR"	52200	1200	25	58500	34200	0.5	0.35
+Case Western Reserve University	0	"Cleveland, OH"	58200	1380	31	62000	31800	0.48	0.33
+Hobart & William Smith Colleges	0	"Geneva, NY"	50300	1310	28	64500	39100	0.65	0.27
+Mills College	0	"Oakland, CA"	47500	1150	26	61700	29900	0.81	0.09
+SUNY College of Environmental Science and Forestry	1	"Syracuse, NY"	45300	1160	25	25800	19900	0.65	0.15
+California Maritime Academy	1	"Vallejo, CA"	57100	1080	24	22900	12200	0.39	
+Albertus Magnus College	0	"New Haven, CT"	48000	830	15	50600	24200	0.77	0.01
+New Jersey Institute of Technology	1	"Newark, NJ"	55700	1140	26	35000	16200	0.6	0.1
+Hope College	0	"Holland, MI"	41600	1200	27	42900	28100	0.51	0.27
+Bradley University	0	"Peoria, IL"	50300	1140	26	45400	29900	0.61	0.19
+University of Wisconsin-Platteville	1	"Platteville, WI"	55100	1190	23	19000	14200	0.31	0.09
+Kalamazoo College	0	"Kalamazoo, MI"	39400	1230	28	54800	28400	0.66	0.29
+University of Maine	1	"Orono, ME"	48800	1090	24	24000	18000	0.61	0.08
+Fairfield University	0	"Fairfield, CT"	54000	1280	27	62300	40600	0.43	0.35
+Santa Clara University	0	"Santa Clara, CA"	60600	1290	29	64100	39900	0.33	0.27
+CUNY Bernard M Baruch College	1	"New York, NY"	50700	1230	25	29700	8900	0.46	0.09
+George Mason University	1	"Fairfax, VA"	51500	1150	26	27100	18900	0.42	0.05
+Utah State University	1	"Logan, UT"	47800	1110	24	18800	13300	0.57	0.04
+University of Arizona	1	"Tucson, AZ"	50500	1110	24	26200	17100	0.49	0.2
+North Carolina A & T State University	1	"Greensboro, NC"	50300	900	19	17300	11100	0.64	0.03
+Assumption College	0	"Worcester, MA"	49600	1230	25	51900	29200	0.77	0.2
+University of St. Thomas	0	"Saint Paul, MN"	47600	1160	26	51600	33400	0.56	0.12
+Southwestern University	0	"Georgetown, TX"	48100	1170	26	51100	27900	0.63	0.35
+St Mary's College of Maryland	1	"St. Mary's City, MD"	44800	1220	28	29700	18700	0.37	0.24
+Florida State University	1	"Tallahassee, FL"	42600	1200	27	22500	18200	0.35	0.11
+University of Idaho	1	"Moscow, ID"	46400	1070	23	20400	15700	0.5	0.18
+University of Nebraska at Kearney	1	"Kearney, NE"	39200	970	23	21400	15900	0.51	0.17
+University of Iowa	1	"Iowa City, IA"	46800	1230	27	21700	15600	0.32	0.08
+Edgewood College	0	"Madison, WI"	47600	1150	23	39800	24100	0.75	0.18
+Skidmore College	0	"Saratoga Springs, NY"	45500	1240	28	65300	26500	0.44	0.01
+Saint Anselm College	0	"Manchester, NH"	50000	1150	25	54200	33800	0.72	0.23
+Saint Mary's College	0	"Notre Dame, IN"	45200	1100	26	51300	28900	0.57	0.33
+Dordt College	0	"Sioux Center, IA"	45000	1100	25	41700	26400	0.7	0.24
+Westminster College-New Wilmington	0	"New Wilmington, PA"	37900	1040	23	47700	23600	0.79	0.16
+Auburn University	1	"Auburn University, AL"	49000	1170	27	30300	20200	0.28	0.2
+Furman University	0	"Greenville, SC"	45000	1230	28	61400	33400	0.43	0.41
+Texas Tech University	1	"Lubbock, TX"	51600	1110	25	23300	15200	0.43	0.1
+Pepperdine University	0	"Malibu, CA"	48100	1240	26	66000	30100	0.54	0.21
+University of Massachusetts Amherst	1	"Amherst, MA"	49400	1210	27	27900	20500	0.51	0.12
+University of Evansville	0	"Evansville, IN"	47000	1110	26	47800	23100	0.64	0.23
+Marquette University	0	"Milwaukee, WI"	51200	1180	27	52300	35900	0.56	0.39
+Beloit College	0	"Beloit, WI"	37900	1230	27	54400	26400	0.68	0.29
+Macalester College	0	"Saint Paul, MN"	42600	1340	31	62200	30500	0.69	0.1
+Carleton College	0	"Northfield, MN"	44800	1430	31	65000	34900	0.55	0.06
+Moravian College and Moravian Theological Seminary	0	"Bethlehem, PA"	47000	1130	22	53700	28600	0.83	0.2
+San Jose State University	1	"San Jose, CA"	54600	1030	22	26300	11700	0.51	
+Nebraska Wesleyan University	0	"Lincoln, NE"	41900	1100	24	42600	22900	0.7	0.27
+Pennsylvania State University-Main Campus	1	"University Park, PA"	53500	1200	27	36000	26400	0.26	0.1
+Rockhurst University	0	"Kansas City, MO"	47700	1150	26	49500	21500	0.47	0.16
+Linfield College-McMinnville Campus	0	"McMinnville, OR"	43900	1090	24	51800	28100	0.61	0.2
+University of Redlands	0	"Redlands, CA"	46100	1130	25	63300	33300		
+Lewis University	0	"Romeoville, IL"	45800	1030	24	42300	20500	0.73	0.17
+University of Wisconsin-Stevens Point	1	"Stevens Point, WI"	40800	1190	23	17700	12600	0.42	0.06
+Calvin College	0	"Grand Rapids, MI"	44000	1180	26	44300	28300	0.61	0.31
+North Dakota State University-Main Campus	1	"Fargo, ND"	49600	1130	24	20700	15500	0.33	0.16
+Cedarville University	0	"Cedarville, OH"	44900	1180	27	36900	25500	0.59	0.26
+Valparaiso University	0	"Valparaiso, IN"	47700	1110	26	49700	24000	0.73	0.19
+Tennessee State University	1	"Nashville, TN"	44300	1020	20	19800	9700	0.68	0.04
+Appalachian State University	1	"Boone, NC"	40600	1150	26	20200	12500	0.36	0.03
+University of Minnesota-Morris	1	"Morris, MN"	38900	1200	26	24100	15700	0.6	0.12
+Oregon State University	1	"Corvallis, OR"	48600	1100	24	25600	17900	0.43	0.13
+Aurora University	0	"Aurora, IL"	41200	1020	22	35300	18700	0.66	0.19
+Louisiana Tech University	1	"Ruston, LA"	47600	1070	24	19400	10100	0.35	0.22
+Clark University	0	"Worcester, MA"	41800	1300	27	52300	26600	0.59	0.33
+Illinois Institute of Technology	0	"Chicago, IL"	59000	1270	28	59500	24500	0.54	0.36
+Ramapo College of New Jersey	1	"Mahwah, NJ"	42100	1100	23	30600	17200	0.3	0.04
+Hamline University	0	"Saint Paul, MN"	43800	1110	24	49800	23800	0.83	0.15
+Hanover College	0	"Hanover, IN"	42100	1100	26	47600	24000	0.76	0.22
+Goshen College	0	"Goshen, IN"	35900	1100	26	43900	21400	0.71	0.24
+Towson University	1	"Towson, MD"	44600	1080	23	24700	15100	0.35	0.07
+Brandeis University	0	"Waltham, MA"	45300	1350	30	65800	28700	0.51	0.06
+Illinois Wesleyan University	0	"Bloomington, IL"	46400	1220	28	54800	30500	0.64	0.32
+Art Center College of Design	0	"Pasadena, CA"	62000	1210	25	64400	47000		
+San Diego State University	1	"San Diego, CA"	47400	1090	24	27200	11000	0.43	0.05
+University of Oklahoma Norman Campus	1	"Norman, OK"	48900	1160	26	24900	18300	0.3	0.13
+University of Dallas	0	"Irving, TX"	45900	1210	27	52600	30000	0.6	0.36
+Gordon College	0	"Wenham, MA"	42300	1150	26	48400	32100	0.7	0.3
+Haverford College	0	"Haverford, PA"	45500	1400	32	66800	24400	0.49	
+Colorado State University-Fort Collins	1	"Fort Collins, CO"	46200	1140	25	24500	15800	0.34	0.13
+University of Mary Washington	1	"Fredericksburg, VA"	45400	1110	24	26100	18300	0.23	0.13
+Knox College	0	"Galesburg, IL"	40700	1290	27	53200	25800	0.79	0.2
+Franciscan University of Steubenville	0	"Steubenville, OH"	43600	1160	26	37000	27300	0.61	0.31
+Occidental College	0	"Los Angeles, CA"	47700	1310	29	67400	35700	0.49	0.15
+Whitworth University	0	"Spokane, WA"	42900	1280	27	52400	28400	0.69	0.27
+University of Houston	1	"Houston, TX"	51500	1140	25	24000	13800	0.5	0.03
+Reed College	0	"Portland, OR"	45200	1380	31	64400	20400	0.49	
+Wells College	0	"Aurora, NY"	44200	1070	24	53100	23100	0.87	0.07
+Houghton College	0	"Houghton, NY"	35200	1110	25	42300	24600	0.75	0.15
+Lewis & Clark College	0	"Portland, OR"	42100	1280	29	60000	37000	0.59	0.28
+Oklahoma State University-Main Campus	1	"Stillwater, OK"	46500	1120	25	22600	16100	0.4	0.29
+Westmont College	0	"Santa Barbara, CA"	45100	1190	27	57800	35600	0.66	0.27
+Gallaudet University	0	"Washington, DC"	39100	810	18	35700	15300	0.86	0.03
+Tennessee Technological University	1	"Cookeville, TN"	51400	1090	23	25100	14900	0.41	0.25
+Oberlin College	0	"Oberlin, OH"	43300	1360	30	67000	42400	0.48	0.36
+University of Maryland-Baltimore County	1	"Baltimore, MD"	50800	1210	27	26300	15400	0.4	0.14
+Rensselaer Polytechnic Institute	0	"Troy, NY"	63700	1390	29	66800	39600	0.63	0.28
+Smith College	0	"Northampton, MA"	42100	1360	29	64800	27900	0.59	0.04
+University of Pittsburgh-Pittsburgh Campus	1	"Pittsburgh, PA"	51600	1260	28	34300	25600	0.38	0.03
+University of Maine at Presque Isle	1	"Presque Isle, ME"	35673	1180	24	19100	11300	0.75	0.05
+Bryant University	0	"Smithfield, RI"	51700	1140	25	57600	38200	0.48	0.25
+Illinois College	0	"Jacksonville, IL"	38900	970	22	42400	18400	0.84	0.16
+Bethel College-Indiana	0	"Mishawaka, IN"	37000	1020	24	38200	19900	0.71	0.07
+Centre College	0	"Danville, KY"	39600	1230	29	51400	27100	0.58	0.39
+Mississippi State University	1	"Mississippi State, MS"	46100	1110	24	23500	16700	0.54	0.19
+Seattle Pacific University	0	"Seattle, WA"	44900	1140	26	51600	29000	0.71	0.24
+Simmons College	0	"Boston, MA"	48900	1150	26	56000	31400	0.77	0.2
+Ursinus College	0	"Collegeville, PA"	44900	1170	27	63400	34300	0.72	0.23
+Augsburg College	0	"Minneapolis, MN"	46500	1100	23	49100	20100	0.63	0.18
+John Carroll University	0	"University Heights, OH"	45400	1090	25	52100	25200	0.72	0.18
+Lake Forest College	0	"Lake Forest, IL"	46300	1130	26	55700	26700		
+National University	1	"La Jolla, CA"	49200	1250	26	29000	24000	0.19	
+The Evergreen State College	1	"Olympia, WA"	40100	1080	24	23700	14900	0.55	
+Drake University	0	"Des Moines, IA"	44700	1200	28	48200	29500	0.58	0.34
+Illinois State University	1	"Normal, IL"	43500	1190	24	28100	17800	0.39	0.05
+Minnesota State University-Mankato	1	"Mankato, MN"	45000	1110	22	19600	13600	0.39	0.04
+SUNY College at Geneseo	1	"Geneseo, NY"	41300	1290	28	23700	17300	0.39	0.05
+The University of Tennessee	1	"Knoxville, TN"	45700	1170	27	30600	19500	0.53	0.12
+SUNY at Fredonia	1	"Fredonia, NY"	38900	1050	24	23400	17200	0.52	0.07
+Le Moyne College	0	"Syracuse, NY"	41900	1080	24	48100	24200	0.83	0.07
+University of Scranton	0	"Scranton, PA"	48400	1120	25	58900	36400	0.71	0.18
+Waynesburg University	1	"Waynesburg, PA"	45200	1000	23	33900	19700	0.82	0.13
+Ripon College	0	"Ripon, WI"	41100	1160	25	46700	22400	0.81	0.15
+Syracuse University	0	"Syracuse, NY"	50600	1160	26	61700	32300	0.52	0.11
+Seattle University	0	"Seattle, WA"	51200	1160	27	56900	37500	0.53	0.04
+Simpson College	0	"Indianola, IA"	42800	1220	24	46800	23100	0.82	0.2
+Montclair State University	1	"Montclair, NJ"	43700	970	18	29500	16100	0.36	0.04
+College of the Ozarks	0	"Point Lookout, MO"	36000	1030	23	29100	15400	0.92	0.07
+Saint Michael's College	0	"Colchester, VT"	43800	1180	26	54300	31700	0.62	0.32
+Agnes Scott College	0	"Decatur, GA"	41100	1210	25	50800	22200	0.78	0.22
+Albion College	0	"Albion, MI"	45600	1100	25	51700	27100	0.73	0.28
+Temple University	1	"Philadelphia, PA"	45200	1120	25	31900	21200	0.61	0.11
+Slippery Rock University of Pennsylvania	1	"Slippery Rock, PA"	39800	1010	21	23500	16900	0.43	0.07
+South Dakota School of Mines and Technology	1	"Rapid City, SD"	63600	1180	26	23100	19100	0.37	0.19
+Northeastern University	0	"Boston, MA"	55600	1390	32	62700	33300	0.37	0.33
+University of Wisconsin-La Crosse	1	"La Crosse, WI"	42500	1220	25	18800	13900	0.25	0.03
+New York University	0	"New York, NY"	52400	1360	30	68700	38700	0.49	0.06
+Gannon University	0	"Erie, PA"	43600	1040	23	44700	22800	0.78	0.16
+Augustana College-Sioux Falls	0	"Sioux Falls, SD"	41000	1215	24	40500	21600	0.62	0.37
+Butler University	0	"Indianapolis, IN"	45400	1170	28	53100	35700	0.62	0.32
+Sewanee-The University of the South	0	"Sewanee, TN"	36400	1230	28	51700	27700	0.48	0.3
+Pacific Lutheran University	0	"Tacoma, WA"	43000	1100	25	52300	27300	0.75	0.23
+Susquehanna University	0	"Selinsgrove, PA"	43300	1130	25	55500	28900	0.75	0.23
+Presbyterian College	0	"Clinton, SC"	39500	1110	25	49800	19000	0.79	0.19
+University of South Carolina-Columbia	1	"Columbia, SC"	44400	1200	27	26600	19600	0.27	0.3
+Creighton University	0	"Omaha, NE"	46200	1180	27	51300	31100	0.53	0.38
+CUNY College of Staten Island	1	"Staten Island, NY"	44000	1000	19	30600	10400	0.62	0.01
+Miami University-Oxford	1	"Oxford, OH"	50600	1230	28	30600	23700	0.26	0.31
+Wisconsin Lutheran College	0	"Milwaukee, WI"	41200	1020	24	39200	20900	0.77	0.15
+Pitzer College	0	"Claremont, CA"	48700	1520	34	66300	28400	0.34	0.01
+Saint Peter's University	0	"Jersey City, NJ"	45800	920	19	51300	16300	0.85	0.09
+Taylor University	0	"Upland, IN"	41700	1170	28	42500	28100	0.59	0.29
+DeSales University	0	"Center Valley, PA"	46600	1060	24	51700	31200	0.76	0.17
+University of Colorado Boulder	1	"Boulder, CO"	50600	1170	27	31200	22900	0.29	0.26
+Roberts Wesleyan College	0	"Rochester, NY"	42400	1050	23	43600	23200	0.83	0.14
+Duquesne University	0	"Pittsburgh, PA"	45400	1120	25	48100	29400	0.69	0.27
+Carroll College	0	"Helena, MT"	47300	1120	24	44100	26600	0.63	0.31
+California State University-Stanislaus	1	"Turlock, CA"	44100	920	19	20800	6900	0.78	0.01
+California State University-Long Beach	1	"Long Beach, CA"	44500	1020	21	23600	8400	0.61	0.09
+Kansas State University	1	"Manhattan, KS"	48400	1160	24	23200	17200	0.3	0.08
+Mercer University	0	"Macon, GA"	47700	1180	26	50400	21900	0.42	0.19
+Marian University-Fond Du Lac	0	"Fond Du Lac, WI"	43700	1070	20	38100	21400	0.89	0.06
+University of Kansas	1	"Lawrence, KS"	45900	1260	25	25100	19600	0.29	0.17
+Saint Norbert College	0	"De Pere, WI"	41400	1220	25	45300	24800	0.7	0.24
+Southern Connecticut State University	1	"New Haven, CT"	43900	920	20	24400	14700	0.48	0.03
+University of Northern Iowa	1	"Cedar Falls, IA"	42400	1150	22	21000	15300	0.36	0.11
+Truman State University	1	"Kirksville, MO"	40600	1210	28	21200	13100	0.5	0.35
+College of Mount Saint Vincent	0	"Bronx, NY"	39300	920	20	49100	22900	0.82	0.07
+Salem College	0	"Winston Salem, NC"	33300	1100	25	44400	16900		
+Huntington University	0	"Huntington, IN"	32200	1010	24	37800	20700	0.84	0.16
+University of Maine at Farmington	1	"Farmington, ME"	40000	1060	21	22700	16100	0.73	0.03
+Spelman College	0	"Atlanta, GA"	45200	1020	22	45500	33300	0.7	
+SUNY College at Oneonta	1	"Oneonta, NY"	42200	1100	24	23400	16500	0.59	0.08
+Salve Regina University	0	"Newport, RI"	48500	1110	25	53300	33500	0.77	0.19
+Clarke University	0	"Dubuque, IA"	39500	1010	23	43800	25500	0.86	0.11
+State University of New York at New Paltz	1	"New Paltz, NY"	40300	1130	25	22900	15000	0.33	
+Dickinson College	0	"Carlisle, PA"	45000	1280	29	64800	36500	0.53	0.15
+Louisiana State University and Agricultural & Mechanical College	1	"Baton Rouge, LA"	47700	1140	26	25100	14600	0.38	0.15
+Austin College	0	"Sherman, TX"	40200	1220	25	49900	23800	0.65	0.14
+Eastern Illinois University	1	"Charleston, IL"	40700	1110	22	24900	17800	0.51	0.13
+Seton Hall University	0	"South Orange, NJ"	49400	1120	25	53900	29000	0.37	0.14
+University of Massachusetts-Lowell	1	"Lowell, MA"	52000	1130	25	27400	17400	0.55	0.09
+Concordia College at Moorhead	0	"Moorhead, MN"	39200	1140	25	46300	24900	0.72	0.25
+Luther College	0	"Decorah, IA"	42300	1090	26	51800	28000	0.69	0.11
+Keene State College	1	"Keene, NH"	43100	980	19	26000	20600	0.43	0.13
+University of South Florida-Main Campus	1	"Tampa, FL"	43900	1170	26	21800	12400	0.63	0.09
+Lebanon Valley College	0	"Annville, PA"	43100	1110	25	53000	29800	0.84	0.16
+University of San Francisco	0	"San Francisco, CA"	51100	1170	25	62600	35800	0.49	0.41
+Monmouth University	0	"West Long Branch, NJ"	45700	1060	24	50300	29600	0.37	0.28
+Saint Joseph's College of Maine	0	"Standish, ME"	47200	960	18	48600	27900		
+Saint Joseph's University	0	"Philadelphia, PA"	48900	1110	24	59300	37400	0.56	0.35
+East Carolina University	1	"Greenville, NC"	42000	1050	23	22000	14100	0.46	0.01
+University of North Dakota	1	"Grand Forks, ND"	48000	1090	24	22100	17700	0.39	0.3
+University of Nebraska-Lincoln	1	"Lincoln, NE"	44200	1170	25	23700	16500	0.35	0.06
+Misericordia University	0	"Dallas, PA"	45600	1060	23	45000	27600	0.79	0.13
+Bay Path College	0	"Longmeadow, MA"	40700	970	20	47500	20700	0.91	0.04
+Morehouse College	0	"Atlanta, GA"	50200	1010	21	49200	34600	0.69	0.08
+San Francisco State University	1	"San Francisco, CA"	48300	1000	22	25200	10200	0.67	0.01
+Montana State University	1	"Bozeman, MT"	48800	1140	24	20600	15600	0.39	0.09
+Wheaton College-Norton	0	"Norton, MA"	42900	1270	26	62700	37200	0.64	0.25
+Bellarmine University	0	"Louisville, KY"	42300	1080	25	55500	27000	0.75	0.21
+Sonoma State University	1	"Rohnert Park, CA"	45800	1010	22	24600	14100	0.35	0.05
+Western Michigan University	1	"Kalamazoo, MI"	44900	1150	22	23800	16900	0.42	0.1
+South Carolina State University	1	"Orangeburg, SC"	42100	840	18	29100	20000		
+Loras College	0	"Dubuque, IA"	40200	980	24	41800	21800	0.73	0.25
+George Washington University	0	"Washington, DC"	48900	1300	29	65800	35800	0.45	0.23
+Mount Saint Mary College	0	"Newburgh, NY"	49500	1000	22	45400	26400	0.79	0.17
+University of North Carolina at Charlotte	1	"Charlotte, NC"	45900	1070	23	20200	11100	0.48	0.01
+Loyola Marymount University	0	"Los Angeles, CA"	50400	1190	27	61200	44400	0.55	0.25
+DePaul University	0	"Chicago, IL"	48600	1160	26	52800	32400	0.6	0.18
+Saint Mary's University of Minnesota	0	"Winona, MN"	45300	1030	23	42700	23000	0.73	0.22
+SUNY College at Plattsburgh	1	"Plattsburgh, NY"	39100	1030	22	22900	15200	0.54	0.13
+Merrimack College	0	"North Andover, MA"	51700	1190	24	53300	32100	0.71	0.22
+George Fox University	0	"Newberg, OR"	46600	1070	23	46500	27600	0.64	0.27
+Neumann University	0	"Aston, PA"	44500	860	18	42600	25400	0.73	0.12
+Washington & Jefferson College	0	"Washington, PA"	42100	1280	27	55800	30300	0.68	0.19
+University of Rhode Island	1	"Kingston, RI"	48600	1070	24	28600	19300	0.67	0.07
+University of Dayton	0	"Dayton, OH"	51700	1130	27	53400	35900	0.51	0.35
+Central College	0	"Pella, IA"	43300	1060	24	48500	24500	0.81	0.16
+The College of Saint Scholastica	0	"Duluth, MN"	47400	940	24	46300	24100	0.62	0.06
+California State University-San Bernardino	1	"San Bernardino, CA"	42100	900	18	21200	6500	0.78	
+Connecticut College	0	"New London, CT"	45400	1420	31	65400	26300	0.49	
+Washington College	0	"Chestertown, MD"	45900	1160	27	58600	33800	0.58	0.31
+Bryn Mawr College	0	"Bryn Mawr, PA"	41000	1340	30	64400	35200	0.52	0.2
+University of Hawaii at Manoa	1	"Honolulu, HI"	43900	1090	24	27900	13300	0.51	0.2
+Coe College	0	"Cedar Rapids, IA"	45300	1180	26	51200	24100	0.84	0.15
+Whitman College	0	"Walla Walla, WA"	43500	1320	30	60600	36800	0.46	0.29
+University of Mount Olive	0	"Mount Olive, NC"	36100	920	19	29600	13300	0.66	0.1
+University of North Carolina at Asheville	1	"Asheville, NC"	35700	1200	26	20700	13100	0.53	0.06
+Massachusetts College of Liberal Arts	1	"North Adams, MA"	37600	1030	23	23000	14800	0.6	0.05
+Rose-Hulman Institute of Technology	0	"Terre Haute, IN"	66700	1300	30	61100	41900	0.55	0.35
+Saint John Fisher College	0	"Rochester, NY"	40400	1080	25	45000	25900	0.81	0.19
+Scripps College	0	"Claremont, CA"	46600	1370	31	66300	38200	0.43	0.16
+SUNY College at Cortland	1	"Cortland, NY"	39300	1060	23	24400	17900	0.44	0.03
+The Richard Stockton College of New Jersey	1	"Galloway, NJ"	40500	1080	22	29600	16600	0.41	0.08
+University of Illinois at Springfield	1	"Springfield, IL"	40000	1100	24	25900	9900	0.62	0.12
+Allegheny College	0	"Meadville, PA"	39600	1180	26	56200	30300	0.74	0.24
+CUNY Hunter College	1	"New York, NY"	45200	1160	24	21500	8900	0.68	0.04
+University of Central Florida	1	"Orlando, FL"	42700	1180	26	21700	16100	0.48	0.04
+Nazareth College	0	"Rochester, NY"	38600	1210	25	47600	29200	0.82	0.18
+Willamette University	0	"Salem, OR"	43300	1200	27	59400	33400	0.61	0.34
+Central Washington University	1	"Ellensburg, WA"	45900	990	21	24300	15500	0.55	
+Graceland University-Lamoni	0	"Lamoni, IA"	47300	910	21	38600	19600	0.76	0.15
+Sam Houston State University	1	"Huntsville, TX"	42900	1010	21	21100	12300	0.56	0.08
+South Dakota State University	1	"Brookings, SD"	44500	1050	23	26000	16800	0.27	0.15
+University of North Carolina Wilmington	1	"Wilmington, NC"	40700	1180	24	22300	15700	0.47	0.01
+University of Kentucky	1	"Lexington, KY"	46200	1120	25	26400	16200	0.27	0.19
+Wheeling Jesuit University	0	"Wheeling, WV"	38100	1010	22	38100	20500	0.45	0.23
+Longwood University	1	"Farmville, VA"	39600	1010	21	25500	17300	0.4	0.04
+Quinnipiac University	0	"Hamden, CT"	49500	1100	25	59700	38800	0.59	0.26
+University of Denver	0	"Denver, CO"	48100	1210	28	59800	36700	0.41	0.4
+Westminster College-Salt Lake City	0	"Salt Lake City, UT"	45400	1110	25	45000	25900	0.58	0.3
+Western Illinois University	1	"Macomb, IL"	42100	1070	21	26300	18300	0.6	0.03
+Transylvania University	0	"Lexington, KY"	37100	1160	27	47600	25200	0.67	0.33
+SUNY College of Technology at Alfred	1	"Alfred, NY"	43300	1090	24	24900	15700		
+University of Missouri-Columbia	1	"Columbia, MO"	44100	1170	26	24600	18400	0.39	0.19
+Canisius College	0	"Buffalo, NY"	39400	1090	25	51000	22400	0.76	0.18
+University of Wisconsin-Stout	1	"Menomonie, WI"	47400	1150	22	19800	14500	0.33	0.02
+Winona State University	1	"Winona, MN"	42800	1150	23	21700	18300	0.41	0.12
+St. Bonaventure University	0	"Saint Bonaventure, NY"	41900	1060	24	45400	25000	0.77	0.21
+Monmouth College	0	"Monmouth, IL"	42500	1010	23	45600	19200	0.86	0.14
+Alma College	0	"Alma, MI"	42000	1060	25	48200	23800	0.83	0.16
+St. Francis College	0	"Brooklyn Heights, NY"	44300	940	18	46600	16400	0.72	0.2
+Rhodes College	0	"Memphis, TN"	43900	1270	29	57900	31200	0.41	0.53
+Salisbury University	1	"Salisbury, MD"	45000	1160	24	24100	18200	0.42	0.12
+Marietta College	0	"Marietta, OH"	47000	1070	24	48000	25400	0.7	0.1
+Grand Valley State University	1	"Allendale, MI"	41200	1090	24	22400	17800	0.5	0.16
+Millikin University	0	"Decatur, IL"	41200	1040	24	43700	20900	0.74	0.1
+Holy Names University	0	"Oakland, CA"	48900	910	19	53200	28900	0.37	0.13
+Adelphi University	0	"Garden City, NY"	46500	1120	22	52000	27700	0.46	0.16
+Texas State University-San Marcos	1	"San Marcos, TX"	44800	1040	23	21500	12900	0.48	0.02
+West Virginia University	1	"Morgantown, WV"	47700	1040	24	20400	10200	0.38	0.16
+Wentworth Institute of Technology	0	"Boston, MA"	56100	1110	24	51900	35300		0.24
+Elon University	0	"Elon, NC"	45100	1220	25	47200	35100	0.3	0.21
+University of Wisconsin-River Falls	1	"River Falls, WI"	39600	1150	22	18700	13600	0.36	0.03
+CUNY Queens College	1	"Flushing, NY"	44200	1100	22	27300	7300	0.56	0.02
+Rollins College	0	"Winter Park, FL"	43400	1200	27	65000	35600	0.5	0.27
+The College of Idaho	0	"Caldwell, ID"	36100	1040	24	38100	20700	0.61	0.27
+Baldwin Wallace University	0	"Berea, OH"	41100	1080	24	43200	22200	0.8	0.2
+Ithaca College	0	"Ithaca, NY"	43700	1300	27	59600	36900	0.66	0.23
+Southern Methodist University	0	"Dallas, TX"	50500	1310	29	66600	37300	0.27	0.35
+California Lutheran University	0	"Thousand Oaks, CA"	41800	1110	24	56700	32300	0.64	0.3
+Catholic University of America	0	"Washington, DC"	50000	1120	25	59500	39400	0.57	0.32
+Otis College of Art and Design	0	"Los Angeles, CA"	44800	1000	22	58800	40200	0.65	0.17
+University of the Pacific	0	"Stockton, CA"	50700	1180	26	61200	36100	0.69	0.15
+Piedmont College	0	"Demorest, GA"	36000	1000	22	35800	19200	0.8	0.17
+Samford University	0	"Birmingham, AL"	42000	1130	26	44000	29800	0.41	0.45
+University of Wisconsin-Oshkosh	1	"Oshkosh, WI"	43700	1070	22	18600	13300	0.36	0.06
+Point Loma Nazarene University	0	"San Diego, CA"	43800	1150	26	47800	32900	0.64	0.17
+Radford University	1	"Radford, VA"	42200	990	20	22200	15100	0.35	0.03
+Boston University	0	"Boston, MA"	50900	1290	28	66200	35500	0.38	0.08
+California State University-Fullerton	1	"Fullerton, CA"	43200	1030	22	25400	6000	0.51	0.05
+University of South Dakota	1	"Vermillion, SD"	40900	1120	24	21100	16900	0.32	0.22
+University of Alabama at Birmingham	1	"Birmingham, AL"	43400	1170	25	25400	15200	0.39	0.17
+Ball State University	1	"Muncie, IN"	39500	1070	22	23700	14000	0.4	0.12
+Bluefield College	0	"Bluefield, VA"	46400	910	19	37700	21900	0.88	0.12
+Ohio Northern University	0	"Ada, OH"	48300	1150	26	44400	26100		
+Eastern Mennonite University	0	"Harrisonburg, VA"	37800	1000	22	45400	22400	0.39	0.07
+The College of Wooster	0	"Wooster, OH"	38600	1220	28	57700	30500	0.59	0.4
+University of Arkansas	1	"Fayetteville, AR"	47400	1130	26	24000	15800	0.35	0.14
+Fitchburg State University	1	"Fitchburg, MA"	40700	990	20	21900	13900	0.49	0.02
+Saint Edward's University	0	"Austin, TX"	40600	1120	24	52600	23900	0.6	0.05
+West Chester University of Pennsylvania	1	"West Chester, PA"	42400	1110	22	27000	20500	0.32	0.01
+Concordia University-Seward	0	"Seward, NE"	39100	1040	24	37700	20600	0.73	0.1
+Central Connecticut State University	1	"New Britain, CT"	47100	1010	22	25400	16100	0.49	0.06
+Texas A & M University-Commerce	1	"Commerce, TX"	40900	990	21	19000	9400	0.68	0.03
+CUNY Brooklyn College	1	"Brooklyn, NY"	42900	1100	22	26100	7900	0.74	0.03
+Millersville University of Pennsylvania	1	"Millersville, PA"	41300	1020	22	26200	15700	0.47	0.02
+Rochester Institute of Technology	0	"Rochester, NY"	56700	1220	28	51400	30400	0.07	0.15
+Pittsburg State University	1	"Pittsburg, KS"	41100	1110	22	18600	13100	0.43	0.07
+Drexel University	0	"Philadelphia, PA"	56500	1190	27	70400	40600	0.54	0.29
+Dominican University	0	"River Forest, IL"	42400	1070	22	42800	18000	0.87	0.09
+Biola University	0	"La Mirada, CA"	42100	1120	25	50100	35000	0.67	0.23
+Wartburg College	0	"Waverly, IA"	41600	980	24	49400	24700	0.75	0.25
+University of San Diego	0	"San Diego, CA"	50800	1220	28	62100	35400	0.53	0.16
+Massachusetts College of Art and Design	1	"Boston, MA"	42700	1080	25	28800	23800	0.45	0.13
+Harding University	1	"Searcy, AR"	42100	1120	25	28800	18000	0.52	0.13
+University of Wisconsin-Whitewater	1	"Whitewater, WI"	43000	1060	22	18000	12600	0.37	0.04
+Marist College	0	"Poughkeepsie, NY"	47000	1370	29	51800	37300	0.42	0.27
+University of Miami	0	"Coral Gables, FL"	49900	1330	30	65400	36300	0.41	0.41
+Rowan University	1	"Glassboro, NJ"	45800	1120	22	28500	16800	0.34	0.09
+Xavier University	0	"Cincinnati, OH"	45800	1110	25	49400	30600	0.57	0.37
+Old Dominion University	1	"Norfolk, VA"	43800	1030	21	24000	15800	0.49	0.07
+California State University-San Marcos	1	"San Marcos, CA"	43800	970	21	25000	8400	0.66	
+Azusa Pacific University	0	"Azusa, CA"	41600	1100	24	48900	34400	0.65	0.16
+Saint Xavier University	0	"Chicago, IL"	42300	1010	22	45300	18200	0.68	0.12
+St Catherine University	0	"Saint Paul, MN"	42500	1070	23	50600	24100	0.69	0.13
+Pace University-New York	0	"New York, NY"	52200	1040	23	60800	32300	0.71	0.21
+Texas Christian University	0	"Fort Worth, TX"	47400	1180	27	55900	33900	0.35	0.27
+Carlow University	0	"Pittsburgh, PA"	40000	950	20	41200	19700		
+Saint Marys College of California	0	"Moraga, CA"	51100	1110	25	61700	36100	0.68	0.15
+American University	0	"Washington, DC"	45300	1260	28	61500	36800	0.45	0.11
+University of Oregon	1	"Eugene, OR"	44100	1110	25	25400	15500	0.33	0.12
+Geneva College	0	"Beaver Falls, PA"	40900	1070	23	38200	21100	0.82	0.14
+University of Central Missouri	1	"Warrensburg, MO"	40800	1110	21	19400	14800	0.39	0.2
+Rider University	0	"Lawrenceville, NJ"	44600	1040	22	55800	32300	0.72	0.21
+Wagner College	0	"Staten Island, NY"	48800	1160	25	58600	31900	0.64	0.22
+Franklin College-Franklin	0	"Franklin, IN"	42000	1010	22	42400	24300	0.84	0.16
+William Jewell College	0	"Liberty, MO"	41600	1160	25	46600	23100	0.68	0.25
+Shippensburg University of Pennsylvania	1	"Shippensburg, PA"	42100	990	20	25900	18200	0.48	0.07
+Dominican University of California	0	"San Rafael, CA"	44100	1060	23	62400	37500	0.7	0.07
+University of North Carolina at Greensboro	1	"Greensboro, NC"	39200	1030	23	19600	11000	0.6	0.02
+Hampshire College	0	"Amherst, MA"	40600	1260	26	64500	39500	0.58	0.27
+University of Tulsa	0	"Tulsa, OK"	56100	1270	29	54200	30600	0.15	0.41
+Hampden-Sydney College	0	"Hampden-Sydney, VA"	55000	1110	25	56500	32200	0.64	0.35
+Bridgewater State University	1	"Bridgewater, MA"	41500	990	22	24300	16100	0.53	
+Northwestern College-Orange City	0	"Orange City, IA"	40200	1040	24	42300	23300	0.73	0.24
+Western Carolina University	1	"Cullowhee, NC"	39300	1040	22	19700	14100	0.64	0.04
+Lakeland College	0	"Plymouth, WI"	43700	900	22	38100	22400	0.71	0.15
+Augustana College	0	"Rock Island, IL"	40300	1020	20	50800	26900	0.76	0.22
+University of Louisiana at Lafayette	1	"Lafayette, LA"	45600	930	23	20700	9200	0.5	0.09
+Georgia College & State University	1	"Milledgeville, GA"	41500	1140	24	25600	18500	0.22	0.02
+Hiram College	0	"Hiram, OH"	38100	1030	22	45100	24200	0.78	0.11
+Hampton University	0	"Hampton, VA"	42300	1010	21	36800	24600	0.21	0.05
+Northwestern College-Saint Paul	0	"Saint Paul, MN"	40500	1140	25	42300	26600	0.8	0.14
+Simpson University	0	"Redding, CA"	36000	1030	22	38200	19900	0.88	0.05
+Webster University	0	"Saint Louis, MO"	39500	1120	24	43300	23600	0.66	0.09
+University of Mississippi	1	"University, MS"	41200	1090	24	23600	16100	0.44	0.26
+SUNY College at Oswego	1	"Oswego, NY"	38600	1110	24	23400	17200	0.57	0.12
+Mount Vernon Nazarene University	0	"Mount Vernon, OH"	37700	1080	23	38100	21200	0.77	0.4
+Western New England University	0	"Springfield, MA"	53500	1070	24	51500	31200	0.8	0.15
+East Stroudsburg University of Pennsylvania	1	"East Stroudsburg, PA"	40500	950	20	22500	17100	0.44	0.01
+Lycoming College	0	"Williamsport, PA"	42000	1040	24	50100	23400	0.82	0.15
+Concordia University-Chicago	0	"River Forest, IL"	38600	1030	22	41900	20100	0.83	0.11
+University of Louisville	1	"Louisville, KY"	44000	1090	25	25300	16000	0.55	0.15
+Holy Family University	0	"Philadelphia, PA"	45200	940	19	45800	16500	0.85	0.12
+Mayville State University	1	"Mayville, ND"	36700	1190	24	17700	12800	0.52	0.14
+John Brown University	0	"Siloam Springs, AR"	39500	1140	25	37100	20600	0.65	0.24
+Fordham University	0	"Bronx, NY"	49900	1260	28	68000	38800	0.61	0.17
+Pacific University	0	"Forest Grove, OR"	42500	1100	24	54400	29600	0.61	0.2
+Northern Illinois University	1	"Dekalb, IL"	48200	1020	22	29400	20200	0.59	0.08
+Ohio University-Main Campus	1	"Athens, OH"	45200	1090	24	25900	21400	0.45	0.08
+Notre Dame de Namur University	0	"Belmont, CA"	46000	990	20	52300	29100	0.9	0.05
+Southern Illinois University Edwardsville	1	"Edwardsville, IL"	46800	1060	23	24600	17200	0.48	0.05
+Winston-Salem State University	1	"Winston-Salem, NC"	43500	900	18	18200	8400	0.75	0.01
+Cornell College	0	"Mount Vernon, IA"	39200	1180	26	52600	25600	0.76	0.22
+Hood College	0	"Frederick, MD"	38200	1040	22	51900	26000	0.83	0.17
+Springfield College	0	"Springfield, MA"	35000	1030	23	49600	30800	0.82	0.11
+Stevenson University	0	"Stevenson, MD"	43000	1000	21	47400	28700	0.75	0.18
+University of Minnesota-Duluth	1	"Duluth, MN"	47400	1080	24	24300	17100	0.52	0.12
+University of Puget Sound	0	"Tacoma, WA"	45600	1230	28	60200	42100	0.55	0.47
+University of New England	0	"Biddeford, ME"	46900	1050	24	53000	35100		
+University of North Florida	1	"Jacksonville, FL"	42300	1160	25	21900	14400	0.4	0.12
+Lipscomb University	0	"Nashville, TN"	40700	1170	25	43900	25300	0.22	0.33
+Murray State University	1	"Murray, KY"	40400	970	22	20200	10900	0.51	0.06
+University of North Texas	1	"Denton, TX"	44200	1110	24	22100	11800	0.42	0.12
+Loyola University Chicago	0	"Chicago, IL"	44600	1160	27	55500	33900	0.66	0.26
+The University of Montana	1	"Missoula, MT"	39500	1090	24	18600	14300	0.41	0.07
+Caldwell University	0	"Caldwell, NJ"	36300	950	21	47500	19400	0.66	0.17
+Westminster College- Missouri	0	"Fulton, MO"	41500	1010	24	37600	22500	0.59	0.33
+La Sierra University	0	"Riverside, CA"	45600	930	20	44400	26200	0.8	0.17
+Northwest Missouri State University	1	"Maryville, MO"	40600	1050	23	18500	11800	0.55	0.08
+University of Michigan-Dearborn	1	"Dearborn, MI"	49700	1220	25	24300	13500	0.5	0.11
+The Master's College and Seminary	0	"Santa Clarita, CA"	40900	1100	25	45400	29700	0.76	0.13
+Baylor University	0	"Waco, TX"	48000	1230	27	56100	38000	0.55	0.37
+University of Mount Union	0	"Alliance, OH"	39900	1050	23	41500	26700	0.78	0.17
+SUNY at Purchase College	1	"Purchase, NY"	42200	1080	24	25600	18900	0.52	0.12
+Elizabethtown College	0	"Elizabethtown, PA"	41300	1120	25	54000	30200	0.75	0.24
+Manhattanville College	0	"Purchase, NY"	45400	1080	21	55200	26800	0.55	0.34
+SUNY College at Potsdam	1	"Potsdam, NY"	36400	1120	22	22700	15700	0.65	0.09
+Florida International University	1	"Miami, FL"	43100	1150	26	24000	12600	0.54	0.05
+Vanguard University of Southern California	0	"Costa Mesa, CA"	41600	950	23	45700	26400	0.53	0.07
+Christopher Newport University	1	"Newport News, VA"	44100	1160	26	27700	22900	0.3	0.09
+University of Wisconsin-Green Bay	1	"Green Bay, WI"	35900	1150	23	18800	13000	0.5	0.03
+Nyack College	0	"Nyack, NY"	37600	910	20	39300	20800	0.82	0.15
+Rhode Island School of Design	0	"Providence, RI"	46100	1240	28	66000	38200	0.31	0.01
+Hollins University	0	"Roanoke, VA"	34600	1100	24	51400	23300	0.8	0.19
+Central Michigan University	1	"Mount Pleasant, MI"	42100	990	22	23400	14800	0.48	0.11
+Whittier College	0	"Whittier, CA"	40500	1040	23	58400	26500	0.68	0.18
+Toccoa Falls College	0	"Toccoa Falls, GA"	32400	1030	20	34100	20000	0.77	0.08
+Union University	0	"Jackson, TN"	42900	1230	26	47700	28700	0.54	0.2
+North Central College	0	"Naperville, IL"	43200	1220	25	48700	25500	0.78	0.21
+Benedictine College	0	"Atchison, KS"	41300	1140	25	40700	25500	0.7	0.25
+Sarah Lawrence College	0	"Bronxville, NY"	45000	1350	29	69100	39100	0.61	0.16
+Plymouth State University	1	"Plymouth, NH"	41000	970	21	27900	20700	0.41	0.12
+Grace College and Theological Seminary	0	"Winona Lake, IN"	33800	1030	23	36300	20700	0.93	
+Minneapolis College of Art and Design	0	"Minneapolis, MN"	39400	1100	23	47000	28200	0.78	0.17
+Missouri State University-Springfield	1	"Springfield, MO"	39700	1090	24	20600	15500	0.52	0.11
+University of La Verne	0	"La Verne, CA"	43100	1030	23	56000	26600	0.72	0.11
+Immaculata University	0	"Immaculata, PA"	47600	950	20	53400	33700		
+Robert Morris University Illinois	0	"Chicago, IL"	40700	1090	21	41300	21200	0.83	0.03
+Emerson College	0	"Boston, MA"	43500	1230	28	58100	37500	0.46	0.09
+Meredith College	0	"Raleigh, NC"	36800	1040	23	46100	24700	0.75	0.08
+Indiana Wesleyan University	0	"Marion, IN"	42100	1060	24	36700	25900	0.79	0.02
+Bowling Green State University-Main Campus	1	"Bowling Green, OH"	41600	1010	22	25200	18600	0.55	0.18
+Concordia College-New York	0	"Bronxville, NY"	43500	920	18	44000	20200	0.65	0.12
+Hendrix College	0	"Conway, AR"	37100	1200	29	56500	25200	0.61	0.34
+Bethune-Cookman University	1	"Daytona Beach, FL"	44200	820	17	28200	17700	0.94	0.01
+Ohio Wesleyan University	0	"Delaware, OH"	43700	1120	25	60000	32100	0.7	0.3
+Tulane University of Louisiana	0	"New Orleans, LA"	45000	1320	31	65700	35700	0.36	0.36
+University of Nevada-Reno	1	"Reno, NV"	48300	1080	24	23500	17000	0.41	0.23
+Hofstra University	0	"Hempstead, NY"	47400	1170	26	58300	33400	0.64	0.23
+Sacred Heart University	0	"Fairfield, CT"	50000	1100	27	56750	40600	0.78	0.3
+Southwestern College	0	"Winfield, KS"	40900	980	23	39500	24700	0.79	0.18
+College of Charleston	1	"Charleston, SC"	43000	1170	26	28400	19200	0.33	0.19
+Albany State University	1	"Albany, GA"	35300	890	19	19800	13400	0.78	
+Centenary College	0	"Hackettstown, NJ"	35500	960	21	45700	27900	0.72	0.2
+Converse College	0	"Spartanburg, SC"	34700	1060	24	31100	19400	0.79	0.13
+York College Pennsylvania	1	"York, PA"	45100	1040	23	31900	23000	0.45	0.24
+Worcester State University	1	"Worcester, MA"	44200	1020	22	24600	14700	0.49	0.02
+Saint Louis University-Main Campus	0	"Saint Louis, MO"	46200	1200	28	56900	36900	0.55	0.3
+University of Cincinnati-Main Campus	1	"Cincinnati, OH"	48400	1130	25	28800	21500	0.24	0.17
+Asbury University	0	"Wilmore, KY"	33600	1120	24	38000	22200	0.78	0.08
+Mansfield University of Pennsylvania	1	"Mansfield, PA"	40400	960	21	25400	15600	0.57	0.02
+Maryville University of Saint Louis	0	"Saint Louis, MO"	43000	1100	25	46300	24800	0.67	0.21
+The University of West Florida	1	"Pensacola, FL"	39100	1030	24	20600	11700	0.52	0.06
+Bluffton University	0	"Bluffton, OH"	36000	1010	22	44700	24000	0.85	0.12
+Robert Morris University	0	"Moon Township, PA"	45400	1040	23	43600	26100	0.74	0.17
+Carroll University	0	"Waukesha, WI"	38600	1190	24	43300	25500	0.82	0.21
+California Institute of the Arts	0	"Valencia, CA"	39300	1340	28	64900	47400	0.67	0.04
+Kean University	1	"Union, NJ"	40500	910	17	29100	16500	0.51	0.01
+Mercyhurst University	0	"Erie, PA"	40200	1050	24	48400	23100	0.7	0.17
+Frostburg State University	1	"Frostburg, MD"	41000	970	20	20500	14100	0.48	0.2
+University of Southern Mississippi	1	"Hattiesburg, MS"	39300	1010	24	21400	13300	0.51	0.06
+Queens University of Charlotte	0	"Charlotte, NC"	40100	1040	24	50000	27200	0.69	0.29
+Le Moyne-Owen College	1	"Memphis, TN"	33700	930	16	19300	14100	0.89	0.01
+Wheelock College	0	"Boston, MA"	37100	990	22	51400	28900	0.82	0.14
+The College of Saint Rose	0	"Albany, NY"	36900	1140	23	45600	25600	0.76	0.09
+Mount Mary University	0	"Milwaukee, WI"	39300	1050	20	41900	14900	0.82	0.08
+Millsaps College	0	"Jackson, MS"	40000	1130	26	50600	23600	0.6	0.38
+Chapman University	0	"Orange, CA"	45300	1210	27	64300	38400	0.53	0.23
+Anderson University	0	"Anderson, IN"	39400	1040	23	41700	25300	0.82	0.18
+Bennington College	0	"Bennington, VT"	36400	1260	26	66600	34900	0.71	0.34
+University of Saint Francis-Fort Wayne	0	"Fort Wayne, IN"	41400	980	21	39300	19200	0.86	0.09
+Adrian College	0	"Adrian, MI"	39500	890	22	46900	23900	0.86	0.13
+California Baptist University	0	"Riverside, CA"	40400	980	21	45100	28100	0.58	0.05
+Georgia Southern University	1	"Statesboro, GA"	44300	1110	23	23700	17500	0.57	0.02
+Eckerd College	0	"Saint Petersburg, FL"	42800	1120	26	55700	34800	0.86	0.34
+University of Missouri-Kansas City	1	"Kansas City, MO"	44800	960	24	23600	20600	0.6	0.13
+Virginia State University	1	"Petersburg, VA"	38800	810	17	22000	16400	0.72	0.11
+Pratt Institute-Main	0	"Brooklyn, NY"	46400	1140	26	63200	43700	0.78	0.25
+The University of Alabama	1	"Tuscaloosa, AL"	45300	1130	26	28300	20600	0.31	0.23
+Indiana University of Pennsylvania-Main Campus	1	"Indiana, PA"	41800	980	20	25100	17400	0.45	0.02
+Northern Arizona University	1	"Flagstaff, AZ"	43900	1050	23	25800	14100	0.44	0.12
+Endicott College	0	"Beverly, MA"	44800	1070	23	48300	35900	0.56	0.21
+Bridgewater College	0	"Bridgewater, VA"	37300	1030	23	46700	21000	0.81	0.2
+Martin Methodist College	0	"Pulaski, TN"	30800	1200	25	35900	25300	0.54	0.09
+Drury University	0	"Springfield, MO"	37600	1150	25	37700	22900	0.61	0.16
+Loyola University New Orleans	0	"New Orleans, LA"	39400	1140	25	54500	28600	0.68	0.22
+Georgia State University	1	"Atlanta, GA"	44800	1070	23	26500	17000	0.58	
+California University of Pennsylvania	1	"California, PA"	39400	980	19	26100	18400	0.57	0.03
+Framingham State University	1	"Framingham, MA"	42500	1040	22	24100	18600	0.51	0.06
+Concordia University-Wisconsin	0	"Mequon, WI"	42700	1030	23	41500	25300	0.75	0.14
+Western Kentucky University	1	"Bowling Green, KY"	41600	990	22	19900	12100	0.44	0.13
+Cleveland Institute of Art	0	"Cleveland, OH"	42200	1080	23	56500	35400	0.82	0.12
+Jackson State University	1	"Jackson, MS"	38900	990	19	22100	11400	0.75	0.03
+Berry College	0	"Mount Berry, GA"	37000	1170	27	46200	26600	0.72	0.3
+Southeast Missouri State University	1	"Cape Girardeau, MO"	38400	1020	23	20600	12400	0.54	0.17
+Goucher College	0	"Baltimore, MD"	39500	1200	25	57600	32500	0.65	0.3
+Pennsylvania College of Technology	1	"Williamsport, PA"	49800	1200	25	31900	23400	0.67	
+Grand View University	0	"Des Moines, IA"	39000	860	21	36200	19900	0.75	0.15
+Eastern Connecticut State University	1	"Willimantic, CT"	43600	1020	22	25400	17500	0.47	0.04
+Columbus College of Art and Design	0	"Columbus, OH"	40800	1050	22	44400	28300	0.79	0.18
+College for Creative Studies	0	"Detroit, MI"	46200	1150	22	53700	37500		
+Roanoke College	0	"Salem, VA"	41300	1090	24	55500	31700	0.72	0.24
+Philadelphia University	0	"Philadelphia, PA"	44300	1060	23	53500	32300	0.78	0.16
+Northern Michigan University	1	"Marquette, MI"	40300	1110	22	21700	13400	0.41	0.08
+Kutztown University of Pennsylvania	1	"Kutztown, PA"	38500	960	20	24800	18700	0.42	0.03
+William Paterson University of New Jersey	1	"Wayne, NJ"	41200	1010	19	29000	14400	0.49	0.06
+The University of the Arts	0	"Philadelphia, PA"	42000	1010	22	60200	37800		0.33
+Virginia Commonwealth University	1	"Richmond, VA"	43700	1110	24	30200	21100	0.45	0.09
+Clarion University of Pennsylvania	1	"Clarion, PA"	37200	920	17	23900	16700	0.58	0.02
+Emmanuel College-Boston	0	"Boston, MA"	44600	1090	24	54600	35200	0.81	0.18
+Florida Southern College	0	"Lakeland, FL"	38900	1090	25	45400	25500	0.69	0.33
+Stetson University	0	"DeLand, FL"	39400	1170	26	58000	26400	0.73	0.24
+Belmont University	0	"Nashville, TN"	40300	1170	27	47200	33300	0.44	0.21
+King's College	0	"Wilkes-Barre, PA"	39400	1130	23	49200	27600	0.8	0.17
+Ringling College of Art and Design	0	"Sarasota, FL"	41600	1200	25	61100	49200	0.59	0.19
+Point Park University	0	"Pittsburgh, PA"	38700	990	22	42700	24900	0.9	0.07
+Alcorn State University	1	"Alcorn State, MS"	39000	880	18	22300	15800	0.58	0.08
+Guilford College	0	"Greensboro, NC"	37600	1070	23	49100	28100	0.86	0.18
+Maryland Institute College of Art	0	"Baltimore, MD"	40500	1180	24	59400	42800		
+Lasell College	0	"Newton, MA"	40300	980	21	49200	29700	0.82	0.16
+Seton Hill University	0	"Greensburg, PA"	37900	1030	23	47300	23700	0.84	0.12
+Edinboro University of Pennsylvania	1	"Edinboro, PA"	37500	930	20	21900	15100	0.6	0.02
+SUNY College of Agriculture and Technology at Cobleskill	1	"Cobleskill, NY"	34400	990	19	24200	15700	0.75	0.03
+Roger Williams University	0	"Bristol, RI"	47900	1200	25	52000	39300	0.4	0.12
+The New School	0	"New York, NY"	45600	1130	25	64800	46300		
+Bennett College	0	"Greensboro, NC"	39601	980	19	32300	23400	0.91	0.01
+University of Dubuque	0	"Dubuque, IA"	35300	910	20	39100	23200	0.88	0.1
+Arizona Christian University	0	"Phoenix, AZ"	36600	1040	23	37500	29400	0.77	0.09
+Arcadia University	0	"Glenside, PA"	36300	1090	25	55700	28700	0.75	0.05
+University of Valley Forge	0	"Phoenixville, PA"	34300	970	22	33700	23900	0.85	0.09
+Carthage College	0	"Kenosha, WI"	41500	1100	24	52300	29800	0.75	0.22
+Winthrop University	1	"Rock Hill, SC"	37800	1030	22	27300	17300	0.66	0.13
+Lindsey Wilson College	0	"Columbia, KY"	28300	1040	20	39000	17100	0.92	
+Kent State University at Kent	1	"Kent, OH"	40600	1040	23	26600	19700	0.36	0.17
+Hope International University	0	"Fullerton, CA"	40000	960	20	42500	24300	0.57	0.02
+The University of Tampa	0	"Tampa, FL"	41200	1070	24	41800	29900	0.59	0.3
+North Carolina Central University	1	"Durham, NC"	36300	860	18	19600	10600	0.77	0.01
+Claflin University	0	"Orangeburg, SC"	36800	880	18	33900	21600	0.87	0.17
+Savannah College of Art and Design	0	"Savannah, GA"	40400	1060	24	54700	41400	0.34	0.44
+High Point University	0	"High Point, NC"	41000	1090	24	48600	39400		0.08
+Oakwood University	0	"Huntsville, AL"	38900	920	20	37200	29400	0.88	
+Miles College	0	"Fairfield, AL"	31300	1030	20	23500	18100	0.99	0.01
