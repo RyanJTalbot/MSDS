@@ -173,11 +173,11 @@ https://www.coursera.org/degrees/master-of-science-data-science-boulder/academic
 
 [x] Data Science Foundations: Statistical Inference Specialization
 
-- Probability Theory: Foundation for Data Science
-- Statistical Inference for Estimation in Data Science
+- [x] Probability Theory: Foundation for Data Science
+- [x] Statistical Inference for Estimation in Data Science
 - Statistical Inference and Hypothesis Testing in Data Science Applications
 
-[ ] Databases for Data Scientists Specialization
+[x] Databases for Data Scientists Specialization
 
 - [x] Relational Database Design
 - [x] The Structured Query Language (SQL)
@@ -195,11 +195,11 @@ https://www.coursera.org/degrees/master-of-science-data-science-boulder/academic
 - ANOVA and Experimental Design
 - Generalized Linear Models and Nonparametric Regression
 
-[ ] Data Mining Foundations and Practice
+[x] Data Mining Foundations and Practice
 
 - [x] Data Mining Pipeline
 - [x] Data Mining Methods
-- Data Mining Project
+- [x] Data Mining Project
 
 ##### Electives:
 
@@ -209,7 +209,7 @@ https://www.coursera.org/degrees/master-of-science-data-science-boulder/academic
 - Stability and Capability in Quality Improvement
 - Measurement Systems Analysis
 
-[x] Deep Learning Applications for Computer Vision
+[ ] Deep Learning Applications for Computer Vision
 
 - Deep Learning Applications for Computer Vision
 
