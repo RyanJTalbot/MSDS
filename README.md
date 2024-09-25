@@ -107,6 +107,12 @@
 - Fundamentals of Software Architecture for Big Data - 23 hours
 - Software Architecture Patterns for Big Data - 23 hours
 
+#### [Modeling and Predicting Climate Anomalies](https://www.colorado.edu/program/data-science/modeling-and-predicting-climate-anomalies) - 44 hours
+
+- Global Climate Change Policies and Analysis - 14 hours
+- Modeling Climate Anomalies with Statistical Analysis - 7 hours
+- Predicting Extreme Climate Behavior with Machine Learning - 23 hours
+
 ### Elective courses (9 credits)
 
 - Deep Learning Applications for Computer Vision (1 credit)
@@ -128,6 +134,10 @@
 - Project Management: Foundations and Initiation (1 credit)
 - Project Planning and Execution (1 credit)
 - Agile Project Management (1 credit)
+- Global Climate Change Policies and Analysis (1 credit)
+- Modeling Climate Anomalies with Statistical Analysis (1 credit)
+- Predicting Extreme Climate Behavior with Machine Learning (1 credit)
+- Internet Policy (1 credit)
 - IBM Applied Data Science Capstone (1 credit)
 
 Students must complete 9 elective credits to earn the degree, and can choose from a variety of available options.
@@ -189,9 +199,9 @@ https://www.coursera.org/degrees/master-of-science-data-science-boulder/academic
 - Unsupervised Algorithms in Machine Learning
 - Introduction to Deep Learning
 
-[ ] Statistical Modeling for Data Science Applications
+[X] Statistical Modeling for Data Science Applications
 
-- Modern Regression Analysis in R
+- [x] Modern Regression Analysis in R
 - ANOVA and Experimental Design
 - Generalized Linear Models and Nonparametric Regression
 
@@ -218,3 +228,33 @@ https://www.coursera.org/degrees/master-of-science-data-science-boulder/academic
 - Product Cost and Investment Cash Flow Analysis
 - Project Valuation and the Capital Budgeting Process
 - Financial Forecasting and Reporting
+
+[ ] Modeling and Predicting Climate Anomalies
+
+- Global Climate Change Policies and Analysis
+- Modeling Climate Anomalies with Statistical Analysis
+- Predicting Extreme Climate Behavior with Machine Learning
+
+[ X ] Introduction to High-Performance and Parallel Computing
+
+- Introduction to High-Performance and Parallel Computing
+
+[ X ] Introduction to Generative AI
+
+- Introduction to Generative AI
+
+[ ] Internet Policy
+
+- Internet Policy
+
+[ ] Software Architecture for Big Data Specialization
+
+- Applications of Software Architecture for Big Data
+- Fundamentals of Software Architecture for Big Data
+- Software Architecture Patterns for Big Data
+
+[ ] Text Marketing Analytics Specialization
+
+- Network Analysis for Marketing Analytics
+- Supervised Text Classification for Marketing Analytics
+- Unsupervised Text Classification for Marketing Analytics
