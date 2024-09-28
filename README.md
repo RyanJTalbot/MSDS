@@ -185,7 +185,7 @@ https://www.coursera.org/degrees/master-of-science-data-science-boulder/academic
 
 - [x] Probability Theory: Foundation for Data Science
 - [x] Statistical Inference for Estimation in Data Science
-- Statistical Inference and Hypothesis Testing in Data Science Applications
+- [x] Statistical Inference and Hypothesis Testing in Data Science Applications
 
 [x] Databases for Data Scientists Specialization
 
@@ -237,11 +237,11 @@ https://www.coursera.org/degrees/master-of-science-data-science-boulder/academic
 
 [ X ] Introduction to High-Performance and Parallel Computing
 
-- Introduction to High-Performance and Parallel Computing
+- [x] Introduction to High-Performance and Parallel Computing
 
 [ X ] Introduction to Generative AI
 
-- Introduction to Generative AI
+- [x] Introduction to Generative AI
 
 [ ] Internet Policy
 
@@ -258,3 +258,6 @@ https://www.coursera.org/degrees/master-of-science-data-science-boulder/academic
 - Network Analysis for Marketing Analytics
 - Supervised Text Classification for Marketing Analytics
 - Unsupervised Text Classification for Marketing Analytics
+
+[ X ] Databases
+- [x] The Structured Query Language (SQL) - 25 hours
