@@ -1,0 +1,810 @@
+Model,Price,Year,Mileage,Fuel Type
+Honda FR-V FR-V 2.2 i-CTDi Comfort,"CHF 1,500",11.2008,"275,000 km",Diesel
+Toyota RAV-4 RAV-4 2.2D-4 D CleanPower Linea Luna,"CHF 2,500",12.2006,"291,000 km",Diesel
+BMW 320 320d xDrive 48V Touring M Sport Steptronic,"CHF 34,900",03.2021,"43,000 km",Diesel/Electric
+Audi S3 S3 Sportback 2.0 TFSI quattro,"CHF 16,960",08.2014,"181,500 km",Petrol
+VW Polo Polo 75,"CHF 1,500",01.1998,"95,900 km",Petrol
+VW Golf Golf 1.4 TSI Highline DSG,"CHF 7,499",05.2010,"134,500 km",Petrol
+Mercedes-Benz C 220 C 220 CDI Sport Edition,"CHF 3,700",01.2007,"225,000 km",Diesel
+Fiat 500 500 0.9 Twinair Lounge Dualogic,"CHF 6,500",12.2017,"89,815 km",Petrol
+Citroen C1 C1 1.0i Séduction EGS,"CHF 4,400",07.2013,"64,817 km",Petrol
+Mercedes-Benz G 400 G 400 d Stronger Than Time Edition 9G-Tronic,"CHF 129,900",12.2020,"115,231 km",Diesel
+Honda HR-V HR-V 1.5i-VTEC Executive CVT,"CHF 17,900",03.2018,"108,000 km",Petrol
+Land Rover Range Rover Sport Range Rover Sport 3.0 TDV6 HSE Automatic,"CHF 10,900",07.2012,"205,000 km",Diesel
+Renault Clio Clio 1.6 16V Dynamique,"CHF 3,999",02.2007,"125,000 km",Petrol
+Skoda Fabia Fabia 1.4 16V Elegance Automatic,"CHF 3,400",12.2006,"170,000 km",Petrol
+Audi A3 A3 Sportback 1.4 TFSI Ambiente,"CHF 17,400",10.2015,"71,600 km",Petrol
+VW Caddy Caddy Maxi 1.2 TSI,"CHF 8,700",11.2011,"77,942 km",Petrol
+Opel Vivaro Vivaro 2.0 CDTI 2.7t A L1H1,"CHF 4,990",11.2013,"117,289 km",Diesel
+VW Golf R32 Golf R32 4Motion,"CHF 6,600",10.2007,"280,000 km",Petrol
+VW Tiguan Tiguan 1.4 TSI Sport&Style 4Motion,"CHF 10,900",10.2011,"124,080 km",Petrol
+Citroen Berlingo Berlingo 1.4 X Familiale,"CHF 3,500",05.2005,"123,000 km",Petrol
+VW Touran Touran 1.9 TDI,"CHF 2,800",06.2005,"257,000 km",Diesel
+Nissan Micra Micra 1.2 DIG-S SR,"CHF 4,700",10.2012,"88,000 km",Petrol
+Opel Insignia Insignia ST 2.0 Turbo Active Edition Aut.,"CHF 3,800",07.2013,"99,000 km",Petrol
+VW T5 T5 2.5 TDI PD,"CHF 12,870",06.2009,"205,000 km",Diesel
+Mercedes-Benz ML 500 ML 500 4Matic 7G-Tronic,"CHF 22,700",06.2013,"188,000 km",Petrol
+Suzuki Ignis Ignis 1.5 16V GL Top 4x4,"CHF 6,980",07.2007,"117,000 km",Petrol
+VW Golf R Golf 2.0 TSI R 4Motion DSG,"CHF 9,700",07.2010,"155,000 km",Petrol
+Audi S6 S6 Avant 3.0 TDI quattro tiptronic,"CHF 44,900",07.2019,"111,000 km",Diesel/Electric
+VW Golf Golf 1.6 TDI BlueMotion Technology Team DSG,"CHF 4,950",04.2010,"260,000 km",Diesel
+BMW X5 X5 4.8is,"CHF 8,900",07.2004,"323,000 km",Petrol
+Opel Meriva Meriva 1.6i-16 TP Cosmo,"CHF 3,900",04.2008,"100,000 km",Petrol
+Mercedes-Benz GLE 350 GLE Coupé 350 d 4Matic 9G-Tronic,"CHF 64,000",04.2019,"52,000 km",Diesel
+BMW M3 M3 Touring xDrive Competition M,"CHF 99,800",11.2023,100 km,Petrol
+BMW X1 X1 xDrive 23i 48V M Sport,"CHF 48,800",09.2023,"23,400 km",Petrol/Electric
+BMW M3 M3 Competition M xDrive,"CHF 86,800",05.2023,"24,600 km",Petrol
+VW Polo Polo 1.2 TSI Comfortline DSG,"CHF 7,900",07.2013,"171,195 km",Petrol
+BMW 335 335i xDrive Touring Steptronic,"CHF 10,900",09.2009,"154,448 km",Petrol
+Suzuki SX4 SX4 1.6 16V GL Top Piz Sulai 4WD Automatic,"CHF 10,900",05.2010,"69,000 km",Petrol
+Audi A6 A6 Avant 2.8 Ambition,"CHF 4,900",11.1999,"166,000 km",Petrol
+Alfa Romeo 159 159 Sportwagon 1.9 JTD (Impression),"CHF 4,300",06.2010,"114,000 km",Diesel
+Fiat Doblo Doblò 1.4 TB Easy,"CHF 8,945",12.2017,"128,190 km",Petrol
+Mercedes-Benz E 300 E 300 Elégance 4Matic 7G-Tronic,"CHF 18,900",03.2013,"106,500 km",Petrol
+Citroen C3 C3 Aircross 1.2i PureTech Shine,"CHF 12,500",11.2018,"70,900 km",Petrol
+VW T6 Multivan T6 Multivan 2.0 TSI Highline DSG,"CHF 29,990",01.2016,"159,000 km",Petrol
+Suzuki SX4 S-Cross SX4 S-Cross 1.4 16V Piz Sulai Top 4WD Automatic,"CHF 18,800",08.2017,"80,300 km",Petrol
+Renault Mégane Mégane Grandtour 1.5 dCi Business EDC,"CHF 13,900",07.2020,"84,000 km",Diesel
+Mercedes-Benz ML 320 ML 320 CDI 4Matic Edition7G-Tronic,"CHF 10,900",03.2008,"167,500 km",Diesel
+Ford Fiesta Fiesta 1.0 SCTi Panther Edition,"CHF 11,900",08.2019,"97,200 km",Petrol
+Seat Altea XL Altea XL Freetrack 2.0 TDI,"CHF 4,990",02.2008,"173,000 km",Diesel
+BMW X4 X4 M40i Steptronic,"CHF 39,900",06.2019,"116,000 km",Petrol
+Ford Puma Puma 1.0 MHEV ST-Line X Automat,"CHF 23,800",02.2022,"40,000 km",Petrol/Electric
+Hyundai i20 i20 1.0 T-GDi Vertex DCT,"CHF 15,900",06.2019,"74,000 km",Petrol
+Ford Focus Focus 1.5 TDCi Trend+ Automatic,"CHF 9,800",07.2019,"115,000 km",Diesel
+Ford Fiesta Fiesta 1.0 SCTi MHEV ST Line X Automat,"CHF 19,700",09.2022,"22,500 km",Petrol/Electric
+Mercedes-Benz GLC 250 GLC 250 d AMG Line 4Matic 9G-Tronic,"CHF 23,900",08.2017,"157,700 km",Diesel
+BMW M340 M340i xDrive 48V Steptronic M Sport Pro,"CHF 64,800",09.2023,"3,000 km",Petrol/Electric
+BMW M3 M3 Competition M xDrive,"CHF 84,800",04.2023,"23,000 km",Petrol
+Ford Kuga Kuga 2.5 PHEV ST-Line X 2WD,"CHF 46,800",12.2023,"14,000 km",Petrol/Electric
+Ds Automobiles DS3 DS 3 1.2 PureTech SO Chic,"CHF 6,899",03.2018,"113,998 km",Petrol
+VW Golf Golf 1.5 eTSI  mHEV ACT Style DSG,"CHF 19,900",10.2020,"80,000 km",Petrol/Electric
+BMW X4 X4 xDrive 35d M Sport Steptronic,"CHF 25,900",09.2017,"167,500 km",Diesel
+BMW M3 M3 Cabriolet DSG,"CHF 56,900",04.2011,"98,100 km",Petrol
+Citroen C1 C1 1.0i Chic (SX),"CHF 2,100",06.2010,"132,500 km",Petrol
+Bentley Continental Continental GTC 4.0 V8,CHF 90,07.2012,"35,000 km",Petrol
+Ford Ecosport EcoSport 1.5 TDCi Business,"CHF 7,900",09.2018,"57,600 km",Diesel
+Toyota Hi-lux Hilux 2.5D 4WD Extra Cab Luna,"CHF 19,000",06.2012,"111,000 km",Diesel
+KIA Picanto Picanto 1.0 CVVT Basic,"CHF 5,500",12.2015,"44,641 km",Petrol
+Mercedes-Benz GLC 250 GLC 250 d AMG Line 4Matic 9G-Tronic,"CHF 26,000",01.2018,"139,000 km",Diesel
+Toyota Carina Carina E 2.0 GLi Liftback,"CHF 4,500",07.1992,"85,960 km",Petrol
+VW Polo Polo 1.0 BMT Trendline,"CHF 9,900",05.2019,"106,000 km",Petrol
+Mercedes-Benz C 43 AMG C 43 AMG T 4 Matic,"CHF 72,800",02.2024,"7,000 km",Petrol/Electric
+Mercedes-Benz B 220 B 220 Urban 4Matic 7G-DCT,"CHF 22,800",06.2015,"42,000 km",Petrol
+Mercedes-Benz GLC 43 AMG GLC Coupé 43 AMG 4Matic 9G-Tronic,"CHF 69,800",03.2022,"32,000 km",Petrol
+Volvo XC40 XC40 T2 Momentum Light Geartronic,"CHF 29,900",03.2021,"45,500 km",Petrol
+Audi SQ5 SQ5 TDI quattro tiptronic,"CHF 61,900",07.2021,"41,000 km",Diesel
+BMW X5M X5M Steptronic,"CHF 47,900",12.2016,"96,300 km",Petrol
+Peugeot 308 308 1.2 Pure Tech Allure EAT8,"CHF 14,900",10.2019,"84,500 km",Petrol
+VW Caddy Caddy 1.5 TSI Liberty DSG,"CHF 50,540",10.2024,150 km,Petrol/Electric
+VW Touareg Touareg 3.0 TDI R Line Limited Tiptronic,"CHF 70,850",02.2023,"18,500 km",Diesel
+VW T-ROC T-Roc 2.0 TSI Sport Selection DSG 4Motion,"CHF 23,950",11.2021,"99,600 km",Petrol
+Mercedes-Benz A 200 A 200 AMG Line,"CHF 30,800",04.2020,"34,000 km",Petrol
+KIA Stinger Stinger 3.3 T-GDi GT Automat AWD,"CHF 52,850",01.2024,850 km,Petrol
+Seat Ateca Ateca 2.0 TSI FR 4Drive DSG,"CHF 24,890",10.2020,"69,500 km",Petrol
+VW Tiguan Tiguan 2.0 TDI SCR Highline4Motion DSG,"CHF 25,500",02.2018,"85,900 km",Diesel
+Ferrari F430 F430,"CHF 102,500",02.2005,"72,500 km",Petrol
+Porsche GTS Macan GTS PDK,"CHF 64,990",06.2020,"68,900 km",Petrol
+Skoda Superb Superb Combi 1.8 TSI Ambition DSG,"CHF 9,999",12.2011,"109,000 km",Petrol
+Tesla Model Y Model Y Performance,"CHF 49,890",01.2023,"52,000 km",Electric
+VW Caddy Caddy 1.5 TSI Liberty DSG,"CHF 43,900",10.2024,"6,500 km",Petrol/Electric
+Mazda MX-5 MX-5 1.8i-16 GT-Cup,"CHF 12,900",05.2001,"97,800 km",Petrol
+VW Passat Passat Variant 1.8 TSI BMT Highline DSG,"CHF 19,900",06.2017,"84,500 km",Petrol
+Jeep Compass Compass 4x2 1.3 Turbo Night Eagle DKG,"CHF 28,890",08.2022,"25,343 km",Petrol
+VW Passat Passat Variant 2.0 TDI Business  DSG,"CHF 29,890",08.2023,"12,100 km",Diesel
+Mercedes-Benz GLC 43 AMG GLC Coupé 43 AMG 4Matic 9G-Tronic,"CHF 56,900",05.2020,"53,000 km",Petrol
+Audi Q3 Q3 Sportback 35 TFSI Attraction S-tronic,"CHF 29,900",10.2020,"99,000 km",Petrol/Electric
+Mazda 6 6 2.0 16V Exclusive,"CHF 1,990",09.2008,"236,000 km",Petrol
+BMW 330 330e Steptronic M Sport,"CHF 44,500",03.2024,"10,400 km",Petrol
+Mini Countryman Countryman John Cooper Works ALL4 Steptronic,"CHF 24,900",08.2017,"64,900 km",Petrol
+Volvo XC90 XC90 D5 AWD R-Design Geartronic,"CHF 27,900",10.2017,"135,900 km",Diesel
+Mercedes-Benz Vito Vito 115 combi K 2.2 CDI,"CHF 12,500",01.2009,"158,000 km",Diesel
+Audi A5 A5 Avant 40 TFSI S-tronic quattro,"CHF 82,390",10.2024,12 km,Petrol/Electric
+VW ID.3 ID.3 GTX 79 kWh GTX,"CHF 49,900",09.2024,"4,000 km",Electric
+Audi Q2 Q2 2.0 TFSI sport quattro S-tronic,"CHF 25,900",07.2018,"62,000 km",Petrol
+Audi Q3 Q3 45 TFSI e S line S-tronic,"CHF 33,900",07.2021,"84,000 km",Petrol/Electric
+Skoda Enyaq iV Enyaq Coupé RS iV 80 4x4,"CHF 49,990",11.2023,"15,000 km",Electric
+Cupra Formentor Formentor 2.0TSI 4Drive DSG,"CHF 35,800",07.2022,"10,900 km",Petrol
+Seat Ibiza Ibiza 1.0 EcoTSI Style DSG,"CHF 20,400",01.2024,"24,500 km",Petrol
+BMW X1 X1 xDrive 25e M Sport Steptronic,"CHF 35,500",10.2021,"27,200 km",Petrol/Electric
+VW T6.1 T6.1 California 2.0 TDI Beach DSG,"CHF 61,900",10.2021,"23,300 km",Diesel
+Skoda Kodiaq Kodiaq 2.0 TSI 4x4 SportLine,"CHF 39,990",11.2022,"45,500 km",Petrol
+Hyundai i20 i20 1.4 Style,"CHF 6,900",05.2013,"133,100 km",Petrol
+Cupra Ateca Ateca 2.0 TSI FR 4Drive DSG,"CHF 24,890",10.2020,"69,500 km",Petrol
+Hyundai Kona Kona 1.6 GDi HEV Vertex DCT,"CHF 23,800",06.2020,"65,000 km",Petrol/Electric
+Alfa Romeo Stelvio Stelvio 2.9 V6 Quadrifoglio Q4 Automatic,"CHF 62,500",04.2021,"57,500 km",Petrol
+Hyundai Kona Kona 1.6 GDi HEV Amplia DCT,"CHF 36,070",12.2023,"8,600 km",Petrol/Electric
+Mitsubishi Outlander Outlander 2.4 PHEV Diamond S-Edition 4WD Automatic,"CHF 24,950",12.2018,"58,400 km",Petrol/Electric
+Hyundai Tucson Tucson 1.6 TGDI HEV Vertex 4WD,"CHF 37,700",03.2021,"32,100 km",Petrol/Electric
+Hyundai i30 i30 N 2.0 T-GDi,"CHF 29,750",09.2019,"57,200 km",Petrol
+BMW X3 X3 xDrive 20i Individual,"CHF 61,900",03.2024,"5,500 km",Petrol/Electric
+Skoda Karoq Karoq 2.0 TDI Drive 4x4 DSG,"CHF 24,920",03.2020,"79,900 km",Diesel
+Hyundai Bayon Bayon 1.0 T-GDi 48V MH Vertex DCT,"CHF 24,650",12.2021,"9,100 km",Petrol/Electric
+Hyundai i30 i30 1.4 T-GDi Amplia,"CHF 18,650",12.2019,"32,100 km",Petrol
+Hyundai i10 i10 1.0 T-GDI N Line,"CHF 23,140",03.2023,"17,400 km",Petrol
+Hyundai Tucson Tucson 1.6 TGDI 48V Vertex DCT 4WD,"CHF 35,650",12.2021,"63,000 km",Petrol/Electric
+BMW X3 X3 xDrive M Competition Steptronic,"CHF 66,900",09.2021,"50,000 km",Petrol
+VW Golf GTI Golf 2.0 TSI GTI,"CHF 13,900",04.2010,"148,000 km",Petrol
+Land Rover Range Rover Evoque Range Rover Evoque 2.2 SD4 Union Monochrome AT9,"CHF 14,900",12.2014,"146,000 km",Diesel
+Mitsubishi L 200 Hubbrillenfahrzeug,"CHF 55,900",06.2014,"19,500 km",Diesel
+Smart Fortwo fortwo passion,"CHF 6,800",05.2016,"68,670 km",Petrol
+Dacia Sandero Sandero1.5dCi Stepway,"CHF 6,900",09.2017,"90,000 km",Diesel
+Jeep  Wrangler 3V6 24V VVT 4 Door SAHARA,"CHF 61,850",01.2023,"2,500 km",8212 (ZH)
+Dodge Viper Viper SRT-10,"CHF 99,950",01.2008,"12,800 km",Benzin bleifrei
+Chrysler PT Cruiser PT Cruiser 2.4 Limited,"CHF 6,500",01.2007,"80,159 km",Benzin bleifrei
+Toyota Corolla Corolla Touring Sports 2.0 HSD Trend e-CVT,"CHF 36,900",02.2023,"4,500 km",Petrol/Electric
+Seat Ibiza Ibiza 1.0 EcoTSI Swiss FR,"CHF 11,000",10.2019,"103,000 km",Petrol
+Renault Captur Captur 1.3 TCe Techno EDC,"CHF 19,700",12.2021,"65,200 km",Petrol/Electric
+VW Golf Golf 1.5 TSI EVO Comfortline DSG,"CHF 19,990",11.2019,"88,000 km",Petrol
+Dacia Duster Duster TCe 150 Ultimate 4x4,"CHF 17,490",04.2021,"48,000 km",Petrol
+Audi A4 A4 Avant 2.0 TDI multitronic,"CHF 5,500",05.2012,"255,000 km",Diesel
+Skoda Octavia Octavia 2.0 TDI Swiss Adventure 4x4,"CHF 4,690",09.2006,"245,000 km",Diesel
+Dacia Dokker Dokker 1.5 dCi Ambiance,"CHF 8,400",10.2013,"126,000 km",Diesel
+VW Caddy Caddy 1.4 TSI Trendline DSG,"CHF 5,700",02.2020,"375,000 km",Petrol
+VW Golf Golf 2.0 TSI R DSG 4Motion,"CHF 36,900",03.2021,"47,500 km",Petrol
+KIA cee'd Cee'd 1.6 16V Trend,"CHF 2,400",02.2010,"239,000 km",Petrol
+Hyundai i30 i30 1.6 GDI Premium,"CHF 5,590",03.2012,"191,800 km",Petrol
+Honda Jazz Jazz 1.4i Exclusive,"CHF 2,300",03.2009,"208,500 km",Petrol
+BMW 325 325xi Touring,"CHF 1,900",10.2005,"381,000 km",Petrol
+Mini Clubman Clubman Cooper S,"CHF 7,999",12.2011,"142,500 km",Petrol
+BMW X5 X5 xDrive 50i Steptronic,"CHF 21,900",12.2014,"224,600 km",Petrol
+Mazda 5 5 2.0 16V Exclusive Activematic,"CHF 2,900",10.2008,"158,000 km",Petrol
+Hyundai Santa Fe Santa Fe 2.2 CRDI Swiss Plus Edition 4WD,"CHF 5,900",12.2011,"246,600 km",Diesel
+Mercedes-Benz G 500 G 500 9G-Tronic,"CHF 159,800",11.2022,"13,052 km",Petrol
+BMW 218 Active Tourer 218i Active Tourer,"CHF 11,499",12.2015,"83,000 km",Petrol
+Iveco 35 35 S 18H A8,"CHF 84,900",05.2024,600 km,Diesel
+BMW X3 X3 xDrive 20d Steptronic,"CHF 16,900",09.2014,"188,000 km",Diesel
+Peugeot 208 208 1.2 PureTech GT Line EAT8,"CHF 16,880",11.2019,"75,000 km",Petrol
+Subaru Legacy Legacy 3.0R AWD spec.B,"CHF 7,500",02.2006,"151,000 km",Petrol
+Hyundai i20 i20 1.4 Style Automatic,"CHF 5,999",07.2012,"131,000 km",Petrol
+Mercedes-Benz E 220 E 220d Swiss Star Avantgarde 4Matic 9G-Tronic,"CHF 36,800",03.2020,"59,000 km",Diesel
+Opel Grandland X Grandland X 1.6CDTi Ultimate Automatik,"CHF 12,999",04.2018,"81,500 km",Diesel
+Audi RS6 RS6 Avant 4.0 TFSI V8 performance quattro,"CHF 83,200",01.2016,"120,000 km",Petrol
+Renault Trafic Trafic 1.6 dCi 120 2.9t Business L1H1,"CHF 12,900",09.2019,"171,000 km",Diesel
+Ds Automobiles DS3 DS 3 Cabrio 1.6 THP Faubourg Addict,"CHF 7,980",06.2016,"76,000 km",Petrol
+KIA cee'd Cee'd 1.6 GDi Turbo GT,"CHF 10,900",12.2014,"131,000 km",Petrol
+Renault Grand Scénic Grand Scénic 1.3 16V Turbo Executive EDC,"CHF 32,900",05.2023,"11,300 km",Petrol
+Mercedes-Benz GLC 350 GLC 350 d AMG Line 4Matic 9G-Tronic,"CHF 24,890",11.2017,"156,222 km",Diesel
+Skoda Octavia Octavia Combi 2.0 TSI RS,"CHF 14,200",07.2014,"143,000 km",Petrol
+VW Tiguan Tiguan 1.4TSI ACT Trendline 4Motion DSG,"CHF 24,880",10.2018,"25,000 km",Petrol
+Skoda Roomster Roomster 1.2 TSI Noire,"CHF 5,850",12.2014,"136,000 km",Petrol
+Audi A4 A4 Avant 35 TDI Attraction S-tronic,"CHF 27,400",06.2021,"31,000 km",Diesel
+Volvo V90 V90 D5 AWD Inscription Geartronic Powerpulse,"CHF 19,990",12.2017,"154,000 km",Diesel
+Audi Q3 Q3 1.4 TFSI sport S-tronic,"CHF 17,990",01.2017,"103,000 km",Petrol
+Mini Clubman Clubman Cooper SD ALL4 Steptronic,"CHF 14,900",10.2016,"153,000 km",Diesel
+Audi Q3 Q3 40 TFSI advanced quattro S-tronic,"CHF 27,880",07.2019,"82,000 km",Petrol
+KIA Niro Niro 1.6GDi Plug-in Hybrid DCT,"CHF 16,800",12.2019,"127,000 km",Petrol/Electric
+Ford Focus Focus 1.6i 16V Vita,"CHF 3,000",04.2002,Manual,1227 (GE)
+Volvo V50 V50 D5 Summum Geartronic,"CHF 1,000",12.2009,"275,000 km",Diesel
+Volvo XC70 XC70 2.4D AWD Summum Geartronic,"CHF 9,800",08.2010,"207,500 km",Diesel
+Peugeot 207 207 SW 1.6 16V Trendy Clim,CHF 600,01.2010,"240,000 km",Petrol
+Land Rover Defender Defender 90 SW 2.4Tdc,"CHF 17,500",04.2008,"211,000 km",Diesel
+ISUZU KB KB 41 4x4,"CHF 1,660",03.1984,"57,000 km",Petrol
+Jeep Grand Cherokee Gr.Cherokee 3.0 CRD Overland Automatic,"CHF 5,900",06.2010,"224,000 km",Diesel
+Dacia Sandero Sandero 1.2,"CHF 1,000",07.2010,"211,000 km",Petrol
+KIA Picanto PICANTO,"CHF 3,000",12.2006,"108,000 km",2525 (BE)
+Land Rover Discovery Sport Discovery Sport 2.0 TD4 HSE Luxury,"CHF 6,500",11.2016,"209,000 km",Diesel
+Hyundai i20 i20 1.2 Comfort,"CHF 1,300",06.2009,"207,000 km",Petrol
+VW  GOLF,"CHF 10,900",03.2008,"213,000 km",Petrol
+Mercedes-Benz Vito Vito 112CDI,"CHF 1,100",03.2002,"262,000 km",Diesel
+Volvo V70 V70 2.4T,"CHF 1,100",05.2001,"264,000 km",Petrol
+Peugeot 207 207 1.6 16V XT,"CHF 1,399",10.2007,"118,700 km",Petrol
+Citroen C3 Picasso C3 Picasso 1.6 HDi Swiss Style EGS6,"CHF 7,800",12.2012,"144,000 km",Diesel
+Toyota Yaris Yaris 1.3 Linea Luna,"CHF 2,500",10.2008,"179,000 km",Petrol
+Mercedes-Benz A 170 A 170,"CHF 5,700",01.2011,"168,034 km",Diesel
+Hyundai Getz GETZ,"CHF 3,200",08.2008,"110,613 km",Petrol
+Skoda Octavia OCTAVIA,"CHF 1,300",07.2006,"550,000 km",Diesel
+Audi A4 A4 Avant 2.0 TDI quattro,"CHF 3,990",07.2009,"263,000 km",Diesel
+Ford KA KA 1.25 Ambiente,"CHF 1,500",08.2009,"165,700 km",Petrol
+Dacia Duster Duster 1.6 Ambiance 4x4,"CHF 4,700",05.2015,"180,000 km",Petrol
+Toyota Hi-lux Hilux RZN 173 XtraCab SR5,"CHF 9,942",05.1998,"301,000 km",Petrol
+VW Passat Passat Variant 2.0 TDI Highline 4Motion DSG,"CHF 1,900",07.2010,"345,000 km",Diesel
+Mercedes-Benz C 320 C 320 cdi avant-garde,"CHF 8,900",05.2009,"155,000 km",1033 (VD)
+BMW X3 X3 xDrive 30d xLine Steptronic,"CHF 38,900",06.2020,"95,000 km",Diesel
+BMW X1 X1 xDrive 25e M Sport Steptronic,"CHF 35,500",10.2021,"27,200 km",Petrol
+Audi RS6 RS6 Avant 4.0 TFSI V8 performance quattro,"CHF 49,000",07.2015,"150,000 km",Petrol
+Audi A7 A7 Sportback 3.0 TFSI quattro S-tronic,"CHF 13,900",07.2012,"200,000 km",Petrol
+VW Polo Polo 1.2 6V Trendline,"CHF 2,900",11.2010,"162,000 km",Petrol
+Ford S-Max S-Max 2.0i Ambiente,"CHF 1,300",08.2009,"197,000 km",Petrol
+Mercedes-Benz Vito Vito 111 CDI L 4x4,"CHF 4,300",05.2009,"251,000 km",Diesel
+Jaguar XF XF 2.7d V6 Luxury,"CHF 4,500",10.2008,"140,000 km",Diesel
+Mini Cooper One Cabriolet,"CHF 1,330",10.2004,"212,000 km",Petrol
+VW Golf Golf 1.4 TSI Trendline,"CHF 5,900",10.2009,"146,093 km",Petrol
+Ford Focus Focus 1.0 SCTi Trend,"CHF 3,598",10.2012,"164,000 km",Petrol
+Fiat Tipo Tipo 1.6MJ Station Wagon Pop Star DCT,"CHF 7,999",12.2016,"104,211 km",Diesel
+Land Rover Range Rover Evoque Range Rover Evoque 2.0 TD4 HSE Dynamic AT9,"CHF 16,900",06.2017,"149,000 km",Diesel
+Peugeot 5008 5008 1.2 Pure Tech Allure EAT8,"CHF 19,500",01.2019,"103,000 km",Petrol
+KIA Picanto Picanto 1.0 _seven,"CHF 1,350",04.2011,"119,000 km",Petrol
+Mini Cooper One,"CHF 4,500",10.2007,"92,000 km",Petrol
+Audi A3 A3 1.9 TDI Start,"CHF 6,500",04.2009,"182,300 km",Diesel
+Audi RS5 RS5 Coupé 4.2 FSI quattro S-tronic,"CHF 21,500",08.2011,"104,500 km",Petrol
+VW Golf Golf 1.4 TSI GT,"CHF 1,890",06.2006,"243,200 km",Petrol
+Audi A4 A4 Avant 1.8 TFSI quattro,"CHF 4,500",12.2012,"214,000 km",Petrol
+Land Rover Discovery Discovery 3.0 TDV6 HSE Automatic,"CHF 2,900",10.2009,"221,000 km",Diesel
+VW Amarok GEOCAR Condor plus 4x4 inkl. Differentialsperre,"CHF 89,900",05.2020,"58,000 km",Diesel
+Toyota Proace Proace 2.0D Glass Van L1 Luna,"CHF 14,999",01.2017,"134,000 km",Diesel
+Mercedes-Benz C 220 C 220 CDI Avantgarde 4Matic 7G-Tronic,"CHF 14,900",05.2014,"109,000 km",Diesel
+Toyota RAV-4 RAV-4 2.0 16V Linea Sol,"CHF 5,000",10.2006,"271,000 km",Petrol
+VW Touareg Touareg 3.0 TDI BlueMotion Technology Tiptronic,"CHF 9,980",08.2012,"235,000 km",Diesel
+Mini Countryman Countryman Cooper D FWD Steptronic,"CHF 5,799",04.2012,"225,000 km",Diesel
+Honda CR-Z CR-Z 1.5i Hybrid GT Plus,"CHF 3,900",07.2012,"102,000 km",Petrol/Electric
+Peugeot 308 308 SW 1.2 THP Allure,"CHF 7,700",10.2015,"131,200 km",Petrol
+Opel Meriva Meriva 1.8i 16V Enjoy,"CHF 4,200",03.2008,"73,000 km",Petrol
+Citroen Berlingo Berlingo 1.2i PureTech Feel EAT8,"CHF 13,700",01.2020,"211,800 km",Petrol
+Renault Kangoo Kangoo 1.5 dCi,CHF 900,03.2007,"201,000 km",Diesel
+Infiniti FX FX30d S Premium AWD Automatic,"CHF 3,990",11.2011,"438,000 km",Diesel
+Mercedes-Benz C 220 C 220 d Swiss Star AMG Line 4M 9G-Tronic,"CHF 27,800",07.2018,"98,700 km",Diesel
+Peugeot 308 308 SW 1.5 BlueHDI Active Pack EAT8,"CHF 12,500",05.2021,"44,000 km",Diesel
+Honda CR-V CR-V 2.0i MMD Hybrid Sport Line 4WD Automatic,"CHF 27,499",11.2021,"57,900 km",Petrol/Electric
+Ford Streetka Streetka 1.6,"CHF 2,200",02.2005,"55,700 km",Petrol
+Renault Clio Clio 1.4-16 RXE A,"CHF 2,900",04.2004,"220,000 km",Petrol
+Mercedes-Benz GLA 250 GLA 250 AMG Line 4Matic 7G-DCT,"CHF 31,900",03.2019,"28,500 km",Petrol
+Mercedes-Benz GLC 220 GLC Coupé 220 d AMG Line 4Matic 9G-Tronic,"CHF 54,900",06.2021,"48,400 km",Diesel
+Mercedes-Benz GLA 250 GLA 250 Urban 4Matic 7G-DCT,"CHF 29,900",12.2018,"58,000 km",Petrol
+Toyota Auris Auris 1.6 Linea Luna,"CHF 2,700",01.2008,"257,980 km",Petrol
+Dacia Duster Duster 1.2 T Lauréate 4x4,"CHF 9,900",01.2018,"133,000 km",Petrol
+Peugeot 207 207 SW 1.4 16V Active,"CHF 2,900",04.2011,"209,000 km",Petrol
+Audi A3 A3 2.0 FSI Ambition,"CHF 7,500",11.2005,"139,800 km",Petrol
+Peugeot 208 208 1.2 PureTech GT Line,"CHF 7,700",02.2016,"115,000 km",Petrol
+Mercedes-Benz GLB 250 GLB 250 4Matic AMG Line 8G-Tronic,"CHF 17,800",05.2020,"200,000 km",Petrol
+Ford Focus Focus 1.8i Carving,"CHF 2,300",02.2007,"164,750 km",Petrol
+Mercedes-Benz V 250 V 250 d lang Avantgarde 4Matic G-Tronic,"CHF 59,999",04.2021,"36,000 km",Diesel
+Seat Exeo Exeo ST 2.0 TSI Advantage,"CHF 5,800",07.2013,"167,900 km",Petrol
+Ford Kuga Kuga 2.5 FHEV ST-Line X 4WD,"CHF 36,800",01.2024,"17,200 km",Petrol/Electric
+Alfa Romeo Giulietta Giulietta 1.4 Turbo Sprint,"CHF 16,999",03.2021,"75,000 km",Petrol
+Mitsubishi ASX ASX 2.2 DID Style 4WD Automatic,"CHF 15,500",02.2017,"88,100 km",Diesel
+VW ID.7 ID.7 Tourer Pro 77 kWh Pro,"CHF 67,500",10.2024,"1,000 km",Electric
+Mitsubishi Outlander Outlander 2.4 PHEV Diamond 4WD Automatic,"CHF 25,999",05.2019,"54,900 km",Petrol/Electric
+Hyundai Kona Kona 2.0 T-GDi N DCT,"CHF 32,950",05.2022,"25,950 km",Petrol
+Mitsubishi Outlander Outlander 2.4 PHEV Diamond 4WD Automatic,"CHF 29,999",12.2020,"49,500 km",Petrol/Electric
+Mitsubishi ASX ASX 1.6 PHEV Intense,"CHF 36,999",02.2024,"4,000 km",Petrol/Electric
+KIA cee'd Ceed Sportswagon 1.5 T-GDi Power DCT,"CHF 29,700",04.2024,"10,500 km",Petrol
+Renault Koleos Koleos 2.0 dCi Techno 4WD Xtronic CVT,"CHF 23,900",06.2023,"44,200 km",Diesel
+Dacia Sandero Sandero Stepway TCe 90 Comfort,"CHF 10,900",12.2020,"28,900 km",Petrol
+Renault Zoe Zoe R135 (incl. Batterie) Iconic,"CHF 22,900",10.2023,"19,300 km",Electric
+Renault Austral Austral 1.2 HEV 200 Iconic Esprit Alpine A,"CHF 35,900",11.2023,"23,800 km",Petrol/Electric
+Dacia Duster Duster TCe 150 Ultimate 4x4,"CHF 15,890",09.2019,"48,200 km",Petrol
+Renault Koleos Koleos 2.0 dCi Techno 4WD Xtronic CVT,"CHF 23,900",05.2023,"44,500 km",Diesel
+Renault Koleos Koleos 2.0 dCi Zen 4x4 Xtronic CVT,"CHF 16,900",06.2019,"95,200 km",Diesel
+Fiat 500 500C 0.9 Twinair Dolcevita,"CHF 14,900",06.2020,"33,000 km",Petrol
+VW Caddy Caddy 1.4 TSI Trendline DSG,"CHF 31,500",05.2019,"34,010 km",Petrol
+Hyundai Getz Getz 1.3 GLS,"CHF 2,500",04.2003,"184,900 km",Petrol
+Honda Jazz Jazz 1.2i Trend,"CHF 2,500",04.2011,"195,000 km",Petrol
+Toyota Verso Verso 1.8 Linea Luna Multidrive,"CHF 5,900",08.2009,"230,000 km",Petrol
+Subaru Legacy Legacy 2.0R AWD Swiss Automatic,"CHF 4,500",10.2008,"208,000 km",Petrol
+Citroen Jumpy Jumpy 1.6 HDi 10 L1H1,"CHF 2,999",06.2012,"221,432 km",Diesel
+BMW 630 Gran Turismo 630d GT xDrive Steptronic,"CHF 25,900",08.2018,"192,219 km",Diesel
+Renault Laguna Laguna 2.0 dCi Expression Automatic,"CHF 1,690",10.2007,"274,400 km",Diesel
+Saab 9-5 9-5 2.3t Vector,"CHF 2,900",01.2006,"185,000 km",Petrol
+Fiat Freemont Freemont 2.0 MJ Lounge AWD Automat,"CHF 5,990",04.2015,"229,800 km",Diesel
+Audi Q3 Q3 2.0 TFSI quattro,"CHF 18,500",01.2015,"54,000 km",Petrol
+Renault Mégane Mégane 1.6 16V Turbo GT EDC,"CHF 13,100",03.2016,"119,000 km",Petrol
+VW Eos Eos 1.6 FSI,"CHF 4,500",10.2007,"163,500 km",Petrol
+Citroen C4 Aircross C4 Aircross 1.6 HDi Exclusive 4WD,"CHF 5,499",09.2013,"325,000 km",Diesel
+Skoda Octavia Octavia Combi 2.0 TSI Ambition 4x4 DSG,"CHF 20,850",08.2020,"75,599 km",Petrol
+Mercedes-Benz C 220 C 220 BlueTEC Swiss Star Exclusive 7G-Tronic,"CHF 12,900",05.2015,"164,000 km",Diesel
+Fiat 500 500 1.4 16V by Diesel,"CHF 4,800",05.2009,"138,000 km",Petrol
+Dacia Logan Logan MCV 1.5dCi Lauréate Automatic,"CHF 3,997",05.2017,"117,000 km",Diesel
+Citroen C1 C1,"CHF 4,900",02.2008,"175,000 km",Petrol
+Renault Scénic Scénic 2.0 16V Alizé,"CHF 1,750",12.2000,"110,000 km",Petrol
+BMW X1 X1 xDrive 28i Steptronic,"CHF 5,399",07.2011,"191,000 km",Petrol
+BMW 520 520d Steptronic,"CHF 10,900",05.2011,"209,000 km",Diesel
+Fiat Ducato Ducato 15 2.8 JTD,"CHF 14,900",07.2003,"85,000 km",Diesel
+Mercedes-Benz ML 420 ML 420 CDI 4Matic Edition 7G-Tronic,"CHF 4,980",11.2008,"340,000 km",Diesel
+Toyota Auris Auris 1.4 D-4D Linea Luna,"CHF 4,900",06.2009,"173,000 km",Diesel
+Nissan Sunny Sunny 1.6 SLX 4x4 Wg. 12V,"CHF 6,900",12.1990,"72,756 km",Petrol
+Mercedes-Benz C 180 C 180 Coupé 7G-Tronic,"CHF 7,900",02.2015,"145,000 km",Petrol
+Renault Trafic Trafic dCi 90 Passenger Authentique,"CHF 8,900",03.2015,"236,400 km",Diesel
+Dacia Logan Logan MCV 0.9 Celebration,"CHF 5,900",11.2015,"108,100 km",Petrol
+VW Golf Golf 2.0 TDI Comfortline 4Motion,"CHF 4,400",12.2004,"226,460 km",Diesel
+Renault Captur Captur 1.3 T 16V Intens EDC,"CHF 24,850",11.2023,"14,539 km",Petrol/Electric
+Toyota Corolla Verso Corolla Verso 1.8 Linea Sol MultiMode,"CHF 4,999",07.2006,"175,000 km",Petrol
+Peugeot Partner Partner 1.6 HDI Urban Pack,"CHF 4,990",03.2010,"167,000 km",Diesel
+Mercedes-Benz C 63 AMG C 63 AMG Avantgarde 7G-Tronic,"CHF 45,900",01.2010,"93,000 km",Petrol
+Mitsubishi Outlander Outlander 2.4 PHEV Style 4WD Automatic,"CHF 21,500",12.2018,"99,000 km",Petrol/Electric
+BMW X1 X1 xDrive 25d M Sport Steptronic,"CHF 13,999",04.2016,"220,000 km",Diesel
+VW Touran Touran 2.0 TDI Highline DSG,"CHF 8,700",09.2012,"222,000 km",Diesel
+Audi A4 A4 Avant 1.8 TFSI multitronic,"CHF 4,700",04.2010,"262,000 km",Petrol
+VW Golf Golf 1.6 TDI BlueMotion Technology Comfortline,"CHF 4,999",04.2010,"315,000 km",Diesel
+BMW X3 X3 xDrive 48V 30d M Sport,"CHF 59,800",03.2022,"33,500 km",Diesel/Electric
+Skoda Octavia Octavia Combi 1.6 TDI Adventure 4x4,"CHF 3,900",01.2012,"233,000 km",Diesel
+Audi A4 A4 Avant 1.8 TFSI,"CHF 4,500",06.2010,"182,000 km",Petrol
+Renault Captur Captur 1.2 T 16V Dynamique EDC,"CHF 11,500",05.2015,"101,320 km",Petrol
+Skoda Superb Superb Combi 2.0 TDi Ambition 4x4 DSG,"CHF 19,999",03.2019,"112,000 km",Diesel
+Suzuki Alto Alto 1.1 GL,"CHF 1,555",12.2003,"107,000 km",Petrol
+VW Sharan Sharan 2.0 TDI BMT Highline 4Motion,"CHF 9,900",10.2012,"194,400 km",Diesel
+Mercedes-Benz GLE 400 GLE 400 d 4Matic AMG Line 9G-Tronic,"CHF 64,998",10.2021,"89,500 km",Diesel
+VW Golf GTI Golf 2.0 TSI GTI Clubsport,"CHF 16,999",06.2016,"147,900 km",Petrol
+Hyundai i20 i20 1.6 Premium,"CHF 3,499",07.2010,"133,000 km",Petrol
+Seat Leon Leon ST 2.0 TDI Style DSG,"CHF 12,000",06.2018,"119,000 km",Diesel
+Jeep Grand Cherokee Grand Cherokee 3.0 CRD Overland Automatic,"CHF 38,999",02.2020,"49,000 km",Diesel
+Ferrari F8 F8 Tributo,"CHF 366,666",08.2023,229 km,Petrol
+Maserati Ghibli Ghibli 3.0 V6 Automatica,"CHF 35,900",06.2016,"58,500 km",Petrol
+KIA cee'd Cee'd Sportswagon 1.6 GDi Swiss Eco Edition,"CHF 8,900",11.2015,"107,900 km",Petrol
+Audi A1 A1 Sportback 1.4 TFSI Ambition,"CHF 11,900",08.2014,"133,000 km",Petrol
+Renault Trafic Trafic 1.6 dCi 120 2.9t Business L1H1,"CHF 17,980",04.2018,"138,000 km",Diesel
+Skoda Octavia Octavia Combi 2.0 TDI RS Prag 4x4 DSG,"CHF 25,900",04.2018,"87,000 km",Diesel
+Mitsubishi Colt COLT 1.6 HEV Instyle,"CHF 26,999",11.2023,"9,000 km",Petrol/Electric
+Smart Fortwo fortwo pulse mhd softouch,"CHF 11,800",08.2013,"34,000 km",Petrol
+Hyundai i20 i20 1.0 T-GDi Amplia,"CHF 10,900",09.2017,"94,600 km",Petrol
+Honda Civic Civic 1.8i Lifestyle Automatic,"CHF 14,900",04.2013,"24,000 km",Petrol
+Ford Fiesta Fiesta 1.0 SCTi MHEV ST Line X Automat,"CHF 16,900",09.2021,"35,000 km",Petrol/Electric
+Peugeot 3008 3008 2.0 BlueHDi GT EAT,"CHF 17,900",12.2016,"134,000 km",Diesel
+VW Tiguan Tiguan 1.5TSI Evo Life DSG,"CHF 20,900",01.2021,"105,000 km",Petrol
+Honda Jazz Jazz 1.5i-MMD Crosstar Executive E-CVT,"CHF 18,500",11.2020,"86,500 km",Petrol/Electric
+Fiat Bravo Bravo 1.4 16V Turbo Sport,"CHF 4,900",04.2010,"166,998 km",Petrol
+Ford Mustang Mach-E Mustang MACH-E GT AWD 91 kWh,"CHF 47,500",03.2022,"35,000 km",Electric
+VW Tiguan Tiguan 2.0TSI R-Line 4Motion DSG,"CHF 40,900",07.2023,"22,600 km",Petrol
+BMW Z4 Z4 2.2i Roadster,"CHF 4,880",10.2004,"278,000 km",Petrol
+VW UP Up 1.0 BMT EcoFuel high up,"CHF 4,900",03.2013,"151,000 km",Natural gas/petrol
+Mitsubishi ASX ASX 1.6 Intense 2WD,"CHF 6,900",04.2012,"63,000 km",Petrol
+KIA Sportage Sportage 1.6T-GDi MHEV Power Edition 4x4 7DCT,"CHF 36,500",04.2024,"13,200 km",Petrol/Electric
+Honda Jazz Jazz 1.5i-MMD Executive E-CVT,"CHF 19,900",10.2020,"55,300 km",Petrol/Electric
+VW Touareg Touareg 3.0 TDI BlueMotion Technology Tiptronic,"CHF 14,990",02.2013,"312,000 km",Diesel
+Porsche Taycan Taycan 4S,"CHF 62,900",09.2020,"54,900 km",Electric
+Citroen Berlingo Berlingo 1.6 BlueHDi Feel ETG6,"CHF 6,900",04.2018,"107,000 km",Diesel
+Seat Arona Arona 1.5 Eco TSI Hola Xperience DSG,"CHF 24,500",05.2022,"7,200 km",Petrol
+Toyota iQ iQ 1.0 VVT-i Luna,"CHF 8,900",03.2013,"67,000 km",Petrol
+VW Tiguan Tiguan 2.0 TDI SCR Highline 4Motion DSG,"CHF 22,900",07.2018,"119,000 km",Diesel
+Citroen C5 C5 Berline 1.6 Turbo Exclusive Automatic,"CHF 3,850",04.2012,"143,000 km",Petrol
+VW ID.4 ID.4 GTX 77 kWh 4Motion,"CHF 39,880",01.2023,"24,000 km",Electric
+BMW 420 420d Coupé xDrive Sport Line Steptronic,"CHF 18,800",04.2015,"129,000 km",Diesel
+Mercedes-Benz S 63 AMG S 63 AMG Coupé 4Matic Speedshift MCT,"CHF 84,900",02.2016,"78,000 km",Petrol
+Audi RS4 RS4 Avant 4.2 FSI V8 quattro S-tronic,"CHF 29,890",09.2012,"132,455 km",Petrol
+Land Rover Discovery Discovery 2.0 TD4 HSE Luxury Automatic,"CHF 25,890",04.2017,"92,500 km",Diesel
+Nissan X-Trail X-Trail 2.0 dCi tekna Xtronic CVT ALL-MODE 4x4,"CHF 16,500",11.2018,"138,000 km",Diesel
+Skoda Octavia Octavia Combi 2.0 TDI Soleil 4x4 DSG,"CHF 14,990",05.2019,"91,000 km",Diesel
+Skoda Octavia Octavia Combi 2.0 TDI RS 4x4 DSG,"CHF 16,500",09.2017,"148,700 km",Diesel
+Mazda 2 2 1.5i 16V Skyactiv-G Revolution,"CHF 12,900",08.2017,"65,000 km",Petrol
+Suzuki SX4 SX4 1.6 16V GL Top Piz Sulai 4WD,"CHF 6,500",09.2012,"120,500 km",Petrol
+Mercedes-Benz S 500 S 500 Coupé 4Matic 7G-Tronic,"CHF 39,880",10.2014,"184,000 km",Petrol
+BMW M3 M3 Competition M xDrive,"CHF 79,990",10.2021,"36,600 km",Petrol
+BMW 340 340i xDrive Steptronic,"CHF 26,900",07.2016,"148,000 km",Petrol
+Cupra Formentor Formentor 1.5 TSI DSG,"CHF 27,499",07.2023,"34,781 km",Petrol
+Ford Kuga Kuga 2.5 FHEV ST-Line X 4WD,"CHF 39,999",01.2023,"16,500 km",Petrol/Electric
+Audi RS3 RS3 Limousine 2.5 TSI quattro S-tronic,"CHF 70,000",10.2023,"19,000 km",Petrol
+VW Golf GTI Golf 2.0 TSI GTI DSG,"CHF 15,990",06.2017,"153,000 km",Petrol
+Renault Captur Captur 1.2 T 16V Privilège EDC,"CHF 12,800",08.2016,"95,276 km",Petrol
+VW T6.1 T6.1 2.0 TDI,"CHF 27,200",01.2021,"76,000 km",Diesel
+BMW X2 X2 M35i Steptronic,"CHF 27,900",06.2020,"50,000 km",Petrol
+Audi A6 A6 2.0 TDI multitronic,"CHF 15,900",01.2014,"155,000 km",Diesel
+Mercedes-Benz GLC 250 GLC Coupé 250 d AMG Line 4Matic 9G-Tronic,"CHF 31,500",01.2017,"118,000 km",Diesel
+Ford Focus Focus 1.5 TDCi ST Line Automatic,"CHF 12,500",01.2021,"114,800 km",Diesel
+Seat Alhambra Alhambra 1.4 TSI DSG Hola FR,"CHF 38,900",03.2022,"21,900 km",Petrol
+Audi A3 A3 Sportback 35 TFSI Sport,"CHF 24,900",05.2019,"44,000 km",Petrol
+Mercedes-Benz A 250 A 250 Sport 4Matic 7G-DCT,"CHF 19,900",12.2015,"68,000 km",Petrol
+Opel Astra Astra 1.8i 16V Diamond Automatic,"CHF 2,500",12.2008,"150,000 km",Petrol
+Ford Focus Focus 1.6i 16V Carving,"CHF 2,650",06.2005,"99,850 km",Petrol
+BMW X1 X1 sDrive 18d Steptronic,"CHF 22,000",02.2021,"80,000 km",Diesel
+BMW X2 X2 xDrive 25e M Sport X Steptronic,"CHF 30,999",12.2020,"46,000 km",Petrol/Electric
+Renault Trafic Trafic 1.6 dCi 120 2.9t Business L1H1,"CHF 4,900",07.2018,"229,000 km",Diesel
+Ford Kuga Kuga 2.0 TDCi Titanium S 4WD,"CHF 9,900",11.2011,"158,000 km",Diesel
+Ford Fiesta Fiesta 1.0 SCTi Active,"CHF 14,200",07.2019,"59,299 km",Petrol
+Jaguar F-Pace F-Pace 3.0 TD R-Sport AWD Automatik,"CHF 20,500",12.2016,"175,000 km",Diesel
+Mercedes-Benz C 250 C 250 BlueTEC AMG Line 4Matic 7G-Tronic,"CHF 14,450",04.2016,"180,000 km",Diesel
+VW Phaeton Phaeton L 4.2 V8 4Motion Tiptronic,"CHF 10,600",05.2008,"178,000 km",Petrol
+VW Golf Golf 1.5 eTSI  mHEV ACT R-Line DSG,"CHF 26,000",05.2021,"60,500 km",Petrol/Electric
+VW Passat Passat 2.0T FSI Highline,"CHF 4,800",03.2007,"127,100 km",Petrol
+Honda Jazz Jazz 1.5i-MMD Crosstar Executive E-CVT,"CHF 20,900",12.2020,"44,300 km",Petrol/Electric
+Audi S3 S3 Sportback 2.0 TFSI quattro S-tronic,"CHF 23,500",04.2016,"93,700 km",Petrol
+VW T6.1 T6.1 2.0 TDI Envia Explore 4Motion,CHF 1,07.2021,"67,000 km",Diesel
+VW Tiguan Tiguan 2.0 TDI SCR Highline 4Motion DSG,CHF 1,10.2019,"59,990 km",Diesel
+VW Tiguan Tiguan 2.0 TDI SCR Comfortline 4Motion DSG,CHF 1,03.2020,"69,500 km",Diesel
+VW Tiguan Tiguan 2.0TSI Comfortline 4Motion DSG,CHF 1,06.2019,"112,000 km",Petrol
+VW Tiguan Tiguan Allspace 2.0TSI Highline 4Motion DSG,CHF 1,05.2018,"85,900 km",Petrol
+VW T-Cross T-Cross 1.5 TSI EVO ACT Style DSG,CHF 1,03.2020,"61,000 km",Petrol
+VW Polo GTI Polo 2.0 TSI GTI,CHF 1,05.2019,"44,500 km",Petrol
+VW Passat Passat 2.0 TDI BMT Elegance 4Motion DSG,CHF 1,12.2021,"41,900 km",Diesel
+VW Tiguan Tiguan 2.0 TDI SCR Highline 4Motion DSG,CHF 1,11.2016,"81,000 km",Diesel
+VW ID.7 ID.7 Tourer Pro 77 kWh United,"CHF 67,500",10.2024,"1,000 km",Electric
+VW ID.7 ID.7 Pro 77 kWh Pro,"CHF 52,500",12.2023,"3,900 km",Electric
+VW Golf Golf 1.0 TSI Swiss Line Plus DSG,CHF 1,07.2019,"116,500 km",Petrol
+VW T6.1 T6.1 California 2.0 Bi-TDI Beach Liberty 4Motion D,CHF 1,03.2022,"29,900 km",Diesel
+VW Caddy Caddy 2.0TDI BlueMotion Technology,CHF 1,11.2020,"60,900 km",Diesel
+Peugeot 308 308 1.6 16V T XSI Automatic,"CHF 5,900",04.2008,"118,410 km",Petrol
+VW T5 Multivan T5 Multivan 2.0 Bi-TDI CR Family Life DSG,"CHF 22,990",09.2013,"168,200 km",Diesel
+Honda Jazz Jazz 1.3i-VTEC Elegance CVT,"CHF 16,900",06.2017,"12,758 km",Petrol
+Alfa Romeo Giulietta Giulietta 1.4 Turbo Sport,"CHF 13,800",06.2019,"69,000 km",Petrol
+VW Tiguan Tiguan Allspace 2.0 TDI SCR R-Line 4Motion DSG,"CHF 40,900",01.2024,"29,000 km",Diesel
+Renault Clio Clio 1.6 E-Tech Zen,"CHF 16,400",05.2021,Automatic,9437 (SG)
+Mercedes-Benz A 180 A 180 Night Star AMG Line 7G-DCT,"CHF 27,500",10.2020,"46,000 km",Petrol
+Mercedes-Benz E 450 E 450 AMG Line 4Matic 9G-Tronic,"CHF 48,500",09.2019,"58,500 km",Petrol
+Seat Ateca Ateca 1.5 TSI EVO SWISS Xcellence DSG,"CHF 23,900",11.2019,"48,000 km",Petrol
+BMW 118 118i Steptronic Pure M Sport,"CHF 24,500",11.2020,"54,000 km",Petrol
+Cupra Formentor Formentor 1.5 TSI Inicio DSG,"CHF 28,900",03.2022,"34,000 km",Petrol
+Volvo XC60 XC60 T5 AWD Inscription Geartronic,CHF 1,11.2019,"35,000 km",Petrol
+Subaru XV XV 2.0 Swiss Three AWD CVT,"CHF 7,900",03.2016,"226,206 km",Petrol
+Skoda Scala Scala 1.0 TSI Monte Carlo DSG,CHF 1,08.2021,"23,154 km",Petrol
+Skoda Octavia Octavia Combi 2.0 TDI DSG Style,CHF 1,05.2023,"6,990 km",Diesel
+Skoda Octavia Octavia Combi 2.0 TSI RS DSG,CHF 1,02.2020,"24,500 km",Petrol
+Skoda Octavia Octavia Combi 2.0 TDI DSG Ambition 4x4,CHF 1,04.2023,"15,000 km",Diesel
+Mercedes-Benz GLA 200 GLA 200 7G-DCT,"CHF 32,900",10.2020,"46,000 km",Petrol
+Audi A6 A6 Avant 3.0 TDI V6 quattro S-tronic,"CHF 9,990",06.2012,"212,000 km",Diesel
+Audi SQ6 SQ6 e-tron quattro,"CHF 98,990",10.2024,15 km,Electric
+KIA Sportage Sportage 1.6T-GDi MHEV Power Edition 4x4 7DCT,"CHF 39,900",03.2024,"14,500 km",Petrol/Electric
+Ds Automobiles DS3 DS 3 1.6 THP Sport Chic,"CHF 6,500",04.2014,"97,000 km",Petrol
+BMW I5 i5 eDrive40 M Sport,"CHF 59,950",04.2024,"4,500 km",Electric
+Citroen C3 Aircross C3 Aircross 1.2i PureTech Max EAT6,"CHF 18,800",06.2024,"5,800 km",Petrol
+Citroen C3 Aircross C3 Aircross 1.2i PureTech Max EAT6,"CHF 18,800",06.2024,"9,100 km",Petrol
+Hyundai Kona KONA 1.0 T-GDi Advanced 2WD DCT-Automat,"CHF 23,800",06.2024,"5,600 km",Petrol
+Peugeot 2008 2008 1.2 PureTech Allure,"CHF 22,500",06.2024,"2,800 km",Petrol
+Peugeot 508 508 SW 1.5 Blue HDi Allure Pack EAT8,"CHF 20,800",10.2022,"42,900 km",Diesel
+BMW M550 M550d xDrive Touring Steptronic,"CHF 49,900",08.2020,"73,600 km",Diesel
+Audi A5 A5 Sportback 3.0 TDI quattro S-tronic,"CHF 26,800",02.2015,"49,000 km",Diesel
+Fiat Punto Punto 1.2 Pop Star,"CHF 6,800",03.2016,"89,000 km",Petrol
+VW T-ROC T-Roc 2.0 TSI R-Line DSG 4Motion,"CHF 35,800",10.2023,"2,000 km",Petrol
+BMW 530 530e xDrive Steptronic,"CHF 37,900",11.2020,"36,100 km",Petrol/Electric
+Toyota Land Cruiser Land Cruiser 2.8TD Invincible Automat,"CHF 62,900",06.2021,"7,900 km",Diesel
+Renault Grand Scénic Grand Scénic 1.3 16V Turbo Zen,"CHF 15,900",05.2019,"51,500 km",Petrol
+VW Tiguan Tiguan 1.5TSI Evo Life DSG,"CHF 28,900",03.2023,"26,000 km",Petrol
+BMW X1 X1 xDrive 18d Steptronic,"CHF 18,900",01.2020,"147,900 km",Diesel
+Audi Q3 Q3 2.0 TFSI quattro S-tronic,"CHF 15,500",10.2012,"138,000 km",Petrol
+Opel Grandland X Grandland 1.2i TP Elegance Automatik,"CHF 29,900",06.2023,"34,000 km",Petrol
+BMW X6 X6 xDrive 40d Steptronic,"CHF 35,800",11.2016,"84,000 km",Diesel
+Suzuki Swift Swift 1.0 12V Compact Top Automatic,"CHF 14,900",11.2017,"36,000 km",Petrol
+Skoda Superb Superb Combi 2.0 TDi Ambition 4x4 DSG,"CHF 7,900",02.2011,"197,698 km",Diesel
+Renault Clio Clio 1.0 Intens,"CHF 12,800",06.2021,"61,000 km",Petrol
+Audi RS Q3 RS Q3 2.5 TFSI quattro S-tronic,"CHF 27,895",11.2015,"133,000 km",Petrol
+Land Rover Range Rover Sport Range Rover Sport 3.0 TDV6 HSE Automatic,"CHF 34,590",10.2017,"147,500 km",Diesel
+BMW M3 M3 Competition M xDrive,"CHF 86,900",11.2022,"44,552 km",Petrol
+BMW M440 M440d 48V xDrive Cabriolet Steptronic,"CHF 49,800",04.2022,"71,500 km",Diesel/Electric
+Lamborghini Aventador Aventador S LP740-4 Roadster E-Gear,"CHF 395,000",08.2019,"23,500 km",Petrol
+Audi SQ7 SQ7 TFSI quattro tiptronic,"CHF 98,895",08.2023,"6,200 km",Petrol
+Suzuki Ignis Ignis 1.2i Compact Top Hybrid 4x4,"CHF 20,900",04.2023,"1,000 km",Petrol/Electric
+Audi A1 A1 Sportback 30 TFSI S Line Attraction S-tronic,"CHF 29,900",01.2024,"8,000 km",Petrol
+Mercedes-Benz GLE 53 AMG GLE 53 AMG 4Matic+ 9G-Speedshift,"CHF 84,500",09.2021,"51,000 km",Petrol/Electric
+Volvo C70 C70 T5 Inscription Geartronic,"CHF 13,900",09.2013,"151,220 km",Petrol
+Volvo V90 V90 D3 Momentum Geartronic,"CHF 28,740",12.2018,"66,000 km",Diesel
+VW T-ROC T-Roc 2.0 TSI R DSG 4Motion,"CHF 36,500",08.2021,"37,000 km",Petrol
+Opel Corsa Corsa 1.4 TP Color Edition Automatic,"CHF 9,900",04.2015,"51,000 km",Petrol
+BMW M2 M2,"CHF 57,500",04.2017,"28,500 km",Petrol
+VW Tiguan Tiguan 1.5TSI Evo R-Line DSG,"CHF 36,500",09.2023,"18,000 km",Petrol
+Citroen C3 C3 Aircross 1.2i PureTech Feel EAT,"CHF 9,900",10.2018,"124,800 km",Petrol
+Peugeot 308 308 1.6 THP GTi,"CHF 21,900",02.2018,"57,000 km",Petrol
+VW Caddy Caddy 2.0 TDI 4Motion,"CHF 10,900",09.2013,"132,600 km",Diesel
+Ford Grand C-MAX Grand C-Max 1.0 SCTi Ambiente,"CHF 6,490",10.2013,"101,000 km",Petrol
+Dacia Duster Duster dCi 110 Prestige 4x2 EDC,"CHF 13,900",04.2018,"94,900 km",Diesel
+Citroen C1 C1 1.0 VTi Feel,"CHF 5,290",05.2016,"110,999 km",Petrol
+Maserati Levante Levante S 3.0V6 GranSport Automatica,"CHF 57,900",12.2018,"63,900 km",Petrol
+Mercedes-Benz EQA 350 EQA 350 4Matic,"CHF 48,000",06.2022,"25,000 km",Electric
+Hyundai i30 i30 Wagon 1.4 Comfort,"CHF 6,500",02.2012,"107,550 km",Petrol
+Audi S3 S3 Sportback 2.0 TFSI quattro,"CHF 37,800",04.2021,"70,650 km",Petrol
+Seat Ateca Ateca 1.5 TSI EVO DSG Move FR,"CHF 27,900",05.2023,"19,000 km",Petrol
+Audi A1 A1 Sportback 40 TFSI S Line S-tronic,"CHF 34,800",11.2023,"1,750 km",Petrol
+Nissan Leaf Leaf e+ Tekna (incl. battery),"CHF 24,940",12.2020,"20,000 km",Electric
+VW Tiguan Tiguan 2.0 TDI SCR Comfortline 4Motion DSG,"CHF 26,900",11.2018,"87,000 km",Diesel
+Mini Cabriolet Cooper S Brighton Cabriolet DKG,"CHF 24,900",01.2020,"55,680 km",Petrol
+Mercedes-Benz C 63 AMG C 63 S AMG Speedshift,"CHF 46,900",02.2016,"92,000 km",Petrol
+Ford Fiesta Fiesta 1.0 SCTi MHEV ST Line Automat,"CHF 21,900",05.2023,"32,340 km",Petrol/Electric
+Mercedes-Benz C 400 C 400 AMG Line 4Matic 7G-Tronic,"CHF 23,900",07.2016,"128,280 km",Petrol
+Toyota Yaris Yaris 1.5 VVT-i Hybrid GR-S e-CVT,"CHF 19,900",05.2021,"17,500 km",Petrol/Electric
+Ford Transit Custom Transit Custom 320 L1H1 A Titanium,"CHF 69,900",02.2024,"8,000 km",Diesel
+Ford Grand C-MAX Grand C-Max 1.6 SCTi Titanium,"CHF 6,900",06.2012,"203,000 km",Petrol
+Skoda Octavia Octavia Combi 2.0 TSI Soleil 4x4 DSG,"CHF 20,900",12.2019,"75,000 km",Petrol
+Volvo XC40 XC40 Recharge P8 Twin AWD Pure Electric Ultimate,"CHF 35,499",03.2023,"18,990 km",Electric
+Fiat 500 500 1.0 N3 MildHybrid Cult,"CHF 9,900",05.2021,"124,000 km",Petrol/Electric
+Audi Q3 Q3 2.0 TFSI quattro S-tronic,"CHF 19,900",06.2014,"36,000 km",Petrol
+Lamborghini Aventador Aventador LP770-4 SVJ Superveloce Coupé E-Gear,"CHF 595,000",04.2019,750 km,Petrol
+Mercedes-Benz V 300 V 300 d lang Avantgarde 4Matic 9G-Tronic,"CHF 58,500",07.2019,"98,000 km",Diesel
+Audi Q3 Q3 2.0 TFSI sport quattro S-tronic,"CHF 21,300",07.2015,"63,000 km",Petrol
+VW Polo Polo 2.0 TSI GTI United DSG,"CHF 28,900",09.2022,"12,000 km",Petrol
+Ford Puma Puma 1.0 SCTi ST-Line X Automat,"CHF 18,900",07.2021,"72,000 km",Petrol
+BMW X5 X5 xDrive 48V 40d Steptronic,"CHF 64,900",11.2020,"58,000 km",Diesel/Electric
+VW Touareg Touareg 3.0 TDI R-Line Tiptronic,"CHF 78,850",09.2023,"19,850 km",Diesel
+Renault Captur Captur 0.9 12V Intens,"CHF 14,400",11.2019,"35,000 km",Petrol
+Peugeot 2008 2008 1.2 PureTech Allurre EAT6,"CHF 13,600",01.2019,"64,900 km",Petrol
+Audi Q2 Q2 2.0 TFSI sport quattro S-tronic,"CHF 25,490",01.2018,"71,600 km",Petrol
+VW Tiguan Tiguan 2.0 TDI SCR Life 4Motion DSG,"CHF 29,900",08.2022,"33,500 km",Diesel
+Cupra Leon LEON ST 2.0 TSI Inicio DSG,"CHF 29,900",10.2023,"18,900 km",Petrol
+VW Polo Polo 1.2 TSI BMT Comfortline DSG,"CHF 12,500",03.2017,"85,120 km",Petrol
+Hyundai i30 i30 Wagon 1.5 T-GDi N Line 48V MH DCT,"CHF 37,800",07.2024,"3,800 km",Petrol/Electric
+Audi Q3 Q3 2.0 TFSI design quattro S-tronic,"CHF 26,900",11.2017,"34,912 km",Petrol
+Cupra Leon LEON ST 2.0 TSI Inicio DSG,"CHF 29,900",10.2023,"17,900 km",Petrol
+Land Rover Range Rover Velar Range Rover Velar R-Dynamic D 200 SE Automatic,"CHF 51,500",02.2023,"18,900 km",Diesel/Electric
+Mercedes-Benz C 220 C 220 d T AMG Line,"CHF 39,890",05.2022,"39,900 km",Diesel/Electric
+VW Touran Touran 1.5 TSI EVO Comfortline DSG,"CHF 39,400",12.2023,"25,500 km",Petrol
+Toyota Yaris Yaris 1.5 Premium e-CVT,"CHF 29,900",06.2024,"3,400 km",Petrol/Electric
+Audi S4 S4 Avant 3.0 TDI quattro tiptronic,"CHF 57,900",12.2022,"68,500 km",Diesel
+Audi SQ5 SQ5 TDI quattro tiptronic,"CHF 46,200",09.2019,"98,300 km",Diesel
+Hyundai IONIQ 5 Ioniq 5 77kWh Vertex 4WD,"CHF 49,500",02.2023,"20,800 km",Electric
+BMW X3 X3 xDrive 48V 30d Steptronic,"CHF 44,900",03.2021,"87,500 km",Diesel/Electric
+Hyundai Kona Kona 1.6 GDi HEV Origo DCT,"CHF 23,450",05.2021,"51,000 km",Petrol/Electric
+Hyundai Tucson Tucson 1.6 TGDI Vertex 4WD DCT,"CHF 27,700",04.2019,"72,500 km",Petrol
+Hyundai Kona Kona 1.6 GDi HEV N Line DCT,"CHF 39,800",04.2024,"5,700 km",Petrol/Electric
+Hyundai Santa Fe Santa Fe 2.2 CRDI Vertex 4WD Automatic,"CHF 37,700",07.2020,"67,900 km",Diesel
+Opel Insignia Insignia 1.6 Turbo Cosmo Automatic,"CHF 13,900",04.2016,"82,500 km",Petrol
+Hyundai Tucson Tucson 1.6 TGDI HEV Vertex 4WD,"CHF 35,500",07.2021,"70,100 km",Petrol/Electric
+Opel Agila Agila 1.0 Enjoy,"CHF 5,500",04.2010,"127,300 km",Petrol
+BMW 520 520d xDrive Steptronic,"CHF 28,000",04.2019,"86,700 km",Diesel
+Hyundai Santa Fe Santa Fe 2.2 CRDI Vertex 4WD Automatic,"CHF 44,500",09.2021,"31,900 km",Diesel
+Hyundai Kona Kona 1.6 T-GDi Iron Man Edition 4WD DCT,"CHF 24,500",06.2019,"65,000 km",Petrol
+Opel Crossland Crossland X 1.2i Excellence,"CHF 14,700",05.2019,"32,500 km",Petrol
+Hyundai Tucson Tucson 1.6 TGDI Vertex 4WD DCT,"CHF 25,750",11.2018,"56,000 km",Petrol
+Chevrolet Nubira Nubira 1.6 16V SE,"CHF 1,200",05.2009,"58,710 km",Petrol
+Suzuki SX4 S-Cross SX4 S-Cross 1.6 16V GL 4WD,"CHF 14,900",11.2014,"28,000 km",Petrol
+VW Sharan Sharan 1.9 TDI Highline 4Motion,"CHF 8,450",12.2008,"148,700 km",Diesel
+BMW X5 X5 xDrive45e Steptronic,"CHF 56,900",01.2020,"79,500 km",Petrol/Electric
+BMW X5 X5 xDrive 48V 40d M Sport Steptronic,"CHF 69,900",03.2022,"71,500 km",Diesel/Electric
+BMW 120 120d xDrive Steptronic Sport Line,"CHF 33,900",12.2023,"24,000 km",Diesel
+Hyundai IONIQ Ioniq 5 72kWh First Edition 4WD,"CHF 34,900",12.2021,"31,500 km",Electric
+BMW X3 X3 xDrive 20d Steptronic,"CHF 14,900",05.2016,"202,900 km",Diesel
+BMW X1 X1 xDrive 25e Steptronic,"CHF 31,900",09.2021,"54,300 km",Petrol/Electric
+BMW i3 i3 (120Ah),"CHF 20,900",07.2020,"22,500 km",Electric
+Cupra Formentor Formentor 2.0TSI VZ  DSG,CHF 1,06.2023,"16,900 km",Petrol
+Cupra Ateca ATECA SWISS FR 4DRIVE,CHF 1,01.2020,"65,299 km",Petrol
+Cupra Ateca Ateca 1.5 TSI EVO DSG Style,CHF 1,06.2023,"20,900 km",Petrol
+Cupra Ateca Ateca 2.0 TSI FR 4Drive DSG,CHF 1,02.2023,"18,900 km",Petrol
+Cupra Ateca ATECA 4DRIVE XCELLENCE STOPP - START,CHF 1,01.2017,"117,000 km",Diesel
+BMW X3 X3 xDrive M40i Steptronic,CHF 1,12.2018,"37,000 km",Petrol
+Audi Q3 Q3 Sportback 35 TFSI Attraction S-tronic,CHF 1,01.2023,"14,000 km",Petrol
+Audi Q3 Q3 45 TFSI S line quattro S-tronic,CHF 1,05.2019,"62,000 km",Petrol
+Audi Q2 Q2 40 TFSI Sport quattro S-tronic,CHF 1,12.2019,"105,000 km",Petrol
+Audi e-tron e-tron 50 Sportback Advanced quattro,CHF 1,07.2020,"50,500 km",Electric
+Audi e-tron e-tron 55 Advanced quattro,CHF 1,03.2019,"96,000 km",Electric
+Audi e-tron e-tron 55 Advanced quattro,CHF 1,12.2019,"50,100 km",Electric
+Audi e-tron e-tron 50 S Line quattro,CHF 1,11.2020,"56,800 km",Electric
+Audi e-tron e-tron 50 S Line quattro,CHF 1,03.2021,"42,000 km",Electric
+Audi e-tron e-tron 50 Advanced quattro,CHF 1,09.2020,"64,000 km",Electric
+Audi e-tron e-tron 50 Advanced quattro,CHF 1,12.2019,"59,900 km",Electric
+Audi A5 A5 Coupé 2.0 TFSI quattro S-tronic,CHF 1,05.2016,"53,800 km",Petrol
+Audi A3 A3 Sportback 1.4 TFSI Ambition S-tronic,CHF 1,04.2016,"58,100 km",Petrol
+BMW 520 520d xDrive 48V Touring Steptronic,"CHF 48,900",12.2023,"25,800 km",Diesel/Electric
+BMW X3 X3 M40i,"CHF 79,900",04.2024,"11,700 km",Petrol/Electric
+Mini Cooper SD Cooper S,"CHF 33,900",09.2023,"14,900 km",Petrol
+Tesla MODEL 3 Model 3 Long Range Dual Motor AWD,"CHF 29,900",09.2021,"45,500 km",Electric
+Hyundai Kona Kona EV Vertex,"CHF 32,500",03.2022,"29,300 km",Electric
+BMW 325 325i,"CHF 9,990",02.2003,"105,000 km",Petrol
+Renault Clio Clio 1.6 T RS 220 Trophy EDC,"CHF 16,000",08.2015,"94,000 km",Petrol
+Toyota Yaris Yaris 1.8 GRMN Limited Edition,"CHF 22,500",03.2018,"52,665 km",Petrol
+Ford Torino Torino,"CHF 29,690",04.1969,"9,800 km",Petrol
+Fiat 500 500 0.9 Twinair Turbo Riva,"CHF 13,500",04.2017,"86,000 km",Petrol
+Seat Alhambra Alhambra 2.0 TDI Hola FR 4Drive,"CHF 39,910",01.2021,"74,000 km",Diesel
+Seat Ibiza Ibiza 1.0 EcoTSI Reference,"CHF 14,900",12.2019,"36,400 km",Petrol
+Mercedes-Benz A 220 A 220 AMG Line 7G-DCT 4Matic,"CHF 28,800",11.2020,"64,500 km",Petrol
+Mercedes-Benz A 250 A 250 AMG Line 4Matic 7G-DCT,"CHF 11,900",11.2014,"186,000 km",Petrol
+BMW X5 X5 xDrive 40d Steptronic,"CHF 11,500",10.2011,"218,000 km",Diesel
+Land Rover Range Rover Velar Range Rover Velar R-Dynamic D 300 SE Automatic,"CHF 44,900",08.2019,"80,000 km",Diesel
+Audi S6 S6,"CHF 52,000",04.2021,"70,000 km",Diesel
+Audi S3 S3 quattro,"CHF 9,850",06.2002,"177,000 km",Petrol
+Audi A5 A5 Sportback 2.0 TDI Design S-tronic,"CHF 32,480",04.2019,"49,900 km",Diesel
+BMW X3 X3 xDrive 30e,"CHF 58,900",03.2023,"17,100 km",Petrol/Electric
+Opel Combo Combo Life XL 1.5 Innovation Automat,"CHF 17,900",06.2019,"95,500 km",Diesel
+VW Tiguan Tiguan 2.0TSI Sound 4Motion DSG,"CHF 23,890",03.2018,"95,000 km",Petrol
+BMW 320 320d xDrive 48V Touring Steptronic,"CHF 33,800",03.2023,"49,900 km",Diesel/Electric
+Audi A8 A8 55 TFSI quattro tiptronic,"CHF 41,900",01.2018,"148,818 km",Petrol/Electric
+VW T5 T5 2.0 TDI BMT 4Motion,"CHF 21,550",08.2011,"143,400 km",Diesel
+Mercedes-Benz EQC 400 EQC 400 4Matic EQ Star,"CHF 37,990",08.2021,"45,000 km",Electric
+Volvo XC60 XC60 T6 eAWD R-Design Geartronic,"CHF 39,900",10.2021,"75,550 km",Petrol/Electric
+Peugeot 3008 3008 1.5 BlueHDi Allure EAT,"CHF 17,900",08.2020,"97,600 km",Diesel
+BMW M135 M135i xDrive M Sport Pro Steptronic,"CHF 47,900",12.2022,"22,000 km",Petrol
+Mazda CX-5 CX-5 2.2 D HP Revolution AWD Automatic,"CHF 16,900",04.2017,"98,000 km",Diesel
+Mercedes-Benz E 300 E 300 e AMG Line 9G-Tronic,"CHF 44,800",03.2021,"77,400 km",Petrol/Electric
+Land Rover Defender Defender 90 2.2 TD4 Station Wagon Autobiography,"CHF 56,500",02.2016,"94,000 km",Diesel
+Cupra Formentor Formentor 2.0TSI 4Drive Inicio DSG,"CHF 36,400",02.2024,"25,500 km",Petrol
+Mercedes-Benz E 63 AMG AMG E 63 S T 4Matic+ Speedshift 9G-TCT,"CHF 78,980",06.2021,"55,000 km",Petrol
+Mercedes-Benz GLA 45 AMG GLA 45 S AMG 4Matic+ 8G-Speedshift DCT,"CHF 57,400",09.2020,"28,000 km",Petrol
+Mercedes-Benz GLC 63 AMG GLC Coupé 63 S AMG 4Matic+ 9G-Tronic,"CHF 49,900",12.2018,"131,500 km",Petrol
+BMW Z4 Z4 M40i Steptronic,"CHF 63,900",04.2023,"25,500 km",Petrol
+Audi RS6 RS6 Avant 4.0 TFSI V8 quattro,"CHF 89,900",02.2021,"66,000 km",Petrol/Electric
+BMW X3 X3 xDrive 48V 20d,"CHF 58,900",04.2024,"10,700 km",Diesel
+BMW X1 X1 xDrive 30e M Sport,"CHF 43,900",07.2023,"24,090 km",Petrol/Electric
+Mazda 2 2 SKYACTIV-G 90 Revolution Automat,"CHF 18,499",03.2021,"36,096 km",Petrol
+Fiat 500 500 0.9 Twinair Turbo S,"CHF 7,900",08.2014,"47,000 km",Petrol
+Morgan Plus 8 Plus 8 4.0,"CHF 69,800",07.2003,"55,000 km",Petrol
+Ford Focus Focus 1.5 TDCi Trend+ Automatic,"CHF 14,900",12.2019,"77,736 km",Diesel
+VW Touran Touran 1.6 FSI Trendline,"CHF 1,900",05.2006,"225,000 km",Petrol
+KIA Sorento Sorento 2.5 CRDI Carat,"CHF 4,800",02.2004,"245,879 km",Diesel
+Renault Scénic Scénic 1.6 dCi Bose Edition,"CHF 3,900",09.2013,"220,000 km",Diesel
+VW LT - Serie LT 35 2.8TDI,"CHF 2,900",05.1998,"222,998 km",Diesel
+BMW X3 X3 xDrive 20d Steptronic,"CHF 12,900",02.2013,"146,500 km",Diesel
+Mazda 2 2 1.3i 16V Exclusive,"CHF 1,800",08.2008,"191,400 km",Petrol
+Mercedes-Benz GLA 200 GLA 200d AMG Line 8G-DCT,"CHF 31,900",09.2020,"70,000 km",Diesel
+Ford Fiesta Fiesta 1.4 16V Trend,"CHF 1,850",05.2007,"165,871 km",Petrol
+Suzuki SX4 SX4 1.6 16V GL Top 4WD,"CHF 4,300",02.2011,"218,147 km",Petrol
+BMW X3 X3 xDrive 30d Steptronic,"CHF 6,400",09.2012,"220,000 km",Diesel
+KIA Sportage Sportage 1.6 T-GDi Power 2020 4WD Automat,"CHF 22,000",05.2020,"18,796 km",Petrol
+Mazda MX-5 MX-5 1.8i-16 Youngster,"CHF 5,900",10.2000,"132,500 km",Petrol
+Toyota Hi-ace Hiace D-4D 4WD Kombi,"CHF 5,999",08.2005,"234,000 km",Diesel
+Hyundai iX35 iX 35 2.0 Comfort 4WD,"CHF 6,999",06.2011,"118,938 km",Petrol
+Ford Kuga Kuga 1.5 SCTi Titanium 2WD,"CHF 14,500",06.2015,"54,500 km",Petrol
+Opel Crossland Crossland X 1.2i TP Enjoy,"CHF 9,900",12.2018,"58,000 km",Petrol
+Skoda Octavia Octavia Combi 2.0 TDI Ambition 4x4 DSG,"CHF 19,500",08.2019,"80,000 km",Diesel
+Opel Adam Adam 1.4 ecoFLEX SLAM,"CHF 6,900",08.2013,"110,000 km",Petrol
+Toyota Yaris Yaris 1.33 Linea Sol Premium,"CHF 4,999",06.2010,"156,000 km",Petrol
+Mercedes-Benz A 160 A 160 Leader Autotronic,"CHF 6,990",11.2012,"100,000 km",Petrol
+Mercedes-Benz GLE 43 AMG GLE 43 AMG 4Matic 9G-Tronic,"CHF 34,700",12.2017,"144,800 km",Petrol
+Ford S-Max S-Max 2.0 TDCi Titanium AWD PowerShift,"CHF 23,900",07.2016,"78,800 km",Diesel
+BMW X5 X5 xDrive 48V 40d M Sport Steptronic,"CHF 49,999",09.2020,"122,000 km",Diesel/Electric
+BMW X5 X5 xDrive 48V M60i M Sport Pro Steptronic,"CHF 104,800",05.2023,"5,100 km",Petrol/Electric
+Renault Austral Austral 1.3 MHEV 160 Techno Esprit Alpine A,"CHF 41,850",06.2024,"2,000 km",Petrol/Electric
+Mercedes-Benz GLC 300 GLC 300 e 4Matic 9G-Tronic,"CHF 72,900",12.2023,"11,000 km",Petrol/Electric
+Toyota Land Cruiser LandCr. 300 3.0 TD LX,"CHF 5,499",05.1999,"295,000 km",Diesel
+Subaru Impreza Impreza 2.0R,"CHF 2,900",12.2005,"201,000 km",Petrol
+Dacia Logan Logan 1.6,CHF 999,01.2012,"162,000 km",Petrol
+Toyota Yaris Verso Yaris Verso 1.3 Linea Luna,"CHF 1,499",10.2001,"154,000 km",Petrol
+Mercedes-Benz E 250 E 250 CDI BlueEfficiency Automatic,"CHF 4,490",07.2009,"349,600 km",Diesel
+Ford Fiesta Fiesta 1.4 16V Ambiente,"CHF 1,000",07.2008,"161,000 km",Petrol
+Peugeot 207 207 SW 1.6 HDI Outdoor,"CHF 3,400",01.2011,"180,000 km",Diesel
+BMW 520 520i,"CHF 9,999",07.2000,"93,800 km",Petrol
+Peugeot 5008 5008 1.6 16V T Sport Pack Automatic,"CHF 3,999",08.2011,"155,347 km",Petrol
+Hyundai i10 i10 1.2 Style,"CHF 1,000",02.2010,"163,000 km",Petrol
+Chevrolet Aveo Aveo 1.2 LS a/c,"CHF 3,500",05.2010,"185,800 km",Petrol
+Renault Scénic Scénic 1.6 dCi Bose,"CHF 4,300",09.2015,"212,000 km",Diesel
+VW Golf Golf 1.4 TSI GTE DSG,"CHF 19,500",02.2017,"57,000 km",Petrol
+VW e-Golf e-Golf,"CHF 19,000",12.2019,"74,900 km",Electric
+Volvo XC90 XC90 2.5T AWD,"CHF 2,900",03.2004,"222,270 km",Petrol
+Audi A6 Allroad A6 allroad 3.0 TDI V6 quattro S-tronic,"CHF 8,250",02.2013,"248,000 km",Diesel
+Opel Corsa Corsa 1.2 TP,"CHF 4,999",09.2016,"151,000 km",Petrol
+VW Polo Polo 1.6 16V Young&Fresh,"CHF 1,700",10.2008,"208,000 km",Petrol
+Ford Focus Focus 2.0 TDCi Titanium PowerShift,"CHF 1,800",08.2008,"231,200 km",Diesel
+BMW X1 X1 xDrive 25d Sport Line Steptronic,"CHF 12,999",05.2016,"215,000 km",Diesel
+Nissan Pulsar Pulsar 1.5 dCi visia,"CHF 4,500",03.2015,"243,000 km",Diesel
+Ssang Yong Tivoli Tivoli 1.6 eXDi Crystal 4WD Automatic,"CHF 8,900",12.2015,"73,500 km",Diesel
+Mercedes-Benz G 63 AMG G 63 AMG 4x4 Speedshift Plus G-Tronic,"CHF 198,000",02.2023,"11,900 km",Petrol
+Peugeot 207 207 CC 1.6 16V Turbo Sport,"CHF 3,999",04.2007,"145,000 km",Petrol
+Opel Mokka Mokka 1.4i 16V Turbo Enjoy 4WD,"CHF 6,800",03.2014,"78,450 km",Petrol
+Opel Movano Movano 2.5 CDTI 3.5t,"CHF 6,900",08.2006,"153,000 km",Diesel
+Opel Astra Astra 1.4i 16V Turbo Sport,"CHF 3,800",02.2015,"331,888 km",Petrol
+Hyundai i10 i10 1.0 Origo,"CHF 6,999",02.2017,"78,000 km",Petrol
+Mazda CX-5 CX-5 2.0 Ambition FWD,"CHF 14,900",12.2016,"56,391 km",Petrol
+Peugeot 208 208 1.2 VTI Active,"CHF 3,600",08.2014,"129,000 km",Petrol
+VW Polo Polo 1.4 16V Comfortline,"CHF 5,999",09.2009,"169,900 km",Petrol
+Audi Q3 Q3 Sportback 40 TDI Attraction quattro S-tronic,"CHF 32,900",08.2021,"82,000 km",Diesel
+Mercedes-Benz Sprinter Sprinter 316 CDI Lang Automat,"CHF 8,999",01.2009,"205,200 km",Diesel
+Renault Koleos Koleos 2.0 dCi Dynamique 4x4,"CHF 4,500",05.2012,"271,000 km",Diesel
+Renault Kangoo Kangoo 1.6 16V Expression Automatic,"CHF 6,999",04.2012,"172,000 km",Petrol
+Subaru XV XV 2.0 Swiss Plus AWD Lineartronic,"CHF 17,900",02.2018,"68,600 km",Petrol
+Opel Corsa Corsa 1.4 TP Enjoy,"CHF 3,900",03.2011,"138,000 km",Petrol
+Citroen C-Crosser C-Crosser 2.2 HDi VTR,"CHF 3,400",02.2009,"255,964 km",Diesel
+Mini Cooper Cooper,"CHF 5,500",04.2011,"159,000 km",Petrol
+Seat Ibiza Ibiza 1.4 TDI Ecomotive,"CHF 3,490",02.2010,"199,500 km",Diesel
+Chevrolet Aveo Aveo 1.2 LS a/c,"CHF 2,000",09.2008,"161,500 km",Petrol
+Mercedes-Benz GLC 300 GLC 300 AMG Line 4Matic 9G-Tronic,"CHF 41,900",12.2019,"70,400 km",Petrol/Electric
+Mercedes-Benz GLE 350 GLE 350 d 4Matic AMG Line 9G-Tronic,"CHF 61,900",06.2020,"38,100 km",Diesel
+Jeep Cherokee Cherokee 2.0TD Limited AWD 9ATX,"CHF 4,999",12.2014,"173,000 km",Diesel
+Ford Focus Focus 1.0 SCTi Sync Edition Automatic,"CHF 8,900",11.2015,"127,000 km",Petrol
+Audi S5 S5 Sportback 3.0 TFSI quattro S-tronic,"CHF 16,900",10.2010,"114,000 km",Petrol
+Renault Grand Scénic Grand Scénic 1.5 dCi Expression EDC,"CHF 2,500",12.2011,"105,000 km",Diesel
+Skoda Octavia Octavia Combi 2.0 TDI Clever DSG,"CHF 13,900",03.2019,"147,000 km",Diesel
+BMW X5 X5 xDrive 40d Steptronic,"CHF 25,900",05.2015,"149,000 km",Diesel
+Peugeot Partner Partner 1.6 e-HDI Urban Pack,"CHF 8,900",01.2013,"129,000 km",Diesel
+Peugeot 308 308 SW 1.5 BlueHDI Tech Edition EAT8,"CHF 6,500",05.2019,"170,000 km",Diesel
+Jaguar S-Type S-Type 4.2 V8 Executive,CHF 500,09.2003,"246,000 km",Petrol
+Mini Clubman Clubman Cooper S,"CHF 2,900",01.2010,"182,476 km",Petrol
+Fiat Bravo Bravo 1.4 16V Turbo Dynamic,"CHF 2,300",09.2013,"221,448 km",Petrol
+Opel Meriva Meriva 1.7 CDTi Enjoy Automatic,"CHF 6,700",03.2011,"79,100 km",Diesel
+Audi A3 A3 Sportback 1.8 Turbo FSI Attraction,"CHF 2,999",02.2008,"245,000 km",Petrol
+VW Passat Passat Variant 2.0T FSI Comfortline,"CHF 1,800",04.2006,"208,000 km",Petrol
+Mini Countryman Countryman John Cooper Works ALL4 Snowhill,"CHF 12,500",11.2015,"125,300 km",Petrol
+Skoda Kodiaq Kodiaq 2.0 TSI 4x4 Style,"CHF 39,990",12.2023,"11,300 km",Petrol
+Audi A3 A3 Sportback 1.4 e-tron Ambition S-tronic,"CHF 12,900",07.2015,"159,000 km",Petrol/Electric
+Audi S3 S3 2.0 TFSI quattro,"CHF 5,800",11.2008,"212,012 km",Petrol
+Ford Puma Puma 1.0 MHEV Titanium X Automat,"CHF 28,500",07.2024,"2,357 km",Petrol/Electric
+Audi A3 A3 Sportback 2.0 TDI Ambiente quattro S-tronic,"CHF 16,999",11.2015,"110,000 km",Diesel
+VW Polo Polo 1.2 TSI Highline DSG,"CHF 8,499",05.2012,"103,500 km",Petrol
+Jeep Compass Compass 1.4 Turbo Limited AWD 9ATX,"CHF 25,800",10.2020,"28,573 km",Petrol
+Tesla Model S Model S 85 Performance,"CHF 13,980",01.2015,"165,000 km",Electric
+Jeep Compass Compass 2.2 CRD Sport,"CHF 4,900",04.2013,"197,540 km",Diesel
+Peugeot 108 108 1.0 VTi  Active ETG,"CHF 8,200",11.2018,"37,400 km",Petrol
+Lamborghini Aventador Aventador S LP740-4 Coupé E-Gear,"CHF 369,500",06.2017,"14,520 km",Petrol
+Saab 9-3 9-3 2.0 BioPower Linear,"CHF 1,200",08.2008,"257,185 km",Bioethanol
+Mitsubishi Space Star Space Star 1.0 Pure,"CHF 6,900",09.2019,"34,000 km",Petrol
+Jeep Grand Cherokee Grand Cherokee 6.4 V8 HEMI SRT8 Automatic,"CHF 37,900",03.2017,"123,650 km",Petrol
+Alfa Romeo Giulia Giulia 2.0 Veloce Q4,"CHF 42,800",01.2023,"18,580 km",Petrol
+Volvo V40 V40 D2 Momentum,"CHF 11,800",06.2014,"113,000 km",Diesel
+Renault Mégane Mégane Coupé 1.6 16V Dynamique,"CHF 4,999",10.2009,"90,000 km",Petrol
+VW Sharan Sharan 2.0 TDI BMT Allstar 4Motion DSG,"CHF 26,700",08.2016,"98,000 km",Diesel
+Maserati Grecale Grecale  3.0 Trofeo Automatica,"CHF 102,900",12.2022,"26,500 km",Petrol
+Skoda Octavia Octavia 1.5 G-tec Style CNG,"CHF 8,600",02.2020,"192,000 km",Natural gas/petrol
+Mercedes-Benz A 45 AMG A 45 AMG 4Matic Speedshift 7G-DCT,"CHF 26,800",11.2015,"100,000 km",Petrol
+VW Polo Polo 1.2 TSI BMT Comfortline DSG,"CHF 8,800",05.2016,"100,000 km",Petrol
+BMW 420 420d Cabriolet Steptronic M Sport,"CHF 32,900",04.2020,"95,000 km",Diesel
+Seat Leon Leon 1.4 TSI FR,"CHF 12,750",11.2014,"124,800 km",Petrol
+Suzuki SX4 S-Cross SX4 S-Cross 1.6 TD Compact Top 4WD TCSS,"CHF 17,900",04.2017,"67,400 km",Diesel
+Volvo V60 V60 D5 AWD R-Design Geartronic,"CHF 15,800",12.2012,"124,400 km",Diesel
+Mitsubishi Outlander Outlander 2.2 DID Diamond 4WD Automatic,"CHF 22,900",01.2016,"58,000 km",Diesel
+Audi A1 A1 1.4 TFSI Ambition S-tronic,"CHF 10,900",01.2013,"98,000 km",Petrol
+VW Sharan Sharan 2.0 TDI BMT Trendline 4Motion,"CHF 11,540",11.2014,"173,000 km",Diesel
+Citroen C3 C3 1.2i Exclusive ETG5,"CHF 7,500",07.2014,"75,269 km",Petrol
+Mercedes-Benz Vito Vito 114 BlueTEC L 7G-Tronic Euro 6,"CHF 17,800",08.2018,"115,800 km",Diesel
+Fiat 500L 500L 0.9 Twinair turbo Lounge,"CHF 6,900",05.2014,"102,000 km",Petrol
+Seat Leon Leon ST 2.0 TDI CR Style DSG,"CHF 14,980",03.2019,"90,000 km",Diesel
+Skoda Octavia Octavia Combi 1.8 TSI Style 4x4 DSG,"CHF 15,900",01.2017,"113,000 km",Petrol
+Hyundai Kona Kona 1.6 GDi HEV Amplia DCT,"CHF 34,990",08.2024,300 km,Petrol/Electric
+Peugeot 2008 2008 1.2 PureTech Active,"CHF 6,280",12.2016,"111,000 km",Petrol
+VW Tiguan Tiguan 2.0 TDI SCR Comfortline 4Motion DSG,"CHF 16,900",07.2019,"192,000 km",Diesel
+Fiat 124 Spider 124 Spider 1.4 TB Abarth Automatic,"CHF 21,900",11.2016,"65,000 km",Petrol
+BMW M5 M5 Drivelogic,"CHF 46,900",02.2014,"114,500 km",Petrol
+Lotus Exige Exige S,"CHF 68,500",04.2014,"30,500 km",Petrol
+Skoda Octavia Octavia Combi 1.6 TDI Soleil 4x4,"CHF 9,999",09.2019,"165,000 km",Diesel
+Skoda Octavia Octavia 1.5 G-tec Style CNG,"CHF 12,300",02.2020,"87,000 km",Natural gas/petrol
+Skoda Octavia Octavia 1.5 G-tec Style CNG,"CHF 9,500",02.2020,"155,000 km",Natural gas/petrol
+Skoda Octavia Octavia 1.5 G-tec Style CNG,"CHF 8,980",02.2020,"175,000 km",Natural gas/petrol
+Skoda Octavia Octavia Combi 2.0 TDI Soleil 4x4 DSG,"CHF 14,990",01.2020,"164,000 km",Diesel
+Citroen Jumper Jumper 30 2.0 HDi 130 Attraction L1H1,"CHF 12,900",06.2017,"144,000 km",Diesel
+Mini One One,"CHF 9,900",08.2013,"87,000 km",Petrol
+BMW 318 318d 48V Touring Steptronic,"CHF 18,500",11.2020,"135,000 km",Diesel/Electric
+Alfa Romeo Giulia Giulia 2.0 Veloce Q4 AT8,"CHF 50,900",05.2024,"9,250 km",Petrol
+Peugeot 206 206+ 1.4 Trendy,"CHF 3,900",11.2010,"123,000 km",Petrol
+VW T6 T6 2.0 TDI Euro 6,"CHF 24,200",08.2019,"105,900 km",Diesel
+Ferrari Testarossa Testarossa,"CHF 145,000",07.1991,"39,990 km",Petrol
+VW Golf Golf 1.5 TSI EVO Edition 45 DSG,"CHF 19,700",11.2019,"107,500 km",Petrol
+VW Golf Golf 1.5 TSI EVO Highline DSG,"CHF 18,400",11.2018,"94,000 km",Petrol
+VW T6.1 T6.1 2.0 TDI,"CHF 26,300",10.2021,"89,000 km",Diesel
+VW Tiguan Tiguan Allspace 2.0 TDI SCR Highline 4Motion DSG,"CHF 24,800",10.2018,"137,000 km",Diesel
+VW Tiguan Tiguan 2.0TSI Highline 4Motion DSG,"CHF 31,300",07.2019,"93,000 km",Petrol
+VW Tiguan Tiguan 2.0TSI Highline 4Motion DSG,"CHF 26,300",07.2018,"57,000 km",Petrol
+VW Tiguan Tiguan 2.0 TDI SCR Highline 4Motion DSG,"CHF 22,200",01.2017,"105,000 km",Diesel
+VW T6.1 T6.1 2.0 TDI,"CHF 24,500",03.2020,"124,500 km",Diesel
+Peugeot 508 508 SW 2.0 BlueHDi GT EAT6,"CHF 13,200",11.2016,"98,260 km",Diesel
+Hyundai i20 i20 1.0 T-GDi GO,"CHF 13,000",07.2016,"29,476 km",Petrol
+VW Crafter Crafter 35 2.0 TDI L4,"CHF 31,700",09.2019,"91,500 km",Diesel
+VW T6 T6 2.0 TDI Euro 6,"CHF 28,299",03.2019,"69,500 km",Diesel
+Seat Ibiza Ibiza SC 1.4 TSI FR Viva,"CHF 6,490",10.2015,"132,000 km",Petrol
+Mercedes-Benz V 250 V 250 d Swiss Edition lang 4Matic 7G-Tronic,"CHF 39,900",06.2019,"174,000 km",Diesel
+Toyota Yaris Yaris 1.6 GR Sport,"CHF 32,900",10.2022,"4,599 km",Petrol
+VW Golf Golf 1800 Carat,"CHF 4,200",05.1986,"89,000 km",Petrol
+Jeep Grand Cherokee Grand Cherokee 3.6 V6 Limited Automatic,"CHF 29,000",10.2019,"39,211 km",Petrol
+BMW 135 135i Cabrio DSG,"CHF 9,500",05.2012,"202,000 km",Petrol
+VW  GOLF,"CHF 3,500",05.2004,"96,000 km",8630 (ZH)
+Fiat Punto Punto 1.2 MyStyle,"CHF 6,500",01.2017,"39,000 km",Petrol
+VW Fox Fox 1.2,"CHF 2,800",07.2010,"106,500 km",Petrol
+Alfa Romeo Stelvio Stelvio 2.0 Veloce Q4 Automatic,"CHF 32,900",10.2021,"76,900 km",Petrol
+VW Golf Golf 1.9 TDI PD Last Edition,"CHF 5,666",10.2004,"193,000 km",Diesel
+Mercedes-Benz CLA 45 AMG CLA 45 S AMG 4Matic+ 8G-DCT,"CHF 58,900",02.2021,"45,500 km",Petrol
+Opel Meriva Meriva 1.4 TP,"CHF 10,195",11.2011,"19,000 km",Petrol
+Peugeot 404 Pinifarina Injektion,"CHF 39,000",03.1965,"29,000 km",4103 (BL)
+Skoda Octavia Octavia Combi 1.8 TSI Elegance 4x4 DSG,"CHF 13,000",04.2014,"75,400 km",Petrol
+Jeep Compass Compass 2.0CRD Limited AWD 9ATX,"CHF 11,500",03.2018,"128,300 km",Diesel
+Audi A3 A3 Sportback 1.2 TFSI Ambition,"CHF 4,999",10.2013,"194,300 km",Petrol
+Mercedes-Benz E 220 E 220 CDI BlueEfficiency Elégance Automatic,"CHF 7,900",02.2010,"185,000 km",Diesel
+Audi Q3 Q3 40 TFSI S line quattro S-tronic,"CHF 34,800",08.2021,"9,670 km",Petrol
+Peugeot 308 308 SW 1.5 BlueHDI Allure Pack EAT8,"CHF 14,900",08.2021,"25,067 km",Diesel
+Ford Fiesta Fiesta 1.0 SCTi MHEV ST Line Automat,"CHF 19,800",08.2022,"18,000 km",Petrol/Electric
+Mercedes-Benz AMG-GT AMG GT 4 43 4Matic+ Speedshift TCT,"CHF 74,990",05.2019,"72,500 km",Petrol/Electric
+Citroen C3 C3 1.2i PureTech Feel,"CHF 9,850",08.2019,"48,250 km",Petrol
+BMW 430 430d Coupé xDrive Luxury Line Steptronic,"CHF 21,900",12.2014,"120,400 km",Diesel
+Mazda CX-30 CX-30 SKYACTIV-X 186 M Hybrid AWD Revolution Autom,"CHF 29,800",09.2021,"16,200 km",Petrol/Electric
+Suzuki Baleno Baleno 1.6 16V GLX 4WD,CHF 500,03.1999,"198,000 km",Petrol
+Skoda Superb Superb 2.0 TDi Ambition DSG,"CHF 6,900",08.2013,"158,000 km",Diesel
+Mercedes-Benz GLK 250 GLK 250 BlueTEC 4Matic 7G-Tronic,"CHF 19,800",07.2014,"145,900 km",Diesel
+Audi S4 S4 Avant 3.0 TFSI quattro S-tronic,"CHF 14,900",05.2012,"185,000 km",Petrol
+Renault Koleos Koleos 2.0 dCi Initiale Paris 4WD Xtronic CVT,"CHF 27,900",03.2022,"55,000 km",Diesel
+Mercedes-Benz V 250 V 250 d lang Avantgarde 4Matic G-Tronic,"CHF 63,700",06.2023,"54,000 km",Diesel
+Fiat Ducato Ducato 17 3.0 MJ,"CHF 17,900",01.2013,"90,000 km",Diesel
+Hyundai Santa Fe Santa Fe 2.2 CRDI Premium 4WD,"CHF 8,499",02.2014,"184,000 km",Diesel
+Renault Clio Clio 1.2 16V T Intens,"CHF 8,900",04.2018,"120,000 km",Petrol
+Mercedes-Benz Sprinter Sprinter 314 CDI Standard FWD,"CHF 26,500",09.2019,"91,500 km",Diesel
+Alfa Romeo Giulia Giulia 2.2 JTDM Super,"CHF 12,800",01.2017,"175,000 km",Diesel
+Opel Corsa Corsa 1.2 TP Elegance,"CHF 16,300",07.2021,"39,200 km",Petrol
+VW Caddy Caddy 1.4 TGI Comfort DSG,"CHF 17,900",01.2019,"93,331 km",Natural gas/petrol
+Mercedes-Benz CLA 45 AMG CLA Shooting Brake 45 AMG 4Matic Speedshift,"CHF 33,500",01.2019,"95,000 km",Petrol
+Mercedes-Benz CLA 35 AMG CLA Shooting Brake 35 AMG 4Matic 8G-DCT,"CHF 47,900",06.2023,"15,000 km",Petrol
+Seat Leon Leon ST 1.5 eTSI mHEV DSG FR,"CHF 30,900",12.2023,"6,000 km",Petrol/Electric
+RENAULT TRUCKS Maxity Maxity 130.45 Eco,"CHF 8,400",01.2013,"187,490 km",Diesel
+VW Passat Passat Variant 2.0 TDI BMT Comfortline DSG,"CHF 5,900",08.2012,"268,076 km",Diesel
+BMW 525 525d xDrive Touring Steptronic,"CHF 7,980",02.2013,"216,000 km",Diesel
+VW Amarok Amarok 2.0 BiTDI Black Edition 4Motion permanent A,"CHF 33,000",08.2016,"55,000 km",Diesel
+Audi A6 A6 Avant 45 TFSI Sport S-tronic,"CHF 27,890",07.2019,"99,990 km",Petrol/Electric
+KIA Picanto Picanto 1.2 CVVT Swiss Champion,"CHF 8,200",09.2016,"96,300 km",Petrol
+Audi RS Q3 RS Q3 Sportback quattro S tronic,"CHF 65,500",07.2023,"11,150 km",Petrol
+Porsche Carrera S 911 Cabrio Carrera S,"CHF 47,900",07.2005,"72,500 km",Petrol
+BMW M550 M550d xDrive Steptronic,"CHF 61,900",03.2021,"33,500 km",Diesel
+Suzuki Ignis Ignis 1.2i Generation Top Hybrid,"CHF 16,990",10.2021,"13,500 km",Petrol/Electric
+Mercedes-Benz A 35 AMG A 35 AMG 4Matic Speedshift,"CHF 35,900",03.2021,"24,000 km",Petrol
+Seat Arona Arona 1.0 TGI CNG Style,"CHF 11,900",04.2019,"68,999 km",Natural gas/petrol
+Fiat 695 Abarth 695 1.4 16V Turbo Abarth Turismo,"CHF 29,890",05.2023,"4,200 km",Petrol
+Honda HR-V HR-V 1.5i-VTEC Elegance CVT,"CHF 20,550",03.2021,"62,700 km",Petrol
+Skoda Rapid Rapid Spaceback 1.4 TSI Monte Carlo DSG,"CHF 12,500",06.2016,"120,000 km",Petrol
+Renault Austral Austral 1.2 HEV 200 Techno Esprit Alpine A,"CHF 33,500",01.2023,"39,000 km",Petrol/Electric
+Mercedes-Benz V 220 V 220 d Trend lang 4Matic 9G-Tronic,"CHF 27,500",08.2019,"257,000 km",Diesel
+Ford Transit Connect Transit Connect Van T210 1.0 EcoBoost Trend,"CHF 17,800",01.2021,"19,850 km",Petrol
+KIA Sportage Sportage 1.6 T-GDi Style GT Line 4WD Automat,"CHF 25,490",08.2019,"35,450 km",Petrol
+VW Touareg Touareg 4.2 TDI Tiptronic,"CHF 25,850",03.2015,"173,000 km",Diesel
+Audi S1 S1 Sportback 2.0 TFSI quattro,"CHF 13,500",03.2015,"202,000 km",Petrol
+Land Rover Range Rover Evoque Range Rover Evoque D 180 S  AT9,"CHF 32,500",06.2020,"59,000 km",Diesel/Electric
+Mercedes-Benz C 250 C 250 AMG Line 7G-Tronic,"CHF 25,800",07.2015,"43,000 km",Petrol
+Lexus LS LS 430 Automatic,"CHF 22,900",08.2005,"85,900 km",Petrol
+Audi SQ5 SQ5 3.0 TDI quattro tiptronic,"CHF 27,700",06.2016,"162,000 km",Diesel
+Seat Leon Leon 1.4 TSI FR,"CHF 7,900",03.2014,"172,700 km",Petrol
+VW Tiguan Tiguan 2.0 TSI R-Line Design 4Motion DSG,"CHF 14,800",07.2013,"94,300 km",Petrol
