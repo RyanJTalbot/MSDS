@@ -195,14 +195,14 @@ https://www.coursera.org/degrees/master-of-science-data-science-boulder/academic
 
 [ ] Machine Learning: Theory and Hands-on Practice with Python
 
-- Introduction to Machine Learning: Supervised Learning
+- [x] Introduction to Machine Learning: Supervised Learning
 - Unsupervised Algorithms in Machine Learning
 - Introduction to Deep Learning
 
-[X] Statistical Modeling for Data Science Applications
+[ ] Statistical Modeling for Data Science Applications
 
 - [x] Modern Regression Analysis in R
-- ANOVA and Experimental Design
+- [x] ANOVA and Experimental Design
 - Generalized Linear Models and Nonparametric Regression
 
 [x] Data Mining Foundations and Practice
@@ -235,9 +235,9 @@ https://www.coursera.org/degrees/master-of-science-data-science-boulder/academic
 - Modeling Climate Anomalies with Statistical Analysis
 - Predicting Extreme Climate Behavior with Machine Learning
 
-[ X ] Introduction to High-Performance and Parallel Computing
+[ ] Introduction to High-Performance and Parallel Computing
 
-- [x] Introduction to High-Performance and Parallel Computing
+- [ ] Introduction to High-Performance and Parallel Computing
 
 [ X ] Introduction to Generative AI
 
@@ -260,4 +260,5 @@ https://www.coursera.org/degrees/master-of-science-data-science-boulder/academic
 - Unsupervised Text Classification for Marketing Analytics
 
 [ X ] Databases
+
 - [x] The Structured Query Language (SQL) - 25 hours
