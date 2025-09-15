@@ -1,0 +1,10 @@
+"name","unit_cost","qmin","qmax"
+"Roasted Chicken", 0.84, 0, 10
+"Spaghetti W/ Sauce", 0.78, 0, 10
+"Tomato,Red,Ripe,Raw", 0.27, 0, 10
+"Apple,Raw,W/Skin", .24, 0, 10
+"Grapes", 0.32, 0, 10
+"Chocolate Chip Cookies", 0.03, 0, 10
+"Lowfat Milk", 0.23, 0, 10
+"Raisin Brn", 0.34, 0, 10
+"Hotdog", 0.31, 0, 10
