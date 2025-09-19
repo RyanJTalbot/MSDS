@@ -199,11 +199,11 @@ https://www.coursera.org/degrees/master-of-science-data-science-boulder/academic
 - Unsupervised Algorithms in Machine Learning
 - Introduction to Deep Learning
 
-[ ] Statistical Modeling for Data Science Applications
+[x] Statistical Modeling for Data Science Applications
 
 - [x] Modern Regression Analysis in R
 - [x] ANOVA and Experimental Design
-- Generalized Linear Models and Nonparametric Regression
+- [x] Generalized Linear Models and Nonparametric Regression
 
 [x] Data Mining Foundations and Practice
 
@@ -213,15 +213,38 @@ https://www.coursera.org/degrees/master-of-science-data-science-boulder/academic
 
 ##### Electives:
 
+[x] Databases
+
+- [x] The Structured Query Language (SQL) - 25 hours
+
+[x] Project Management
+
+- [x] Foundations and Initiation 
+- [x] Project Planning and Execution 
+- [x] Agile Project Management 
+
+[x] Deep Learning Applications for Computer Vision
+
+- [x] Deep Learning Applications for Computer Vision
+
+[x] Introduction to High-Performance and Parallel Computing
+
+- [x] Introduction to High-Performance and Parallel Computing
+
+[ ] Data Structures and Algorithms Specialization
+
+- [x] Approximation Algorithms and Linear Programming
+- Advanced Data Sctructures RSA and Quantum Algorithms
+
+[x] Introduction to Generative AI
+
+- [x] Introduction to Generative AI
+
 [ ] Data Science Methods for Quality Improvement
 
 - Managing, Describing, and Analyzing Data
 - Stability and Capability in Quality Improvement
 - Measurement Systems Analysis
-
-[ ] Deep Learning Applications for Computer Vision
-
-- Deep Learning Applications for Computer Vision
 
 [ ] Finance for Technical Managers Specialization
 
@@ -234,14 +257,6 @@ https://www.coursera.org/degrees/master-of-science-data-science-boulder/academic
 - Global Climate Change Policies and Analysis
 - Modeling Climate Anomalies with Statistical Analysis
 - Predicting Extreme Climate Behavior with Machine Learning
-
-[ ] Introduction to High-Performance and Parallel Computing
-
-- [ ] Introduction to High-Performance and Parallel Computing
-
-[ X ] Introduction to Generative AI
-
-- [x] Introduction to Generative AI
 
 [ ] Internet Policy
 
@@ -258,7 +273,3 @@ https://www.coursera.org/degrees/master-of-science-data-science-boulder/academic
 - Network Analysis for Marketing Analytics
 - Supervised Text Classification for Marketing Analytics
 - Unsupervised Text Classification for Marketing Analytics
-
-[ X ] Databases
-
-- [x] The Structured Query Language (SQL) - 25 hours
