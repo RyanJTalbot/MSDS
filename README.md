@@ -193,11 +193,11 @@ https://www.coursera.org/degrees/master-of-science-data-science-boulder/academic
 - [x] The Structured Query Language (SQL)
 - [x] Advanced Topics and Future Trends in Database Technologies
 
-[ ] Machine Learning: Theory and Hands-on Practice with Python
+[x] Machine Learning: Theory and Hands-on Practice with Python
 
 - [x] Introduction to Machine Learning: Supervised Learning
-- Unsupervised Algorithms in Machine Learning
-- Introduction to Deep Learning
+- [x] Unsupervised Algorithms in Machine Learning
+- [x] Introduction to Deep Learning
 
 [x] Statistical Modeling for Data Science Applications
 
@@ -231,10 +231,10 @@ https://www.coursera.org/degrees/master-of-science-data-science-boulder/academic
 
 - [x] Introduction to High-Performance and Parallel Computing
 
-[ ] Data Structures and Algorithms Specialization
+[x] Data Structures and Algorithms Specialization
 
 - [x] Approximation Algorithms and Linear Programming
-- Advanced Data Sctructures RSA and Quantum Algorithms
+- [x] Advanced Data Sctructures RSA and Quantum Algorithms
 
 [x] Introduction to Generative AI
 
