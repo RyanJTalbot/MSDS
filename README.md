@@ -162,9 +162,9 @@ https://www.coursera.org/degrees/master-of-science-data-science-boulder/academic
 
 [ ] Expressway to Data Science: R Programming and Tidyverse
 
-- Introduction to R Programming and Tidyverse
-- Data Analysis with Tidyverse
-- R Programming and Tidyverse Capstone Project
+- [ ] Introduction to R Programming and Tidyverse
+- [ ] Data Analysis with Tidyverse
+- [ ] R Programming and Tidyverse Capstone Project
 
 ##### Core:
 
@@ -219,9 +219,9 @@ https://www.coursera.org/degrees/master-of-science-data-science-boulder/academic
 
 [x] Project Management
 
-- [x] Foundations and Initiation 
-- [x] Project Planning and Execution 
-- [x] Agile Project Management 
+- [x] Foundations and Initiation
+- [x] Project Planning and Execution
+- [x] Agile Project Management
 
 [x] Deep Learning Applications for Computer Vision
 
